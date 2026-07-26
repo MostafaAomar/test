@@ -1,0 +1,921 @@
+{
+  "subject":  "   تاريخ الادب سنة ثانية ",
+  "lang": "en",
+  "questions": [ 
+  {
+    "q": "The original meaning of the term 'Welsh' in Old English is:",
+    "options": ["Native Britons", "Foreigner", "Roman citizen"],
+    "correct": 1,
+    "feedback": "وفقاً للأوراق الذهبية، فإن كلمة 'Welsh' في الإنجليزية القديمة تعني الأجانب أو الغرباء (foreigners) [1]."
+  },
+  {
+    "q": "The Anglo-Saxons were descendants of:",
+    "options": ["The Romans", "The Germans", "The Vikings"],
+    "correct": 1,
+    "feedback": "الأنجلو ساكسون هم قبائل جرمانية (Germans) هاجرت من غرب أوروبا لتستقر في بريطانيا [2]."
+  },
+  {
+    "q": "Much of which Old English literary genre were the authors unknown?",
+    "options": ["prose", "verse", "drama"],
+    "correct": 1,
+    "feedback": "كان الشعر (verse) في العصور القديمة مجهول المؤلف غالباً لأنه كان يُنقل ويُغنى شفهياً من شخص لآخر [8، 9]."
+  },
+  {
+    "q": "Beowulf was an Old English epic poem brought to Britain by:",
+    "options": ["The Romans", "The Anglo-Saxons", "The Normans"],
+    "correct": 1,
+    "feedback": "نشأت ملحمة بيوولف في غرب أوروبا وجلبها الأنجلو ساكسون معهم إلى إنجلترا في القرن الثامن [3]."
+  },
+  {
+    "q": "What genre were biographies and letters recorded by the monastery scribes?",
+    "options": ["Verse", "Drama", "Prose"],
+    "correct": 2,
+    "feedback": "كان النثر (prose) يُستخدم في الماضي لتوثيق التاريخ والمراسلات، مثل الوثائق الدينية والرسائل والسير الذاتية [4]."
+  },
+  {
+    "q": "Which of the following religious works from the 1200s was a translation of religious stories in verse?",
+    "options": ["Ormulum", "Handlyng Synne", "Ancrene Riwle"],
+    "correct": 0,
+    "feedback": "كتاب 'Ormulum' هو ترجمة لمواعظ دينية من اللاتينية إلى الإنجليزية الوسطى، وقد كُتب شعراً (verse) [5]."
+  },
+  {
+    "q": "The poem Sir Gawayn and the Green Knight is:",
+    "options": ["a religious epic", "a chivalric story", "a travel diary"],
+    "correct": 1,
+    "feedback": "تعتبر هذه القصيدة قصة فروسية (chivalric story) تدور حول أحد فرسان المائدة المستديرة للملك آرثر واختبار صفاته الحميدة [6]."
+  },
+  {
+    "q": "The Travels of Sir John Mandeville was originally written in:",
+    "options": ["Latin", "French", "Hebrew"],
+    "correct": 1,
+    "feedback": "كُتب هذا الكتاب بثلاث لغات (اللاتينية والفرنسية والإنجليزية الوسطى)، ولكن النسخة الأصلية تُنسب غالباً للفرنسية [6]."
+  },
+  {
+    "q": "While written in Middle English, The Visions of Pierce Plowman still has the Old English influence of:",
+    "options": ["rhyming couplets", "secular stories", "head rhyme"],
+    "correct": 2,
+    "feedback": "على الرغم من كتابتها بالإنجليزية الوسطى، إلا أنها استخدمت الجناس الاستهلالي (head-rhyme) الذي ميز الشعر في الإنجليزية القديمة [7]."
+  },
+  {
+    "q": "The anonymous poem Pearl in the 1300s was an elegy where a man mourns the death of his:",
+    "options": ["daughter", "wife", "lover"],
+    "correct": 0,
+    "feedback": "قصيدة 'Pearl' هي رثاء طويل يتحدث فيه رجل فقد ابنته (daughter) ويراها في أحلامه [8]."
+  },
+  {
+    "q": "The first official Latin/English translation of the entire bible in the 14th century was by:",
+    "options": ["William Tyndale", "John Wyclif", "Miles Coverdale"],
+    "correct": 1,
+    "feedback": "جون ويكليف (John Wyclif) هو من قام بترجمة الكتاب المقدس إلى الإنجليزية في عام 1380 [9]."
+  },
+  {
+    "q": "Who translated the bible from the original Hebrew script?",
+    "options": ["William Tyndale", "John Wyclif", "Miles Coverdale"],
+    "correct": 2,
+    "feedback": "قام مايلز كوفرديل (Miles Coverdale) بترجمة العهد القديم من اللغة العبرية (Hebrew) إلى الإنجليزية [10]."
+  },
+  {
+    "q": "The King James Version of the Old Testament retained the rhythm and flow of which language?",
+    "options": ["Latin", "Greek", "Hebrew"],
+    "correct": 2,
+    "feedback": "بما أن العهد القديم كُتب أصلاً بالعبرية، فقد حافظت نسخة الملك جيمس على إيقاع وتدفق اللغة العبرية (Hebrew) [36، 41]."
+  },
+  {
+    "q": "Who translated the bible into Latin in 405 AD?",
+    "options": ["John Wyclif", "John Purvey", "St. Jerome"],
+    "correct": 2,
+    "feedback": "كُلف القديس جيروم (St. Jerome) من قبل البابا لترجمة الكتاب المقدس إلى اللاتينية عام 405 م [11]."
+  },
+  {
+    "q": "The primary purpose of drama in primitive agricultural societies was:",
+    "options": ["To enact heroic stories", "To pray for fertility", "To perform executions"],
+    "correct": 1,
+    "feedback": "كان التمثيل في المجتمعات الزراعية القديمة طقساً دينياً للصلاة من أجل الخصوبة (fertility) واستدعاء المطر [12]."
+  },
+  {
+    "q": "Who would drive a goat out into the desert loaded with people's sins?",
+    "options": ["Pagan Greeks", "Old Hebrews", "Anglo-Saxons"],
+    "correct": 1,
+    "feedback": "استخدم العبرانيون القدماء (Old Hebrews) الماعز كحامل للذنوب (scapegoat) لغسل خطايا الشعب في الصحراء [13]."
+  },
+  {
+    "q": "What aspect of Seneca's plays were later appealing to Elizabethan dramatists in Britain?",
+    "options": ["religious themes", "social satire", "bloodthirstiness"],
+    "correct": 2,
+    "feedback": "تميزت مسرحيات سينيكا بالعنف الشديد والدموية (bloodthirstiness) والخطابات الطويلة، وهو ما استلهمه الكتاب الإليزابيثيون [14]."
+  },
+  {
+    "q": "The name of the 9th-century drama where priests acted out the scene at Christ's empty tomb was:",
+    "options": ["The Wakefield cycle", "Quem quaeritis", "Everyman"],
+    "correct": 1,
+    "feedback": "مسرحية 'Quem Quaeritis' (بمن تبحثون؟) كانت تُؤدى من قبل الكهنة داخل الكنيسة لتمثيل مشهد القبر الفارغ [15]."
+  },
+  {
+    "q": "Thomas Kyd's The Spanish Tragedy (1587) is described as a prototype for Shakespeare's:",
+    "options": ["King Lear", "Macbeth", "Hamlet"],
+    "correct": 2,
+    "feedback": "تُعتبر مسرحية 'المأساة الإسبانية' النموذج الأولي لمسرحية 'هاملت' (Hamlet) لشكسبير [16]."
+  },
+  {
+    "q": "What did Thomas Newton translate into English in 1581?",
+    "options": ["Seneca's ten Tragedies", "Aristotle's elements of drama", "Greek tragedies"],
+    "correct": 0,
+    "feedback": "قام توماس نيوتن بترجمة مآسي سينيكا العشر (Seneca's ten Tragedies) إلى الإنجليزية عام 1581 [17]."
+  },
+  {
+    "q": "Geoffrey Chaucer's The Canterbury Tales is structured as a collection of stories told by:",
+    "options": ["Oxford scholars", "An adventure traveller", "A group of pilgrims"],
+    "correct": 2,
+    "feedback": "تتكون حكايات كانتربري من قصص يرويها مجموعة من الحجاج (pilgrims) الذين اجتمعوا في نزل 'تابارد' [32، 33]."
+  },
+  {
+    "q": "How many stories were there in The Canterbury Tales?",
+    "options": ["21", "24", "12"],
+    "correct": 1,
+    "feedback": "على الرغم من أن خطة تشوسر كانت تقتضي كتابة 120 قصة، إلا أنه لم يكمل سوى 24 قصة قبل وفاته [18]."
+  },
+  {
+    "q": "The simple plowman in William Langland's The Visions of Pierce Plowman transformed into:",
+    "options": ["a Demi-god", "a prophet-like reformer of faith", "a powerful king"],
+    "correct": 1,
+    "feedback": "يُقدم الكتاب شخصية الفلاح 'بيرس' في حالة تشبه النبي المصلح للإيمان والمنتقد لفساد الكنيسة [7]."
+  },
+  {
+    "q": "The first written version of Beowulf was in the:",
+    "options": ["8th century", "11th century", "9th century"],
+    "correct": 1,
+    "feedback": "سُجلت المخطوطة الرسمية والوحيدة لملحمة بيوولف في القرن الحادي عشر (11th century) [3]."
+  },
+  {
+    "q": "Beowulf was a poem consisting of approximately:",
+    "options": ["3000 lines", "2000 lines", "5000 lines"],
+    "correct": 0,
+    "feedback": "ملحمة بيوولف هي قصيدة طويلة تتكون من حوالي 3000 سطر [4]."
+  },
+  {
+    "q": "Handlyng Synne was a poem about the seven deadly sins in Christianity.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ كتاب 'Handlyng Synne' (معالجة الخطيئة) يتناول الخطايا السبع المميتة في الدين المسيحي [19]."
+  },
+  {
+    "q": "Chaucer was the first English poet to use the sonnet form in his writings.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ تشوسر لم يستخدم السونيت، بل اشتهر باختراع البحر الخماسي الياقوتي (iambic pentameter). السونيت دخلت الأدب الإنجليزي لاحقاً [20]."
+  },
+  {
+    "q": "Head rhyme means using word endings in English words (eg. Shape becomes Shaper).",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ الجناس الاستهلالي (head-rhyme) يعني عدم وجود قافية في نهاية الأسطر والاعتماد على تكرار الحروف في بدايات الكلمات [6]."
+  },
+  {
+    "q": "The Anglo-Saxons settled in Britain before the Romans.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ الرومان هم أول من غزا بريطانيا في القرن الأول، بينما جاء الأنجلو ساكسون في القرن الخامس بعد سقوط روما [6، 7]."
+  },
+  {
+    "q": "The Romans ruled in Britain for nearly 400 years.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ استمر الغزو والحكم الروماني لبريطانيا لمدة 400 عام تقريباً (من 43 م إلى 410 م) [21]."
+  },
+  {
+    "q": "The poem Beowulf, as recorded by monastery scribes, reflects an entirely pagan civilization.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ على الرغم من أصولها الوثنية، إلا أن تدوينها من قبل الرهبان أضاف إليها عناصر مسيحية، فهي لا تعكس حضارة وثنية بالكامل [9، 10]."
+  },
+  {
+    "q": "The prose book The Travels of Sir John Mandeville in the 1300s was classified as a religious work.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ يُصنف الكتاب ضمن كتب الرحلات (Travel Books) والأعمال غير الدينية [26، 28]."
+  },
+  {
+    "q": "William Tyndale travelled to Germany to work on his bible translation to avoid the Church's ban.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ هرب تيندال إلى ألمانيا وطبع ترجمته هناك في مدينة 'فورمس' لتجنب ملاحقة السلطات الكنسية في إنجلترا [10]."
+  },
+  {
+    "q": "The King James translation of the bible is still in use today.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ لا تزال نسخة الملك جيمس (1611) تُستخدم حتى الآن ككتاب مقدس باللغة الإنجليزية [22]."
+  },
+  {
+    "q": "The Greek term 'tragos' is identified as the origin of the word tragedy.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ كلمة 'تراجيديا' مشتقة من الكلمة اليونانية 'tragos' التي تعني 'ماعز' (goat) [13]."
+  },
+  {
+    "q": "Mystery plays in the 16th century were performed by priests inside the church.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ المسرحيات الغامضة (Mystery plays) كانت تؤديها النقابات المهنية خارج الكنيسة، أما التي كان يؤديها الكهنة في الداخل فهي المسرحيات الليتورجية [55، 57]."
+  },
+  {
+    "q": "Everyman 1595 was a mystery play.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ مسرحية 'Everyman' هي أشهر مثال لمسرحيات الأخلاق (Morality play) وليست مسرحية غامضة [23]."
+  },
+  {
+    "q": "King Alfred the Great in the 9th century ordered the writing of Domesday Book.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ الملك ويليام الفاتح هو من أمر بتأليف كتاب 'Domesday Book' في عام 1086، بينما الملك ألفريد اشتهر بـ 'The Anglo-Saxon Chronicle' [12، 15]."
+  },
+  {
+    "q": "The Domesday Book was a recorded manuscript of a survey of British land.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ كان الكتاب عبارة عن جرد (inventory) دقيق لجميع أملاك وممتلكات الملك ويليام الفاتح في إنجلترا [15، 23]."
+  },
+  {
+    "q": "The Venerable Bede was a Norman Monk of the 7th century.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ القديس بيدي (Bede) كان مؤرِخاً وراهباً أنجلو ساكسونياً (Anglo-Saxon) في القرن الثامن، وليس نورماندياً [24]."
+  },
+ {
+    "q": "\"Caroline Age\" refers to the reign of",
+    "options": [
+      "James I",
+      "Charles I",
+      "Cromwell",
+      "Charles II"
+    ],
+    "correct": 1,
+    "feedback": "تُشير الأوراق الذهبية والمصادر التاريخية إلى أن العصر الكاروليني (Caroline Age) يعود لفترة حكم الملك تشارلز الأول (Charles I)، حيث أن كلمة 'Caroline' هي الصفة اللاتينية للاسم 'Charles'."
+  },
+  {
+    "q": "Mystery plays were presented in strict chronological order.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "وفقاً للمصدر [1, 2]، كانت المسرحيات الغامضة (Mystery plays) تُقدم في دورات (cycles) تغطي القصة المسيحية كاملة من الخلق (Creation) إلى يوم الحساب (Doomsday)، مما يعني أنها تتبع ترتيباً زمنياً."
+  },
+  {
+    "q": "is an example of the morality tradition.",
+    "options": [
+      "Everyman",
+      "Piers Plowman",
+      "both a & b",
+      "Gorboduc"
+    ],
+    "correct": 0,
+    "feedback": "تنص الأوراق الذهبية [3] صراحةً على أن مسرحية 'Everyman' هي أشهر مثال لمسرحيات الأخلاق (Morality plays)."
+  },
+  {
+    "q": "England was named after the",
+    "options": [
+      "Romans",
+      "Scots",
+      "Angles",
+      "Normans"
+    ],
+    "correct": 2,
+    "feedback": "تمت تسمية إنجلترا (England) بهذا الاسم نسبةً إلى قبائل الأنجلز (Angles) التي غزت البلاد واستقرت فيها بجانب الساكسون [4]."
+  },
+  {
+    "q": "The War of Roses was between the.",
+    "options": [
+      "Yorks & Lancasters",
+      "Normans & Angles",
+      "Stuarts & Tudors",
+      "none"
+    ],
+    "correct": 0,
+    "feedback": "حرب الوردتين كانت صراعاً على العرش بين عائلتي يورك (Yorks) ولانكاستر (Lancasters)."
+  },
+  {
+    "q": "The Union of the two Crowns was between....",
+    "options": [
+      "England and Ireland",
+      "England and Scotland",
+      "England and France",
+      "Scotland and Ireland"
+    ],
+    "correct": 1,
+    "feedback": "اتحاد التاجين يشير إلى اتحاد إنجلترا واسكتلندا تحت حكم الملك جيمس السادس (جيمس الأول في إنجلترا)."
+  },
+  {
+    "q": "was the founder of Metaphysical poetry.",
+    "options": [
+      "Edmund Spenser",
+      "Alexander Pope",
+      "John Donne",
+      "John Milton"
+    ],
+    "correct": 2,
+    "feedback": "تؤكد الأوراق الذهبية [5] ومفتاح الإجابة [6] أن جون دون (John Donne) يعتبر مؤسس مدرسة الشعر الميتافيزيقي."
+  },
+  {
+    "q": "In which year did the Peasants' Revolt happen?.",
+    "options": [
+      "1347",
+      "1381",
+      "1337",
+      "1340"
+    ],
+    "correct": 1,
+    "feedback": "وفقاً للمصدر [7]، اندلعت ثورة الفلاحين (Peasant's Revolt) في عام 1381 خلال عهد الملك ريتشارد الثاني بسبب الضرائب العالية."
+  },
+  {
+    "q": "The Middle Age was held to begin in England with ....",
+    "options": [
+      "The Norman conquest",
+      "The Anglo-Saxon period",
+      "The Roman conquest",
+      "The Commonwealth"
+    ],
+    "correct": 0,
+    "feedback": "تعتبر فترة العصور الوسطى في إنجلترا قد بدأت مع الغزو النورماندي عام 1066 [8, 9]."
+  },
+  {
+    "q": "The Normans defeated the Anglo-Saxons in the Battle of......",
+    "options": [
+      "Crecy",
+      "Maldon",
+      "Hastings",
+      "Quebec"
+    ],
+    "correct": 2,
+    "feedback": "هزم النورمانديون الأنجلو ساكسون في معركة هاستينغز (Battle of Hastings) عام 1066 [10]."
+  },
+  {
+    "q": "The monumental prose achievement of the...... Era was the 1611 Version of the Bible.",
+    "options": [
+      "Jacobean",
+      "Caroline",
+      "Elizabethan",
+      "Renaissance"
+    ],
+    "correct": 0,
+    "feedback": "نسخة الكتاب المقدس لعام 1611 (King James Version) تمت في العصر اليعقوبي (Jacobean Era) نسبة للملك جيمس الأول [11]."
+  },
+  {
+    "q": "Which of the following plays of Shakespeare is not a comedy?",
+    "options": [
+      "As You Like It",
+      "Measure for Measure",
+      "The Tempest",
+      "King Lear"
+    ],
+    "correct": 3,
+    "feedback": "مسرحية 'King Lear' هي تراجيديا (مأساة) وليست كوميديا، وهي مبنية على المسرحية السابقة 'Gorboduc' [12]."
+  },
+  {
+    "q": "Literature in the Anglo-Saxon period was recorded in manuscripts.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "الأدب في العصر الأنجلو ساكسوني سُجل بالفعل في مخطوطات (manuscripts)، مثل مخطوطة 'Beowulf' التي سُجلت في القرن الحادي عشر [13]."
+  },
+  {
+    "q": "Queen Victoria was the last of the ...... line in Britain.",
+    "options": [
+      "Hanoverian",
+      "Plantagenet",
+      "Stuart",
+      "Windsor"
+    ],
+    "correct": 0,
+    "feedback": "كانت الملكة فيكتوريا آخر حكام سلالة هانوفر (Hanoverian) في بريطانيا."
+  },
+  {
+    "q": "The first complete version of the English Bible was made by",
+    "options": [
+      "Wyclif",
+      "Tyndale",
+      "Purvey",
+      "King James"
+    ],
+    "correct": 0,
+    "feedback": "أول ترجمة كاملة للكتاب المقدس إلى الإنجليزية قام بها جون ويكليف (John Wyclif) عام 1380 [14]."
+  },
+  {
+    "q": "The Faerie Queene was written in the form of a(n).......",
+    "options": [
+      "epic",
+      "allegory",
+      "ballad",
+      "sonnet"
+    ],
+    "correct": 1,
+    "feedback": "تعتبر 'ملكة الجن' (The Faerie Queene) ملحمة أليغورية (رمزية) كتبها إدموند سبنسر [15]."
+  },
+  {
+    "q": "In which language the stories of the Canterbury Tales were written?",
+    "options": [
+      "French",
+      "Middle English",
+      "Greek",
+      "Old English"
+    ],
+    "correct": 1,
+    "feedback": "كتب جيفري تشوسر حكايات كانتربري باللغة الإنجليزية الوسطى (Middle English) [16]."
+  },
+  {
+    "q": "Who is considered as the first English poet?",
+    "options": [
+      "Chaucer",
+      "Caedmon",
+      "Langland",
+      "Caxton"
+    ],
+    "correct": 1,
+    "feedback": "يعتبر كيدمون (Cædmon) أول شاعر أنجلو ساكسوني مسيحي معروف في تاريخ الأدب الإنجليزي [17]."
+  },
+  {
+    "q": "Catharsis means.",
+    "options": [
+      "passion",
+      "scapegoat",
+      "purgation",
+      "revel"
+    ],
+    "correct": 2,
+    "feedback": "وفقاً لأرسطو في الأوراق الذهبية [18]، التطهير (Catharsis) هو تطهير العواطف (purgation of emotion) من خلال الخوف والشفقة."
+  },
+  {
+    "q": "Domesday Book was a catalogue of the king's property.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "كتاب 'يوم الحساب' (Domesday Book) كان بمثابة جرد (inventory) لجميع أملاك وممتلكات الملك ويليام الفاتح [19]."
+  },
+   {
+    "q": "Printing was introduced into England by.....",
+    "options": [
+      "Coverdale",
+      "Caxton",
+      "Malory",
+      "Bacon"
+    ],
+    "correct": 1,
+    "feedback": "وفقاً للأوراق الذهبية، قام ويليام كاكسون (Caxton) بتأسيس مطبعته في عام 1476، وهو التاريخ الذي دخلت فيه الطباعة إلى إنجلترا."
+  },
+  {
+    "q": "_______ started the English Reformation.",
+    "options": [
+      "Charles I",
+      "Henry VIII",
+      "Henry VII",
+      "Elizabeth I"
+    ],
+    "correct": 1,
+    "feedback": "الملك هنري الثامن (Henry VIII) هو من بدأ حركة الإصلاح الإنجليزي (English Reformation) لغايات سياسية ودينية تتعلق بانفصاله عن الكنيسة الكاثوليكية."
+  },
+  {
+    "q": "_______ had a great influence on the Elizabethan drama.",
+    "options": [
+      "Euripides",
+      "Seneca",
+      "Sophocles",
+      "Aeschylus"
+    ],
+    "correct": 1,
+    "feedback": "تؤكد المصادر أن الفيلسوف والمسرحي الروماني سينيكا (Seneca) أثر بشكل كبير على الدراما الإليزابيثية، خاصة في أسلوب مسرحيات الانتقام والخطابات الطويلة."
+  },
+  {
+    "q": "Calvinism stressed _______ and depravity of human kind.",
+    "options": [
+      "purgation",
+      "salvation",
+      "excommunication",
+      "predestination"
+    ],
+    "correct": 3,
+    "feedback": "شددت الكالفينية على مبدأ 'القدر المحتوم' أو القضاء والقدر (predestination)، وهي فكرة أن مصير الروح محدد مسبقاً."
+  },
+  {
+    "q": "The Elizabethan period marks the beginning of the scientific age.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "الإجابة خاطئة؛ لأن الأوراق الذهبية ومفتاح الإجابة يذكران أن عصر 'الترميم' (Restoration period) هو الذي يمثل بداية العصر العلمي."
+  },
+  {
+    "q": "What was the duration of the English Civil Wars?",
+    "options": [
+      "1461-1485",
+      "1455-1485",
+      "1642-1651",
+      "1649-1660"
+    ],
+    "correct": 2,
+    "feedback": "وقعت الحروب الأهلية الإنجليزية في الفترة ما بين 1642 و1651، وانتهت بانتصار البرلمانيين."
+  },
+  {
+    "q": "Who is the father of the sonnet?",
+    "options": [
+      "Shakespeare",
+      "Jonson",
+      "Petrarch",
+      "Spenser"
+    ],
+    "correct": 2,
+    "feedback": "يعتبر بتراركا (Petrarch) الأب الروحي للسونيت لأنه طور هذا القالب الشعري في إيطاليا قبل انتقاله إلى إنجلترا."
+  },
+  {
+    "q": "Which literary form, developed in the 15th century, dealt with the miracles of Christ?",
+    "options": [
+      "Morality plays",
+      "Mystery plays",
+      "Miracle plays",
+      "Heroic epics"
+    ],
+    "correct": 2,
+    "feedback": "مسرحيات المعجزات (Miracle plays) هي النوع الأدبي الذي ركز تحديداً على حياة ومعجزات القديسين والمسيح."
+  },
+  {
+    "q": "Utopia was written by Ben Jonson.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "هذه العبارة خاطئة؛ كتاب 'يوتوبيا' (Utopia) هو من تأليف توماس مور (Thomas More)."
+  },
+  {
+    "q": "Theatre of the Absurd movement was pioneered by _______.",
+    "options": [
+      "Harold Pinter",
+      "D.H. Lawrence",
+      "Samuel Becket",
+      "George Orwell"
+    ],
+    "correct": 2,
+    "feedback": "يعتبر صمويل بيكيت (Samuel Becket) هو الرائد الأول والأساسي لحركة مسرح العبث."
+  },
+  {
+    "q": "The 'Roundheads' refer to the _______.",
+    "options": [
+      "Tories",
+      "cavaliers",
+      "puritans",
+      "none"
+    ],
+    "correct": 2,
+    "feedback": "أُطلق لقب 'الرؤوس المستديرة' (Roundheads) على البيوريتانيين (Puritans) الذين دعموا البرلمان ضد الملك خلال الحرب الأهلية."
+  },
+  {
+    "q": "Beowulf was composed in England.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "خاطئ؛ تنص الأوراق الذهبية على أن ملحمة 'بيوولف' نشأت في غرب أوروبا (الدنمارك وألمانيا) ثم جلبها المستوطنون إلى إنجلترا."
+  },
+  {
+    "q": "The first poem of Christian literature in the Anglo-Saxon period was composed by",
+    "options": [
+      "Cynewulf",
+      "Caedmon",
+      "Alfred",
+      "William"
+    ],
+    "correct": 1,
+    "feedback": "يعتبر كيدمون (Caedmon) هو أول من نظم شعراً مسيحياً باللغة الأنجلو ساكسونية."
+  },
+  {
+    "q": "Who wrote 'The Spanish Tragedy'?",
+    "options": [
+      "George Peele",
+      "Thomas Kyd",
+      "Thomas Norton",
+      "John Lyly"
+    ],
+    "correct": 1,
+    "feedback": "كتب توماس كيد (Thomas Kyd) مسرحية 'المأساة الإسبانية' (The Spanish Tragedy)، وهي النموذج الذي مهد لمسرحية هاملت."
+  },
+  {
+    "q": "The eighteenth century was an age of _______.",
+    "options": [
+      "conflict",
+      "balance",
+      "war",
+      "taste"
+    ],
+    "correct": 1,
+    "feedback": "يُعرف القرن الثامن عشر في تاريخ الأدب الإنجليزي بأنه عصر التوازن (Age of Balance) والعقل."
+  },
+  {
+    "q": "The House of Hanover was _______.",
+    "options": [
+      "French",
+      "Scottish",
+      "German",
+      "African"
+    ],
+    "correct": 2,
+    "feedback": "تنحدر سلالة هانوفر (Hanoverians) من أصول ألمانية (German)."
+  },
+  {
+    "q": "The Red Rose refers to the badge of the _______.",
+    "options": [
+      "Tudors",
+      "Yorks",
+      "Lancasters",
+      "Stuarts"
+    ],
+    "correct": 2,
+    "feedback": "في حرب الوردتين، كانت الوردة الحمراء هي شعار عائلة لانكاستر (Lancasters)، بينما كانت البيضاء شعار عائلة يورك."
+  },
+  {
+    "q": "_______ the Great was the most famous of the Anglo-Saxon kings.",
+    "options": [
+      "William",
+      "Cromwell",
+      "Alfred",
+      "Caedmon"
+    ],
+    "correct": 2,
+    "feedback": "الملك ألفريد العظيم (Alfred the Great) هو أشهر ملوك الأنجلو ساكسون، واشتهر باهتمامه بالتعليم والترجمة والدفاع عن إنجلترا."
+  },
+  {
+    "q": "Martin Luther was the father of catholicism.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "خطأ؛ مارتن لوثر هو 'أب البروتستانتية' (Protestantism) وليس الكاثوليكية، حيث قاد حركة الإصلاح ضد الكنيسة الكاثوليكية."
+  },
+  {
+    "q": "The English Monarchy was abolished in",
+    "options": [
+      "1611",
+      "1642",
+      "1649",
+      "1660"
+    ],
+    "correct": 2,
+    "feedback": "تم إلغاء الملكية في إنجلترا عام 1649 بعد إعدام الملك تشارلز الأول، لتبدأ فترة حكم الكومنولث."
+  },
+   {
+    "q": "\"Apocrypha\" refers to the \"suspect books of the New Testament\".",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "وفقاً للأوراق الذهبية، فإن 'Apocrypha' هي كتب ثانوية في الكتاب المقدس وهناك شكوك حول دقة قصصها في بعض المذاهب المسيحية، لذا يُشار إليها ككتب 'مشتبه بها'."
+  },
+  {
+    "q": "Which is not a poetry form?",
+    "options": [
+      "tale",
+      "epic",
+      "ballad",
+      "sonnet"
+    ],
+    "correct": 0,
+    "feedback": "الحكاية (tale) تعتبر شكلاً من أشكال النثر الخيالي (fiction) وليست قالباً شعرياً بحد ذاتها كالملحمة أو السونيت."
+  },
+  {
+    "q": "Which of the following is not a work of Christopher Marlowe?",
+    "options": [
+      "Edward II",
+      "Tamburlaine",
+      "The Winter's Tale",
+      "The Jew of Malta"
+    ],
+    "correct": 2,
+    "feedback": "مسرحية 'The Winter's Tale' هي إحدى أعمال وليم شكسبير، بينما الأعمال الأخرى المذكورة هي من مؤلفات كريستوفر مارلو (أحد مفكري الجامعة)."
+  },
+  {
+    "q": "Marlowe was a(n)........ writer.",
+    "options": [
+      "Victorian",
+      "Elizabethan",
+      "Jacobean",
+      "none"
+    ],
+    "correct": 1,
+    "feedback": "يُصنف كريستوفر مارلو ككاتب من العصر الإليزابيثي (Elizabethan) وهو عضو بارز في مجموعة 'University Wits'."
+  },
+  {
+    "q": "The Old Wives' Tale was written by.........",
+    "options": [
+      "Spenser",
+      "Peele",
+      "Milton",
+      "Marvell"
+    ],
+    "correct": 1,
+    "feedback": "وفقاً لمفتاح الإجابة والمصادر، كتب جورج بيل (George Peele) مسرحية 'The Old Wives' Tale'."
+  },
+  {
+    "q": "The Shakespearian hero has the power of choice; he has free will.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "تؤكد المصادر أن الأدب الإنجليزي (بما في ذلك شكسبير) ركز على الإرادة الحرة (free will) للفرد في اتخاذ قراراته، متأثراً بالتقاليد الرومانية (سينيكا)، بخلاف الدراما اليونانية التي ركزت على القدر."
+  },
+  {
+    "q": "Who is considered as the first English comedy writer?",
+    "options": [
+      "Chaucer",
+      "Lyly",
+      "Udall",
+      "Caxton"
+    ],
+    "correct": 2,
+    "feedback": "يعتبر نيكولاس أودال (Udall) أول كاتب كوميدي إنجليزي لأنه ألف مسرحية 'Ralph Roister Doister' التي تُعد أول كوميديا إنجليزية."
+  },
+  {
+    "q": "Shakespeare ........ existing plays.",
+    "options": [
+      "wrote",
+      "invented",
+      "refashioned",
+      "composed"
+    ],
+    "correct": 2,
+    "feedback": "تشير الأوراق الذهبية صراحة إلى أن معظم مسرحيات شكسبير كانت مأخوذة من قصص كتبت قبله، حيث قام 'بإعادة صياغتها' (refashioned) وتطويرها."
+  },
+  {
+    "q": "Shakespeare used the sonnet form for religious poetry.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "هذه العبارة خاطئة؛ فقد استخدم شكسبير قالب السونيت للتعبير عن الأفكار والمشاعر الشخصية والحب، وليس للشعر الديني."
+  },
+  {
+    "q": "The 'University Wits' refer to ...... men.",
+    "options": [
+      "educated",
+      "employed",
+      "rich",
+      "none"
+    ],
+    "correct": 0,
+    "feedback": "مصطلح 'University Wits' يشير إلى مجموعة من الكتاب 'المتعلمين' (educated) الذين تخرجوا من جامعتي أكسفورد وكامبريدج."
+  },
+  {
+    "q": "Queen Mary I was of the .... line in Britain.",
+    "options": [
+      "Hanoverian",
+      "Tudor",
+      "Stuart",
+      "Windsor"
+    ],
+    "correct": 1,
+    "feedback": "الملكة ماري الأولى تنتمي لسلالة تيودور (Tudor)، وهي ابنة الملك هنري الثامن."
+  },
+  {
+    "q": "Henry the eighth was called....",
+    "options": [
+      "the tyrant",
+      "the Lord Protector",
+      "the Good",
+      "the Great"
+    ],
+    "correct": 0,
+    "feedback": "وفقاً لمفتاح الإجابة في ملف الأسئلة، كان يطلق على هنري الثامن لقب 'الطاغية' (the tyrant)."
+  },
+  {
+    "q": "Caxton set up his printing-press in 1476.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "هذه معلومة صحيحة تماماً؛ حيث أدخل ويليام كاكسون الطباعة إلى إنجلترا وأسس مطبعته في عام 1476."
+  },
+  {
+    "q": "...... are the people who lived in Britain before the Roman Conquest.",
+    "options": [
+      "Britons",
+      "Celts",
+      "Anglo-Saxons",
+      "Picts & Scots"
+    ],
+    "correct": 1,
+    "feedback": "السكان الأصليون الذين عاشوا في بريطانيا قبل الغزو الروماني هم الكلت (Celts)، ولغتهم هي السلتية."
+  },
+  {
+    "q": "...... is the first Norman literary work.",
+    "options": [
+      "Gorboduc",
+      "Ormulum",
+      "Domesday Book",
+      "none"
+    ],
+    "correct": 2,
+    "feedback": "يعتبر كتاب 'Domesday Book' الذي جُمع عام 1086 بأمر من ويليام الفاتح أول عمل توثيقي/أدبي رئيسي في العهد النورماندي."
+  },
+  {
+    "q": "The first Englishmen were foreigners.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "وفقاً للمصادر التاريخية، فإن أول من سكنوا إنجلترا كانوا من قبائل الأنجلز والساكسون واليوت (Angles, Saxons, Jutes) الذين هاجروا من شمال أوروبا، وبالتالي يمكن اعتبارهم 'أجانب' في البداية."
+},
+{
+    "q": "Translations from the Greek, Latin, French and Italian made up much of the first Tudor prose.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "صحيح؛ حيث يذكر المصدر أن النثر في بداية عهد أسرة تيودور اعتمد بشكل كبير على الترجمات من اللغات الكلاسيكية والأوروبية لتطوير اللغة الإنجليزية."
+  },
+  {
+    "q": "........ translated the New Testament from the Greek.",
+    "options": [
+      "Wyclif",
+      "Tyndale",
+      "Purvey",
+      "King James"
+    ],
+    "correct": 1,
+    "feedback": "وفقاً للأوراق الذهبية، قام ويليام تيندال (Tyndale) بترجمة أجزاء من العهد الجديد مباشرة من اللغة اليونانية وقام بطباعتها في ألمانيا."
+  },
+  {
+    "q": "Which of the following plays of Shakespeare is a tragedy?",
+    "options": [
+      "As You Like It",
+      "Measure for Measure",
+      "The Tempest",
+      "King Lear"
+    ],
+    "correct": 3,
+    "feedback": "مسرحية 'الملك لير' (King Lear) هي مأساة (تراجيديا) مشهورة لشكسبير، ويذكر المصدر أنها تتبع نموذج مسرحية 'Gorboduc' القديمة."
+  },
+  {
+    "q": "The Canterbury Tales was written by Chaucer.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "هذه معلومة أساسية؛ جيفري تشوسر هو مؤلف 'حكايات كانتربري' التي تُعد من أعظم أعمال الأدب الإنجليزي في العصور الوسطى."
+  },
+  {
+    "q": "Jacobean Age refers to the reign of........",
+    "options": [
+      "James I",
+      "Charles I",
+      "Cromwell",
+      "Charles II"
+    ],
+    "correct": 0,
+    "feedback": "العصر اليعقوبي (Jacobean) يعود لفترة حكم الملك جيمس الأول (James I)، حيث أن الاسم مشتق من الاسم اللاتيني 'Jacobus'."
+  },
+  {
+    "q": "Comedy comes from komos meaning........",
+    "options": [
+      "care",
+      "love",
+      "earth",
+      "revel"
+    ],
+    "correct": 3,
+    "feedback": "توضح الأوراق الذهبية أن كلمة كوميديا مشتقة من الكلمة اليونانية 'komos' والتي تعني الاحتفال أو الصخب (revel)."
+  },
+  {
+    "q": "........ was the greatest poet of the Augustan Age.",
+    "options": [
+      "Edmund Spenser",
+      "John Donne",
+      "Alexander Pope",
+      "John Milton"
+    ],
+    "correct": 2,
+    "feedback": "يُعتبر ألكسندر بوب (Alexander Pope) الشاعر الأبرز في العصر الأغسطي، وهو عصر تميز بالدقة والأسلوب الكلاسيكي."
+  },
+  {
+    "q": "........ was the first poet to support the Commonwealth.",
+    "options": [
+      "Milton",
+      "Dryden",
+      "Donne",
+      "none"
+    ],
+    "correct": 0,
+    "feedback": "جون ميلتون (Milton) كان من أشد المؤيدين للكومنولث، وقد كتب العديد من الأعمال التي دافعت عن الحكومة الجمهورية بعد إعدام الملك تشارلز الأول."
+}
+]}

@@ -1,0 +1,1649 @@
+{
+  "subject": "مسرح عودة الملكية سنه 3 ",
+  "lang": "en",
+  "questions": [
+     {
+    "q": "All for Love was published 1740.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ مسرحية 'All for Love' نُشرت عام 1678 وليس 1740 [1]."
+  },
+  {
+    "q": "The kind of comedy that was revived in the Restoration period was that of Ben Jonson and Fletcher.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ الكوميديا التي أُحييت في عصر عودة الملكية كانت أعمال بن جونسون وفليتشر (وبومونت) [2]."
+  },
+  {
+    "q": "\"I have seen him; he promises to be an extraordinary person.\" The pronoun 'him' refers to Fainall.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الضمير 'him' يعود على سير ويلفل (Sir Wilfull) وليس فينال [3]."
+  },
+  {
+    "q": "The kind of comedy that was revived in the Restoration period was that of Christopher Marlowe.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الكوميديا التي أُحييت كانت لبن جونسون وفليتشر، وليس كريستوفر مارلو [2]."
+  },
+  {
+    "q": "The most brilliant achievement of Congreve's plays was The Way of the World.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ تُعتبر مسرحية 'طريقة العالم' (The Way of the World) أروع إنجازات كونغريف وأكثرها نضجاً [4]."
+  },
+  {
+    "q": "The comic dramatists managed to satisfy the general demand for hypocrisy.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ نجح كتاب الكوميديا في تلبية الطلب العام على 'التسلية' (amusement) وليس النفاق [5]."
+  },
+  {
+    "q": "Dryden never translated ancient writers.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ قام درايدن بترجمة العديد من الكتاب القدامى مثل هوميروس وفيرجيل وأوفيد [6]."
+  },
+  {
+    "q": "In Witwoud, Congreve drew a character who is absurd because of affectation.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ رسم كونغريف شخصية ويتود كشخصية سخيفة بسبب 'تصنعه' (affectation) للفطنة والذكاء [7]."
+  },
+  {
+    "q": "According to Dryden \"Moderation is doubtless an establishment of greatness.\"",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ يرى درايدن أن 'الاعتدال' هو بلا شك أساس العظمة [8]."
+  },
+  {
+    "q": "The Restoration drama can be distinguished by a brevity of purpose.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ تميز مسرح عودة الملكية بالفطنة والترفيه والأناقة، ولم يكن إيجاز الهدف سمة مميزة له [9]."
+  },
+  {
+    "q": "Dryden had justified Antony in some measure \"by making Octavia's departure to proceed from herself.\"",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ برر درايدن موقف أنطوني جزئياً بجعل رحيل أوكتافيا نابعاً من إرادتها الخاصة [10]."
+  },
+  {
+    "q": "\"In what figure shall I give his heart the first impression.\" The speaker is Lady Wishfort.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ ليدي ويشفورت هي من قالت هذه العبارة وهي تستعد للقاء 'سير رولاند' المتنكر [11]."
+  },
+  {
+    "q": "In the Restoration period, marriage depended merely upon love.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ لم يكن الزواج يعتمد على الحب وحده، بل كان يُرتب من قبل الآباء لزيادة ثروات العائلات [12]."
+  },
+  {
+    "q": "According to Dryden, the greatest error in the contrivance of his play seems to be in the person of Octavia.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ اعتبر درايدن أن أكبر خطأ في حبكة المسرحية تمثل في شخصية أوكتافيا لأنها شتتت تعاطف الجمهور [13]."
+  },
+  {
+    "q": "\"They said they would not fight for Cleopatra.\" The speaker is",
+    "options": ["Antony", "Alexas", "Ventidius", "Dollabella"],
+    "correct": 2,
+    "feedback": "المتحدث هو فنتيديوس (Ventidius) الذي نقل لأنطوني رفض الجيش القتال من أجل كليوباترا [14]."
+  },
+  {
+    "q": "\"He loved me too; I was his soul.\" The pronoun He refers to",
+    "options": ["Antony", "Alexas", "Ventidius", "Dollabella"],
+    "correct": 3,
+    "feedback": "يشير الضمير 'He' إلى دولابيلا (Dollabella) الذي كان أنطوني يعتبره روحه وصديقه الصدوق [15]."
+  },
+  {
+    "q": "\"Urge not my shame, / ______.\"",
+    "options": ["I lost a battle", "I misjudged", "I hated Dollabella", "I disliked Fulvia"],
+    "correct": 0,
+    "feedback": "التكملة الصحيحة هي 'I lost a battle' (لقد خسرت معركة)، وهو ما قاله أنطوني تعبيراً عن خجله [16]."
+  },
+  {
+    "q": "\"Here she comes i'faith full sail, with her fan spread and her streamers out.\" The pronoun she refers to",
+    "options": ["Mrs. Fainall", "Mrs. Marwood", "Millamant", "Lady Wishfort"],
+    "correct": 2,
+    "feedback": "يشير الضمير 'she' إلى ميللامانت (Millamant) التي يصف ميرابيل قدومها كالسفينة المبحرة بكامل زينتها [17]."
+  },
+  {
+    "q": "Congreve claims his sole pretence is",
+    "options": ["to please", "to instruct", "to reform", "to elevate"],
+    "correct": 0,
+    "feedback": "يدعي كونغريف أن هدفه الوحيد في هذه المسرحية هو 'الإمتاع' (to please) [18]."
+  },
+  {
+    "q": "In ____, Millamant agrees to marry Mirabell.",
+    "options": ["the plot", "the counter-plot"],
+    "correct": 0,
+    "feedback": "في 'الحبكة' (the plot)، وتحديداً في مشهد الشروط، توافق ميللامانت على الزواج من ميرابيل [19]."
+  },
+  {
+    "q": "When the Restoration of the monarchy happened in 1660 one of the first things to be reinstated was",
+    "options": ["drama", "poetry", "novel", "mathematics"],
+    "correct": 0,
+    "feedback": "عند عودة الملكية عام 1660، كان المسرح (drama) من أول الأشياء التي أُعيدت بقرار ملكي [20]."
+  },
+  {
+    "q": "In dramatic structure, and in verse movements, John Dryden has sought in his play qualities of economy, elegance and ____.",
+    "options": ["fluency", "depth of thought", "abnormality", "B&C"],
+    "correct": 0,
+    "feedback": "سعى درايدن في مسرحيته لتحقيق الإيجاز والأناقة و'الفصاحة' (fluency) [1]."
+  },
+  {
+    "q": "\"I thought you had designed for France at all adventures.\" The addressee is",
+    "options": ["Sir Roland", "Sir Witwoud", "Sir Wilfull"],
+    "correct": 2,
+    "feedback": "المخاطب هو سير ويلفل (Sir Wilfull) الذي كان يخطط للسفر إلى فرنسا [3]."
+  },
+  {
+    "q": "The comic sense is achieved when the characters ____ to conform to the ideal code.",
+    "options": ["succeed", "fail", "manage", "puzzle"],
+    "correct": 1,
+    "feedback": "يتحقق الحس الكوميدي عندما 'تفشل' (fail) الشخصيات في الالتزام بالمعايير الاجتماعية والأخلاقية المثالية."
+  },
+  {
+    "q": "Antony's loss at Actium ____ the main line of action in All for Love.",
+    "options": ["aspires", "intends", "starts", "competes"],
+    "correct": 2,
+    "feedback": "الهزيمة في موقعة أكتيوم هي الحدث الذي 'يبدأ' (starts) به الخط الدرامي للمسرحية [14]."
+  },
+  {
+    "q": "\"Whom have you instructed to represent your pretended uncle?\" The addressee is",
+    "options": ["Mrs. Fainall", "Petulant", "Waitwell", "Mirabell"],
+    "correct": 3,
+    "feedback": "المخاطب هو ميرابيل (Mirabell)، وتسأله مسز فينال عن الشخص الذي كلفه بدور العم المزعوم [21]."
+  },
+  {
+    "q": "According to Dryden, the subject of the death of Antony and Cleopatra ____ treated by the greatest wits after Shakespeare.",
+    "options": ["was", "was not"],
+    "correct": 0,
+    "feedback": "ذكر درايدن أن موضوع موت أنطوني وكليوباترا 'قد عولج' (was treated) من قبل أعظم عقول الأمة بعد شكسبير [22]."
+  },
+  {
+    "q": "The range of thought, abundance of imagery, and depth of dramatic vision characterize the style of ____.",
+    "options": ["John Dryden", "W. Shakespeare"],
+    "correct": 1,
+    "feedback": "يتميز أسلوب 'شكسبير' (W. Shakespeare) بعمق الرؤية الدرامية واتساع الفكر مقارنة بدرايدن [1]."
+  },
+  {
+    "q": "\"In my style I have professed to ____ the divine Shakespeare.\"",
+    "options": ["imitate", "depict", "surpass", "compete with"],
+    "correct": 0,
+    "feedback": "صرح درايدن في مقدمته أنه حاول 'تقليد' (imitate) أسلوب شكسبير في هذه المسرحية [23]."
+  },
+  {
+    "q": "\"Caesar loved me, but ____.\"",
+    "options": ["I loved him not", "I loved Antony", "he hated me", "he was a foe"],
+    "correct": 1,
+    "feedback": "تكملة العبارة هي 'I loved Antony' (لكنني أحببت أنطوني)، كما قالت كليوباترا [24]."
+  },
+  {
+    "q": "\"O my dear friend, how can I enumerate the benefits that I have received from your goodness?\" The speaker is",
+    "options": ["Mrs. Marwood", "Lady Wishfort", "Mrs. Fainall", "Foible"],
+    "correct": 1,
+    "feedback": "المتحدثة هي ليدي ويشفورت (Lady Wishfort) وهي تخاطب صديقتها المزعومة مس ماروود [25]."
+  },
+  {
+    "q": "____ said. \"My emperor; the man I love next Heaven\".",
+    "options": ["Antony", "Cleopatra", "Alexas", "Ventidius"],
+    "correct": 3,
+    "feedback": "القائل هو فنتيديوس (Ventidius) معبراً عن حبه وولائه الشديد لأنطوني [16]."
+  },
+  {
+    "q": "The Restoration drama presents characters which appear with a critical attitude to ____.",
+    "options": ["marriage", "the supposed boredom of country life", "education", "D. A&B"],
+    "correct": 3,
+    "feedback": "قدم مسرح تلك الفترة شخصيات بموقف نقدي تجاه 'الزواج' وتجاه 'ملل حياة الريف' (A&B) [26]."
+  },
+  {
+    "q": "\"Oh, 'tis ____, / Our Emperor's great lieutenant in the East.\"",
+    "options": ["Dollabella", "Octavius", "Caesar", "Ventidius"],
+    "correct": 3,
+    "feedback": "الكلمة المفقودة هي فنتيديوس (Ventidius)، وهو نائب أنطوني العظيم في الشرق [27]."
+  },
+  {
+    "q": "\"In justice to you, I have made you ____ to my whole design,\"",
+    "options": ["a doubtful", "uninformed", "privy", "odious"],
+    "correct": 2,
+    "feedback": "جعل ميرابيل السيدة فينال 'مطلعة' (privy) على خطته وتصميمه بالكامل [21]."
+  },
+  {
+    "q": "Congreve's dedication of the play ____ his aims in writing it.",
+    "options": ["separates", "negates", "explains", "contradicts"],
+    "correct": 2,
+    "feedback": "إهداء كونغريف للمسرحية 'يشرح' (explains) أهدافه من كتابتها وكيفية تصميم شخصياتها [4]."
+  },
+  {
+    "q": "\"Does this weak passion / Become a ____ queen? Alexas said.\"",
+    "options": ["lovely", "mighty", "kind", "sympathetic"],
+    "correct": 1,
+    "feedback": "الكلمة المفقودة هي 'عظيمة/قوية' (mighty)، حيث يستنكر أليكساس ضعف كليوباترا العاطفي [28]."
+  },
+  {
+    "q": "The comic dramatists filled their plays with ____.",
+    "options": ["wit", "elegance", "cynicism", "D. A&B&C"],
+    "correct": 3,
+    "feedback": "ملأ كتاب الكوميديا مسرحياتهم بالفطنة والأناقة والسخرية (A&B&C) [5]."
+  },
+  {
+    "q": "Act I in All For Love takes place in ____.",
+    "options": ["The Temple of Isis", "a war field", "Octavius' camps", "on the shores of the Nile"],
+    "correct": 0,
+    "feedback": "تقع أحداث الفصل الأول في معبد إيزيس (The Temple of Isis) [27]."
+  },
+  {
+    "q": "The prologues and epilogues ____.",
+    "options": ["were written to accompany the printed texts", "could be explanatory", "were difficult to read", "D. A&B"],
+    "correct": 3,
+    "feedback": "كانت المقدمات والخواتم تُكتب لتصاحب النصوص المطبوعة وكانت تفسيرية وتبريرية (A&B) [9]."
+  },
+  {
+    "q": "All for Love was published in the 1530.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ مسرحية 'All for Love' نُشرت في عام 1678 وليس 1530 [1]."
+  },
+  {
+    "q": "Dryden had justified Antony in some measure “by making Octavia's departure to proceed from herself.”",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ ذكر درايدن في مقدمته أنه برر موقف أنطوني جزئياً بجعل رحيل أوكتافيا يبدو وكأنه نابع من إرادتها الخاصة [2]."
+  },
+  {
+    "q": "The Restoration drama can be distinguished by seriousness of purpose.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ تميز مسرح عودة الملكية بالفطنة (wit) والترفيه والأناقة، ولم يكن يتميز بالجدية الصارمة في الهدف [13، 21]."
+  },
+  {
+    "q": "The kind of comedy that was revived in the Restoration period was that of Shakespeare.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الكوميديا التي أُحييت في تلك الفترة كانت أعمال بن جونسون وبومونت وفليتشر، وليس شكسبير [3]."
+  },
+  {
+    "q": "In the preface, Dryden asserts that the hero of the poem ought not to be a character of perfect virtue.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ يؤكد درايدن أن البطل لا ينبغي أن يكون صاحب فضيلة كاملة (perfect virtue) لكي يستحق شفقة الجمهور عند سقوطه [4]."
+  },
+  {
+    "q": "Dryden said “I have drawn the character of Antony favourably.”",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ ذكر درايدن في مقدمته أنه رسم شخصية أنطوني بشكل إيجابي (favourably) لجذب تعاطف الجمهور [4]."
+  },
+  {
+    "q": "In the Restoration period, marriage depended merely upon love.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الزواج كان يُرتب من قبل الآباء لزيادة ثروات العائلات، ولم يكن يعتمد فقط على الحب [5]."
+  },
+  {
+    "q": "To may prove a tractable and complying husband, Mirabell demanded that the deed of trust should be given to Mrs. Fainall.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ ميرابيل أعاد عقد الأمانة (deed of trust) للسيدة فينال في نهاية المسرحية لحماية ثروتها، وليس لإثبات طاعته [25، 117]."
+  },
+  {
+    "q": "Antony was never used to his soldiers to demand ______ of his actions.",
+    "options": ["a support", "a progress", "a reason", "an indication"],
+    "correct": 2,
+    "feedback": "أنطوني كقائد عظيم لم يعتد أن يقدم لجنوده تبريراً أو 'سبباً' (reason) لأفعاله [6]."
+  },
+  {
+    "q": "Antony believed Octavia's first objective was ______ first.",
+    "options": ["to show her duty", "to see Cleopatra", "to control a kingdom", "to win a battle"],
+    "correct": 0,
+    "feedback": "اعتقد أنطوني أن دافع أوكتافيا الأساسي هو إظهار 'واجبها' (duty) كزوجة رومانية مخلصة [7]."
+  },
+  {
+    "q": "The greatest error in the contrivance seems to be in the person of ______.",
+    "options": ["Antony", "Cleopatra", "Octavia", "Dollabella"],
+    "correct": 2,
+    "feedback": "أقر درايدن في مقدمته أن أكبر خطأ فني في حبكته كان إدخال شخصية أوكتافيا [8]."
+  },
+  {
+    "q": "This reflection moved me to design some characters which should appear ______ through an affected wit.",
+    "options": ["natural", "ridiculous", "tremendous", "terrific"],
+    "correct": 1,
+    "feedback": "صمم كونغريف شخصيات تبدو 'سخيفة' (ridiculous) بسبب تصنعها للفطنة والذكاء [9]."
+  },
+  {
+    "q": "Her follies are so ______, or so artful, that they become her.",
+    "options": ["natural", "artful", "artificial", "D. A&B"],
+    "correct": 0,
+    "feedback": "يصف ميرابيل حماقات ميللامانت بأنها 'طبيعية' (natural) لدرجة أنها تزيدها جاذبية [10]."
+  },
+  {
+    "q": "Caesar loved me, but ______.",
+    "options": ["I loved him not", "I loved Antony", "he hated me", "he was a foe"],
+    "correct": 1,
+    "feedback": "تؤكد كليوباترا أنها رغم حب يوليوس قيصر لها، إلا أنها كانت تحب أنطوني فقط [11]."
+  },
+  {
+    "q": "In my style I have professed to ______ the divine Shakespeare.",
+    "options": ["imitate", "depict", "surpass", "compete with"],
+    "correct": 0,
+    "feedback": "ذكر درايدن صراحة أنه حاول 'تقليد' (imitate) أسلوب شكسبير في هذه المسرحية [12]."
+  },
+  {
+    "q": "The Restoration drama presents characters which appear with a critical attitude to ______.",
+    "options": ["marriage", "the supposed boredom of country life", "invention", "D. A&B"],
+    "correct": 3,
+    "feedback": "تميزت الشخصيات بموقف نقدي تجاه الزواج وتجاه 'ملل حياة الريف' (A&B) [13]."
+  },
+  {
+    "q": "More actions throughout the play - particularly in Act V ______ the standard moral code.",
+    "options": ["confirm", "negate", "refute", "contradict"],
+    "correct": 2,
+    "feedback": "الأحداث، خاصة في الفصل الخامس، تقوم بـ 'تفنيد' (refute) المعايير الأخلاقية التقليدية السائدة [13، 21]."
+  },
+  {
+    "q": "When the Restoration of the monarchy happened in 1660 one of the first things to be reinstated was ______.",
+    "options": ["drama", "poetry", "novel", "mathematics"],
+    "correct": 0,
+    "feedback": "كانت الدراما (Drama) من أول الفنون التي استعادت مكانتها فور عودة الملكية [14]."
+  },
+  {
+    "q": "According to Dryden 'Moderation' is doubtless an establishment of '______'.",
+    "options": ["disappointment", "happiness", "charm", "greatness"],
+    "correct": 3,
+    "feedback": "يرى درايدن أن الاعتدال هو الأساس الحقيقي لـ 'العظمة' (greatness) [15]."
+  },
+  {
+    "q": "The Restoration drama includes ______ of human failings.",
+    "options": ["an approval", "a ridicule", "discovery", "a celebration"],
+    "correct": 1,
+    "feedback": "استخدم المسرح أسلوب 'السخرية' (ridicule) من الحماقات والعيوب البشرية [16]."
+  },
+  {
+    "q": "“They said they would not fight for Cleopatra.” The speaker is ______.",
+    "options": ["Antony", "Alexas", "Ventidius", "Dollabella"],
+    "correct": 2,
+    "feedback": "فنتيديوس (Ventidius) هو من أخبر أنطوني أن الجيش يرفض القتال من أجل كليوباترا [17]."
+  },
+  {
+    "q": "Discover to my lady your wife's conduct; threaten to part with her. The speaker is ______.",
+    "options": ["Mrs. Marwood", "Mrs. Fainall", "Lady Wishfort", "Millamant"],
+    "correct": 0,
+    "feedback": "هذه نصيحة مس ماروود (Mrs. Marwood) لفينال لكي يبتز ليدي ويشفورت بكشف سلوك ابنتها [18]."
+  },
+  {
+    "q": "Mirabell, if you persist in this offensive ______ you'll displease me- we shan't agree.",
+    "options": ["doubts", "accounts", "freedom", "claims"],
+    "correct": 2,
+    "feedback": "ميللامانت ترفض تمادي ميرابيل في 'تحرره' أو جرأته الزائدة (freedom) قبل وضع شروط الزواج [صور الامتحان]."
+  },
+  {
+    "q": "He loved me too; I was his soul. The pronoun He refers to ______.",
+    "options": ["Alexas", "Ventidius", "Dollabella", "A. Antony"],
+    "correct": 2,
+    "feedback": "يشير الضمير إلى 'دولابيلا' (Dollabella) الذي كان أنطوني يعتبره روحه وصديقه الصدوق [19]."
+  },
+  {
+    "q": "I have seen him; he promises to be an extraordinary person. The pronoun 'him' refers to ______.",
+    "options": ["A. Fainall", "B. Waitwell", "C. Sir Wilfull", "D. Witwoud"],
+    "correct": 2,
+    "feedback": "يتحدث ميرابيل هنا عن 'سير ويلفل' (Sir Wilfull) عند وصوله للمدينة [20]."
+  },
+  {
+    "q": "King Charles II issued patents to Thomas Killigrew and Sir William Davenant to form two companies of designers.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ البراءات كانت لتشكيل شركتين من 'الممثلين' (players) وليس المصممين [3]."
+  },
+  {
+    "q": "In 1660, Charles II issued patents to re-establish theatres. He realized his court would benefit in ______.",
+    "options": ["riches", "trust", "prestige", "prose"],
+    "correct": 2,
+    "feedback": "أدرك الملك أن البلاط سيستفيد من حيث 'الهيبة والاعتبار' (prestige) [14]."
+  },
+  {
+    "q": "Here she comes I'faith full sail, with her fan spread and her streamers out. The pronoun she refers to ______.",
+    "options": ["Mrs. Fainall", "Mrs. Marwood", "Millamant", "Lady Wishfort"],
+    "correct": 2,
+    "feedback": "يصف ميرابيل قدوم 'ميللامانت' (Millamant) كأنها سفينة مبحرة بكامل زينتها [21]."
+  },
+  {
+    "q": "True, I counseled / to fight at sea, ______",
+    "options": ["but I betrayed you not", "You didn't blame me", "It needed more courage", "I am so depressed"],
+    "correct": 0,
+    "feedback": "تكملة العبارة هي 'لكنني لم أخنك' (but I betrayed you not)، كما قالت كليوباترا دفاعاً عن نفسها [11]."
+  },
+  {
+    "q": "The comedy of manners was more or less ______ the former puritan regime.",
+    "options": ["supporting", "a conception of", "a reaction against", "presumed by"],
+    "correct": 2,
+    "feedback": "كانت هذه الكوميديا بمثابة 'رد فعل ضد' (a reaction against) النظام الطهراني (Puritan) المتشدد السابق [22]."
+  },
+  {
+    "q": "In Act I, Mirabell describes Millamant as having follies so ______.",
+    "options": ["reckless", "jealous", "unresolved", "natural"],
+    "correct": 3,
+    "feedback": "ميرابيل يرى أن حماقات ميللامانت 'طبيعية' (natural) وجزء من سحرها [10]."
+  },
+  {
+    "q": "Dollabella is Antony's ______.",
+    "options": ["general", "friend", "relative", "officer"],
+    "correct": 1,
+    "feedback": "دولابيلا هو 'صديق' (friend) أنطوني المقرب [23]."
+  },
+  {
+    "q": "“Fulvia, my wife, grew ______ / And she indeed had reason; raised a war / In Italy, to call me back.”",
+    "options": ["happy", "amazed", "jealous", "pleasant"],
+    "correct": 2,
+    "feedback": "زوجة أنطوني الأولى 'فولفيا' شعرت بـ 'الغيرة' (jealous) وقامت بالحرب لتعيده إليها [24]."
+  },
+  {
+    "q": "I'll never marry, unless I am first made sure of my ______.",
+    "options": ["wealth", "will", "pleasure", "B & C"],
+    "correct": 3,
+    "feedback": "تشترط ميللامانت ضمان 'إرادتها ومتعتها' (will and pleasure) قبل الزواج [25]."
+  },
+  {
+    "q": "“But I cannot admit that traitor.” Lady Wishfort said. The word 'traitor' refers to ______.",
+    "options": ["Fainall", "Mirabell", "Petulant", "Wilfull"],
+    "correct": 1,
+    "feedback": "تعتبر ليدي ويشفورت 'ميرابيل' (Mirabell) خائناً لأنه تلاعب بمشاعرها [63، 108]."
+  },
+  {
+    "q": "“Thank Mr. Mirabell, ______ friend, to whose advice all is owing.”",
+    "options": ["a cautious", "an unruly", "an inattentive", "an artificial"],
+    "correct": 0,
+    "feedback": "تصف مسز فينال ميرابيل بأنه صديق 'حذر/محترس' (cautious) وهو من أنقذ ثروتها [26]."
+  },
+  {
+    "q": "Antony's loss at Actium ______ the main line of action in All for Love.",
+    "options": ["aspires", "intends", "starts", "competes"],
+    "correct": 2,
+    "feedback": "الهزيمة في موقعة أكتيوم هي الحدث الذي 'يبدأ' (starts) به الخط الدرامي للمسرحية [17]."
+  },
+  {
+    "q": "To be a mighty queen ______ asks Cleopatra to call ______ to help her.",
+    "options": ["love", "reason", "magnitude", "grief"],
+    "correct": 1,
+    "feedback": "أليكساس يطلب من كليوباترا الاحتكام إلى 'العقل' (reason) لتتصرف كملكة [27]."
+  },
+  {
+    "q": "Half of Millamant's fortune depends upon her marrying with Lady Wishfort's ______.",
+    "options": ["approbation", "moderation", "antagonism", "speculation"],
+    "correct": 0,
+    "feedback": "ميراث ميللامانت معلق على زواجها بـ 'موافقة' (approbation) خالتها ليدي ويشفورت [7، 33]."
+  },
+  {
+    "q": "Antony did not think of refusing Cleopatra's presents. If he did -he believed- she would think him ______.",
+    "options": ["resolute", "barbarous", "coward", "mean"],
+    "correct": 1,
+    "feedback": "قبل أنطوني الهدايا خشية أن تظنه كليوباترا 'بربرياً' (barbarous) وجلفاً [28]."
+  },
+ {
+    "q": "All for Love was published in the 1530.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ مسرحية 'All for Love' نُشرت عام 1678، وهي مستوحاة من مسرحية شكسبير 'أنطوني وكليوباترا' [1]."
+  },
+  {
+    "q": "Dryden had justified Antony in some measure 'by making Octavia's departure to proceed from herself.'",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ ذكر درايدن في مقدمته أنه برر موقف أنطوني جزئياً بجعل رحيل أوكتافيا يبدو وكأنه نابع من إرادتها الخاصة [2]."
+  },
+  {
+    "q": "The Restoration drama can be distinguished by seriousness of purpose.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ تميز مسرح عودة الملكية بالفطنة (wit) والترفيه والأناقة، وليس بالجدية الصارمة [13، 21]."
+  },
+  {
+    "q": "The kind of comedy that was revived in the Restoration period was that of Shakespeare.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الكوميديا التي أُحييت كانت أعمال بن جونسون وبومونت وفليتشر، وليس شكسبير [3]."
+  },
+  {
+    "q": "In the preface, Dryden asserts that the hero of the poem ought not to be a character of perfect virtue.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ يرى درايدن أن البطل يجب ألا يكون صاحب فضيلة كاملة لكي يستحق شفقة الجمهور عند سقوطه [4]."
+  },
+  {
+    "q": "Dryden said 'I have drawn the character of Antony favourably.'",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ ذكر درايدن أنه رسم شخصية أنطوني بشكل إيجابي ومحبب (favourably) لجذب تعاطف الجمهور [4]."
+  },
+  {
+    "q": "In the Restoration period, marriage depended merely upon love.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الزواج كان يُرتب من قبل الآباء لزيادة ثروات العائلات، ولم يكن يعتمد فقط على الحب [5]."
+  },
+  {
+    "q": "To may prove a tractable and complying husband, Mirabell demanded that the deed of trust should be given to Mrs. Fainall.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ ميرابيل ذكر أنه سيكون زوجاً مطيعاً كشرط لميللامانت، أما عقد الأمانة فقد أعاده للسيدة فينال في نهاية المسرحية لحمايتها [86، 117]."
+  },
+  {
+    "q": "Antony was never used to his soldiers to demand ______ of his actions.",
+    "options": ["a support", "a progress", "a reason", "an indication"],
+    "correct": 2,
+    "feedback": "أنطوني كقائد عظيم لم يعتد أن يقدم لجنوده تبريراً أو 'سبباً' (reason) لأفعاله."
+  },
+  {
+    "q": "Antony believed Octavia's first objective was ______ first.",
+    "options": ["to show her duty", "to see Cleopatra", "to control a kingdom", "to win a battle"],
+    "correct": 0,
+    "feedback": "اعتقد أنطوني أن دافع أوكتافيا الأساسي هو إظهار 'واجبها' (duty) كزوجة رومانية مخلصة [6]."
+  },
+  {
+    "q": "The greatest error in the contrivance seems to be in the person of ______.",
+    "options": ["Antony", "Cleopatra", "Octavia", "Dollabella"],
+    "correct": 2,
+    "feedback": "أقر درايدن في مقدمته أن أكبر خطأ فني في حبكته كان إدخال شخصية أوكتافيا [7]."
+  },
+  {
+    "q": "This reflection moved me to design some characters which should appear ______ through an affected wit.",
+    "options": ["natural", "ridiculous", "tremendous", "terrific"],
+    "correct": 1,
+    "feedback": "صمم كونغريف شخصيات تبدو 'سخيفة' (ridiculous) بسبب تصنعها للفطنة والذكاء [13، 28]."
+  },
+  {
+    "q": "Her follies are so ______, or so artful, that they become her.",
+    "options": ["natural", "artful", "artificial", "D. A&B"],
+    "correct": 0,
+    "feedback": "يصف ميرابيل حماقات ميللامانت بأنها 'طبيعية' (natural) لدرجة أنها تزيدها جاذبية [8]."
+  },
+  {
+    "q": "Caesar loved me, but ______.",
+    "options": ["I loved him not", "I loved Antony", "he hated me", "he was a foe"],
+    "correct": 1,
+    "feedback": "تؤكد كليوباترا أنها رغم حب يوليوس قيصر لها، إلا أنها كانت تحب أنطوني فقط [9]."
+  },
+  {
+    "q": "In my style I have professed to ______ the divine Shakespeare.",
+    "options": ["imitate", "depict", "surpass", "compete with"],
+    "correct": 0,
+    "feedback": "ذكر درايدن صراحة أنه حاول 'تقليد' (imitate) أسلوب شكسبير في هذه المسرحية [10]."
+  },
+  {
+    "q": "The Restoration drama presents characters which appear with a critical attitude to ______.",
+    "options": ["marriage", "the supposed boredom of country life", "invention", "D. A&B"],
+    "correct": 3,
+    "feedback": "تميزت الشخصيات بموقف نقدي تجاه الزواج وتجاه 'ملل حياة الريف' (A&B) [11]."
+  },
+  {
+    "q": "More actions throughout the play - particularly in Act V ______ the standard moral code.",
+    "options": ["confirm", "negate", "refute", "contradict"],
+    "correct": 2,
+    "feedback": "الأحداث، خاصة في الفصل الخامس، تقوم بـ 'تفنيد' (refute) المعايير الأخلاقية التقليدية السائدة [12]."
+  },
+  {
+    "q": "When the Restoration of the monarchy happened in 1660 one of the first things to be reinstated was ______.",
+    "options": ["drama", "poetry", "novel", "mathematics"],
+    "correct": 0,
+    "feedback": "كانت الدراما (Drama) من أوائل الفنون التي استعادت مكانتها فور عودة الملكية [13]."
+  },
+  {
+    "q": "According to Dryden 'Moderation' is doubtless an establishment of '______'.",
+    "options": ["riches", "trust", "prestige", "greatness"],
+    "correct": 3,
+    "feedback": "يرى درايدن أن الاعتدال هو الأساس الحقيقي لـ 'العظمة' (greatness) [14]."
+  },
+  {
+    "q": "The Restoration drama includes ______ of human failings.",
+    "options": ["an approval", "a ridicule", "discovery", "a celebration"],
+    "correct": 1,
+    "feedback": "استخدم المسرح أسلوب 'السخرية' (ridicule) من الحماقات والعيوب البشرية [15]."
+  },
+  {
+    "q": "They said they would not fight for Cleopatra. The speaker is ______.",
+    "options": ["Antony", "Alexas", "Ventidius", "Dollabella"],
+    "correct": 2,
+    "feedback": "فنتيديوس هو من أخبر أنطوني أن الجيش يرفض القتال من أجل كليوباترا [16]."
+  },
+  {
+    "q": "Discover to my lady your wife's conduct; threaten to part with her. The speaker is ______.",
+    "options": ["Mrs. Marwood", "Mrs. Fainall", "Lady Wishfort", "Millamant"],
+    "correct": 0,
+    "feedback": "هذه نصيحة مس ماروود لفينال لكي يبتز ليدي ويشفورت [17]."
+  },
+  {
+    "q": "Mirabell, if you persist in this offensive ______ you'll displease me- we shan't agree.",
+    "options": ["doubts", "accounts", "freedom", "claims"],
+    "correct": 2,
+    "feedback": "ميللامانت ترفض تمادي ميرابيل في 'تحرره' أو وقاحته (freedom) قبل وضع شروط الزواج [18]."
+  },
+  {
+    "q": "He loved me too; I was his soul. The pronoun He refers to ______.",
+    "options": ["Alexas", "Ventidius", "Dollabella", "A. Antony"],
+    "correct": 2,
+    "feedback": "يشير الضمير إلى 'دولابيلا' (Dollabella) الذي كان أنطوني يعتبره روحه وصديقه الصدوق [19]."
+  },
+  {
+    "q": "I have seen him; he promises to be an extraordinary person. The pronoun 'him' refers to ______.",
+    "options": ["A. Fainall", "B. Waitwell", "C. Sir Wilfull", "D. Witwoud"],
+    "correct": 2,
+    "feedback": "يتحدث ميرابيل هنا عن 'سير ويلفل' (Sir Wilfull) عند وصوله للمدينة [20]."
+  },
+  {
+    "q": "King Charles II issued patents to Thomas Killigrew and Sir William Davenant to form two companies of designers.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ البراءات كانت لتشكيل شركتين من 'الممثلين' (players) وليس المصممين [3]."
+  },
+  {
+    "q": "In 1660, Charles II issued patents to re-establish theatres. He realized his court would benefit in ______.",
+    "options": ["riches", "trust", "prestige", "prose"],
+    "correct": 2,
+    "feedback": "أدرك الملك أن البلاط سيستفيد من حيث 'الهيبة والاعتبار' (prestige) [13]."
+  },
+  {
+    "q": "Here she comes I'faith full sail, with her fan spread and her streamers out. The pronoun she refers to ______.",
+    "options": ["Mrs. Fainall", "Mrs. Marwood", "Millamant"],
+    "correct": 2,
+    "feedback": "يصف ميرابيل قدوم 'ميللامانت' (Millamant) كأنها سفينة مبحرة بكامل زينتها [21]."
+  },
+  {
+    "q": "True, I counseled / to fight at sea, ______",
+    "options": ["but I betrayed you not", "You didn't blame me", "It needed more courage", "I am so depressed"],
+    "correct": 0,
+    "feedback": "كليوباترا تدافع عن نفسها قائلة أنها أشارت بالقتال بحراً لكنها 'لم تخن' (but I betrayed you not) [9]."
+  },
+  {
+    "q": "The comedy of manners was more or less ______ the former puritan regime.",
+    "options": ["supporting", "a conception of", "a reaction against", "presumed by"],
+    "correct": 2,
+    "feedback": "كانت هذه الكوميديا بمثابة 'رد فعل ضد' (a reaction against) النظام الطهراني (Puritan) المتشدد السابق [22]."
+  },
+  {
+    "q": "In Act I, Mirabell describes Millamant as having follies so ______.",
+    "options": ["reckless", "jealous", "unresolved", "natural"],
+    "correct": 3,
+    "feedback": "ميرابيل يرى أن حماقات ميللامانت 'طبيعية' (natural) وجزء من سحرها [8]."
+  },
+  {
+    "q": "Dollabella is Antony's ______.",
+    "options": ["general", "friend", "relative", "officer"],
+    "correct": 1,
+    "feedback": "دولابيلا هو 'صديق' (friend) أنطوني المقرب [23]."
+  },
+  {
+    "q": "Fulvia, my wife, grew ______ / And she indeed had reason; raised a war / In Italy, to call me back.",
+    "options": ["happy", "amazed", "jealous", "pleasant"],
+    "correct": 2,
+    "feedback": "زوجة أنطوني الأولى 'فولفيا' شعرت بـ 'الغيرة' (jealous) وقامت بالحرب لتعيده إليها [24]."
+  },
+  {
+    "q": "I'll never marry, unless I am first made sure of my ______.",
+    "options": ["wealth", "will", "pleasure", "B & C"],
+    "correct": 3,
+    "feedback": "تشترط ميللامانت ضمان 'إرادتها ومتعتها' (will and pleasure) قبل الزواج [18]."
+  },
+  {
+    "q": "But I cannot admit that traitor. Lady Wishfort said. The word 'traitor' refers to ______.",
+    "options": ["Fainall", "Mirabell", "Petulant", "Wilfull"],
+    "correct": 1,
+    "feedback": "تعتبر ليدي ويشفورت 'ميرابيل' (Mirabell) خائناً لأنه تلاعب بمشاعرها [25]."
+  },
+  {
+    "q": "Thank Mr. Mirabell, ______ friend, to whose advice all is owing.",
+    "options": ["a cautious", "an unruly", "an inattentive", "an artificial"],
+    "correct": 0,
+    "feedback": "تصف مسز فينال ميرابيل بأنه صديق 'حذر/محترس' (cautious) وهو من أنقذ ثروتها [26]."
+  },
+  {
+    "q": "Antony's loss at Actium ______ the main line of action in All for Love.",
+    "options": ["aspires", "intends", "starts", "competes"],
+    "correct": 2,
+    "feedback": "الهزيمة في موقعة أكتيوم هي الحدث الذي 'يبدأ' (starts) به الخط الدرامي للمسرحية [16]."
+  },
+  {
+    "q": "To be a mighty queen ______ asks Cleopatra to call ______ to help her.",
+    "options": ["love", "reason", "magnitude", "grief"],
+    "correct": 1,
+    "feedback": "أليكساس يطلب من كليوباترا الاحتكام إلى 'العقل' (reason) لتتصرف كملكة [27]."
+  },
+  {
+    "q": "Half of Millamant's fortune depends upon her marrying with Lady Wishfort's ______.",
+    "options": ["approbation", "moderation", "antagonism", "speculation"],
+    "correct": 0,
+    "feedback": "ميراث ميللامانت معلق على زواجها بـ 'موافقة' (approbation) خالتها ليدي ويشفورت [28]."
+  },
+  {
+    "q": "Antony did not think of refusing Cleopatra's presents. If he did -he believed- she would think him ______.",
+    "options": ["resolute", "barbarous", "coward", "mean"],
+    "correct": 1,
+    "feedback": "قبل أنطوني الهدايا خشية أن تظنه كليوباترا 'بربرياً' (barbarous) وجلفاً [29]."
+  },
+ {
+    "q": "Mrs. Marwood's main motif of action is",
+    "options": ["jealousy", "pretense", "wit", "affectation"],
+    "correct": 0,
+    "feedback": "الدافع الرئيسي لمس ماروود هو الغيرة (jealousy)؛ فهي تحب ميرابيل وتغار من ميللامانت، وتتآمر مع فينال للانتقام [58، 61]."
+  },
+  {
+    "q": "\"Where modesty's ill manners, tis but fit/ that impudence and malice pass for ....\"",
+    "options": ["comedy", "sincerity", "prestige", "wit"],
+    "correct": 3,
+    "feedback": "هذا الاقتباس لميرابيل يعني أنه في مجتمع بلا أخلاق، تعتبر الوقاحة والخبث بمثابة فطنة (wit) [1]."
+  },
+  {
+    "q": "In 1660, Charles II issued patents to re-establish theatres. He realized his court would benefit in [ _____ ].",
+    "options": ["establishment", "pledges", "prestige", "fortune"],
+    "correct": 2,
+    "feedback": "أدرك الملك تشارلز الثاني أن بلاطه سيستفيد من حيث 'الهيبة والاعتبار' (prestige) عند إعادة افتتاح المسارح [2]."
+  },
+  {
+    "q": "\"You would affect a cruelty not in your nature\". The speaker is ......",
+    "options": ["Mr. Fainall", "Mr. Mirabell", "Millamant", "Lady Wishfort"],
+    "correct": 1,
+    "feedback": "المتحدث هو ميرابيل، وهو يخبر ميللامانت أنها تتصنع القسوة بينما هي في الحقيقة ترغب في الإعجاب [3]."
+  },
+  {
+    "q": "Act I in Congreve's play is set in St. James's Park.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ أحداث الفصل الأول تقع في مقهى الشوكولاتة (Chocolate House)، بينما الفصل الثاني هو الذي يقع في الحديقة [4]."
+  },
+  {
+    "q": "The Restoration of the monarchy was in 1760.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ تاريخ عودة الملكية (Restoration) هو 1660 [5]."
+  },
+  {
+    "q": "\"Oh my dear friend, how can I enumerate the benefits that I have received from your goodness.\" The speaker is",
+    "options": ["Lady Wishfort", "Mincing", "Mrs. Marwood", "Millamant"],
+    "correct": 0,
+    "feedback": "ليدي ويشفورت هي من قالت ذلك لمس ماروود شاكرةً إياها على كشف 'الخيانة' [6]."
+  },
+  {
+    "q": "To introduce Octavia into Alexandria, Dryden said he might use the privilege of",
+    "options": ["a critic", "a dramatist", "a poet", "an actor"],
+    "correct": 2,
+    "feedback": "استخدم درايدن 'امتياز الشاعر' (privilege of a poet) لتبرير إحضار أوكتافيا للإسكندرية درامياً [7]."
+  },
+  {
+    "q": "\"I'll never marry, unless I am first made sure of my will and pleasure\". said.",
+    "options": ["Mincing", "Foible", "Millamant", "Mrs. Marwood"],
+    "correct": 2,
+    "feedback": "هذه جملة ميللامانت الشهيرة أثناء وضع شروطها للزواج من ميرابيل [8]."
+  },
+  {
+    "q": "\"...... art thou false? My friend deceive me?\"",
+    "options": ["Marwood", "Mrs. Fainall", "Millamant", "Mirabell"],
+    "correct": 3,
+    "feedback": "هذه العبارة من ميرابيل وهو يعبر عن صدمته من خيانة صديقه فينال في بداية المسرحية [9]."
+  },
+  {
+    "q": "In the restoration Drama, marriages were arranged. However, love was not impossible.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ الزيجات كانت تُرتب عائلياً، لكن الحب كان لا يزال ممكناً [10]."
+  },
+  {
+    "q": "\"To you it should be meritorious that I have been......\" Mrs. Marwood said to Mr. Fainall",
+    "options": ["cruel", "vicious", "happy", "disappointed"],
+    "correct": 1,
+    "feedback": "مس ماروود تخبر فينال أن كونها 'خبيثة' (vicious) تجاه الآخرين هو دليل على وفائها له [11]."
+  },
+  {
+    "q": "\"If it must all come out, why let 'em know it, 'tis but the way of the world. That shall not urge me to relinquish of abate one little of my terms; no, I will insist the more.\" said",
+    "options": ["Mr. Mirabell", "Millamant", "Mr. Fainall", "Mrs. Marwood"],
+    "correct": 2,
+    "feedback": "فينال هو من يقول هذا عندما يقرر المضي قدماً في خطة الابتزاز المالي [12]."
+  },
+  {
+    "q": "The way of the world was first published in",
+    "options": ["1630", "1670", "1700", "1760"],
+    "correct": 2,
+    "feedback": "تاريخ النشر هو 1700 [13]."
+  },
+  {
+    "q": "According to Dryden, the greatest error in the contrivance of his plot seems to be in the person of Alexas.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الخطأ الأكبر كان في شخصية 'أوكتافيا' حسب مقدمة درايدن [7]."
+  },
+  {
+    "q": "Congreve's play is concluded with the",
+    "options": ["preface", "epilogue", "intrigues", "prologue"],
+    "correct": 1,
+    "feedback": "المسرحية تنتهي بالخاتمة (epilogue) [14]."
+  },
+  {
+    "q": "The counter-plot happens when sir Wilfull decides to settle home again.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ المؤامرة المضادة (counter-plot) هي خطة ميرابيل القانونية المتعلقة بعقد الأمانة لاستعادة الأموال [15]."
+  },
+  {
+    "q": "\"Antony and Cleopatra is a subject which has not been treated by the greatest wits of our nation after Shakespeare.\" Dryden wrote in his Preface.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ درايدن قال أنها عولجت (has been treated) من قبل آخرين ولكنه قدم رؤية جديدة [16]."
+  },
+  {
+    "q": "\"I had rather be his relation than his acquaintance/ he has something of food-nature,\" the pronouns he refers to",
+    "options": ["Mr. Mirabell", "Sir Wilfull", "Sir. Roland", "Mr. Fainall"],
+    "correct": 1,
+    "feedback": "يشير ميرابيل هنا إلى سير ويلفل ويتود [17]."
+  },
+  {
+    "q": "\"Well, well, he does not always think before he speaks. / We have all our failings; you are too hard upon him, you are, faith.\" The speaker is",
+    "options": ["Mr. Fainall", "Waitwell", "Witwoud", "Sir Roland"],
+    "correct": 2,
+    "feedback": "ويتود هو المتحدث، وهو يدافع عن صديقه بيتولانت [18]."
+  },
+  {
+    "q": "In the Restoration Drama, the epilogues were",
+    "options": ["essential", "insignificant", "unnecessary", "not needed"],
+    "correct": 0,
+    "feedback": "الخواتم (epilogues) كانت تعتبر أجزاءً أساسية وجوهرية من العمل المسرحي [19]."
+  },
+  {
+    "q": "Dryden justified Antony in some measure by making",
+    "options": ["Cleopatra unhappy", "Octavia jealous", "Antony depressed", "Octavia's departure from herself"],
+    "correct": 3,
+    "feedback": "برر درايدن موقف أنطوني بجعل رحيل أوكتافيا يبدو وكأنه نابع من قرارها الشخصي [20]."
+  },
+  {
+    "q": "\"The greatest error in the contrivance seems to be in the person of.",
+    "options": ["Antony", "Cleopatra", "Octavia", "Dollabella"],
+    "correct": 2,
+    "feedback": "الخطأ الأكبر في الحبكة كما ذكره المؤلف هو شخصية أوكتافيا [7]."
+  },
+  {
+    "q": "The main character in Dryden's play is",
+    "options": ["M. Antony", "Alexas", "J. Caesar", "Octavia"],
+    "correct": 0,
+    "feedback": "مارك أنطوني هو الشخصية المركزية في مسرحية درايدن [21]."
+  },
+  {
+    "q": "\"The discovery of yours sham addresses to her, Has provoked this separation.\" The pronoun her refers to",
+    "options": ["Mr. Fainall", "Foible", "Millamant", "Lady Wishfort"],
+    "correct": 3,
+    "feedback": "الضمير يشير إلى ليدي ويشفورت التي تظاهر ميرابيل بحبها ليخفي حبه الحقيقي [22]."
+  },
+  {
+    "q": "\"Moderation\", according to Dryden, \"is and establishment of ....\"",
+    "options": ["significance", "greatness", "differences", "pecurliarity"],
+    "correct": 1,
+    "feedback": "الاعتدال هو أساس العظمة (greatness) في نظر درايدن [23]."
+  },
+  {
+    "q": "\"Those.... which in another woman would be odious serve but to make her more agreeable.\"",
+    "options": ["realities", "differences", "certainties", "affectations"],
+    "correct": 3,
+    "feedback": "يقصد ميرابيل 'تصنعات' (affectations) ميللامانت التي تزيدها جاذبية في نظره [24]."
+  },
+  {
+    "q": "The characters in Congreve's play .....",
+    "options": ["manipulate each other", "are defeated", "are never manipulated against", "are bad-tempered"],
+    "correct": 0,
+    "feedback": "شخصيات الكوميديا تتلاعب ببعضها البعض باستمرار من خلال الخداع والمناورات [25]."
+  },
+  {
+    "q": "A basic theme in Dryden's all for love is that Antony oscillates from one allegiance to another",
+    "options": ["love and duty", "poverty and wealth", "family and wife", "A & B & C"],
+    "correct": 0,
+    "feedback": "الثيمة الأساسية هي تأرجح أنطوني بين الحب (كليوباترا) والواجب (روما) [26]."
+  },
+  {
+    "q": "In Act I, Mr. Mirabell describes Millamant as having no follies",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ ميرابيل يقر بوجود حماقاتها (follies) ويقول أنه يحبها بسببها [24]."
+  },
+  {
+    "q": "\"He has something of good-nature, and does not always want wit\" the pronoun he refers to",
+    "options": ["Sir Wilfull", "Mr. Fainall", "Mirabell", "Sir Roland"],
+    "correct": 0,
+    "feedback": "الحديث هنا عن شخصية سير ويلفل [17]."
+  },
+  {
+    "q": "Dryden had justified Antony in some measure 'by making Octavia's departure to proceed from herself.'",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ ذكر درايدن في مقدمته أنه برر موقف أنطوني جزئياً بجعل رحيل أوكتافيا يبدو وكأنه نابع من إرادتها الخاصة [1]."
+  },
+  {
+    "q": "In the counter-plot, Millamant agrees to marry Mirabell.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ في سياق 'المؤامرة المضادة' (المناورات القانونية)، تتظاهر ميللامانت بالموافقة على الزواج من سير ويلفل لإنقاذ ميراثها، لكنها في النهاية تتزوج ميرابيل [59، 75]."
+  },
+  {
+    "q": "Love was always possible in the Restoration drama.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ على الرغم من أن الزيجات كانت تُرتب عائلياً، إلا أن الحب كان دائماً ممكناً في مسرح تلك الفترة [2]."
+  },
+  {
+    "q": "The play's plot is simplified by intrigues.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الحبكة تصبح أكثر تعقيداً (complicates) بسبب تداخل مكائد الخدم مع أسيادهم [3]."
+  },
+  {
+    "q": "The most brilliant achievement of Congreve's plays was 'The Way of the World'.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ تُعتبر مسرحية 'طريقة العالم' هي الإنجاز الأبرز والأكثر ذكاءً لكونغريف [4]."
+  },
+  {
+    "q": "When the Restoration of the monarchy happened in 1660 one of the first things to be reinstated was drama.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ كان المسرح من أوائل الأشياء التي أعيدت مع عودة الملكية في عام 1660 [5]."
+  },
+  {
+    "q": "'In what figure shall I gave his heart the first impression.' The speaker is Lady Wishfort.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ ليدي ويشفورت هي من قالت هذه العبارة وهي تتجهز لاستقبال 'سير رولاند' (الخادم المتنكر) [6]."
+  },
+  {
+    "q": "The kind of comedy that was revived in the Restoration period was that of Shakespeare.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الكوميديا التي أُحييت كانت أعمال بن جونسون وبومونت وفليتشر، وليس شكسبير [7]."
+  },
+  {
+    "q": "Arabella Languish is Foible.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ أرابيلا لانغويش (Arabella Languish) هو الاسم السابق للسيدة فينال (Mrs. Fainall) قبل زواجها، بينما فويبل (Foible) هي الخادمة [1]."
+  },
+  {
+    "q": "All For Love is a masterpiece of its own.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ توصف مسرحية 'كل شيء من أجل الحب' بأنها تحفة فنية (masterpiece) في فئتها [2]."
+  },
+  {
+    "q": "The comic dramatists filled their plays with wit, elegance and cynicism.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ ملأ كُتاب الكوميديا مسرحياتهم بالفطنة، الأناقة، والسخرية (cynicism) [3]."
+  },
+  {
+    "q": "W. Congreve's The Way of the World was not popular.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ المسرحية لم تكن مشهورة عند عرضها الأول لأنها لم تُعد لتناسب الذوق العام السائد حينها [4]."
+  },
+  {
+    "q": "The major conflict in All for Love is that between good and evil.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الشخصيات الرئيسية في المسرحية ليست خيرة تماماً ولا شريرة تماماً (neither wholly good nor evil)، والصراع يدور حول الحب والواجب [5]."
+  },
+  {
+    "q": "One main underlying theme- in the design of All for Love- is the recognition that excess of emotions is recommended.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الإفراط في المشاعر (excess of emotions) هو أمر منبوذ أو مفند (refuted) في مسرحية درايدن [6]."
+  },
+  {
+    "q": "The kind of comedy that was revived in the Restoration period was that of Shakespeare.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الكوميديا التي أُحييت كانت أعمال بن جونسون وبومونت وفليتشر [7]."
+  },
+  {
+    "q": "The kind of tragedy that was revived in the Restoration period was that of Ben Jonson and Fletcher.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ بن جونسون وفليتشر اشتهروا بالكوميديا التي أُحييت، وليس التراجيديا [7]."
+  },
+  {
+    "q": "Charles II realized his court would benefit in supremacy.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ أدرك الملك أن البلاط سيستفيد من حيث 'الهيبة والاعتبار' (prestige) [8]."
+  },
+  {
+    "q": "Dryden's play All for Love is introduced by the epilogue.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ المسرحية تبدأ بالمقدمة (Preface) وليس الخاتمة [9]."
+  },
+  {
+    "q": "Dryden has been called the Father of English criticism.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ يُعتبر درايدن 'أبو النقد الإنجليزي' [10]."
+  },
+  {
+    "q": "All for Love is not Dryden's only play to have a classic status.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ المسرحية هي حالياً العمل الوحيد لدرايدن الذي يُعتبر ذا مكانة كلاسيكية (classic status) [11]."
+  },
+  {
+    "q": "Restoration Drama explicitly states for the audience an ideal mode of life.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ المسرح لا يقدم نموذجاً مثالياً للحياة بل يسخر من الحماقات والعيوب البشرية [12]."
+  },
+  {
+    "q": "The Restoration drama cannot be distinguished by seriousness of purpose.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ لم يتميز بالجدية بل بالفطنة والترفيه [13]."
+  },
+  {
+    "q": "The Restoration playwrights drew plots of comic intrigues from the Roman theatre.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ استمد الكتاب حبكاتهم الكوميدية من المسرح الروماني [14]."
+  },
+  {
+    "q": "Dryden thought Congreve his natural",
+    "options": ["enemy", "rival", "successor", "predecessor"],
+    "correct": 2,
+    "feedback": "اعتبر درايدن أن كونغريف هو 'خليفته الطبيعي' (natural successor) [15]."
+  },
+  {
+    "q": "Dryden had justified Antony in some measure 'by making Octavia's departure to proceed from'",
+    "options": ["herself", "Octavius", "Cleopatra", "his own design"],
+    "correct": 0,
+    "feedback": "برر درايدن موقف أنطوني بجعل رحيل أوكتافيا يبدو وكأنه نابع من 'نفسها' (herself) [14، 185]."
+  },
+  {
+    "q": "Her follies are so ....... or so artful, that they become her",
+    "options": ["natural", "artful", "artificial", "D. A&B"],
+    "correct": 0,
+    "feedback": "الكلمة هي 'طبيعية' (natural)؛ ميرابيل يصف حماقات ميللامانت بأنها طبيعية وتليق بها [18، 87]."
+  },
+  {
+    "q": "W. Congreve's play ends with",
+    "options": ["reconciliation", "disagreement", "improbability", "distress"],
+    "correct": 0,
+    "feedback": "تنتهي المسرحية بـ 'المصالحة' (reconciliation) وقبول ليدي ويشفورت لزواج ميرابيل وميللامانت [16]."
+  },
+  {
+    "q": "Now with your permission Sir Rowland I will",
+    "options": ["be doubtful", "set a new plan", "be determined", "peruse my letter"],
+    "correct": 3,
+    "feedback": "ليدي ويشفورت تقول أنها ستقوم بـ 'قراءة رسالتها' (peruse my letter) أمام سير رولاند [17]."
+  },
+  {
+    "q": "The discovery of your sham addresses to her, has provoked this separation. The pronoun her refers to",
+    "options": ["Mrs. Fainall", "Foible", "Millamant", "Lady Wishfort"],
+    "correct": 3,
+    "feedback": "الضمير يشير إلى ليدي ويشفورت التي تظاهر ميرابيل بالتودد إليها [15، 85]."
+  },
+  {
+    "q": "The comic sense is achieved when the characters ....... to conform to the ideal code.",
+    "options": ["prosper", "fail", "bring about", "tolerate"],
+    "correct": 1,
+    "feedback": "يتحقق الحس الكوميدي عندما 'تفشل' (fail) الشخصيات في الالتزام بالمعايير المثالية [18]."
+  },
+  {
+    "q": "In Act II, Mrs. Fainall points out a fact: 'If we will be happy, we must find the means'",
+    "options": ["in ourselves", "among ourselves", "in the outside world", "A&B"],
+    "correct": 3,
+    "feedback": "مسز فينال تقول أن السعادة تُكتشف 'في أنفسنا' و 'بيننا' (A&B) [19]."
+  },
+  {
+    "q": "Mrs. Marwood's main motif of action is",
+    "options": ["jealousy", "pretense", "certainty", "affectation"],
+    "correct": 0,
+    "feedback": "الدافع الرئيسي لمس ماروود هو الغيرة (jealousy) [20]."
+  },
+  {
+    "q": "My nephew will / get an inkling of my designs. The speaker is",
+    "options": ["Lady Wishfort", "Sir Roland", "Mr. Fainall", "Petulant"],
+    "correct": 1,
+    "feedback": "المتحدث هو سير رولاند (ويتول المتنكر) [17]."
+  },
+  {
+    "q": "Restoration comedy dealt with the world of",
+    "options": ["fashion", "courtship", "conspiracies", "A & B & C"],
+    "correct": 3,
+    "feedback": "تناولت الكوميديا عالم الموضة، المغازلة، والمؤامرات (A & B & C) [21]."
+  },
+  {
+    "q": "The characters in Congreve's play",
+    "options": ["manipulate", "cooperate", "collaborate", "communicate"],
+    "correct": 0,
+    "feedback": "تتميز الشخصيات بـ 'التلاعب' (manipulate) ببعضها البعض [22]."
+  },
+  {
+    "q": "Satire, he thinks, you ....... to expect. Congreve wrote in the Prologue.",
+    "options": ["ought", "ought not"],
+    "correct": 1,
+    "feedback": "العبارة هي 'لا ينبغي' (ought not) توقع الهجاء [23]."
+  },
+  {
+    "q": "Foible conspired because in compliance with",
+    "options": ["Waitwell's excuses", "Mrs. Marwood's treachery", "Mirabell's assurances", "Mr. Fainall's temper"],
+    "correct": 2,
+    "feedback": "تآمرت فويبل بناءً على 'تأكيدات ميرابيل' (Mirabell's assurances) [24]."
+  },
+  {
+    "q": "Sir Wilfull eventually ....... to proceed with his travels.",
+    "options": ["refuses", "designs", "declines", "focusses"],
+    "correct": 1,
+    "feedback": "يقرر (designs) سير ويلفل في النهاية المضي قدماً في رحلاته [25]."
+  },
+  {
+    "q": "Restoration playwrights drew plots of comic intrigue from the ....... theatre.",
+    "options": ["Roman", "Greek", "English", "Italian"],
+    "correct": 0,
+    "feedback": "استلهم الكتاب حبكاتهم من المسرح الروماني [18، 31]."
+  },
+  {
+    "q": "I thought you had ....... France at all adventures.",
+    "options": ["left", "returned from", "designed for", "resided in"],
+    "correct": 2,
+    "feedback": "العبارة هي 'خططت للذهاب إلى' (designed for) فرنسا [26]."
+  },
+  {
+    "q": "In the works of ...... the wit was suggestive and the dialogue libertine",
+    "options": ["Ben Jonson", "Fletcher", "Beaumont", "A&B&C"],
+    "correct": 3,
+    "feedback": "كان الحوار متحرراً عند جونسون وبومونت وفليتشر (A&B&C) [27]."
+  },
+  {
+    "q": "Congreve's play presents",
+    "options": ["ideals", "morals", "manners", "results innovation"],
+    "correct": 2,
+    "feedback": "المسرحية هي 'كوميديا أخلاق' (comedy of manners) [28]."
+  },
+  {
+    "q": "Sir Witwoud is a relative to",
+    "options": ["Lady Wishfort", "Sir. Wilfull", "Mr. Mirabell", "Mr. Fainall"],
+    "correct": 1,
+    "feedback": "ويتود هو الأخ غير الشقيق لسير ويلفل (Sir Wilfull) [29]."
+  },
+  {
+    "q": "My niece exerts a lawful claim, having matched herself by my",
+    "options": ["advice", "direction", "confidence", "restriction"],
+    "correct": 1,
+    "feedback": "تقول ليدي ويشفورت أن ابنة أختها تزوجت بـ 'توجيهها' (direction) [30]."
+  },
+  {
+    "q": "In the Restoration Drama, the epilogues were",
+    "options": ["essential", "moderate", "trivial", "not needed"],
+    "correct": 0,
+    "feedback": "كانت الخواتم تعتبر أجزاءً 'أساسية' (essential) [31]."
+  },
+  {
+    "q": "The Restoration drama includes ...... of human failings.",
+    "options": ["a ridicule", "a disdain", "an appreciation", "an innovation"],
+    "correct": 0,
+    "feedback": "تضمن المسرح 'سخرية' (ridicule) من الحماقات البشرية [28]."
+  },
+  {
+    "q": "Raillery, raillery, madam; we have no animosity. We hit off a little wit now and then, but no animosity. The speaker is",
+    "options": ["Witwoud", "Mirabell", "Lady Wishfort", "Fainall"],
+    "correct": 0,
+    "feedback": "المتحدث هو ويتود [32]."
+  },
+  {
+    "q": "This reflection moved me to design some characters which should appear ....... through an affected wit.",
+    "options": ["glorious", "ridiculous", "fantastic", "terrific"],
+    "correct": 1,
+    "feedback": "أراد المؤلف جعل الشخصيات تبدو 'سخيفة' (ridiculous) [33]."
+  },
+  {
+    "q": "At Millamant's testimony of Obedience Lady Wishfort was",
+    "options": ["happy", "doubtful", "revived", "annoyed"],
+    "correct": 2,
+    "feedback": "شعرت ليدي ويشفورت بـ 'الانتعاش' (revived) لرؤية طاعة ميللامانت [34]."
+  },
+  {
+    "q": "This reflection moved me to ....... some characters which should appear ridiculous through an affected wit.",
+    "options": ["recover", "design", "implement", "employ"],
+    "correct": 1,
+    "feedback": "استخدم المؤلف كلمة 'تصميم' (design) [33]."
+  },
+  {
+    "q": "Oh my dear friend, how can I enumerate the mar ....... that I have received from your goodness.",
+    "options": ["benefits", "ideology", "realities", "agonies"],
+    "correct": 0,
+    "feedback": "الكلمة المفقودة هي 'الفوائد/الأفضال' (benefits) [35]."
+  },
+  {
+    "q": "In what figure shall I gave his heart the first impression. The speaker is",
+    "options": ["Mrs. Marwood", "Mirabell", "Lady Wishfort", "Mrs. Fainall"],
+    "correct": 2,
+    "feedback": "المتحدثة هي ليدي ويشفورت [36]."
+  },
+  {
+    "q": "To cope with such a lively audience the actors and actresses needed",
+    "options": ["stamina (determination)", "strong personalities", "haziness", "A&B"],
+    "correct": 3,
+    "feedback": "احتاج الممثلون للقدرة على التحمل وشخصيات قوية (A&B) [37]."
+  },
+  {
+    "q": "Mirabell ....... to Mrs. Fainall this deed of trust",
+    "options": ["took from", "restored to", "rejected for", "declined"],
+    "correct": 1,
+    "feedback": "قام ميرابيل بـ 'إعادة' (restored to) عقد الأمانة للسيدة فينال [38]."
+  },
+  {
+    "q": "At the end of the play, Mrs. Fainall ....... control on her fortune.",
+    "options": ["lost", "gained independent", "wasted", "squandered"],
+    "correct": 1,
+    "feedback": "في النهاية، 'اكتسبت' مسز فينال تحكماً مستقلاً في ثروتها [39]."
+  },
+  {
+    "q": "The dialogue in The Way of the World is",
+    "options": ["sentimental", "foreign", "common language", "theatrical"],
+    "correct": 2,
+    "feedback": "يتميز الحوار بكونه 'لغة مشتركة/سهلة' وتلقائية [31]."
+  },
+  {
+    "q": "To you it should be meritorious that I have been ....... Mrs. Marwood said to Mr. Fainall.",
+    "options": ["cruel", "vicious", "happy", "disappointed"],
+    "correct": 1,
+    "feedback": "الكلمة هي 'خبيثة' (vicious) [40]."
+  },
+  {
+    "q": "Dryden sought in All for Love",
+    "options": ["economy", "fluency", "elegance", "A & B & C"],
+    "correct": 3,
+    "feedback": "سعى درايدن للإيجاز، الفصاحة، والأناقة (A & B & C) [2]."
+  },
+  {
+    "q": "The depth of dramatic vision characterize the style of W. Shakespeare.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ يتميز أسلوب شكسبير بالعمق في الرؤية الدرامية مقارنة بتبسيط درايدن للحبكة [1]."
+  },
+  {
+    "q": "All for Love was published in the 1677.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح حسب مفتاح الامتحان، رغم أن الأوراق الذهبية تذكر أحياناً 1678 كعام للنشر، إلا أن العمل كُتب وعُرض في 1677 [184، 187]."
+  },
+  {
+    "q": "The Restoration of the monarchy happened in 1660.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ عاد الملك تشارلز الثاني من المنفى في فرنسا ليتولى الحكم في عام 1660 [2]."
+  },
+  {
+    "q": "Love was never possible in the Restoration drama.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ تذكر المصادر أن 'الحب كان ممكناً دائماً' (Love was always possible) رغم أن الزواج كان يُرتب لأسباب مادية [3]."
+  },
+  {
+    "q": "The plot in Congreve's play is simplified by intrigues.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ المؤامرات والمكائد تزيد الحبكة تعقيداً (complicates) ولا تبسطها [4]."
+  },
+  {
+    "q": "The Restoration drama can be distinguished by seriousness of purpose.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ تميز المسرح في تلك الفترة بالفطنة والترفيه (wit and amusement) وليس بالجدية الصارمة [5]."
+  },
+  {
+    "q": "Antony believed Octavia's first real objective was [ _____ ] first.",
+    "options": ["to support Ventidius", "to instigate Dollabella", "to show her duty", "to control a kingdom"],
+    "correct": 2,
+    "feedback": "اعتقد أنطوني أن هدف أوكتافيا هو إظهار 'واجبها' (duty) كزوجة لتعيده إلى روما [6]."
+  },
+  {
+    "q": "Dryden asserts that in his style he has [ _____ ] to imitate that of Shakespeare.",
+    "options": ["denied", "negated", "documented", "professed"],
+    "correct": 3,
+    "feedback": "صرح (professed) درايدن في مقدمته أنه حاول تقليد أسلوب شكسبير 'الإلهي' في هذه المسرحية [7]."
+  },
+  {
+    "q": "According to Dryden \"[ _____ ] is doubtless an establishment of greatness\".",
+    "options": ["charm", "Moderation", "happiness", "disappointment"],
+    "correct": 1,
+    "feedback": "يرى درايدن أن 'الاعتدال' (Moderation) هو أساس العظمة الحقيقي [8]."
+  },
+  {
+    "q": "The conflict in All for Love is about [ _____ ].",
+    "options": ["wit/affectation", "love/hatred", "love/duty", "good/evil"],
+    "correct": 2,
+    "feedback": "الصراع المركزي هو صراع أنطوني بين حبه لكليوباترا وواجبه تجاه روما وأسرته [9]."
+  },
+  {
+    "q": "\"I can ne'er be conquered but by [ _____ ].\"",
+    "options": ["promises", "love", "passion", "obligations"],
+    "correct": 1,
+    "feedback": "يؤكد أنطوني أنه لا يمكن هزيمته أو غزو قلبه إلا عن طريق 'الحب' (love) [10]."
+  },
+  {
+    "q": "Dryden claims in his preface that \"The greatest error in the contrivance seems to be in the person of [ _____ ].\"",
+    "options": ["Antony", "Cleopatra", "Octavia", "Dollabella"],
+    "correct": 2,
+    "feedback": "اعتبر درايدن أن إدخال شخصية 'أوكتافيا' (Octavia) كان أكبر خطأ فني لأنه شتت تعاطف الجمهور [11]."
+  },
+  {
+    "q": "Antony's loss at Actium [ _____ ] All for Love.",
+    "options": ["starts", "concludes", "ends", "negates"],
+    "correct": 0,
+    "feedback": "تبدأ (starts) المسرحية زمنياً بعد هزيمة أنطوني في موقعة أكتيوم البحرية [9]."
+  },
+  {
+    "q": "\"an interested and professing friend, a false and a designing lover;\" is [ _____ ].",
+    "options": ["Mirabell", "Fainall", "Truewit", "Witwoud"],
+    "correct": 1,
+    "feedback": "هذا الوصف ينطبق على 'فينال' (Fainall) الذي يتظاهر بالصداقة وهو في الحقيقة مخادع وماكر [12]."
+  },
+  {
+    "q": "The Way of the World was first published in [ _____ ].",
+    "options": ["1478", "1590", "1700", "1810"],
+    "correct": 2,
+    "feedback": "نُشرت المسرحية لأول مرة في عام 1700، وهو بداية القرن الثامن عشر [13]."
+  },
+  {
+    "q": "\"In justice to you, I have made you privy to my whole design\". The pronoun you refers to [ _____ ].",
+    "options": ["Mrs. Marwood", "Mirabell", "Mrs. Fainall", "Fainall"],
+    "correct": 2,
+    "feedback": "يخاطب ميرابيل 'السيدة فينال' (Mrs. Fainall) ويخبرها أنه جعلها مطلعة (privy) على خطته كاملة [14]."
+  },
+  {
+    "q": "\"Her follies are so [ _____ ], or so [ _____ ], that they become her.\"",
+    "options": ["fake, real", "good, bad", "natural, artful", "grave, silly"],
+    "correct": 2,
+    "feedback": "يصف ميرابيل حماقات ميللامانت بأنها 'طبيعية' (natural) أو 'فنية/مصطنعة' (artful) لدرجة أنها تليق بها [15]."
+  },
+  {
+    "q": "Congreve claims his sole pretence is [ _____ ].",
+    "options": ["to please", "to instruct", "to reform", "to elevate"],
+    "correct": 0,
+    "feedback": "يذكر كونغريف في المقدمة أن هدفه الوحيد (sole pretence) هو الإمتاع (to please) [16]."
+  },
+  {
+    "q": "I'll never marry, unless I am first made sure of my [ _____ ].",
+    "options": ["wealth", "will", "pleasure", "B & C"],
+    "correct": 3,
+    "feedback": "تشترط ميللامانت لزواجها ضمان 'إرادتها' و 'متعتها' (will and pleasure) [17]."
+  },
+  {
+    "q": "The absurdity of some of Congreve's characters stems from [ _____ ] of wit.",
+    "options": ["reality", "affectation", "affection", "trickery"],
+    "correct": 1,
+    "feedback": "تأتي سخافة الشخصيات مثل 'ويتود' من 'تصنعهم' (affectation) للذكاء والفطنة وهم ليسوا كذلك [18]."
+  },
+  {
+    "q": "Half of Millamant's fortune depends upon her marrying with Lady Wishfort's [ _____ ].",
+    "options": ["approval", "expectation", "dislike", "speculation"],
+    "correct": 0,
+    "feedback": "ميراث ميللامانت مشروط بزواجها بموافقة (approval/approbation) خالتها ليدي ويشفورت [19]."
+  },
+  {
+    "q": "In Witwoud, Congreve drew a character who is absurd because of his [ _____ ].",
+    "options": ["elegance", "indifference", "falsehoods", "affectation"],
+    "correct": 3,
+    "feedback": "ويتود شخصية تافهة بسبب 'تصنعه' (affectation) وادعائه الدائم للحكمة والذكاء [18]."
+  },
+  {
+    "q": "One main underlying theme in the design of All for Love is the recognition that excess of emotions is recommended.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ المسرحية الكلاسيكية تميل للسيطرة على المشاعر، والإفراط فيها (excess) يعتبر عيباً يؤدي للسقوط [9]."
+  },
+  {
+    "q": "Arabella Languish is Foible.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ أرابيلا لانغويش هو الاسم السابق لـ 'السيدة فينال' (Mrs. Fainall) قبل زواجها، وفويبل هي الخادمة [20]."
+  },
+  {
+    "q": "The Way of the World was not popular when first published.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ لم تحقق المسرحية نجاحاً جماهيرياً كبيراً عند عرضها الأول لأنها كانت أرقى من 'الذوق العام' السائد حينها [13]."
+  },
+  {
+    "q": "An unhappy marriage, in Congreve's play is that of Mr. and Mrs. Fainall.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ زواج فينال وزوجته هو مثال للزواج التعيس القائم على المصلحة المادية والخداع [62، 110]."
+  },
+  {
+    "q": "Sir Tony Witwoud is Lady Wishfort's nephew.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ سير ويلفل (Sir Wilfull) هو ابن أخت ليدي ويشفورت، أما توني ويتود فهو أخوه غير الشقيق [67، 94]."
+  },
+  {
+    "q": "Foible said if it were not for Mirabell's promises, she would not have conspired against lady Wishfort.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ اعترفت فويبل أنها تآمرت لأن ميرابيل أغراها بالوعود وضمان عدم تضرر الليدي [149، 150]."
+  },
+  {
+    "q": "The main theme of W. Congreve's The Way of the World is about how to defeat evil.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الثيمة الأساسية هي 'كوميديا الأخلاق' التي تركز على الفطنة (wit) والعلاقات الاجتماعية والزواج الواقعي [69، 82]."
+  },
+  {
+    "q": "The theatres provided good settings for the performance.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ وفرت المسارح في ذلك العصر مواقع جيدة ومناسبة للعروض المسرحية [1]."
+  },
+  {
+    "q": "In 1670, Charles II issued patents to re-establish theatres.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ أصدر الملك براءات الاختراع لإعادة المسارح في عام 1660 [71، 72]."
+  },
+  {
+    "q": "Act III is set in [ _____ ].",
+    "options": ["at St. James' park", "a chocolate house", "Lady Wishfort's house", "in a theatre"],
+    "correct": 2,
+    "feedback": "تقع أحداث الفصل الثالث بالكامل في منزل ليدي ويشفورت [2]."
+  },
+  {
+    "q": "\"But first prevent their / plot: the half of Millamant's fortune is too considerable to be parted with to a foe, to [ _____ ]\".",
+    "options": ["Mirabell", "Fainall", "Lady Wishfort", "Sir Wilfull"],
+    "correct": 0,
+    "feedback": "تتحدث مس ماروود عن منع ميرابيل (Mirabell) من الحصول على نصف ثروة ميللامانت [3]."
+  },
+  {
+    "q": "\"it's but morning here, I warrant, with/ you in [ _____ ]; we should count it towards afternoon.. in Shropshire\"",
+    "options": ["Paris", "London", "Milano", "Madrid"],
+    "correct": 1,
+    "feedback": "المقصود هو مدينة لندن (London)؛ حيث يندهش سير ويلفل من تأخر أهل المدينة في الاستيقاظ [4]."
+  },
+  {
+    "q": "Congreve's play Love for Love contained characters influenced by those of [ _____ ].",
+    "options": ["Shakespeare", "William Davenant", "Ben Jonson", "A&C"],
+    "correct": 2,
+    "feedback": "تأثر كونغريف بشخصيات وأسلوب الكاتب 'بن جونسون' في مسرحية Love for Love [5]."
+  },
+  {
+    "q": "\"If he says black's black - if I have a humour to say 'tis blue - let that pass.\" \"We\" refers to [ _____ ].",
+    "options": ["Mirabell and Fainall", "Sir Wilfull and Witwoud", "Witwoud and Petulant", "Mrs. Marwood and Lady Wishfort"],
+    "correct": 2,
+    "feedback": "الضمير يعود لـ 'ويتود وبيتولانت'؛ وهما يمثلان الشخصيات التي تتظاهر بالذكاء والمزاجية [4]."
+  },
+  {
+    "q": "\"Well, friend, you are enough to reconcile / me to the bad world\". The addressee is [ _____ ].",
+    "options": ["Mrs. Marwood", "Mrs. Fainall", "Fainall", "Sir Wilfull"],
+    "correct": 0,
+    "feedback": "تخاطب ليدي ويشفورت مس ماروود (Mrs. Marwood) معتقدةً أنها الصديقة الوفية الوحيدة في العالم [6]."
+  },
+  {
+    "q": "Congreve's play Love for Love (1699 [actually 1695]) [ _____ ].",
+    "options": ["was warmly received", "was a failure"],
+    "correct": 0,
+    "feedback": "تم استقبال مسرحية Love for Love بحماسة ودفء (warmly received) عند عرضها [5]."
+  },
+  {
+    "q": "\"I covenant that your / acquaintance be [ _____ ]\".",
+    "options": ["general", "precise", "exclusive", "rare"],
+    "correct": 0,
+    "feedback": "يشترط ميرابيل أن تكون معارف ميللامانت 'عامة' (general) وليست مقتصرة على أصدقاء مقربين يشاركونها الأسرار [7]."
+  },
+  {
+    "q": "Congreve invented characters who were [ _____ ] because they [ _____ ] be witty.",
+    "options": ["bored, could not", "joyful, aspired to", "strange, could be", "absurd, affected to"],
+    "correct": 3,
+    "feedback": "صمم المؤلف شخصيات 'تافهة' (absurd) لأنها 'تصنعت' (affected) الذكاء [8]."
+  },
+  {
+    "q": "\"Thank [ _____ ], a cautious friend, to whose advice all is owing.\"",
+    "options": ["Mrs. Marwood", "Mrs. Fainall", "Mr. Mirabell", "Millamant"],
+    "correct": 2,
+    "feedback": "تشكر مسز فينال ميرابيل (Mr. Mirabell) لأنه الصديق الحذر الذي أنقذ ثروتها [9]."
+  },
+  {
+    "q": "King Charles II issued patents to Thomas Killigrew and Sir William Davenant to form two companies of [ _____ ].",
+    "options": ["designers", "actors"],
+    "correct": 1,
+    "feedback": "البراءات كانت لتشكيل شركتين من الممثلين (actors) وليس المصممين [72، 75]."
+  },
+  {
+    "q": "\"Well, I'll swear I am something [ _____ ] at this testimony of your obedience; but I cannot admit that traitor.\"",
+    "options": ["sad", "depressed", "revived", "surprised"],
+    "correct": 2,
+    "feedback": "تشعر ليدي ويشفورت بالانتعاش (revived) لرؤية طاعة ميللامانت [10]."
+  },
+  {
+    "q": "\"Mirabell, if you persist in this offensive [ _____ ] you'll displease me- we shan't agree.\"",
+    "options": ["doubts", "accounts", "freedom", "claims"],
+    "correct": 2,
+    "feedback": "تحذر ميللامانت ميرابيل من 'تحرره' أو جرأته الزائدة (freedom) قبل الاتفاق [22 في صور الامتحان]."
+  },
+  {
+    "q": "\"Bless me, how have I been deceived! Why, you profess [ _____ ].\"",
+    "options": ["a libertine", "a peculiarity", "curiousity", "self-interest"],
+    "correct": 0,
+    "feedback": "تكتشف مسز فينال أن ماروود 'متحررة' (a libertine) في أفكارها رغم تظاهرها بالعكس [11]."
+  },
+  {
+    "q": "At Mirabell's provisos, Millamant was most horrid.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ وصفت ميللامانت شروط ميرابيل للزواج بأنها 'فظيعة' (horrid provisos) لأنها تضع قيوداً على تصرفاتها [1]."
+  },
+  {
+    "q": "Petulant was going to represent Mirabell's pretended uncle.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الشخص الذي كُلف بتمثيل دور العم المزيف (سير رولاند) هو الخادم 'ويتول' (Waitwell) وليس بيتولانت [63، 111]."
+  },
+  {
+    "q": "One main underlying theme- in the design of All for Love- is the recognition that excess of emotions is recommended.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ في المسرحية التراجيدية الكلاسيكية، يعتبر الإفراط في المشاعر (excess of emotions) أمراً يؤدي للتهلكة ولا يُنصح به [2]."
+  },
+  {
+    "q": "The most brilliant achievement of Congreve's plays was Sejanus.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ الإنجاز الأبرز لكونغريف هو مسرحية 'The Way of the World'، أما Sejanus فهي مسرحية لبن جونسون [3]."
+  },
+  {
+    "q": "When the Restoration of the monarchy happened in 1630 one of the first things to be reinstated was drama.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ تاريخ عودة الملكية الصحيح هو 1660 وليس 1630 [68، 71]."
+  },
+  {
+    "q": "Urge not my shame. / I lost a battle. The speaker is",
+    "options": ["Cleopatra", "Ventidius", "Octavius", "Antony"],
+    "correct": 3,
+    "feedback": "المتحدث هو أنطوني (Antony)؛ وهو يعبر عن خجله من الهزيمة في معركة أكتيوم [4]."
+  },
+  {
+    "q": "Oh, 'tis Dollabella, / Our Emperor's great _______ in the East.",
+    "options": ["lieutenant", "king", "ruler", "superior"],
+    "correct": 0,
+    "feedback": "الكلمة الصحيحة هي 'lieutenant' (ملازم/نائب)؛ حيث يصف أليكساس دولابيلا بأنه نائب الإمبراطور العظيم في الشرق [5]."
+  },
+  {
+    "q": "According to Dryden, the subject of the death of Antony and Cleopatra _______ treated by the greatest wits after Shakespeare.",
+    "options": ["was", "was not"],
+    "correct": 0,
+    "feedback": "الإجابة 'was'؛ ذكر درايدن في مقدمته أن الموضوع 'عولج' (has been treated) من قبل أعظم عقول الأمة بعد شكسبير [6]."
+  },
+  {
+    "q": "My Lord, my Lord, love will not always last / When urged with long unkindness and disdain. The speaker is",
+    "options": ["Cleopatra", "Octavia", "Fulvia", "Ventidius"],
+    "correct": 1,
+    "feedback": "المتحدثة هي أوكتافيا (Octavia)؛ وهي تخاطب أنطوني محذرة إياه من أن الحب يتلاشى مع الجفاء المستمر [7]."
+  },
+  {
+    "q": "He took unkindly, / That I forbade him Cleopatra's sight. The speaker is",
+    "options": ["Antony", "Octavius", "Dollabella", "Fulvia"],
+    "correct": 0,
+    "feedback": "المتحدث هو أنطوني (Antony)؛ يتحدث عن صديقه دولابيلا الذي استاء لأن أنطوني منعه من رؤية كليوباترا خوفاً من وقوعه في حبها [8]."
+  },
+  {
+    "q": "You misjudge: / You see through love, and that deludes your sight. said to",
+    "options": ["Cleopatra to Dollabella", "Dollabella to Antony", "Octavia to Antony", "Alexas to Cleopatra"],
+    "correct": 3,
+    "feedback": "قالها أليكساس لكليوباترا (Alexas to Cleopatra)؛ موضحاً أن حبها لأنطوني يجعل رؤيتها للأمور غير دقيقة [9]."
+  },
+  {
+    "q": "Does this weak passion / Become a mighty queen? The addressee is",
+    "options": ["Cleopatra", "Antony", "Ventidius", "Octavius"],
+    "correct": 0,
+    "feedback": "المخاطبة هي كليوباترا (Cleopatra)؛ يسألها أليكساس مستنكراً ضعفها العاطفي الذي لا يليق بمكانتها كملكة [10]."
+  },
+  {
+    "q": "In Act I, Mirabell describes Millamant as having no follies.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ ميرابيل يقول إنه يحبها 'بكل حماقاتها' (with all her faults) ويراها طبيعية وجذابة [11]."
+  },
+  {
+    "q": "I hear, my Lord, / You make conditions for her, / And would include her treaty. The speaker is",
+    "options": ["Octavia", "Cleopatra"],
+    "correct": 0,
+    "feedback": "المتحدثة هي أوكتافيا (Octavia)؛ تعاتب أنطوني لأنه يضع شروطاً لحماية كليوباترا في المعاهدة [12]."
+  },
+  {
+    "q": "I covenant that your / acquaintance be _______.",
+    "options": ["general", "precise", "exclusive", "rare"],
+    "correct": 0,
+    "feedback": "الكلمة هي 'عامة' (general)؛ ضمن شروط ميرابيل لميللامانت ألا تقتصر معارفها على أصدقاء مقربين يشاركونها الأسرار [13]."
+  },
+  {
+    "q": "I shall be mad, dear friend; is there no _______ for me?",
+    "options": ["remedy", "luxury", "prosperity", "comfort"],
+    "correct": 3,
+    "feedback": "الكلمة هي 'comfort' (راحة/عزاء)؛ تتساءل ليدي ويشفورت بيأس عما إذا كان هناك أي عزاء لها في محنتها [14]."
+  },
+  {
+    "q": "O dear friend, I am so ashamed that you should meet with such _______.",
+    "options": ["rewards", "results", "returns", "effects"],
+    "correct": 2,
+    "feedback": "الكلمة هي 'returns' (ردود/جزاء)؛ تعتذر ليدي ويشفورت لماروو لأنها قوبلت بجفاء من ابنتها رغم 'إخلاصها' [15]."
+  },
+  {
+    "q": "The counter-plot happens when Sir Wilfull arrives.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ المؤامرة المضادة (counter-plot) تتعلق بعقد الأمانة والمناورات القانونية لميرابيل، وليس مجرد وصول سير ويلفل [16]."
+  },
+  {
+    "q": "An interested and professing friend, a false and a designing lover; is",
+    "options": ["Mirabell", "Fainall", "Truewit", "Witwoud"],
+    "correct": 1,
+    "feedback": "هذا الوصف ينطبق على 'فينال' (Fainall)؛ فهو صديق متظاهر وعاشق مخادع يسعى لمصلحته فقط [17]."
+  },
+  {
+    "q": "The comic sense is achieved when the characters _______ to conform to the ideal code.",
+    "options": ["prosper", "fail", "bring about", "tolerate"],
+    "correct": 1,
+    "feedback": "يتحقق الحس الكوميدي عندما 'تفشل' (fail) الشخصيات في الالتزام بالمعايير المثالية للسلوك [18]."
+  }
+  ]}

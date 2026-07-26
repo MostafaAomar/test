@@ -1,0 +1,1197 @@
+{
+  "subject": " علم اللغه   ف1",
+  "lang": "en",
+  "questions": [
+    {
+      "q": "To understand the relationship between language and society is the primary goal of...",
+      "options": [
+        "linguists",
+        "applied linguists",
+        "psycholinguists",
+        "sociolinguists"
+      ],
+      "correct": 3,
+      "feedback": "الهدف الأساسي لعلم اللغة الاجتماعي (Sociolinguistics) هو دراسة العلاقة بين اللغة والمجتمع وكيفية تأثير كل منهما على الآخر."
+    },
+    {
+      "q": "The 'motherese' or 'parentese' style of speaking to infants is characterized by:",
+      "options": [
+        "Complex sentence structures and rapid speech",
+        "Short, simple sentences, high pitch, and exaggerated intonation",
+        "Using only vocabulary related to concrete objects",
+        "Speaking in a monotone voice"
+      ],
+      "correct": 1,
+      "feedback": "لغة الأم (Motherese) تتميز بجمل قصيرة وبسيطة، نبرة صوت عالية، وتنغيم مبالغ فيه لمساعدة الرضيع على استيعاب اللغة."
+    },
+    {
+      "q": "The arcuate fasciculus connects:",
+      "options": [
+        "Broca's and Wernicke's areas",
+        "Left and right hemispheres",
+        "Cortex and brain stem",
+        "Visual and auditory cortices"
+      ],
+      "correct": 0,
+      "feedback": "الحزمة القوسية (Arcuate fasciculus) هي عبارة عن ألياف عصبية تربط بين منطقة بروكا المسؤول عن الكلام ومنطقة فيرنيكا المسؤولة عن الفهم."
+    },
+    {
+      "q": "The term 'idiolect' refers to:",
+      "options": [
+        "A dialect shared by a community",
+        "An individual's unique way of speaking",
+        "A regional dialect with distinct features",
+        "A formal style of language"
+      ],
+      "correct": 1,
+      "feedback": "المصطلح (Idiolect) يعبر عن البصمة اللغوية الخاصة بكل فرد، أي الطريقة الفريدة التي يتحدث بها الشخص الواحد."
+    },
+    {
+      "q": "Which type of aphasia is characterized by fluent but often difficult-to-understand speech?",
+      "options": [
+        "Broca's aphasia",
+        "Wernicke's aphasia",
+        "Conduction aphasia",
+        "Global aphasia"
+      ],
+      "correct": 1,
+      "feedback": "حبسة فيرنيكا (Wernicke's aphasia) تسبب طلاقة في الكلام ولكن مع صعوبة شديدة في فهم المعنى أو إنتاج كلام منطقي."
+    },
+    {
+      "q": "Changing your speech to sound more like your listener is called:",
+      "options": [
+        "Style-taking",
+        "Divergence",
+        "Convergence",
+        "Hypercorrection"
+      ],
+      "correct": 2,
+      "feedback": "التقارب اللغوي (Convergence) هو تعديل أسلوب الكلام ليقترب من أسلوب السامع بهدف تقليل المسافة الاجتماعية."
+    },
+    {
+      "q": "Young children acquire their first language by...",
+      "options": [
+        "Intuitive analysis of instances of the language heard in context",
+        "Conscious analysis of instances of the language heard in context",
+        "Intuitive analysis of instances of the language heard out of context",
+        "Both A & B"
+      ],
+      "correct": 0,
+      "feedback": "الأطفال يكتسبون لغتهم الأولى من خلال التحليل الحدسي والعفوي للغة التي يسمعونها ضمن سياق اجتماعي، وليس بالتحليل الواعي للقواعد."
+    },
+    {
+      "q": "The 'tip of the tongue' phenomenon indicates that speakers often have:",
+      "options": [
+        "No memory of the word",
+        "An accurate phonological outline of the word",
+        "Complete access to their vocabulary",
+        "Difficulty with common words only"
+      ],
+      "correct": 1,
+      "feedback": "ظاهرة 'طرف اللسان' تعني أن الشخص يتذكر الهيكل الصوتي للكلمة (مثل عدد المقاطع أو الحرف الأول) لكنه يعجز عن استرجاع الكلمة كاملة."
+    },
+    {
+      "q": "To understand the nature of language in general is the primary goal of.....",
+      "options": [
+        "linguists",
+        "applied linguists",
+        "psycholinguistics",
+        "sociolinguists"
+      ],
+      "correct": 0,
+      "feedback": "الهدف الأساسي لعلماء اللسانيات (Linguists) هو فهم طبيعة اللغة بشكل عام كمنظومة بشرية."
+    },
+    {
+      "q": "The usual sequence of infant vocalizations is",
+      "options": [
+        "cooing, crying, babbling, gestures",
+        "babbling, crying, cooing, gestures",
+        "crying, cooing, babbling, gestures",
+        "none of the above"
+      ],
+      "correct": 2,
+      "feedback": "يبدأ الرضيع بالبكاء أولاً، ثم المناغاة (Cooing)، ثم الثرثرة (Babbling)، وصولاً إلى استخدام الإيماءات."
+    },
+    {
+      "q": "The simplified speech style adopted by someone that spends a lot of time interacting with a young child is called",
+      "options": [
+        "holophrase speech",
+        "standard language",
+        "caregiver speech",
+        "Both A & C"
+      ],
+      "correct": 2,
+      "feedback": "يُعرف الأسلوب المبسط الذي يستخدمه الكبار عند التحدث مع الأطفال بـ 'كلام مقدم الرعاية' (Caregiver speech)."
+    },
+    {
+      "q": "Ahmad sees a small cat on the lawn, then says to his mother, 'Kitty'. The notion that Ahmad is using that one word to imply a whole sentence would be suggestive of the hypothesis:",
+      "options": [
+        "generalization",
+        "cognitive",
+        "holophrase",
+        "none"
+      ],
+      "correct": 2,
+      "feedback": "فرضية 'الكلمة الجملة' (Holophrase) تقترح أن الطفل يستخدم كلمة واحدة للتعبير عن فكرة أو جملة كاملة."
+    },
+    {
+      "q": "Innateness refers to the idea that human beings are genetically endowed to acquire language generally, though not any particular language.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "feedback": "الفطرية تعني أن البشر مبرمجون وراثياً لاكتساب اللغة بشكل عام دون الارتباط بلغة محددة مسبقاً."
+    },
+    {
+      "q": "A language situation in which markedly divergent varieties, each with its own set of social functions, coexist throughout a community is termed....",
+      "options": [
+        "Diglossia",
+        "Bilingualism",
+        "Creole",
+        "Jargon"
+      ],
+      "correct": 0,
+      "feedback": "ازدواجية اللغة (Diglossia) تصف وجود مستويين لغويين مختلفين (مثل الفصحى والعامية) في نفس المجتمع، لكل منهما وظائفه الخاصة."
+    },
+    {
+      "q": "The language that is used as L1 by an individual is often termed as....",
+      "options": [
+        "mother tongue",
+        "dominant language",
+        "standard language",
+        "official language"
+      ],
+      "correct": 0,
+      "feedback": "اللغة الأولى (L1) التي يكتسبها الفرد منذ الولادة تسمى عادةً باللغة الأم (Mother tongue)."
+    },
+    {
+      "q": "Which of the following terms refers to a type of language with no native speakers?",
+      "options": [
+        "mother tongue",
+        "vernacular",
+        "L2",
+        "none of the above"
+      ],
+      "correct": 3,
+      "feedback": "اللغة التي لا يملكها متحدثون أصليون هي عادةً 'لغة التواصل المشترك' (Pidgin)، وبما أنها غير موجودة في الخيارات، فالإجابة هي 'لا شيء مما سبق'."
+    },
+    {
+      "q": "The study of the development of Arabic, for example, over history is called:",
+      "options": [
+        "Diachronic linguistics",
+        "Synchronic linguistics",
+        "Comparative linguistics",
+        "Applied linguistics"
+      ],
+      "correct": 0,
+      "feedback": "دراسة اللغة وتطورها عبر فترات زمنية تاريخية مختلفة تسمى اللسانيات التاريخية أو التزامنية (Diachronic)."
+    },
+    {
+      "q": "The concept that specific language abilities correspond to specific brain locations is known as",
+      "options": [
+        "Language processing",
+        "Localization view",
+        "Neurolinguistics",
+        "Cognitive linguistics"
+      ],
+      "correct": 1,
+      "feedback": "رؤية التحديد الموضعي (Localization view) هي النظرية التي تربط وظائف لغوية محددة بمناطق معينة في الدماغ."
+    },
+    {
+      "q": "The tip of the tongue phenomenon indicates that speakers often have:",
+      "options": [
+        "No memory of the word",
+        "An accurate phonological outline of the word",
+        "Complete access to their vocabulary",
+        "Difficulty with common words only"
+      ],
+      "correct": 1,
+      "feedback": "ظاهرة 'طرف اللسان' تشير إلى أن المتحدث يتذكر الشكل الصوتي العام للكلمة ولكنه لا يستطيع استحضارها بالكامل في تلك اللحظة."
+    },
+    {
+      "q": "In a dichotic listening test, what happens when a subject hears two different sounds simultaneously?",
+      "options": [
+        "They can identify both sounds equally well",
+        "They typically identify the sound from the left ear more accurately",
+        "They usually identify the sound from the right ear more accurately",
+        "They do not recognize either sound"
+      ],
+      "correct": 2,
+      "feedback": "في اختبار الاستماع الثنائي، غالباً ما يتم تمييز الأصوات القادمة من الأذن اليمنى بشكل أدق لدى الأشخاص الذين يسيطر لديهم الفص الأيسر لغوياً."
+    },
+    {
+      "q": "In Labov's study of department stores in the US, what pattern was observed regarding postvocalic /r/?",
+      "options": [
+        "All stores had similar pronunciation rates",
+        "Higher socio-economic status correlated with more /r/ sounds produced",
+        "Working-class speakers produced more /r/ sounds than middle-class speakers",
+        "There was no significant variation in pronunciation"
+      ],
+      "correct": 1,
+      "feedback": "أظهرت دراسة لابوف أن نطق حرف الـ /r/ في نهاية الكلمات يزداد كلما ارتفع المستوى الاجتماعي والاقتصادي للمتحدث."
+    },
+    {
+      "q": "Changing your speech to emphasize social distance is known as:",
+      "options": [
+        "Accommodation",
+        "Register shift",
+        "Stratification",
+        "Divergence"
+      ],
+      "correct": 3,
+      "feedback": "التباعد اللغوي (Divergence) يحدث عندما يغير المتحدث أسلوبه ليزيد من المسافة الاجتماعية بينه وبين المستمع."
+    },
+    {
+      "q": "Pointing to a tree, young Rami says, 'bird flied away.' This inaccurate use shows he is trying to learn:",
+      "options": [
+        "morphological rules",
+        "semantic",
+        "pragmatic",
+        "syntactical"
+      ],
+      "correct": 0,
+      "feedback": "استخدام 'flied' بدلاً من 'flew' يدل على أن الطفل يحاول تطبيق القواعد الصرفية (Morphological rules) بتعميم قاعدة الماضي."
+    },
+    {
+      "q": "To understand the relationship between language and society is the primary goal of......",
+      "options": ["linguists", "applied linguists", "psycholinguistics", "sociolinguists"],
+      "correct": 3,
+      "feedback": "علم اللغة الاجتماعي (Sociolinguistics) يركز بشكل أساسي على دراسة العلاقة بين اللغة والمجتمع وكيفية تأثير كل منهما على الآخر."
+    },
+    {
+      "q": "Which of the following is NOT a characteristic of early infant vocalizations?",
+      "options": ["Crying", "Cooing", "Babbling", "One-word utterances"],
+      "correct": 3,
+      "feedback": "نطق الكلمة الواحدة (One-word utterances) لا يعتبر من الأصوات الأولية (vocalizations) بل هو مرحلة لغوية متقدمة تأتي بعد الصراخ والمناغاة والثرثرة."
+    },
+    {
+      "q": "The 'motherese' or 'parentese' style of speaking to infants is characterized by:",
+      "options": ["Complex sentence structures and rapid speech", "Short, simple sentences, high pitch, and exaggerated intonation", "Using only vocabulary related to concrete objects", "Speaking in a monotone voice"],
+      "correct": 1,
+      "feedback": "تتميز لغة الأم (Motherese) بالجمل القصيرة والبسيطة، والنبرة العالية، والتنغيم المبالغ فيه لتسهيل الفهم على الرضيع."
+    },
+    {
+      "q": "The two-word stage of language development is typically characterized by:",
+      "options": ["Production of single words with meaning", "Formation of simple sentences using grammatical rules", "Combining two words to express a single idea or request", "Use of complex sentences with multiple clauses"],
+      "correct": 2,
+      "feedback": "مرحلة الكلمتين تتميز بدمج كلمتين معاً للتعبير عن فكرة واحدة أو طلب محدد، مثل 'امي أكل'."
+    },
+    {
+      "q": "Young children acquire their first language by...",
+      "options": ["Intuitive analysis in context", "Conscious analysis in context", "Intuitive analysis out of context", "Both A & B"],
+      "correct": 0,
+      "feedback": "الأطفال يكتسبون لغتهم الأولى من خلال التحليل الحدسي (Intuitive analysis) للغة التي يسمعونها ضمن سياق اجتماعي."
+    },
+    {
+      "q": "The scientific study of language is called.....",
+      "options": ["Philology", "Semantics", "Linguistics", "Lexicology"],
+      "correct": 2,
+      "feedback": "علم اللسانيات (Linguistics) هو المصطلح العلمي الذي يطلق على الدراسة العلمية والمنظمة للغة."
+    },
+    {
+      "q": "...... linguistics studies language change through time",
+      "options": ["Synchronic", "Diachronic", "Descriptive", "Applied"],
+      "correct": 1,
+      "feedback": "اللسانيات التعاقبية (Diachronic linguistics) هي التي تدرس تطور اللغة وتغيراتها عبر فترات زمنية مختلفة."
+    },
+    {
+      "q": "The goal of ...... is to identify common characteristics across different languages.",
+      "options": ["Descriptive Linguistics", "Contrastive Linguistics", "Comparative Linguistics", "Clinical Linguistics"],
+      "correct": 2,
+      "feedback": "اللسانيات المقارنة (Comparative Linguistics) تهدف إلى تحديد الخصائص المشتركة وأوجه التشابه بين اللغات المختلفة."
+    },
+    {
+      "q": "...... is concerned with the use of linguistic theories to solve real-world problems.",
+      "options": ["Historical Linguistics", "Formal Linguistics", "Theoretical Linguistics", "Applied Linguistics"],
+      "correct": 3,
+      "feedback": "علم اللغة التطبيقي (Applied Linguistics) يهتم بتوظيف النظريات اللغوية لحل مشكلات واقعية مثل تعليم اللغات أو اضطرابات النطق."
+    },
+    {
+      "q": "The arcuate fasciculus connects",
+      "options": ["Broca's and Wernicke's areas", "Left and right hemispheres", "Cortex and brain stem", "Visual and auditory cortices"],
+      "correct": 0,
+      "feedback": "الحزمة المقوسة (Arcuate fasciculus) هي المسار العصبي الذي يربط بين منطقة بروكا (المسؤولة عن الإنتاج) ومنطقة فيرنيكه (المسؤولة عن الفهم)."
+    },
+   {
+      "q": "In Broca's aphasia, speech is often............",
+      "options": ["Fluent and meaningless", "Clear and effortless", "Slow and effortful", "Grammatically accurate"],
+      "correct": 2,
+      "feedback": "في حبسة بروكا (Broca's aphasia)، يواجه المريض صعوبة كبيرة في إخراج الكلمات، فيكون كلامه بطيئاً ومجهداً."
+    },
+    {
+      "q": "Wernicke's area is mainly responsible for",
+      "options": ["Speaking clearly", "Understanding speech", "Writing words", "Facial expression"],
+      "correct": 1,
+      "feedback": "منطقة فيرنيكه في الدماغ هي المسؤولة بشكل أساسي عن فهم واستيعاب اللغة المسموعة."
+    },
+    {
+      "q": "Slips such as 'fire distinguisher' for 'fire extinguisher' are called",
+      "options": ["Spoonerisms", "Perseverations", "Malapropisms", "Exchanges"],
+      "correct": 2,
+      "feedback": "هذا النوع من الأخطاء اللسانية يسمى (Malapropisms)، وهو استبدال كلمة بكلمة أخرى تشبهها في الصوت ولكن تختلف عنها في المعنى."
+    },
+    {
+      "q": "The critical period for language lasts until",
+      "options": ["Infancy", "Puberty", "Age 5", "Adulthood"],
+      "correct": 1,
+      "feedback": "الفترة الحرجة (Critical period) هي الفترة الزمنية التي يكون فيها اكتساب اللغة أسهل وأسرع، وتنتهي عادة عند سن البلوغ (Puberty)."
+    },
+    {
+      "q": "A ...... is a group of people sharing norms and expectations regarding language use.",
+      "options": ["Speech community", "Speakers group", "Dialect chain", "Register unit"],
+      "correct": 0,
+      "feedback": "المجتمع اللغوي (Speech community) هو مجموعة من الناس الذين يتشاركون القواعد والتوقعات الاجتماعية حول كيفية استخدام اللغة."
+    },
+    {
+      "q": "A speaker's unique personal variety of language is known as a(n):",
+      "options": ["Dialect", "Idiolect", "Vernacular", "Sociolect"],
+      "correct": 1,
+      "feedback": "الأيديوليكت (Idiolect) هو الأسلوب اللغوي الفريد والخاص بكل فرد على حدة."
+    },
+    {
+      "q": "Technical vocabulary used within a specific profession is called:",
+      "options": ["Jargon", "Dialect", "Slang", "Idiolect"],
+      "correct": 0,
+      "feedback": "المصطلحات الفنية (Jargon) هي الكلمات الخاصة بمجال مهني أو علمي محدد لا يفهمها عادة من هم خارج هذا المجال."
+    },
+    {
+      "q": "The usual sequence of infant vocalizations is",
+      "options": ["cooing, crying, babbling, gestures", "babbling, crying, cooing, gestures", "crying, cooing, babbling, gestures", "none of the above"],
+      "correct": 2,
+      "feedback": "يبدأ الرضيع بالبكاء أولاً، ثم المناغاة (Cooing)، ثم الثرثرة (Babbling)، وصولاً إلى استخدام الإيماءات."
+    },
+    {
+      "q": "Innateness refers to the genetic endowment to acquire language.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "الفطرية (Innateness) تعني أن البشر مبرمجون وراثياً لاكتساب اللغة بشكل عام."
+    },
+    {
+      "q": "A language situation with markedly divergent varieties coexisting in a community is termed:",
+      "options": ["Diglossia", "Bilingualism", "Creole", "Jargon"],
+      "correct": 0,
+      "feedback": "ازدواجية اللغة (Diglossia) تصف وجود مستويين لغويين مختلفين (مثل الفصحى والعامية) في نفس المجتمع."
+    },
+    {
+      "q": "In a dichotic listening test, which ear is usually more accurate for language sounds?",
+      "options": ["Left ear", "Right ear", "Both equal", "Neither"],
+      "correct": 1,
+      "feedback": "في اختبار الاستماع الثنائي، الأذن اليمنى تتفوق عادة في معالجة أصوات اللغة لأنها مرتبطة مباشرة بالفص الأيسر من الدماغ."
+    },
+    {
+      "q": "Changing your speech to sound more like your listener is called:",
+      "options": ["Style-taking", "Divergence", "Convergence", "Hypercorrection"],
+      "correct": 2,
+      "feedback": "التقارب (Convergence) هو تعديل الشخص لكلامه ليصبح مشابهاً لكلام المستمع لتقليل المسافة الاجتماعية."
+    },
+    {
+      "q": "Pointing to a tree, young Rami says, 'bird flied away.' This shows he is learning:",
+      "options": ["morphological rules", "semantic rules", "pragmatic rules", "syntactic rules"],
+      "correct": 0,
+      "feedback": "استخدام 'flied' يدل على محاولة تطبيق قواعد التصريف (Morphology) بشكل منتظم حتى لو كان الفعل شاذ."
+    },
+    {
+      "q": "The scientific study of language is called:",
+      "options": ["Philology", "Semantics", "Linguistics", "Lexicology"],
+      "correct": 2,
+      "feedback": "علم اللسانيات (Linguistics) هو الدراسة العلمية للغة، ويختلف عن الفيلولوجيا التي تركز على التاريخ والنصوص."
+    },
+    {
+      "q": "Which branch of linguistics studies language change through time?",
+      "options": ["Synchronic", "Diachronic", "Descriptive", "Applied"],
+      "correct": 1,
+      "feedback": "اللسانيات التزامنية (Diachronic) هي المعنية بدراسة تطور اللغة عبر الزمن (تاريخياً)، بينما Synchronic تدرسها في وقت محدد."
+    },
+    {
+      "q": "To understand the relationship between language and society is the primary goal of:",
+      "options": ["Psycholinguists", "Sociolinguists", "Applied linguists", "Neurolinguists"],
+      "correct": 1,
+      "feedback": "علم اللغة الاجتماعي (Sociolinguistics) يركز بشكل جوهري على التفاعل المتبادل بين اللغة والبنى الاجتماعية."
+    },
+    {
+      "q": "The study of the meaning of words and phrases is known as:",
+      "options": ["Syntax", "Morphology", "Semantics", "Phonology"],
+      "correct": 2,
+      "feedback": "علم الدلالة (Semantics) هو الفرع المسؤول عن دراسة المعنى الحرفي للكلمات والجمل."
+    },
+    {
+      "q": "The study of sentence structure and the arrangement of words is called:",
+      "options": ["Syntax", "Pragmatics", "Morphology", "Phonetics"],
+      "correct": 0,
+      "feedback": "النحو (Syntax) هو العلم الذي يدرس القواعد التي تحكم ترتيب الكلمات لتكوين جمل صحيحة."
+    },
+    {
+      "q": "Which term describes the ability of young children to learn language without formal instruction?",
+      "options": ["Innateness", "Reinforcement", "Imitation", "Memorization"],
+      "correct": 0,
+      "feedback": "الفطرية (Innateness) تشير إلى الاستعداد البيولوجي والوراثي لدى البشر لاكتساب اللغة."
+    },
+    {
+      "q": "The 'caregiver speech' or 'motherese' is characterized by:",
+      "options": ["Complex sentences", "Monotone voice", "Simple sentences and higher pitch", "Rapid speech"],
+      "correct": 2,
+      "feedback": "حديث مقدم الرعاية (Caregiver speech) يتميز بالتبسيط، التنغيم المبالغ فيه، وطبقة الصوت العالية لجذب انتباه الطفل."
+    },
+    {
+      "q": "At what age does the 'cooing' stage typically begin?",
+      "options": ["1 month", "4 months", "9 months", "12 months"],
+      "correct": 1,
+      "feedback": "مرحلة المناغاة (Cooing) تبدأ عادة في الشهر الرابع، وتتضمن أصواتاً حلقية مثل [k] و [g]."
+    },
+    {
+      "q": "The production of sounds like 'ba-ba' and 'ga-ga' occurs in which stage?",
+      "options": ["Cooing", "Babbling", "Holophrastic", "Telegraphic"],
+      "correct": 1,
+      "feedback": "مرحلة الثرثرة (Babbling) تظهر بين 6-8 أشهر وتتميز بتكرار المقاطع الصوتية الساكنة والمتحركة."
+    },
+    {
+      "q": "A child using the word 'ball' to refer to an apple, an orange, and the moon is an example of:",
+      "options": ["Underextension", "Overextension", "Mismatching", "Coinage"],
+      "correct": 1,
+      "feedback": "التعميم الزائد (Overextension) يحدث عندما يستخدم الطفل كلمة واحدة للإشارة إلى مجموعة واسعة من الأشياء التي تتشارك في صفة معينة (كالاستدارة هنا)."
+    },
+    {
+      "q": "The 'two-word' stage is typically reached around:",
+      "options": ["6-12 months", "12-18 months", "18-20 months", "3-4 years"],
+      "correct": 2,
+      "feedback": "مرحلة الكلمتين تبدأ عادة بين 18 إلى 20 شهراً، حيث يبدأ الطفل بدمج كلمتين للتعبير عن معنى مركب."
+    },
+    {
+      "q": "Telegraphic speech refers to strings of words that are primarily:",
+      "options": ["Nouns and verbs (lexical morphemes)", "Prepositions and articles", "Grammatically perfect", "Nonsensical sounds"],
+      "correct": 0,
+      "feedback": "الكلام البرقي (Telegraphic speech) يتكون أساساً من كلمات المحتوى (أسماء وأفعال) مع حذف الكلمات الوظيفية."
+    },
+    {
+      "q": "Broca's area is primarily responsible for:",
+      "options": ["Language comprehension", "Speech production", "Visual processing", "Memory storage"],
+      "correct": 1,
+      "feedback": "منطقة بروكا (Broca's area) في الدماغ مسؤولة عن إنتاج الكلام والقواعد النحوية."
+    },
+    {
+      "q": "Damage to Wernicke's area results in difficulties with:",
+      "options": ["Walking", "Speaking fluently", "Understanding speech", "Seeing clearly"],
+      "correct": 2,
+      "feedback": "تلف منطقة فيرنيكه يؤدي إلى صعوبة في فهم اللغة المسموعة، رغم أن المريض قد يتحدث بطلاقة لكن بكلام غير مفهوم."
+    },
+    {
+      "q": "The bundle of nerve fibers connecting Broca's and Wernicke's areas is called:",
+      "options": ["Motor cortex", "Arcuate fasciculus", "Corpus callosum", "Brain stem"],
+      "correct": 1,
+      "feedback": "الحزمة المقوسة (Arcuate fasciculus) هي الجسر العصبي الذي ينقل المعلومات بين منطقة الفهم (فيرنيكه) ومنطقة الإنتاج (بروكا)."
+    },
+    {
+      "q": "The 'Tip of the Tongue' phenomenon suggests that speakers have:",
+      "options": ["Forgot the word completely", "An accurate phonological outline of the word", "A speech impediment", "No mental lexicon"],
+      "correct": 1,
+      "feedback": "ظاهرة طرف اللسان تدل على أن المتحدث يعرف الكلمة ولديه مخطط صوتي لها لكنه يعجز عن استرجاعها كاملة مؤقتاً."
+    },
+    {
+      "q": "The Critical Period Hypothesis suggests that language acquisition is most effective:",
+      "options": ["After puberty", "Before puberty", "In old age", "At any time equally"],
+      "correct": 1,
+      "feedback": "فرضية الفترة الحرجة تقترح أن الدماغ البشري مهيأ لاكتساب اللغة بشكل كامل فقط قبل سن البلوغ."
+    },
+    {
+      "q": "A variety of language used by a specific group based on social characteristics is called:",
+      "options": ["Dialect", "Social dialect (Sociolect)", "Idiolect", "Accent"],
+      "correct": 1,
+      "feedback": "اللهجة الاجتماعية (Sociolect) هي التنوع اللغوي المرتبط بطبقة اجتماعية أو مجموعة ديموغرافية معينة."
+    },
+    {
+      "q": "The study of dialects is known as:",
+      "options": ["Dialectology", "Etymology", "Phonology", "Morphology"],
+      "correct": 0,
+      "feedback": "علم اللهجات (Dialectology) هو الفرع الذي يدرس الاختلافات اللغوية بناءً على التوزيع الجغرافي أو الاجتماعي."
+    },
+    {
+      "q": "A line on a map separating two areas with different linguistic features is called a(n):",
+      "options": ["Border", "Isogloss", "Dialect boundary", "Accent line"],
+      "correct": 1,
+      "feedback": "خط تساوي اللغة (Isogloss) هو خط وهمي على الخريطة يفصل بين المناطق التي تستخدم سمات لغوية مختلفة."
+    },
+    {
+      "q": "Diglossia refers to a situation where:",
+      "options": ["Two languages are used interchangeably", "A 'High' and 'Low' variety of the same language coexist", "Everyone speaks English", "No one speaks the standard language"],
+      "correct": 1,
+      "feedback": "الازدواجية اللغوية (Diglossia) تعني وجود مستويين للغة الواحدة (عالي ومنخفض) يستخدمان في سياقات مختلفة (مثل الفصحى والعامية)."
+    },
+    {
+      "q": "A 'Pidgin' is a language that:",
+      "options": ["Has native speakers", "Has no native speakers and arises for trade", "Is extremely complex", "Is used only in education"],
+      "correct": 1,
+      "feedback": "لغة البيدجن (Pidgin) هي لغة مبسطة تنشأ للحاجة (مثل التجارة) وليس لها متحدثون أصليون."
+    },
+    {
+      "q": "When a Pidgin becomes the first language of a new generation, it is called a:",
+      "options": ["Dialect", "Creole", "Standard language", "Slang"],
+      "correct": 1,
+      "feedback": "عندما يكتسب الأطفال البيدجن كلغة أم وتصبح أكثر تعقيداً، تتحول إلى ما يسمى بالكريول (Creole)."
+    },
+    {
+      "q": "Which of the following is NOT a feature of 'Pidgins'?",
+      "options": ["Simplified grammar", "Limited vocabulary", "Complex inflectional morphology", "No native speakers"],
+      "correct": 2,
+      "feedback": "البيدجن تتميز بالبساطة، لذا فإن وجود صرف إعرابي معقد (Complex inflectional morphology) ليس من خصائصها."
+    },
+    {
+      "q": "The term 'Jargon' refers to:",
+      "options": ["Technical vocabulary of a specific profession", "Street language", "Polite forms of address", "Baby talk"],
+      "correct": 0,
+      "feedback": "الرطانة المهنية (Jargon) هي المصطلحات التقنية الخاصة بمهنة معينة (مثل مصطلحات الأطباء أو المهندسين)."
+    },
+    {
+      "q": "The term 'Slang' is best described as:",
+      "options": ["Formal language", "Colloquial speech used by specific groups (e.g., teenagers)", "Religious language", "Standard English"],
+      "correct": 1,
+      "feedback": "العامية المبتذلة (Slang) هي كلمات وعبارات غير رسمية تستخدم عادة من قبل فئات عمرية شابة أو مجموعات اجتماعية معينة."
+    },
+    {
+      "q": "Code-switching involves:",
+      "options": ["Using only one language", "Alternating between two languages or varieties in conversation", "Learning a new alphabet", "Forgetting a language"],
+      "correct": 1,
+      "feedback": "التبديل اللغوي (Code-switching) هو الانتقال بين لغتين أو لهجتين أثناء المحادثة الواحدة."
+    },
+    {
+      "q": "The personal dialect of an individual speaker is known as:",
+      "options": ["Idiolect", "Sociolect", "Regional dialect", "Ethnolect"],
+      "correct": 0,
+      "feedback": "اللهجة الفردية (Idiolect) هي البصمة اللغوية الخاصة بكل فرد على حدة."
+    },
+    {
+      "q": "Labov's study in New York City focused on the pronunciation of:",
+      "options": ["The postvocalic /r/", "The /h/ sound", "The /th/ sound", "Vowel length"],
+      "correct": 0,
+      "feedback": "دراسة ويليام لابوف الشهيرة ركزت على نطق صوت الراء (postvocalic /r/) وعلاقته بالطبقة الاجتماعية."
+    },
+    {
+      "q": "EFL stands for:",
+      "options": ["English for Language", "English as a Foreign Language", "English for Learners", "English First Language"],
+      "correct": 1,
+      "feedback": "مصطلح EFL يعني اللغة الإنجليزية كلغة أجنبية (تدرس في دول لا تتحدث الإنجليزية كلغة رسمية)."
+    },
+    {
+      "q": "ESL stands for:",
+      "options": ["English as a Second Language", "English Standard Language", "English School Language", "Early Speech Learning"],
+      "correct": 0,
+      "feedback": "مصطلح ESL يعني اللغة الإنجليزية كلغة ثانية (تستخدم في بيئات تتحدث الإنجليزية)."
+    },
+    {
+      "q": "The study of how context influences the interpretation of meaning is:",
+      "options": ["Semantics", "Pragmatics", "Syntax", "Morphology"],
+      "correct": 1,
+      "feedback": "التداولية (Pragmatics) تدرس المعنى في السياق وكيف يؤثر الموقف والمحادثة على تفسير الكلام."
+    },
+    {
+      "q": "The smallest unit of meaning in a language is called a:",
+      "options": ["Phoneme", "Morpheme", "Syllable", "Word"],
+      "correct": 1,
+      "feedback": "المورفيم (Morpheme) هو أصغر وحدة تحمل معنى في اللغة (قد تكون كلمة أو لاحقة/بادئة)."
+    },
+    {
+      "q": "The smallest unit of sound that distinguishes meaning is a:",
+      "options": ["Morpheme", "Phoneme", "Allophone", "Syntax"],
+      "correct": 1,
+      "feedback": "الفونيم (Phoneme) هو أصغر وحدة صوتية تميز المعنى (مثل الفرق بين 'pat' و 'bat')."
+    },
+    {
+      "q": "In the word 'unhappiness', the segment 'un-' is a:",
+      "options": ["Root", "Suffix", "Prefix", "Free morpheme"],
+      "correct": 2,
+      "feedback": "الجزء 'un-' هو بادئة (Prefix) تضاف لبداية الكلمة لتغيير معناها."
+    },
+    {
+      "q": "Which type of aphasia is characterized by slow, effortful speech but good comprehension?",
+      "options": ["Wernicke's Aphasia", "Broca's Aphasia", "Conduction Aphasia", "Global Aphasia"],
+      "correct": 1,
+      "feedback": "حبسة بروكا (Broca's Aphasia) تتميز بصعوبة الكلام (غير طليق) مع بقاء الفهم جيداً نسبياً."
+    },
+    {
+      "q": "Dichotic listening tests typically show a right-ear advantage for:",
+      "options": ["Music", "Environmental sounds", "Linguistic sounds (speech)", "Tones"],
+      "correct": 2,
+      "feedback": "اختبار الاستماع المزدوج يظهر تفوق الأذن اليمنى في سماع الأصوات اللغوية لأنها متصلة بالفص الأيسر المهيمن لغوياً."
+    },
+    {
+      "q": "The process of 'generalization' in child language is also known as:",
+      "options": ["Overextension", "Underextension", "Narrowing", "Imitation"],
+      "correct": 0,
+      "feedback": "التعميم (Generalization) هو نفسه التعميم الزائد (Overextension) حيث يطبق الطفل قاعدة أو اسماً على نطاق أوسع مما ينبغي."
+    },
+    {
+      "q": "Which hypothesis claims that language determines thought?",
+      "options": ["Sapir-Whorf Hypothesis", "Innateness Hypothesis", "Critical Period Hypothesis", "Output Hypothesis"],
+      "correct": 0,
+      "feedback": "فرضية سابير-وورف (النسبية اللغوية) تدعي أن بنية اللغة التي نتحدثها تؤثر على طريقة تفكيرنا ورؤيتنا للعالم."
+    },
+    {
+      "q": "Standard English is primarily:",
+      "options": ["A geographical dialect", "A social dialect mostly found in print and education", "The language of the working class", "Slang"],
+      "correct": 1,
+      "feedback": "اللغة الإنجليزية القياسية (Standard English) هي لهجة اجتماعية مرتبطة بالتعليم، الإعلام، والكتابة الرسمية، وليست محصورة بمنطقة جغرافية فقط."
+    },
+    {
+      "q": "The term 'accent' refers strictly to:",
+      "options": ["Grammar and vocabulary", "Pronunciation", "Spelling", "Meaning"],
+      "correct": 1,
+      "feedback": "اللكنة (Accent) تشير حصراً إلى طريقة النطق، بينما اللهجة (Dialect) تشمل النطق والقواعد والمفردات."
+    },
+    {
+      "q": "Using 'doed' instead of 'did' is an example of:",
+      "options": ["Overgeneralization of morphological rules", "Correct grammar", "Slang", "Semantic error"],
+      "correct": 0,
+      "feedback": "استخدام 'doed' يدل على التعميم الزائد للقواعد (Overgeneralization)، حيث يطبق الطفل قاعدة الماضي المنتظم (-ed) على فعل شاذ."
+    },
+    {
+      "q": "Which field focuses on language problems such as speech pathology?",
+      "options": ["Clinical Linguistics", "Historical Linguistics", "Comparative Linguistics", "Sociolinguistics"],
+      "correct": 0,
+      "feedback": "اللسانيات السريرية (Clinical Linguistics) هي التي تعنى باضطرابات النطق وعيوب الكلام وعلاجها."
+    },
+    {
+      "q": "The word 'sandwich' derived from the Earl of Sandwich is an example of:",
+      "options": ["Borrowing", "Coinage (Eponym)", "Clipping", "Blending"],
+      "correct": 1,
+      "feedback": "هذا يسمى (Eponym)، وهو نوع من الاشتقاق (Coinage) حيث تسمى الأشياء بأسماء الأشخاص المرتبطين بها."
+    },
+    {
+      "q": "Combining 'smoke' and 'fog' to make 'smog' is an example of:",
+      "options": ["Blending", "Clipping", "Acronym", "Borrowing"],
+      "correct": 0,
+      "feedback": "المزج (Blending) هو دمج جزئين من كلمتين مختلفتين لتكوين كلمة جديدة."
+    },
+    {
+      "q": "The use of 'flu' instead of 'influenza' is an example of:",
+      "options": ["Clipping", "Backformation", "Conversion", "Compounding"],
+      "correct": 0,
+      "feedback": "القص (Clipping) هو تقصير الكلمة الطويلة بحذف مقاطع منها لتسهيل الاستخدام."
+    },
+    {
+      "q": "A word like 'NASA' formed from the initial letters of other words is a(n):",
+      "options": ["Abbreviation", "Acronym", "Blend", "Clip"],
+      "correct": 1,
+      "feedback": "اللفظة الأوائلية (Acronym) هي كلمة تشكل من الحروف الأولى لمجموعة كلمات وتنطق ككلمة واحدة."
+    },
+    {
+      "q": "The relationship between 'big' and 'small' is:",
+      "options": ["Synonymy", "Antonymy", "Hyponymy", "Polysemy"],
+      "correct": 1,
+      "feedback": "التضاد (Antonymy) هو العلاقة بين الكلمات التي تحمل معاني متعاكسة."
+    },
+    {
+      "q": "If 'animal' includes 'dog', 'cat', and 'horse', then 'dog' is a:",
+      "options": ["Superordinate", "Hyponym", "Synonym", "Antonym"],
+      "correct": 1,
+      "feedback": "كلمة (Hyponym) تعني اللفظ الأدنى المندرج تحت فئة أوسع (Animal)."
+    },
+    {
+      "q": "The definition of 'Applied Linguistics' essentially involves:",
+      "options": ["Theoretical study only", "Using linguistic theories to solve real-world problems", "Studying dead languages", "Analyzing poetry"],
+      "correct": 1,
+      "feedback": "علم اللغة التطبيقي هو توظيف النظريات اللغوية لحل مشكلات عملية في الواقع (كالتعليم والترجمة وعيوب النطق)."
+    },
+    {
+      "q": "Malapropism refers to:",
+      "options": ["A slip of the ear", "Using a word that sounds similar but has a different meaning", "A speech disorder", "Correct usage of complex words"],
+      "correct": 1,
+      "feedback": "المالابرويزم (Malapropism) هو خطأ لغوي يتم فيه استبدال كلمة بكلمة أخرى تشبهها صوتياً لكن تختلف عنها تماماً في المعنى."
+    },
+    {
+      "q": "Converging speech towards the listener is usually done to:",
+      "options": ["Show superiority", "Reduce social distance", "Confuse the listener", "Create a barrier"],
+      "correct": 1,
+      "feedback": "التقارب اللغوي (Convergence) يهدف إلى تقليل المسافة الاجتماعية وإظهار التضامن مع المستمع."
+    },
+    {
+      "q": "The localization view of the brain relies on the idea that:",
+      "options": ["The whole brain works as one unit for language", "Specific functions are stored in specific areas", "Language is located in the heart", "The right hemisphere controls language"],
+      "correct": 1,
+      "feedback": "نظرية التموضع (Localization) تقوم على أن وظائف محددة (مثل اللغة) تقع في مناطق محددة تشريحياً في الدماغ."
+    },
+    {
+      "q": "A 'creole' typically arises when:",
+      "options": ["Adults learn a second language", "Children learn a pidgin as their first language", "Two standard languages merge", "A language dies out"],
+      "correct": 1,
+      "feedback": "الكريول ينشأ عندما يولد جيل جديد في مجتمع يستخدم البيدجن، فيكتسب الأطفال هذه اللغة الهجينة كلغة أم ويطورونها."
+    },
+    {
+      "q": "Which of the following is an example of a 'register'?",
+      "options": ["Religious sermon", "A specific vowel sound", "A speech error", "The brain stem"],
+      "correct": 0,
+      "feedback": "السجل (Register) هو نوع من اللغة يستخدم في سياق معين، مثل اللغة الدينية، القانونية، أو العلمية."
+    },
+    {
+      "q": "The physical articulation of speech sounds is studied in:",
+      "options": ["Phonetics", "Syntax", "Semantics", "Pragmatics"],
+      "correct": 0,
+      "feedback": "علم الأصوات (Phonetics) هو الذي يدرس الخصائص الفيزيائية لأصوات الكلام وكيفية إنتاجها."
+    },
+    {
+      "q": "Which type of speech error involves swapping the initial sounds of two words (e.g., 'shoving leopard' instead of 'loving shepherd')?",
+      "options": ["Malapropism", "Spoonerism", "Perseveration", "Anticipation"],
+      "correct": 1,
+      "feedback": "السبونريزم (Spoonerism) هو خطأ لغوي يتم فيه تبديل الأصوات الأولى لكلمتين متتاليتين، وسمي بذلك نسبة للقس ويليام سبونر[cite: 1, 2]."
+    },
+    {
+      "q": "The term 'hypercorrection' refers to:",
+      "options": ["Speaking too fast", "Overusing prestige forms to sound higher class", "Correcting others rudely", "Using slang excessively"],
+      "correct": 1,
+      "feedback": "التصحيح المبالغ فيه (Hypercorrection) يحدث عندما يحاول المتحدث من طبقة اجتماعية أقل استخدام قواعد صارمة أو نطق رسمي بشكل مبالغ فيه ليبدو وكأنه من طبقة أعلى[cite: 1, 2]."
+    },
+    {
+      "q": "In Labov's department store study, speakers from the higher-status store were more likely to:",
+      "options": ["Drop the postvocalic /r/", "Pronounce the postvocalic /r/", "Use glottal stops", "Speak French"],
+      "correct": 1,
+      "feedback": "أثبتت دراسة لابوف أن نطق الراء (postvocalic /r/) في نيويورك يرتبط بالمكانة الاجتماعية العالية، فكلما ارتفعت الطبقة زاد نطق الحرف[cite: 1, 2]."
+    },
+    {
+      "q": "A 'speech community' is best defined as:",
+      "options": ["A group of people living in the same city", "People who speak the same language", "A group sharing norms and expectations regarding language use", "A group of linguists"],
+      "correct": 2,
+      "feedback": "المجتمع اللغوي (Speech Community) لا يرتبط فقط بالمكان، بل بمجموعة من الناس يتشاركون المعايير والتوقعات الاجتماعية حول كيفية استخدام اللغة[cite: 1, 2]."
+    },
+    {
+      "q": "The phenomenon where a speaker modifies their speech to sound *less* like their interlocutor is called:",
+      "options": ["Convergence", "Divergence", "Assimilation", "Calibration"],
+      "correct": 1,
+      "feedback": "التباعد (Divergence) هو تعديل الكلام ليكون مختلفاً عن المستمع، وذلك لتوكيد الاختلاف الاجتماعي أو الثقافي أو الاستقلال[cite: 1, 2]."
+    },
+    {
+      "q": "Covert prestige refers to:",
+      "options": ["Status gained by using standard language", "Status gained by using vernacular or non-standard forms within a group", "Official recognition of a language", "Academic excellence"],
+      "correct": 1,
+      "feedback": "المكانة الخفية (Covert Prestige) هي القيمة الاجتماعية الإيجابية التي تمنح لاستخدام اللهجة العامية أو لغة الشارع داخل مجموعة معينة (مثل الأصدقاء أو العصابات) لإظهار التضامن[cite: 1, 2]."
+    },
+    {
+      "q": "The term 'vernacular' typically describes:",
+      "options": ["A standard language used in education", "A local, non-standard variety of language used in everyday life", "A dead language", "Scientific terminology"],
+      "correct": 1,
+      "feedback": "اللغة الدارجة (Vernacular) هي اللغة المحلية غير الرسمية التي يتحدث بها الناس في حياتهم اليومية ولا تتمتع بوضع رسمي[cite: 1, 2]."
+    },
+    {
+      "q": "Being 'bidialectal' means:",
+      "options": ["Speaking two different languages", "Speaking two varieties (dialects) of the same language", "Cannot speak any language", "Reading two languages"],
+      "correct": 1,
+      "feedback": "ثنائي اللهجة (Bidialectal) هو الشخص القادر على التحدث بلهجتين مختلفتين لنفس اللغة (مثلاً الفصحى والعامية، أو لهجة الريف والمدينة)[cite: 1, 2]."
+    },
+    {
+      "q": "Which of the following is considered a 'linguistic variable' in sociolinguistics?",
+      "options": ["The speaker's age", "The pronunciation of /ing/ as [in] or [ing]", "The speaker's income", "The location of the conversation"],
+      "correct": 1,
+      "feedback": "المتغير اللغوي (Linguistic Variable) هو العنصر اللغوي الذي يتغير نطقه، مثل نطق (ing) كـ [in] في 'walkin' بدلاً من 'walking'[cite: 1, 2]."
+    },
+    {
+      "q": "The 'observer's paradox' in sociolinguistic research refers to:",
+      "options": ["People speak differently when they know they are being observed", "Researchers cannot hear well", "Data is always lost", "Languages change too fast"],
+      "correct": 0,
+      "feedback": "مفارقة المُراقب (Observer's Paradox) تعني أن هدف الباحث هو رصد اللغة الطبيعية، لكن وجوده كباحث يجعل الناس يغيرون طريقة كلامهم لتصبح أكثر رسمية[cite: 1]."
+    },
+    {
+      "q": "Words that are avoided due to social, religious, or cultural sensitivities are known as:",
+      "options": ["Slang", "Jargon", "Taboo terms", "Euphemisms"],
+      "correct": 2,
+      "feedback": "الكلمات المحرمة (Taboo terms) هي الألفاظ التي يتجنب المجتمع استخدامها علناً لأنها تعتبر مسيئة أو خادشة للحياء[cite: 1, 2]."
+    },
+    {
+      "q": "Substituting a mild or vague term for a harsh or blunt one (e.g., 'passed away' for 'died') is called:",
+      "options": ["Dysphemism", "Euphemism", "Metaphor", "Simile"],
+      "correct": 1,
+      "feedback": "الالتفاف اللغوي أو التلطيف (Euphemism) هو استخدام كلمة مهذبة بدلاً من كلمة قاسية أو مباشرة[cite: 1]."
+    },
+    {
+      "q": "Which area of the brain is associated with the 'localization view' for speech comprehension?",
+      "options": ["Broca's area", "Wernicke's area", "Motor cortex", "Arcuate fasciculus"],
+      "correct": 1,
+      "feedback": "منطقة فيرنيكه (Wernicke's area) هي المنطقة الخلفية في الدماغ المسؤولة عن فهم واستيعاب الكلام المسموع[cite: 1, 2]."
+    },
+    {
+      "q": "Conduction aphasia is primarily caused by damage to:",
+      "options": ["Broca's area", "Wernicke's area", "The Arcuate Fasciculus", "The Motor Cortex"],
+      "correct": 2,
+      "feedback": "حبسة التوصيل (Conduction Aphasia) تنتج عن تلف الحزمة المقوسة (Arcuate Fasciculus) التي تربط بين منطقتي الفهم والإنتاج، مما يسبب صعوبة في تكرار الكلام[cite: 1, 2]."
+    },
+    {
+      "q": "A person who can understand speech but has difficulty producing fluent sentences likely suffers from:",
+      "options": ["Wernicke's aphasia", "Broca's aphasia", "Anomic aphasia", "Dyslexia"],
+      "correct": 1,
+      "feedback": "حبسة بروكا (Broca's aphasia) تتميز بفهم جيد للغة ولكن بصعوبة شديدة وبطء في إنتاج الكلام (كلام برقي)[cite: 1, 2]."
+    },
+    {
+      "q": "The 'Fis Phenomenon' demonstrates that:",
+      "options": ["Children can produce sounds they cannot hear", "Children's perception of speech precedes their ability to produce it correctly", "Fish are important in language", "Children learn to read before speaking"],
+      "correct": 1,
+      "feedback": "ظاهرة 'Fis' (عندما يرفض الطفل نطق 'fish' كـ 'fis' من الكبار رغم أنه ينطقها كذلك) تثبت أن إدراك الطفل للصوت الصحيح يسبق قدرته على إنتاجه[cite: 1, 3]."
+    },
+    {
+      "q": "The use of 'goed' for 'went' or 'foots' for 'feet' by children is an example of:",
+      "options": ["Overgeneralization", "Imitation", "Reinforcement", "Correction"],
+      "correct": 0,
+      "feedback": "التعميم الزائد (Overgeneralization) يظهر عندما يطبق الطفل القواعد الصرفية المنتظمة على الكلمات الشاذة، مما يدل على تعلمه للقواعد وليس مجرد التقليد[cite: 1, 2, 3]."
+    },
+    {
+      "q": "Genie, the feral child, provided evidence supporting:",
+      "options": ["The Critical Period Hypothesis", "The Output Hypothesis", "Behaviorism", "The Monitor Model"],
+      "correct": 0,
+      "feedback": "حالة جيني (التي عُزلت حتى سن 13) تدعم فرضية الفترة الحرجة، حيث لم تتمكن من اكتساب القواعد اللغوية المعقدة بعد فوات سن البلوغ[cite: 1, 2]."
+    },
+    {
+      "q": "In first language acquisition, the stage immediately following babbling is:",
+      "options": ["Telegraphic speech", "The two-word stage", "The one-word (holophrastic) stage", "Crying"],
+      "correct": 2,
+      "feedback": "بعد مرحلة الثرثرة (Babbling)، يدخل الطفل مرحلة الكلمة الواحدة (Holophrastic) حيث تعبر الكلمة عن جملة كاملة[cite: 1, 2, 3]."
+    },
+    {
+      "q": "Caregiver speech is designed to:",
+      "options": ["Teach complex grammar", "Facilitate interaction and language acquisition", "Discipline the child", "Mimic adult conversation"],
+      "correct": 1,
+      "feedback": "حديث مقدم الرعاية يهدف أساساً إلى تسهيل التفاعل وجذب انتباه الطفل للمساعدة في اكتساب اللغة من خلال التبسيط والتكرار[cite: 1, 2]."
+    },
+    {
+      "q": "The 'motor cortex' controls:",
+      "options": ["Visual processing", "Muscle movements required for speech articulation", "Auditory processing", "Memory"],
+      "correct": 1,
+      "feedback": "القشرة الحركية (Motor Cortex) هي المسؤولة عن التحكم في العضلات (الوجه، الفك، اللسان) اللازمة لإنتاج أصوات الكلام[cite: 1, 2]."
+    },
+    {
+      "q": "Anticipation is a speech error where:",
+      "options": ["A sound from later in the sentence appears too early", "A sound persists from an earlier word", "Words are swapped", "Meanings are confused"],
+      "correct": 0,
+      "feedback": "الاستباق (Anticipation) هو خطأ يظهر فيه صوت من كلمة لاحقة في وقت مبكر (مثل قول 'leading list' بدلاً من 'reading list')[cite: 2]."
+    },
+    {
+      "q": "Perseveration is a speech error where:",
+      "options": ["A sound is carried over from a previous word", "A sound appears too early", "Words are omitted", "Grammar is ignored"],
+      "correct": 0,
+      "feedback": "المواظبة أو الاستمرار (Perseveration) هو تكرار صوت من كلمة سابقة في كلمة لاحقة (مثل قول 'black bloxes' بدلاً من 'black boxes')[cite: 2]."
+    },
+    {
+      "q": "Which linguistics branch deals with the application of linguistic concepts to language teaching?",
+      "options": ["Psycholinguistics", "Applied Linguistics", "Historical Linguistics", "Computational Linguistics"],
+      "correct": 1,
+      "feedback": "علم اللغة التطبيقي (Applied Linguistics) يركز بشكل كبير على قضايا تعليم وتعلم اللغات الأجنبية والثانية[cite: 1, 2]."
+    },
+    {
+      "q": "The term 'L2' refers to:",
+      "options": ["First language", "Second language", "Foreign language", "Target language"],
+      "correct": 1,
+      "feedback": "المصطلح (L2) يشير إلى اللغة الثانية أو الأجنبية التي يتم تعلمها بعد اكتساب اللغة الأم (L1)[cite: 1, 3]."
+    },
+    {
+      "q": "Acquisition vs. Learning: 'Acquisition' describes a process that is:",
+      "options": ["Subconscious and natural", "Conscious and rule-based", "Classroom-based", "Focused on grammar"],
+      "correct": 0,
+      "feedback": "الاكتساب (Acquisition) هو عملية لاواعية وطبيعية تحدث من خلال التعرض للغة، بعكس التعلم (Learning) الذي يكون واعياً ومدروساً[cite: 1, 3]."
+    },
+    {
+      "q": "The 'Affective Filter' hypothesis suggests that:",
+      "options": ["Anxiety and low motivation block language acquisition", "Grammar is the most important factor", "Children learn faster than adults", "Input must be complex"],
+      "correct": 0,
+      "feedback": "فرضية المرشح الوجداني تقترح أن العوامل النفسية السلبية كالقلق وقلة الثقة تشكل حاجزاً يمنع وصول المدخلات اللغوية للدماغ[cite: 1]."
+    },
+    {
+      "q": "Communicative Competence refers to:",
+      "options": ["Knowing only grammar rules", "The ability to use language appropriately in social contexts", "Perfect pronunciation", "Writing skills"],
+      "correct": 1,
+      "feedback": "الكفاءة التواصلية (Communicative Competence) هي القدرة على استخدام اللغة بشكل مناسب اجتماعياً وسياقياً، وليس فقط معرفة القواعد النحوية[cite: 1]."
+    },
+    {
+      "q": "The word 'brunch' (breakfast + lunch) is an example of:",
+      "options": ["Clipping", "Blending", "Coinage", "Acronym"],
+      "correct": 1,
+      "feedback": "المزج (Blending) هو دمج أجزاء من كلمتين لتكوين كلمة جديدة تحمل معنى مشتركاً[cite: 1, 2]."
+    },
+    {
+      "q": "The word 'fan' (from fanatic) is an example of:",
+      "options": ["Clipping", "Backformation", "Conversion", "Compounding"],
+      "correct": 0,
+      "feedback": "القص (Clipping) هو اختصار الكلمة بحذف جزء منها مع الاحتفاظ بالمعنى الأصلي[cite: 1, 2]."
+    },
+    {
+      "q": "Changing the function of a word, e.g., 'guess' (verb) to 'a guess' (noun), is called:",
+      "options": ["Conversion", "Derivation", "Coinage", "Borrowing"],
+      "correct": 0,
+      "feedback": "التحويل (Conversion) أو الصفر الاشتقاقي هو تغيير الفئة النحوية للكلمة دون تغيير في شكلها[cite: 1, 2]."
+    },
+    {
+      "q": "Affixes like '-s', '-ed', and '-ing' are known as:",
+      "options": ["Derivational morphemes", "Inflectional morphemes", "Free morphemes", "Roots"],
+      "correct": 1,
+      "feedback": "المورفيمات الإعرابية (Inflectional) هي لواحق تضيف معلومات نحوية (كالزمن أو الجمع) ولا تغير الفئة النحوية للكلمة[cite: 1]."
+    },
+    {
+      "q": "Affixes like '-ness' (happy -> happiness) or 're-' (do -> redo) are:",
+      "options": ["Inflectional morphemes", "Derivational morphemes", "Bound roots", "Enclitics"],
+      "correct": 1,
+      "feedback": "المورفيمات الاشتقاقية (Derivational) هي التي تغير معنى الكلمة أو فئتها النحوية (من صفة إلى اسم مثلاً)[cite: 1]."
+    },
+    {
+      "q": "A 'bound morpheme' is one that:",
+      "options": ["Can stand alone as a word", "Cannot stand alone and must be attached to another morpheme", "Has no meaning", "Is always a prefix"],
+      "correct": 1,
+      "feedback": "المورفيم المقيد (Bound morpheme) لا يمكن أن يظهر ككلمة مستقلة، بل يجب أن يتصل بكلمة أخرى (مثل -ed, -s, re-)[cite: 1]."
+    },
+    {
+      "q": "The study of the relationship between words (e.g., 'arm' to 'body') is:",
+      "options": ["Meronymy", "Synonymy", "Antonymy", "Homonymy"],
+      "correct": 0,
+      "feedback": "علاقة الجزء بالكل تسمى (Meronymy)، حيث تكون الكلمة جزءاً من شيء أكبر (مثل 'finger' بالنسبة لـ 'hand')[cite: 1]."
+    },
+    {
+      "q": "Two words that have the same form but unrelated meanings (e.g., 'bank' of river / 'bank' for money) are:",
+      "options": ["Polysemy", "Homonyms", "Synonyms", "Hyponyms"],
+      "correct": 1,
+      "feedback": "الجناس (Homonyms) هي كلمات تتطابق في الشكل أو النطق ولكن معانيها مختلفة تماماً ولا علاقة بينها[cite: 1]."
+    },
+    {
+      "q": "One word having multiple related meanings (e.g., 'head' of body / 'head' of company) is:",
+      "options": ["Homonymy", "Polysemy", "Antonymy", "Metonymy"],
+      "correct": 1,
+      "feedback": "تعدد المعاني (Polysemy) هو كلمة واحدة لها عدة معاني مترابطة ببعضها البعض[cite: 1]."
+    },
+    {
+      "q": "Deixis refers to words that:",
+      "options": ["Have fixed meanings", "Cannot be interpreted without context (e.g., 'here', 'you', 'tomorrow')", "Are always nouns", "Are slang"],
+      "correct": 1,
+      "feedback": "الإشاريات (Deixis) هي كلمات يعتمد معناها كلياً على السياق المادي للمحادثة (مثل: هنا، الآن، أنا، ذاك)[cite: 1]."
+    },
+    {
+      "q": "Speech acts that perform an action (e.g., 'I pronounce you husband and wife') are called:",
+      "options": ["Constatives", "Performatives", "Questions", "Directives"],
+      "correct": 1,
+      "feedback": "الأفعال الأدائية (Performatives) هي عبارات لا تصف الواقع بل تنشئ واقعاً جديداً بمجرد نطقها[cite: 1]."
+    },
+    {
+      "q": "The maxims of conversation (Quantity, Quality, Relation, Manner) were proposed by:",
+      "options": ["Chomsky", "Grice", "Labov", "Skinner"],
+      "correct": 1,
+      "feedback": "مبادئ التعاون في المحادثة (Grice's Maxims) اقترحها الفيلسوف بول غرايس لشرح كيفية نجاح التواصل[cite: 1]."
+    },
+    {
+      "q": "In applied linguistics, 'Corpus Linguistics' involves:",
+      "options": ["Studying only grammar books", "Analyzing large databases of real world language examples", "Studying the brain", "Teaching poetry"],
+      "correct": 1,
+      "feedback": "لسانيات المتون (Corpus Linguistics) تعتمد على تحليل مجموعات ضخمة من النصوص اللغوية الحقيقية المخزنة حاسوبياً[cite: 1, 4]."
+    },
+    {
+      "q": "Contrastive Analysis Hypothesis (CAH) predicted that:",
+      "options": ["L2 errors are caused by interference from L1", "L1 has no effect on L2", "Errors are random", "L2 is learned exactly like L1"],
+      "correct": 0,
+      "feedback": "فرضية التحليل التقابلي (CAH) كانت تعتقد أن معظم أخطاء المتعلم تنبع من التداخل السلبي (Interference) من لغته الأم[cite: 1, 3]."
+    },
+    {
+      "q": "The interlanguage refers to:",
+      "options": ["The learner's L1", "The target language L2", "A developing system with its own rules used by L2 learners", "A perfect bilingual system"],
+      "correct": 2,
+      "feedback": "اللغة البينية (Interlanguage) هي نظام لغوي مؤقت ومستقل يطوره المتعلم ويحتوي على خصائص من لغته الأم ومن اللغة الهدف وقواعد خاصة به[cite: 1, 3]."
+    },
+    {
+      "q": "The process where a linguistic feature becomes fixed and stops developing in a learner's interlanguage is:",
+      "options": ["Fossilization", "Generalization", "Transfer", "Motivation"],
+      "correct": 0,
+      "feedback": "التحجر (Fossilization) هو توقف تطور جوانب معينة في لغة المتعلم عند مرحلة غير صحيحة، وتصبح عصية على التصحيح[cite: 1, 3]."
+    },
+    {
+      "q": "Integrative motivation in language learning refers to:",
+      "options": ["Learning for a job or grade", "Learning to identify with and become part of the target language community", "Learning to travel", "Learning to read books"],
+      "correct": 1,
+      "feedback": "الدافع التكاملي (Integrative Motivation) هو الرغبة في تعلم اللغة للاندماج في ثقافة ومجتمع المتحدثين بها[cite: 1]."
+    },
+    {
+      "q": "Instrumental motivation refers to:",
+      "options": ["Learning for practical goals like passing an exam or getting a job", "Learning to make friends", "Learning for fun", "Learning for cultural reasons"],
+      "correct": 0,
+      "feedback": "الدافع النفعي (Instrumental Motivation) هو تعلم اللغة لتحقيق مكاسب عملية كالوظيفة أو الشهادة، دون رغبة في الاندماج الاجتماعي[cite: 1]."
+    },
+    {
+      "q": "Which method of language teaching emphasizes 'drilling' and habit formation?",
+      "options": ["Grammar-Translation", "Audiolingual Method", "Communicative Approach", "Task-Based Learning"],
+      "correct": 1,
+      "feedback": "الطريقة السمعية-الشفهية (Audiolingual) تعتمد على النظرية السلوكية، وتركز على التكرار والتدريبات المكثفة (Drills) لتكوين العادات[cite: 1, 3]."
+    },
+    {
+      "q": "Grammar-Translation method focuses primarily on:",
+      "options": ["Speaking and listening", "Reading, writing, and translation of texts", "Interaction", "Pronunciation"],
+      "correct": 1,
+      "feedback": "طريقة النحو والترجمة تركز على القراءة والكتابة وحفظ القواعد والمفردات، مع إهمال كبير للتواصل الشفهي[cite: 1, 3]."
+    },
+    {
+      "q": "The 'silent period' is a phase where:",
+      "options": ["Learners refuse to learn", "Learners listen and process input without producing speech", "Teachers stay silent", "No learning happens"],
+      "correct": 1,
+      "feedback": "الفترة الصامتة هي مرحلة مبكرة في تعلم اللغة حيث يكتفي المتعلم بالاستماع والفهم وبناء الكفاءة قبل أن يبدأ في الكلام[cite: 1]."
+    },
+    {
+      "q": "Negative transfer (Interference) happens when:",
+      "options": ["L1 rules help L2 learning", "L1 rules lead to errors in L2", "L2 rules are easy", "There is no connection between L1 and L2"],
+      "correct": 1,
+      "feedback": "النقل السلبي (Negative Transfer) يحدث عندما تؤدي اختلافات القواعد بين اللغة الأم واللغة الثانية إلى ارتكاب الأخطاء[cite: 1, 3]."
+    },
+    {
+      "q": "Positive transfer happens when:",
+      "options": ["L1 and L2 share similar structures, facilitating learning", "L1 hinders L2", "The learner forgets L1", "The learner dislikes L2"],
+      "correct": 0,
+      "feedback": "النقل الإيجابي يحدث عندما تتشابه اللغتان (مثل الفرنسية والإنجليزية في بعض المفردات)، مما يسهل عملية التعلم[cite: 1, 3]."
+    },
+    {
+      "q": "Scaffolding in language teaching means:",
+      "options": ["Building a wall", "Providing temporary support to help learners achieve a task", "Punishing errors", "Using only textbooks"],
+      "correct": 1,
+      "feedback": "السقالات التعليمية (Scaffolding) هي الدعم المؤقت الذي يقدمه المعلم للطالب ليتمكن من أداء مهمة تفوق قدراته الحالية قليلاً[cite: 1]."
+    },
+    {
+      "q": "The concept of 'Universal Grammar' (UG) is most closely associated with:",
+      "options": ["B.F. Skinner", "Noam Chomsky", "Lev Vygotsky", "Stephen Krashen"],
+      "correct": 1,
+      "feedback": "نعوم تشومسكي هو صاحب نظرية النحو الشامل (UG)، والتي تفترض أن كل البشر يولدون بمعرفة فطرية بالقواعد الأساسية المشتركة بين كل اللغات."
+    },
+    {
+      "q": "Which term describes the 'High' variety in a diglossic situation like Arabic?",
+      "options": ["Vernacular", "Classical/Standard Arabic", "Colloquial", "Pidgin"],
+      "correct": 1,
+      "feedback": "في حالة الازدواجية اللغوية (Diglossia)، تمثل اللغة العربية الفصحى المستوى 'العالي' (High variety) المستخدم في التعليم والخطابات الرسمية."
+    },
+    {
+      "q": "The 'Acquisition-Learning' distinction is a core part of whose theory?",
+      "options": ["Chomsky", "Krashen", "Labov", "Sausurre"],
+      "correct": 1,
+      "feedback": "ستيفن كراشن (Stephen Krashen) هو من ميز بين الاكتساب الطبيعي (Acquisition) والتعلم الأكاديمي الواعي (Learning)."
+    },
+    {
+      "q": "In the brain, the Wernicke’s area is located in the:",
+      "options": ["Frontal lobe", "Posterior temporal lobe", "Occipital lobe", "Cerebellum"],
+      "correct": 1,
+      "feedback": "تقع منطقة فيرنيكه في الفص الصدغي الخلفي، وهي المسؤولة عن معالجة وفهم المعاني اللغوية."
+    },
+    
+
+
+    {
+      "q": "A 'spoonerism' is a type of slip of the:",
+      "options": ["Ear", "Tongue", "Pen", "Brain"],
+      "correct": 1,
+      "feedback": "السبونريزم (Spoonerism) هو أحد أشهر أخطاء اللسان (Slip of the tongue)، حيث يتم تبديل الأصوات الأولى للكلمات."
+    },
+    {
+      "q": "The 'Holophrastic' stage is characterized by:",
+      "options": ["Two-word utterances", "Single words functioning as whole sentences", "Babbling sounds", "Complex grammar"],
+      "correct": 1,
+      "feedback": "المرحلة العبارية (Holophrastic) هي عندما يستخدم الطفل كلمة واحدة (مثل 'ماء') ليعبر عن جملة كاملة (أريد أن أشرب ماء)."
+    },
+    {
+      "q": "Which of these is a 'Functional Morpheme'?",
+      "options": ["Boy", "Happy", "And", "Walk"],
+      "correct": 2,
+      "feedback": "المورفيمات الوظيفية (Functional) هي الكلمات التي تربط الجمل مثل حروف العطف (and, but) وأدوات التعريف، ولا تحمل معنى معجمياً مستقلاً كالأفعال والأسماء."
+    },
+    {
+      "q": "The term 'Philology' refers to the study of:",
+      "options": ["Modern linguistics", "Historical development of languages through texts", "Speech disorders", "Brain structures"],
+      "correct": 1,
+      "feedback": "فقه اللغة (Philology) يركز تاريخياً على دراسة النصوص القديمة وتطور اللغات عبر الزمن، وهو يختلف عن اللسانيات الحديثة."
+    },
+    {
+      "q": "A student saying 'I have two childs' instead of 'two children' is demonstrating:",
+      "options": ["Interference", "Overgeneralization", "Fossilization", "Code-switching"],
+      "correct": 1,
+      "feedback": "هذا تعميم زائد (Overgeneralization) لقاعدة الجمع المنتظم (s) على اسم شاذ (child)، وهو جزء طبيعي من تطوير اللغة البينية."
+    },
+    {
+      "q": "The study of 'Deixis' (words like 'here', 'there', 'this') falls under:",
+      "options": ["Phonology", "Semantics", "Pragmatics", "Morphology"],
+      "correct": 2,
+      "feedback": "الإشاريات (Deixis) تتبع علم التداولية (Pragmatics) لأن معناها لا يكتمل إلا بمعرفة سياق المتحدث والمكان والزمان."
+    },
+    {
+      "q": "Which branch of applied linguistics deals with using language in legal settings?",
+      "options": ["Forensic Linguistics", "Clinical Linguistics", "Sociolinguistics", "Lexicography"],
+      "correct": 0,
+      "feedback": "اللسانيات الجنائية (Forensic Linguistics) هي تطبيق العلم اللغوي في المحاكم وفحص الأدلة النصية والتحقيق الجنائي."
+    },
+    {
+      "q": "The process of describing how people *actually* speak, rather than how they *should* speak, is:",
+      "options": ["Prescriptive", "Descriptive", "Normative", "Traditional"],
+      "correct": 1,
+      "feedback": "المنهج الوصفي (Descriptive) يصف اللغة كما هي مستخدمة في الواقع، بينما المنهج المعياري (Prescriptive) يفرض قواعد لما يجب أن يكون عليه الكلام."
+    },
+    {
+      "q": "What is the 'Silent Period' in second language acquisition?",
+      "options": ["When a student refuses to learn", "A phase where learners process language before speaking", "When the teacher doesn't speak", "A speech disorder"],
+      "correct": 1,
+      "feedback": "الفترة الصامتة هي مرحلة طبيعية يمر بها متعلم اللغة الثانية، حيث يستوعب المدخلات (Input) دون أن يمتلك القدرة أو الثقة للإنتاج (Output) بعد."
+    },
+    {
+      "q": "A 'Social Marker' is a linguistic feature that:",
+      "options": ["Only linguists use", "Identifies a speaker as a member of a particular social group", "Is used in dictionaries", "Is the same in all languages"],
+      "correct": 1,
+      "feedback": "العلامة الاجتماعية (Social Marker) هي ميزة في النطق أو الكلمات تدل فوراً على خلفية المتحدث الطبقية أو التعليمية (مثل نطق الراء في دراسة لابوف)."
+    },
+    {
+      "q": "Synchronic linguistics studies language:",
+      "options": ["Across different centuries", "At a single point in time", "Only in children", "In the brain only"],
+      "correct": 1,
+      "feedback": "اللسانيات التزامنية (Synchronic) تدرس نظام اللغة في لحظة زمنية محددة (كاللغة العربية في القرن الحالي) دون النظر لتاريخها."
+    },
+    {
+      "q": "The 'Monitor Model' suggests that 'Learning' acts as a(n):",
+      "options": ["Inspiration", "Editor or corrector", "Barrier", "Dictionary"],
+      "correct": 1,
+      "feedback": "وفقاً لكراشن، المعرفة التي نتعلمها أكاديمياً تعمل كـ 'مراقب' (Monitor) يقوم بتصحيح وتدقيق ما ننتجه عفوياً من خلال الاكتساب."
+    },
+    {
+      "q": "What does 'LAD' stand for in Chomsky's theory?",
+      "options": ["Language Acquisition Device", "Learning And Development", "Linguistic Analysis Data", "Latin American Dialects"],
+      "correct": 0,
+      "feedback": "جهاز اكتساب اللغة (LAD) هو مكوّن ذهني افتراضي يولد به الإنسان ليساعده على استخلاص قواعد اللغة من البيئة المحيطة."
+    },
+    
+    {
+      "q": "In sociolinguistics, 'Register' is variation based on:",
+      "options": ["Region", "Social class", "Use and context (situation)", "Ethnicity"],
+      "correct": 2,
+      "feedback": "السجل اللغوي (Register) يتغير بتغير 'الموقف' (Context)، مثل الفرق بين لغتك في مقابلة عمل ولغتك مع أصدقائك."
+    },
+    {
+      "q": "When a language has no native speakers and is used for basic communication between different groups, it is a:",
+      "options": ["Creole", "Pidgin", "Dialect", "Standard"],
+      "correct": 1,
+      "feedback": "لغة البيدجن (Pidgin) هي لغة 'اتصال' طارئة لا يتحدثها أحد كلغة أم، وتنشأ لأغراض عملية كالتجارة."
+    },
+    {
+      "q": "The suffix '-less' in 'hopeless' is a:",
+      "options": ["Inflectional morpheme", "Derivational morpheme", "Free morpheme", "Functional morpheme"],
+      "correct": 1,
+      "feedback": "هو مورفيم اشتقاقي (Derivational) لأنه غيّر فئة الكلمة من اسم (hope) إلى صفة (hopeless)."
+    },
+    {
+      "q": "The term 'Etymology' refers to the study of:",
+      "options": ["The origin and history of words", "Sentence structure", "Social dialects", "Speech sounds"],
+      "correct": 0,
+      "feedback": "علم أصل الكلمات (Etymology) يبحث في تاريخ الكلمة وكيف وصل إلينا شكلها ومعناها الحالي."
+    },
+    {
+      "q": "Which of these is an example of 'Backformation'?",
+      "options": ["Edit from Editor", "NASA", "Brunch", "Paper"],
+      "correct": 0,
+      "feedback": "الاشتقاق العكسي (Backformation) هو حذف لاحقة من كلمة موجودة ظناً أنها زائدة لتكوين كلمة جديدة (مثل ابتكار فعل edit من اسم editor)."
+    },
+    {
+      "q": "A 'diphthong' is a term used in:",
+      "options": ["Syntax", "Phonetics/Phonology", "Semantics", "Pragmatics"],
+      "correct": 1,
+      "feedback": "الديفتونغ (Diphthong) هو صوت علة مركب يتكون من حركة اللسان من وضعية حرف علة إلى آخر في نفس المقطع."
+    },
+    {
+      "q": "The concept of 'Face' and 'Politeness' in conversation is studied in:",
+      "options": ["Morphology", "Pragmatics", "Neurolinguistics", "Historical linguistics"],
+      "correct": 1,
+      "feedback": "دراسة 'حفظ الوجه' (Face) والتهذب اللغوي تقع ضمن علم التداولية (Pragmatics) لأنها تتعلق بكيفية إدارة العلاقات الاجتماعية عبر الكلام."
+    },
+    {
+      "q": "Input that is slightly above the learner's current level is called:",
+      "options": ["Comprehensive Input", "Comprehensible Input (i+1)", "Difficult Input", "Random Input"],
+      "correct": 1,
+      "feedback": "المدخلات المفهومة (i+1) هي فرضية كراشن التي تقول إن التعلم يحدث عندما يتعرض المتعلم للغة يفهمها ولكنها تحتوي على تحدٍ بسيط يفوق مستواه الحالي بدرجة واحدة."
+    }
+  ]
+}

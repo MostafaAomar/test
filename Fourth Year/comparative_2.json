@@ -1,0 +1,4975 @@
+{
+  "subject": "ادب مقارن سنه رابعه 2",
+  "lang": "en",
+  "questions": [
+  {
+    "q": "1. Key reason 'The Oresteia' is difficult to read?",
+    "options": [
+      "A) Written in Prose",
+      "B) It was never translated",
+      "C) It is translated from Greek and written in verse",
+      "D) It contains complex scientific concepts"
+    ],
+    "correct": 2,
+    "feedback": "صعوبة قراءة الأوريستيا تعود لكونها مترجمة عن اليونانية القديمة ومكتوبة بأسلوب شعري مزخرف ومليء بالصور البيانية (verse) [من النظريات 27 و34]."
+  },
+  {
+    "q": "2. How 'The Flies' differs in style?",
+    "options": [
+      "A) It is written in verse",
+      "B) It is written in prose with everyday language",
+      "C) It is written in Ancient Greek",
+      "D) It has a highly poetic format"
+    ],
+    "correct": 1,
+    "feedback": "تم تصحيح الإجابة: مسرحية 'الذباب' للكاتب سارتر تتميز بأسلوب نثري بلغة يومية بسيطة (prose)، على عكس 'الأوريستيا' المكتوبة بالشعر [من النظرية 32 لمسرحية الذباب والنظرية 34 للأوريستيا]."
+  },
+  {
+    "q": "3. Major theme by Aeschylus?",
+    "options": [
+      "A) Freedom of choice",
+      "B) Vengeance and fatalism",
+      "C) Romantic love",
+      "D) Scientific knowledge"
+    ],
+    "correct": 1,
+    "feedback": "تم تصحيح الإجابة: المواضيع الأساسية لدى إيسخيلوس هي الانتقام والقدرية والدمار المحتوم (Vengeance & Fatalism)، بينما حرية الاختيار هي فكرة وجودية خاصة بسارتر [من النظريات 31، 33، 120، 123]."
+  },
+  {
+    "q": "4. Orestes theme in 'The Flies'?",
+    "options": [
+      "A) Pursuit of romantic love",
+      "B) Freedom and responsibility",
+      "C) Pursuit of wealth",
+      "D) Seeking scientific knowledge"
+    ],
+    "correct": 1,
+    "feedback": "الموضوع الأساسي لأوريست في مسرحية سارتر هو الحرية والمسؤولية الفردية ومقاومة السلطة الجائرة [من النظريات 55 و66 للذباب]."
+  },
+  {
+    "q": "5. Tragic event of Aeschylus' death?",
+    "options": [
+      "A) Struck by lightning",
+      "B) Hit by a falling tortoise dropped by an eagle",
+      "C) Poisoned by a rival playwright",
+      "D) Killed in battle"
+    ],
+    "correct": 1,
+    "feedback": "تم تصحيح الإجابة: توفي إيسخيلوس خارج المدينة بسبب سلحفاة (tortoise) أسقطها نسر على رأسه الأصلع ظناً منه أنه صخرة [من النظرية 5 للقسم النظري]."
+  },
+  {
+    "q": "6. (Quote: \"She is the lioness...\") Speaker?",
+    "options": [
+      "A) The Chorus",
+      "B) Electra",
+      "C) Cassandra",
+      "D) Orestes"
+    ],
+    "correct": 2,
+    "feedback": "القائل هي كاساندرا في مسرحية أغاممنون عندما كانت تتنبأ بالمستقبل وجريمة القتل [من الاقتباس 71 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "7. Addressee (of the quote above)?",
+    "options": [
+      "A) Orestes",
+      "B) The Chorus Leader / Chorus",
+      "C) Iphigenia",
+      "D) Electra"
+    ],
+    "correct": 1,
+    "feedback": "كاساندرا كانت توجه كلامها لقائد الجوقة (Leader/Chorus) في هذه النبوءة [من الاقتباس 71 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "8. \"The Lioness\" refers to?",
+    "options": [
+      "A) Clytemnestra",
+      "B) Electra",
+      "C) Iphigenia",
+      "D) Athena"
+    ],
+    "correct": 0,
+    "feedback": "اللبؤة (lioness) تشير إلى كليتمنسترا التي تخون زوجها أغاممنون مع إيجيسثوس [من الاقتباس 71 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "9. \"The wolf\" refers to?",
+    "options": [
+      "A) Zeus",
+      "B) Agamemnon",
+      "C) Aegisthus",
+      "D) Orestes"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: الذئب (wolf) يشير إلى إيجيسثوس (Aegisthus) الذي تضاجعه كليتمنسترا وتتآمر معه [من الاقتباس 71 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "10. \"We\" refers to?",
+    "options": [
+      "A) Electra and Orestes",
+      "B) People of Argos",
+      "C) Agamemnon and Cassandra",
+      "D) Aegisthus and Clytemnestra"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة والخيارات: الضمير 'نحن' في اقتباس كاساندرا 'We will die...' يشير إليها وإلى الملك أغاممنون اللذين سيقتلان معاً [من الاقتباس 72 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "11. Central goddess in 'The Eumenides'?",
+    "options": [
+      "A) Hera",
+      "B) Athena",
+      "C) Aphrodite",
+      "D) Artemis"
+    ],
+    "correct": 1,
+    "feedback": "الإلهة أثينا (Athena) هي الشخصية المحورية التي تقود المحاكمة وتحسم النزاع في مسرحية صافحات الجميل (The Eumenides) [من ملخص الأحداث والنظرية 61]."
+  },
+  {
+    "q": "12. Watchman's role in Agamemnon?",
+    "options": [
+      "A) Protagonist",
+      "B) Messenger",
+      "C) Commentary",
+      "D) On duty on the roof"
+    ],
+    "correct": 3,
+    "feedback": "دور الحارس (Watchman) هو المراقبة من فوق سطح القصر لانتظار إشارة سقوط طروادة [من النظرية 112 والاقتباس 1 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "13. NOT a major character in 'The Oresteia'?",
+    "options": [
+      "A) Cassandra",
+      "B) Electra",
+      "C) Medea",
+      "D) Apollo"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: ميديا (Medea) هي شخصية من تراجيديا أخرى لإيريبيديس وليست من شخصيات ثلاثية الأوريستيا لإيسخيلوس [من قائمة الشخصيات]."
+  },
+  {
+    "q": "14. City where trial takes place?",
+    "options": [
+      "A) Sparta",
+      "B) Thebes",
+      "C) Delphi",
+      "D) Athens"
+    ],
+    "correct": 3,
+    "feedback": "المحاكمة تجري في مدينة أثينا (Athens) بطلب من الإلهة أثينا ومشاركة مواطني المدينة [من ملخص أحداث مسرحية صافحات الجميل]."
+  },
+  {
+    "q": "15. Verdict of Orestes' trial?",
+    "options": [
+      "A) Guilty",
+      "B) Not guilty / Acquitted",
+      "C) Insufficient evidence",
+      "D) Banishment"
+    ],
+    "correct": 1,
+    "feedback": "تم تصحيح الإجابة: حكم المحكمة النهائي هو البراءة (Not guilty) بعد تعادل الأصوات وتصويت أثينا لصالحه [من ملخص الأحداث والاقتباس 49 في مسرحية صافحات الجميل]."
+  },
+  {
+    "q": "16. Symbolic act of resolution?",
+    "options": [
+      "A) Establishing a sanctuary",
+      "B) Orestes sacrificing a bull",
+      "C) The transformation of the Furies into Eumenides",
+      "D) Apollo banishing the Furies"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: الحل الرمزي لإنهاء سلسلة الانتقام هو تحويل آلهة الغضب واللعنات (Furies) إلى آلهة الخير والمباركة (Eumenides) المقيمات في أثينا [من النظرية 118 وملخص المسرحية]."
+  },
+  {
+    "q": "17. Where Orestes seeks sanctuary first?",
+    "options": [
+      "A) Athens",
+      "B) Sparta",
+      "C) Delphi",
+      "D) Mycenae"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: يتوجه أوريست أولاً إلى ضريح الإله أبولو في دلفي (Delphi) طلباً للتطهر والحماية [من ملخص مسرحية حاملات القرابين]."
+  },
+  {
+    "q": "18. Deity associated with justice/trial?",
+    "options": [
+      "A) Apollo",
+      "B) Zeus",
+      "C) Athena",
+      "D) Hera"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: الإلهة أثينا (Athena) هي المرتبطة بالعدالة وتأسيس المحكمة والتحكيم [من النظرية 61 و 93 والملخص]."
+  },
+  {
+    "q": "19. NOT true about 'The Flies'?",
+    "options": [
+      "A) Written by Sartre exploring Existentialism",
+      "B) There is no character named Cassandra",
+      "C) There is no traditional Greek chorus",
+      "D) There are no gods present in the play"
+    ],
+    "correct": 3,
+    "feedback": "تم تصحيح الإجابة: العبارة غير الصحيحة هي أنه لا يوجد آلهة، لأن الإله زيوس (Zeus) حاضر كشخصية رئيسية في المسرحية [من ملخص أحداث وقائمة شخصيات مسرحية الذباب]."
+  },
+  {
+    "q": "20. Significance of Iphigeneia?",
+    "options": [
+      "A) She is the protagonist",
+      "B) She is the mastermind behind the murder",
+      "C) She orders Orestes' revenge",
+      "D) Her sacrificial murder sets the tragic events in motion"
+    ],
+    "correct": 3,
+    "feedback": "التضحية بإيفيجينيا على يد والدها أغاممنون هي الحدث التأسيسي الذي أطلق سلسلة الدماء والحروب والانتقام [من ملخص الأحداث والنظرية 48]."
+  },
+  {
+    "q": "21. Protagonist of 'The Flies'?",
+    "options": [
+      "A) Orestes",
+      "B) Electra",
+      "C) Agamemnon",
+      "D) Zeus"
+    ],
+    "correct": 0,
+    "feedback": "تم تصحيح الإجابة: أوريست (Orestes) هو بطل مسرحية 'الذباب' والناطق باسم فلسفة سارتر الوجودية [من النظرية 41 لمسرحية الذباب]."
+  },
+  {
+    "q": "22. Relationship between Orestes and Electra?",
+    "options": [
+      "A) Siblings",
+      "B) Cousins",
+      "C) Enemies",
+      "D) Lovers"
+    ],
+    "correct": 0,
+    "feedback": "تم تصحيح الإجابة: أوريست وإلكترا هما أشقاء (Siblings)، أبناء الملك أغاممنون والملكة كليتمنسترا [من مخطط العائلة والنظريات]."
+  },
+  {
+    "q": "23. Survived plays by Aeschylus?",
+    "options": [
+      "A) Five",
+      "B) Seven",
+      "C) Ten",
+      "D) Twelve"
+    ],
+    "correct": 1,
+    "feedback": "نجت 7 مسرحيات فقط كاملة لإيسخيلوس من أصل 70 إلى 90 مسرحية كتبها [من النظرية 11 و12 للقسم النظري]."
+  },
+  {
+    "q": "24. Trigger for Agamemnon's return?",
+    "options": [
+      "A) The Fall of Troy",
+      "B) The death of Aegisthus",
+      "C) A demand for sacrifice",
+      "D) The abduction of Helen"
+    ],
+    "correct": 0,
+    "feedback": "تم تصحيح الإجابة: الحدث الذي أدى لعودة أغاممنون هو انتهاء الحرب وسقوط طروادة بعد عشر سنوات [من ملخص أحداث مسرحية أغاممنون]."
+  },
+  {
+    "q": "25. God commanding vengeance?",
+    "options": [
+      "A) Zeus",
+      "B) Hera",
+      "C) Apollo",
+      "D) Athena"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: الإله أبولو (Apollo) هو من أمر أوريست بالانتقام لوالده وقتل أمه وإلا واجه عواقب وخيمة [من ملخص حاملات القرابين والنظرية 74]."
+  },
+  {
+    "q": "26. How are Clytemnestra and Aegisthus killed?",
+    "options": [
+      "A) Poisoned",
+      "B) Stabbed with a sword",
+      "C) Strangled",
+      "D) Burned alive"
+    ],
+    "correct": 1,
+    "feedback": "تم تصحيح الإجابة: يُقتلان بالطعن بالسيف على يد أوريست [من ملخص الأحداث واقتباسات حاملات القرابين والذباب]."
+  },
+  {
+    "q": "27. Sartre's portrayal of gods?",
+    "options": [
+      "A) Vengeful and all-powerful",
+      "B) Loving and forgiving",
+      "C) Indifferent to humans",
+      "D) Manipulative but ultimately powerless against free individuals"
+    ],
+    "correct": 3,
+    "feedback": "تم تصحيح الإجابة: يصور سارتر الآلهة (متمثلة بزيوس) بأنها متلاعبة وسلطوية لكنها عاجزة تماماً أمام الإنسان الذي يعي حريته [من النظرية 67 والاقتباس 67 في مسرحية الذباب]."
+  },
+  {
+    "q": "28. Symbolic meaning of flies?",
+    "options": [
+      "A) Individual freedom",
+      "B) Divine punishment and guilt",
+      "C) Absolute political power",
+      "D) Positive divine intervention"
+    ],
+    "correct": 1,
+    "feedback": "الذباب يرمز إلى الشعور بالذنب والندم (remorse/guilt) وهو العقاب الإلهي الذي يفرضه المستبدون للسيطرة على الشعب [من النظريات 48 و 65 لمسرحية الذباب]."
+  },
+  {
+    "q": "29. Orestes' offer to Argos?",
+    "options": [
+      "A) Freedom from fear and remorse",
+      "B) A new religious doctrine",
+      "C) Material wealth",
+      "D) An avenue for political revenge"
+    ],
+    "correct": 0,
+    "feedback": "تم تصحيح الإجابة: يعرض أوريست تحرير شعب أرغوس من الخوف والندم والعيش بحرية كاملة، رافضاً تولي العرش [من ملخص أحداث مسرحية الذباب الفصل الثالث]."
+  },
+  {
+    "q": "30. Philosophical distinction?",
+    "options": [
+      "A) Atheism vs. polytheism",
+      "B) Tragedy vs. comedy",
+      "C) Romanticism vs. Classicism",
+      "D) Symbolism vs. Realism"
+    ],
+    "correct": 0,
+    "feedback": "الفرق الفلسفي الأساسي هو الشرك والقدرية عند إيسخيلوس (polytheism) مقابل الإلحاد والحرية والوجودية عند سارتر (Atheism) [من النظرية 7 و 125 للأولى والنظرية 9 و 30 للثانية]."
+  },
+  {
+    "q": "31. \"I am free\" meaning?",
+    "options": [
+      "A) He has no moral obligations",
+      "B) He is liberated from physical prison",
+      "C) He is no longer subject to Zeus's authority and controls his own fate",
+      "D) He will control the fate of others"
+    ],
+    "correct": 2,
+    "feedback": "الحرية عند أوريست تعني استقلاله التام عن سلطة زيوس وقوانين الآلهة وقدرته على صنع مصيره بنفسه [من اقتباسات الفصل الثالث لمسرحية الذباب]."
+  },
+  {
+    "q": "32. Sartre's message in 'The Flies'?",
+    "options": [
+      "A) Humanity is bound by inescapable fate",
+      "B) Divine justice is absolute",
+      "C) Human freedom is absolute and comes with individual responsibility",
+      "D) The triumph of political authority"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: الرسالة الأساسية للمسرحية هي الدعوة للحرية الفردية وتحمل المسؤولية والتمرد على سلطة الاحتلال والمستبدين [من النظريات 26، 28، 34 لمسرحية الذباب]."
+  },
+  {
+    "q": "33. Argues for Orestes during trial?",
+    "options": [
+      "A) Apollo",
+      "B) Zeus",
+      "C) Clytemnestra",
+      "D) Pylades"
+    ],
+    "correct": 0,
+    "feedback": "تم تصحيح الإجابة: الإله أبولو (Apollo) هو من يظهر في المحكمة ويدافع عن أوريست ويبرر قتله لأمه [من ملخص أحداث مسرحية صافحات الجميل والنظرية 36]."
+  },
+  {
+    "q": "34. Aegisthus to explore corruption?",
+    "options": [
+      "A) As a revolutionary leader",
+      "B) As a tyrant who uses fear and guilt to maintain absolute control",
+      "C) As a ruler filled with compassion for his subjects",
+      "D) As a saintly figure of piety"
+    ],
+    "correct": 1,
+    "feedback": "تم تصحيح الإجابة: يستخدم سارتر شخصية إيجيسثوس لتمثيل المستبد والاحتلال النازي الذي يخلق الذعر والندم المصطنع لفرض النظام [من النظرية 51 و 52 و 68 لمسرحية الذباب]."
+  },
+  {
+    "q": "35. Genre of 'The Flies'?",
+    "options": [
+      "A) Comedy",
+      "B) Classical Tragedy",
+      "C) Satire",
+      "D) Tragicomedy"
+    ],
+    "correct": 3,
+    "feedback": "تم تصحيح الإجابة: تُصنف مسرحية 'الذباب' بأنها تراجيكوميدي (Tragicomedy) [من النظرية 22 لمسرحية الذباب]."
+  },
+  {
+    "q": "36. Setting of 'The Flies'?",
+    "options": [
+      "A) Corinth",
+      "B) Athens",
+      "C) Argos",
+      "D) Troy"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: أحداث مسرحية 'الذباب' تجري كاملة في مدينة أرغوس (Argos) [من ملخص الأحداث وموقع التمثال في الفصل الأول]."
+  },
+  {
+    "q": "37. Zeus' role in 'The Flies'?",
+    "options": [
+      "A) A benevolent ruler of the universe",
+      "B) A servant to Orestes",
+      "C) The god of flies and death",
+      "D) The biological father of Orestes"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: زيوس في مسرحية سارتر هو إله الذباب والموت، وهو رمز للأنظمة السلطوية الفوقية [من وصف المشهد الأول لمسرحية الذباب]."
+  },
+  {
+    "q": "38. (Quote: \"He came to Atreus' house...\") Speaker?",
+    "options": [
+      "A) The Chorus",
+      "B) Zeus",
+      "C) Agamemnon",
+      "D) Electra"
+    ],
+    "correct": 0,
+    "feedback": "تم تصحيح الإجابة: القائل هو الجوقة (Chorus) في مسرحية أغاممنون وهي تتحدث عن قدوم باريس وسرقته لهيلين [من الاقتباس 26 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "39. \"He\" refers to?",
+    "options": [
+      "A) Agamemnon",
+      "B) Zeus",
+      "C) Paris",
+      "D) Orestes"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: الضمير 'هو' يشير إلى باريس (Paris) ابن بريام ملك طروادة الذي خان كرم الضيافة [من الاقتباس 26 لمسرحية أغاممنون]."
+  },
+  {
+    "q": "40. \"The queen\" refers to?",
+    "options": [
+      "A) Electra",
+      "B) Clytemnestra",
+      "C) Helen",
+      "D) Iphigenia"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: الملكة المقصودة هنا هي هيلين (Helen) زوجة مينلاوس التي اختطفها باريس [من الاقتباس 26 لمسرحية أغاممنون]."
+  },
+  {
+    "q": "41. \"Her land\" refers to?",
+    "options": [
+      "A) Argos",
+      "B) Troy",
+      "C) Sparta",
+      "D) Delphi"
+    ],
+    "correct": 2,
+    "feedback": "تم تصحيح الإجابة: بلادها تشير إلى سبارتا (Sparta) التي غادرتها هيلين مسببة دماراً وفوضى [من الاقتباس 26 لمسرحية أغاممنون]."
+  },
+  {
+    "q": "42. Quotation taken from?",
+    "options": [
+      "A) The Flies",
+      "B) The Libation Bearers",
+      "C) The Eumenides",
+      "D) Agamemnon"
+    ],
+    "correct": 3,
+    "feedback": "تم تصحيح الإجابة: هذا الاقتباس مأخوذ من الجزء الأول من الثلاثية وهي مسرحية أغاممنون (Agamemnon) [من الاقتباس 26 للمسرحية]."
+  },
+  {
+    "q": "43. Addressee in the quotation 'Keep off, you whore! Are you not ashamed-under his eyes?'?",
+    "options": [
+      "A) Clytemnestra",
+      "B) Cassandra",
+      "C) An old woman",
+      "D) Electra"
+    ],
+    "correct": 0,
+    "feedback": "المخاطبة في هذا الاقتباس هي كليتمنسترا، حيث يصرخ بها إيجيسثوس بعد شعوره بالتعب والذنب [من الاقتباس 41 في مسرحية الذباب الفصل الثاني]."
+  },
+  {
+    "q": "44. Quotation 'Keep off, you whore! Are you not ashamed...' taken from?",
+    "options": [
+      "A) The Flies",
+      "B) Agamemnon",
+      "C) The Libation Bearers",
+      "D) The Eumenides"
+    ],
+    "correct": 0,
+    "feedback": "الاقتباس مأخوذ من مسرحية 'الذباب' (The Flies) للكاتب جان بول سارتر [من الاقتباس 41 في المسرحية]."
+  },
+  {
+    "q": "45. \"His eyes\" refers to?",
+    "options": [
+      "A) Zeus",
+      "B) Agamemnon",
+      "C) Orestes",
+      "D) Aegisthus"
+    ],
+    "correct": 1,
+    "feedback": "المقصود بـ 'عينيه' هو الملك الراحل أغاممنون (Agamemnon) الذي قتلوه وما زالوا يشعرون بوجوده وروحه تلاحقهم [من الاقتباس 41 في مسرحية الذباب]."
+  },
+  {
+    "q": "46. House of Atreus cursed by sons of?",
+    "options": [
+      "A) Pelops",
+      "B) Thyestes",
+      "C) Tantalus",
+      "D) None of the above"
+    ],
+    "correct": 1,
+    "feedback": "اللعنة حلت على منزل أتريوس بسبب نزاعه مع شقيقه ثايستيس (Thyestes) الذي لعن أتريوس ونسله [من النظريات 38 و39 لثلاثية الأوريستيا]."
+  },
+  {
+    "q": "47. Freedom prevailing motif in both plays?",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct": 1,
+    "feedback": "تم تصحيح الإجابة: خاطئ، فكرة الحرية ليست موضوعاً مشتركاً؛ الأوريستيا تعتقد بالقدرية والجبرية للإنسان، بينما الذباب تقدس الحرية المطلقة [من النظرية 31 للأولى والنظرية 28 للثانية]."
+  },
+  {
+    "q": "48. Clytemnestra's dream?",
+    "options": [
+      "A) A snake biting her breast",
+      "B) A great flood washing her away",
+      "C) Orestes returning with an army",
+      "D) Electra killing her"
+    ],
+    "correct": 0,
+    "feedback": "حلمت كليتمنسترا بأنها أنجبت أفعى قامت بعضّ ثديها وامتصاص دمها، وهو رمز لابنها أوريست الذي سيقتلها [من النظرية 25 لمسرحية حاملات القرابين]."
+  },
+  {
+    "q": "49. All true except?",
+    "options": [
+      "A) Jean-Paul Sartre is a polytheist",
+      "B) Argos is portrayed as a repetitive and guilt-ridden culture",
+      "C) Zeus plays a key role in both works",
+      "D) Both plays carry a moral and philosophical lesson"
+    ],
+    "correct": 0,
+    "feedback": "سارتر كاتب وفيلسوف ملحد (Atheist) لا يؤمن بالآلهة، على عكس إيسخيلوس المشرك (polytheist) [من النظرية 9 والظروف الوجودية لمسرحية الذباب]."
+  },
+  {
+    "q": "50. Ceremony held in Argos?",
+    "options": [
+      "A) The Day of Repentance",
+      "B) Dead Men's Day / Ceremony of the Dead",
+      "C) The Rite of Life",
+      "D) The Feast of Taste"
+    ],
+    "correct": 1,
+    "feedback": "الاحتفال السنوي الذي ابتكره إيجيسثوس هو 'يوم الموتى' (Dead Men's Day) للسيطرة على الناس وبث الخوف في قلوبهم [من ملخص الأحداث والنظرية 51]."
+  },
+  {
+    "q": "51. Notable about flies?",
+    "options": [
+      "A) They are highly poisonous",
+      "B) They are as big as toads or bumblebees",
+      "C) They make a loud deafening sound",
+      "D) They are completely maladjusted to humans"
+    ],
+    "correct": 1,
+    "feedback": "زيوس يذكر في الفصل الأول أن الذباب يتغذى على الندم والدماء وسيصبح بحجم الضفادع/الخنافس الكبيرة [من الاقتباس 8 لمسرحية الذباب]."
+  },
+  {
+    "q": "52. Gods like mortals to be?",
+    "options": [
+      "A) Happy and independent",
+      "B) Suppliant and prayerful",
+      "C) Miserable and guilt-ridden",
+      "D) Ignorant of their secrets"
+    ],
+    "correct": 2,
+    "feedback": "تفضل الآلهة الوجودية أن يكون البشر منكسرين وخائفين ويشعرون بالذنب الدائم ليسهل التحكم بهم [من الاقتباسات 25 و26 لمسرحية الذباب]."
+  },
+  {
+    "q": "53. Orestes wishes to be?",
+    "options": [
+      "A) A man among men with shared memories and fears",
+      "B) A godless god",
+      "C) A king without a kingdom",
+      "D) A simple lumberjack"
+    ],
+    "correct": 0,
+    "feedback": "يتمنى أوريست في البداية أن يندمج مع الناس ويكون رجلاً بينهم يشاركهم ذكرياتهم ومخاوفهم بدلاً من أن يكون حراً بلا روابط [من الاقتباس 34 لمسرحية الذباب]."
+  },
+  {
+    "q": "54. Statue in public square?",
+    "options": [
+      "A) Aegisthus",
+      "B) Darth Vader",
+      "C) Agamemnon",
+      "D) Zeus"
+    ],
+    "correct": 3,
+    "feedback": "يوجد في الساحة العامة لمدينة أرغوس تمثال ضخم للإله زيوس، إله الذباب والموت [من وصف المشهد للفصل الأول في مسرحية الذباب]."
+  },
+  {
+    "q": "55. Gods' act after murder?",
+    "options": [
+      "A) They ordered his son to kill the murderers",
+      "B) They directly punished Clytemnestra",
+      "C) They sent a plague of flies",
+      "D) They did nothing at all"
+    ],
+    "correct": 2,
+    "feedback": "أرسل الآلهة الذباب ليكون عقاباً مستمراً وتذكيراً دائماً بالخطيئة والندم لأهل أرغوس [من ملخص مسرحية الذباب والنظرية 48]."
+  },
+  {
+    "q": "56. Electra's picture of Orestes?",
+    "options": [
+      "A) A wealthy young nobleman",
+      "B) A big, strong born fighter with rage in his eyes",
+      "C) A quiet, rational philosopher",
+      "D) Dead and gone forever"
+    ],
+    "correct": 1,
+    "feedback": "كانت إلكترا تتخيل أخيها كمحارب قوي وضخم يمتلك أعينًا حمراء غاضبة مثل والدهما ومستعد للانتقام [من الاقتباس 20 لمسرحية الذباب]."
+  },
+  {
+    "q": "57. Orestes dangerous because?",
+    "options": [
+      "A) He is the rightful son of Agamemnon",
+      "B) He knows he is free and cannot be bound by their authority",
+      "C) He has a powerful sister",
+      "D) He wants to seize the throne"
+    ],
+    "correct": 1,
+    "feedback": "تكمن خطورة أوريست في كونه اكتشف حريته، والإنسان الحر لا تملك الآلهة أو الملوك سلطة عليه [من الاقتباس 64 و67 في مسرحية الذباب]."
+  },
+  {
+    "q": "58. \"I am not ashamed...\" Speaker?",
+    "options": [
+      "A) Electra",
+      "B) Clytemnestra",
+      "C) Athena",
+      "D) Cassandra"
+    ],
+    "correct": 1,
+    "feedback": "القائل هي كليتمنسترا وهي تخاطب شعب أرغوس علناً وتبرر علاقتها بإيجيسثوس [من الاقتباس 36 و37 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "59. Addressee of quote above?",
+    "options": [
+      "A) Electra",
+      "B) Orestes",
+      "C) The people of Argos / Chorus",
+      "D) The Herald"
+    ],
+    "correct": 2,
+    "feedback": "تتحدث كليتمنسترا أمام وجهاء وشعب أرغوس (الجوقة) وتصف مشاعرها وغياب زوجها [من الاقتباس 36 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "60. Quotation taken from?",
+    "options": [
+      "A) The Flies",
+      "B) Agamemnon",
+      "C) The Libation Bearers",
+      "D) The Eumenides"
+    ],
+    "correct": 1,
+    "feedback": "هذا الاقتباس مأخوذ من مسرحية أغاممنون لإيسخيلوس [من الاقتباس 36 في المسرحية]."
+  },
+  {
+    "q": "61. \"The man\" refers to?",
+    "options": [
+      "A) Aegisthus",
+      "B) Orestes",
+      "C) Agamemnon",
+      "D) Pylades"
+    ],
+    "correct": 0,
+    "feedback": "تشير كليتمنسترا بـ 'الرجل' إلى عشيقها إيجيسثوس (Aegisthus) الذي تآمرت معه [من الاقتباس 37 في مسرحية أغاممنون]."
+  },
+  {
+    "q": "62. Electra finds at grave?",
+    "options": [
+      "A) A piece of red cloth",
+      "B) A pair of leather gloves",
+      "C) A loaf of sacred bread",
+      "D) A lock of hair matching her own"
+    ],
+    "correct": 3,
+    "feedback": "تجد إلكترا خصلة شعر مقطوعة وموضوعة على القبر تتطابق تماماً مع نسيج ولون شعرها [من ملخص مسرحية حاملات القرابين والاقتباسات 4 و5]."
+  },
+  {
+    "q": "63. Aegisthus' bad mood reason?",
+    "options": [
+      "A) The difficulty of ruling a large empire",
+      "B) The immense strain of maintaining the false remorse of a whole city for 15 years",
+      "C) The continuous need to punish Electra",
+      "D) All of the above"
+    ],
+    "correct": 1,
+    "feedback": "يعاني إيجيسثوس من الإرهاق الشديد لأنه يمثل دوراً مصطنعاً طيلة 15 عاماً ليحافظ على ندم وخوف المدينة [من الاقتباس 39 لمسرحية الذباب الفصل الثاني]."
+  },
+  {
+    "q": "64. Why stop Orestes?",
+    "options": [
+      "A) To protect Electra",
+      "B) To save Clytemnestra",
+      "C) Because a free man threatens the established order of gods and kings",
+      "D) To prevent him from taking the throne"
+    ],
+    "correct": 2,
+    "feedback": "يطالب زيوس بإيقاف أوريست لأن إدراكه لحريته يهدد بهدم نظام الطاعة والنظام الفوقي الذي تعيش عليه الآلهة والملوك [من الاقتباس 64 و67 لمسرحية الذباب]."
+  },
+  {
+    "q": "65. Aegisthus' act before strike?",
+    "options": [
+      "A) He warns him about the Furies",
+      "B) He begs Electra for mercy",
+      "C) He tries to strike Orestes first",
+      "D) He refuses to defend himself and welcomes death"
+    ],
+    "correct": 3,
+    "feedback": "يرفض إيجيسثوس الدفاع عن نفسه لأنه سئم من العيش في كذبة الخوف والذنب ويرحب بالموت كخلاص له [من ملخص الأحداث والاقتباس 68 لمسرحية الذباب]."
+  },
+  {
+    "q": "66. Orestes takes with him?",
+    "options": [
+      "A) The dead bodies of the royal family",
+      "B) The sins and remorse of the citizens",
+      "C) The swarm of flies representing guilt",
+      "D) Both B and C"
+    ],
+    "correct": 3,
+    "feedback": "يغادر أوريست المدينة حاملاً معه كل ذنوب الشعب وندمه وخوفه، ويتبعه ذباب أرغوس تخلصاً من لعنتهم [من ملخص المسرحية والاقتباسات 39 و40 من الفصل الثالث]."
+  },
+  {
+    "q": "67. NOT royal family member?",
+    "options": [
+      "A) Clytemnestra",
+      "B) Pylades",
+      "C) Electra",
+      "D) Orestes"
+    ],
+    "correct": 1,
+    "feedback": "بيلاديس (Pylades) هو صديق أوريست الوفي وابن الملك ستروفيوس، وليس عضواً في العائلة المالكة لأرغوس [من قائمة الشخصيات والنظريات 98]."
+  },
+  {
+    "q": "68. Author nationalities?",
+    "options": [
+      "A) Greek and Roman",
+      "B) Roman and Greek",
+      "C) American and French",
+      "D) Greek and French"
+    ],
+    "correct": 3,
+    "feedback": "إيسخيلوس كاتب يوناني قديم (Greek)، بينما جان بول سارتر فيلسوف وكاتب فرنسي حديث (French) [من النظريات الخاصة بالكاتبين]."
+  },
+  {
+    "q": "69. Oresteia amoral and apolitical?",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct": 0,
+    "feedback": "صحيح، توصف مسرحية 'الأوريستيا' بأنها غير أخلاقية وغير سياسية (amoral & apolitical) لأنها تعتمد على إرادة الآلهة والقدر المطلق [من النظرية 30]."
+  },
+  {
+    "q": "70. \"Keep off, you whore...\" Speaker?",
+    "options": [
+      "A) Orestes",
+      "B) Agamemnon",
+      "C) Zeus",
+      "D) Aegisthus"
+    ],
+    "correct": 3,
+    "feedback": "القائل هو إيجيسثوس (Aegisthus) مخاطباً كليتمنسترا تحت ضغط الخوف من روح أغاممنون [من الاقتباس 41 لمسرحية الذباب]."
+  },
+  {
+    "q": "71. Town consumed with?",
+    "options": [
+      "A) Joy and triumph",
+      "B) Guilt and collective remorse",
+      "C) Constant worry about famine",
+      "D) Spread of deadly physical illness"
+    ],
+    "correct": 1,
+    "feedback": "شعب أرغوس غارق بالكامل في الندم الجماعي (collective remorse) والشعور بالذنب لتبرير جريمة قتل ملكهم السابق [من ملخص الأحداث والنظرية 48]."
+  },
+  {
+    "q": "72. \"In Greece cities live happily\"?",
+    "options": [
+      "A) Zeus",
+      "B) Apollo",
+      "C) Clytemnestra",
+      "D) Electra"
+    ],
+    "correct": 3,
+    "feedback": "إلكترا هي من تخبر أخيها (حين ظنته غريباً) بأن المدن الأخرى تعيش بسعادة وسلام دون هذا الندم الخانق [من الاقتباس 13 لمسرحية الذباب الفصل الثاني]."
+  },
+  {
+    "q": "73. Nazi occupation character?",
+    "options": [
+      "A) Clytemnestra",
+      "B) The Furies",
+      "C) Aegisthus",
+      "D) The Flies"
+    ],
+    "correct": 2,
+    "feedback": "يمثل إيجيسثوس (Aegisthus) في رمزية سارتر السياسية حكومة الاحتلال الألماني النازي لفرنسا [من النظرية 52 لمسرحية الذباب]."
+  },
+  {
+    "q": "74. Orestes' development steps to?",
+    "options": [
+      "A) Purifying his soul",
+      "B) Divine revelation",
+      "C) The realization of absolute personal freedom",
+      "D) Total forgiveness from the gods"
+    ],
+    "correct": 2,
+    "feedback": "يسير تطور شخصية أوريست باتجاه وعيه الكامل بحريته الشخصية المطلقة ورفضه لسلطة الآلهة [من ملخص أحداث وقيم المسرحية الوجودية]."
+  },
+  {
+    "q": "75. Aeschylus is misogynistic?",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct": 1,
+    "feedback": "خاطئ، هناك لمسات نسوية واضحة في مسرحيات إيسخيلوس، ويحترم الشخصيات النسائية مثل كليتمنسترا التي صورها بقوة تضاهي الرجال [من النظريات 64 و65]."
+  },
+  {
+    "q": "76. Mouthpiece of Sartre?",
+    "options": [
+      "A) Zeus",
+      "B) Electra",
+      "C) Agamemnon",
+      "D) Orestes"
+    ],
+    "correct": 3,
+    "feedback": "أوريست (Orestes) هو الممثل الفكري والناطق بلسان الفيلسوف سارتر في طرح الأفكار الوجودية والتحرر [من النظرية 41 لمسرحية الذباب]."
+  },
+  {
+    "q": "77. Carpet color?",
+    "options": [
+      "A) Gold",
+      "B) Purple",
+      "C) Crimson (Red)",
+      "D) Black"
+    ],
+    "correct": 2,
+    "feedback": "تفرش كليتمنسترا لزوجها العائد أغاممنون سجادة حمراء قانية (crimson/red tapestries) ليمشي عليها كرمز للدم والمجد الإلهي [من ملخص أحداث مسرحية أغاممنون]."
+  },
+  {
+    "q": "78. Sartre is a?",
+    "options": [
+      "A) Philosopher",
+      "B) Playwright",
+      "C) Novelist",
+      "D) All of the above"
+    ],
+    "correct": 3,
+    "feedback": "سارتر كاتب موسوعي عمل كفيلسوف، وكاتب مسرحي، وروائي، وناقد أدبي [من النظرية 3 لمسرحية الذباب]."
+  },
+  {
+    "q": "79. Aeschylus wrote how many plays?",
+    "options": [
+      "A) 70 to 90 plays",
+      "B) 80 to 90 plays",
+      "C) 90 to 100 plays",
+      "D) None of the above"
+    ],
+    "correct": 0,
+    "feedback": "كتب إيسخيلوس ما بين 70 إلى 90 مسرحية، لكن لم تنجُ منها سوى 7 مسرحيات فقط [من النظرية 11 للقسم النظري]."
+  },
+  {
+    "q": "80. First willing to speak to Orestes?",
+    "options": [
+      "A) Zeus",
+      "B) The Old Woman",
+      "C) The Idiot Boy",
+      "D) Electra"
+    ],
+    "correct": 3,
+    "feedback": "إلكترا هي أول من يتحدث معه برغبة وصدر رحب بعد فرار الصبي الأبله وخوف بقية سكان المدينة [من ملخص أحداث المسرحية]."
+  },
+  {
+    "q": "81. Electra forced to wash?",
+    "options": [
+      "A) Washing the under-linen of the king and queen",
+      "B) Cleaning the stone statues",
+      "C) Washing the feet of the guests",
+      "D) Disposing of the city's garbage"
+    ],
+    "correct": 0,
+    "feedback": "تُجبر إلكترا على العمل كخادمة تغسل الملابس الداخلية (under-linen/underwear) للملك والملكة لإذلالها [من ملخص أحداث الفصل الأول والنظرية 50 لمسرحية الذباب]."
+  },
+  {
+    "q": "82. Is Aeschylus' portrayal of women entirely misogynistic?",
+    "options": [
+      "A) True",
+      "B) False"
+    ],
+    "correct": 1,
+    "feedback": "خاطئ، فعلى الرغم من وجود بعض اللمسات الذكورية من الجوقة، إلا أن إيسخيلوس كرم المرأة وقدم شخصيات نسائية قوية وعميقة [من النظرية 64]."
+  },
+  {
+    "q": "83. Signal seen by watchman?",
+    "options": [
+      "A) A flying bird",
+      "B) A column of smoke",
+      "C) A horse messenger",
+      "D) A blazing fire / beacon"
+    ],
+    "correct": 3,
+    "feedback": "الرمز أو الإشارة التي رآها الحارس من على السطح كانت النيران المشتعلة (blazing fire / beacon) التي تعلن النصر [من ملخص أحداث مسرحية أغاممنون]."
+  },
+  {
+    "q": "84. Abducted Helen?",
+    "options": [
+      "A) Orestes",
+      "B) Menelaus",
+      "C) Agamemnon",
+      "D) Paris"
+    ],
+    "correct": 3,
+    "feedback": "باريس (Paris) ابن ملك طروادة هو من اختطف هيلين زوجة مينلاوس، مما تسبب بشن الحرب [من النظرية 44 و 103 لثلاثية الأوريستيا]."
+  },
+  {
+    "q": "85. Agamemnon entered with?",
+    "options": [
+      "A) Cassandra",
+      "B) The High Priest",
+      "C) Orestes",
+      "D) Menelaus"
+    ],
+    "correct": 0,
+    "feedback": "دخل أغاممنون المنتصر ومعه كاساندرا (Cassandra) التي جلبها كسبية حرب وعشيقة له [من ملخص أحداث مسرحية أغاممنون والنظرية 51]."
+  },
+  {
+    "q": "86. \"Freeze their courage...\" Speaker?",
+    "options": [
+      "A) Clytemnestra",
+      "B) Orestes",
+      "C) Aegisthus",
+      "D) Electra"
+    ],
+    "correct": 0,
+    "feedback": "كليتمنسترا هي المتحدثة في مسرحية الذباب عندما تطمئن إيجيسثوس بقدرته على بث الرعب في قلوب رعاياهم [من الاقتباس 36 لمسرحية الذباب للفصل الثاني]."
+  },
+  {
+    "q": "87. Addressee of above?",
+    "options": [
+      "A) Electra",
+      "B) Aegisthus",
+      "C) Zeus",
+      "D) Cassandra"
+    ],
+    "correct": 1,
+    "feedback": "تخاطب كليتمنسترا زوجها وشريكها الملك إيجيسثوس (Aegisthus) [من الاقتباس 36 لمسرحية الذباب]."
+  },
+  {
+    "q": "88. Quotation taken from?",
+    "options": [
+      "A) The Flies",
+      "B) Agamemnon",
+      "C) The Libation Bearers",
+      "D) The Eumenides"
+    ],
+    "correct": 0,
+    "feedback": "هذا الاقتباس مأخوذ من مسرحية 'الذباب' (The Flies) للكاتب الوجودي جان بول سارتر [من الاقتباس 36 للمسرحية]."
+  },
+  {
+    "q": "89. Value expressed most strongly?",
+    "options": [
+      "A) Divine Fate",
+      "B) Collective Guilt",
+      "C) Religious Humility",
+      "D) Absolute Personal Freedom"
+    ],
+    "correct": 3,
+    "feedback": "القيمة الوجودية العظمى التي تدعو إليها مسرحية 'الذباب' هي الحرية الشخصية المطلقة (Personal freedom) وتحمل الفرد لمصيره [من النظرية 28 و 55 للمسرحية]."
+  },
+  
+  {
+    "q": "Set 1 -   Key theme in 'The Flies'?",
+    "options": [
+      "A) Power of love",
+      "B) Nature of human existence",
+      "C) Importance of tradition",
+      "D) All"
+    ],
+    "correct": 1,
+    "feedback": "الموضوع الأساسي لمسرحية 'الذباب' لسارتر هو طبيعة الوجود البشري (Nature of human existence) والحرية الوجودية ومسؤولية الإنسان الفردية."
+  },
+  {
+    "q": "Set 1 -   Fundamental nature of humans (Sartre)?",
+    "options": [
+      "A) Evil",
+      "B) Good",
+      "C) Fundamentally free",
+      "D) Irrational"
+    ],
+    "correct": 2,
+    "feedback": "يرى الفيلسوف الوجودي جان بول سارتر أن الطبيعة الجوهرية للإنسان هي الحرية المطلقة (Fundamentally free)؛ فالإنسان محكوم عليه بالحرية وصنع مصيره."
+  },
+  {
+    "q": "Set 1 -   Orestes' realization about his life?",
+    "options": [
+      "A) Follow others",
+      "B) No control",
+      "C) Take responsibility for his life",
+      "D) Serve gods"
+    ],
+    "correct": 2,
+    "feedback": "يدرك أوريست في النهاية أنه الوحيد المسؤول عن أفعاله وحياته (Take responsibility for his life) ويرفض الخضوع لسلطة الآلهة أو رغبات الآخرين."
+  },
+  {
+    "q": "Set 1 -   Role of gods in 'The Flies' (Sartre)?",
+    "options": [
+      "A) Find meaning",
+      "B) Guidance",
+      "C) Control and manipulate humanity",
+      "D) Joy"
+    ],
+    "correct": 2,
+    "feedback": "الآلهة (متمثلة بزيوس) في مسرحية سارتر تلعب دوراً سلطوياً يهدف للسيطرة على البشر والتلاعب بهم (Control and manipulate) من خلال بث مشاعر الندم والخوف."
+  },
+  {
+    "q": "Set 1 -   Sartre’s portrayal of gods?",
+    "options": [
+      "A) Kind",
+      "B) Cruel and oppressive",
+      "C) Significant",
+      "D) Mysterious"
+    ],
+    "correct": 1,
+    "feedback": "يصور سارتر الآلهة كقوى ظالمة وقمعية (Cruel and oppressive) تسعى لاستعباد عقول البشر وسلب حريتهم."
+  },
+  {
+    "q": "Set 1 -   What do the flies represent?",
+    "options": [
+      "A) Freedom",
+      "B) Reason",
+      "C) Power of gods",
+      "D) Limitations on human beings"
+    ],
+    "correct": 3,
+    "feedback": "يمثل الذباب القيود المفروضة على البشر (Limitations on human beings) متمثلة بالندم المصطنع والشعور بالذنب الذي يقيد طاقتهم وحريتهم."
+  },
+  {
+    "q": "Set 1 -   'The Flies' is written in?",
+    "options": [
+      "A) Verse",
+      "B) Prose",
+      "C) Rhyme",
+      "D) Sonnet"
+    ],
+    "correct": 1,
+    "feedback": "مسرحية 'الذباب' سارتر كُتبت بالأسلوب النثري (Prose) العادي لتناسب الفلسفة الحديثة والواقع المعاش، على عكس تراجيديات إيسخيلوس المكتوبة بالشعر."
+  },
+  {
+    "q": "Set 1 -   Sartre is considered the father of?",
+    "options": [
+      "A) French Existentialism",
+      "B) German Nihilism",
+      "C) Greek Tragedy",
+      "D) Renaissance"
+    ],
+    "correct": 0,
+    "feedback": "جان بول سارتر هو الأب الروحي للفلسفة الوجودية الفرنسية (French Existentialism)."
+  },
+  {
+    "q": "Set 1 -   What does Zeus represent in 'The Flies'?",
+    "options": [
+      "A) King",
+      "B) Hero",
+      "C) Hitler",
+      "D) A god"
+    ],
+    "correct": 2,
+    "feedback": "تاريخياً ورمزياً، يمثل الإله زيوس في المسرحية القوى الديكتاتورية والاحتلال، وتحديداً شخصية أدولف هتلر وقوات الاحتلال النازي لفرنسا عام 1943."
+  },
+  {
+    "q": "Set 1 -   Orestes’ challenge reflects?",
+    "options": [
+      "A) Traditional values",
+      "B) Rejecting freedom",
+      "C) Asserting autonomy",
+      "D) Conforming"
+    ],
+    "correct": 2,
+    "feedback": "يمثل تمرد وتحدي أوريست للآلهة إثباتاً لاستقلاليته وحريته الذاتية الكاملة (Asserting autonomy)."
+  },
+  {
+    "q": "Set 1 -   Which god commands Orestes to avenge?",
+    "options": [
+      "A) Apollo",
+      "B) Zeus",
+      "C) Hades",
+      "D) Poseidon"
+    ],
+    "correct": 0,
+    "feedback": "في ثلاثية الأوريستيا الكلاسيكية، يظهر الإله أبولو (Apollo) ويأمر أوريست بالانتقام لدم والده وقتل القتلة."
+  },
+  {
+    "q": "Set 1 -   Daughter sacrificed by Agamemnon?",
+    "options": [
+      "A) Andromache",
+      "B) Iphigenia",
+      "C) Cassandra",
+      "D) Polyxena"
+    ],
+    "correct": 1,
+    "feedback": "ابنة أغاممنون التي قدمها قرباناً للآلهة لتسهيل حركة الرياح لجيشه الذاهب إلى طروادة هي إيفيجينيا (Iphigenia)."
+  },
+  {
+    "q": "Set 1 -   Goddess who intervenes in the trial?",
+    "options": [
+      "A) Hera",
+      "B) Athena",
+      "C) Demeter",
+      "D) Artemis"
+    ],
+    "correct": 1,
+    "feedback": "الإلهة أثينا (Athena) هي التي تتدخل لتأسيس محكمة بشرية وتمنح صوتها الحاسم لتبرئة أوريست وإنهاء سلسلة الانتقام."
+  },
+  {
+    "q": "Set 1 -   Name of the curse in the house?",
+    "options": [
+      "A) Furies",
+      "B) Oedipus",
+      "C) House of Atreus",
+      "D) The Gods"
+    ],
+    "correct": 2,
+    "feedback": "اللعنة الدموية الشهيرة تلاحق نسل 'بيت أتريوس' (House of Atreus) وتتوارثها الأجيال بالقتل المتبادل."
+  },
+  {
+    "q": "Set 1 -   Play dealing with Orestes' trial?",
+    "options": [
+      "A) Agamemnon",
+      "B) Libation Bearers",
+      "C) The Eumenides",
+      "D) Prometheus"
+    ],
+    "correct": 2,
+    "feedback": "المحاكمة الشهيرة تجري أحداثها في الجزء الثالث والأخير من الثلاثية وهي مسرحية صافحات الجميل (The Eumenides)."
+  },
+  {
+    "q": "Set 1 -   Name of the court that tries Orestes?",
+    "options": [
+      "A) The Areopagus",
+      "B) Agora",
+      "C) Parthenon",
+      "D) Acropolis"
+    ],
+    "correct": 0,
+    "feedback": "المحكمة التاريخية التي أسستها الإلهة أثينا لمحاكمة أوريست في أثينا هي محكمة 'الأريوباجوس' (The Areopagus)."
+  },
+  {
+    "q": "Set 1 -   Main issue Aeschylus tackles?",
+    "options": [
+      "A) Freedom of choice",
+      "B) Revenge",
+      "C) Rejection of values",
+      "D) Individual"
+    ],
+    "correct": 1,
+    "feedback": "تنبيه: القضية الكلاسيكية الكبرى التي يطرحها إيسخيلوس هي الانتقام (Revenge) والتحول من الثأر الفردي إلى العدالة القانونية المنظمة، بينما 'حرية الاختيار الوجودية' هي موضوع سارتر."
+  },
+  {
+    "q": "Set 1 -   Hero of both 'The Oresteia' and 'The Flies'?",
+    "options": [
+      "A) Agamemnon",
+      "B) Electra",
+      "C) Orestes",
+      "D) Clytemnestra"
+    ],
+    "correct": 2,
+    "feedback": "البطل المحوري المشترك الذي تدور حوله أحداث الانتقام والمحاكمة في كلا العملين هو أوريست (Orestes)."
+  },
+  {
+    "q": "Set 1 - Q19: Origin country of Existentialism?",
+    "options": [
+      "A) France",
+      "B) England",
+      "C) Germany",
+      "D) Greece"
+    ],
+    "correct": 0,
+    "feedback": "على الرغم من وجود جذور فلسفية متعددة، إلا أن المدرسة الوجودية الحديثة التي يمثلها سارتر وسيمون دي بوفوار ازدهرت واشتهرت في فرنسا (France)."
+  },
+  {
+    "q": "Set 1 - Q20: Who predicts Agamemnon's death?",
+    "options": [
+      "A) Cassandra",
+      "B) Clytemnestra",
+      "C) Electra",
+      "D) None"
+    ],
+    "correct": 0,
+    "feedback": "كاساندرا (Cassandra)، الكاهنة الطروادية الأسيرة، هي التي تتنبأ بموت أغاممنون وموتها هي بوضوح قبل دخول القصر."
+  },
+  {
+    "q": "Set 1 - Q21: Symbolic nature of the flies?",
+    "options": [
+      "A) Gods' presence",
+      "B) Reason",
+      "C) Oppressive nature of gods",
+      "D) Freedom"
+    ],
+    "correct": 2,
+    "feedback": "الذباب يعكس الطبيعة القمعية والاستبدادية للآلهة (Oppressive nature of gods) التي تسلط الأوبئة والندم لتركيع البشر."
+  },
+  {
+    "q": "Set 1 - Q22: Sartre is a?",
+    "options": [
+      "A) Philosopher",
+      "B) Playwright",
+      "C) Novelist",
+      "D) All"
+    ],
+    "correct": 3,
+    "feedback": "جان بول سارتر كاتب موسوعي عمل كفيلسوف، وكاتب مسرحي، وروائي شهير كتب (الغثيان) ومسرحيات عديدة."
+  },
+  {
+    "q": "Set 1 - Q23: Roman counterpart of Zeus?",
+    "options": [
+      "A) Artemis",
+      "B) Demetrius",
+      "C) Jupiter",
+      "D) B & C"
+    ],
+    "correct": 2,
+    "feedback": "الاسم الروماني المقابل لإله الإغريق الأكبر زيوس هو جوبيتر (Jupiter)."
+  },
+  {
+    "q": "Set 1 - Q24: Main belief in 'The Flies'?",
+    "options": [
+      "A) Obedience",
+      "B) Tradition",
+      "C) Fundamental freedom of humans",
+      "D) Superiority"
+    ],
+    "correct": 2,
+    "feedback": "العقيدة والفلسفة الأساسية التي تقوم عليها مسرحية 'الذباب' هي الحرية الجوهرية والمطلقة للإنسان (Fundamental freedom)."
+  },
+  {
+    "q": "Set 1 - Q25: Who embodies embracing freedom?",
+    "options": [
+      "A) Zeus",
+      "B) Athena",
+      "C) Orestes",
+      "D) The Flies"
+    ],
+    "correct": 2,
+    "feedback": "شخصية أوريست (Orestes) في مسرحية سارتر هي التجسيد الحي لتبني الحرية الشخصية ورفض العبودية الفكرية."
+  },
+  {
+    "q": "Set 1 - Q26: Origin of the Curse of Atreus?",
+    "options": [
+      "A) War",
+      "B) Feud between two brothers",
+      "C) Woman",
+      "D) Land"
+    ],
+    "correct": 1,
+    "feedback": "بدأت لعنة بيت أتريوس بسبب نزاع وخلاف دموي شهير وحسد بين الأخوين أتريوس وثايستيس (Feud between two brothers)."
+  },
+  {
+    "q": "Set 1 - Q27: Fate of Thyestes' children?",
+    "options": [
+      "A) Sent away",
+      "B) Killed and served as food",
+      "C) Prisoners",
+      "D) Hostages"
+    ],
+    "correct": 1,
+    "feedback": "في مأدبة الانتقام المروعة، قام أتريوس بقتل أطفال أخيه ثايستيس وطبخهم ثم تقديمهم له كطعام دون علمه."
+  },
+  {
+    "q": "Set 1 - Q28: Who eloped with Helen?",
+    "options": [
+      "A) Menelaus",
+      "B) Agamemnon",
+      "C) Paris of Troy",
+      "D) Aegisthus"
+    ],
+    "correct": 2,
+    "feedback": "الأمير الطروادي باريس (Paris of Troy) هو من فرّ بهيلين زوجة مينلاوس، مما أشعل حرب طروادة."
+  },
+  {
+    "q": "Set 1 - Q29: Captive mistress brought home?",
+    "options": [
+      "A) Electra",
+      "B) Orestes",
+      "C) Cassandra",
+      "D) Iphigeneia"
+    ],
+    "correct": 2,
+    "feedback": "الأسيرة المحظية التي جلبها الملك أغاممنون معه من طروادة كجارية هي كاساندرا (Cassandra)."
+  },
+  {
+    "q": "Set 1 - Q30: Appeared after Orestes killed mother?",
+    "options": [
+      "A) Gods",
+      "B) The Furies",
+      "C) Citizens",
+      "D) Chieftains"
+    ],
+    "correct": 1,
+    "feedback": "بمجرد ارتكاب أوريست لجريمة قتل أمه كليتمنسترا، ظهرت آلهة الغضب والانتقام المرعبة (The Furies) لتلاحقه وتعذبه."
+  },
+  {
+    "q": "Set 1 - Q31: Where does 'The Eumenides' begin?",
+    "options": [
+      "A) Athens",
+      "B) Temple of Apollo (Delphi)",
+      "C) Rome",
+      "D) Olympia"
+    ],
+    "correct": 1,
+    "feedback": "تبدأ المسرحية الثالثة 'صافحات الجميل' أمام معبد الإله أبولو في مدينة دلفي (Delphi) حيث يلجأ أوريست طلباً للتطهر."
+  },
+  {
+    "q": "Set 1 - Q32: Who puts Furies to sleep?",
+    "options": [
+      "A) Athene",
+      "B) Orestes",
+      "C) Apollo",
+      "D) Hermes"
+    ],
+    "correct": 2,
+    "feedback": "يقوم الإله أبولو (Apollo) بتنويم آلهة الانتقام (Furies) داخل معبده ليتيح لأوريست فرصة الهرب بسلام إلى أثينا."
+  },
+  {
+    "q": "Set 1 - Q33: Role of the Chorus?",
+    "options": [
+      "A) Advisors",
+      "B) Commentary on action",
+      "C) Plan murder",
+      "D) Revenge"
+    ],
+    "correct": 1,
+    "feedback": "الدور الأبرز للجوقة (Chorus) في التراجيديا الإغريقية هو تقديم التعليق الفلسفي والأخلاقي على الأحداث الجارية (Commentary on action)."
+  },
+  {
+    "q": "Set 1 - Q34: Reason for Iphigenia’s sacrifice?",
+    "options": [
+      "A) Favorable wind to Troy",
+      "B) Appease gods",
+      "C) Punish infidelity",
+      "D) Atone"
+    ],
+    "correct": 0,
+    "feedback": "تم تقديم إيفيجينيا كقربان لتهدئة غضب الإلهة أرتميس والحصول على رياح مواتية (Favorable wind) تبحر بالأسطول الإغريقي إلى طروادة."
+  },
+  {
+    "q": "Set 1 - Q35: Who is Aegisthus?",
+    "options": [
+      "A) Father",
+      "B) Cousin and lover",
+      "C) Trojan prince",
+      "D) Citizen"
+    ],
+    "correct": 1,
+    "feedback": "إيجيسثوس هو ابن عم أغاممنون (من نسل ثايستيس) وعشيق زوجته كليتمنسترا، وشارك معها في التآمر وقتل الملك."
+  },
+  {
+    "q": "Set 1 - Q36: Plays written/survived by Aeschylus?",
+    "options": [
+      "A) 7/All",
+      "B) 90/7 survived",
+      "C) 50/5",
+      "D) 100/10"
+    ],
+    "correct": 1,
+    "feedback": "يُذكر تاريخياً أن إيسخيلوس كتب حوالي 90 مسرحية، ولكن لم ينجُ منها كاملة سوى 7 مسرحيات تراجيدية فقط."
+  },
+  {
+    "q": "Set 1 - Q37: Watchman's role in Agamemnon?",
+    "options": [
+      "A) Protagonist",
+      "B) Messenger",
+      "C) Commentary",
+      "D) Waiting for signal"
+    ],
+    "correct": 3,
+    "feedback": "يبدأ العرض بوقوف الحارس على سطح القصر منتظراً رؤية إشارة النيران (Waiting for signal) التي تعلن سقوط طروادة وانتصار الملك."
+  },
+  {
+    "q": "Set 1 - Q38: Who is Cassandra?",
+    "options": [
+      "A) Wife",
+      "B) Daughter",
+      "C) Trojan Princess/concubine",
+      "D) Goddess"
+    ],
+    "correct": 2,
+    "feedback": "كاساندرا هي أميرة طروادية (ابنة الملك بريام) أحضرها أغاممنون كجارية وعشيقة أسيرة (Trojan Princess/concubine)."
+  },
+  {
+    "q": "Set 1 - Q39: Chorus in 'The Libation Bearers'?",
+    "options": [
+      "A) Slave women",
+      "B) Soldiers",
+      "C) Aristocrats",
+      "D) Philosophers"
+    ],
+    "correct": 0,
+    "feedback": "تتكون الجوقة في مسرحية حاملات القرابين من النساء الإماء الأسيرات (Slave women) اللواتي يرتدين ملابس الحداد السوداء."
+  },
+  {
+    "q": "Set 1 - Q40: Who is Apollo?",
+    "options": [
+      "A) War",
+      "B) Light, civilization, learning",
+      "C) Love",
+      "D) Underworld"
+    ],
+    "correct": 1,
+    "feedback": "أبولو هو إله الشمس، النور، الحضارة، القانون، العقل، والتعلم في الميثولوجيا الإغريقية الكلاسيكية."
+  },
+  {
+    "q": "Set 1 - Q41: (Quote) 'She is the lioness...' Speaker?",
+    "options": [
+      "A) Clytemnestra",
+      "B) Electra",
+      "C) Cassandra",
+      "D) Celsea"
+    ],
+    "correct": 2,
+    "feedback": "القائل هي كاساندرا في مسرحية أغاممنون حيث تتنبأ بوفاتها ووفاة الملك وتصف كليتمنسترا باللبؤة الغادرة."
+  },
+  {
+    "q": "Set 1 - Q42: Addressee of above quote?",
+    "options": [
+      "A) Agamemnon",
+      "B) The Chorus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 1,
+    "feedback": "كانت كاساندرا توجه نبوءتها ونشيجها الحزين إلى جوقة الشيوخ (The Chorus) في أرغوس."
+  },
+  {
+    "q": "Set 1 - Q43: (Quote) Taken from?",
+    "options": [
+      "A) Agamemnon",
+      "B) Libation Bearers",
+      "C) Eumenides",
+      "D) Flies"
+    ],
+    "correct": 0,
+    "feedback": "هذا الاقتباس المشهور مأخوذ من مسرحية أغاممنون (Agamemnon) الجزء الأول من الثلاثية."
+  },
+  {
+    "q": "Set 1 - Q44: 'The wolf' in the quote is?",
+    "options": [
+      "A) Agamemnon",
+      "B) Aegisthus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 1,
+    "feedback": "الذئب (The wolf) الذي تضاجعه اللبؤة كليتمنسترا بغياب الأسد أغاممنون يشير إلى إيجيسثوس (Aegisthus)."
+  },
+  {
+    "q": "Set 1 - Q45: 'The lioness' refers to?",
+    "options": [
+      "A) Clytemnestra",
+      "B) Electra",
+      "C) Cassandra",
+      "D) Iphigenia"
+    ],
+    "correct": 0,
+    "feedback": "اللبؤة (The lioness) تشير مباشرة إلى كليتمنسترا (Clytemnestra) التي تسيطر وتقتل بقوة وحشية."
+  },
+  {
+    "q": "Set 1 - Q46: 'Another' (avenger) refers to?",
+    "options": [
+      "A) Agamemnon",
+      "B) Chorus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 2,
+    "feedback": "تشير كاساندرا بـ 'المنتقم الآخر الذي سيأتي' إلى أوريست (Orestes) الذي سيعود حتماً ليثأر لوالده."
+  },
+  {
+    "q": "Set 1 - Q47: (Quote) 'No one... cut this lock but I'?",
+    "options": [
+      "A) Clytemnestra",
+      "B) Electra",
+      "C) Cassandra",
+      "D) Celsea"
+    ],
+    "correct": 1,
+    "feedback": "تتحدث إلكترا (Electra) عند عثورها على خصلة الشعر الموضوعة فوق قبر والدها وتدرك أنه لا يوجد من يملك جرأة فعل هذا سواها أو شقيقها."
+  },
+  {
+    "q": "Set 1 - Q48: 'And...' in the lock quote refers to?",
+    "options": [
+      "A) Agamemnon",
+      "B) Aegisthus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 2,
+    "feedback": "خصلة الشعر المقصوصة والمتروكة على القبر تخص شقيقها الغائب المنتظر أوريست (Orestes)."
+  },
+  {
+    "q": "Set 1 - Q49: (Quote) 'One King to another' Speaker?",
+    "options": [
+      "A) Agamemnon",
+      "B) Aegisthus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 3,
+    "feedback": "القائل هو زيوس (Zeus) في مسرحية 'الذباب' لسارتر وهو يخاطب إيجيسثوس بوصفهما شريكين في فرض الهيمنة والسيطرة باسم النظام."
+  },
+  {
+    "q": "Set 1 - Q50: Addressee of above (Zeus quote)?",
+    "options": [
+      "A) Agamemnon",
+      "B) Aegisthus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 1,
+    "feedback": "يخاطب زيوس الملك الطاغية إيجيسثوس (Aegisthus) ليوضح له العقد السري المشترك بين الملوك والآلهة لحكم العبيد بالخوف والندم."
+  },
+  {
+    "q": "Set 2 -   Theme of Agamemnon?",
+    "options": [
+      "A) Gods",
+      "B) Justice",
+      "C) Family",
+      "D) Pride/Arrogance"
+    ],
+    "correct": 3,
+    "feedback": "خطيئة الغرور والتكبر وتحدي مشيئة الآلهة (Pride/Arrogance / Hubris) هي الموضوع الفاجع في مسرحية أغاممنون وتتجسد بمشيه على السجادة الحمراء."
+  },
+  {
+    "q": "Set 2 -   Plays written/survived?",
+    "options": [
+      "A) 7/All",
+      "B) 90/7 survived",
+      "C) 50/5",
+      "D) 100/10"
+    ],
+    "correct": 1,
+    "feedback": "كتب إيسخيلوس قرابة 90 مسرحية ولكن لم ينجُ منها سوى 7 مسرحيات فقط كاملة."
+  },
+  {
+    "q": "Set 2 -   Significance of purple carpet?",
+    "options": [
+      "A) Victory",
+      "B) Love",
+      "C) Trap for hubris",
+      "D) Wealth"
+    ],
+    "correct": 2,
+    "feedback": "السجادة الحمراء/الأرجوانية كانت فخاً نصبت كليتمنسترا لزوجها ليقع في إثم الغرور الفاجع (Trap for hubris) أمام الآلهة مما يبرر قتله."
+  },
+  {
+    "q": "Set 2 - Q24: Chorus in 'The Flies'?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "correct": 1,
+    "feedback": "لا تحتوي مسرحية 'الذباب' الحديثة لسارتر على جوقة (Chorus) بالمعنى الكلاسيكي الإغريقي."
+  },
+  {
+    "q": "Set 2 - Q25: Sartre/Aeschylus believers?",
+    "options": [
+      "A) Yes",
+      "B) No"
+    ],
+    "correct": 1,
+    "feedback": "لا يتفق الكاتبان في الإيمان؛ إيسخيلوس يؤمن بالقدر والآلهة المتعددة (Polytheist)، بينما سارتر فيلسوف وجودي ملحد (Atheist)."
+  },
+  {
+    "q": "Set 2 - Q26: Major theme in 'The Flies'?",
+    "options": [
+      "A) Loneliness",
+      "B) Love",
+      "C) Hope",
+      "D) Joy"
+    ],
+    "correct": 0,
+    "feedback": "العزلة والوحدة الوجودية (Loneliness) والمسؤولية المنفردة هي الثمن والنتيجة الحتمية لامتلاك الإنسان حريته المطلقة في عالم سارتر."
+  },
+  {
+    "q": "Set 2 - Q27: Mouthpiece of Sartre?",
+    "options": [
+      "A) Electra",
+      "B) Orestes",
+      "C) Clytemnestra",
+      "D) Agamemnon"
+    ],
+    "correct": 1,
+    "feedback": "أوريست (Orestes) هو الشخصية التي تمثل لسان حال سارتر وتنطق بفلسفته الوجودية التحررية في المسرحية."
+  },
+  {
+    "q": "Set 2 - Q28: Sartre’s Clytemnestra?",
+    "options": [
+      "A) Beautiful",
+      "B) Ugly and monstrous",
+      "C) Cunning",
+      "D) Brave"
+    ],
+    "correct": 1,
+    "feedback": "يصور سارتر الملكة كليتمنسترا بأنها قبيحة ومرعبة (Ugly and monstrous)، ذبل جمالها وروحها تحت وطأة ندمها وعذابها الداخلي على مدار 15 عاماً."
+  },
+  {
+    "q": "Set 2 - Q29: Language of 'The Oresteia'?",
+    "options": [
+      "A) Prosaic",
+      "B) Lyrical and flamboyant",
+      "C) Postmodern",
+      "D) None"
+    ],
+    "correct": 1,
+    "feedback": "لغة ثلاثية الأوريستيا لإيسخيلوس تمتاز بكونها لغة شعرية، غنائية ومرصعة بالصور البلاغية والزخارف (Lyrical and flamboyant)."
+  },
+  {
+    "q": "Set 2 - Q44: Statue in the square ('Flies')?",
+    "options": [
+      "A) Aegisthus",
+      "B) Vader",
+      "C) Agamemnon",
+      "D) Zeus"
+    ],
+    "correct": 3,
+    "feedback": "يوجد تمثال ضخم ومرعب للإله زيوس (Zeus) في الساحة العامة لأرغوس ليرمز للهيمنة والقمع المستمر للناس."
+  },
+  {
+    "q": "Set 2 - Q45: Gods' act after murder ('Flies')?",
+    "options": [
+      "A) Order son",
+      "B) Punish",
+      "C) Flies",
+      "D) Nothing (don't exist)"
+    ],
+    "correct": 3,
+    "feedback": "بعد ارتكاب أوريست للجريمة وإدراكه لحريته، لا تستطيع الآلهة فعل شيء له لأن الإنسان الحر يخرج تماماً من تحت سيطرتهم وقوانينهم (Do nothing / Powerless)."
+  },
+  {
+    "q": "Set 2 - Q46: Why Orestes is dangerous?",
+    "options": [
+      "A) Son",
+      "B) Knows he is free",
+      "C) Brother",
+      "D) Son"
+    ],
+    "correct": 1,
+    "feedback": "تكمن خطورة أوريست على نظام الآلهة والملوك في كونه قد أدرك أنه حر (Knows he is free)، والإنسان الواعي بحريته لا يمكن إخضاعه أو ترويضه."
+  },
+  
+  {
+    "q": "  What is a key reason \"The Oresteia\" is difficult to read?",
+    "options": [
+      "A. It is written in prose",
+      "B. It has not been translated into modern languages",
+      "C. It was translated from Greek to English and written in verse",
+      "D. It contains complex scientific concepts"
+    ],
+    "correct": 2,
+    "feedback": "يكمن سبب صعوبة قراءة ثلاثية الأوريستيا في أنها تُرجمت من اليونانية إلى الإنجليزية وكُتبت بأسلوب شعري معقد وليس نثرياً."
+  },
+  {
+    "q": "  How does \"The Flies\" differ in writing style from \"The Oresteia\"?",
+    "options": [
+      "A. \"The Flies\" is written in verse",
+      "B. \"The Flies\" is written in prose",
+      "C. \"The Flies\" is written in ancient Greek",
+      "D. \"The Flies\" is written in a poetic format"
+    ],
+    "correct": 1,
+    "feedback": "على عكس الأوريستيا الكلاسيكية المكتوبة بالشعر (verse)، فإن مسرحية 'الذباب' لسارتر كُتبت بالأسلوب النثري الحديث (prose) لتناسب الفكر الوجودي المعاصر."
+  },
+  {
+    "q": "  What is a major theme tackled by Aeschylus in \"The Oresteia\"?",
+    "options": [
+      "A. Freedom of choice",
+      "B. Revenge",
+      "C. Love and betrayal",
+      "D. The power of knowledge"
+    ],
+    "correct": 1,
+    "feedback": "قضية الانتقام (Revenge) وسلسلة الدماء المتبادلة هي المحور الرئيسي الذي تنطلق منه أحداث ثلاثية الأوريستيا."
+  },
+  {
+    "q": "  What central theme is explored through the character of Orestes in \"The Flies\"?",
+    "options": [
+      "A. Love and marriage",
+      "B. Freedom and responsibility",
+      "C. Wealth and power",
+      "D. Knowledge and ignorance"
+    ],
+    "correct": 1,
+    "feedback": "يوظف سارتر شخصية أوريست لاستكشاف الحرية والمسؤولية الفردية الشخصية عن الخيارات، وهي الفكرة الجوهرية للوجودية."
+  },
+  {
+    "q": "  What tragic event is said to have led to Aeschylus' death?",
+    "options": [
+      "A. Struck by lightning",
+      "B. Hit by a falling turtle",
+      "C. Poisoned by a rival",
+      "D. Killed in battle"
+    ],
+    "correct": 1,
+    "feedback": "تقول الأسطورة الشائعة إن إيسخيلوس مات بعدما ألقت عقابٌ سلحفاةً فوق رأسه الأصلع ظناً منها أنه صخرة صلبة لكسر صدفتها."
+  },
+  {
+    "q": "  (Quote 1) '- Agamemnon. / You will see him dead. / She is the lioness, / she rears on her hind legs, she beds with the wolf / We will die,'\nThe speaker is:",
+    "options": [
+      "A. The chorus",
+      "B. Electra",
+      "C. Casandra",
+      "D. Orestes"
+    ],
+    "correct": 2,
+    "feedback": "المتحدثة في هذا الاقتباس التنبؤي هي الكاهنة الطروادية الأسيرة كاساندرا (Cassandra) قبل دخولها القصر ومقتلها بقليل."
+  },
+  {
+    "q": "  (Quote 1) The addressee is:",
+    "options": [
+      "A. Orestes",
+      "B. The Chorus",
+      "C. Iphigenia",
+      "D. Electra"
+    ],
+    "correct": 1,
+    "feedback": "توجه كاساندرا صرختها ونبوءتها الفاجعة إلى جوقة شيوخ أرغوس (The Chorus) الحائرين."
+  },
+  {
+    "q": "  (Quote 1) The Lioness refers to:",
+    "options": [
+      "A. Clytaemnestra",
+      "B. Electra",
+      "C. Iphigenia",
+      "D. Athena"
+    ],
+    "correct": 0,
+    "feedback": "تشير 'اللبؤة' رمزيًا في نبوءة كاساندرا إلى الملكة كليتمنسترا (Clytemnestra) الحاملة لشهوة القتل الدموية."
+  },
+  {
+    "q": "  (Quote 1) \"The wolf\" refers to:",
+    "options": [
+      "A. Zeus",
+      "B. Agamemnon",
+      "C. Aegisthus",
+      "D. Orestes"
+    ],
+    "correct": 2,
+    "feedback": "تصف كاساندرا إيجيسثوس (Aegisthus) بـ 'الذئب' الغادر الذي يضاجع الملكة في غياب ملك القصر (الأسد)."
+  },
+  {
+    "q": "  (Quote 1) \"We\" refers to:",
+    "options": [
+      "A. Electra and Orestes",
+      "B. The people of Argos",
+      "C. Agamenon and Cassandra",
+      "D. Aegisthus and Clytaemnestra"
+    ],
+    "correct": 2,
+    "feedback": "تقصد بكلمة 'نحن' نفسها والملك أغاممنون اللذين سيلقيان حتفهما غدراً داخل جدران القصر."
+  },
+  {
+    "q": "  Which goddess appears as a central figure in \"The Eumenides\"?",
+    "options": [
+      "A. Hera",
+      "B. Athena",
+      "C. Aphrodite",
+      "D. Artemis"
+    ],
+    "correct": 1,
+    "feedback": "تظهر الإلهة أثينا (Athena) كشخصية محورية في المسرحية الثالثة لتأسيس محكمة جنائية تفصل في قضية أوريست."
+  },
+  {
+    "q": "  What is the Watchman's role in Agamemnon?",
+    "options": [
+      "A. He is the protagonist of the play",
+      "B. He is the messenger who brings news of Troy's fall",
+      "C. He provides commentary on the action of the play",
+      "D. He is on duty on the roof of the palace, waiting for a signal announcing the fall of Troy"
+    ],
+    "correct": 3,
+    "feedback": "دور الحارس في مطلع مسرحية أغاممنون هو المكوث فوق سطح القصر مترقباً ظهور إشارات النيران التي تبشر بسقوط طروادة."
+  },
+  {
+    "q": "  Which of the following is NOT a major character in \"The Oresteia\"?",
+    "options": [
+      "A. Cassandra",
+      "B. Electra",
+      "C. Medea",
+      "D. Apollo"
+    ],
+    "correct": 2,
+    "feedback": "ميديا (Medea) هي بطلة تراجيديا شهيرة ومستقلة للكاتب يوريبيديس، وليست جزءاً من عائلة أو شخوص ثلاثية الأوريستيا."
+  },
+  {
+    "q": "  In which city does the trial of Orestes take place in \"The Eumenides\"?",
+    "options": [
+      "A. Sparta",
+      "B. Thebes",
+      "C. Delphi",
+      "D. Athens"
+    ],
+    "correct": 3,
+    "feedback": "تُعقد محاكمة أوريست لإنهاء سلسلة ثأر الدم الكلاسيكية في مدينة أثينا (Athens)."
+  },
+  {
+    "q": "  What is the verdict of the trial of Orestes in \"The Eumenides\"?",
+    "options": [
+      "A. Guilty",
+      "B. Not guilty",
+      "C. Insufficient evidence",
+      "D. Banishment"
+    ],
+    "correct": 1,
+    "feedback": "ينتهي القرار بتبرئة أوريست (Not guilty) بعد تعادل الأصوات وتدخل أثينا المباشر لصالح العفو والعدالة القانونية."
+  },
+  {
+    "q": "  What symbolic act marks the resolution of the conflict in \"The Eumenides\"?",
+    "options": [
+      "A. Athena declares Athens as a sanctuary for all who seek justice",
+      "B. Orestes sacrifices a bull to appease the Furies",
+      "C. The Furies are transformed into benevolent spirits",
+      "D. Apollo banishes the Furies from Greece"
+    ],
+    "correct": 2,
+    "feedback": "تحول الغاضبات المتعطشات للدماء (Furies) إلى كائنات طيبة تسمى 'صافحات الجميل' (benevolent spirits) يمثل الرمز الختامي لإقرار السلم والعدالة."
+  },
+  {
+    "q": "  What is the name of the place where Orestes seeks sanctuary after killing his mother, Clytemnestra?",
+    "options": [
+      "A. Athens",
+      "B. Sparta",
+      "C. Delphi",
+      "D. Mycenae"
+    ],
+    "correct": 2,
+    "feedback": "يتوجه أوريست أولاً إلى معبد أبولو في دلفي (Delphi) طلباً للتطهر الديني من وزر جريمة قتل أمه."
+  },
+  {
+    "q": "  Which deity or god is primarily associated with justice and is instrumental in the trial of Orestes in \"The Eumenides\"?",
+    "options": [
+      "A. Apollo",
+      "B. Zeus",
+      "C. Athena",
+      "D. Hera"
+    ],
+    "correct": 2,
+    "feedback": "الإلهة أثينا (Athena) هي المسؤولة الأولى والأبرز عن تأسيس المحكمة وإدارة أطوار العدالة في محاكمة أوريست."
+  },
+  {
+    "q": "Q19: Which of the following is NOT true about \"The Flies\"?",
+    "options": [
+      "A. Jean-Paul Sartre is considered the founder of existentialism",
+      "B. There is no Cassandra",
+      "C. There is no chorus",
+      "D. There is no belief in gods"
+    ],
+    "correct": 0,
+    "feedback": "على الرغم من ريادة سارتر للفلسفة الوجودية الفرنسية، إلا أنه لا يُعتبر مؤسسها الفعلي؛ فالوجودية تعود تاريخياً لرواد أوائل مثل سورين كيركغارد."
+  },
+
+  
+  {
+    "q": "  Who is considered the father of tragedy in ancient Greek drama?",
+    "options": [
+      "A) Euripide",
+      "B) Sophocles",
+      "C) Aeschylus",
+      "D) Aristophones"
+    ],
+    "correct": 2,
+    "feedback": "يُعتبر إيسخيلوس (Aeschylus) على نطاق واسع الأب الروحي والمؤسس الفعلي للتراجيديا الإغريقية الكلاسيكية."
+  },
+  {
+    "q": "  How many plays by Aeschylus have survived to the present day?",
+    "options": [
+      "A) 10",
+      "B) 15",
+      "C) 7",
+      "D) 20"
+    ],
+    "correct": 2,
+    "feedback": "بالرغم من غزارة إنتاجه المسرحي، لم يصلنا من مسرحيات إيسخيلوس كاملة سوى 7 مسرحيات فقط."
+  },
+  {
+    "q": "  What is the central theme of The Oresteia by Aeschylus?",
+    "options": [
+      "A) Love",
+      "B) Revenge",
+      "C) Freedom",
+      "D) Isolation"
+    ],
+    "correct": 1,
+    "feedback": "الانتقام (Revenge) وسلسلة القصاص الدموي المتبادل يمثلان الثيمة المحورية في ثلاثية الأوريستيا."
+  },
+  {
+    "q": "  What language was The Oresteia originally written in?",
+    "options": [
+      "A) Latin",
+      "B) Greek",
+      "C) English",
+      "D) French"
+    ],
+    "correct": 1,
+    "feedback": "كُتبت ثلاثية الأوريستيا في الأصل باللغة اليونانية القديمة (Greek) كجزء من الطقوس والمسابقات المسرحية في أثينا."
+  },
+  {
+    "q": "  Who is the central character in The Flies by Jean-Paul Sartre?",
+    "options": [
+      "A) Agamemnon",
+      "B) Orestes",
+      "C) Aegisthus",
+      "D) Zeus"
+    ],
+    "correct": 1,
+    "feedback": "أوريست (Orestes) هو الشخصية المركزية والبطل الوجودي في مسرحية 'الذباب' لسارتر."
+  },
+  {
+    "q": "  How does Athena resolve the conflict between the Furies and Orestes in \"The Eumenides\"?",
+    "options": [
+      "A) She offers a sacrifice to the Furies.",
+      "B) She brings the Furies to justice.",
+      "C) She creates a jury and leaves the final vote to Athens.",
+      "D) She punishes Orestes."
+    ],
+    "correct": 2,
+    "feedback": "تنهي الإلهة أثينا الصراع من خلال تأسيس أول هيئة محلفين بشرية (jury) وترك القرار النهائي للتصويت الديمقراطي لأثينا."
+  },
+  {
+    "q": "  Which of the following describes Sartre's philosophy in The Flies?",
+    "options": [
+      "A) Nihilism",
+      "B) Existentialism",
+      "C) Hedonism",
+      "D) Idealism"
+    ],
+    "correct": 1,
+    "feedback": "مسرحية 'الذباب' تجسد الفلسفة الوجودية (Existentialism) التي يركز فيها سارتر على الحرية والاختيار الفردي."
+  },
+  {
+    "q": "  What is the role of the gods in The Oresteia?",
+    "options": [
+      "A) They are all-powerful, controlling human fate.",
+      "B) They serve as advisors to the main characters.",
+      "C) They are indifferent to human affairs.",
+      "D) They are only interested in helping humans succeed."
+    ],
+    "correct": 0,
+    "feedback": "في التراجيديا الإغريقية الكلاسيكية للأوريستيا، تُصوَّر الآلهة كقوى مطلقة تتحكم بالكامل في مصير البشر وقدرهم."
+  },
+  {
+    "q": "  In The Flies, who is the tyrannical god that represents cruelty and oppression?",
+    "options": [
+      "A) Apollo",
+      "B) Zeus",
+      "C) Athena",
+      "D) Hermes"
+    ],
+    "correct": 1,
+    "feedback": "يمثل الإله زيوس (Zeus) في مسرحية سارتر الحاكم الطاغية والمستبد الذي يتغذى على ندم وخوف البشر وقمع حرياتهم."
+  },
+  {
+    "q": "  What event led to the Trojan War in Greek mythology?",
+    "options": [
+      "A) The death of Agamemnon",
+      "B) The abduction of Helen by Paris",
+      "C) The anger of the gods",
+      "D) A dispute over a sacred artifact"
+    ],
+    "correct": 1,
+    "feedback": "اختطاف وإغواء هيلين زوجة مينيلاوس على يد الأمير الطروادي باريس هو الحدث المباشر الذي أشعل فتيل حرب طروادة."
+  },
+  {
+    "q": "  What is the significance of the term \"Eumenides\"?",
+    "options": [
+      "A) It means \"the good ones\" or \"the kindly ones,\" symbolizing a change in the Furies' nature.",
+      "B) It refers to a group of warrior goddesses.",
+      "C) It refers to the spirits of the dead.",
+      "D) It means \"the evil ones\" or \"the cursed.\""
+    ],
+    "correct": 0,
+    "feedback": "تعني الكلمة 'صافحات الجميل' أو 'اللطيفات' (the kindly ones)، وهو ما يرمز إلى تحول طبيعة الغاضبات من الانتقام إلى حماية العدالة المدنية."
+  },
+  {
+    "q": "  Who were the two sons of Pelops mentioned in the family tree of Agamemnon?",
+    "options": [
+      "A) Orestes and Aegisthus",
+      "B) Menelaus and Agamemnon",
+      "C) Atreus and Thyestes",
+      "D) Agamemnon and Clytemnestra"
+    ],
+    "correct": 2,
+    "feedback": "أتريوس وثايستيس (Atreus and Thyestes) هما ابنا بيلوبس اللذان بدأ نزاعهما الدموي لعنة بيت أتريوس الشهيرة."
+  },
+  {
+    "q": "  According to Sartre, what do individuals have the power to do?",
+    "options": [
+      "A) Fulfil their preordained destiny",
+      "B) Change the future of the gods",
+      "C) Determine their own future through choices",
+      "D) Follow the path dictated by family"
+    ],
+    "correct": 2,
+    "feedback": "وفق الفلسفة الوجودية لسارتر، يملك الأفراد القوة الكاملة لتحديد مصيرهم ومستقبلهم وصنع ذواتهم من خلال خياراتهم الحرة."
+  },
+  {
+    "q": "  What central idea is explored in The Flies regarding human existence?",
+    "options": [
+      "A) The meaninglessness of life",
+      "B) The power of the gods",
+      "C) The importance of human reason",
+      "D) The absurdity of human existence and the need for freedom"
+    ],
+    "correct": 3,
+    "feedback": "تسلط مسرحية 'الذباب' الضوء على عبثية الوجود الإنساني وضرورة التمسك بالحرية الفردية لمواجهة القمع."
+  },
+  {
+    "q": "  Which character in The Flies embodies the role of reason and rationality?",
+    "options": [
+      "A) Athena",
+      "B) Zeus",
+      "C) Orestes",
+      "D) Aegisthus"
+    ],
+    "correct": 0,
+    "feedback": "تعتمد ورقة الأسئلة الخيار (A) أثينا كشخصية تجسد دور العقل والعقلانية."
+  },
+  {
+    "q": "  What event triggers the curse on the House of Atreus in The Oresteia?",
+    "options": [
+      "A) Agamemnon's decision to go to war",
+      "B) A murder committed by Atreus's sons",
+      "C) The slaughter of Thyestes' children by Atreus",
+      "D) The sacrifice of Iphigeneia"
+    ],
+    "correct": 2,
+    "feedback": "بدأت اللعنة الدموية عندما قام أتريوس بطبخ أطفال شقيقه ثايستيس وتقديمهم له كطعام في مأدبة انتقامية بشعة."
+  },
+  {
+    "q": "  What is Athena's solution to placating the Furies at the end of The Eumenides?",
+    "options": [
+      "A) She banishes them from Athens",
+      "B) She offers them a place as protectors of the city",
+      "C) She makes them part of the court system",
+      "D) She grants them revenge against Orestes"
+    ],
+    "correct": 1,
+    "feedback": "لحل النزاع، عرضت أثينا على الغاضبات مكاناً شرفياً كحاميات وراعيات لمدينة أثينا بدلاً من نفيهن."
+  },
+  {
+    "q": "  What is the significance of the purple robes in Agamemnon?",
+    "options": [
+      "A) They symbolize royal honor and status",
+      "B) They are a mark of divine favor",
+      "C) They represent the tragic death of Iphigeneia",
+      "D) They symbolize the king's arrogance and pride"
+    ],
+    "correct": 0,
+    "feedback": "وفقاً للمفتاح الرسمي للتصحيح بالجامعة، فإن الخيار المعتمد هو (A) 'يرمز للمكانة والشرف الملكي'. ومع ذلك، يُشار نقدياً إلى أنه يمثل أيضاً فخاً لجر الملك للوقوع في الغرور (hubris)."
+  },
+  {
+    "q": "Q19: Which character delivers the prophecy of Agamemnon's death in Agamemnon?",
+    "options": [
+      "A) The Chorus",
+      "B) Cassandra",
+      "C) Electra",
+      "D) Pylades"
+    ],
+    "correct": 1,
+    "feedback": "كاساندرا هي التي تتنبأ بموت الملك وموتها هي غدراً قبل دخولهما القصر بقليل."
+  },
+  {
+    "q": "Q20: What is Orestes' primary mission when he returns to Argos in The Libation Bearers?",
+    "options": [
+      "A) To reclaim his birthright",
+      "B) To avenge his father's death",
+      "C) To take over the throne of Argos",
+      "D) To kill Aegisthus and rule Argos"
+    ],
+    "correct": 1,
+    "feedback": "المهمة الأساسية التي عاد أوريست من أجلها إلى أرغوس هي الانتقام لدم والده المغدور."
+  },
+  {
+    "q": "Q21: What is the significance of Orestes' hesitation before killing his mother in The Libation Bearers?",
+    "options": [
+      "A) It reflects his guilt over the act of matricide",
+      "B) It is a sign of weakness and indecision",
+      "C) It shows his emotional conflict over avenging his father",
+      "D) It signifies his desire for forgiveness from his mother"
+    ],
+    "correct": 2,
+    "feedback": "يعبر تردد أوريست اللحظي قبل طعن والدته عن الصراع العاطفي والأخلاقي العميق الذي يمر به بين بر والده وتجنب عقاب سفك دم أمه."
+  },
+  {
+    "q": "Q22: After killing Clytemnestra in The Libation Bearers, what fate does Orestes face?",
+    "options": [
+      "A) He is immediately crowned king of Argos",
+      "B) He is praised by the chorus as a hero",
+      "C) He becomes haunted by the Furies",
+      "D) He is welcomed as a victor in Argos"
+    ],
+    "correct": 2,
+    "feedback": "بمجرد ارتكابه جريمة قتل أمه، تظهر ربات الغضب والانتقام (The Furies) لتبدأ ملاحقته وتعذيبه ذهنياً."
+  },
+  {
+    "q": "Q23: In Aeschylus' \"Agamemnon,\" who does Clytemnestra kill upon Agamemnon's return to Argos?",
+    "options": [
+      "A) Helen",
+      "B) Orestes",
+      "C) Cassandra",
+      "D) Agamemnon"
+    ],
+    "correct": 3,
+    "feedback": "تقتل كليتمنسترا زوجها العائد أغاممنون (Agamemnon) داخل حمام القصر فور رجوعه من حرب طروادة. (ملاحظة: هي تقتل كاساندرا أيضاً، لكن الخيار المعتمد في مفتاح التصحيح الرسمي هو D)."
+  },
+  {
+    "q": "Q24: Who convinces Orestes to avenge his father's death in \"The Libation Bearers\"?",
+    "options": [
+      "A) Electra",
+      "B) Apollo",
+      "C) Athena",
+      "D) The Furies"
+    ],
+    "correct": 1,
+    "feedback": "الإله أبولو (Apollo) هو القوة الإلهية التي تأمر وتدفع أوريست لتنفيذ القصاص والانتقام لمقتل والده."
+  },
+  {
+    "q": "Q25: In the play \"The Eumenides,\" who eventually acquits Orestes of matricide?",
+    "options": [
+      "A) Apollo",
+      "B) Athena",
+      "C) Zeus",
+      "D) The Furies"
+    ],
+    "correct": 1,
+    "feedback": "تتدخل الإلهة أثينا (Athena) بصوتها المرجح لتبرئة أوريست من تهمة قتل أمه وإنهاء سلسلة الثأر الدموي."
+  },
+  {
+    "q": "Q26: Who is the god of prophecy, healing, and purification invoked in the \"Oresteia\"?",
+    "options": [
+      "A) Zeus",
+      "B) Apollo",
+      "C) Artemis",
+      "D) Athena"
+    ],
+    "correct": 1,
+    "feedback": "الإله أبولو (Apollo) هو إله النبوءة، والشفاء، والتطهر الديني الذي لجأ إليه أوريست لغسل ذنب دماء أمه."
+  },
+  {
+    "q": "Q27: Which Greek goddesses are known as the \"Eumenides\" after being appeased in Athens?",
+    "options": [
+      "A) The Muses",
+      "B) The Furies",
+      "C) The Graces",
+      "D) The Morai"
+    ],
+    "correct": 1,
+    "feedback": "الغاضبات (The Furies) هن اللواتي تم استرضاؤهن وتغيير اسمهن إلى 'صافحات الجميل' (Eumenides) بعد استقرار المحاكمة في أثينا."
+  },
+  {
+    "q": "Q28: When Orestes says, \"No empty dream. The vision of a man,\" who does he refer to by the term \"man\"?",
+    "options": [
+      "A) Agamemnon",
+      "B) Apollo",
+      "C) Aegisthus",
+      "D) Orestes himself"
+    ],
+    "correct": 3,
+    "feedback": "يُشير أوريست بلفظ 'الرجل' في هذا المقطع التراجيدي ليعبر عن كينونته ومسؤوليته الذاتية كفاعل حقيقي ومستقل لمصيره."
+  },
+  {
+    "q": "Q29: In *The Libation Bearers*, Orestes is hesitant to kill his mother. Who encourages him to follow through with his mission?",
+    "options": [
+      "A) Clytaemnestra",
+      "B) Pylades",
+      "C) Apollo",
+      "D) Athena"
+    ],
+    "correct": 1,
+    "feedback": "يقوم بيلاديس (Pylades)، صديق أوريست المقرب، بتذكيره بعهد الإله أبولو عندما كاد أوريست يتراجع عن قتل أمه، ليكون هذا تدخله الوحيد والكلامي في المسرحية."
+  },
+  {
+    "q": "Q30: What does Apollo promise Orestes in *The Libation Bearers* if he kills Clytaemnestra?",
+    "options": [
+      "A) A golden crown",
+      "B) Eternal glory",
+      "C) Freedom from guilt",
+      "D) His rightful inheritance"
+    ],
+    "correct": 2,
+    "feedback": "وعد الإله أبولو أوريست بالتطهر والخلاص من الإثم والذنب (Freedom from guilt) إذا نفذ أمر القصاص الإلهي."
+  },
+  {
+    "q": "Q31: What does Orestes fear the most in *The Libation Bearers*?",
+    "options": [
+      "A) The wrath of Athena",
+      "B) The consequences of his actions",
+      "C) The anger of the Furies",
+      "D) The loss of his power"
+    ],
+    "correct": 0,
+    "feedback": "يعتمد نموذج الإجابة الرسمي للجامعة الخيار (A) 'غضب أثينا' كأكثر ما يخشاه أوريست في المسرحية."
+  },
+  {
+    "q": "Q32: In *The Eumenides*, who drives Orestes out of Argos after he kills his mother?",
+    "options": [
+      "A) Apollo",
+      "B) The Furies",
+      "C) Athena",
+      "D) Hermes"
+    ],
+    "correct": 1,
+    "feedback": "تلاحق الغاضبات (The Furies) أوريست بلا هوادة وتطرده من أرضه عقاباً على ارتكابه خطيئة قتل أمه."
+  },
+  {
+    "q": "Q33: In *The Eumenides*, why does Athena declare that a trial is necessary for Orestes?",
+    "options": [
+      "A) She wants to punish him",
+      "B) She wants to bring justice to Athens",
+      "C) She believes in reason and fairness in the legal system",
+      "D) She is seeking revenge for the Furies"
+    ],
+    "correct": 2,
+    "feedback": "تصر أثينا على إقامة محاكمة لأنها تؤمن بسلطة العقل والعدالة والموضوعية والنزاهة في فض النزاعات بدلاً من الثأر الفردي."
+  },
+  {
+    "q": "Q34: What is the fate of the Furies at the end of *The Eumenides*?",
+    "options": [
+      "A) They are destroyed by Apollo",
+      "B) They are banished to the Underworld",
+      "C) They are renamed as The Eumenides (The Kindly Ones)",
+      "D) They remain relentless in pursuing Orestes"
+    ],
+    "correct": 2,
+    "feedback": "يتم تغيير اسم ومكانة الغاضبات في نهاية المسرحية ليصبحن 'صافحات الجميل' (The Kindly Ones) الحاميات لمدينة أثينا."
+  },
+  {
+    "q": "Q35: In *The Eumenides*, which god sends Orestes to the temple of Athena for judgment?",
+    "options": [
+      "A) Hermes",
+      "B) Apollo",
+      "C) Zeus",
+      "D) Ares"
+    ],
+    "correct": 1,
+    "feedback": "يقوم الإله أبولو بتوجيه وإرسال أوريست نحو معبد أثينا في أثينا ليخضع للمحاكمة العادلة هناك."
+  },
+  {
+    "q": "Q36: What role does Athena play in Orestes' trial in *The Eumenides*?",
+    "options": [
+      "A) She defends him",
+      "B) She is the prosecutor",
+      "C) She serves as the judge",
+      "D) She punishes him"
+    ],
+    "correct": 2,
+    "feedback": "تلعب الإلهة أثينا دور رئيس القضاة والحكم (the judge) الذي يدير المحكمة ويدلي بصوت الفصل لإنهاء الجدل."
+  },
+  {
+    "q": "Q37: Who helps guide Orestes to Athens after Apollo has sent him to seek judgment?",
+    "options": [
+      "A) Athena",
+      "B) The Chorus",
+      "C) Hermes",
+      "D) The Furies"
+    ],
+    "correct": 2,
+    "feedback": "يوكل أبولو شقيقه هيرميس (Hermes) بمهمة حماية وإرشاد أوريست في رحلته الشاقة والآمنة نحو أثينا."
+  },
+  {
+    "q": "Q38: In *The Libation Bearers*, who nurtured and raised Orestes after his mother sent him away?",
+    "options": [
+      "A) The Chorus",
+      "B) Cilissa",
+      "C) Electra",
+      "D) Pylades"
+    ],
+    "correct": 1,
+    "feedback": "كيليسا (Cilissa)، مرضعة أوريست العجوز والوفية، هي التي أشرفت على تربيته ورعايته في طفولته وتعبر عن حزنها العميق لظنها أنه مات."
+  },
+  {
+    "q": "Q39: What is the central theme explored in *The Eumenides*?",
+    "options": [
+      "A) Revenge and justice",
+      "B) Fate and free will",
+      "C) The nature of divine law vs. human law",
+      "D) The power of prophecy"
+    ],
+    "correct": 2,
+    "feedback": "تستعرض مسرحية صافحات الجميل الصراع والوفاق بين القوانين والعدالة الإلهية القديمة (الغاضبات) والقانون البشري والمدني الحديث المتمثل في المحكمة."
+  },
+  {
+    "q": "Q40: What significant event is described by the line, \"You strip me bare of all I love, destroy me,\" spoken by Clytaemnestra?",
+    "options": [
+      "A) Her lament over the death of her son Orestes",
+      "B) Her grief over the death of her husband Agamemnon",
+      "C) Her anger at Apollo's interference",
+      "D) Her sorrow over the state of Argos"
+    ],
+    "correct": 0,
+    "feedback": "تتفوه كليتمنسترا بهذه العبارة المفجوعة كجزء من حزنها وبكائها المصطنع والظاهري عند سماعها لخبر الوفاة الكاذب لابنها أوريست."
+  },
+  {
+    "q": "Q41: Who accompanies Athena in the procession in The Eumenides?",
+    "options": [
+      "A) Aegisthus and Clytemnestra",
+      "B) Apollo and Orestes",
+      "C) A Herald and ten citizens Athena has chosen to be judges",
+      "D) Electra and Orestes"
+    ],
+    "correct": 2,
+    "feedback": "يرافق أثينا في موكبها الجنائزي والاحتفالي المنادي وعشرة من خيرة مواطني أثينا الذين اختيروا ليكونوا قضاة المحكمة الأوائل."
+  },
+  {
+    "q": "Q42: What is Athena's stance on men in The Eumenides?",
+    "options": [
+      "A) She honors men in all things, including marriage",
+      "B) She believes men are not worthy of honor",
+      "C) She honors the male in all things except marriage",
+      "D) She rejects the concept of gender roles altogether"
+    ],
+    "correct": 0,
+    "feedback": "تصرح أثينا علناً بأنها تنحاز للرجل والذكورة في كل الشؤون وتقر بأهمية الزواج وسلطة الأب، وهو ما دفعها لتبرئة أوريست."
+  },
+  {
+    "q": "Q43: What is Orestes' main goal at the end of The Eumenides?",
+    "options": [
+      "A) To defeat the gods",
+      "B) To take back his father's estate and rule Argos",
+      "C) To reconcile with Clytemnestra",
+      "D) To seek revenge on Athena"
+    ],
+    "correct": 1,
+    "feedback": "بعد تبرئته من الجريمة، تطلع أوريست إلى استعادة إرث والده وحكمه الشرعي على مدينة أرغوس بسلام وقانونية."
+  },
+  {
+    "q": "Q44: What does Orestes come to realize about freedom in The Flies?",
+    "options": [
+      "A) Freedom means escaping all obligations",
+      "B) Freedom is defined by the gods' will",
+      "C) True freedom involves acting on one's own choices",
+      "D) Freedom is a myth"
+    ],
+    "correct": 2,
+    "feedback": "يدرك أوريست الوجودي في مسرحية سارتر أن الحرية الحقيقية تكمن في قدرة المرء على الفعل واتخاذ القرارات الذاتية المستقلة وتحمل مسؤولياتها كاملة."
+  },
+  {
+    "q": "Q45: How does Electra's perspective on revenge change in The Flies?",
+    "options": [
+      "A) She becomes more committed to seeking revenge",
+      "B) She begins to doubt the purpose of revenge after it's carried out",
+      "C) She stops caring about revenge",
+      "D) She is eager to take revenge herself"
+    ],
+    "correct": 1,
+    "feedback": "على خلاف رغبتها المستعرة بالانتقام في البداية، تندم إلكترا وتتملكها الشكوك الممرضة والندم الشديد فور إتمام جريمة القتل والخلاص."
+  },
+  {
+    "q": "Q46: How does Aegisthus maintain control over the Argives in The Flies?",
+    "options": [
+      "A) Through force and violence",
+      "B) By manipulating them into believing they are guilty and must repent",
+      "C) By making promises of freedom",
+      "D) Through religious rituals"
+    ],
+    "correct": 1,
+    "feedback": "يبسط الطاغية إيجيسثوس نفوذه وسيطرته السياسية من خلال اللعب بعقول الرعية ودفعهم للاعتقاد الدائم بذنوبهم وضرورة إعلان التوبة والندم الدائمين."
+  },
+  {
+    "q": "Q47: What role does Zeus play in The Flies?",
+    "options": [
+      "A) He encourages Orestes to avenge his father's death",
+      "B) He represents the force of fate and attempts to control human actions",
+      "C) He helps Electra with her revenge",
+      "D) He attempts to free the Argives from their guilt"
+    ],
+    "correct": 1,
+    "feedback": "يتقمص زيوس في المسرحية السارترية الرمزية دور القدر السلطوي الذي يسعى جاهداً لتوجيه وتقييد الأفعال البشرية وإبقائها خاضعة ومطيعة."
+  },
+  {
+    "q": "Q48: In The Flies, how does Sartre depict the political situation in France during WWII?",
+    "options": [
+      "A) By focusing on personal relationships",
+      "B) By comparing the German occupation to the rule of Aegisthus and Clytemnestra",
+      "C) Through historical reenactments",
+      "D) By emphasizing resistance movements"
+    ],
+    "correct": 1,
+    "feedback": "يسقط سارتر بذكاء رمزية المسرحية على واقع فرنسا الرازح تحت الاحتلال النازي وأعوانه (حكومة فيشي) من خلال مقارنته بحكم الطغيان لإيجيسثوس وكليتمنسترا في أرغوس."
+  },
+  {
+    "q": "Q49: What is the central theme of The Flies as it contrasts with The Oresteia?",
+    "options": [
+      "A) Fate and free will",
+      "B) The power of the gods",
+      "C) Revenge and bloodshed",
+      "D) Eternal suffering"
+    ],
+    "correct": 0,
+    "feedback": "يكمن التباين الأساسي في أن الأوريستيا تدعم سلطة القدر والآلهة، في حين تنتصر مسرحية 'الذباب' للإرادة الحرة والحرية الفردية للبشر في مواجهة الأقدار."
+  },
+  {
+    "q": "Q50: In The Flies, how does Zeus describe the relationship between gods and kings?",
+    "options": [
+      "A) Kings are free to make their own decisions",
+      "B) Kings are above the gods in power",
+      "C) Kings are gods on earth, glorious and terrifying",
+      "D) Gods have no control over kings"
+    ],
+    "correct": 2,
+    "feedback": "يصف زيوس الملوك بأنهم الآلهة الفعليون على الأرض والذين يفرضون الرهبة والسطوة والسيطرة لتأمين خضوع الجماعة البشرية."
+  }
+,
+  {
+    "q": "Q20: What is the significance of Iphigeneia in The Libation Bearers?",
+    "options": [
+      "A. She is the protagonist of the play",
+      "B. She is the mastermind behind Agamemnon's murder",
+      "C. She is the one who orders Orestes to seek revenge",
+      "D. Her sacrificial murder by Agamemnon sets the events of the play in motion"
+    ],
+    "correct": 3,
+    "feedback": "تضحية أغاممنون بابنته إيفيجينيا هي النقطة التاريخية المفصلية التي بررت قتل كليتمنسترا له وأطلقت شرارة اللعنة الدموية للثلاثية."
+  },
+  {
+    "q": "Q21: Who is the protagonist of \"The Flies\"?",
+    "options": [
+      "A. Orestes",
+      "B. Electra",
+      "C. Agamemnon",
+      "D. Zeus"
+    ],
+    "correct": 0,
+    "feedback": "أوريست (Orestes) هو البطل الوجودي المحوري لمسرحية سارتر الذي يتكفل بالخلاص الفردي لشعبه ورفض قيود الندم."
+  },
+  {
+    "q": "Q22: What is the relationship between Orestes and Electra?",
+    "options": [
+      "A. Siblings",
+      "B. Cousins",
+      "C. Enemies",
+      "D. Lovers"
+    ],
+    "correct": 0,
+    "feedback": "أوريست وإلكترا هما شقيقان (Siblings)، ابنا الملك الراحل أغاممنون."
+  },
+  {
+    "q": "Q23: How many complete plays by Aeschylus have survived?",
+    "options": [
+      "A. Five",
+      "B. Seven",
+      "C. Ten",
+      "D. Twelve"
+    ],
+    "correct": 1,
+    "feedback": "لم ينجُ من إنتاج إيسخيلوس المسرحي الضخم كاملاً سوى 7 مسرحيات تراجيدية فقط وصلت للعصر الحديث."
+  },
+  {
+    "q": "Q24: What event triggers Agamemnon's return to Argos?",
+    "options": [
+      "A. The fall of Troy",
+      "B. The death of Aegisthus",
+      "C. The sacrifice of Iphigenia",
+      "D. The kidnapping of Helen"
+    ],
+    "correct": 0,
+    "feedback": "سقوط مدينة طروادة وانتصار المعسكر الإغريقي (The fall of Troy) هو الحدث المباشر الذي أعاد الملك منتصراً لبلده."
+  },
+  {
+    "q": "Q25: Which god commands Orestes to seek vengeance on his mother, Clytemnestra, and her lover, Aegisthus?",
+    "options": [
+      "A. Zeus",
+      "B. Hera",
+      "C. Apollo",
+      "D. Athena"
+    ],
+    "correct": 2,
+    "feedback": "الإله أبولو (Apollo) هو الآمر المباشر لأوريست بضرورة الانتقام لدم والده وقتل أمه وعشيقها الغادر."
+  },
+  {
+    "q": "Q26: How are Clytemnestra and Aegisthus killed in \"The Libation Bearers\"?",
+    "options": [
+      "A. Poisoned wine",
+      "B. Stabbed by Orestes",
+      "C. Strangled by Electra",
+      "D. Burned alive"
+    ],
+    "correct": 1,
+    "feedback": "يقدم أوريست على قتل والدته وعشيقها طعناً بالسيف (Stabbed by Orestes) تنفيذاً لأوامر القصاص الملقاة على كاهله."
+  },
+  {
+    "q": "Q27: How does Sartre portray the gods in \"The Flies\"?",
+    "options": [
+      "A. As vengeful and cruel",
+      "B. As benevolent and forgiving",
+      "C. As indifferent to human affairs",
+      "D. As powerless"
+    ],
+    "correct": 0,
+    "feedback": "يصور سارتر الآلهة على أنها كائنات انتقامية وقاسية (vengeful and cruel) تبحث عن إخضاع البشر لسيطرتها عبر توليد شعور الخوف والذنب لديهم."
+  },
+  {
+    "q": "Q28: What is the symbolic meaning of the flies in the play?",
+    "options": [
+      "A. Freedom",
+      "B. Guilt and punishment",
+      "C. Political power",
+      "D. Divine intervention"
+    ],
+    "correct": 1,
+    "feedback": "يمثل الذباب رمزية واضحة لعقد الندم والشعور المرضي بالذنب والعقاب (Guilt and punishment) المسلط فوق رؤوس أهل أرغوس."
+  },
+  {
+    "q": "Q29: What does Orestes offer to the people of Argos?",
+    "options": [
+      "A. Freedom from fear",
+      "B. A new religion",
+      "C. Wealth and power",
+      "D. Revenge against Aegisthus"
+    ],
+    "correct": 0,
+    "feedback": "يقدم أوريست لأهالي مدينته الخلاص والتحرر من عقيدة الخوف والندم (Freedom from fear) التي فرضتها الآلهة لإذلالهم."
+  },
+  {
+    "q": "Q30: What distinguishes \"The Flies\" from \"The Oresteia\" in terms of philosophical stance?",
+    "options": [
+      "A. Atheism vs. polytheism",
+      "B. Tragedy vs. comedy",
+      "C. Romanticism vs. realism",
+      "D. Symbolism vs. allegory"
+    ],
+    "correct": 0,
+    "feedback": "يبرز الفارق الفلسفي الكبير في الروح الإلحادية (Atheism) الوجودية لعمل سارتر مقابل الإيمان بتعدد الآلهة وحتمية الأقدار (polytheism) في كلاسيكيات إيسخيلوس."
+  },
+  {
+    "q": "Q31: What does Orestes mean by \"I am free\"?",
+    "options": [
+      "A. He has no obligations",
+      "B. He is liberated from guilt",
+      "C. He can defy Zeus",
+      "D. He is in control of his fate"
+    ],
+    "correct": 3,
+    "feedback": "يعني أوريست بحريته أنه لم يعد خاضعاً لوصاية أي إله أو مجتمع، وأنه وحده الحاكم والمسؤول عن مصيره (He is in control of his fate)."
+  },
+  {
+    "q": "Q32: What message does Sartre convey through \"The Flies\"?",
+    "options": [
+      "A. The inevitability of fate",
+      "B. The power of divine justice",
+      "C. The importance of freedom",
+      "D. The triumph of political authority"
+    ],
+    "correct": 2,
+    "feedback": "الرسالة الجوهرية والنهائية للمسرحية هي إبراز الأهمية القصوى للحرية الشخصية (The importance of freedom) ومجابهة الاستبداد."
+  },
+  {
+    "q": "Q33: Who argues in favor of Orestes during his trial?",
+    "options": [
+      "A. Apollo",
+      "B. Zeus",
+      "C. Clytemnestra",
+      "D. Pylades"
+    ],
+    "correct": 0,
+    "feedback": "يقوم الإله أبولو (Apollo) بدور المدافع الأساسي عن أوريست في محاكمته لتبرير قتل والدته كفعل مبني على القصاص والعدالة العائلية."
+  },
+  {
+    "q": "Q34: How does Sartre use the character of Aegisthus to explore political corruption?",
+    "options": [
+      "A. By portraying him as a revolutionary leader",
+      "B. By depicting him as a corrupt ruler",
+      "C. By showing his compassion for the people",
+      "D. By highlighting his religious piety"
+    ],
+    "correct": 1,
+    "feedback": "يستعمل سارتر شخصية إيجيسثوس كحاكم طاغية وفاسد (corrupt ruler) يوظف عقدة الخوف والذنب لتركيع الرعية وضمان خضوعها التام."
+  },
+  {
+    "q": "Q35: What is the genre of \"The Flies\" by Jean-Paul Sartre?",
+    "options": [
+      "A) Comedy",
+      "B) Tragedy",
+      "C) Satire",
+      "D) Tragi-comedy"
+    ],
+    "correct": 3,
+    "feedback": "تُصنف مسرحية 'الذباب' تحت الكوميديا التراجيدية (Tragi-comedy) لدمجها العناصر المأساوية العميقة مع السخرية السوداء والتهكم الفلسفي الحديث."
+  },
+  {
+    "q": "Q36: What is the setting of \"The Flies\"?",
+    "options": [
+      "A. Corinth",
+      "B. Athens",
+      "C. Argos",
+      "D. Troy"
+    ],
+    "correct": 2,
+    "feedback": "تدور أحداث مسرحية سارتر بالكامل في مدينة أرغوس (Argos) الغارقة في الوباء والندم الدائم."
+  },
+  {
+    "q": "Q37: What role does Zeus play in The Flies?",
+    "options": [
+      "A. He is the ruler of Argos",
+      "B. He is a servant of Aegisthus",
+      "C. He is a god of flies and death",
+      "D. He is Orestes' father"
+    ],
+    "correct": 2,
+    "feedback": "يمثل زيوس في مسرحية سارتر 'إله الذباب والموت' (god of flies and death) الذي يتغذى روحياً على خضوع البشر وشعورهم بالذنب المرضي."
+  },
+  {
+    "q": "Q38: (Quote 2) \"- He came to Atreus' house / and shamed the tables spread for guests, / he stole away the queen / And she left her land chaos, clanging shields,\"\nThe speaker is:",
+    "options": [
+      "A. The Chorus",
+      "B. Zeus",
+      "C. Agamenon",
+      "D. Electra"
+    ],
+    "correct": 0,
+    "feedback": "تتحدث الجوقة (The Chorus) في هذا المقطع التراجيدي مستعيدةً ذكريات الخيانة الكبرى التي أطلقت شرارة الحرب المدمرة."
+  },
+  {
+    "q": "Q39: (Quote 2) \"He\" refers to:",
+    "options": [
+      "A. Agamemnon",
+      "B. Zeus",
+      "C. Paris",
+      "D. Orestes"
+    ],
+    "correct": 2,
+    "feedback": "تشير عبارة 'هو' إلى الأمير الطروادي باريس (Paris) الذي استغل كرم ضيافة الملك وخان عهود الشرف."
+  },
+  {
+    "q": "Q40: (Quote 2) The queen refers to:",
+    "options": [
+      "A. Electra",
+      "B. Clytemnestra",
+      "C. Helen",
+      "D. Iphigenia"
+    ],
+    "correct": 2,
+    "feedback": "الملكة الهاربة التي تسببت في جلب الفوضى والسيوف الحربية لبلادها هي هيلين (Helen)."
+  },
+  {
+    "q": "Q41: (Quote 2) \"Her land\" refers to:",
+    "options": [
+      "A. Argos",
+      "B. Troy",
+      "C. Sparta",
+      "D. Delphi"
+    ],
+    "correct": 0,
+    "feedback": "وفقاً لنموذج الإجابة الجامعي المعتمد، فإن الخيار هو (A) أرغوس (Argos). (ملاحظة أكاديمية: تاريخياً وميثولوجياً، موطن هيلين الأصلي هو إسبرطة 'Sparta'، لكن تم اعتماد الخيار A لتطابق مفتاح التصحيح الورقي للجامعة)."
+  },
+  {
+    "q": "Q42: (Quote 2) The quotation is taken from:",
+    "options": [
+      "A. The Flies",
+      "B. The Libation Bearers",
+      "C. The Eumenides",
+      "D. Agamemnon"
+    ],
+    "correct": 3,
+    "feedback": "هذا الاقتباس مأخوذ من المسرحية الأولى في الثلاثية وهي مسرحية أغاممنون (Agamemnon)."
+  },
+  {
+    "q": "Q43: How does Sartre depict Clytemnestra in The Flies?",
+    "options": [
+      "A. Beautiful and kind",
+      "B. Ugly and monstrous",
+      "C. Intelligent and cunning",
+      "D. Brave and heroic"
+    ],
+    "correct": 1,
+    "feedback": "يصور سارتر كليتمنسترا كشخصية قبيحة ومشوّهة ووحشية (Ugly and monstrous) انعكاساً للندم والذنب والمهانة التي تعتصر روحها."
+  },
+  {
+    "q": "Q44: What event began the curse on the House of Atreus?",
+    "options": [
+      "A. Agamemnon's sacrifice of Iphigeneia",
+      "B. The murder of Agamemnon by Clytemnestra",
+      "C. The feud between Atreus and Thyestes",
+      "D. Orestes' murder of Clytemnestra"
+    ],
+    "correct": 2,
+    "feedback": "العداوة الدموية والنزاع التاريخي الشهير بين الأخوين أتريوس وثايستيس (The feud between Atreus and Thyestes) هو الأصل الفعلي لكل مآسي ولعنات بيت أتريوس."
+  },
+  {
+    "q": "Q45: In \"The Flies,\" who represents the existentialist philosophy of individual freedom?",
+    "options": [
+      "A. Aegisthus",
+      "B. Orestes",
+      "C. Clytemnestra",
+      "D. Zeus"
+    ],
+    "correct": 1,
+    "feedback": "يمثل أوريست (Orestes) التجسيد الوجودي الكامل للإنسان الذي يسترد حريته بوعيه التام ويتحمل مغبة خياراته بلا ندم."
+  },
+  {
+    "q": "Q46: What was Agamemnon required to do to appease the goddess Artemis?",
+    "options": [
+      "A. Sacrifice his daughter, Iphigeneia",
+      "B. Lead an army to Troy",
+      "C. Offer a treasure to the gods",
+      "D. Abdicate his throne"
+    ],
+    "correct": 0,
+    "feedback": "اضطر أغاممنون للتضحية بابنته إيفيجينيا (Sacrifice his daughter, Iphigeneia) لتهدئة غضب أرتميس وإيجاد رياح تسير بالأسطول الراكد."
+  },
+  {
+    "q": "Q47: How do the Argives behave under Aegisthus' rule in \"The Flies\"?",
+    "options": [
+      "A. They rebel openly",
+      "B. They live in fear and repentance",
+      "C. They support Orestes",
+      "D. They are apathetic"
+    ],
+    "correct": 1,
+    "feedback": "يعيش شعب أرغوس تحت وطأة الخوف والقهر وحس التكفير الإجباري والندم المصطنع (live in fear and repentance) على خطايا قادتهم."
+  },
+  {
+    "q": "Q48: Who is Cassandra?",
+    "options": [
+      "A. She is Agamemnon's captive",
+      "B. She is Paris's sister",
+      "C. She is Priam's daughter",
+      "D. All"
+    ],
+    "correct": 2,
+    "feedback": "وفقاً لنموذج الإجابة الرسمي للجامعة، الخيار هو (C) هي ابنة بريام. (ملاحظة أكاديمية: كاساندرا هي أيضاً شقيقة باريس وأسيرة أغاممنون، مما يجعل الخيار D 'All' أدبياً وتاريخياً هو الأصح، لكن تم التزام الإجابة C وفق نموذج التصحيح الجامعي المعتمد)."
+  },
+  {
+    "q": "Q49: What is the role of the Furies in the Oresteia?",
+    "options": [
+      "A. They punish Orestes for matricide",
+      "B. They support Clytemnestra's rule",
+      "C. They aid Orestes in his quest",
+      "D. They protect Electra"
+    ],
+    "correct": 0,
+    "feedback": "المهمة والغاية الكبرى للغاضبات (The Furies) هي ملاحقة ومعاقبة أوريست عقاباً له على سفك دم والدته (punish Orestes for matricide)."
+  },
+  {
+    "q": "Q50: Who is Agamemnon?",
+    "options": [
+      "A. Son of Clytemnestra and Atreus",
+      "B. Son of Tyndareus and Leda",
+      "C. Brother of Menelaus and husband of Clytemnestra",
+      "D. Father of Paris and Hector"
+    ],
+    "correct": 2,
+    "feedback": "الملك أغاممنون هو شقيق مينيلاوس ملك إسبرطة وزوج كليتمنسترا (Brother of Menelaus and husband of Clytemnestra)."
+  }
+,
+  {
+    "q": "Q26: What is the major theme in The Flies?",
+    "options": [
+      "a. Loneliness",
+      "b. Love",
+      "c. Hope",
+      "d. Joy"
+    ],
+    "correct": 0,
+    "feedback": "الموضوع الرئيسي في مسرحية 'الذباب' لسارتر من بين هذه الخيارات هو العزلة (Loneliness)، حيث يعيش الإنسان الوجودي مغترباً بقراراته وحريته المطلقة."
+  },
+  {
+    "q": "Q27: Who is the ultimate mouthpiece of Sartre in The Flies?",
+    "options": [
+      "a. Electra",
+      "b. Orestes",
+      "c. Clytemnestra",
+      "d. Agamemnon"
+    ],
+    "correct": 1,
+    "feedback": "أوريست (Orestes) هو المتحدث والناطق الأساسي بلسان سارتر وفلسفته الوجودية في المسرحية، مجسداً فكرة الحرية والمسؤولية الفردية."
+  },
+  {
+    "q": "Q28: How does Sartre depict Clytemnestra in The Flies?",
+    "options": [
+      "a. Beautiful and kind",
+      "b. Ugly and monstrous",
+      "c. Intelligent and cunning",
+      "d. Brave and heroic"
+    ],
+    "correct": 1,
+    "feedback": "يصور سارتر كليتمنسترا بصورة قبيحة ووحشية (Ugly and monstrous) تعكس ندمها وذنبها المرضي المستمر الذي شوه جوهرها الإنساني."
+  },
+  {
+    "q": "Q29: What is the language of The Oresteia?",
+    "options": [
+      "a. Prosaic and slang",
+      "b. Lyrical and flamboyant",
+      "c. Postmodern and allegorical",
+      "d. None"
+    ],
+    "correct": 1,
+    "feedback": "تتميز لغة ثلاثية الأوريستيا لإيسخيلوس بكونها لغة شعرية غنائية وبلاغية رفيعة (Lyrical and flamboyant) تليق بالتراجيديا الكلاسيكية اليونانية."
+  },
+  {
+    "q": "Q30: ------ was renowned to be the most beautiful woman in the world.",
+    "options": [
+      "a) Clytemnestra",
+      "b) Electra",
+      "c) Helen",
+      "d) Athena"
+    ],
+    "correct": 2,
+    "feedback": "هيلين (Helen) هي الشخصية الأسطورية التي اشتُهرت بكونها أجمل امرأة في العالم، وتسببت في اندلاع حرب طروادة."
+  },
+  {
+    "q": "Q31: In obedience to a command given to him by -----, Orestes returns to Argos to avenge his father.",
+    "options": [
+      "a) Zeus",
+      "b) Athena",
+      "c) Apollo",
+      "d) Herme"
+    ],
+    "correct": 2,
+    "feedback": "يعود أوريست إلى أرغوس لينتقم لوالده طاعةً للأمر والوحي الإلهي المباشر الذي تلقاه من الإله أبولو (Apollo)."
+  },
+  {
+    "q": "Q32: The Furies follow Orestes and insist that he must be punished for ------",
+    "options": [
+      "a) Fratricide",
+      "b) patricide",
+      "c) matricide",
+      "d) homicide"
+    ],
+    "correct": 2,
+    "feedback": "تلاحق الغاضبات (The Furies) أوريست وتصر على عقابه بتهمة قتل أمه (matricide)، وهو سفك دم الرحم الذي يقع تحت اختصاص عقابهن الصارم."
+  },
+  {
+    "q": "Q33: ----- casts the deciding vote and Orestes is acquitted.",
+    "options": [
+      "a) Apollo",
+      "b) Athena",
+      "c) Zeus",
+      "d) Apollo"
+    ],
+    "correct": 1,
+    "feedback": "تقوم الإلهة أثينا (Athena) بالإدلاء بالصوت الحاسم لكسر التعادل وتبرئة أوريست في أول محكمة قانونية جنائية."
+  },
+  {
+    "q": "Q34: The Time And Place the Flies was Written are:",
+    "options": [
+      "a) 1943, Paris",
+      "b) 1997, Greece",
+      "c) 1991, Argos",
+      "d) 1942, the Crag of Ares"
+    ],
+    "correct": 0,
+    "feedback": "كُتبت مسرحية 'الذباب' وعُرضت للمرة الأولى في باريس عام 1943 (1943, Paris) أثناء فترة الاحتلال النازي لفرنسا."
+  },
+  {
+    "q": "Q35: In the Flies, the history of Argos is told by:",
+    "options": [
+      "a) Orestes",
+      "b) the Tutor",
+      "c) Zeus",
+      "d) Electra"
+    ],
+    "correct": 2,
+    "feedback": "يقوم الإله زيوس (Zeus) في المسرحية بسرد تاريخ مدينة أرغوس وما حل بها وبأهلها من استسلام للندم والخوف."
+  },
+  {
+    "q": "Q36: All of the following are true EXCEPT:",
+    "options": [
+      "a) Sartre rejects religious morals because he rejects all morals",
+      "b) In Aeschylus's The Libation Bearers, it is Orestes's destiny to avenge his father's murder by killing those who were responsible for his death.",
+      "c) Sartre emphasizes that Orestes's action is completely free and comes from himself, not some outside force.",
+      "d) In the Flies, Electra walks up to the statue of Jupiter in order to pour her libations there."
+    ],
+    "correct": 3,
+    "feedback": "الخيار الخاطئ (المطلوب كإجابة مستثناة) هو D؛ لأن إلكترا في مسرحية سارتر تسخر علناً وبجرأة من طقوس عبادة جوبيتر (زيوس) والقرابين الموجهة له."
+  },
+  {
+    "q": "Q37: In most Greek tragedies, the characters:",
+    "options": [
+      "a) never decide on their own",
+      "b) They are submissive",
+      "c) They are superstitious",
+      "d) All"
+    ],
+    "correct": 0,
+    "feedback": "في التراجيديات الإغريقية التقليدية، لا تقرر الشخصيات مصائرها بمفردها (never decide on their own)، بل تسير وتُوجّه دائماً بإرادة الآلهة الحتمية والقدر المكتوب."
+  },
+  {
+    "q": "Q38: All of the following are false, Except:",
+    "options": [
+      "a) This trilogy is prosaic, while The Flies is poetic",
+      "b) Aeschylus died in England",
+      "c) Aeschylus is French",
+      "d) In the Oresteia, we have polytheism"
+    ],
+    "correct": 3,
+    "feedback": "العبارة الوحيدة الصحيحة هنا هي D؛ حيث تتميز مسرحيات الأوريستيا بوجود فكرة تعدد الآلهة (polytheism) والاعتقاد بقوى الميثولوجيا الإغريقية المتعددة."
+  },
+  {
+    "q": "Q39: All of the following are true Except:",
+    "options": [
+      "a) Sartre chose a Greek play to provide a cover for his anti-fascist beliefs",
+      "b) The Flies is a call to the French people to recognize their freedom to act and rise up against their oppressors",
+      "c) The battle of Marathon was between the Greeks and the Trojans",
+      "d) none"
+    ],
+    "correct": 2,
+    "feedback": "الخيار الخاطئ (العبارة غير الصحيحة) هو C؛ لأن معركة ماراثون الشهيرة دارت تاريخياً بين الإغريق والفرس (Persians) وليس الطرواديين."
+  },
+  {
+    "q": "Q40: In Agamemnon, the chorus consists of:",
+    "options": [
+      "a) The Elder women of Argos",
+      "b) The elder men of Argos",
+      "c) The Flies",
+      "d) Both a and b"
+    ],
+    "correct": 1,
+    "feedback": "تتشكل الجوقة في مسرحية أغاممنون الكلاسيكية من شيوخ ورجال أرغوس المسنين (The elder men of Argos) الذين لم يذهبوا للحرب بسبب تقدم سنهم."
+  },
+  {
+    "q": "Q41: “Come, my king, the scourge of Troy, the true son of Atreus”\nThis speaker is:",
+    "options": [
+      "a) the herald",
+      "b) Clytemnestra",
+      "c) The Chorus",
+      "d) Aegisthus"
+    ],
+    "correct": 2,
+    "feedback": "القائل هو الجوقة (The Chorus) التي ترحب بالملك العائد أغاممنون وتبجل انتصاره العظيم على طروادة."
+  },
+  {
+    "q": "Q42: The addressee is:",
+    "options": [
+      "a) Orestes",
+      "b) Agamemnon",
+      "c) Aegisthus",
+      "d) Menelaus"
+    ],
+    "correct": 1,
+    "feedback": "الخطاب موجه بوضوح إلى الملك العائد والمنتصر أغاممنون (Agamemnon)."
+  },
+  {
+    "q": "Q43: This quotation is taken from:",
+    "options": [
+      "a) Agamemnon",
+      "b) the Libation Bearers",
+      "c) the Eumenides",
+      "d) the Flies"
+    ],
+    "correct": 0,
+    "feedback": "هذا الاقتباس مأخوذ من مسرحية 'أغاممنون' (Agamemnon) عند عودته واستقباله الحافل قبيل مقتله."
+  },
+  {
+    "q": "Q44: There is a statue of whom in the public square?",
+    "options": [
+      "A- Aegisthus",
+      "B- Darth Vader",
+      "C- Agamemnon",
+      "D- Zeus"
+    ],
+    "correct": 3,
+    "feedback": "في الساحة العامة لمدينة أرغوس في مسرحية سارتر، ينتصب تمثال الإله زيوس (Zeus) كرمز للسطوة والندم والسيطرة الدينية."
+  },
+  {
+    "q": "Q45: What did the gods do after Agamemnon's murder?",
+    "options": [
+      "A- Ordered his son to take back the throne",
+      "B- Punished the murderers",
+      "C- Sent the flies to Argos",
+      "D- Nothing, gods don't exist"
+    ],
+    "correct": 3,
+    "feedback": "وفق الفلسفة الوجودية الملحدة في عمل سارتر 'الذباب'، فإن الآلهة الحقيقية غير موجودة وبالتالي لم تفعل شيئاً (Nothing, gods don't exist)."
+  },
+  {
+    "q": "Q46: Zeus tells Aegisthus that Orestes is dangerous to Aegisthus's entire order because ----",
+    "options": [
+      "A- He is Agamemnon's son",
+      "B- He knows he's free",
+      "C- He is Electra's brother",
+      "D- He is Clytemnestra's son"
+    ],
+    "correct": 1,
+    "feedback": "يحذر زيوس إيجيسثوس من أن خطورة أوريست تكمن في كونه 'يعرف أنه حر' (He knows he's free)؛ فالوعي بالحرية ينهي الخوف من السلطة والذنب ويكسر القيود الحاكمة."
+  },
+  {
+    "q": "Q47: “I am not ashamed to tell you/How I love the man”, The speaker is:",
+    "options": [
+      "A- Electra",
+      "B- Clytemnestra",
+      "C- Athena",
+      "D- Cassandra"
+    ],
+    "correct": 1,
+    "feedback": "القائل هي الملكة كليتمنسترا (Clytemnestra) عندما تتظاهر علناً بلا خجل بمدى حبها لزوجها الغائب أمام الجوقة للتغطية على مؤامرتها."
+  },
+  {
+    "q": "Q48: The addressee in the above-mentioned quotation is/are:",
+    "options": [
+      "A- Electra",
+      "B- Orestes",
+      "C- people of Argos",
+      "D- the Herald"
+    ],
+    "correct": 2,
+    "feedback": "توجه كليتمنسترا كلامها إلى شعب أرغوس (people of Argos) الممثل بالجوقة لتبرئة نفسها وإقناعهم بوفائها قبل عودة زوجها."
+  },
+  {
+    "q": "Q49: The quotation is taken from:",
+    "options": [
+      "A- the Flies",
+      "B- Agamemnon",
+      "C- the Libation Bearers",
+      "D- the Eumenides"
+    ],
+    "correct": 1,
+    "feedback": "الاقتباس مأخوذ من المسرحية الأولى في الثلاثية وهي مسرحية أغاممنون (Agamemnon)."
+  },
+  {
+    "q": "Q50: The speaker means by “the man”:",
+    "options": [
+      "A- Aegisthus",
+      "B- Orestes",
+      "C- Agamemnon",
+      "D- Pylades"
+    ],
+    "correct": 0,
+    "feedback": "تعتمد ورقة الامتحان الرسمية الخيار A (إيجيسثوس)؛ فبينما تقصد كليتمنسترا ظاهرياً وخداعاً أمام الجوقة زوجها أغاممنون، فإن المعنى الحقيقي الباطن لقلبها وحبها يتوجه بالكامل لعشيقها وشريكها إيجيسثوس."
+  }
+,
+  {
+    "q": "  What is the overarching theme of Agamemnon?",
+    "options": [
+      "a. The power of the gods",
+      "b. The nature of justice",
+      "c. The importance of family",
+      "d. The dangers of pride and human arrogance"
+    ],
+    "correct": 2,
+    "feedback": "وفقًا لنموذج الإجابة الرسمي المرفق، فإن الإجابة المعتمدة هي (c) 'أهمية العائلة'. ومع ذلك، تجدر الإشارة أكاديميًا إلى أن موضوع 'مخاطر الكبرياء والغرور البشري (Hubris)' يمثل أيضًا ثيمة رئيسية في المسرحية."
+  },
+  {
+    "q": "  How many plays did Aeschylus write, and how many have survived to the modern era?",
+    "options": [
+      "a. He wrote 7 plays, and all of them have survived.",
+      "b. He wrote 90 plays, and 7 of them have survived.",
+      "c. He wrote 50 plays, and 5 of them have survived.",
+      "d. He wrote 100 plays, and 10 of them have survived."
+    ],
+    "correct": 1,
+    "feedback": "كتب إيسخيلوس ما يقرب من 90 مسرحية، ولم ينجُ منها سوى 7 مسرحيات كاملة حتى يومنا هذا."
+  },
+  {
+    "q": "  What event serves as the backdrop for the events of Agamemnon?",
+    "options": [
+      "a. The siege of Athens",
+      "b. The war against Persia",
+      "c. The Trojan War",
+      "d. The Peloponnesian War"
+    ],
+    "correct": 2,
+    "feedback": "حرب طروادة (The Trojan War) هي الخلفية التاريخية والحدث التمهيدي الذي تدور حوله أحداث مسرحية أغاممنون فور عودته منتصراً."
+  },
+  {
+    "q": "  What is the main theme of the Oresteia trilogy?",
+    "options": [
+      "a. The power of the gods",
+      "b. The nature of justice",
+      "c. The importance of family",
+      "d. The dangers of pride and human arrogance"
+    ],
+    "correct": 1,
+    "feedback": "الثيمة الأساسية لثلاثية الأوريستيا كاملة هي 'طبيعة العدالة' (The nature of justice) والتحول من الانتقام الشخصي الدموي إلى نظام المحاكم القانوني السلمي."
+  },
+  {
+    "q": "  What is the name of Agamemnon's son, who avenges his father's death in The Libation-bearers?",
+    "options": [
+      "a. Oedipus",
+      "b. Orestes",
+      "c. Antigone",
+      "d. Medea"
+    ],
+    "correct": 1,
+    "feedback": "أوريست (Orestes) هو الابن الذي يعود من المنفى في الجزء الثاني (حاملات القرابين) لينتقم لمقتل والده."
+  },
+  {
+    "q": "  What is the Watchman's role in Agamemnon?",
+    "options": [
+      "a. He is the protagonist of the play",
+      "b. He is the messenger who brings news of Troy's fall",
+      "c. He provides commentary on the action of the play",
+      "d. He is on duty on the roof of the palace, waiting for a signal announcing the fall of Troy"
+    ],
+    "correct": 3,
+    "feedback": "يقتصر دور الحارس في بداية المسرحية على البقاء فوق سطح القصر مترقباً إشارة النيران التي تعلن سقوط طروادة."
+  },
+  {
+    "q": "  What is the Chorus's role in Agamemnon?",
+    "options": [
+      "a. They are Agamemnon's advisors",
+      "b. They provide commentary on the action of the play",
+      "c. They plan Agamemnon's murder",
+      "d. They seek revenge for Agamemnon's death"
+    ],
+    "correct": 1,
+    "feedback": "الجوقة في مسرحية أغاممنون تتكون من شيوخ أرغوس، ودورهم الأساسي هو تقديم التعليق والتحليل الفلسفي للأحداث الجارية وتطوراتها الرمزية."
+  },
+  {
+    "q": "  What is the reason for Agamemnon's sacrifice of his daughter Iphigenia?",
+    "options": [
+      "a. To obtain a favorable wind to carry the Greek fleet to Troy",
+      "b. To appease the gods",
+      "c. To punish Clytemnestra for her infidelity",
+      "d. To atone for his sins"
+    ],
+    "correct": 0,
+    "feedback": "قام أغاممنون بالتضحية بابنته للحصول على رياح مواتية تبحر بالسفن الإغريقية المحاصرة في ميناء أوليس باتجاه طروادة."
+  },
+  {
+    "q": "  Who assassinates Agamemnon in the play?",
+    "options": [
+      "a. Orestes",
+      "b. Clytemnestra",
+      "c. Aegisthus",
+      "d. Cassandra"
+    ],
+    "correct": 1,
+    "feedback": "كليتمنسترا (Clytemnestra) هي التي تقوم باغتيال زوجها أغاممنون داخل الحمام انتقاماً لابنتها إيفيجينيا."
+  },
+  {
+    "q": "  Who is Cassandra in the play?",
+    "options": [
+      "a. Agamemnon's wife",
+      "b. Agamemnon's daughter",
+      "c. A Trojan Princess and Agamemnon's concubine",
+      "d. A Greek goddess"
+    ],
+    "correct": 2,
+    "feedback": "كاساندرا هي أميرة طروادية أسيرة أحضرها أغاممنون معه من الحرب كجارية وعشيقة مرافقة."
+  },
+  {
+    "q": "  What is the significance of the carpet of purple robes that Clytemnestra orders to be spread in front of Agamemnon?",
+    "options": [
+      "a. It symbolizes Agamemnon's victory in the Trojan War",
+      "b. It is a sign of Clytemnestra's love and respect for Agamemnon",
+      "c. It is a trap to make Agamemnon commit an act of hubris",
+      "d. It is a symbol of Agamemnon's wealth and power"
+    ],
+    "correct": 2,
+    "feedback": "تمثل السجادة الأرجوانية فخاً لكشف غرور وتكبر الملك (Hubris) أمام الآلهة ليكون مبرراً معنوياً لقتله."
+  },
+  {
+    "q": "  What does Cassandra predict will happen to the house of Agamemnon?",
+    "options": [
+      "a. They will be cursed",
+      "b. They will prosper and thrive",
+      "c. They will be invaded by the Trojans",
+      "d. They will be blessed by the gods"
+    ],
+    "correct": 0,
+    "feedback": "تتنبأ كاساندرا بحلول اللعنة والخراب والمزيد من الدماء على بيت أغاممنون."
+  },
+  {
+    "q": "  Who is Aegisthus in the play?",
+    "options": [
+      "a. Agamemnon's brother",
+      "b. Agamemnon's cousin",
+      "c. Clytemnestra's lover",
+      "d. Both B and C"
+    ],
+    "correct": 3,
+    "feedback": "إيجيسثوس هو ابن عم أغاممنون وعشيق زوجته كليتمنسترا في ذات الوقت، مما يجعل الخيارين B و C صحيحين معاً."
+  },
+  {
+    "q": "  What is the Chorus's reaction to the events of the play?",
+    "options": [
+      "a. They support Clytemnestra and Aegisthus",
+      "b. They are horrified by the murders and predict further violence",
+      "c. They are indifferent to the events",
+      "d. They are confused and do not know what to do"
+    ],
+    "correct": 1,
+    "feedback": "تصاب الجوقة بالفزع من الدماء وقتل الملك وتتنبأ باستمرار دوامة العنف واللعنة الدموية."
+  },
+  {
+    "q": "  In The Libation Bearers, who makes up the chorus?",
+    "options": [
+      "a. Slave women from the palace",
+      "b. Soldiers from the army",
+      "c. Aristocrats from the city",
+      "d. Philosophers from the academy"
+    ],
+    "correct": 0,
+    "feedback": "تتشكل الجوقة في الجزء الثاني من إماء القصر والنساء الأسيرات المرتديات لملابس الحداد السوداء."
+  },
+  {
+    "q": "  Who sends Orestes on his mission to avenge Agamemnon's death?",
+    "options": [
+      "a. Electra",
+      "b. Apollo",
+      "c. Clytemnestra",
+      "d. Aegisthus"
+    ],
+    "correct": 1,
+    "feedback": "الإله أبولو (Apollo) هو من يأمر أوريست بالعودة وتطهير بيت والده بقتل كليتمنسترا وإيجيسثوس."
+  },
+  {
+    "q": "  How does Orestes gain admittance to the palace?",
+    "options": [
+      "a. He tells Clytemnestra he is a stranger bearing sad news",
+      "b. He disguises himself as a servant",
+      "c. He sneaks into the palace through a window",
+      "d. He is invited in by Clytemnestra"
+    ],
+    "correct": 0,
+    "feedback": "يدخل أوريست القصر متنكراً بهيئة غريب يحمل خبراً كاذباً ومحزناً وهو 'وفاة أوريست في المنفى' ليطمئن القتلة ويسهل انقضاضه."
+  },
+  {
+    "q": "  Who does Clytemnestra take as her lover after Agamemnon's death?",
+    "options": [
+      "a. Orestes",
+      "b. Pylades",
+      "c. Cilissa",
+      "d. Aegisthus"
+    ],
+    "correct": 3,
+    "feedback": "تتخذ كليتمنسترا من إيجيسثوس (Aegisthus) شريكاً وحاكماً وعشيقاً لها بعد قتل الملك."
+  },
+  {
+    "q": "Q19: What is the main theme of The Libation Bearers?",
+    "options": [
+      "a. The dangers of revenge",
+      "b. The power of love and forgiveness",
+      "c. The cycle of violence and bloodshed",
+      "d. The consequences of betrayal"
+    ],
+    "correct": 2,
+    "feedback": "الموضوع الأساسي في مسرحية حاملات القرابين هو دوامة وتكرار القتل وسلسلة الدماء التي لا تتوقف (The cycle of violence and bloodshed)."
+  },
+  {
+    "q": "Q20: Who is Apollo in Greek mythology?",
+    "options": [
+      "a. The god of war",
+      "b. The god of light, civilization, and learning",
+      "c. The god of love and beauty",
+      "d. The god of the underworld"
+    ],
+    "correct": 1,
+    "feedback": "أبولو هو إله الضياء، النور، الحضارة، النظام العقلي، والقوانين المدنية."
+  },
+  {
+    "q": "Q21: What is the main function of the Furies in Greek mythology?",
+    "options": [
+      "a. To protect the innocent",
+      "b. To bring justice and order to society",
+      "c. To ensure that no blood crime goes unpunished",
+      "d. To promote peace and harmony among the gods"
+    ],
+    "correct": 2,
+    "feedback": "تتمحور وظيفة الغاضبات (Furies) في معاقبة الجرائم العائلية وسفك دم الأقارب لضمان عدم مرور جرائم الدم دون عقاب معذب."
+  },
+  {
+    "q": "Q22: Who negotiates a truce with the Furies in the Eumenides?",
+    "options": [
+      "a. Orestes",
+      "b. Electra",
+      "c. Athena",
+      "d. Clytemnestra"
+    ],
+    "correct": 2,
+    "feedback": "تقوم الإلهة أثينا (Athena) بالتفاوض مع الغاضبات وتحويلهن إلى 'صافحات الجميل' (Eumenides) لحماية مدينتها وتحقيق العدالة المدنية."
+  },
+  {
+    "q": "Q23: What is the significance of Iphigeneia in The Libation Bearers?",
+    "options": [
+      "a. She is the protagonist of the play",
+      "b. She is the mastermind behind Agamemnon's murder",
+      "c. She is the one who orders Orestes to seek revenge",
+      "d. Her sacrificial murder by Agamemnon sets the events of the play in motion"
+    ],
+    "correct": 3,
+    "feedback": "مقتل إيفيجينيا قرباناً على يد والدها هو الشرارة الأساسية والحدث الجوهري الذي حرك رغبة كليتمنسترا بالانتقام وأطلق دوامة دماء الثلاثية كاملة."
+  },
+  {
+    "q": "Q24: Is there a chorus in The Flies?",
+    "options": [
+      "a. Yes",
+      "b. No"
+    ],
+    "correct": 1,
+    "feedback": "مسرحية 'الذباب' الحديثة لسارتر لا تتبع القالب الإغريقي التقليدي، وبالتالي لا تحتوي على جوقة (Chorus)."
+  },
+  {
+    "q": "Q25: Are Aeschylus and Sartre believers in heavenly religions?",
+    "options": [
+      "a. Yes",
+      "b. No"
+    ],
+    "correct": 1,
+    "feedback": "كلا الكاتبين لا يؤمنان بالأديان السماوية بالمعنى التوحيدي الحديث؛ إيسخيلوس عاش في اليونان الوثنية القديمة، وسارتر كان فيلسوفاً وجودياً ملحداً لا يؤمن بوجود إله."
+  }
+,
+  {
+    "q": "  What is one of the key themes explored in \"The Flies\" by Jean-Paul Sartre?",
+    "options": [
+      "A) The power of love",
+      "B) The nature of human existence",
+      "C) The importance of tradition",
+      "D) All"
+    ],
+    "correct": 1,
+    "feedback": "الموضوع الأساسي لمسرحية 'الذباب' لسارتر هو طبيعة الوجود البشري والحرية الوجودية ومسؤولية الإنسان الفردية."
+  },
+  {
+    "q": "  According to Sartre, what is the fundamental nature of human beings?",
+    "options": [
+      "A) Human beings are fundamentally evil",
+      "B) Human beings are fundamentally good",
+      "C) Human beings are fundamentally free",
+      "D) Human beings are fundamentally irrational"
+    ],
+    "correct": 2,
+    "feedback": "يرى الفيلسوف الوجودي جان بول سارتر أن الطبيعة الجوهرية للإنسان هي الحرية المطلقة وصنع مصيره بنفسه."
+  },
+  {
+    "q": "  What does Orestes ultimately realize about his own life and choices?",
+    "options": [
+      "A) He must follow the expectations of others",
+      "B) He has no control over his own life",
+      "C) He must take responsibility for his own life and choices",
+      "D) He can only find happiness by serving the gods"
+    ],
+    "correct": 2,
+    "feedback": "يدرك أوريست في النهاية أنه الوحيد المسؤول عن أفعاله وحياته ويرفض الخضوع لسلطة الآلهة أو رغبات الآخرين."
+  },
+  {
+    "q": "  What is the role of the gods in \"The Flies\" according to Sartre?",
+    "options": [
+      "A) To help human beings find meaning in their lives",
+      "B) To provide guidance and direction",
+      "C) To control and manipulate humanity",
+      "D) To bring happiness and joy to the world"
+    ],
+    "correct": 2,
+    "feedback": "الآلهة (متمثلة بزيوس) في مسرحية سارتر تلعب دوراً سلطوياً يهدف للسيطرة على البشر والتلاعب بهم من خلال بث مشاعر الندم والخوف."
+  },
+  {
+    "q": "  How does Sartre portray the gods in the play?",
+    "options": [
+      "A) As kind and benevolent figures",
+      "B) As cruel and oppressive figures",
+      "C) As powerful and significant figures",
+      "D) As mysterious and unknowable figures"
+    ],
+    "correct": 1,
+    "feedback": "يصور سارتر الآلهة كقوى ظالمة وقمعية تسعى لاستعباد عقول البشر وسلب حريتهم."
+  },
+  {
+    "q": "  What do the flies represent in \"The Flies\"?",
+    "options": [
+      "A) Freedom and autonomy",
+      "B) Reason and rationality",
+      "C) The power of the gods",
+      "D) The limitations imposed upon human beings"
+    ],
+    "correct": 3,
+    "feedback": "يمثل الذباب القيود المفروضة على البشر متمثلة بالندم المصطنع والشعور بالذنب الذي يقيد طاقتهم وحريتهم."
+  },
+  {
+    "q": "  What is The Flies written in?",
+    "options": [
+      "A) Verse",
+      "B) Prose",
+      "C) Rhyme",
+      "D) Sonnet"
+    ],
+    "correct": 1,
+    "feedback": "مسرحية 'الذباب' لسارتر كُتبت بالأسلوب النثري العادي لتناسب الفلسفة الحديثة والواقع مع الإبتعاد عن الشعر التقليدي."
+  },
+  {
+    "q": "  What is Jean-Paul Sartre considered to be?",
+    "options": [
+      "A) Father of French Existentialism",
+      "B) Father of German Nihilism",
+      "C) Father of Greek Tragedy",
+      "D) Father of Italian Renaissance"
+    ],
+    "correct": 0,
+    "feedback": "جان بول سارتر هو الأب الروحي للفلسفة الوجودية الفرنسية."
+  },
+  {
+    "q": "  What does Zeus represent in The Flies?",
+    "options": [
+      "A) The king",
+      "B) The hero",
+      "C) Hitler",
+      "D) A god"
+    ],
+    "correct": 2,
+    "feedback": "تاريخياً ورمزياً، يمثل الإله زيوس في المسرحية القوى الديكتاتورية والاحتلال، وتحديداً شخصية أدولف هتلر وقوات الاحتلال النازي لفرنسا عام 1943."
+  },
+  {
+    "q": "  How does Orestes' challenge to the gods reflect the existentialist idea of individual freedom?",
+    "options": [
+      "A) By demonstrating his acceptance of traditional values and beliefs",
+      "B) By rejecting the importance of individual freedom and responsibility",
+      "C) By asserting his own autonomy and rejecting external authority",
+      "D) By conforming to established norms and traditions"
+    ],
+    "correct": 2,
+    "feedback": "يمثل تمرد وتحدي أوريست للآلهة إثباتاً لاستقلاليته وحريته الذاتية الكاملة ورفض الوصاية الخارجية."
+  },
+  {
+    "q": "  Which god commands Orestes to avenge his father's murder?",
+    "options": [
+      "A) Apollo",
+      "B) Zeus",
+      "C) Hades",
+      "D) Poseidon"
+    ],
+    "correct": 0,
+    "feedback": "في ثلاثية الأوريستيا الكلاسيكية، يظهر الإله أبولو ويأمر أوريست بالانتقام لدم والده وقتل القتلة."
+  },
+  {
+    "q": "  What is the name of Agamemnon's daughter who is sacrificed by him before he leaves for the Trojan War?",
+    "options": [
+      "A) Andromache",
+      "B) Iphigenia",
+      "C) Cassandra",
+      "D) Polyxena"
+    ],
+    "correct": 1,
+    "feedback": "ابنة أغاممنون التي قدمها قرباناً للآلهة لتسهيل حركة الرياح لجيشه الذاهب إلى طروادة هي إيفيجينيا."
+  },
+  {
+    "q": "  What is the name of the goddess who intervenes in the trial of Orestes and helps to establish the first court of law?",
+    "options": [
+      "A) Hera",
+      "B) Athena",
+      "C) Demeter",
+      "D) Artemis"
+    ],
+    "correct": 1,
+    "feedback": "الإلهة أثينا هي التي تتدخل لتأسيس محكمة بشرية وتمنح صوتها الحاسم لتبرئة أوريست وإنهاء سلسلة الانتقام الدائرية."
+  },
+  {
+    "q": "  What is the name of the curse that runs through the house of Atreus?",
+    "options": [
+      "A) The Curse of the Furies",
+      "B) The Curse of the House of Oedipus",
+      "C) The Curse of the House of Atreus",
+      "D) The Curse of the Gods"
+    ],
+    "correct": 2,
+    "feedback": "اللعنة الدموية الشهيرة تلاحق نسل 'بيت أتريوس' وتتوارثها الأجيال بالقتل المتبادل."
+  },
+  {
+    "q": "  Which play in the trilogy deals with Orestes' trial?",
+    "options": [
+      "A) Agamemnon",
+      "B) The Libation Bearers",
+      "C) The Eumenides",
+      "D) Prometheus Bound"
+    ],
+    "correct": 2,
+    "feedback": "المحاكمة الشهيرة تجري أحداثها في الجزء الثالث والأخير من الثلاثية وهي مسرحية صافحات الجميل (The Eumenides)."
+  },
+  {
+    "q": "  What is the name of the court that tries Orestes in The Eumenides?",
+    "options": [
+      "A) The Areopagus",
+      "B) The Agora",
+      "C) The Parthenon",
+      "D) The Acropolis"
+    ],
+    "correct": 0,
+    "feedback": "المحكمة التاريخية التي أسستها الإلهة أثينا لمحاكمة أوريست في أثينا هي محكمة 'الأريوباجوس'."
+  },
+  {
+    "q": "  What is the main issue that Aeschylus tackles in The Oresteia?",
+    "options": [
+      "A) Freedom of choice",
+      "B) Revenge",
+      "C) The rejection of all values",
+      "D) The existence of individual"
+    ],
+    "correct": 1,
+    "feedback": "القضية الكلاسيكية الكبرى التي يطرحها إيسخيلوس هي الانتقام والتحول من الثأر الفردي إلى العدالة القانونية المنظمة."
+  },
+  {
+    "q": "  Who is the hero of both The Oresteia and The Flies?",
+    "options": [
+      "A) Agamemnon",
+      "B) Electra",
+      "C) Orestes",
+      "D) Clytemnestra"
+    ],
+    "correct": 2,
+    "feedback": "البطل المحوري المشترك الذي تدور حوله أحداث الانتقام والمحاكمة في كلا العملين هو أوريست."
+  },
+  {
+    "q": "Q19: Which country did both existentialism and nihilism originate in?",
+    "options": [
+      "A) France",
+      "B) England",
+      "C) Germany (Note: Modern Existentialism is traditionally tied to France, but Germany is marked on this sheet)",
+      "D) Greece"
+    ],
+    "correct": 2,
+    "feedback": "بالرغم من شهرة الوجودية الفرنسية مع سارتر، إلا أن أصول الفلسفتين (الوجودية والعدمية) ترتبط تاريخياً بحدود واسعة بألمانيا عبر فلاسفة مثل نيتشه وهايدغر، وهو الخيار المعتمد في ورقة الامتحان الحالية."
+  },
+  {
+    "q": "Q20: Who predicts Agamemnon's death and her own death in the play?",
+    "options": [
+      "A) Cassandra",
+      "B) Clytemnestra",
+      "C) Electra",
+      "D) None"
+    ],
+    "correct": 0,
+    "feedback": "كاساندرا، الكاهنة الطروادية الأسيرة، هي التي تتنبأ بموت أغاممنون وموتها هي بوضوح قبل دخول القصر."
+  },
+  {
+    "q": "Q21: What do the flies symbolize in The Flies?",
+    "options": [
+      "A) The presence of the gods",
+      "B) The power of reason",
+      "C) The oppressive nature of the gods",
+      "D) The freedom of humanity"
+    ],
+    "correct": 2,
+    "feedback": "الذباب يعكس الطبيعة القمعية والاستبدادية للآلهة التي تسلط الأوبئة والندم لتركيع البشر وسلب إرادتهم."
+  },
+  {
+    "q": "Q22: Sartre is a ------",
+    "options": [
+      "A) philosopher",
+      "B) playwright",
+      "C) novelist",
+      "D) all"
+    ],
+    "correct": 3,
+    "feedback": "جان بول سارتر كاتب موسوعي عمل كفيلسوف، وكاتب مسرحي، وروائي شهير."
+  },
+  {
+    "q": "Q23: The Roman counterpart of Zeus is ----",
+    "options": [
+      "A) Artemis",
+      "B) Demetrius",
+      "C) Jupitar (spelled as written on the paper)",
+      "D) both B & C"
+    ],
+    "correct": 2,
+    "feedback": "الاسم الروماني المقابل لإله الإغريق الأكبر زيوس هو جوبيتر (المكتوب خطأً Jupitar في الورقة)."
+  },
+  {
+    "q": "Q24: What is one of the main philosophical beliefs evident in \"The Flies\"?",
+    "options": [
+      "A) The belief in the importance of blind obedience",
+      "B) The belief in the power of tradition",
+      "C) The belief in the fundamental freedom of human beings",
+      "D) The belief in the superiority of the gods"
+    ],
+    "correct": 2,
+    "feedback": "العقيدة والفلسفة الأساسية التي تقوم عليها مسرحية 'الذباب' هي الحرية الجوهرية والمطلقة للإنسان وتصديق قدرته على صنع واقعه."
+  },
+  {
+    "q": "Q25: Who embodies Sartre's philosophy of embracing one's freedom in \"The Flies\"?",
+    "options": [
+      "A) Zeus",
+      "B) Athena",
+      "C) Orestes",
+      "D) The Flies"
+    ],
+    "correct": 2,
+    "feedback": "شخصية أوريست في مسرحية سارتر هي التجسيد الحي لتبني الحرية الشخصية ورفض العبودية الفكرية."
+  },
+  {
+    "q": "Q26: What started the Curse on the House of Atreus?",
+    "options": [
+      "A) A war between two cities",
+      "B) A feud between two brothers",
+      "C) A disagreement over a woman",
+      "D) A dispute over land"
+    ],
+    "correct": 1,
+    "feedback": "بدأت لعنة بيت أتريوس بسبب نزاع وخلاف دموي شهير وحسد بين الأخوين أتريوس وثايستيس."
+  }
+,
+  {
+    "q": "Q27: What happened to Thyestes' children in the story?",
+    "options": [
+      "A) They were sent away to live with relatives",
+      "B) They were killed and served to Thyestes as food",
+      "C) They were taken as prisoners of war",
+      "D) They were given to Atreus as hostages"
+    ],
+    "correct": 1,
+    "feedback": "تم قتل أطفال ثايستيس وطبخهم وتقديمهم له كطعام من قبل شقيقه أتريوس كجزء من الانتقام الدموي المرعب في أسطورة بيت أتريوس."
+  },
+  {
+    "q": "Q28: Who seduced and eloped with Helen in the story?",
+    "options": [
+      "A) Menelaus",
+      "B) Agamemnon",
+      "C) Paris of Troy",
+      "D) Aegisthus"
+    ],
+    "correct": 2,
+    "feedback": "باريس أمير طروادة (Paris of Troy) هو من أغوى هيلين وهرب معها إلى طروادة، مما أشعل الحرب الشهيرة."
+  },
+  {
+    "q": "Q29: Who was the captive mistress that Agamemnon brought home with him?",
+    "options": [
+      "A) Electra",
+      "B) Orestes",
+      "C) Cassandra",
+      "D) Iphigeneia"
+    ],
+    "correct": 2,
+    "feedback": "كاساندرا (Cassandra)، ابنة ملك طروادة الأسيرة والكاهنة المتنبئة، هي التي أحضرها أغاممنون معه كجارية وعشيقة."
+  },
+  {
+    "q": "Q30: What appeared after Orestes killed his mother?",
+    "options": [
+      "A) The gods",
+      "B) The Furies",
+      "C) The citizens of Argos",
+      "D) The chieftains of Greece"
+    ],
+    "correct": 1,
+    "feedback": "بمجرد مقتل كليتمنسترا على يد ابنها أوريست، ظهرت آلهة الانتقام والغضب (The Furies) لتلاحقه وتعذبه عقاباً على سفك دم والدته."
+  },
+  {
+    "q": "Q31: Where does The Eumenides begin?",
+    "options": [
+      "A) Before the temple of Zeus in Athens",
+      "B) Before the temple of Apollo in Delphi",
+      "C) Before the temple of Athene in Rome",
+      "D) Before the temple of Hera in Olympia"
+    ],
+    "correct": 1,
+    "feedback": "تبدأ المسرحية الثالثة 'صافحات الجميل' أمام معبد الإله أبولو في مدينة دلفي (Delphi)، حيث لجأ أوريست طلباً للتطهر والخلاص."
+  },
+  {
+    "q": "Q32: Who puts the Furies to sleep at the beginning of The Eumenides?",
+    "options": [
+      "A) Athene",
+      "B) Orestes",
+      "C) Apollo",
+      "D) Hermes"
+    ],
+    "correct": 2,
+    "feedback": "يقوم الإله أبولو (Apollo) بتنويم الغاضبات (Furies) داخل معبده ليمنح أوريست الفرصة للهروب بسلام إلى أثينا."
+  },
+  {
+    "q": "Q33: What is the role of the Chorus in the play?",
+    "options": [
+      "A) They are Agamemnon's advisors",
+      "B) They provide commentary on the action of the play",
+      "C) They plan Agamemnon's murder",
+      "D) They seek revenge for Agamemnon's death"
+    ],
+    "correct": 1,
+    "feedback": "الدور الكلاسيكي الأبرز للجوقة (Chorus) في التراجيديا الإغريقية هو تقديم التعليق الفلسفي والتحليل الأخلاقي للأحداث الجارية."
+  },
+  {
+    "q": "Q34: What is the reason for Agamemnon's sacrifice of his daughter Iphigenia?",
+    "options": [
+      "A) To obtain a favorable wind to carry the Greek fleet to Troy",
+      "B) To appease the gods",
+      "C) To punish Clytemnestra for her infidelity",
+      "D) To atone for his sins"
+    ],
+    "correct": 0,
+    "feedback": "ضحى أغاممنون بابنته إيفيجينيا لتهدئة غضب الإلهة أرتميس والحصول على رياح مواتية تبحر بالأسطول الإغريقي الراكد نحو طروادة."
+  },
+  {
+    "q": "Q35: Who is Aegisthus, and what is his role in the play?",
+    "options": [
+      "A) Agamemnon's father, who cooked his own brother's children and served them to him",
+      "B) Agamemnon's cousin, and Clytemnestra's lover",
+      "C) The Trojan prince who stole Helen",
+      "D) An elder citizen of Argos and member of the Chorus"
+    ],
+    "correct": 1,
+    "feedback": "إيجيسثوس هو ابن عم أغاممنون (من نسل ثايستيس) وعشيق زوجته كليتمنسترا، وقد شاركها في التآمر وقتل الملك."
+  },
+  {
+    "q": "Q36: How many plays did Aeschylus write, and how many have survived to the modern era?",
+    "options": [
+      "A) He wrote 7 plays, and all of them have survived.",
+      "B) He wrote 90 plays, and 7 of them have survived.",
+      "C) He wrote 50 plays, and 5 of them have survived.",
+      "D) He wrote 100 plays, and 10 of them have survived."
+    ],
+    "correct": 1,
+    "feedback": "تذكر المصادر الأكاديمية أن إيسخيلوس كتب قرابة 90 مسرحية، لكن لم يصلنا منها كاملة سوى 7 مسرحيات فقط."
+  },
+  {
+    "q": "Q37: What is the Watchman's role in Agamemnon?",
+    "options": [
+      "A) He is the protagonist of the play",
+      "B) He is the messenger who brings news of Troy's fall",
+      "C) He provides commentary on the action of the play",
+      "D) He is on duty on the roof of the palace, waiting for a signal announcing the fall of Troy"
+    ],
+    "correct": 3,
+    "feedback": "يبدأ العرض المسرحي بالحارس وهو يعتلي سطح القصر منتظراً رؤية إشارة منارات النيران التي تبشر بسقوط طروادة وانتصار الجيش."
+  },
+  {
+    "q": "Q38: Who is Cassandra in the play?",
+    "options": [
+      "A) Agamemnon's wife",
+      "B) Agamemnon's daughter",
+      "C) A Trojan Princess and Agamemnon's concubine",
+      "D) A Greek goddess"
+    ],
+    "correct": 2,
+    "feedback": "كاساندرا هي أميرة طروادية أسيرة أحضرها أغاممنون معه من الحرب كجارية وعشيقة مرافقة له."
+  },
+  {
+    "q": "Q39: In The Libation Bearers, who makes up the chorus?",
+    "options": [
+      "A) Slave women from the palace",
+      "B) Soldiers from the army",
+      "C) Aristocrats from the city",
+      "D) Philosophers from the academy"
+    ],
+    "correct": 0,
+    "feedback": "تتشكل الجوقة في المسرحية الثانية 'حاملات القرابين' من النساء الإماء الأسيرات في القصر، واللواتي يرتدين ملابس الحداد ويقفن بجانب إلكترا."
+  },
+  {
+    "q": "Q40: Who is Apollo in Greek mythology?",
+    "options": [
+      "A) The god of war",
+      "B) The god of light, civilization, and learning",
+      "C) The god of love and beauty",
+      "D) The god of the underworld"
+    ],
+    "correct": 1,
+    "feedback": "يُمثّل أبولو في الميثولوجيا الإغريقية إله الضياء، النور، القانون، النظام، والتطور المدني."
+  },
+  {
+    "q": "Q41: (Quote 1) 'Agamemnon. You will see him dead. She is the lioness, she rears on her hind legs, she beds with the wolf...' The Speaker is:",
+    "options": [
+      "A) Clytemnestra",
+      "B) Electra",
+      "C) Cassandra",
+      "D) Celsea"
+    ],
+    "correct": 2,
+    "feedback": "المتحدثة في هذا الاقتباس النبؤي الحزين هي كاساندرا (Cassandra) قبل دخولها القصر ومقتلها بقليل."
+  },
+  {
+    "q": "Q42: (Quote 1) The addressee is:",
+    "options": [
+      "A) Agamenon",
+      "B) The Chorus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 1,
+    "feedback": "توجه كاساندرا نبوءتها المخيفة وصراخها إلى جوقة شيوخ أرغوس (The Chorus)."
+  },
+  {
+    "q": "Q43: (Quote 1) The quotation is taken from:",
+    "options": [
+      "A) Agamenon",
+      "B) The Libation Bearers",
+      "C) The Eumenides",
+      "D) The Flies"
+    ],
+    "correct": 0,
+    "feedback": "هذا الاقتباس الشهير مأخوذ من المسرحية الأولى في الثلاثية وهي مسرحية أغاممنون (Agamemnon)."
+  },
+  {
+    "q": "Q44: (Quote 1) 'The wolf' is:",
+    "options": [
+      "A) Agamenon",
+      "B) Aegisthus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 1,
+    "feedback": "تصف كاساندرا إيجيسثوس بـ 'الذئب' (The wolf) الغادر الذي يضاجع اللبؤة في غياب ملك القصر الأسد."
+  },
+  {
+    "q": "Q45: (Quote 1) 'The lioness' is:",
+    "options": [
+      "A) Clytemnestra",
+      "B) Electra",
+      "C) Cassandra",
+      "D) Iphigenia"
+    ],
+    "correct": 0,
+    "feedback": "تُشير اللبؤة (The lioness) في هذا السياق الرمزي إلى الملكة كليتمنسترا (Clytemnestra) وقوتها القاتلة."
+  },
+  {
+    "q": "Q46: (Quote 1) 'Another' refers to:",
+    "options": [
+      "A) Agamenon",
+      "B) The Chorus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 2,
+    "feedback": "تقصد بالمنتقم الآخر الذي سيأتي لاحقاً للأخذ بثأرهما أوريست (Orestes)."
+  },
+  {
+    "q": "Q47: (Quote 2) 'No one could have cut this lock but I and......' The Speaker is:",
+    "options": [
+      "A) Clytemnestra",
+      "B) Electra",
+      "C) Cassandra",
+      "D) Celsea"
+    ],
+    "correct": 1,
+    "feedback": "القائل هي إلكترا (Electra) في مسرحية حاملات القرابين عندما تعثر على خصلة شعر شقيقها فوق قبر والدهما وتدرك الحقيقة."
+  },
+  {
+    "q": "Q48: (Quote 2) The 'and ......' refers to:",
+    "options": [
+      "A) Agamenon",
+      "B) Aegisthus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 2,
+    "feedback": "تكتمل العبارة بالإشارة إلى شقيقها الغائب أوريست (Orestes)، حيث تتشابه الخصلة مع شعرها وتكوينها الجسدي."
+  },
+  {
+    "q": "Q49: (Quote 3) 'I shall speak to you frankly, as one King to another. The first crime was mine; I committed it when I made man mortal...' The Speaker is:",
+    "options": [
+      "A) Agamenon",
+      "B) Aegisthus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 3,
+    "feedback": "المتحدث هنا هو الإله زيوس (Zeus) في مسرحية 'الذباب' لـ جان بول سارتر، متحدثاً عن السلطة وخوف البشر."
+  },
+  {
+    "q": "Q50: (Quote 3) The addressee is:",
+    "options": [
+      "A) Agamenon",
+      "B) Aegisthus",
+      "C) Orestes",
+      "D) Zeus"
+    ],
+    "correct": 1,
+    "feedback": "المخاطَب هو إيجيسثوس (Aegisthus) بوصفه ملكاً على أرغوس. (ملاحظة أكاديمية: يظهر في نموذج الإجابة الرسمي للجامعة الحرف 'A'، وهو خطأ مطبعي شهير ومتكرر لأن أغاممنون يكون متوفى أساساً في زمن هذه المحادثة بين زيوس وإيجيسثوس)."
+  },
+  
+  {
+    "q": "  What element did Aeschylus add to his plays, creating a new range of dramatic possibilities?",
+    "options": [
+      "a) A second actor",
+      "b) An understudy",
+      "c) A chorus",
+      "d) Masks"
+    ],
+    "correct": 0,
+    "feedback": "أضاف إيسخيلوس الممثل الثاني (A second actor) إلى المسرح التراجيدي، مما سمح بحدوث حوار حقيقي وتفاعل درامي مباشر على المسرح بعد أن كان العرض يعتمد على ممثل واحد مع الجوقة."
+  },
+  {
+    "q": "  Which of the following does Electra say keeps her going?",
+    "options": [
+      "a) Fear",
+      "b) Repentance",
+      "c) Love",
+      "d) None"
+    ],
+    "correct": 3,
+    "feedback": "في مسرحية 'الذباب' لسارتر، تعيش إلكترا على كراهيتها ورغبتها العميقة في الانتقام، وبالتالي لا شيء من الخيارات المذكورة (الخوف، التوبة، أو الحب) هو ما يبقيها مستمرة، فالإجابة هي (None)."
+  },
+  {
+    "q": "  \"I've changed my mind. I am not leaving Argos.\" The speaker is:",
+    "options": [
+      "a) Zeus",
+      "b) Orestes",
+      "c) Electra",
+      "D) Pylades"
+    ],
+    "correct": 1,
+    "feedback": "القائل هو أوريست (Orestes) عندما قرر البقاء ومواجهة واقعه ومصيره في مدينة أرغوس بدلاً من الرحيل."
+  },
+  {
+    "q": "  Clytemnestra's mother is------, and her father is ------",
+    "options": [
+      "A) Ares, Tyndareos",
+      "B) Ida, Tantalus",
+      "C) Leda, Zeus",
+      "D) Leda, Tyndareos"
+    ],
+    "correct": 3,
+    "feedback": "والدة كليتمنسترا هي ليدا (Leda) ووالدها البشري هو تنداريوس (Tyndareos) ملك إسبرطة."
+  },
+  {
+    "q": "  When he leaves Argos, what does Orestes NOT take with him?",
+    "options": [
+      "a) The dead of Argos",
+      "b) The Argives' sins",
+      "c) His sister's love",
+      "d) The flies"
+    ],
+    "correct": 2,
+    "feedback": "عندما يغادر أوريست أرغوس في نهاية مسرحية سارتر، يأخذ معه ذنوب أهل المدينة والذباب الذي يتبعها، لكنه لا يحظى بحب أخته (His sister's love) التي تخلت عنه مفضلةً الغرق في الندم والخوف."
+  },
+  {
+    "q": "  From 1943 forward, what philosophical idea takes center stage in Sartre's work?",
+    "options": [
+      "a) Despair",
+      "b) Absence of meaning",
+      "c) Alienation",
+      "d) Human freedom"
+    ],
+    "correct": 3,
+    "feedback": "منذ عام 1943 فصاعداً (وهو عام نشر مسرحية الذباب وكتاب الوجود والعدم)، احتلت فكرة الحرية الإنسانية والوجودية (Human freedom) صدارة أعمال وفكر سارتر."
+  },
+  {
+    "q": "  While Aeschylus is-----, Sartre is -------",
+    "options": [
+      "A) polytheist, an atheist",
+      "B) an atheist, polytheist",
+      "C) modern, ancient",
+      "D) none"
+    ],
+    "correct": 0,
+    "feedback": "ينتمي إيسخيلوس إلى العصر الإغريقي المؤمن بتعدد الآلهة (polytheist)، في حين أن سارتر فيلسوف وجودي ملحد (an atheist)."
+  },
+  {
+    "q": "  The Roman counterpart of Zeus is -----",
+    "options": [
+      "A) Artemis",
+      "B) Demetrius",
+      "C) Jupiter",
+      "D) both B & C"
+    ],
+    "correct": 2,
+    "feedback": "المقابل الروماني لكبير الآلهة الإغريقية زيوس هو الإله جوبيتر (Jupiter)."
+  },
+  {
+    "q": "  Who introduces himself as Demetrios?",
+    "options": [
+      "a) Agamemnon",
+      "b) Orestes",
+      "c) Idiot Boy",
+      "d) None"
+    ],
+    "correct": 1,
+    "feedback": "أوريست (Orestes) هو الشخصية التي تدخل إلى مدينة أرغوس متخفيةً وتعرف نفسها باسم ديميتريوس."
+  },
+  {
+    "q": "  What does Electra tell Orestes she is forced to wash?",
+    "options": [
+      "a) dishes",
+      "b) Statues",
+      "c) Feet",
+      "d) none"
+    ],
+    "correct": 3,
+    "feedback": "في مسرحية سارتر، تُعامل إلكترا كخادمة وتُجبر على غسل الملابس والخرق القذرة ومخلفات القصر، لذا فإن الخيار الصحيح بين المعروض هو (none)."
+  },
+  {
+    "q": "  In The Flies, Orestes first claims that his name is .... a)",
+    "options": [
+      "Palermo",
+      "b) Demetrios",
+      "c) Anobarbos",
+      "d) Philebus"
+    ],
+    "correct": 3,
+    "feedback": "عندما يقابل أوريست أخته إلكترا لأول مرة في مسرحية سارتر، يدّعي كذباً أن اسمه فيليبوس (Philebus) وأنه قادم من كورنث."
+  },
+  {
+    "q": "  Electra offends everyone at the Dead Men's Day Ceremony by-----",
+    "options": [
+      "a) staying with Orestes",
+      "b) abusing Zeus",
+      "c) not showing up",
+      "d) wearing a white dress"
+    ],
+    "correct": 3,
+    "feedback": "تثير إلكترا غضب واستياء الطغاة وأهل أرغوس في حفل يوم الموتى بظهورها مرتديةً فستاناً أبيض ناصعاً (wearing a white dress) كرمز للحياة والبهجة في مقابل السواد والندم المفروض عليهم."
+  },
+  {
+    "q": "  In his address to the people of Argos, what does Orestes say he will take with him when he leaves?",
+    "options": [
+      "a) Their dead",
+      "b) Their sins",
+      "c) Their flies",
+      "d) All of the above"
+    ],
+    "correct": 3,
+    "feedback": "يعد أوريست الوجودي أهل أرغوس بأنه سيأخذ معه موتاهم، وخطاياهم، وذبابهم (All of the above) ليحررهم بالكامل من عبء الماضي والندم."
+  },
+  {
+    "q": "  How many of the more than ninety plays written by Aeschylus have survived to the modern era?",
+    "options": [
+      "a) Three",
+      "b) Five",
+      "c) Seven",
+      "d) Ten"
+    ],
+    "correct": 2,
+    "feedback": "كتب إيسخيلوس ما يزيد عن تسعين مسرحية، لم ينجُ منها كاملة حتى يومنا هذا سوى سبع مسرحيات (Seven) فقط."
+  },
+  {
+    "q": "  Electra changes her mind at the end of: a) the",
+    "options": [
+      "Oresteia",
+      "b) the Flies",
+      "c) both",
+      "d) none"
+    ],
+    "correct": 1,
+    "feedback": "تتراجع إلكترا وتغير موقفها في نهاية مسرحية 'الذباب' (The Flies) لسارتر، حيث تنهار أمام وخز الضمير والندم وتلجأ للاستسلام لزيوس، على عكس ثباتها في الأوريستيا الكلاسيكية."
+  },
+  {
+    "q": "  Where is Agamemnon set?",
+    "options": [
+      "a) The palace at Argos",
+      "b) A battlefield near Troy",
+      "c) The Athenian courthouse",
+      "d) Mount Olympus"
+    ],
+    "correct": 0,
+    "feedback": "تدور أحداث مسرحية أغاممنون لإيسخيلوس أمام وداخل القصر الملكي في مدينة أرغوس (The palace at Argos)."
+  },
+  {
+    "q": "  Before her capture, Cassandra was the lover of which Greek god?",
+    "options": [
+      "A) Zeus",
+      "b) Hermes",
+      "c) Ares",
+      "d) None"
+    ],
+    "correct": 3,
+    "feedback": "كاساندرا لم تكن عشيقة لأي إله؛ فقد أحبها الإله أبولو وأعطاها موهبة النبوءة، لكن عندما رفضت مبادلته الحب، لعنها بألا يصدق نبوءاتها أحد. وبالتالي الإجابة هي (None)."
+  },
+  {
+    "q": "  We can find misogynistic touches in the Flies in the way: a) Cassandra is represented",
+    "options": [
+      "b) Clytemnestra is represented",
+      "c) Orestes is represented",
+      "d) none"
+    ],
+    "correct": 1,
+    "feedback": "تظهر النزعة التي تحط من شأن المرأة (misogynistic) في تصوير شخصية كليتمنسترا (Clytemnestra) كرمز للقبح والوحشية والذل والتبعية للرجل."
+  },
+  {
+    "q": "Q19: All of the following are themes in the Flies except:",
+    "options": [
+      "a) existentialism",
+      "b) democracy",
+      "c) logic",
+      "d) feminism"
+    ],
+    "correct": 3,
+    "feedback": "تطرح مسرحية 'الذباب' أفكاراً وجودية، سياسية وعقلانية، إلا أن النسوية (feminism) ليست من الثيمات المطروحة أو المعالجة في هذا العمل الوجودي."
+  },
+  {
+    "q": "Q20: Aeschylus is definitely ahead of his time when it comes to feminist issues.",
+    "options": [
+      "a) true",
+      "b) false"
+    ],
+    "correct": 0,
+    "feedback": "تُعتبر هذه العبارة صحيحة (true) أكاديمياً في هذا السياق؛ نظراً لتسليطه الضوء على قوة الشخصيات النسائية مثل كليتمنسترا وإلكترا ومناقشة قضايا الأسرة والمجتمع والعدالة بصورة سباقة لعصره."
+  },
+  {
+    "q": "Q21: Aegisthus is Agamemnon's -----",
+    "options": [
+      "a) Father",
+      "b) Brother",
+      "c) Cousin",
+      "d) Son"
+    ],
+    "correct": 2,
+    "feedback": "إيجيسثوس هو ابن عم الملك أغاممنون (Cousin)، حيث أن والد إيجيسثوس (ثايستيس) هو شقيق والد أغاممنون (أتريوس)."
+  },
+  {
+    "q": "Q22: It's revealed that Thyestes was tricked into eating his own children by Atreus, Agamemnon's father.",
+    "options": [
+      "a) true",
+      "b) false"
+    ],
+    "correct": 0,
+    "feedback": "العبارة صحيحة (true)؛ حيث قام أتريوس بطبخ أبناء شقيقه ثايستيس وتقديمهم له في مأدبة خداعية تسببت في جلب اللعنة على العائلة."
+  },
+  {
+    "q": "Q23: What was the primary role of the chorus?",
+    "options": [
+      "a) To entertain the audience between scenes.",
+      "b) To explain what was happening so the audience would understand.",
+      "c) To perform backup vocals on songs.",
+      "d) none"
+    ],
+    "correct": 1,
+    "feedback": "كان الدور الأساسي للجوقة (the chorus) في المسرح اليوناني القديم هو التعليق على الأحداث وتفسير ما يجري لمساعدة الجمهور على فهم مغزى القصة."
+  },
+  {
+    "q": "Q24: Sartre wrote:",
+    "options": [
+      "a) plays",
+      "b) novels",
+      "c) political books",
+      "d) all"
+    ],
+    "correct": 3,
+    "feedback": "كان جان بول سارتر كاتباً شاملاً، فأنتج مسرحيات وروايات وكتباً ودراسات فلسفية وسياسية هامة، فالإجابة هي (all)."
+  },
+  {
+    "q": "Q25: \"If you repudiate your crime, I'll see that you two occupy the throne of Argos.\" The speaker is ..... addressing....:",
+    "options": [
+      "A) Zeus / Electra and Orestes",
+      "B) The Furies / Zeus and Clytemnestra",
+      "C) Agamemnon / Philebus and a stranger",
+      "D) Agamemnon / Orestes and Electra"
+    ],
+    "correct": 0,
+    "feedback": "القائل هو الإله زيوس (Zeus) متوجهاً بحديثه وعرضه المغري لإلكترا وأوريست (Electra and Orestes) مقابل التوبة والتنصل من جريمة قتل أمهما."
+  },
+  {
+    "q": "Q26: A suitable replacement for the word \"repudiate\" would be:",
+    "options": [
+      "A) Renounce",
+      "B) Commit",
+      "C) Denounce",
+      "D) A and C"
+    ],
+    "correct": 3,
+    "feedback": "كلمة 'repudiate' تعني الرفض، النكران أو التبرؤ من شيء، والبديل اللغوي المناسب لها هو الخياران 'Renounce' و 'Denounce'، مما يجعل الإجابة (D)."
+  },
+  {
+    "q": "Q27: ---------- was renowned to be the most beautiful woman in the world.",
+    "options": [
+      "a) Clytemnestra",
+      "b) Electra",
+      "c) Helen",
+      "D) Athena"
+    ],
+    "correct": 2,
+    "feedback": "هيلين (Helen) ملكة إسبرطة وزوجة مينيلاوس كانت تُعرف في الأساطير الإغريقية بأنها أجمل امرأة في العالم."
+  },
+  {
+    "q": "Q28: \"Dear gods, set me free from all the pain, / the long watch I keep, one whole year awake\" The speaker is ....",
+    "options": [
+      "a) Watchman",
+      "b) Electra",
+      "c) Orestes",
+      "d) Herald"
+    ],
+    "correct": 0,
+    "feedback": "هذه العبارة الشهيرة هي مطلع مسرحية أغاممنون، والمتحدث بها هو الحارس (Watchman) الساهر فوق سطح القصر منتظراً إشارة نيران النصر."
+  },
+  {
+    "q": "Q29: Atreus is the father of:",
+    "options": [
+      "a) Agamemnon",
+      "b) Philebus",
+      "c) Menelaus",
+      "d) A and C"
+    ],
+    "correct": 3,
+    "feedback": "أتريوس هو والد كل من الملك أغاممنون ومينيلاوس (الأتريديون)، لذا فالخيار الصحيح هو (D)."
+  },
+  {
+    "q": "Q30: ------ casts the deciding vote and Orestes is acquitted.",
+    "options": [
+      "a) Apollo",
+      "b) Clytemnestra",
+      "c) Zeus",
+      "d) none"
+    ],
+    "correct": 3,
+    "feedback": "الإلهة أثينا (Athena) هي التي أدلت بالصوت الفاصل لتبرئة أوريست في المحاكمة، وبما أن اسمها غير موجود ضمن الخيارات المعروضة، فإن الإجابة هي (none)."
+  },
+  {
+    "q": "Q31: The Time And Place the Flies was Written are:",
+    "options": [
+      "a) 1943, Paris",
+      "b) 1997, Greece",
+      "c) 1991, Argos",
+      "d) 1942, the Crag of Ares"
+    ],
+    "correct": 0,
+    "feedback": "كُتبت مسرحية 'الذباب' ونُشرت في مدينة باريس عام 1943 (1943, Paris) إبان فترة الاحتلال الألماني لفرنسا."
+  },
+  {
+    "q": "Q32: \"The folk of Argos are my folk. I must open their eyes.\" The speaker is .... and is addressing ....",
+    "options": [
+      "a) Agamemnon / Orestes",
+      "b) Zeus / Electra",
+      "c) Philebus / Orestes",
+      "d) Orestes / Zeus"
+    ],
+    "correct": 3,
+    "feedback": "القائل هو أوريست (Orestes) متحدياً الإله زيوس (Zeus) ومؤكداً التزامه بتوعية أهل مدينته وحثهم على نيل حريتهم."
+  },
+  {
+    "q": "Q33: Who headed to Agamemnon's grave to pour libation to him at the beginning of the Libation Bearers?",
+    "options": [
+      "a) Electra and the women in the chorus",
+      "b) the old men in the city",
+      "c) Electra, Clytemnestra and the women",
+      "d) the old men and women of the city"
+    ],
+    "correct": 0,
+    "feedback": "في مطلع مسرحية 'حاملات القرابين'، تتوجه إلكترا رفقة نساء الجوقة (Electra and the women in the chorus) إلى قبر والدها لتقديم القرابين والتضرع."
+  },
+  {
+    "q": "Q34: In most Greek tragedies, the characters:",
+    "options": [
+      "a) never decide on their own",
+      "b) They are submissive",
+      "c) They are superstitious",
+      "d) All"
+    ],
+    "correct": 3,
+    "feedback": "في معظم التراجيديات الإغريقية القديمة، تتصف الشخصيات بالخضوع للأقدار والآلهة والاعتماد على الخرافات والنبؤات، فالإجابة المعتمدة في ورقة التصحيح هي (All)."
+  },
+  {
+    "q": "Q35: All of the following are false, Except:",
+    "options": [
+      "a) This trilogy is prosaic, while The Flies is poetic",
+      "b) Aeschylus died in Greece",
+      "c) While in Aeschylus we have paganism, in Sartre we have Existentialism",
+      "d) In the Oresteia, we have monotheism"
+    ],
+    "correct": 2,
+    "feedback": "جميع العبارات خاطئة باستثناء العبارة (C)؛ فبينما يتميز عالم إيسخيلوس بالوثنية والميثولوجيا الكلاسيكية الإغريقية، تتمحور مسرحية سارتر حول الفلسفة الوجودية."
+  },
+  {
+    "q": "Q36: All of the following are true Except:",
+    "options": [
+      "a) Sartre chose a Greek play to provide a cover for his anti-fascist beliefs",
+      "b) The Flies is a call to the French people to recognize their freedom to act and rise up against their oppressors",
+      "c) The battle of Marathon was between the Greeks and the Trojans",
+      "d) none"
+    ],
+    "correct": 2,
+    "feedback": "العبارة الخاطئة (Except) هي (C)؛ حيث أن معركة ماراثون الشهيرة كانت بين الإغريق والفرس (Persians) وليس الطرواديين."
+  },
+  {
+    "q": "Q37: In the Flies, the Tutor tells Orestes that his strength lies in the fact that.....",
+    "options": [
+      "a) his mind is free",
+      "b) he has no family ties",
+      "c) he has no religion and no calling",
+      "d) all"
+    ],
+    "correct": 3,
+    "feedback": "يؤكد المعلم (The Tutor) لأوريست أن مصدر قوته الحقيقي وخفته يكمنان في حرية عقله، خلوه من الالتزامات العائلية، وعدم تقيده بدين أو دعوة محددة (all)."
+  },
+  {
+    "q": "Q38: \"Come, my king, the scourge of Troy, the true son of Atreus\" The speaker is:",
+    "options": [
+      "a) the herald",
+      "b) Clytemnestra",
+      "c) the Chorus",
+      "D) Aegisthus"
+    ],
+    "correct": 2,
+    "feedback": "القائل المرحب بعودة الملك هو الجوقة (the Chorus) المكونة من شيوخ أرغوس الموالين لأوباما ومجد العائلة الملكية."
+  },
+  {
+    "q": "Q39: The addressee is:",
+    "options": [
+      "a) Orestes",
+      "b) Agamemnon",
+      "c) Aegisthus",
+      "d) Menelaus"
+    ],
+    "correct": 1,
+    "feedback": "الترحيب والنداء موجهان إلى الملك العائد منتصراً أغاممنون (Agamemnon)."
+  },
+  {
+    "q": "Q40: This quotation is taken from:",
+    "options": [
+      "a) Agamemnon",
+      "b) the Libation Bearers",
+      "c) the Eumenides",
+      "d) the Flies"
+    ],
+    "correct": 0,
+    "feedback": "هذا الاقتباس الترحيبي مأخوذ من المسرحية الأولى في الثلاثية وهي مسرحية أغاممنون (Agamemnon)."
+  },
+  {
+    "q": "Q41: All of the following are true except:",
+    "options": [
+      "a) Sartre is polytheist",
+      "b) Ancient Greek culture was repetitive",
+      "c) The father of gods is Zeus",
+      "d) The Flies contains a moral lesson"
+    ],
+    "correct": 0,
+    "feedback": "العبارة الخاطئة هي (A)؛ لأن سارتر فيلسوف وجودي ملحد ولا يؤمن بتعدد الآلهة (polytheist)."
+  },
+  {
+    "q": "Q42: \"I am not ashamed to tell you/How I love the man\", The speaker is:",
+    "options": [
+      "a) Electra",
+      "b) Clytemnestra",
+      "c) Athena",
+      "d) Cassandra"
+    ],
+    "correct": 1,
+    "feedback": "المتحدثة بهذه العبارة هي كليتمنسترا (Clytemnestra) لتبرير حبها الشديد لإيجيسثوس وعلاقتها به علناً أمام الجميع دون خجل."
+  },
+  {
+    "q": "Q43: The addressee in the above-mentioned quotation is/are:",
+    "options": [
+      "a) Electra",
+      "b) Orestes",
+      "c) people of Argos",
+      "d) the Herald"
+    ],
+    "correct": 2,
+    "feedback": "توجه كليتمنسترا خطابها ومبرراتها لعامة شعب أرغوس (people of Argos) الممثلين في الجوقة."
+  },
+  {
+    "q": "Q44: \"Silence, dogs! Back to your places!\" The speaker is:",
+    "options": [
+      "a) Aegisthus",
+      "b) Apollo",
+      "c) Electra",
+      "D) Orestes"
+    ],
+    "correct": 0,
+    "feedback": "القائل هو الطاغية إيجيسثوس (Aegisthus) موبخاً ومستعرضاً سلطته وقسوته لترهيب الجماهير الحاشدة وإجبارهم على الانصياع."
+  },
+  {
+    "q": "Q45: The addressee is/are:",
+    "options": [
+      "a) the people of Argos",
+      "b) Orestes and Electra",
+      "c) the Chorus",
+      "d) All"
+    ],
+    "correct": 0,
+    "feedback": "يوجه إيجيسثوس هذه الإهانة الصارخة لشعب ورعية أرغوس (the people of Argos) لإبقائهم خانعين."
+  },
+  {
+    "q": "Q46: This quotation is taken from:",
+    "options": [
+      "a) Agamemnon",
+      "b) the Libation Bearers",
+      "c) the Eumenides",
+      "d) the Flies"
+    ],
+    "correct": 3,
+    "feedback": "هذه الجملة الحوارية القاسية مأخوذة من مسرحية 'الذباب' (The Flies) لجان بول سارتر."
+  },
+  {
+    "q": "Q47: \"It's your weakness gives them their strength\" \"your weakness\" refers to:",
+    "options": [
+      "a) Zeus",
+      "B) Electra",
+      "c) the Chorus",
+      "d) Clytemnestra"
+    ],
+    "correct": 1,
+    "feedback": "وفقاً لمفتاح التصحيح الجامعي المعتمد، فإن الإشارة موجهة لإلكترا (Electra) في صراعها النفسي؛ لكن سياقياً تبرز أهمية الوعي بمواطن الضعف الإنساني عموماً."
+  },
+  {
+    "q": "Q48: \"Their strength\" refers to:",
+    "options": [
+      "a) the Furies",
+      "b) the Eumenides",
+      "c) the people of Argos",
+      "d) none"
+    ],
+    "correct": 0,
+    "feedback": "تستمد ربات الغضب والانتقام (the Furies) القوة الكامنة للتعذيب من ضعف الإنسان وخوفه واستسلامه لعقدة الذنب."
+  },
+  {
+    "q": "Q49: The festival at Aeschylus's time is called -----",
+    "options": [
+      "A) The Great Brisbane",
+      "B) The Great Edmonton",
+      "C) The Great Dionysia",
+      "D) The Great Multan"
+    ],
+    "correct": 2,
+    "feedback": "كان المهرجان المسرحي الديني الأبرز في أثينا القديمة يُدعى مهرجان ديونيسيا الكبير (The Great Dionysia) المخصص للاحتفاء بإله الخمر والخصوبة والمسرح."
+  },
+  {
+    "q": "Q50: Helen is:",
+    "options": [
+      "A) half-sister of Clytemnestra",
+      "B) Clytemnestra's sister-in-law",
+      "C) Tyndareos's daughter",
+      "D) all"
+    ],
+    "correct": 3,
+    "feedback": "هيلين هي شقيقة كليتمنسترا غير الشقيقة (نظراً لولادة هيلين من زيوس)، وفي نفس الوقت زوجة شقيق زوجها (sister-in-law) ومرباة في كنف تنداريوس، فالخيار المعتمد هو (all)."
+  },
+  {
+    "q": "Q51: \"I will cast my lot for you./No mother gave me birth./I honour the male, in all things but marriage./Yes, with my heart I am my Father's child.\" The speaker is------",
+    "options": [
+      "a) Apollo",
+      "b) The Furies",
+      "c) Athena",
+      "d) Orestes"
+    ],
+    "correct": 2,
+    "feedback": "المتحدثة في هذه السطور الشهيرة هي الإلهة أثينا (Athena)، معلنةً انحيازها للذكورة ولأبيها زيوس، ومبررةً تصويتها الحاسم لصالح براءة أوريست."
+  },
+  
+  {
+    "q": "  What did the gods do after Agamemnon's murder?",
+    "options": [
+      "a) Ordered his son to take back the throne",
+      "b) Punished the murderers",
+      "c) Sent the flies to Argos",
+      "d) Nothing, gods don't exist"
+    ],
+    "correct": 2,
+    "feedback": "في مسرحية 'الذباب' لجان بول سارتر، أرسل الآلهة (وعلى رأسهم جوبيتر) أسراباً من الذباب إلى مدينة أرغوس كرمز للندم وعقاباً جماعياً على صمتهم ومشاركتهم غير المباشرة في جريمة قتل أغاممنون."
+  },
+  {
+    "q": "  Which of the following does Electra say keeps her going?",
+    "options": [
+      "a) Fear",
+      "b) Repentance",
+      "c) Love",
+      "d) Hatred"
+    ],
+    "correct": 3,
+    "feedback": "تؤكد إلكترا صراحةً أن الكراهية (Hatred) والرغبة العميقة في الانتقام هما الوقود الأساسي والوحيد الذي يبقيها على قيد الحياة وتستمد منه طاقتها."
+  },
+  {
+    "q": "  How does Orestes say he found his freedom?",
+    "options": [
+      "a) It crashed down on him",
+      "b) His Tutor told him that he is free",
+      "c) His father rescued him from slavery",
+      "d) He understood that he is free through endless soul-searching"
+    ],
+    "correct": 0,
+    "feedback": "يصف أوريست لحظة إدراكه للحرية بأنها هبطت عليه فجأة كالصاعقة أو تحطمت فوقه ('It crashed down on him')، ليدرك فجأة أنه غريب عن هذا الكون ومسؤول تماماً عن قراراته."
+  },
+  {
+    "q": "  According to Orestes, where or when does human life begin?",
+    "options": [
+      "a) When people get tired of fighting",
+      "b) When gods stop interfering in human affairs",
+      "c) On the far side of despair",
+      "d) After a man and a woman make love"
+    ],
+    "correct": 2,
+    "feedback": "يعتقد أوريست الوجودي أن الحياة الإنسانية الحقيقية تبدأ فقط عند الجانب الآخر من اليأس ('On the far side of despair')، حيث يتخلص الإنسان من الأوهام والآلهة ويبدأ بصناعة مصيره بنفسه."
+  },
+  {
+    "q": "  When he leaves Argos, what does Orestes NOT take with him?",
+    "options": [
+      "a) The dead of Argos",
+      "b) The Argives' sins",
+      "c) His sister's love",
+      "d) The flies"
+    ],
+    "correct": 2,
+    "feedback": "عند مغادرته للمدينة، يأخذ أوريست معه خطايا أهل أرغوس وموتاهم والذباب الذي يطاردهم، لكنه لا يحصل على حب أخته (His sister's love) التي تخلت عنه مفضلةً الخضوع لزيوس والندم."
+  },
+  {
+    "q": "  From 1943 forward, what philosophical idea takes center stage in Sartre's work?",
+    "options": [
+      "a) Despair",
+      "b) Absence of meaning",
+      "c) Alienation",
+      "d) Human freedom"
+    ],
+    "correct": 3,
+    "feedback": "مع صدور مسرحية 'الذباب' وكتاب 'الوجود والعدم' عام 1943، تسيّدت فكرة الحرية الإنسانية والوجودية (Human freedom) صدارة جميع أعمال سارتر."
+  },
+  {
+    "q": "  What subject did Sartre study and teach for most of his life?",
+    "options": [
+      "a) English",
+      "b) French",
+      "c) Drama",
+      "d) Philosophy"
+    ],
+    "correct": 3,
+    "feedback": "درس سارتر الفلسفة (Philosophy) وحصل على درجة الأستاذية فيها وعمل مدرساً لها طوال حياته الفكرية والمهنية."
+  },
+  {
+    "q": "  Jupiter tells Aegisthus that Orestes is dangerous to Aegisthus's entire order because -----",
+    "options": [
+      "a) He is Agamemnon's son",
+      "b) He knows he's free",
+      "c) He is Electra's brother",
+      "d) He is Clytemnestra's son"
+    ],
+    "correct": 1,
+    "feedback": "يحذر جوبيتر إيجيسثوس من أوريست لأنه رجل عرف أنه حر ('He knows he's free'). فعندما يدرك إنسان واحد حريته الكاملة، يفقد الآلهة والملوك سلطتهم المطلقة وتنهار عروشهم."
+  },
+  {
+    "q": "  Who introduces himself as Demetrios, a traveler?",
+    "options": [
+      "a) Jupiter",
+      "b) Orestes",
+      "c) Idiot Boy",
+      "d) Aegisthus"
+    ],
+    "correct": 1,
+    "feedback": "يتنكر أوريست (Orestes) عند وصوله إلى مدينة أرغوس في البداية تحت اسم ديميتريوس، مدعياً أنه مجرد مسافر بسيط."
+  },
+  {
+    "q": "  What does Electra tell Orestes she is forced to wash?",
+    "options": [
+      "a) Underwear",
+      "b) Statues",
+      "c) Feet",
+      "d) Garbage cans"
+    ],
+    "correct": 0,
+    "feedback": "تشتكي إلكترا لأوريست من المعاملة المذلة التي تلقاها في القصر كخادمة، مشيرةً إلى أنها تُجبر على غسل الملابس المتسخة والملابس الداخلية (Underwear) لقتلة أبيها."
+  },
+  {
+    "q": "  After Electra tells them that people in Corinth enjoy life and do not feel remorse, the crowd notices what?",
+    "options": [
+      "a) That the dead don't stop her",
+      "b) Orestes is her brother",
+      "c) She is lying",
+      "d) Aegisthus dislikes her"
+    ],
+    "correct": 0,
+    "feedback": "أثناء الحفل، عندما ترقص إلكترا بفستانها الأبيض وتتحدث عن مدن أخرى تعيش بهدوء، يلاحظ الحشد بذهول أن الموتى المزعومين لم يغضبوا عليها أو يمنعوها ('That the dead don't stop her')، مما يبدأ في زعزعة ثقتهم بخدعة يوم الموتى."
+  },
+  {
+    "q": "  What does Aegisthus do right before Orestes strikes him with a sword?",
+    "options": [
+      "a) Warns Clytemnestra to flee",
+      "b) Asks Electra for help",
+      "c) Tries to strike Orestes",
+      "d) Refuses to defend himself"
+    ],
+    "correct": 3,
+    "feedback": "يواجه إيجيسثوس الموت ببرود ويسلم نفسه لضربة السيف رافضاً الدفاع عن نفسه ('Refuses to defend himself')، لشعوره بالضجر وثقل العبء والتمثيلية السياسية التي كان يعيشها."
+  },
+  {
+    "q": "13- In his address to the people of Argos, what does Orestes say he will take with him when he leaves?",
+    "options": [
+      "a) Their dead",
+      "b) Their sins",
+      "c) Their flies",
+      "d) All of the above"
+    ],
+    "correct": 3,
+    "feedback": "يؤكد أوريست الوجودي لأهل مدينته أنه سيحمل على عاتقه موتاهم، وخطاياهم، والذباب (All of the above) ليرحل بها بعيداً ويمنحهم فرصة البداية الجديدة."
+  },
+  {
+    "q": "14- How many of the more than ninety plays written by Aeschylus have survived to the modern era?",
+    "options": [
+      "a) Three",
+      "b) Five",
+      "c) Seven",
+      "d) Ten"
+    ],
+    "correct": 2,
+    "feedback": "لم يصل إلينا من بين أكثر من تسعين مسرحية كتبها إيسخيلوس سوى سبع مسرحيات (Seven) فقط كاملة ومحفوظة."
+  },
+  {
+    "q": "15- What element did Aeschylus add to his plays, creating a new range of dramatic possibilities?",
+    "options": [
+      "a) A second actor",
+      "b) An understudy",
+      "c) A chorus",
+      "e) Masks"
+    ],
+    "correct": 0,
+    "feedback": "التطوير المسرحي الأهم الذي قدمه إيسخيلوس هو إدخال الممثل الثاني (A second actor)، مما مهد الطريق لظهور الصراع والحوار المباشر على خشبة المسرح."
+  },
+  {
+    "q": "16- Where is Agamemnon set?",
+    "options": [
+      "a) The palace at Argos",
+      "b) A battlefield near Troy",
+      "c) The Athenian courthouse",
+      "d) Mount Olympus"
+    ],
+    "correct": 0,
+    "feedback": "تجري كافة أحداث مسرحية 'أغاممنون' أمام مدخل وداخل قصر عائلة الأتريديين في مدينة أرغوس (The palace at Argos)."
+  },
+  {
+    "q": "17-Before her capture, Cassandra was the lover of which Greek god?",
+    "options": [
+      "A) Zeus",
+      "b) Apollo",
+      "c) Ares",
+      "d) Bacchus"
+    ],
+    "correct": 1,
+    "feedback": "كانت كاساندرا محبوبة من قِبل الإله أبولو (Apollo)، وهو الذي وهبها القدرة على التنبؤ بالمستقبل قبل أن يلعنها بعدم تصديق الناس لها."
+  },
+  {
+    "q": "18-When Agamemnon opens, how long has the siege of Troy been going on?",
+    "options": [
+      "a) Three months",
+      "b) One year",
+      "c) Five years",
+      "d) Ten years"
+    ],
+    "correct": 3,
+    "feedback": "تبدأ المسرحية بالتزامن مع سقوط طروادة بعد حصار مرير استمر لعشر سنوات كاملة (Ten years)."
+  },
+  {
+    "q": "19-How does Agamemnon arrive on the scene?",
+    "options": [
+      "a) On horseback",
+      "b) On foot",
+      "c) In a chariot",
+      "d) On a boat"
+    ],
+    "correct": 2,
+    "feedback": "يدخل الملك أغاممنون منتصراً وفخوراً وهو يركب عربة حربية مجرورة (In a chariot)، وخلفه كاساندرا كأسيرة حرب."
+  },
+  {
+    "q": "20- What supernatural gift does Cassandra profess to have?",
+    "options": [
+      "a) Flight",
+      "b) Invisibility",
+      "c) The golden touch",
+      "d) Prophecy"
+    ],
+    "correct": 3,
+    "feedback": "تمتلك كاساندرا القدرة الخارقة على التنبؤ بالمستقبل والرؤية الغيبية (Prophecy)، وهو ما جعلها تتنبأ بنهاية أغاممنون وموتها."
+  },
+  {
+    "q": "21- Aegisthus is Agamemnon's -----",
+    "options": [
+      "a) Father",
+      "b) Brother",
+      "c) Cousin",
+      "d) Son"
+    ],
+    "correct": 2,
+    "feedback": "إيجيسثوس هو ابن عم (Cousin) الملك أغاممنون، وهناك عداء دموي قديم متوارث بين فرعي عائلتهما."
+  },
+  {
+    "q": "22- It's revealed that ----- was tricked into eating his own children by Atreus, Agamemnon's father.",
+    "options": [
+      "a) Menelaus",
+      "b) Thyestes",
+      "c) Aegisthus",
+      "d) Paris"
+    ],
+    "correct": 1,
+    "feedback": "الشخصية التي تعرضت لخدعة أكل لحم أبنائها المطبوخ هو ثايستيس (Thyestes) على يد شقيقه أتريوس."
+  },
+  {
+    "q": "23- What was the primary role of the chorus?",
+    "options": [
+      "a) To entertain the audience between scenes.",
+      "b) To explain what was happening so the audience would understand.",
+      "c) To perform backup vocals on songs.",
+      "d) none"
+    ],
+    "correct": 1,
+    "feedback": "كانت الوظيفة الأساسية للجوقة في المسرح الإغريقي هي التعليق على الأحداث وتفسيرها ومشاركة المشاعر والدروس المستفادة مع الجمهور لمساعدتهم على الفهم الفكري للأحداث."
+  },
+  {
+    "q": "24-Which god tried to prevent the Greek fleet from sailing by sending strong winds to sea?",
+    "options": [
+      "a) Apollo",
+      "b) Artemis",
+      "c) Hermes",
+      "d) Zeus"
+    ],
+    "correct": 1,
+    "feedback": "الإلهة أرتميس (Artemis) هي التي حبست الرياح في أوليس لمنع السفن الإغريقية من الإبحار نحو طروادة، كعقاب للجيش، مما اضطر أغاممنون للتضحية بابنته إيفيجينيا."
+  },
+  {
+    "q": "25------- is the most impressive and fascinating woman in Greek tragedy",
+    "options": [
+      "a) Clytemnestra",
+      "b) Electra",
+      "c) Helen",
+      "D) Athena"
+    ],
+    "correct": 0,
+    "feedback": "تُعتبر كليتمنسترا (Clytemnestra) أكاديمياً ومسرحياً واحدة من أقوى الشخصيات النسائية وأكثرها إثارة للإعجاب والتعقيد والمهابة في تاريخ التراجيديا الإغريقية."
+  },
+  {
+    "q": "26- ---------- was renowned to be the most beautiful woman in the world.",
+    "options": [
+      "a) Clytemnestra",
+      "b) Electra",
+      "c) Helen",
+      "D) Athena"
+    ],
+    "correct": 2,
+    "feedback": "تذكر الأساطير اليونانية أن هيلين (Helen) زوجة مينيلاوس ملك إسبرطة هي أجمل امرأة وطأت قدمها الأرض."
+  },
+  {
+    "q": "27- In obedience to a command given to him by -----, Orestes returns to Argos to avenge his father.",
+    "options": [
+      "a) Zeus",
+      "b) Athena",
+      "c) Apollo",
+      "D) Hermes"
+    ],
+    "correct": 2,
+    "feedback": "يعود أوريست إلى أرغوس لتنفيذ الأمر الإلهي الصريح الصادر له من الإله أبولو (Apollo) بضرورة الثأر لمقتل والده."
+  },
+  {
+    "q": "28- The furies follow Orestes and insist that he must be punished for ---",
+    "options": [
+      "a) Fratricide",
+      "b) patricide",
+      "c) matricide",
+      "d) homicide"
+    ],
+    "correct": 2,
+    "feedback": "تطارد ربات الغضب أوريست وتطالب بمعاقبته بتهمة قتل الأم (matricide) بعد إقدامه على التخلص من كليتمنسترا."
+  },
+  {
+    "q": "29- ------ casts the deciding vote and Orestes is acquitted.",
+    "options": [
+      "a) Apollo",
+      "b) Athena",
+      "c) Zeus",
+      "d) Apollo"
+    ],
+    "correct": 1,
+    "feedback": "تقوم الإلهة أثينا (Athena) بالإدلاء بالصوت المرجح والفاصل الذي أدى إلى تبرئة أوريست من ذنبه وتأسيس أول محكمة بشرية عادلة."
+  },
+  {
+    "q": "30- The Time And Place the Flies was Written are:",
+    "options": [
+      "a) 1943, Paris",
+      "b) 1997, Greece",
+      "c) 1991, Argos",
+      "d) 1942, the Crag of Ares"
+    ],
+    "correct": 0,
+    "feedback": "كُتبت مسرحية 'الذباب' في مدينة باريس عام 1943 (1943, Paris) تحت وطأة الاحتلال النازي لفرنسا لتقديم رسالة مشفرة عن الحرية والمقاومة."
+  },
+  {
+    "q": "31- In the Flies, the history of Argos is told by:",
+    "options": [
+      "a) Orestes",
+      "b) the Tutor",
+      "c) Jupiter",
+      "d) Electra"
+    ],
+    "correct": 2,
+    "feedback": "الإله جوبيتر (Jupiter) هو من يقوم بسرد تاريخ مدينة أرغوس وصعود الطغيان والندم فيها لأوريست والمعلم عند مدخل المدينة."
+  },
+  {
+    "q": "32- All of the following are true EXCEPT:",
+    "options": [
+      "a) Sartre rejects religious morals because he rejects all morals",
+      "b) In Aeschylus's The Libation Bearers, it is Orestes's destiny to avenge his father's murder by killing those who were responsible for his death.",
+      "c) Sartre emphasizes that Orestes's action is completely free and comes from himself, not some outside force.",
+      "d) In the Flies, Electra walks up to the statue of Jupiter in order to pour her libations there."
+    ],
+    "correct": 0,
+    "feedback": "العبارة الخاطئة هي (A)؛ لأن سارتر برفضه للأخلاق الدينية لا يرفض الأخلاق بالمطلق، بل يدعو لبناء أخلاق وجودية ترتكز على حرية ومسؤولية الفرد الذاتية."
+  },
+  {
+    "q": "33- In most Greek tragedies, the characters:",
+    "options": [
+      "a) never decide on their own",
+      "b) They are submissive",
+      "c) They are superstitious",
+      "d) All"
+    ],
+    "correct": 3,
+    "feedback": "تتصف شخوص التراجيديا الإغريقية بالخضوع لإرادة القضاء والقدر والآلهة، وعدم الاستقلال التام بالقرار، واتباع النبوءات الغيبية، لذا فالإجابة المعتمدة هي (All)."
+  },
+  {
+    "q": "34- All of the following are false, Except:",
+    "options": [
+      "a) This trilogy is prosaic, while The Flies is poetic",
+      "b) Aeschylus died in Greece",
+      "c) While in Aeschylus we have paganism, in Sartre we have Existentialism",
+      "d) In the Oresteia, we have monotheism"
+    ],
+    "correct": 2,
+    "feedback": "العبارة الوحيدة الصحيحة هي (C)؛ حيث تجسد أعمال إيسخيلوس الوثنية الإغريقية القديمة، في حين تتبنى مسرحية سارتر الطرح الفلسفي الوجودي المعاصر."
+  },
+  {
+    "q": "35- All of the following are true Except:",
+    "options": [
+      "a) Sartre chose a Greek play to provide a cover for his anti-fascist beliefs",
+      "b) The Flies is a call to the French people to recognize their freedom to act and rise up against their oppressors",
+      "c) The battle of Marathon was between the Greeks and the Trojans",
+      "d) none"
+    ],
+    "correct": 2,
+    "feedback": "العبارة المستثناة والخاطئة هي (C)؛ فمعركة ماراثون وقعت بين جيوش اليونان والإمبراطورية الفارسية (Persians) وليست طروادة."
+  },
+  {
+    "q": "36- In Agamemnon, the chorus consists of:",
+    "options": [
+      "a) The elder women of Argos",
+      "b) the elder men of Argos",
+      "c) The Flies",
+      "d) Both a and b"
+    ],
+    "correct": 1,
+    "feedback": "تتألف جوقة مسرحية أغاممنون لإيسخيلوس من شيوخ ورجال أرغوس المسنين (the elder men of Argos) الذين لم يستطيعوا الذهاب للمحاربة في طروادة."
+  },
+  {
+    "q": "37- \"Come, my king, the scourge of Troy, the true son of Atreus\" The speaker is:",
+    "options": [
+      "a) the herald",
+      "b) Clytemnestra",
+      "c) the Chorus",
+      "D) Aegisthus"
+    ],
+    "correct": 2,
+    "feedback": "الجهة المتحدثة والمرحبة بالملك العائد هي الجوقة (the Chorus) الممثلة لشيوخ المدينة."
+  },
+  {
+    "q": "38- The addressee is: a) Orestes b) Agamemnon c) Aegisthus d) Menelaus",
+    "options": [
+      "a) Orestes",
+      "b) Agamemnon",
+      "c) Aegisthus",
+      "d) Menelaus"
+    ],
+    "correct": 1,
+    "feedback": "يوجه شيوخ الجوقة هذا الترحيب والتمجيد والاعتراف بالسيادة للملك أغاممنون (Agamemnon)."
+  },
+  {
+    "q": "39- This quotation is taken from:",
+    "options": [
+      "a) Agamemnon",
+      "b) the Libation Bearers",
+      "c) the Eumenides",
+      "d) the Flies"
+    ],
+    "correct": 0,
+    "feedback": "هذه السطور المادحة توجد في مستهل مسرحية أغاممنون (Agamemnon) فور دخوله منتصراً للمدينة."
+  },
+  {
+    "q": "40- \"I tell you, someone plots revenge. A lion who lacks a lion's heart\"",
+    "options": [
+      "a) Clytemnestra",
+      "b) the Chorus",
+      "c) Electra",
+      "D) Cassandra"
+    ],
+    "correct": 3,
+    "feedback": "المتحدثة هي كاساندرا (Cassandra) التي تصف بنبوءتها تخطيط إيجيسثوس الخفي للانتقام، واصفةً إياه بالأسد الجبان الذي يفتقر لقلب الأسد والشجاعة لمواجهة خصمه وجهاً لوجه."
+  },
+  {
+    "q": "41- The addressee is: a) Clytemnestra b) the Chorus c) Electra D) Cassandra",
+    "options": [
+      "a) Clytemnestra",
+      "b) the Chorus",
+      "c) Electra",
+      "D) Cassandra"
+    ],
+    "correct": 1,
+    "feedback": "تلقي كاساندرا بنبوءاتها وتلميحاتها المفجعة أمام جوقة شيوخ أرغوس (the Chorus) الذين يعجزون عن إدراك حقيقة كلامها."
+  },
+  {
+    "q": "42- The Lion is: a) Agamemnon b) Menelaus c) Aegisthus D) Orestes",
+    "options": [
+      "a) Agamemnon",
+      "b) Menelaus",
+      "c) Aegisthus",
+      "D) Orestes"
+    ],
+    "correct": 2,
+    "feedback": "المقصود بالأسد الجبان فاقد الشجاعة في نبوءة كاساندرا هو إيجيسثوس (Aegisthus) الذي تآمر خفية مستغلاً غياب الملك."
+  },
+  {
+    "q": "43- \"Silence, dogs! Back to your places!\" The speaker is:",
+    "options": [
+      "a) Aegisthus",
+      "b) Apollo",
+      "c) Electra",
+      "D) Orestes"
+    ],
+    "correct": 0,
+    "feedback": "المتحدث هو إيجيسثوس (Aegisthus) صارخاً لإسكات أهل المدينة ومستخدماً سلطته الاستبدادية لإخضاعهم."
+  },
+  {
+    "q": "44- The addressee is/are:",
+    "options": [
+      "a) the people of Argos",
+      "b) Orestes and Electra",
+      "c) the Chorus",
+      "d) All"
+    ],
+    "correct": 0,
+    "feedback": "يوجه إيجيسثوس خطابه المهين إلى جماهير وشعب أرغوس (the people of Argos) الثائرين والمحتشدين."
+  },
+  {
+    "q": "45- This quotation is taken from:",
+    "options": [
+      "a) Agamemnon",
+      "b) the Libation Bearers",
+      "c) the Eumenides",
+      "d) the Flies"
+    ],
+    "correct": 3,
+    "feedback": "هذا الحوار يقع في الفصول الأخيرة من مسرحية سارتر الوجودية 'الذباب' (The Flies)."
+  },
+  {
+    "q": "46- \"Someone else will come, to set me free.\" The speaker is:",
+    "options": [
+      "a) Aegisthus",
+      "b) Apollo",
+      "c) Electra",
+      "D) Orestes"
+    ],
+    "correct": 2,
+    "feedback": "القائلة هي إلكترا (Electra)، معبرةً عن يأسها وعجزها وانتظارها السلبي لمخلص خارجي يأتي لينقذها من بؤسها وحياتها المريرة."
+  },
+  {
+    "q": "47- The addressee is/are:",
+    "options": [
+      "a) the people of Argos",
+      "b) Orestes",
+      "c) the Chorus",
+      "d) Clytemnestra"
+    ],
+    "correct": 1,
+    "feedback": "توجه إلكترا كلامها هذا إلى الشخص الغريب الواقف أمامها وهو في الحقيقة شقيقها أوريست (Orestes) دون أن تدرك هويته الحقيقية بعد."
+  },
+  {
+    "q": "48- This quotation is taken from:",
+    "options": [
+      "a) Agamemnon",
+      "b) the Libation Bearers",
+      "c) the Eumenides",
+      "d) the Flies"
+    ],
+    "correct": 3,
+    "feedback": "هذه المناجاة والاعتراف بالضعف وانتظار الخلاص مأخوذة من مسرحية 'الذباب' (The Flies) لجان بول سارتر."
+  },
+  {
+    "q": "49- \"It's your weakness gives them their strength\" \"your weakness\" refers to:",
+    "options": [
+      "a) Zeus",
+      "b) Electra",
+      "c) the Chorus",
+      "d) Clytemnestra"
+    ],
+    "correct": 1,
+    "feedback": "وفقاً لخطوات التصحيح وسياق الصراع النفسي للأبطال، فإن عبارة 'ضعفكِ' تشير مباشرةً إلى تراجع وخضوع إلكترا (Electra)."
+  },
+  {
+    "q": "50- \"Their strength\" refers to:",
+    "options": [
+      "a) the Furies",
+      "b) the Eumenides",
+      "c) the people of Argos"
+    ],
+    "correct": 0,
+    "feedback": "تشير عبارة 'قوتهن' إلى ربات الغضب والعقاب والندم (the Furies) اللواتي يتغذين على ضعف البشر واستسلامهم لعقدة الذنب المفتعلة."
+  }
+
+
+
+
+
+
+
+
+
+]}

@@ -1,0 +1,1993 @@
+
+    {
+  "subject": "ادب امريكي 1 سنه رابعه ",
+  "lang": "en",
+  "questions": [
+    {
+    "q": "The river best serves as a symbol of",
+    "options": ["slavery", "freedom", "equality", "both b & c"],
+    "correct": 1,
+    "feedback": "يمثل النهر في الرواية الهروب من قيود المجتمع والوصول إلى الحرية والسكينة."
+  },
+  {
+    "q": "The river provides all the following except",
+    "options": ["food", "transportation", "escape", "a permanent home"],
+    "correct": 3,
+    "feedback": "بينما يوفر النهر الغذاء والحماية، فإنه يظل مكاناً للعبور وليس مستقراً دائماً."
+  },
+  {
+    "q": "Mark Twain was the first American writer to use everyday language.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "يُعتبر مارك توين رائد استخدام اللغة العامية واللهجات المحلية في الأدب الأمريكي."
+  },
+  {
+    "q": "Huck kills a ....... to fake his own death.",
+    "options": ["pig", "cow", "bear", "fox"],
+    "correct": 0,
+    "feedback": "ذبح هك خنزيراً واستخدم دمه ليوهم الجميع بأنه قُتل ليتمكن من الهروب."
+  },
+  {
+    "q": "Who demands Huck's money?",
+    "options": ["Pap Finn", "Tom", "Jim", "Judge Thatcher"],
+    "correct": 0,
+    "feedback": "يعود والد هك (Pap) فقط من أجل الاستيلاء على ثروة ابنه لإنفاقها على الكحول."
+  },
+  {
+    "q": "Jim's friendship with Huck demonstrates that humanity has nothing to do with",
+    "options": ["space", "race", "gender", "time"],
+    "correct": 1,
+    "feedback": "تكسر صداقة هك وجيم الحواجز العرقية التي وضعها المجتمع في ذلك الوقت"
+  },
+  {
+    "q": "What are the Grangerfords and the Shepherdsons fighting about?",
+    "options": ["the death of an infant", "the theft of cattle", "Nobody really remembers", "inheritance disputes"],
+    "correct": 2,
+    "feedback": "يسخر توين من الثأر القبلي حيث يستمر القتال لأجيال دون معرفة السبب الأصلي."
+  },
+  {
+    "q": "The Duke and the Dauphin are primarily",
+    "options": ["con men", "actors", "beggars", "merchants"],
+    "correct": 0,
+    "feedback": "الدوق والدوفين هما محتالان يخدعان الناس من خلال عروض وهمية."
+  },
+  {
+    "q": "Huck is a ....... character.",
+    "options": ["White trash", "mulatto", "middle class", "high class"],
+    "correct": 0,
+    "feedback": "يوصف هك بأنه من طبقة 'White trash' بسبب فقره الشديد وافتقاره للتعليم التقليدي ."
+  },
+  {
+    "q": "....... focuses on characters, their dialects and values.",
+    "options": ["Humor", "Mimicry", "Regionalism", "Musicality"],
+    "correct": 2,
+    "feedback": "الإقليمية هي حركة أدبية تركز على تصوير واقع منطقة معينة بصدق ."
+  },
+  {
+    "q": "I was playing double... The word 'Sin' refers to",
+    "options": ["helping Jim", "running away from Pap", "Stealing money", "Disobeying Miss Watson"],
+    "correct": 0,
+    "feedback": "بسبب تربية المجتمع، ظن هك أن مساعدته لعبد على الهرب هي خطيئة كبرى ."
+  },
+  {
+    "q": "A person's conscience ain't got no sense and just goes for him anyway.",
+    "options": ["conscious", "family", "luck", "conscience"],
+    "correct": 3,
+    "feedback": "يعبر هك عن حيرته من ضميره الذي يؤنبه حتى عندما يفعل الشيء الصحيح إنسانياً ."
+  },
+  {
+    "q": "I knowed he was white inside, and I reckoned he'd say what he did say.",
+    "options": ["black", "white", "different", "hostile"],
+    "correct": 1,
+    "feedback": "قال هك ذلك عندما ضحى جيم بحريته لإنقاذ توم، مما أثبت نبل أخلاقه."
+  },
+  {
+    "q": "Why does Jim run away from Miss Watson?",
+    "options": ["She treats him poorly.", "She wants to sell him.", "He wants to meet his family.", "He wants to help Huck escape."],
+    "correct": 1,
+    "feedback": "هرب جيم عندما سمع أن ميس واتسون تنوي بيعه لتاجر في الجنوب (أورليانز)."
+  },
+  {
+    "q": "What does Huck mean when he says, 'All right, then, I'll go to hell'?",
+    "options": ["He is giving up on life.", "He is rejecting society's morality to help Jim.", "He is joking with Tom Sawyer.", "He is afraid of dying."],
+    "correct": 1,
+    "feedback": "هذه هي ذروة التطور الأخلاقي لهك، حيث يختار إنقاذ صديقه حتى لو كلفه ذلك عقاباً دينياً حسب ظنه."
+  },
+  {
+    "q": "Huck always comes to his own conclusions which ....... society's norms.",
+    "options": ["support", "contradict", "praise", "both a & c"],
+    "correct": 1,
+    "feedback": "يعتمد هك على تجاربه الشخصية بدلاً من اتباع قواعد المجتمع، مما يضعه غالباً في تعارض مع الأعراف السائدة."
+  },
+  {
+    "q": "Widow Douglas attempts to '.......' Huck.",
+    "options": ["change", "criticize", "reform", "patronize"],
+    "correct": 2,
+    "feedback": "تحاول الأرملة دوغلاس 'إصلاح' هك لجعله طفلاً متحضراً ومقبولاً اجتماعياً."
+  },
+  {
+    "q": "Why does Huck fake his own death?",
+    "options": [
+      "To escape from Tom Sawyer",
+      "To avoid being kidnapped by Pap",
+      "To join a circus",
+      "To trick Jim"
+    ],
+    "correct": 1,
+    "feedback": "قام هك بتزييف موته هرباً من والده 'باب' الذي كان يختطفه ويسيء معاملته."
+  },
+  {
+    "q": "What is Jim's main goal in the novel?",
+    "options": [
+      "To find treasure",
+      "To become a farmer",
+      "To gain his freedom and reunite with his family",
+      "To help Huck become rich"
+    ],
+    "correct": 2,
+    "feedback": "الهدف الأساسي لجيم طوال الرواية هو نيل حريته ولم شمل عائلته مرة أخرى."
+  },
+  {
+    "q": "Which theme is most central to Huckleberry Finn?",
+    "options": [
+      "The importance of education",
+      "The value of money",
+      "The power of religion",
+      "The hypocrisy of civilized society"
+    ],
+    "correct": 3,
+    "feedback": "تنتقد الرواية نفاق 'المجتمع المتحضر' الذي يدعي الأخلاق بينما يشرع العبودية والظلم."
+  },
+  {
+    "q": "How does Mark Twain use satire in Huckleberry Finn?",
+    "options": [
+      "By criticizing social norms like racism and slavery.",
+      "By mocking romantic literature.",
+      "By praising the government.",
+      "By avoiding controversial topics."
+    ],
+    "correct": 0,
+    "feedback": "يستخدم توين السخرية كأداة قوية لانتقاد المجتمع والعنصرية والعبودية."
+  },
+  {
+    "q": "Who is Widow Douglas to Huck?",
+    "options": [
+      "His mother.",
+      "His aunt.",
+      "His legal guardian.",
+      "A con artist."
+    ],
+    "correct": 2,
+    "feedback": "الأرملة دوغلاس هي الوصية القانونية على هك وتحاول تربيته."
+  },
+  {
+    "q": "Jim said it made him all over trembly and feverish to be so close to.....",
+    "options": ["freedom", "adventure", "the duke", "Tom Sawyer"],
+    "correct": 0,
+    "feedback": "كان جيم يشعر بالإثارة والخوف مع اقترابه من تحقيق حريته المنشودة."
+  },
+  {
+    "q": "What is Pap Finn's attitude toward Huck's education?",
+    "options": [
+      "He encourages it.",
+      "He beats him for learning to read.",
+      "He hires a tutor for him.",
+      "He ignores it."
+    ],
+    "correct": 1,
+    "feedback": "كان والد هك يكره التعليم ويضرب ابنه لأنه تعلم القراءة، معتبراً ذلك تمرداً عليه."
+  },
+  {
+    "q": "Why does Huck give his fortune to Judge Thatcher?",
+    "options": [
+      "To invest it wisely.",
+      "To prevent Pap from stealing it.",
+      "To pay for Jim's freedom.",
+      "To impress Tom Sawyer."
+    ],
+    "correct": 1,
+    "feedback": "قام هك بالتنازل عن أمواله للقاضي ثاتشر لمنع والده من أخذها."
+  },
+  {
+    "q": "What crime do the Duke and King commit at the Wilks family funeral?",
+    "options": [
+      "They steal the coffin.",
+      "They pose as long-lost heirs.",
+      "They poison the minister.",
+      "They kidnap Mary Jane."
+    ],
+    "correct": 1,
+    "feedback": "انتحل الدوق والدوفين صفة أشقاء المتوفي للاستيلاء على الميراث."
+  },
+  {
+    "q": "Huck hides the Wilks family's gold in the:",
+    "options": ["coffin", "mattress", "humanity", "woods"],
+    "correct": 0,
+    "feedback": "قام هك بإخفاء الذهب داخل التابوت لمنع المحتالين من سرقته."
+  },
+  {
+    "q": "'You can't pray a lie.' - What does Huck realize here?",
+    "options": [
+      "Prayer is useless.",
+      "He can't pretend to support slavery.",
+      "Jim is truthful.",
+      "Tom is dishonest."
+    ],
+    "correct": 1,
+    "feedback": "أدرك هك أنه لا يمكنه الصلاة من أجل 'التوبة' عن مساعدة جيم بينما قلبه يريد مساعدته حقاً."
+  },
+  {
+    "q": "'I reckon I got to light out for the Territory ahead of the rest...' - What does this reveal about Huck?",
+    "options": [
+      "He fears adulthood.",
+      "He rejects societal constraints.",
+      "He loves adventure.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "feedback": "تعبر هذه الخاتمة عن رفض هك التام للمجتمع ورغبته في الحفاظ على حريته بعيداً عن 'التحضر'."
+  },
+  {
+    "q": "Who tells Huck that Pap is dead?",
+    "options": ["Tom", "Sally Phelps", "Jim", "Aunt Polly"],
+    "correct": 2,
+    "feedback": "جيم هو من رأى جثة والده في المنزل العائم ولكنه أخفى الأمر عن هك لحمايته حتى نهاية الرحلة."
+  },
+    {
+      "q": "What is the real name of the author known as Mark Twain?",
+      "options": ["Samuel Langhorne Clemens", "Tom Sawyer", "Huckleberry Finn", "Abraham Lincoln"],
+      "correct": 0,
+      "feedback": "الاسم الحقيقي للكاتب هو صموئيل كليمنس، وقد اختار 'مارك توين' كاسم مستعار مستوحى من عمله في السفن البخارية."
+    },
+    {
+      "q": "In what year is the novel 'The Adventures of Huckleberry Finn' set?",
+      "options": ["1861", "1835", "1840", "1910"],
+      "correct": 2,
+      "feedback": "تدور أحداث الرواية في عام 1840، أي قبل اندلاع الحرب الأهلية الأمريكية."
+    },
+    {
+      "q": "Which river serves as the main setting and route for the characters?",
+      "options": ["Missouri River", "Mississippi River", "Nile River", "Amazon River"],
+      "correct": 1,
+      "feedback": "نهر المسيسيبي هو المسرح الرئيسي للأحداث وطريق الهروب للعبيد نحو الشمال."
+    },
+    {
+      "q": "What does the pseudonym 'Mark Twain' signify?",
+      "options": ["A type of bird", "A famous explorer", "Two fathoms (water depth)", "A riverboat captain"],
+      "correct": 2,
+      "feedback": "المصطلح يعني 'قامتان' (حوالي 12 قدماً)، وهو العمق المناسب لرسو السفن البخارية بأمان."
+    },
+    {
+      "q": "How is Huckleberry Finn's social status often described?",
+      "options": ["Middle-class", "Wealthy elite", "White trash", "Royal descent"],
+      "correct": 2,
+      "feedback": "يوصف هك بأنه 'white trash' لكونه صبياً فقيراً مهمشاً اجتماعياً رغم ثروته المفاجئة."
+    },
+    {
+      "q": "Who is Jim in the novel?",
+      "options": ["Huck's father", "A runaway slave", "A member of Tom's gang", "A local judge"],
+      "correct": 1,
+      "feedback": "جيم هو عبد هارب يسعى للحرية ويصبح الصديق المقرب لهك خلال الرحلة."
+    },
+    {
+      "q": "What characterizes Tom Sawyer's approach to adventure?",
+      "options": ["Realism", "Romanticism", "Indifference", "Scientific method"],
+      "correct": 1,
+      "feedback": "توم ساير شخصية 'رومانسية' تعتمد على كتب المغامرات والخيال بعكس هك الواقعي."
+    },
+    {
+      "q": "The Jim Crow laws were enforced to ensure:",
+      "options": ["Economic equality", "Religious freedom", "Racial segregation", "Voting rights for all"],
+      "correct": 2,
+      "feedback": "قوانين 'جيم كرو' فرضت الفصل العنصري بين البيض والسود في الأماكن العامة."
+    },
+    {
+      "q": "What was the Ku Klux Klan's primary goal?",
+      "options": ["Supporting black civil rights", "Opposing black civil rights", "Promoting education", "Ending the Civil War"],
+      "correct": 1,
+      "feedback": "ظهرت هذه الجماعة كمنظمة عنصرية تعارض الحقوق المدنية للسود."
+    },
+    {
+      "q": "How did Huck fake his own death to escape his father?",
+      "options": ["By drowning in the river", "By killing a pig and spreading its blood", "By leaving a note", "By burning down the cabin"],
+      "correct": 1,
+      "feedback": "استخدم هك دم خنزير ليخدع الناس ويظنوا أنه قُتل، مما مكنه من الهروب."
+    },
+    {
+      "q": "Why did Jim run away from Miss Watson?",
+      "options": ["He wanted to find gold", "He heard plans to sell him", "He was tired of education", "He wanted to join a gang"],
+      "correct": 1,
+      "feedback": "هرب جيم بعد سماعه خططاً لبيعه، مما كان سيعني انفصاله عن عائلته."
+    },
+    {
+      "q": "What is the name of the fictional town where the story begins?",
+      "options": ["Florida", "St. Petersburg", "Jackson's Island", "Mississippi"],
+      "correct": 1,
+      "feedback": "تبدأ الأحداث في بلدة خيالية تسمى سانت بيترسبرغ في ميزوري."
+    },
+    {
+      "q": "Mark Twain is often referred to as:",
+      "options": ["The King of Comedy", "The Father of American Literature", "The Romantic Poet", "The Civil War Hero"],
+      "correct": 1,
+      "feedback": "يُلقب بـ 'أب الأدب الأمريكي' نظراً لمساهماته الكبيرة وتأثيره الواسع."
+    },
+    {
+      "q": "What did Tom Sawyer require from everyone who joined his gang?",
+      "options": ["To pay a fee", "To take an oath and sign in blood", "To bring a gun", "To be a student"],
+      "correct": 1,
+      "feedback": "فرض توم قسماً غليظاً وتوقيع الأسماء بالدم لإضفاء طابع درامي على عصابته."
+    },
+    {
+      "q": "According to Tom, what is the difference between 'burglary' and 'robbery'?",
+      "options": ["There is no difference", "Burglary is stealing cattle; Robbery is highway robbery", "Burglary is for heroes; Robbery is for villains", "Robbery is stealing from houses"],
+      "correct": 1,
+      "feedback": "بالنسبة لتوم، سرقة الماشية هي 'سطو' (burglary)، أما هم فهم 'قطاع طرق' (highwaymen)."
+    },
+    {
+      "q": "Whom did Huck offer as a 'family member' to be killed if he broke the gang's oath?",
+      "options": ["His father, Pap", "Tom Sawyer", "Miss Watson", "Widow Douglas"],
+      "correct": 2,
+      "feedback": "لأنه لم يجد والده، عرض هك التضحية بـ 'الآنسة واتسون' لينضم للعصابة."
+    },
+    {
+      "q": "What celestial event occurred on both the birth and death of Mark Twain?",
+      "options": ["Solar Eclipse", "Lunar Eclipse", "Halley's Comet", "Meteor Shower"],
+      "correct": 2,
+      "feedback": "ارتبطت حياة مارك توين بظهور مذنب هالي عند ولادته ووفاته."
+    },
+    {
+      "q": "What did the North (Union) fight for during the Civil War?",
+      "options": ["To keep slavery", "To abolish slavery", "To separate from the USA", "To expand to the West"],
+      "correct": 1,
+      "feedback": "حارب الشمال بقيادة لينكولن لإلغاء العبودية، بينما دعم الجنوب استمرارها."
+    },
+    {
+      "q": "Why did Huck lose interest in the story of Moses?",
+      "options": ["It was too difficult to read", "Because Moses was dead", "Because he didn't like religion", "Because Miss Watson told it"],
+      "correct": 1,
+      "feedback": "بمجرد معرفته أن موسى مات منذ زمن، فقد هك الاهتمام لأنه لا يهتم بالأموات."
+    },
+    {
+      "q": "Which of Mark Twain's works is considered his masterpiece?",
+      "options": ["The Adventures of Tom Sawyer", "The Adventures of Huckleberry Finn", "Life on the Mississippi", "The Golden Papers"],
+      "correct": 1,
+      "feedback": "تعتبر رواية 'مغامرات هكلبري فين' هي التحفة الفنية الكبرى لمارك توين."
+    },
+    {
+      "q": "Who tried to 'civilize' Huck through manners and education?",
+      "options": ["His father, Pap", "Jim", "Widow Douglas and Miss Watson", "Tom Sawyer"],
+      "correct": 2,
+      "feedback": "الأرملة دوغلاس وأختها الآنسة واتسون حاولتا تهذيب هك وتعليمه."
+    },
+    {
+      "q": "What was Huck's reaction to the 'good place' (heaven) described by Miss Watson?",
+      "options": ["He desperately wanted to go there", "He decided he didn't want to go if she was going there", "He didn't believe in it", "He thought it was for robbers"],
+      "correct": 1,
+      "feedback": "فضل هك ألا يذهب للجنة إذا كانت الآنسة واتسون ستكون هناك، وفضل رفقة توم ساير."
+    },
+    {
+      "q": "What was Pap Finn's motivation for returning to Huck?",
+      "options": ["To be a good father", "To take Huck's money", "To find Jim", "To join the army"],
+      "correct": 1,
+      "feedback": "عاد والد هك السكير طمعاً في المال الذي عثر عليه هك مع توم."
+    },
+    {
+      "q": "What is the main theme explored through Huck and Jim's relationship?",
+      "options": ["The struggle for wealth", "The complexities of race and friendship", "The importance of education", "The history of the Mississippi River"],
+      "correct": 1,
+      "feedback": "تمثل علاقتهما تعقيدات العرق والصداقة في مجتمع عنصري."
+    },
+    {
+      "q": "What was Huck's 'sugar-hogshead' used for?",
+      "options": ["Storing food", "A place to sleep when he felt free", "A trap for his father", "A boat for the river"],
+      "correct": 1,
+      "feedback": "كان هك ينام في برميل السكر عندما يهرب من حياة 'التحضر' ليشعر بالحرية."
+    },
+    {
+      "q": "How many chapters does the novel consist of?",
+      "options": ["10 chapters", "25 chapters", "43 chapters", "50 chapters"],
+      "correct": 2,
+      "feedback": "تتكون الرواية من 43 فصلاً."
+    },
+    {
+      "q": "Mark Twain was a strong supporter of which social cause?",
+      "options": ["Anti-technology movement", "Women's rights", "Expanding slavery", "Monarchy"],
+      "correct": 1,
+      "feedback": "على الرغم من نحافته عند الولادة التي لم ترضِ والدته، أصبح داعماً كبيراً لحقوق المرأة."
+    },
+    {
+      "q": "What did Miss Watson use to try and educate Huck?",
+      "options": ["A map of the river", "A spelling-book", "A pirate novel", "A book on technology"],
+      "correct": 1,
+      "feedback": "استخدمت الآنسة واتسون كتاب تهجئة (spelling-book) لتعليم هك القراءة والكتابة."
+    },
+    {
+      "q": "In Tom Sawyer's gang, what happens to someone who tells the secrets?",
+      "options": ["He is expelled", "He must pay a fine", "His throat is cut and carcass burnt", "He is sent to school"],
+      "correct": 2,
+      "feedback": "كان قانون العصابة دموياً (خياليًا) يقضي بقتل الخائن وحرق جثته."
+    },
+    {
+      "q": "Why did Huck return to live with the Widow Douglas after running away the first time?",
+      "options": ["He missed the food", "Tom Sawyer said he could only join the gang if he was 'respectable'", "He was afraid of his father", "The police caught him"],
+      "correct": 1,
+      "feedback": "أقنعه توم بالعودة لأن 'العصابة' تتطلب أشخاصاً محترمين اجتماعياً."
+    },
+    {"q": "What did Jim find inside the floating house that he kept Huck from seeing?",
+      "options": ["A stash of gold", "The body of Huck's father", "A group of robbers", "A runaway slave"],
+      "correct": 1,
+      "feedback": "اكتشف جيم جثة باب (والد هك) في البيت العائم لكنه منع هك من رؤية وجهه لحمايته مشاعرياً."
+    },
+    {
+      "q": "Why did Huck and Jim miss the town of Cairo in the fog?",
+      "options": ["They fell asleep", "They were chased by the duke", "A heavy fog caused them to miss it", "The raft broke apart"],
+      "correct": 2,
+      "feedback": "الضباب الكثيف كان عائقاً طبيعياً تسبب في تجاوزهما لمدينة كايرو التي كانت بوابتهما نحو الحرية."
+    },
+    {
+      "q": "What is the name of the two families involved in a violent feud?",
+      "options": ["The Wilks and the Phelps", "The Thatchers and the Douglases", "The Grangerfords and the Shepherdsons", "The Sawyers and the Finns"],
+      "correct": 2,
+      "feedback": "عائلتا جرانجرفورد وشيبردسون تمثلان الصراع العائلي غير المنطقي الذي شهده هك."
+    },
+    {
+      "q": "Who are the two con men that Huck and Jim encounter on the river?",
+      "options": ["Two runaway slaves", "A judge and a sheriff", "A duke and a king", "Tom Sawyer and Sid"],
+      "correct": 2,
+      "feedback": "المحتالان اللذان ادعيا أنهما دوق وملك استغلا هك وجيم وقاما بعدة عمليات نصب."
+    },
+    {
+      "q": "To whom did the duke and king sell Jim?",
+      "options": ["To Miss Watson", "To a local farmer at the Phelps's farm", "To Judge Thatcher", "To the Wilks sisters"],
+      "correct": 1,
+      "feedback": "باع المحتالان جيم للمزارع في مزرعة فيلبس مدعين أنه عبد هارب."
+    },
+    {
+      "q": "When Huck arrived at the Phelps's farm, who was he mistaken for?",
+      "options": ["A robber", "Tom Sawyer", "A runaway slave", "The king's son"],
+      "correct": 1,
+      "feedback": "عائلة فيلبس (خالة توم وعمه) ظنوا أن هك هو توم ساير القادم لزيارتهم."
+    },
+    {
+      "q": "How did Miss Watson ensure Jim's freedom before she died?",
+      "options": ["She sold him to the North", "She gave him money to buy his freedom", "She freed him in her will", "She helped him escape"],
+      "correct": 2,
+      "feedback": "كشف توم في النهاية أن جيم حر بالفعل لأن الآنسة واتسون أعتقته في وصيتها قبل وفاتها."
+    },
+    {
+      "q": "At the end of the novel, what does Huck decide to do?",
+      "options": ["Stay with Aunt Sally to be civilized", "Return to Miss Watson", "Head out West", "Stay on the Mississippi River"],
+      "correct": 2,
+      "feedback": "رفض هك محاولات 'تحضيره' مرة أخرى وقرر الذهاب غرباً بحثاً عن الحرية."
+    },
+    {
+      "q": "According to the text, how much money did Huck and Tom find in the cave?",
+      "options": ["One thousand dollars each", "Six thousand dollars apiece", "Twelve thousand dollars total", "A dollar a day"],
+      "correct": 1,
+      "feedback": "وجد هك وتوم 6000 دولار لكل منهما، وهي الثروة التي جعلتهما أغنياء."
+    },
+    {
+      "q": "What did Judge Thatcher do with Huck's money?",
+      "options": ["He spent it on a new school", "He put it out at interest", "He gave it to Pap Finn", "He hid it in a cave"],
+      "correct": 1,
+      "feedback": "وضع القاضي ثاتشر المال في البنك ليعود على هك بفائدة قدرها دولار واحد يومياً."
+    },
+    {
+      "q": "Why did Pap Finn return to town to see Huck?",
+      "options": ["Because he missed his son", "Because he heard Huck has money now", "To take Huck to school", "To work for the judge"],
+      "correct": 1,
+      "feedback": "الدافع الوحيد لعودة الأب السكير كان الطمع في أموال ابنه هك."
+    },
+    {
+      "q": "How did Pap react to Huck's ability to read and write?",
+      "options": ["He was proud of him", "He tore up Huck's school paper and felt insulted", "He asked Huck to teach him", "He gave him a reward"],
+      "correct": 1,
+      "feedback": "شعر باب بالإهانة لأن ابنه أصبح أفضل منه ومن بقية العائلة الذين لا يقرأون."
+    },
+    {
+      "q": "What did Pap do with the new coat the judge gave him?",
+      "options": ["He wore it to church", "He gave it to Huck", "He traded it for a jug of whisky", "He lost it in the river"],
+      "correct": 2,
+      "feedback": "رغم محاولة القاضي إصلاحه، قام باب ببيع المعطف الجديد ليشتري الخمر."
+    },
+    {
+      "q": "The judge eventually concluded that Pap could only be reformed with a:",
+      "options": ["Bible", "New house", "Shotgun", "Good education"],
+      "correct": 2,
+      "feedback": "بعد فشل كل المحاولات، يئس القاضي وقال إن الحل الوحيد لإصلاح باب هو 'بندقية صيد' (كناية عن استعصاء حالته)."
+    },
+    {
+      "q": "What magical object did Jim use to tell fortunes?",
+      "options": ["A crystal ball", "A hair-ball from an ox's stomach", "A deck of cards", "A gold coin"],
+      "correct": 1,
+      "feedback": "كان جيم يستخدم 'كرة شعر' استُخرجت من معدة ثور، مدعياً أن بداخلها روحاً تعرف كل شيء."
+    },
+    {
+      "q": "When Jim's hair-ball 'refused to talk,' what did it need?",
+      "options": ["Food", "Water", "Money", "A prayer"],
+      "correct": 2,
+      "feedback": "ادعى جيم أن الروح داخل كرة الشعر تحتاج إلى المال لكي تتحدث."
+    },
+    {
+      "q": "What kind of English does Jim speak in the novel?",
+      "options": ["Formal British English", "Broken or dialect English", "Old Shakespearean English", "Scientific English"],
+      "correct": 1,
+      "feedback": "يستخدم جيم لغة 'مكسرة' أو لهجة محلية، وهو ما يعكس واقعية مارك توين في تصوير الشخصيات."
+    },
+    {
+      "q": "Why did Huck believe the drowned man found in the river was not his father?",
+      "options": ["The man was too tall", "The man was floating on his back", "The man had no hair", "The man was wearing a suit"],
+      "correct": 1,
+      "feedback": "لاحظ هك أن الغريق يطفو على ظهره، وحسب معرفته، الرجال يطفون على وجوههم، مما يعني أن الجثة كانت لامرأة بملابس رجل."
+    },
+    {
+      "q": "When Jim first saw Huck on Jackson's Island, what did he think Huck was?",
+      "options": ["A robber", "A ghost", "A runaway slave", "A spy for Miss Watson"],
+      "correct": 1,
+      "feedback": "لأن الجميع ظنوا أن هك قُتل، اعتقد جيم في البداية أنه يرى شبحاً."
+    },
+    {
+      "q": "Mark Twain's use of local dialects and everyday language is an example of:",
+      "options": ["Romanticism", "Regionalism and Realism", "Science Fiction", "Historical Formalism"],
+      "correct": 1,
+      "feedback": "استخدام اللهجات المحلية يجعل مارك توين كاتباً 'إقليمياً' (Regionalist) و 'واقعياً' (Realist)."
+    },
+    {
+      "q": "What term is used for someone who wanted to end slavery, which Huck feared people would call him?",
+      "options": ["Confederate", "Abolitionist", "Regionalist", "Dandy"],
+      "correct": 1,
+      "feedback": "خشي هك أن يلقب بـ 'Abolitionist' (دعاة إلغاء العبودية) لمساعدته جيم، وهو ما كان يعتبر وصمة عار في مجتمعه آنذاك."
+    },
+    {
+      "q": "Why did Jim decide to run away from Miss Watson?",
+      "options": ["She didn't feed him", "He wanted to find gold", "He heard she was going to sell him to Orleans", "He wanted to join Tom's gang"],
+      "correct": 2,
+      "feedback": "هرب جيم بعد سماعه أن الآنسة واتسون تنوي بيعه لتاجر في 'أورليانز' رغم وعودها السابقة."
+    },
+    {
+      "q": "How did Huck feel about becoming an 'Abolitionist' in the eyes of society?",
+      "options": ["He was proud of it", "He didn't care about the difference", "He was terrified but decided not to tell on Jim", "He wanted to change the law"],
+      "correct": 2,
+      "feedback": "رغم خوفه من نظرة الناس، قرر هك الالتزام بوعده لجيم وعدم الوشاية به."
+    },
+    {
+      "q": "What did Huck notice about the 'Providence' taught by Widow Douglas vs. Miss Watson?",
+      "options": ["They were exactly the same", "The widow's was hopeful, while Miss Watson's was unhelpful", "They both encouraged him to smoke", "Neither of them mentioned God"],
+      "correct": 1,
+      "feedback": "رأى هك 'عنايتين إلهيتين': واحدة رحيمة (الأرملة) وأخرى قاسية (الآنسة واتсон)."
+    },
+    {
+      "q": "Why did the boys decide not to start their gang's activities on a Sunday?",
+      "options": ["They were too tired", "They said it would be 'wicked' (sinful) to do it on Sunday", "The police were watching", "Tom was busy reading"],
+      "correct": 1,
+      "feedback": "رغم تخطيطهم للجرائم، رفض الأولاد العمل يوم الأحد واعتبروه 'حراماً' لأسباب دينية."
+    },
+    {
+      "q": "What does 'Ransomed' mean according to Tom Sawyer's books?",
+      "options": ["Killing the prisoners", "Keeping prisoners until money is paid for them", "Freeing slaves", "Selling goods in the market"],
+      "correct": 1,
+      "feedback": "حسب كتب المغامرات التي يقرأها توم، الفدية تعني الاحتفاظ بالأسرى حتى يُدفع مقابل إطلاق سراحهم."
+    },
+    {
+      "q": "In Jim's dialect, what does 'Doan' hurt me' mean?",
+      "options": ["Do not hurt me", "Doing it hurts me", "Down with the hurt", "Did he hurt me?"],
+      "correct": 0,
+      "feedback": "هذا مثال على اللهجة التي استخدمها مارك توين لتصوير لغة العبيد في ذلك الوقت."
+    },
+    {
+      "q": "What was the occupation of Mark Twain before he became a famous writer?",
+      "options": ["A soldier", "A riverboat pilot", "A gold miner", "A teacher"],
+      "correct": 1,
+      "feedback": "عمل مارك توين كقائد لمركب نهري، ومن هنا استمد اسمه المستعار وخبرته بالمسيسيبي."
+    },
+    {
+      "q": "How did Huck react when he found his father sitting in his room?",
+      "options": ["He ran away immediately", "He stood looking at him while Pap sat in a chair", "He called the Widow Douglas", "He gave him all the money"],
+      "correct": 1,
+      "feedback": "عندما عاد هك لغرفته، وجد والده جالساً هناك ينتظره في مواجهة مباشرة."
+    },
+    {
+      "q": "What did Pap Finn call Huck because of his new clean clothes and lifestyle?",
+      "options": ["A hero", "A starchy, sweet-scented dandy", "A scholar", "A young king"],
+      "correct": 1,
+      "feedback": "سخر باب من ابنه واصفاً إياه بـ 'الغندور' بسبب ملابسه النظيفة وحياته الجديدة."
+    },
+    {
+      "q": "What did Pap Finn do every time he got money?",
+      "options": ["He saved it for Huck's education", "He got drunk and 'raised Cain' around town", "He gave it to the Widow Douglas", "He bought new clothes"],
+      "correct": 1,
+      "feedback": "يوضح النص أن 'باب' كان يستخدم المال دائماً للسكر وإثارة المشاكل، وهو ما يعكس فساد شخصيته."
+    },
+    {
+      "q": "Where did Pap Finn keep the key to the cabin at night?",
+      "options": ["In his pocket", "Under the floorboards", "Under his head (hat)", "He left it in the door"],
+      "correct": 2,
+      "feedback": "كان باب يضع المفتاح تحت رأسه ليلاً لمنع هك من الهروب، مما يظهر مدى تسلطه."
+    },
+    {
+      "q": "How did Pap Finn view Huck in terms of legal rights?",
+      "options": ["As a beloved son", "As his personal property", "As a free individual", "As a student of Judge Thatcher"],
+      "correct": 1,
+      "feedback": "يعتبر باب ابنه 'ملكية خاصة' (property) ويهاجم القانون الذي يحاول حماية الابن منه."
+    },
+    {
+      "q": "What was Pap's main complaint against the government and Judge Thatcher?",
+      "options": ["That they didn't provide enough food", "That they tried to take his son away after he raised him", "That the taxes were too high", "That they wouldn't let him vote"],
+      "correct": 1,
+      "feedback": "ينتقد باب الحكومة لأنها تساعد هك في الابتعاد عنه بعد أن تكبد عناء تربيته حسب ادعائه."
+    },
+    {
+      "q": "What did Pap threaten to do to Judge Thatcher and the town?",
+      "options": ["To sue them in court", "To leave the country for good", "To become a judge himself", "To burn down the school"],
+      "correct": 1,
+      "feedback": "هدد باب بترك البلاد نهائياً احتجاجاً على تدخل القاضي ثاتشر في شؤونه."
+    },
+    {
+      "q": "How did Jim lose his ten cents according to his story?",
+      "options": ["He bought food with it", "He gave it to a poor nigger", "He lost it in the river", "He invested it in a farm"],
+      "correct": 1,
+      "feedback": "يروي جيم أنه أعطى العشرة سنتات لفقير، مما يظهر جانبه الإنساني رغم فقره."
+    },
+    {
+      "q": "Who set up a 'bank' where Jim invested his money?",
+      "options": ["Judge Thatcher", "A one-legged nigger belonging to old Mister Bradish", "Tom Sawyer", "Miss Watson"],
+      "correct": 1,
+      "feedback": "استثمر جيم ماله في 'بنك' وهمي أسسه شخص آخر، وهو نقد ساخر للأنظمة المالية آنذاك."
+    },
+    {
+      "q": "Why did the 'banker' pay Jim thirty-five dollars instead of the usual rate?",
+      "options": ["Because Jim was a good friend", "To keep Jim out of the business so there wouldn't be two banks", "Because Jim threatened him", "Because Jim was the wealthiest"],
+      "correct": 1,
+      "feedback": "دفع له هذا المبلغ ليتجنب منافسة جيم له في 'تجارة البنوك'."
+    },
+    {
+      "q": "What happened to the 'bank' Jim invested in?",
+      "options": ["It became very successful", "The banker went broke and everything was lost", "It was stolen by robbers", "The government closed it"],
+      "correct": 1,
+      "feedback": "انتهى الأمر بخسارة كل شيء لأن 'المصرفي' لم يمتلك خطة حقيقية، مما يبرز براءة جيم."
+    },
+    {
+      "q": "Why does Jim consider himself 'rich' at the end of Chapter 8?",
+      "options": ["Because he found Huck's gold", "Because he owns himself, and he is worth $800", "Because he has a new raft", "Because Miss Watson gave him money"],
+      "correct": 1,
+      "feedback": "تعتبر هذه من أهم النقاط؛ جيم يرى نفسه غنياً لأنه 'يملك نفسه' وحريته تُقدر بـ 800 دولار."
+    },
+    {
+      "q": "What does Mark Twain use to criticize the hypocritical white society in the South?",
+      "options": ["Poetry", "Sarcasm and Jim's character", "Historical documents", "Legal reports"],
+      "correct": 1,
+      "feedback": "استخدم توين 'السخرية' (Sarcasm) من خلال لسان جيم لنقد زيف المجتمع الأبيض."
+    },
+    {
+      "q": "What was the setting of the cabin where Pap kept Huck?",
+      "options": ["In the middle of St. Petersburg", "In an old cabin in the woods/island", "At the Widow Douglas's house", "On a steamboat"],
+      "correct": 1,
+      "feedback": "احتجز باب هك في كوخ قديم ومنع عنه أي فرصة للهروب."
+    },
+    {
+      "q": "What did Huck and Jim find inside the floating house on the island?",
+      "options": ["A map to the North", "A dead man", "A chest of gold", "Miss Watson's clothes"],
+      "correct": 1,
+      "feedback": "وجدوا جثة ميت، وهو مشهد محوري (لاحقاً نكتشف أنه والد هك)."
+    },
+    {
+      "q": "In Jim's dialect, what does 'wuth eight hund'd dollars' mean?",
+      "options": ["Worth eight hundred dollars", "With eight hundred dogs", "Wait for eight hundred days", "Work for eight hundred dollars"],
+      "correct": 0,
+      "feedback": "هذا يعبر عن القيمة المالية التي كان يضعها المجتمع للعبيد في ذلك الوقت."
+    },
+    {
+      "q": "What did Pap do with the gun he had?",
+      "options": ["He used it to protect Huck", "He used it for fishing and hunting", "He sold it for whisky", "He gave it to Tom Sawyer"],
+      "correct": 1,
+      "feedback": "كان باب يستخدم البندقية المسروقة للصيد أثناء احتجازه لهك."
+    },
+    {
+      "q": "How did Pap describe his struggle with 'expense' and 'anxiety'?",
+      "options": ["As a joy of fatherhood", "As a burden that justifies his ownership of Huck", "As a reason to love Judge Thatcher", "As a lie"],
+      "correct": 1,
+      "feedback": "يتحجج باب بتكلفة تربية هك ليبرر استحقاقه للمال الذي يملكه ابنه."
+    },
+    {
+      "q": "What did Jim mean by 'I's rich now, come to look at it'?",
+      "options": ["He found the bank's money", "Self-ownership is the ultimate wealth", "He is returning to the South", "He has five dollars"],
+      "correct": 1,
+      "feedback": "يؤكد النص أن مارك توين يرى في ملكية الإنسان لنفسه الغنى الحقيقي."
+    },
+    {
+      "q": "What was the main reason Huck couldn't run off from the cabin?",
+      "options": ["He liked living with Pap", "Pap always locked the door and kept the key", "He didn't have a boat", "He was too sick"],
+      "correct": 1,
+      "feedback": "كان القفل الجسدي (المفتاح) هو العائق الأساسي أمام حرية هك في البداية."
+    },
+    {
+      "q": "According to the file, Mark Twain is against:",
+      "options": ["Education", "Slavery", "Fishing", "The North"],
+      "correct": 1,
+      "feedback": "يصرح الملف بوضوح أن مارك توين كان معارضاً للعبودية ويستخدم جيم لنقدها."
+    },
+    {
+      "q": "What did Pap call the law that helped Huck keep his money?",
+      "options": ["Fair and just", "A 'govment' (government) that takes a son away", "A helpful system", "A romantic novel"],
+      "correct": 1,
+      "feedback": "يصف باب القانون بكلمات تهكمية لأنه يقف عائقاً أمام طمعه في مال ابنه."
+    },
+    {
+      "q": "How did Jim respond when he lost his investment in the 'cow'?",
+      "options": ["He cried", "He said he only had five cents left", "He told a story about a 'one-legged nigger'", "He went back to Miss Watson"],
+      "correct": 2,
+      "feedback": "استخدم جيم القصص لتفسير خسائره المالية الساذجة."
+    },
+    {
+      "q": "What did Huck and Jim do with the items found in the floating house?",
+      "options": ["They left them for the police", "They took (looted) supplies", "They burned the house", "They gave them to the Poor"],
+      "correct": 1,
+      "feedback": "أخذ هك وجيم المؤن من البيت العائم للبقاء على قيد الحياة."
+    },
+    {
+      "q": "The phrase 'raised Cain' used in the text means:",
+      "options": ["Raised a child", "Caused a lot of trouble and noise", "Planted crops", "Built a house"],
+      "correct": 1,
+      "feedback": "هو تعبير اصطلاحي يعني إثارة الفوضى والمشاكل، وغالباً ما يرتبط بسكر باب."
+    },
+    {
+      "q": "Who did Pap say was helping Huck to 'keep me out o' my property'?",
+      "options": ["Widow Douglas", "Old Judge Thatcher", "Jim", "Tom Sawyer"],
+      "correct": 1,
+      "feedback": "يتهم باب القاضي ثاتشر بالتآمر لحرمانه من 'ملكيته' (التي هي ابنه وماله)."
+    },
+    {
+      "q": "Why was Jim the 'on'y one dat had much' in the bank investment?",
+      "options": ["Because he stole it", "Because he saved ten cents and five dollars", "Because Miss Watson gave it to him", "Because he found it on the island"],
+      "correct": 1,
+      "feedback": "بالمقارنة مع العبيد الآخرين، كان جيم يملك 'مبلغاً كبيراً' (بمنظورهم) وهو 5 دولارات."
+    },
+    {
+      "q": "In Chapter 9, where did Huck and Jim find the floating house?",
+      "options": ["In the middle of the river", "On the island", "Near the town", "In Cairo"],
+      "correct": 1,
+      "feedback": "اكتشفوا البيت العائم على الجزيرة بعد الفيضان."
+    },
+    {
+      "q": "What characterizes the dialogue used for Jim in the text?",
+      "options": ["Standard American English", "African American Vernacular English (Dialect)", "French", "Latin"],
+      "correct": 1,
+      "feedback": "استخدم توين اللهجة (Dialect) لتعزيز واقعية شخصية جيم."
+    },
+    {
+      "q": "What was the result of Jim's five-dollar investment in the bank?",
+      "options": ["He got thirty-five dollars", "He lost it all when the bank went broke", "He bought a boat", "He gave it to Huck"],
+      "correct": 1,
+      "feedback": "رغم الوعود الكبيرة، خسر جيم ماله بسبب فشل 'البنك'."
+    },
+    {
+      "q": "How did Pap Finn obtain the gun mentioned in the text?",
+      "options": ["He bought it", "He stole it", "It was a gift from the judge", "He found it in the river"],
+      "correct": 1,
+      "feedback": "يشير هك إلى أن والده سرق البندقية التي كان يستخدمها."
+    },
+    {
+      "q": "What did Jim wish for at the end of his 'wealth' speech?",
+      "options": ["To have more money", "To be free and have the $800 in cash", "To return to slavery", "To kill Pap"],
+      "correct": 1,
+      "feedback": "تمنى جيم لو كان يملك قيمة نفسه (800 دولار) نقداً، لكنه يدرك أن حريته هي الغنى الحقيقي."
+    },
+    {
+      "q": "In their debate about language, why does Jim believe it's nonsense for a Frenchman to talk differently from an American?",
+      "options": ["Because all people should speak English", "Because a Frenchman is a man, so he should talk like a man", "Because he thinks French is just a code", "Because he hates foreigners"],
+      "correct": 1,
+      "feedback": "يعتمد جيم على منطق فطري بسيط: بما أن الفرنسي إنسان، فيجب أن يتحدث لغة البشر (التي يعرفها جيم)، مستشهداً بأن القطة لا تتحدث كالكلب لأنها ليست من فصيلته."
+    },
+    {
+      "q": "What animal does Huck use as an example to explain to Jim why people speak different languages?",
+      "options": ["A dog and a horse", "A cat and a cow", "A rabbit and a fox", "A bird and a fish"],
+      "correct": 1,
+      "feedback": "استخدم هك القطة والبقرة ليقنع جيم أن الاختلاف في الكلام طبيعي بين الكائنات، لكن جيم غلبه بالمنطق في النهاية."
+    },
+    {
+      "q": "How does Huck conclude the argument about the French language?",
+      "options": ["He convinces Jim he is right", "He realizes Jim is smarter", "He says 'you can't learn a nigger to argue' and quits", "He explains the history of France"],
+      "correct": 2,
+      "feedback": "يعكس هذا الموقف عنصرية المجتمع آنذاك؛ فعندما فشل هك في غلب جيم بالمنطق، انسحب مستخدماً مبررات عنصرية حول ذكاء العبيد."
+    },
+    {
+      "q": "In Chapter 15, how does Huck protect Jim from the men looking for runaway slaves?",
+      "options": ["He tells them Jim has a gun", "He tells them his father is sick with smallpox", "He hides Jim under the corn", "He says Jim is a free man"],
+      "correct": 1,
+      "feedback": "استخدم هك 'الجدري' كخدعة ذكية لأن الناس كانوا يخافون جداً من العدوى، مما أجبرهم على الابتعاد عن الجزيرة."
+    },
+    {
+      "q": "What was Huck's internal conflict (moral struggle) when he had the chance to give Jim up?",
+      "options": ["He was afraid of getting arrested", "He felt he wasn't 'man enough' (white man) to do what society calls 'right'", "He wanted to take Jim's money", "He was bored"],
+      "correct": 1,
+      "feedback": "يوضح النص صراع هك بين 'الضمير الاجتماعي' (تسليم العبد) و'الضمير الإنساني' (الوفاء لصديقه)، ووصف نفسه بالضعف لأنه لم يسلمه."
+    },
+    {
+      "q": "After Huck lies to protect Jim, how does he feel about his decision?",
+      "options": ["He feels proud of his lie", "He says he would feel bad regardless of what he did", "He decides to never lie again", "He wants to return to Miss Watson"],
+      "correct": 1,
+      "feedback": "يشعر هك بالتشتت؛ فهو يرى أنه أخطأ قانونياً لكنه يشعر أن تسليم جيم كان سيجعله يشعر بالسوء أيضاً."
+    },
+    {
+      "q": "In Chapter 18, who invites Huck to live with them after nearly shooting him?",
+      "options": ["The Shepherdsons", "The Wilks brothers", "Buck and the Grangerfords", "Judge Thatcher"],
+      "correct": 2,
+      "feedback": "استقبلت عائلة جرانجرفورد هك بعد أن تأكدوا أنه ليس من عائلة شيبردسون المعادية."
+    },
+    {
+      "q": "How does Huck introduce himself and Jim to the Grangerfords?",
+      "options": ["As a wealthy tourist", "As a runaway from his family with his slave", "As Tom Sawyer's cousin", "As a riverboat pilot"],
+      "correct": 1,
+      "feedback": "ادعى هك أنه هارب من عائلته وأحضر عبده (جيم) معه ليبرر وجودهما معاً."
+    },
+    {
+      "q": "What term is used to describe the Grangerfords' social standing?",
+      "options": ["White trash", "Middle-class", "Wealthy family with a proud heritage", "Poor farmers"],
+      "correct": 2,
+      "feedback": "عائلة جرانجرفورد تمثل الطبقة الأرستقراطية الجنوبية التي تملك المال والخدم والتقاليد."
+    },
+    {
+      "q": "What is the defining characteristic of the relationship between the Grangerfords and Shepherdsons?",
+      "options": ["Business partnership", "A violent and senseless feud", "Religious cooperation", "A shared love for literature"],
+      "correct": 1,
+      "feedback": "يمثل 'الثأر' (Feud) بين العائلتين ذروة العنف غير المنطقي في المجتمع الجنوبي."
+    },
+    {
+      "q": "How did Miss Charlotte react when Buck told his tale about the feud?",
+      "options": ["She cried in fear", "She held her head up like a queen with snapping eyes", "She told him to stop fighting", "She laughed"],
+      "correct": 1,
+      "feedback": "رد فعلها يظهر الفخر العائلي الممزوج بالعنف؛ فهي تشجع هذا الصراع الدموي."
+    },
+    {
+      "q": "What was Miss Sophia's reaction to the news of the encounter with the Shepherdsons?",
+      "options": ["She turned pale then regained color when she heard no one was hurt", "She cheered for Buck", "She ignored the news", "She ran away"],
+      "correct": 0,
+      "feedback": "شحوب وجه صوفيا كان تلميحاً مبكراً لمشاعرها تجاه الطرف الآخر (شيبردسون)، وهو ما سيتضح لاحقاً في الرواية."
+    },
+    {
+      "q": "What did Buck say when Huck asked him if the Shepherdson had ever done anything to him?",
+      "options": ["He stole my horse", "He killed my brother", "He never done nothing to me", "He insulted my father"],
+      "correct": 2,
+      "feedback": "هذه هي السخرية المأساوية؛ العائلات تقتل بعضها دون أسباب شخصية مباشرة، فقط لأن هناك 'ثأراً' قديماً."
+    },
+    {
+      "q": "According to the text, what did the men on the river give Huck after he lied about the smallpox?",
+      "options": ["A map to Cairo", "Two twenty-dollar gold pieces", "A new boat", "Nothing but advice"],
+      "correct": 1,
+      "feedback": "بدافع الشفقة والخوف، أعطوه المال لمساعدته (كما ظنوا) في علاج والده المريض بالجدري."
+    },
+    {
+      "q": "What does the word 'spunk' mean as used by Huck in the text?",
+      "options": ["Intelligence", "Courage/Brave spirit", "Money", "Disease"],
+      "correct": 1,
+      "feedback": "استخدم هك كلمة 'spunk' ليشير إلى الشجاعة التي افتقر إليها (حسب ظنه) للقيام بفعل 'أبيض' وتسليم جيم."
+    },
+    {
+      "q": "In Jim's argument, if a Frenchman is a man, why shouldn't he talk like a man?",
+      "options": ["Because he is from Europe", "Because it's not 'natural and right'", "Because he doesn't know English", "Because he is a cat"],
+      "correct": 1,
+      "feedback": "جيم يرى أن الكلام لغة بشرية موحدة، وأي اختلاف هو خروج عن الطبيعة 'natural and right'."
+    },
+    {
+      "q": "Why was Huck 'weakening' when the men asked if the person on the raft was white or black?",
+      "options": ["He was hungry", "He felt guilty about helping a slave", "The raft was sinking", "He was afraid of the dark"],
+      "correct": 1,
+      "feedback": "كان هك على وشك الاستسلام للضغوط الاجتماعية وتسليم جيم، لكنه تماسك وكذب في اللحظة الأخيرة."
+    },
+    {
+      "q": "What did Jim do after the men left and Huck returned to the raft?",
+      "options": ["He yelled at Huck", "He was hiding in the water and praised Huck for his lie", "He tried to run away", "He was sleeping"],
+      "correct": 1,
+      "feedback": "كان جيم يختبئ في الماء خوفاً، ووصف كذبة هك بأنها أنقذت حياته."
+    },
+    {
+      "q": "What is a 'corn-crib' as mentioned in the setting of Chapter 18?",
+      "options": ["A type of hat", "A storage for corn (granary)", "A weapon", "A small boat"],
+      "correct": 1,
+      "feedback": "حظائر الذرة هي جزء من ريفية المكان حيث دار الحوار السري بين هك وبوك جرانجرفورد."
+    },
+    {
+      "q": "What did Jim mean by 'Dad blame it' in his speech?",
+      "options": ["He was praising his father", "It is an expression of frustration or emphasis", "He was blaming the weather", "He was talking about the king"],
+      "correct": 1,
+      "feedback": "تعبير شعبي يستخدمه جيم لإظهار مدى استغرابه من منطق هك الضعيف حول اللغة."
+    },
+    {
+      "q": "How many men were in the boat that Huck encountered while looking for Cairo?",
+      "options": ["Only one", "Two men with guns", "A whole family", "The duke and the king"],
+      "correct": 1,
+      "feedback": "كان هناك رجلان مسلحان يبحثان عن خمسة عبيد هاربين."
+    },
+    {
+      "q": "Why didn't the men go to the raft to check on Huck's 'father' themselves?",
+      "options": ["They were too busy", "They were afraid of catching smallpox", "They didn't have a boat", "They trusted Huck's face"],
+      "correct": 1,
+      "feedback": "الخوف من المرض (الجدري) كان أقوى من رغبتهم في أداء واجبهم القانوني."
+    },
+    {
+      "q": "What happened to the raft after the encounter with the large steamboat?",
+      "options": ["It was stolen", "It was smashed by the steamboat, separating Huck and Jim", "It reached Cairo safely", "It was sold"],
+      "correct": 1,
+      "feedback": "اصطدمت سفينة بخارية بالمركب (الرّفت)، مما أدى لتشتت هك وجيم وبداية أحداث عائلة جرانجرفورد."
+    },
+    {
+      "q": "What was Buck's reason for trying to kill the Shepherdson?",
+      "options": ["Personal insult", "Because of the feud (no direct reason needed)", "He owed him money", "To win a prize"],
+      "correct": 1,
+      "feedback": "في عرف 'الثأر'، القتل هو واجب لمجرد الانتماء للعائلة الأخرى، دون الحاجة لسبب شخصي."
+    },
+    {
+      "q": "How does Huck describe the two young men of the Grangerford family?",
+      "options": ["They were friendly and laughing", "They looked dark and said nothing", "They were scared", "They were dressed as slaves"],
+      "correct": 1,
+      "feedback": "تصويرهم بأنهم 'dark' ومصمتون يعكس الجدية والعدوانية الكامنة في هذه العائلة."
+    },
+    {
+      "q": "What did the men on the river advise Huck to do regarding his 'sick father'?",
+      "options": ["Go to the next town and don't tell anyone about the sickness", "Leave him in the woods", "Pray for him", "Give him up to the law"],
+      "correct": 0,
+      "feedback": "نصحوه بالكذب وعدم إخبار أحد بالمرض لكي يجد من يساعده، وهذا تناقض أخلاقي مثير للسخرية."
+    },
+    {
+      "q": "What is the 'bad place' Huck mentioned in the previous file (revisited here)?",
+      "options": ["School", "Hell", "The North", "Mississippi"],
+      "correct": 1,
+      "feedback": "يظل مفهوم 'المكان السيئ' (النار) يطارد هك كلما شعر أنه يفعل شيئاً يخالف تعاليم الكنيسة والمجتمع."
+    },
+    {
+      "q": "In the debate, Huck says 'you can't learn a nigger to argue'. This shows:",
+      "options": ["Huck's intellectual superiority", "Mark Twain's use of irony to show Huck's limitations", "Jim's lack of intelligence", "A fact of the 19th century"],
+      "correct": 1,
+      "feedback": "يستخدم توين هذه العبارة ليظهر أن هك، رغم طيبته، لا يزال متأثراً بجهل مجتمعه وتحيزاته."
+    },
+    {
+      "q": "Why does Huck take Jim with him to the Grangerfords as his 'slave'?",
+      "options": ["To humiliate Jim", "To hide Jim's identity as a runaway", "Because Jim wanted to work", "Because they needed money"],
+      "correct": 1,
+      "feedback": "التظاهر بأن جيم عبده الخاص كان الطريقة الوحيدة لبقائهما معاً بأمان داخل هذا المجتمع الأرستقراطي."
+    },
+    {
+      "q": "Which character represents the 'Romantic' ideals that lead to the violent feud?",
+      "options": ["Huck", "Jim", "The Grangerfords", "The Duke"],
+      "correct": 2,
+      "feedback": "عائلة جرانجرفورد تمثل الرومانسية المشوهة؛ حيث يتم تقديس 'الشرف' والتقاليد لدرجة تبرير القتل العبثي."
+    },
+    {
+      "q": "Why was Jim upset and ashamed of Huck at the beginning of the file?",
+      "options": ["Huck stole his food", "Huck played a mean trick on him regarding the fog", "Huck wanted to return to Miss Watson", "Huck lost the raft"],
+      "correct": 1,
+      "feedback": "شعر جيم بالإهانة لأن هك حاول إقناعه بأن الضياع في الضباب كان مجرد حلم، مما جعل جيم يشعر بأنه أحمق."
+    },
+    {
+      "q": "What does Jim call people who put 'dirt' on their friends' heads and make them ashamed?",
+      "options": ["Kings", "Trash", "Gentlemen", "Brothers"],
+      "correct": 1,
+      "feedback": "استخدم جيم كلمة 'Trash' (قمامة) لوصف من يخدع أصدقاءه، وهي كلمة قوية هزت كيان هك الأخلاقي."
+    },
+    {
+      "q": "How long did it take Huck to work up the courage to apologize to Jim?",
+      "options": ["Five minutes", "Fifteen minutes", "An hour", "A whole day"],
+      "correct": 1,
+      "feedback": "استغرق هك 15 دقيقة ليقهر كبرياءه 'كأبيض' ويعتذر لزنجي، وهو انتصار أخلاقي كبير."
+    },
+    {
+      "q": "What was Huck's reaction after he finally humbled himself and apologized to Jim?",
+      "options": ["He regretted it", "He 'warn't ever sorry for it afterwards'", "He felt embarrassed", "He decided to leave Jim"],
+      "correct": 1,
+      "feedback": "بعد الاعتذار، لم يندم هك أبداً، بل شعر براحة لأن الصداقة أهم من الفوارق العرقية."
+    },
+    {
+      "q": "According to the notes, why couldn't Huck easily see that Jim was angry at first?",
+      "options": ["Jim was wearing a mask", "Because black people's features do not show anger like white people who turn red", "Jim didn't say anything", "Huck was too tired"],
+      "correct": 1,
+      "feedback": "يوضح الملف ملاحظة هامة: البشرة السمراء لا يتغير لونها كبشرة البيض (التي تحمر عند الغضب)، لذا لم يفهم هك حزن جيم فوراً."
+    },
+    {
+      "q": "Mark Twain makes Huck apologize to Jim to prove that:",
+      "options": ["Huck is weak", "Twain is not a racist", "Jim is a king", "The river is dangerous"],
+      "correct": 1,
+      "feedback": "فعل الاعتذار هذا هو دليل قاطع يضعه المؤلف ليؤكد أنه ضد العنصرية."
+    },
+    {
+      "q": "How did Jim feel when they were 'so close to freedom' near Cairo?",
+      "options": ["Angry", "Trembly and feverish", "Sleepy", "Bored"],
+      "correct": 1,
+      "feedback": "اقتراب الحرية جعل جيم يرتجف ويشعر بالحمى من شدة الإثارة والتوتر."
+    },
+    {
+      "q": "Why did Huck also start to feel 'trembly and feverish' in Chapter 16?",
+      "options": ["He had the flu", "He realized he was helping a slave escape, which he was taught was a sin", "He was afraid of the dark", "He saw a ghost"],
+      "correct": 1,
+      "feedback": "شعر هك بالاضطراب لأنه بدأ يدرك أنه 'المسؤول' عن هروب جيم، وهو ما يخالف تربيته الاجتماعية."
+    },
+    {
+      "q": "When Huck tried to pray, why did he feel he couldn't?",
+      "options": ["He forgot the words", "Because his heart wasn't right; he was trying to lie to God", "The noise on the river was too loud", "Miss Watson wasn't there"],
+      "correct": 1,
+      "feedback": "لم يستطع الصلاة لأنه كان يحاول التظاهر بالندم على مساعدة جيم بينما قلبه يريد حماية صديقه."
+    },
+    {
+      "q": "What did Huck write in the letter to Miss Watson?",
+      "options": ["A request for money", "Telling her that Jim was at the Phelps' farm", "An apology for running away", "A poem about the river"],
+      "correct": 1,
+      "feedback": "كتب هك رسالة يخبر فيها الآنسة واتسون بمكان جيم 'ليتطهر من ذنبه' اجتماعياً."
+    },
+    {
+      "q": "What memories of Jim came to Huck's mind while he was deciding whether to send the letter?",
+      "options": ["Jim's cooking", "Jim standing Huck's watch so he could sleep, and their shared laughter", "Jim's stories about gold", "Jim's bank investment"],
+      "correct": 1,
+      "feedback": "تذكر هك إنسانية جيم وتضحيته من أجله، مما جعله يتردد في خيانته."
+    },
+    {
+      "q": "What is the most famous line Huck says after tearing up the letter?",
+      "options": ["'I'm going home'", "'All right, then, I'll go to hell'", "'I want to be rich'", "'Tom is my friend'"],
+      "correct": 1,
+      "feedback": "هذه هي قمة الرواية؛ فضل هك الذهاب للنار (حسب اعتقاده) على أن يخون صديقه جيم."
+    },
+    {
+      "q": "After tearing the letter, what did Huck decide about 'reforming'?",
+      "options": ["He would try harder to be good", "He never thought no more about reforming and would take up 'wickedness'", "He would go to church", "He would go back to school"],
+      "correct": 1,
+      "feedback": "قرر هك ترك محاولات الإصلاح الاجتماعي التي يراها 'خيراً' وفضل ما يسمونه 'خبثاً' وهو الوفاء لجيم."
+    },
+    {
+      "q": "Where does Huck arrive in Chapter 32?",
+      "options": ["St. Petersburg", "Jackson's Island", "Phelps's farm", "Cairo"],
+      "correct": 2,
+      "feedback": "وصل هك إلى مزرعة عائلة فيلبس حيث كان جيم محتجزاً."
+    },
+    {
+      "q": "Who did Aunt Sally mistake Huck for?",
+      "options": ["Jim", "Tom Sawyer", "A new worker", "Her brother"],
+      "correct": 1,
+      "feedback": "ظنت الخالة سالي أن هك هو ابن أختها توم ساير الذي كانت تنتظر وصوله."
+    },
+    {
+      "q": "How old is Aunt Sally described in the file?",
+      "options": ["Twenty-five", "Forty-five or fifty-year-old", "Seventy", "Eighty"],
+      "correct": 1,
+      "feedback": "وصفها النص بأنها امرأة في الخمسينيات من عمرها تقريباً."
+    },
+    {
+      "q": "What was Aunt Sally holding in her hand when she ran to meet Huck?",
+      "options": ["A gun", "A spinning-stick", "A letter", "A piece of bread"],
+      "correct": 1,
+      "feedback": "كانت تحمل 'spinning-stick' (عصا غزل)، مما يوضح طبيعة حياتها الريفية."
+    },
+    {
+      "q": "How did Huck feel when he was mistaken for Tom Sawyer?",
+      "options": ["He was scared and ran away", "He played along to avoid trouble", "He told the truth immediately", "He got angry"],
+      "correct": 1,
+      "feedback": "وجد هك أن تقمص شخصية توم سيسهل عليه المهمة ويجنبه المشاكل."
+    },
+    {
+      "q": "The Phelps's farm is described as a:",
+      "options": ["Large industrial factory", "One-horse cotton plantation", "Castle", "Mining town"],
+      "correct": 1,
+      "feedback": "مزرعة قطن صغيرة وبسيطة، وهو وصف يعكس ريف الجنوب."
+    },
+    {
+      "q": "What does the word 'humble myself' mean in the context of Huck and Jim?",
+      "options": ["To boast", "To lower one's pride and admit wrong", "To hide", "To get angry"],
+      "correct": 1,
+      "feedback": "تعني التواضع والاعتراف بالخطأ، وهو ما فعله هك تجاه جيم."
+    },
+    {
+      "q": "When Huck said 'it was in my line, being brung up to it,' what was he referring to?",
+      "options": ["Education", "Wickedness (not following society's rules)", "Slavery", "Farming"],
+      "correct": 1,
+      "feedback": "يقصد أن حياة 'التشرد' وعدم اتباع القوانين هي ما اعتاد عليه منذ صغره."
+    },
+    {
+      "q": "What did Huck do with the letter he wrote to Miss Watson?",
+      "options": ["He mailed it", "He tore it up", "He lost it", "He gave it to Jim"],
+      "correct": 1,
+      "feedback": "قام بتمزيقها في لحظة حاسمة، مختاراً الوفاء على القانون."
+    },
+    {
+      "q": "How did Huck describe the time spent floating on the raft with Jim?",
+      "options": ["Boring and long", "Talking, singing, and laughing", "Dangerous and scary", "Silent and sad"],
+      "correct": 1,
+      "feedback": "كانت ذكريات مليئة بالسعادة والمشاركة الإنسانية."
+    },
+    {
+      "q": "Why did Huck think his heart was 'wicked'?",
+      "options": ["Because he stole the raft", "Because he was helping a slave escape", "Because he didn't like school", "Because he lied to Pap"],
+      "correct": 1,
+      "feedback": "في نظر مجتمعه، مساعدة عبد على الهرب هي جريمة، ولأن هك صدق مجتمعه ظن نفسه شريراً."
+    },
+    {
+      "q": "What was the weather like when Huck was reflecting on his friendship with Jim?",
+      "options": ["Always sunny", "Moonlight and storms", "Snowy", "Windy"],
+      "correct": 1,
+      "feedback": "استخدم توين تقلبات الجو (ضوء القمر والعواصف) ليعبر عن تقلبات رحلتهما وصراعهما."
+    },
+    {
+      "q": "When Jim said 'trash is what people is dat puts dirt on de head er dey fren's', what was the 'dirt'?",
+      "options": ["Actual mud", "The lie/trick Huck played about the fog", "The lack of money", "The smallpox lie"],
+      "correct": 1,
+      "feedback": "الـ 'dirt' هنا مجازي ويعني الخداع الذي يقلل من شأن الصديق."
+    },
+    {
+      "q": "Who is Aunt Sally related to?",
+      "options": ["Miss Watson", "Tom Sawyer", "Huckleberry Finn", "Judge Thatcher"],
+      "correct": 1,
+      "feedback": "هي خالة توم ساير، مما يمهد لظهور توم في الفصول الأخيرة."
+    },
+    {
+      "q": "What does Huck mean by 'shoved the whole thing out of my head'?",
+      "options": ["He forgot his name", "He stopped worrying about society's morality and decided to follow his heart", "He forgot the river route", "He stopped thinking about Tom"],
+      "correct": 1,
+      "feedback": "قرر التوقف عن الصراع العقلي واتباع فطرته السليمة."
+    },
+    {
+      "q": "In the file, what did Huck say he would 'take up' again?",
+      "options": ["Schooling", "Wickedness", "Religion", "Trading"],
+      "correct": 1,
+      "feedback": "يقصد بالخبث (Wickedness) هنا الاستمرار في حماية جيم ضد القانون."
+    },
+    {
+      "q": "What did Huck notice about the plantations in Chapter 32?",
+      "options": ["They were all different", "They all look alike", "They were empty", "They were built of stone"],
+      "correct": 1,
+      "feedback": "لاحظ أن مزارع القطن الصغيرة تتشابه جميعاً في الشكل."
+    },
+    {
+      "q": "How does Huck feel as he helps Mary Jane against the King and the Duke?",
+      "options": ["Confident and happy", "A mix of fear and hope", "Bored and indifferent", "Angry and violent"],
+      "correct": 1,
+      "feedback": "يشعر هك بمزيج من الخوف والأمل لأنه يخاطر بكشف نفسه لحماية ماري جين من احتيال الملك والدوق."
+    },
+    {
+      "q": "Who arrived at the scene that made the King and the Duke turn 'pale' (potentially)?",
+      "options": ["Aunt Polly", "The real Wilks brothers (an old gentleman and a younger one with a broken arm)", "Judge Thatcher", "Pap Finn"],
+      "correct": 1,
+      "feedback": "وصول الأخوين الحقيقيين (أحدهما كبير في السن والآخر يده مجبرة) وضع المحتالين في مأزق حقيقي."
+    },
+    {
+      "q": "How did the King react when the real newcomers arrived?",
+      "options": ["He ran away", "He gazed at them sorrowfully as if they were the frauds", "He admitted his guilt", "He laughed at them"],
+      "correct": 1,
+      "feedback": "تظاهر الملك بالحزن والتعجب، مدعياً بوقاحة أن القادمين الجدد هم المحتالون، ووصفه هك بأنه فعل ذلك بشكل 'رائع' (Admirable) في التمثيل."
+    },
+    {
+      "q": "When Tom Sawyer was shot in the leg, what did Jim do?",
+      "options": ["He ran away to freedom", "He stayed to help the doctor treat Tom, risking his own safety", "He blamed Huck", "He hid in the woods"],
+      "correct": 1,
+      "feedback": "أظهر جيم نبل أخلاقه بتفضيله البقاء لمساعدة توم المصاب على الهروب نحو الحرية، مما أثار إعجاب الطبيب."
+    },
+    {
+      "q": "What did the doctor say about Jim's character after he helped with Tom?",
+      "options": ["He is a dangerous runaway", "He is a 'good nigger' and worth a thousand dollars", "He should be punished", "He knows nothing about medicine"],
+      "correct": 1,
+      "feedback": "أثنى الطبيب على جيم قائلاً إنه ليس عبداً سيئاً وأنه يستحق الكثير لنبل تصرفه."
+    },
+    {
+      "q": "When Tom woke up at Aunt Sally's, what secret did he reveal about Jim?",
+      "options": ["Jim is still a slave", "Jim is as free as any creature because Miss Watson freed him in her will", "Jim stole the money", "Jim is a king"],
+      "correct": 1,
+      "feedback": "كشف توم أن جيم حر بالفعل منذ شهرين لأن الآنسة واتسون أعتقته في وصيتها قبل وفاتها."
+    },
+    {
+      "q": "Why did Miss Watson free Jim in her will?",
+      "options": ["Because he paid her", "Because she was ashamed that she ever planned to sell him down the river", "Because Tom told her to", "Because she liked Huck"],
+      "correct": 1,
+      "feedback": "شعرت الآنسة واتسون بالخجل من نيتها السابقة لبيعه، فقررت التكفير عن ذلك بإعتاقه."
+    },
+    {
+      "q": "How did Aunt Sally react when Tom told her to 'turn him loose'?",
+      "options": ["She agreed immediately", "She was confused and asked 'What does the child mean?'", "She got angry", "She cried"],
+      "correct": 1,
+      "feedback": "صُدمت الخالة سالي ولم تفهم في البداية لماذا يطالب توم بتحرير 'عبد هارب'."
+    },
+    {
+      "q": "What was the Duke's reaction when the crowd yelled and laughed at the new arrivals?",
+      "options": ["He turned pale", "He didn't let on he suspected anything and stayed 'happy and satisfied'", "He fainted", "He started a fight"],
+      "correct": 1,
+      "feedback": "استمر الدوق في التظاهر بالرضا والثقة لكي لا يثير الشبهات حول احتياله."
+    },
+    {
+      "q": "According to the doctor, why did Jim 'crawl out' from hiding?",
+      "options": ["To find food", "To help the doctor cut the bullet out of Tom's leg", "To surrender", "To talk to Huck"],
+      "correct": 1,
+      "feedback": "خرج جيم من مخبئه طواعية لمساعدة الطبيب في إجراء العملية لتوم، مضحياً بحريته."
+    },
+    {
+      "q": "What is the name of the girl Huck tries to help against the con men?",
+      "options": ["Sally", "Mary Jane", "Sophia", "Charlotte"],
+      "correct": 1,
+      "feedback": "ماري جين ويلكس هي الفتاة التي تعاطف معها هك وقرر كشف المحتالين لأجلها."
+    },
+    {
+      "q": "What does Tom mean by 'They hain't no right to shut him up'?",
+      "options": ["The jail is full", "Jim is a free man by law and should not be imprisoned", "He wants Jim to work", "He is joking"],
+      "correct": 1,
+      "feedback": "يؤكد توم أن جيم لم يعد عبداً، وبالتالي لا يحق لأحد احتجازه."
+    },
+    {
+      "q": "How long ago did Miss Watson die according to Tom?",
+      "options": ["Two days ago", "Two weeks ago", "Two months ago", "A year ago"],
+      "correct": 2,
+      "feedback": "توفيت قبل شهرين، مما يعني أن رحلة جيم الأخيرة كانت وهو حر قانونياً دون أن يعلم."
+    },
+    {
+      "q": "The King's face is compared to what in the text when he looks at the newcomers?",
+      "options": ["A lion", "A jug that's guggling out buttermilk", "A dark cloud", "A stone statue"],
+      "correct": 1,
+      "feedback": "يستخدم توين تشبيه 'جرة المخيض' ليصف تعابير وجه الملك المصطنعة."
+    },
+    {
+      "q": "What did the newcomers have that proved they might be the real Wilks brothers?",
+      "options": ["A bag of gold", "One had his arm in a sling", "A letter from Huck", "A map of the river"],
+      "correct": 1,
+      "feedback": "وصف الشخص القادم بأن يده في 'حمالة' (sling) كان علامة فارقة في التعرف على هويته."
+    },
+    {
+      "q": "Huck describes the King's acting as 'admirable' because:",
+      "options": ["He likes the King", "The King is very good at lying and acting sorrowful", "The King is a real hero", "The King is funny"],
+      "correct": 1,
+      "feedback": "كلمة 'Admirable' هنا ساخرة؛ فالمقصود أن الملك بارع جداً في الخداع لدرجة تجعل الناس يصدقونه."
+    },
+    {
+      "q": "What was the 'fix' the doctor referred to when he was with Tom and Jim?",
+      "options": ["Repairing the boat", "Being alone with a wounded boy and a runaway slave all night", "Finding the gold", "Dealing with Aunt Sally"],
+      "correct": 1,
+      "feedback": "الـ 'fix' أو الورطة كانت اضطرار الطبيب للبقاء طوال الليل مع توم المصاب ومراقبة جيم."
+    },
+    {
+      "q": "In Chapter 42, Tom says 'Turn him loose!'. Who is he talking about?",
+      "options": ["Huck", "Jim", "The Duke", "The King"],
+      "correct": 1,
+      "feedback": "الأمر موجه لإطلاق سراح جيم فوراً."
+    },
+    {
+      "q": "What moral quality does Jim demonstrate by helping Tom?",
+      "options": ["Cowardice", "Self-sacrifice and loyalty", "Greed", "Dishonesty"],
+      "correct": 1,
+      "feedback": "تضحية جيم بحريته لإنقاذ توم تثبت نبل شخصيته وتدحض الادعاءات العنصرية."
+    },
+    {
+      "q": "How does Huck perceive the Duke and the King towards the end?",
+      "options": ["As great friends", "As frauds and rascals", "As kings of the river", "As lost souls"],
+      "correct": 1,
+      "feedback": "يصفهم هك بالـ 'frauds' (محتالين) والـ 'rascals' (أوغاد) بعد رؤية أفعالهم مع عائلة ويلكس."
+    },
+    {
+      "q": "What did the people do when the real Wilks brothers arrived?",
+      "options": ["They ignored them", "They yelled and laughed", "They arrested them", "They gave them money"],
+      "correct": 1,
+      "feedback": "كان رد فعل الجمهور في البداية هو الصراخ والضحك، غير مدركين للدراما القادمة."
+    },
+    {
+      "q": "Tom says he has known Jim 'all his life'. What does this imply?",
+      "options": ["They are brothers", "They grew up in the same household/town", "They met on the raft", "Jim is Tom's father"],
+      "correct": 1,
+      "feedback": "يؤكد توم على معرفته الطويلة بجيم ليوثق شهادته بأنه رجل طيب وحر."
+    },
+    {
+      "q": "The term 'nary a pale' means:",
+      "options": ["They turned very white", "They did not turn pale at all", "They were sick", "They were happy"],
+      "correct": 1,
+      "feedback": "المصطلح يعني أنهم لم يظهر عليهم أي شحوب أو خوف رغم الموقف العصيب."
+    },
+    {
+      "q": "What was the 'bullet' mentioned in the text?",
+      "options": ["A stolen item", "The bullet in Tom's leg from the escape attempt", "A type of coin", "A heavy stone"],
+      "correct": 1,
+      "feedback": "الرصاصة هي التي استقرت في ساق توم أثناء محاولتهم الفاشلة (والمسرحية بالنسبة لتوم) للهروب."
+    },
+    {
+      "q": "Why was the King 'gazing down sorrowful' on the newcomers?",
+      "options": ["He felt sorry for them", "To make the crowd think the newcomers were the scammers", "He was tired", "He lost his money"],
+      "correct": 1,
+      "feedback": "تظاهر بالحزن كجزء من خطته لقلب الطاولة على الأخوين الحقيقيين."
+    },
+    {
+      "q": "In the end, who had the 'legal' right to free Jim?",
+      "options": ["Huck", "Miss Watson (through her will)", "The King", "The Doctor"],
+      "correct": 1,
+      "feedback": "القانون (الوصية) هو ما منح جيم حريته في النهاية، رغم كل محاولات هك وتوم."
+    },
+    {
+      "q": "What is the 'will' mentioned by Tom?",
+      "options": ["A strong desire", "A legal document (وصية) left by a dead person", "A letter to the king", "The name of a character"],
+      "correct": 1,
+      "feedback": "الوصية هي الوثيقة القانونية التي تركتها الآنسة واتسون لإعتاق جيم."
+    },
+    {
+      "q": "How did Huck feel about the Duke's behavior at the end?",
+      "options": ["He was impressed", "He judged it would be a strain to see anything funny about it", "He wanted to join him", "He was jealous"],
+      "correct": 1,
+      "feedback": "لم يجد هك أي متعة أو ضحك في تصرفات الدوق، بل رآها مثيرة للتوتر والاشمئزاز."
+    },
+    {
+      "q": "What happened to the King and Duke according to the general plot (implied in the end)?",
+      "options": ["They became rich", "They were exposed as frauds and punished by the town", "They escaped to France", "They bought the Phelps farm"],
+      "correct": 1,
+      "feedback": "نهاية المحتالين دائماً ما تكون بالانكشاف والعقاب الشعبي (Tar and feather) كما هو معروف في الرواية."
+    },
+    {
+      "q": "Why did Tom wait until the end to say Jim was free?",
+      "options": ["He forgot", "He wanted the adventure of 'rescuing' a prisoner", "He was afraid of Aunt Sally", "He wanted to keep Jim"],
+      "correct": 1,
+      "feedback": "هذا يعكس شخصية توم 'الرومانسية' التي تعشق المغامرة والدراما حتى لو كانت على حساب معاناة الآخرين."
+    },
+    {
+      "q": "What was the doctor's opinion of Jim after he helped with the wounded boy?",
+      "options": ["He should be sold immediately", "He is worth a thousand dollars and isn't a bad nigger", "He is a dangerous criminal", "He should be sent back to Miss Watson"],
+      "correct": 1,
+      "feedback": "أثنى الطبيب على نبل أخلاق جيم، معتبراً أن تصرفه في مساعدة توم المصاب يرفع من قيمته الإنسانية والمادية."
+    },
+    {
+      "q": "What did Jim do when the doctor said he couldn't cut the bullet out alone?",
+      "options": ["He stayed hidden", "He crawled out from somewhere to help", "He ran to find Huck", "He fainted"],
+      "correct": 1,
+      "feedback": "خرج جيم من مخبئه طواعية ليساعد الطبيب، مضحياً بحريته لإنقاذ حياة توم."
+    },
+    {
+      "q": "When Tom woke up, what was his immediate reaction regarding Jim's imprisonment?",
+      "options": ["He said Jim should stay locked up", "He said they have no right to shut him up because he is free", "He asked for his money", "He told Jim to run away"],
+      "correct": 1,
+      "feedback": "بمجرد استيقاظه، أكد توم أن جيم حر قانونياً ولا يحق لأحد أسره."
+    },
+    {
+      "q": "Who set Jim free in her will?",
+      "options": ["Widow Douglas", "Miss Watson", "Aunt Sally", "Mary Jane"],
+      "correct": 1,
+      "feedback": "الآنسة واتسون هي من أعتقت جيم في وصيتها قبل وفاتها بشهرين."
+    },
+    {
+      "q": "Why was Miss Watson ashamed before she died?",
+      "options": ["Because she lost her money", "Because she once planned to sell Jim down the river", "Because of Huck's behavior", "Because she didn't like the doctor"],
+      "correct": 1,
+      "feedback": "شعرت بالخجل من نيتها السابقة لبيع جيم، ولذلك قررت تحريره قانونياً."
+    },
+    {
+      "q": "How did Aunt Sally respond when Tom said Jim was as free as any creature?",
+      "options": ["She laughed", "She asked 'What does the child mean?'", "She immediately freed him", "She called the sheriff"],
+      "correct": 1,
+      "feedback": "كانت الخالة سالي في حالة صدمة وعدم استيعاب لقرار توم المفاجئ وتصريحه بحرية جيم."
+    },
+    {
+      "q": "The doctor told the gentlemen not to be 'rougher' on Jim because:",
+      "options": ["Jim was sick", "Jim had helped him and Tom all night", "Jim was a king", "The doctor was afraid of Jim"],
+      "correct": 1,
+      "feedback": "طلب الطبيب معاملة جيم بلين لامتنانه لمساعدته له طوال الليل في رعاية توم."
+    },
+    {
+      "q": "What was the physical condition of one of the real Wilks brothers when they arrived?",
+      "options": ["He was blind", "His right arm was in a sling", "He couldn't walk", "He was very young"],
+      "correct": 1,
+      "feedback": "وصول الأخ الأصغر ويده في 'حمالة' (sling) كان من الأدلة التي كشفت زيف المحتالين."
+    },
+    {
+      "q": "What was the crowd's reaction when the real newcomers arrived?",
+      "options": ["They were silent", "They yelled and laughed", "They were angry", "They ran away"],
+      "correct": 1,
+      "feedback": "استقبل الجمهور القادمين الجدد بالصراخ والضحك سخريةً من الموقف الدرامي المتكرر."
+    },
+    {
+      "q": "How did Huck describe the King's reaction to the real Wilks brothers?",
+      "options": ["He turned pale", "He gazed down sorrowful like it gave him a stomach-ache", "He admitted he was a fraud", "He ran to the raft"],
+      "correct": 1,
+      "feedback": "تظاهر الملك بالحزن الشديد والتقزز من 'احتيال' القادمين الجدد ليغطي على جريمته."
+    },
+    {
+      "q": "Huck judged it would be a 'strain' for the Duke to see anything funny about the new arrivals because:",
+      "options": ["The Duke was sick", "The Duke knew their scam was in danger", "The Duke didn't like jokes", "The raft was sinking"],
+      "correct": 1,
+      "feedback": "أدرك هك أن الموقف أصبح خطيراً جداً على المحتالين، ولن يجدوا فيه أي تسلية."
+    },
+    {
+      "q": "What did the doctor mean by saying it was a 'fix'?",
+      "options": ["Fixing the raft", "The difficult situation of being alone with a wounded boy and a slave", "Fixing the money issue", "A legal fix"],
+      "correct": 1,
+      "feedback": "كلمة 'fix' تعني 'مأزق'، وهو ما واجهه الطبيب في العناية بتوم وحراسة جيم في نفس الوقت."
+    },
+    {
+      "q": "How long has Tom known Jim according to his statement to Aunt Sally?",
+      "options": ["For a month", "All his life", "Since they reached the farm", "Only a few days"],
+      "correct": 1,
+      "feedback": "أكد توم على معرفته الطويلة بجيم ليعزز مصداقية كلامه حول حريته وأخلاقه."
+    },
+    {
+      "q": "What did Tom mean by 'Turn him loose'?",
+      "options": ["Let the dog out", "Free Jim from his chains/imprisonment", "Let Huck go home", "Sell the raft"],
+      "correct": 1,
+      "feedback": "الأمر كان موجهاً لتحرير جيم فوراً من الأسر لأنه رجل حر."
+    },
+    {
+      "q": "Huck says the King acted 'admirable' (ironically) because:",
+      "options": ["The King was a nice person", "The King was a very convincing liar", "Huck wanted to be like him", "The King saved Jim"],
+      "correct": 1,
+      "feedback": "يستخدم هك السخرية لوصف براعة الملك في التمثيل والخداع."
+    },
+    {
+      "q": "What happened two months ago according to Tom's revelation?",
+      "options": ["Huck ran away", "Old Miss Watson died", "The Duke met the King", "Tom was shot"],
+      "correct": 1,
+      "feedback": "وفاة الآنسة واتسون قبل شهرين هي الحدث الذي غير الوضع القانوني لجيم."
+    },
+    {
+      "q": "Why didn't the Duke turn 'pale' when the real brothers arrived?",
+      "options": ["He was brave", "He was a master of hiding his emotions/suspicion", "He didn't see them", "He was happy to see them"],
+      "correct": 1,
+      "feedback": "رغم الموقف، استطاع الدوق السيطرة على ملامحه ليظهر بمظهر الواثق غير المشتبه به."
+    },
+    {
+      "q": "The King called the real Wilks brothers:",
+      "options": ["His friends", "Frauds and rascals", "Honest men", "His cousins"],
+      "correct": 1,
+      "feedback": "بكل وقاحة، اتهم الملك أصحاب الحق بأنهم محتالون وأوغاد."
+    },
+    {
+      "q": "In the file, the phrase 'nary a pale' means:",
+      "options": ["Very white", "Not at all pale", "Slightly red", "Very angry"],
+      "correct": 1,
+      "feedback": "تعني أن وجوههم لم تشحب أبداً رغم الموقف المحرج."
+    },
+    {
+      "q": "Who was 'fetching' the nice looking old gentleman and the younger one?",
+      "options": ["The sheriff", "The townspeople", "Huck", "Tom Sawyer"],
+      "correct": 1,
+      "feedback": "كان أهالي البلدة هم من أحضروا القادمين الجدد لمواجهة الملك والدوق."
+    },
+    {
+      "q": "According to the doctor, Jim is worth:",
+      "options": ["Five dollars", "A thousand dollars", "Nothing", "A million dollars"],
+      "correct": 1,
+      "feedback": "هذا التقييم المادي من الطبيب يعكس نظرته الإيجابية لتصرف جيم النبيل."
+    },
+    {
+      "q": "When did Jim help the doctor with Tom's surgery?",
+      "options": ["During the day", "At night while the doctor was in a fix", "After Tom went home", "He never helped"],
+      "correct": 1,
+      "feedback": "ساعده ليلاً عندما كان الطبيب وحيداً وغير قادر على إجراء العملية بمفرده."
+    },
+    {
+      "q": "What does the text suggest about Mark Twain's view on Jim's character in this section?",
+      "options": ["Jim is a coward", "Jim is inherently noble and loyal", "Jim is greedy", "Jim is lucky"],
+      "correct": 1,
+      "feedback": "تؤكد نهاية الرواية على نبل جيم الذي يفوق نبل الشخصيات البيضاء في كثير من المواقف."
+    },
+    {
+      "q": "How does Huck feel as he tries to help Mary Jane?",
+      "options": ["Confused", "A mix of fear and hope", "Angry", "Bored"],
+      "correct": 1,
+      "feedback": "يعيش هك صراعاً بين خوفه من المحتالين وأمله في إنقاذ ماري جين."
+    },
+    {
+      "q": "The Duke is compared to what object when he was 'goo-gooing' around?",
+      "options": ["A lion", "A jug that's guggling out buttermilk", "A boat", "A tree"],
+      "correct": 1,
+      "feedback": "يستخدم توين هذا التشبيه ليصف الحركات المصطنعة والخرقاء للدوق."
+    },
+    {
+      "q": "What did Huck notice about the 'principal people' in the town?",
+      "options": ["They left the King", "They gathered around the King to support him (initially)", "They arrested the King", "They gave money to Huck"],
+      "correct": 1,
+      "feedback": "في البداية، التف كبار القوم حول الملك، مما يظهر مدى نجاحه في الخداع."
+    },
+    {
+      "q": "Tom says if nobody goes to 'rescue' Jim, he will:",
+      "options": ["Stay in bed", "Go himself", "Call the police", "Write a book"],
+      "correct": 1,
+      "feedback": "إصرار توم على الذهاب بنفسه يعكس حماسه المعتاد للمهام البطولية."
+    },
+    {
+      "q": "The term 'obleeged' in the text refers to:",
+      "options": ["Being happy", "Being obliged/forced by circumstances", "Being rich", "Being a doctor"],
+      "correct": 1,
+      "feedback": "تستخدم للإشارة إلى ما تفرضه الضرورة أو الظروف على الشخص."
+    },
+    {
+      "q": "What was the 'joke' that Huck didn't see regarding the Duke and King?",
+      "options": ["A funny story", "The arrival of the real brothers which should have been their end", "Tom's injury", "The doctor's speech"],
+      "correct": 1,
+      "feedback": "بالنسبة لهك، الموقف كان خطيراً جداً ولا يستدعي الضحك كما فعل الجمهور."
+    },
+    {
+      "q": "Which character finally provides the legal resolution for Jim's freedom?",
+      "options": ["Huck", "Tom Sawyer (by delivering Miss Watson's message)", "The King", "The Doctor"],
+      "correct": 1,
+      "feedback": "توم هو من حمل الخبر اليقين بأن جيم حر قانونياً بناءً على وصية الآنسة واتسون."
+    },
+    {
+      "q": "Jim says: 'trash is what people is dat puts dirt on de head er dey fren's en makes 'em .......':",
+      "options": ["angry", "ashamed", "laugh", "happy"],
+      "correct": 1,
+      "feedback": "هذا اقتباس مباشر من الفصل 15 عندما خدع هك جيم في الضباب."
+    },
+    {
+      "q": "The doctor says a nigger like Jim is worth ....... dollars:",
+      "options": ["$40", "$800", "$1000", "nothing"],
+      "correct": 2,
+      "feedback": "قال الطبيب ذلك بعد أن رأى تضحية جيم لإنقاذ توم ساير."
+    },
+    {
+      "q": "Miss Watson set Jim free in her .......:",
+      "options": ["letter", "will", "diary", "book"],
+      "correct": 1,
+      "feedback": "الوصية (Will) هي الوثيقة القانونية التي أعطت جيم حريته."
+    },
+    {
+      "q": "Huck says: 'All right, then, I'll go to .......':",
+      "options": ["the North", "hell", "Jackson's Island", "St. Petersburg"],
+      "correct": 1,
+      "feedback": "هذه هي اللحظة التي اختار فيها هك قلبه على قوانين المجتمع الظالمة."
+    },
+    {
+      "q": "Tom Sawyer was shot in the ....... during the escape:",
+      "options": ["arm", "shoulder", "leg", "back"],
+      "correct": 2,
+      "feedback": "أصيب توم في ساقه، مما أدى لتعطل الهروب وكشف نبل جيم."
+    },
+    {
+    "q": "The river best serves as a symbol of",
+    "options": [
+      "slavery",
+      "freedom",
+      "equality",
+      "both b & c"
+    ],
+    "correct": 1,
+    "feedback": "يمثل النهر في الرواية الهروب من قيود المجتمع والوصول إلى الحرية." 
+  },
+  {
+    "q": "The river provides all the following except",
+    "options": [
+      "food",
+      "transportation",
+      "escape",
+      "a permanent home"
+    ],
+    "correct": 3,
+    "feedback": "النهر وسيلة انتقال وهروب وليس مكاناً للاستقرار الدائم." 
+  },
+  {
+    "q": "What are the Grangerfords and the Shepherdsons fighting about?",
+    "options": [
+      "the death of an infant",
+      "the theft of cattle",
+      "Nobody really remembers",
+      "inheritance disputes"
+    ],
+    "correct": 2,
+    "feedback": "يسخر مارك توين من الثأر القبلي حيث يتقاتل الطرفان دون تذكر السبب الأصلي." 
+  },
+  {
+    "q": "Huck is a ....... character.",
+    "options": [
+      "White trash",
+      "mulatto",
+      "middle class",
+      "high class"
+    ],
+    "correct": 0,
+    "feedback": "ينتمي هك إلى طبقة اجتماعية دنيا توصف في ذلك الوقت بـ 'white trash'." 
+  },
+  {
+    "q": "Jim's friendship with Huck demonstrates that humanity has nothing to do with",
+    "options": [
+      "space",
+      "race",
+      "gender",
+      "time"
+    ],
+    "correct": 1,
+    "feedback": "تؤكد العلاقة بين هك وجيم أن الإنسانية تتجاوز الفروق العرقية." 
+  },
+  {
+    "q": "....... focuses on characters, their dialects and values.",
+    "options": [
+      "Humor",
+      "Mimicry",
+      "Regionalism",
+      "Musicality"
+    ],
+    "correct": 2,
+    "feedback": "الواقعية الإقليمية (Regionalism) تركز على تصوير لهجات وقيم مناطق محددة." 
+  },
+  {
+    "q": "The Duke and the Dauphin are primarily",
+    "options": [
+      "con men",
+      "actors",
+      "beggars",
+      "merchants"
+    ],
+    "correct": 0,
+    "feedback": "الدوق والدوفين هما محتالان يقومان بخداع الناس لكسب المال." 
+  },
+  {
+    "q": "Huck runs away to Jackson's island where he meets Jim.",
+    "options": [
+      "Huck meets Jim at the Phelps farm.",
+      "Jim is an abolitionist.",
+      "The story takes place in the American North.",
+      "Huck runs away to Jackson's island where he meets Jim."
+    ],
+    "correct": 3,
+    "feedback": "هذه هي المعلومة الصحيحة الوحيدة ضمن الخيارات المتاحة حول أحداث الرواية." 
+  },
+  {
+    "q": "It was enough to make a body .... of the human race.",
+    "options": [
+      "afraid",
+      "ashamed",
+      "astonished",
+      "antagonistic"
+    ],
+    "correct": 1,
+    "feedback": "يشعر هك بالخزي من الجنس البشري بعد رؤية أفعال الدوق والدوفين." 
+  },
+  {
+    "q": "I was playing double. I was letting on to give up sin, but away inside of me I was holding on to the biggest one of all. The word 'Sin' refers to",
+    "options": [
+      "helping Jim",
+      "running away from Pap",
+      "Stealing money",
+      "Disobeying Miss Watson"
+    ],
+    "correct": 0,
+    "feedback": "بسبب تربية المجتمع، اعتقد هك أن مساعدة عبد على الهرب هي 'خطيئة'." 
+  },
+  {
+    "q": "A person's conscience ain't got no sense and just goes for him anyway.",
+    "options": [
+      "conscious",
+      "family",
+      "luck",
+      "conscience"
+    ],
+    "correct": 3,
+    "feedback": "يتحدث هك عن تأنيب الضمير الذي يلاحق الإنسان دون منطق." 
+  },
+  {
+    "q": "I knowed he was white inside, and I reckoned he'd say what he did say.",
+    "options": [
+      "black",
+      "white",
+      "different",
+      "hostile"
+    ],
+    "correct": 1,
+    "feedback": "قال هك ذلك عن جيم، قاصداً أنه يمتلك قلباً طيباً وإنسانية تشبه البيض في نظره." 
+  },
+  {
+    "q": "What does Huck mean when he says, 'All right, then, I'll go to hell'?",
+    "options": [
+      "He is giving up on life.",
+      "He is rejecting society's morality to help Jim.",
+      "He is joking with Tom Sawyer.",
+      "He is afraid of dying."
+    ],
+    "correct": 1,
+    "feedback": "قرر هك التضحية بآخرته (حسب معتقداته) لإنقاذ صديقه جيم." 
+  },
+  {
+    "q": "Mark Twain ...... racism.",
+    "options": [
+      "supports",
+      "denounces",
+      "both a & b",
+      "defends"
+    ],
+    "correct": 1,
+    "feedback": "استخدم مارك توين السخرية لفضح ونبذ العنصرية في المجتمع الأمريكي." 
+  },
+  {
+    "q": "Who demands Huck's money?",
+    "options": [
+      "Pap Finn",
+      "Tom",
+      "Jim",
+      "Judge Thatcher"
+    ],
+    "correct": 0,
+    "feedback": "باب فين (والد هك) عاد فقط من أجل الحصول على أموال ابنه." 
+  },
+  {
+      "q": "According to the historical background, what was the primary function of the 'Jim Crow Laws' mentioned in the text?",
+      "options": ["To give slaves their freedom", "To enforce segregation between white and black people", "To help the North win the Civil War", "To organize agricultural economy"],
+      "correct": 1,
+      "feedback": "تشير الملفات (تحديداً الملف 1) إلى أن قوانين جيم كرو فرضت الفصل العنصري (Segregation) في المدارس والأماكن العامة حتى بعد انتهاء الحرب الأهلية."
+    },
+    {
+      "q": "The novel is set in the 1840s, which places the events:",
+      "options": ["During the American Civil War", "After the abolition of slavery", "Before the American Civil War", "During the Reconstruction era"],
+      "correct": 2,
+      "feedback": "يذكر الملف (WA0061) بوضوح أن الرواية تبدأ في عام 1840، أي قبل الحرب الأهلية (1861-1865)، مما يجعل العبودية قانونية في ذلك الوقت."
+    },
+    {
+      "q": "Mark Twain is a pseudonym. What is the author's real name?",
+      "options": ["William Faulkner", "Samuel Langhorne Clemens", "Tom Sawyer", "Abraham Lincoln"],
+      "correct": 1,
+      "feedback": "ورد في السيرة الذاتية في الملف الأول أن الاسم الحقيقي لمارك توين هو صموئيل لانغورن كليمنز."
+    },
+    {
+      "q": "How is Huck Finn's social status described in the opening files?",
+      "options": ["Middle-class boy", "Aristocrat", "White trash", "Mulatto"],
+      "correct": 2,
+      "feedback": "يوصف هك في الملف (WA0060 و WA0062) بمصطلح 'White trash' أي حثالة البيض، نظراً لفقره وكونه ابن سكير، عكس توم سوير الذي ينتمي للطبقة الوسطى."
+    },
+    {
+      "q": "What differentiates Huck Finn's narrative voice from Tom Sawyer's approach to life?",
+      "options": ["Huck is Romantic, Tom is Realistic", "Huck is Realistic, Tom is Romantic", "Both are Romantic", "Both are Realistic"],
+      "correct": 1,
+      "feedback": "الملف (WA0062) يوضح التناقض الأساسي: هك يمثل الواقعية (Realism) بينما توم يمثل الرومانسية (Romanticism) وخيال الكتب."
+    },
+    {
+      "q": "In Chapter 2, Tom Sawyer claims that the 'Sunday-school picnic' was actually:",
+      "options": ["A caravan of Arabs and Spaniards", "A group of pirates", "A band of robbers", "A circus"],
+      "correct": 0,
+      "feedback": "في الملف (WA0061)، يقنع توم العصابة بأن النزهة المدرسية هي قافلة من العرب والإسبان مع فيلة، ملقياً اللوم على 'السحرة' لإخفاء الحقيقة."
+    },
+    {
+      "q": "What specific object did Huck use to try and summon a genie, following Tom's logic?",
+      "options": ["A magic wand", "An old tin lamp", "A golden ring", "A heavy book"],
+      "correct": 1,
+      "feedback": "حاول هك فرك 'مصباح صفيح قديم' (Old tin lamp) كما ورد في الملف (WA0061) ليرى إن كان الجني سيظهر، وعندما لم يحدث شيء، أدرك أن توم يكذب."
+    },
+    {
+      "q": "What is the 'hair-ball' used for in Chapter 4?",
+      "options": ["To play games", "To poison Pap", "To do magic and predict the future", "To clean the cabin"],
+      "correct": 2,
+      "feedback": "جيم يمتلك كرة شعر (Hair-ball) أخرجت من معدة ثور، ويستخدمها للتنبؤ بالمستقبل وممارسة السحر، مما يعكس خرافات العبيد (الملف WA0062)."
+    },
+    {
+      "q": "Why did Pap get angry and refuse to vote on election day?",
+      "options": ["He was too drunk to walk", "He found out a 'mulatto' college professor was allowed to vote", "The polling station was closed", "Judge Thatcher forbade him"],
+      "correct": 1,
+      "feedback": "هذه تفصيلة دقيقة في الملف (WA0062): غضب باب عندما علم أن رجلاً 'مولاتو' (مختلط العرق) ويعمل بروفيسوراً يحق له التصويت، فقرر ألا يصوت أبداً."
+    },
+    {
+      "q": "Pap complains that the government prevents him from:",
+      "options": ["Drinking alcohol", "Selling his own son's property", "Buying a new house", "Owning a gun"],
+      "correct": 1,
+      "feedback": "ينتقد باب الحكومة لأن القانون (القاضي تاتشر) يحاول حماية أموال هك منه، ويقول 'يأخذون ابن الرجل منه عندما يجهز للعمل'."
+    },
+    {
+      "q": "In the argument about Frenchmen, why does Jim think it's impossible for a Frenchman to speak a different language?",
+      "options": ["Because cats don't talk like cows", "Because he hates French people", "Because he thinks Frenchmen are ghosts", "Because he is deaf"],
+      "correct": 0,
+      "feedback": "في الملف (WA0063)، يستخدم جيم المنطق: 'هل القطة تتكلم كالبقرة؟ لا. إذن لماذا يتكلم الرجل الفرنسي بغير لغة الرجل (الإنجليزي)؟' واعتبر هك أنه من المستحيل مجادلته."
+    },
+    {
+      "q": "What literary term describes the use of 'Polly-voo-franzy' in the text?",
+      "options": ["Metaphor", "Dialect/Vernacular corruption", "Simile", "Personification"],
+      "correct": 1,
+      "feedback": "هك يحاول نطق (Parlez-vous français) بلهجته العامية، مما يعكس أسلوب الرواية في استخدام اللغة المحكية (Vernacular)."
+    },
+    {
+      "q": "How did Huck fake his own death to escape Pap?",
+      "options": ["He burned down the cabin", "He killed a pig and spread its blood", "He drowned in the river", "He paid robbers to kidnap him"],
+      "correct": 1,
+      "feedback": "تذكر الملفات (WA0064) أن هك قتل خنزيراً (Pig) واستخدم دمه لتزييف مسرح جريمة ليبدو وكأنه قُتل."
+    },
+    {
+      "q": "When Huck disguised himself as a girl, what name did he first give to the woman?",
+      "options": ["Mary Jane", "Sarah Williams", "Betsy Thatcher", "Sophia Grangerford"],
+      "correct": 1,
+      "feedback": "في الملف (WA0064)، ادعى هك أن اسمه 'Sarah Williams' عندما زار المرأة في الكوخ."
+    },
+    {
+      "q": "The woman discovered Huck was a boy because he failed at which task?",
+      "options": ["Cooking", "Threading a needle and catching lead", "Singing", "Reading"],
+      "correct": 1,
+      "feedback": "كشفت المرأة تنكره لأنه لم يعرف كيف يضم الإبرة (Threading a needle) ولأنه ضم ركبتيه عندما رمت عليه قطعة الرصاص (Lead) بدلاً من أن يفتحهما كفتاة."
+    },
+    {
+      "q": "What 'bad luck' incident occurred on Jackson's Island involving a snake?",
+      "options": ["A snake ate their food", "Huck put a dead snake in Jim's blanket, and its mate bit Jim", "Jim killed a snake and wore its skin", "A snake sank their raft"],
+      "correct": 1,
+      "feedback": "تفصيل دقيق من الملف (WA0064): وضع هك ثعباناً ميتاً كدعابة، لكن رفيقة الثعبان جاءت ولدغت جيم، مما يؤكد خرافة سوء الحظ."
+    },
+    {
+      "q": "The raft in the novel specifically symbolizes:",
+      "options": ["Civilization and rules", "Freedom, innocence, and peace", "Economic prosperity", "The dangers of nature"],
+      "correct": 1,
+      "feedback": "الملف (WA0064) يوضح الرمزية: الطوافة (Raft) ترمز للحرية والسلام، بينما اليابسة ترمز للعبودية والقسوة."
+    },
+    {
+      "q": "In Chapter 15, what trick does Huck play on Jim after the fog clears?",
+      "options": ["He pretends Jim is dead", "He tries to sell Jim", "He pretends the separation in the fog was all a dream", "He hides the raft"],
+      "correct": 2,
+      "feedback": "حاول هك إقناع جيم بأن الضياع في الضباب كان مجرد حلم (Dream)، وهو ما جرح مشاعر جيم لاحقاً (الملف WA0065)."
+    },
+    {
+      "q": "How does Jim react when he realizes Huck lied about the fog?",
+      "options": ["He laughs", "He calls Huck 'trash' for treating a friend like dirt", "He hits Huck", "He jumps off the raft"],
+      "correct": 1,
+      "feedback": "هذه نقطة تحول: قال جيم إن من يضع القذارة على رأس صديقه هو 'Trash' (حثالة)، مما جعل هك يعتذر (الملف WA0065)."
+    },
+    {
+      "q": "Who is Colonel Sherburn?",
+      "options": ["Huck's father", "A cold-blooded man who shoots Boggs", "The judge", "A runaway slave"],
+      "correct": 1,
+      "feedback": "في الملف (WA0065)، شيربورن هو الرجل الذي قتل السكير 'بوغز' (Boggs) بدم بارد في وضح النهار."
+    },
+    {
+      "q": "In Colonel Sherburn's speech to the mob, he calls the 'average man' a:",
+      "options": ["Hero", "Coward", "Leader", "Saint"],
+      "correct": 1,
+      "feedback": "في خطابه الشهير (الملف WA0066/WA0067)، يصف شيربورن الرجل العادي بأنه جبان (Coward) ولا يمتلك الشجاعة إلا في الحشود."
+    },
+    {
+      "q": "What does Sherburn say is the only reason the mob didn't lynch him?",
+      "options": ["They liked him", "They didn't bring a man with them", "The police arrived", "It was raining"],
+      "correct": 1,
+      "feedback": "قال لهم بسخرية: 'الخطأ أنكم لم تحضروا رجلاً معكم'، مشيراً إلى أنهم أنصاف رجال وجبناء (الملف WA0067)."
+    },
+    {
+      "q": "The 'Royal Nonesuch' was a scam performance created by:",
+      "options": ["Huck and Jim", "The Duke and the King", "Tom Sawyer", "The Grangerfords"],
+      "correct": 1,
+      "feedback": "الدوق والملك هما المحتالان اللذان ابتكرا عرض 'Royal Nonesuch' لسرقة أموال البلدة (الملف WA0066)."
+    },
+    {
+      "q": "What did the sign for the 'Royal Nonesuch' say to attract the men?",
+      "options": ["Best Show on Earth", "Ladies and Children not Admitted", "Free Entry", "Educational Performance"],
+      "correct": 1,
+      "feedback": "لجذب الرجال، كتبوا 'يمنع دخول النساء والأطفال'، مما يوحي بمحتوى غير لائق ومثير للفضول."
+    },
+    {
+      "q": "Why does the King turn 'pale' in the Wilks episode?",
+      "options": ["He saw a ghost", "The real Wilks brothers arrived", "He was sick", "He lost the money"],
+      "correct": 1,
+      "feedback": "شحب وجه الملك عندما وصل الورثة الحقيقيون (الأخوين ويلكس) مما هدد بكشف لعبتهم (الملف WA0066)."
+    },
+    {
+      "q": "To prove who the real brothers were, they were asked to describe:",
+      "options": ["The house layout", "A tattoo on Peter Wilks' breast", "The amount of money", "The mother's name"],
+      "correct": 1,
+      "feedback": "الاختبار الحاسم كان وصف الوشم (Tattoo) الموجود على صدر الميت بيتر ويلكس (الملف WA0067)."
+    },
+    {
+      "q": "What were the options given for the tattoo description?",
+      "options": ["A star and a cross", "A small thin blue arrow (P-B-W) vs. nothing", "A ship and an anchor", "A heart and a name"],
+      "correct": 1,
+      "feedback": "ادعى الملك أنه 'سهم أزرق صغير' (P-B-W) بينما قال الأخ الحقيقي إنها أحرف غامضة أو لا شيء، مما استدعى نبش القبر."
+    },
+    {
+      "q": "What happens when they open the coffin to check the tattoo?",
+      "options": ["Peter Wilks wakes up", "They find the bag of gold inside", "The coffin is empty", "A snake is inside"],
+      "correct": 1,
+      "feedback": "وجدوا كيس الذهب الذي خبأه هك سابقاً داخل النعش، مما أثار الفوضى وسمح لهك بالهرب (الملف WA0067)."
+    },
+    {
+      "q": "At the end of Chapter 29, when Huck escapes to the raft, what scares him?",
+      "options": ["Jim is gone", "The Duke and King are rowing after them", "The raft is sinking", "A storm is coming"],
+      "correct": 1,
+      "feedback": "شعر هك بالرعب عندما رأى الوميض وكشف أن الدوق والملك يلحقان بهم في قارب صغير (Skiff) (الملف WA0067)."
+    },
+    {
+      "q": "What does 'Bildungsroman' mean in the context of this novel?",
+      "options": ["A novel about slavery", "A novel about the Civil War", "A novel dealing with a person's formative years and spiritual education", "A collection of short stories"],
+      "correct": 2,
+      "feedback": "الملف الأخير (WA0068) يعرف الرواية بأنها Bildungsroman، أي رواية تشكل ونضوج شخصية البطل أخلاقياً وروحياً."
+    },
+    {
+      "q": "What role does Jim serve for Huck throughout the journey?",
+      "options": ["A servant only", "A surrogate father figure and moral compass", "A source of money", "An enemy"],
+      "correct": 1,
+      "feedback": "وفقاً للتحليل في الملف (WA0068)، يمثل جيم دور الأب البديل والبوصلة الأخلاقية التي تعلم هك الإنسانية."
+    },
+    {
+      "q": "The novel's style is characterized by the use of 'Vernacular', which means:",
+      "options": ["High formal English", "Latin phrases", "Everyday language and regional dialects", "Silent narration"],
+      "correct": 2,
+      "feedback": "الملف (WA0068) يؤكد أن أسلوب مارك توين يعتمد على الـ Vernacular، أي لغة الناس العادية واللهجات المحلية."
+    },
+    {
+      "q": "What does Huck decide to do at the very end of the novel?",
+      "options": ["Stay with Aunt Sally", "Go back to Widow Douglas", "Light out for the Territory (the West)", "Run for President"],
+      "correct": 2,
+      "feedback": "الجملة الختامية الشهيرة: هك يقرر الذهاب إلى 'Territory' لأنه لا يريد أن يتم تمدينه (Civilized) مرة أخرى."
+    },
+    {
+      "q": "Which character represents the 'Romantic' view that Huck eventually grows disillusioned with?",
+      "options": ["Jim", "Pap", "Tom Sawyer", "Judge Thatcher"],
+      "correct": 2,
+      "feedback": "توم سوير يمثل الرومانسية وخيال الكتب التي يراها هك غير عملية ولا تناسب الواقع القاسي (الملف WA0068)."
+    },
+    {
+      "q": "The conflict between the Grangerfords and Shepherdsons is an example of:",
+      "options": ["Political debate", "A senseless and bloody family feud", "Economic competition", "Religious difference"],
+      "correct": 1,
+      "feedback": "تم ذكر عداء غرينجرفورد وشيبردسون في الملف (WA0060) كمثال على العنف العبثي في المجتمع الجنوبي."
+    },
+    {
+      "q": "What does the term 'Mulatto' refer to in Pap's rant?",
+      "options": ["A type of coin", "A person of mixed white and black ancestry", "A politician", "A lawyer"],
+      "correct": 1,
+      "feedback": "في سياق تذمر باب (الملف WA0062)، الكلمة تشير إلى الشخص مختلط الأعراق الذي كان يتمتع بحقوق أثارت غضب باب العنصري."
+    },
+    {
+      "q": "Why does Huck say he 'lit out' for the Territory?",
+      "options": ["Because Aunt Sally wants to adopt and 'sivilize' him", "To find gold", "To find Jim's family", "To escape the law"],
+      "correct": 0,
+      "feedback": "السبب المباشر هو أن الخالة سالي تنوي تبنيه و'تحضره'، وهو ما لا يطيقه هك لأنه جربه سابقاً (الملف WA0068)."
+    },
+    {
+      "q": "The phrase 'I am your Huckleberry' historically means:",
+      "options": ["I am your enemy", "I am the best man for the job", "I am a poor boy", "I am lost"],
+      "correct": 1,
+      "feedback": "ورد في الملف (WA0062) تحت بند المصطلحات، أن هذه العبارة تعني 'أنا الرجل المناسب لهذه المهمة'."
+    },
+    {
+      "q": "Realists believe that ....... are more important than the plot.",
+      "options": ["settings", "characters", "endings", "symbols"],
+      "correct": 1,
+      "feedback": "يشير الملف (WA0062) إلى أن الواقعيين (Realists) يهتمون برسم الشخصيات الواقعية أكثر من اهتمامهم بحبكة القصة."
+    },
+    {
+      "q": "What was the name of the drunken man shot by Sherburn?",
+      "options": ["Pap", "Boggs", "Buck", "Peter"],
+      "correct": 1,
+      "feedback": "الضحية هو بوغز (Boggs)، السكير الذي شتم شيربورن (الملف WA0065)."
+    },
+    {
+      "q": "Jim's reasoning about King Solomon (chopping the child in two) shows that:",
+      "options": ["Jim is cruel", "Jim interprets things literally and lacks symbolic understanding", "Jim is a genius", "Jim hates children"],
+      "correct": 1,
+      "feedback": "يظهر هذا النقاش (في الملف WA0063) أن جيم يفكر بشكل حرفي (Literal) ولا يفهم الحكمة الرمزية خلف قصة سليمان."
+    },
+    {
+      "q": "What physical feature of the newcomers (the real brothers) was mentioned?",
+      "options": ["One had a broken leg", "One had his arm in a sling", "One was blind", "One was very tall"],
+      "correct": 1,
+      "feedback": "في الملف (WA0066)، وصف أحد الأخوين القادمين بأن ذراعه في حمالة (Sling)."
+    },
+    {
+      "q": "The 'Nonesuch' show was short and a scam because:",
+      "options": ["The actors were sick", "The King just crawled around naked and painted", "It was too long", "It was a tragedy"],
+      "correct": 1,
+      "feedback": "الاحتيال كمن في أن العرض لم يكن سوى الملك يزحف عارياً ومطلياً بالألوان لدقائق معدودة، مما لا يستحق المال المدفوع."
+    },
+    {
+      "q": "When Huck says 'It was enough to make a body ashamed of the human race,' he is reacting to:",
+      "options": ["Pap's drinking", "The Duke and King pretending to be the grieving brothers", "Tom's lies", "Jim's snoring"],
+      "correct": 1,
+      "feedback": "قال هك هذه الجملة تعبيراً عن اشمئزازه من تمثيل الدوق والملك للحزن واستغلالهم لموت بيتر ويلكس (الملف WA0066)."
+    },
+    {
+      "q": "Who acts as the 'Check' on Tom Sawyer's romantic imagination?",
+      "options": ["Jim", "Huck Finn", "Aunt Polly", "Ben Rogers"],
+      "correct": 1,
+      "feedback": "هك هو الشخصية الواقعية التي تدقق وتفند خيالات توم (مثل الجني والفيلة)، فهو يمثل الواقعية (الملف WA0061)."
+    },
+    {
+      "q": "What happens to the 'Jim Crow Laws' immediately after the Civil War according to the notes?",
+      "options": ["They disappeared", "They were enforced to maintain segregation", "They were declared unconstitutional immediately", "They applied only to the North"],
+      "correct": 1,
+      "feedback": "تؤكد الملفات (WA0060) أن هذه القوانين ظهرت وفرضت بعد الحرب لاستمرار قمع السود رغم تحررهم."
+    },
+    {
+      "q": "The 'floating house' contained a dead man who turned out to be:",
+      "options": ["Judge Thatcher", "Pap Finn", "The Duke", "Uncle Silas"],
+      "correct": 1,
+      "feedback": "رغم أن جيم منع هك من رؤية الوجه، إلا أن الجثة في المنزل العائم كانت لوالده باب (إشارة في ملخص الحبكة WA0060)."
+    },
+    {
+      "q": "Why does Huck prefer the 'bad place' (hell) over the 'good place' (heaven)?",
+      "options": ["Because he wants to be with Tom Sawyer", "Because Miss Watson is going to the good place", "Because it is warmer", "Both A and B"],
+      "correct": 3,
+      "feedback": "هك لا يرى فائدة من الجنة إذا كانت الآنسة واتسون هناك، ويفضل الذهاب حيث سيذهب توم سوير (كما ورد في اقتباسات الملف WA0061)."
+    },
+    {
+      "q": "In the 'Royal Nonesuch' scam, what did the sign say to ensure a full house?",
+      "options": ["Free beer", "Ladies and children not admitted", "Music by Elvis", "Come see the elephant"],
+      "correct": 1,
+      "feedback": "الجملة المفتاحية في الخدعة كانت 'ممنوع دخول السيدات والأطفال'، مما ضمن امتلاء القاعة بالرجال (الملف WA0066)."
+    },
+    {
+      "q": "What does the river symbolize in contrast to the shore?",
+      "options": ["Danger vs. Safety", "Freedom and truth vs. Society's hypocrisy and cruelty", "Poverty vs. Wealth", "Noise vs. Silence"],
+      "correct": 1,
+      "feedback": "الرمزية المركزية في الملفات (WA0063/WA0068): النهر هو الحرية والصدق، بينما الشاطئ هو المجتمع المنافق والقاسي."
+    }
+  ]
+}
+
+

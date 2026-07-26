@@ -1,0 +1,789 @@
+{
+  "subject": " علم اللغه 2",
+  "lang": "en",
+  "questions": [
+  {
+    "q": "\"Triangles are four-sided\" is an example of",
+    "options": [
+      "paraphrase",
+      "analytic sentence",
+      "contradictory sentence",
+      "entailment"
+    ],
+    "correct": 2,
+    "feedback": "المثلث رياضياً له ثلاثة أضلاع؛ القول بأن له أربعة أضلاع هو دائماً خطأ بحكم التعريف، مما يجعله جملة متناقضة (Contradiction)."
+  },
+  {
+    "q": "\"Aunts are male\" is an example of",
+    "options": [
+      "paradox",
+      "analytic sentence",
+      "contradictory sentence",
+      "ambiguity"
+    ],
+    "correct": 2,
+    "feedback": "العمة أو الخالة أنثى بيولوجياً؛ لذا فإن هذه الجملة خاطئة دائماً وتمثل تناقضاً دلالياً."
+  },
+  {
+    "q": "\"They crumbled the water\" is an example of",
+    "options": [
+      "anomaly",
+      "structural ambiguity",
+      "lexical ambiguity",
+      "entailment"
+    ],
+    "correct": 0,
+    "feedback": "لا يمكن 'تفتيت' الماء، مما ينتهك قيود الاختيار الدلالية ويجعل الجملة شاذة دلالياً (Anomaly)."
+  },
+  {
+    "q": "Metaphors are constructions where meaning is compositional.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "الاستعارات (Metaphors) لا تتوافق بدقة مع المعاني الحرفية التركيبية للكلمات المكونة لها، بل تعتمد على معنى مجازي."
+  },
+  {
+    "q": "The terms \"Mohamed Alsisi\" and \"the Egyptian President\" have",
+    "options": [
+      "same sense",
+      "same reference & different senses",
+      "different reference",
+      "no reference"
+    ],
+    "correct": 1,
+    "feedback": "الاسمان يشيران إلى نفس الشخص في العالم الحقيقي (نفس المرجع)، ولكنهما يحملان معاني أو مفاهيم مختلفة (حواس/Senses مختلفة)."
+  },
+  {
+    "q": "The expression \"the president of Qatar\" has",
+    "options": [
+      "no sense",
+      "no sense and no reference",
+      "sense but no reference",
+      "reference but no sense"
+    ],
+    "correct": 2,
+    "feedback": "الجملة لها معنى مفاهيمي واضح (Sense) ولكنها لا تشير إلى فرد ثابت ومحدد في كل الأوقات، وتُستخدم كمثال تقليدي لما له معنى دون مرجع ثابت."
+  },
+  {
+    "q": "The words \"couch\" and \"sofa\" are",
+    "options": [
+      "antonyms",
+      "lexically ambiguous",
+      "synonyms",
+      "idioms"
+    ],
+    "correct": 2,
+    "feedback": "الكلمتان تشتركان في نفس المعنى تماماً، مما يجعلهما مترادفات (Synonyms)."
+  },
+  {
+    "q": "The words \"small\" and \"big\" are __________ antonyms.",
+    "options": [
+      "complementary",
+      "gradable",
+      "relational",
+      "auto-"
+    ],
+    "correct": 1,
+    "feedback": "هي متضادات متدرجة (Gradable) لأنها تقع على مقياس متصل وتعتمد على النسبية (ما هو كبير للبعض قد يكون صغيراً للآخرين)."
+  },
+  {
+    "q": "A word that is its own antonym is referred to as",
+    "options": [
+      "antiautoantonyms",
+      "autoantonyms",
+      "relational antonyms",
+      "gradable antonyms"
+    ],
+    "correct": 1,
+    "feedback": "الكلمة التي تحمل المعنى وضده تُسمى (Autoantonym)، مثل كلمة 'الظن' في اللغة العربية."
+  },
+  {
+    "q": "The words \"teacher\" and \"pupil\" are __________ antonyms.",
+    "options": [
+      "complementary",
+      "gradable",
+      "relational",
+      "auto-"
+    ],
+    "correct": 2,
+    "feedback": "تعبر الكلمتان عن تضاد علائقي (Relational)، حيث لا يمكن أن يوجد أحدهما دون الآخر في نفس العلاقة."
+  },
+  {
+    "q": "The words \"sister\" \"mother\" are __________ of the word \"family\".",
+    "options": [
+      "hyponyms",
+      "synonyms",
+      "homonyms",
+      "metonyms"
+    ],
+    "correct": 0,
+    "feedback": "هي كلمات تمثل أمثلة أو أعضاء محددين ضمن الفئة الأوسع 'عائلة'، وتُسمى (Hyponyms)."
+  },
+  {
+    "q": "In \"I gave the flower to the girl,\" \"the girl\" has the thematic role of",
+    "options": [
+      "agent",
+      "goal",
+      "theme",
+      "source"
+    ],
+    "correct": 1,
+    "feedback": "الفتاة هي نقطة النهاية أو المتلقي لعملية النقل، لذا دورها الدلالي هو الهدف (Goal)."
+  },
+  {
+    "q": "The Arabic word \"الظن\" is a good example of",
+    "options": [
+      "antiautoantonyms",
+      "autoantonyms",
+      "relational antonyms",
+      "gradable antonyms"
+    ],
+    "correct": 1,
+    "feedback": "كلمة 'الظن' تعني اليقين والشك في آن واحد، وهي معانٍ متضادة، مما يجعلها (Autoantonym)."
+  },
+  {
+    "q": "\"Bilal is coming tomorrow\" contains an example of __________ deixis.",
+    "options": [
+      "directional",
+      "place",
+      "time",
+      "pronoun"
+    ],
+    "correct": 2,
+    "feedback": "كلمة 'tomorrow' (غداً) هي تعبير إشاري للوقت (Time Deixis)."
+  },
+  {
+    "q": "__________ are sentences with no truth value.",
+    "options": [
+      "paradoxes",
+      "analytic sentences",
+      "contradictory sentences",
+      "utterances"
+    ],
+    "correct": 0,
+    "feedback": "المفارقات (Paradoxes) هي جمل لا يمكن تحديد ما إذا كانت صحيحة أم خاطئة، لأنها تناقض نفسها."
+  },
+  {
+    "q": "In \"The apple was eaten by John,\" the thematic role of John is",
+    "options": [
+      "agent",
+      "goal",
+      "theme",
+      "source"
+    ],
+    "correct": 0,
+    "feedback": "جون يظل هو الفاعل الحقيقي (Agent) الذي قام بفعل الأكل، بغض النظر عن البناء المجهول للجملة."
+  },
+  {
+    "q": "In \"The curtain opened suddenly,\" the thematic role of the curtain is",
+    "options": [
+      "agent",
+      "goal",
+      "theme",
+      "source"
+    ],
+    "correct": 2,
+    "feedback": "الستارة هي الكيان الذي يمر بتغيير الحالة (الفتح)، لذا دورها هو الموضوع (Theme)."
+  },
+  {
+    "q": "The maxim of __________ asks speakers to be brief and orderly and avoid ambiguity.",
+    "options": [
+      "quantity",
+      "relevance",
+      "manner",
+      "quality"
+    ],
+    "correct": 2,
+    "feedback": "قاعدة الأسلوب (Manner) في مبادئ غرايس تتطلب الوضوح والإيجاز والترتيب وتجنب الغموض."
+  },
+  {
+    "q": "__________ are deductions that are not made strictly on the basis of the discourse.",
+    "options": [
+      "entailment",
+      "implicatures",
+      "maxim of quantity",
+      "paraphrase"
+    ],
+    "correct": 1,
+    "feedback": "التلميحات (Implicatures) تعتمد على السياق التداولي والافتراضات التي تتجاوز الصياغة الحرفية للنص."
+  },
+  {
+    "q": "\"I bet that they will win\" is an example of",
+    "options": [
+      "entailment",
+      "implicatures",
+      "performative act",
+      "paraphrase"
+    ],
+    "correct": 2,
+    "feedback": "استخدام الفعل الإنجازي 'bet' (أراهن) ينفذ الفعل نفسه بمجرد نطقه (Performative act)."
+  },
+  {
+    "q": "The example \"dog did eating biscuit\" can be used against __________ theory.",
+    "options": [
+      "innateness",
+      "universal grammar",
+      "behaviourism",
+      "Chomsky's LAD"
+    ],
+    "correct": 2,
+    "feedback": "الأطفال يبنون تراكيب لغوية فريدة بدلاً من مجرد تقليد البالغين، مما يتعارض مع نظرية السلوكية (Behaviourism) التي تعتمد على التقليد."
+  },
+  {
+    "q": "Roger Brown studied parent-child interactions. He asserted that reinforcement is strongly involved in language acquisition.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct": 1,
+    "feedback": "استنتج براون أن الآباء يعززون صدق الجملة بدلاً من صحتها النحوية، مما يعني أن التعزيز لا يدفع اكتساب القواعد النحوية."
+  },
+  {
+    "q": "Children are aware of the structure dependency of rules at a very early age.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct": 0,
+    "feedback": "يفهم الأطفال أن القواعد اللغوية تعتمد على البنية التركيبية منذ سن مبكرة جداً."
+  },
+  {
+    "q": "__________ theory assumes that repeated exposure to particular patterns in the input reinforces the relations between them.",
+    "options": [
+      "innateness",
+      "universal grammar",
+      "behaviourism",
+      "connectionism"
+    ],
+    "correct": 3,
+    "feedback": "الترابطية (Connectionism) تعتمد بشكل كبير على أنماط المدخلات اللغوية وتكرارها لبناء الروابط العصبية/البرمجية."
+  },
+  {
+    "q": "\"__________\" refers to the impoverished data that children hear around them.",
+    "options": [
+      "reinforcement",
+      "poverty of the stimulus",
+      "imitation",
+      "blue print"
+    ],
+    "correct": 1,
+    "feedback": "يشير مصطلح 'فقر التحفيز' (Poverty of the stimulus) إلى البيانات اللغوية غير المكتملة أو المليئة بالأخطاء التي ينجح الأطفال في التعلم منها."
+  },
+  {
+    "q": "__________ is the simplified language used in communicating with children.",
+    "options": [
+      "template",
+      "poverty of the stimulus",
+      "motherese",
+      "reinforcement"
+    ],
+    "correct": 2,
+    "feedback": "تُعرف اللغة المبسطة الموجهة للأطفال باسم (Motherese) أو حديث موجه للطفل."
+  },
+  {
+    "q": "\"Cat stand up bed\" is an example of",
+    "options": [
+      "holophrastic stage",
+      "babbling stage",
+      "telegraphic speech",
+      "motherese"
+    ],
+    "correct": 2,
+    "feedback": "هذا الكلام يفتقر إلى الكلمات الوظيفية (مثل حروف الجر والأدوات) ويحتوي فقط على كلمات المحتوى، وهو ما يميز الكلام التلغرافي (Telegraphic speech)."
+  },
+  {
+    "q": "The influence of rules from L1 on L2 is called",
+    "options": [
+      "extension",
+      "transfer",
+      "slips of the tongue",
+      "simplification"
+    ],
+    "correct": 1,
+    "feedback": "تأثير لغتك الأم على اللغة الثانية التي تتعلمها يسمى النقل اللغوي (Transfer)."
+  },
+  {
+    "q": "__________ refers to the period of time after which it is difficult for a child to acquire language easily.",
+    "options": [
+      "the babbling stage",
+      "holophrastic stage",
+      "critical age",
+      "innate hypothesis"
+    ],
+    "correct": 2,
+    "feedback": "الفترة الحرجة (Critical Period/Age) هي الفترة الزمنية التي يكون فيها اكتساب اللغة سهلاً، وبعدها يصبح الأمر صعباً جداً."
+  },
+  {
+    "q": "The child is expected to learn the principle of",
+    "options": [
+      "structure dependency",
+      "coordinate structure",
+      "head complement relation",
+      "word order"
+    ],
+    "correct": 3,
+    "feedback": "ترتيب الكلمات (Word order) هو المتغير الذي يجب على الأطفال تعلمه واكتشافه بنشاط من بيئتهم اللغوية."
+  },
+  {
+    "q": "In __________ stage, the child's utterance consists of only one word.",
+    "options": [
+      "babbling",
+      "holophrastic",
+      "motherese",
+      "critical"
+    ],
+    "correct": 1,
+    "feedback": "مرحلة الكلمة الواحدة تُسمى (Holophrastic stage)، حيث تعبر كلمة واحدة عن جملة كاملة المعنى."
+  },
+  {
+    "q": "The order of the acquisition of sounds begins with",
+    "options": [
+      "glides",
+      "nasals",
+      "stops",
+      "vowels"
+    ],
+    "correct": 3,
+    "feedback": "يبدأ اكتساب الأطفال لفئات الأصوات بأحرف العلة (Vowels) قبل الأصوات الساكنة."
+  },
+  {
+    "q": "The main strategy of semantic acquisition is to __________ the meaning of words.",
+    "options": [
+      "memorize",
+      "repeat",
+      "overextend",
+      "visualize"
+    ],
+    "correct": 2,
+    "feedback": "غالباً ما يقوم الأطفال بتوسيع المعاني (Overextend)، مثل إطلاق كلمة 'كلب' على جميع الحيوانات ذات الأربع أرجل."
+  },
+  {
+    "q": "The \"wug\" experiment was made to show that children use imitation in morphological acquisition.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct": 1,
+    "feedback": "تجربة 'wug' أثبتت أن الأطفال يطبقون قواعد الصرف على كلمات لم يسمعوها من قبل أبداً، مما يدل على أنهم لا يعتمدون فقط على التقليد."
+  },
+  {
+    "q": "__________ is used as an effective measure of a child's language development.",
+    "options": [
+      "chronological age",
+      "mean length of utterances",
+      "mental health",
+      "competence"
+    ],
+    "correct": 1,
+    "feedback": "متوسط طول الكلام (MLU) هو المقياس الأكثر دقة لتطور لغة الطفل بدلاً من مجرد عمره الزمني."
+  },
+  {
+    "q": "__________ is the language used by a speaker with all its unique characteristics.",
+    "options": [
+      "dialect",
+      "accent",
+      "idiolect",
+      "jargon"
+    ],
+    "correct": 2,
+    "feedback": "الـ (Idiolect) هي الطريقة الفريدة والمميزة التي يتحدث بها فرد معين."
+  },
+  {
+    "q": "The terms \"circle\", \"square\" and \"triangle\" are __________ of mathematics.",
+    "options": [
+      "slang",
+      "pidgins",
+      "jargons",
+      "registers"
+    ],
+    "correct": 2,
+    "feedback": "هي مصطلحات متخصصة في مجال الرياضيات، وتُعرف باسم المصطلحات المهنية أو (Jargons)."
+  },
+  {
+    "q": "__________ result from racial, class, educational, or religious barriers.",
+    "options": [
+      "accents",
+      "social dialects",
+      "idiolects",
+      "creoles"
+    ],
+    "correct": 1,
+    "feedback": "اللهجات الاجتماعية (Social dialects) تنشأ نتيجة للحواجز أو التقسيمات الاجتماعية والدينية والتعليمية."
+  },
+  {
+    "q": "Regional phonetic distinctions are often referred to as different",
+    "options": [
+      "accents",
+      "dialects",
+      "idiolects",
+      "pidgins"
+    ],
+    "correct": 0,
+    "feedback": "الفروق في النطق (Phonetic) بناءً على المنطقة الجغرافية تُعرف باللكنات (Accents)."
+  },
+  {
+    "q": "Pairs like blinds, shades, and curtains reveal __________ differences among dialects.",
+    "options": [
+      "phonological",
+      "semantic",
+      "lexical",
+      "syntactic"
+    ],
+    "correct": 2,
+    "feedback": "استخدام كلمات مختلفة لنفس الشيء يمثل اختلافات معجمية (Lexical differences)."
+  },
+  {
+    "q": "__________ is derived from a normal language through reduction in vocabulary and grammar.",
+    "options": [
+      "lingua franca",
+      "pidgin",
+      "creoles",
+      "slang"
+    ],
+    "correct": 1,
+    "feedback": "لغة (Pidgin) هي لغة مبسطة لا يمتلكها متحدثون أصليون، وتنشأ من تبسيط المفردات والقواعد."
+  },
+  {
+    "q": "The dominant language from which most of the lexical items of the pidgin are chosen is called:",
+    "options": [
+      "slang",
+      "jargon",
+      "lexifier",
+      "lingua franca"
+    ],
+    "correct": 2,
+    "feedback": "اللغة المُعجِمة (Lexifier) هي اللغة المهيمنة التي توفر معظم المفردات للغة الـ Pidgin."
+  },
+  {
+    "q": "__________ starts as a pidgin and turns into a native language of a speech community.",
+    "options": [
+      "lingua franca",
+      "taboo",
+      "creoles",
+      "slang"
+    ],
+    "correct": 2,
+    "feedback": "لغة الكريول (Creole) هي لغة Pidgin تطورت وأصبح لها متحدثون أصليون."
+  },
+  {
+    "q": "The \"situation dialects\" used by speakers are called",
+    "options": [
+      "idiolect",
+      "jargon",
+      "slang",
+      "registers"
+    ],
+    "correct": 3,
+    "feedback": "السياقات المختلفة تتطلب أنماطاً لغوية مختلفة تُسمى (Registers) أو الأساليب اللغوية."
+  },
+  {
+    "q": "__________ refers to informal words or expressions used in casual speech.",
+    "options": [
+      "register",
+      "jargon",
+      "slang",
+      "taboo"
+    ],
+    "correct": 2,
+    "feedback": "الكلمات العامية (Slang) هي تعبيرات غير رسمية تُستخدم في المحادثات العادية اليومية."
+  },
+  {
+    "q": "The expressions \"spaced out\" \"right on\" and \"hang-up\" are examples of",
+    "options": [
+      "register",
+      "taboo",
+      "creoles",
+      "slang"
+    ],
+    "correct": 3,
+    "feedback": "هذه مصطلحات وتعبيرات عامية غير رسمية في اللغة الإنجليزية (Slang)."
+  },
+  {
+    "q": "__________ is the language especially the vocabulary of a particular trade or profession.",
+    "options": [
+      "register",
+      "taboo",
+      "jargon",
+      "slang"
+    ],
+    "correct": 2,
+    "feedback": "المفردات المتخصصة بمهنة أو تجارة معينة تُعرف بـ (Jargon)."
+  },
+  {
+    "q": "__________ words are impolite words that are not to be used in respectable situations.",
+    "options": [
+      "register",
+      "taboo",
+      "jargon",
+      "slang"
+    ],
+    "correct": 1,
+    "feedback": "الكلمات المحرمة أو المحظورة (Taboo) هي كلمات غير مهذبة يُتجنب استخدامها في المواقف المحترمة."
+  },
+  {
+    "q": "A __________ is a word or phrase that serves to avoid bad or unpleasant subjects.",
+    "options": [
+      "register",
+      "taboo",
+      "euphemism",
+      "slang"
+    ],
+    "correct": 2,
+    "feedback": "التلطيف (Euphemism) هو استخدام كلمات لطيفة لتجنب المواضيع المزعجة، مثل استخدام 'توفي' بدلاً من 'مات'."
+  },
+  {
+    "q": "__________ is a gender-biased language that uses prejudice based on sex, especially against women.",
+    "options": [
+      "genderlect",
+      "taboo",
+      "euphemism",
+      "sexism"
+    ],
+    "correct": 3,
+    "feedback": "التحيز الجنسي (Sexism) هو استخدام لغة تعبر عن التمييز بناءً على الجنس."
+  },
+  
+  {
+    "q": "According to behaviorism, children can't learn language through imitation, reinforcement, or analogy.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct": 1,
+    "feedback": "تدعي النظرية السلوكية أن الأطفال يتعلمون اللغة بالفعل من خلال التقليد والتعزيز والقياس، لذا العبارة خاطئة."
+  },
+  {
+    "q": "Lakoff's study suggested that women spoke more proper English because of their:",
+    "options": [
+      "physical deformity",
+      "critical period",
+      "insecurity",
+      "weak vocal cords"
+    ],
+    "correct": 2,
+    "feedback": "اقترحت لاكوف أن النساء يتحدثن لغة إنجليزية أكثر دقة بسبب عدم الأمان الاجتماعي الذي يفرضه التمييز الجنسي في المجتمع."
+  },
+  {
+    "q": "__________ are words used in speech to indicate uncertainty, probability or indecisiveness.",
+    "options": [
+      "slang",
+      "euphemism",
+      "hedges",
+      "argot"
+    ],
+    "correct": 2,
+    "feedback": "كلمات التحوط (Hedges) تُستخدم للإشارة إلى عدم اليقين أو التردد في الكلام."
+  },
+  {
+    "q": "The use of words like \"eggplant\" and \"aubergine\" illustrates",
+    "options": [
+      "homophones",
+      "lexical dialectical difference",
+      "polysemy",
+      "hyponymy"
+    ],
+    "correct": 1,
+    "feedback": "استخدام كلمات مختلفة لنفس الخضار يعكس اختلافاً معجمياً بين اللهجات (Lexical dialectical difference)."
+  },
+  {
+    "q": "__________ may be based on economic status, religious, ethnic or racial differences, country of origin, and even gender.",
+    "options": [
+      "genderlect",
+      "regional dialects",
+      "social boundaries",
+      "argot"
+    ],
+    "correct": 2,
+    "feedback": "اللهجات الاجتماعية (Social boundaries/dialects) تنشأ بناءً على الوضع الاقتصادي أو العرق أو الدين أو النوع الاجتماعي."
+  },
+  {
+    "q": "The __________ is the dominant language from which most of the words of pidgin are selected.",
+    "options": [
+      "slang",
+      "lexifier language",
+      "creole",
+      "register"
+    ],
+    "correct": 1,
+    "feedback": "اللغة المُعجِمة (Lexifier) هي اللغة المهيمنة التي توفر معظم المفردات للغة الـ Pidgin."
+  },
+  {
+    "q": "In __________ many lexical items bear a heavy semantic burden, with contexts relied on to remove ambiguity.",
+    "options": [
+      "slang",
+      "dialects",
+      "pidgins",
+      "argons"
+    ],
+    "correct": 2,
+    "feedback": "في لغات الـ Pidgin، تحمل الكلمات عبئاً دلالياً كبيراً، ويعتمد المتحدثون على السياق لإزالة الغموض."
+  },
+  {
+    "q": "The terms \"subjunctive\", \"adjunct\" and \"disjunct\" are __________ of English grammar.",
+    "options": [
+      "slang",
+      "creoles",
+      "pidgins",
+      "jargons"
+    ],
+    "correct": 3,
+    "feedback": "هذه مصطلحات فنية متخصصة في قواعد اللغة الإنجليزية، لذا تُعد من الـ (Jargons)."
+  },
+  {
+    "q": "\"Do not make unsupported claims\" is part of Grice's maxim of:",
+    "options": [
+      "Quantity",
+      "Relevance",
+      "Quality",
+      "Manner"
+    ],
+    "correct": 2,
+    "feedback": "قاعدة النوعية (Quality) في مبادئ غرايس تلزم المتحدث بعدم تقديم ادعاءات لا تدعمها أدلة."
+  },
+  {
+    "q": "English may be said to consist of more than 500 million",
+    "options": [
+      "dialects",
+      "idiolects",
+      "jargons",
+      "registers"
+    ],
+    "correct": 1,
+    "feedback": "بما أن لكل فرد طريقة فريدة في الكلام، يمكن القول إن اللغة تتكون من عدد هائل من الـ (Idiolects) أو البصمات اللغوية الفردية."
+  },
+  {
+    "q": "Dialects are mutually __________ forms of a language that differ in systematic ways.",
+    "options": [
+      "exclusive",
+      "incompatible",
+      "intelligible",
+      "unintelligible"
+    ],
+    "correct": 2,
+    "feedback": "اللهجات هي أشكال من اللغة تكون مفهومة متبادلاً (Mutually intelligible) رغم اختلافاتها النظامية."
+  },
+  {
+    "q": "The ability of 17-month-children to differentiate between \"Ernie is tickling Bert\" and \"Bert is tickling Ernie\" indicates that they have already acquired __________ knowledge.",
+    "options": [
+      "morphological",
+      "phonological",
+      "pragmatic",
+      "syntactic"
+    ],
+    "correct": 3,
+    "feedback": "هذه القدرة تشير إلى اكتساب المعرفة النحوية (Syntactic) المتعلقة بترتيب الكلمات ومعنى الجملة."
+  },
+  {
+    "q": "The word \"stone\" in \"to stone somebody\" and \"to stone a peach\" can be taken as an example of:",
+    "options": [
+      "perfect synonym",
+      "relational antonym",
+      "anti-autonym",
+      "auto-antonym"
+    ],
+    "correct": 3,
+    "feedback": "كلمة (Stone) هنا فعل متضاد ذاتي (Auto-antonym)؛ فهي تعني رمي الحجارة (إضافة الحجارة) أو نزع النواة (إزالة)."
+  },
+  {
+    "q": "The sentences (Jack put off the meeting) and (Jack put the meeting off) are:",
+    "options": [
+      "contradictory",
+      "anomalous",
+      "paradoxical",
+      "synonymous"
+    ],
+    "correct": 3,
+    "feedback": "الجملتان تعطيان نفس المعنى تماماً، مما يجعلهما مترادفتين (Synonymous)."
+  },
+  {
+    "q": "\"Cockroaches are reptiles\" is an example of a/an __________ sentence.",
+    "options": [
+      "analytic",
+      "contradictory",
+      "paradoxical",
+      "synonymous"
+    ],
+    "correct": 1,
+    "feedback": "الصراصير حشرات وليست زواحف، لذا القول بأنها زواحف هو تناقض دلالي (Contradictory)."
+  },
+  {
+    "q": "\"Cats are not fish\" is an example of a/an __________ sentence.",
+    "options": [
+      "analytic",
+      "contradictory",
+      "paradoxical",
+      "synonymous"
+    ],
+    "correct": 0,
+    "feedback": "هذه جملة تحليلية (Analytic) لأنها صحيحة دائماً بحكم تعريف الكلمات."
+  },
+  {
+    "q": "\"Hamlet: I must be cruel to be kind\" is an example of a/an __________ sentence.",
+    "options": [
+      "analytic",
+      "contradictory",
+      "paradoxical",
+      "synonymous"
+    ],
+    "correct": 2,
+    "feedback": "هذه مفارقة (Paradox) لأنها تجمع بين صفتين متناقضتين في ظاهر الأمر (قاسٍ وعطوف)."
+  },
+  {
+    "q": "With __________, the truth of the second sentence follows from the truth of the first.",
+    "options": [
+      "paradox",
+      "entailment",
+      "implicature",
+      "anonymity"
+    ],
+    "correct": 1,
+    "feedback": "الاستلزام (Entailment) يعني أنه إذا كانت الجملة الأولى صحيحة، يجب أن تكون الثانية صحيحة بالضرورة."
+  },
+  {
+    "q": "The idiom (throw one's weight around) means:",
+    "options": [
+      "to exercise",
+      "to lose weight",
+      "to be confused",
+      "to use influence"
+    ],
+    "correct": 3,
+    "feedback": "هذا التعبير الاصطلاحي يعني استخدام الشخص لنفوذه أو سلطته لفرض رأيه أو تخويف الآخرين."
+  },
+  {
+    "q": "Unicorns and hobbits have",
+    "options": [
+      "reference",
+      "sense",
+      "nothing",
+      "truth value"
+    ],
+    "correct": 1,
+    "feedback": "بما أنها كائنات خيالية، فهي تمتلك معنى (Sense) في عقولنا ولكنها تفتقر إلى وجود واقعي (Reference)."
+  },
+  {
+    "q": "In \"Susan heard the song,\" Susan has the thematic role of",
+    "options": [
+      "agent",
+      "theme",
+      "experiencer",
+      "goal"
+    ],
+    "correct": 2,
+    "feedback": "سوزان هي الشخص الذي يختبر أو يشعر بالإدراك الحسي (سمع الأغنية)، لذا دورها هو الـ (Experiencer)."
+  },
+  {
+    "q": "\"I saw him walking by the bank\" may violate the maxim of",
+    "options": [
+      "Quantity",
+      "Quality",
+      "Relevance",
+      "Manner"
+    ],
+    "correct": 3,
+    "feedback": "بسبب الغموض في كلمة (Bank - بنك أو ضفة نهر)، تنتهك الجملة قاعدة الوضوح والبعد عن الغموض (Manner)."
+  }
+
+]}

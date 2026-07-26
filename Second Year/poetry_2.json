@@ -1,0 +1,512 @@
+{
+  "subject": "   شعر عصر النهضة سنه ثانية ",
+  "lang": "en",
+  "questions": [
+{
+    "q": "The Renaissance comprises one or more of the following era(s).",
+    "options": ["Elizabethan", "Jacobean", "Commonwealthiane", "All"],
+    "correct": 3,
+    "feedback": "الإجابة صحيحة؛ حيث يشمل عصر النهضة في إنجلترا العصر الإليزابيثي، الجاكوبي، الكاروليني، وفترة الكومنولث [1]."
+  },
+  {
+    "q": "One or more of these topics dominant English Renaissance poetry.",
+    "options": ["Cosmology", "Mutability", "Time", "All"],
+    "correct": 3,
+    "feedback": "صحيح؛ فقد ركز شعر النهضة على الكونيات (Cosmology)، التغير والزوال (Mutability)، ومفهوم الوقت [2, 3]."
+  },
+  {
+    "q": "The kind of love that was celebrated by the Renaissance poetry is.......",
+    "options": ["Courtly", "Romance", "Nostalgic", "Aristotelian"],
+    "correct": 0,
+    "feedback": "الإجابة صحيحة؛ الحب البلاطي (Courtly love) كان النوع السائد الذي احتفى به شعراء العصر [4]."
+  },
+  {
+    "q": "The Renaissance ended with........",
+    "options": ["Death of Queen Elizabeth I", "Death of James", "End of civil war", "None"],
+    "correct": 3,
+    "feedback": "الإجابة هي 'لا شيء مما سبق'؛ لأن عصر النهضة انتهى رسمياً مع عودة الملكية (Restoration) وتولي تشارلز الثاني العرش عام 1660 [1, 5, 6]."
+  },
+  {
+    "q": "Renaissance was a great age of interpretation: Greek and Roman literatures were orally transmitted into English. This statement is......",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ لأن الآداب اليونانية والرومانية تمت ترجمتها كتابياً (translated) وليس نقلها شفهياً، مما جعل الإنجليزية وسيلة تعبير أدبية بدلاً من اللاتينية [7-9]."
+  },
+  {
+    "q": "All of these poets are Renaissance poets but one.......",
+    "options": ["Abraham Cowley", "Ben Johnson", "Robert Herrick", "Geoffrey Chaucer"],
+    "correct": 3,
+    "feedback": "جيفري تشوسر (Chaucer) هو شاعر من العصور الوسطى وليس من عصر النهضة [1]."
+  },
+  {
+    "q": "The 'defense of poetry' was written by......",
+    "options": ["John Cleveland", "George Puttenham", "Samuel Daniel", "None"],
+    "correct": 3,
+    "feedback": "الإجابة هي 'لا شيء مما سبق'؛ لأن كتاب 'الدفاع عن الشعر' هو من تأليف السير فيليب سيدني (Philip Sidney) [10-12]."
+  },
+  {
+    "q": "Which is the most dominant poetic genre celebrated by majority of Renaissance poets?",
+    "options": ["The elegy", "The lyric", "The epic", "Sartre"],
+    "correct": 1,
+    "feedback": "الشعر الغنائي (The lyric) هو النوع المهيمن والأكثر أهمية الذي ازدهر في عصر النهضة [13]."
+  },
+  {
+    "q": "Most of the stanzaic form were to product of classical or medieval precedents, while...... is a typically Renaissance invention.",
+    "options": ["Rhyme Royal", "Ballad", "Blank verse", "Sonnet"],
+    "correct": 3,
+    "feedback": "يعتبر السونيت (Sonnet) ابتكاراً نموذجياً لعصر النهضة، بينما الأشكال الأخرى لها جذور كلاسيكية أو من العصور الوسطى [14]."
+  },
+  {
+    "q": "The sonnet was first introduced in English by........",
+    "options": ["Thomas Wyatt", "Henry Howard", "William Shakespeare", "A&B"],
+    "correct": 3,
+    "feedback": "أدخل السير توماس وايات وتلميذه هنري هوارد (إيرل ساري) السونيت إلى إنجلترا [10, 15, 16]."
+  },
+  {
+    "q": "The first part of a Shakespearean sonnet is called........",
+    "options": ["Octet", "Octave", "Quatrain", "None"],
+    "correct": 2,
+    "feedback": "يتكون السونيت الإنجليزي (الشيكسبيري) من أربع مقاطع، الأجزاء الثلاثة الأولى منها تسمى 'Quatrains' (رباعيات) [17, 18]."
+  },
+  {
+    "q": "'One day I wrote her name' is an epic written by......",
+    "options": ["Philip Sidney", "Edmund Spenser", "Samuel Daniel", "None"],
+    "correct": 1,
+    "feedback": "السونيت 'One Day I Wrote Her Name' هو جزء من سلسلة Amoretti التي كتبها إدموند سبنسر [19, 20]."
+  },
+  {
+    "q": "........was the most influential metaphysical poet.",
+    "options": ["John Donne", "George Herbert", "John Milton", "Andrew Marvell"],
+    "correct": 0,
+    "feedback": "جون دون (John Donne) هو مؤسس ورائد المدرسة الميتافيزيقية في الشعر [21, 22]."
+  },
+  {
+    "q": "Metaphysical poets were fond of using....... in their poems.",
+    "options": ["Concets", "Conceits", "Conscits", "Consents"],
+    "correct": 1,
+    "feedback": "اشتهر الشعراء الميتافيزيقيون باستخدام 'Conceits' (الاستعارات البعيدة)، وهي مقارنات معقدة بين أشياء غير متشابهة [23-25]."
+  },
+  {
+    "q": "Identify the poet who first used blank verse in English Poetry is ......",
+    "options": ["Thomas Whyatt", "The Earl of Surry", "Ben Johnson", "Marlowe"],
+    "correct": 1,
+    "feedback": "هنري هوارد (إيرل ساري) هو من اخترع الشعر المرسل (Blank Verse) في الشعر الإنجليزي [15, 16]."
+  },
+  {
+    "q": "The dominant meter of English sonnet is........",
+    "options": ["Dactylic", "Iambic", "Trochaic", "None"],
+    "correct": 1,
+    "feedback": "الوزن السائد في السونيت الإنجليزي هو 'Iambic Pentameter' (الخماسي التفاعيل اليامبي) [26, 27]."
+  },
+  {
+    "q": "The overriding theme of the sonnet was.......",
+    "options": ["Idealized love", "Old age", "Nature", "All"],
+    "correct": 0,
+    "feedback": "الموضوع الأساسي للسونيت هو الحب المثالي (Idealized love) [17, 28, 29]."
+  },
+  {
+    "q": "The English sonnet rhyme scheme is......",
+    "options": ["Ababcdcdfefecc", "Ababcdcdefefgg", "Abbaabbacdecde", "Abbaabbaedeede"],
+    "correct": 1,
+    "feedback": "نظام القافية في السونيت الشيكسبيري هو (ABAB CDCD EFEF GG) [18, 26, 30]."
+  },
+  {
+    "q": "In Shakespeare's sonnet 18 'shall I compare thee to a summer's day' the poem is..........",
+    "options": ["Love", "Nature", "Beauty", "All"],
+    "correct": 3,
+    "feedback": "تتناول القصيدة موضوعات الحب والجمال وخلود الطبيعة من خلال الشعر [27, 31]."
+  },
+  {
+    "q": "The origin of the term 'Renaissance' is Latin, meaning",
+    "options": ["Re-borne", "Re-birth", "Re-live", "Both B and C"],
+    "correct": 3,
+    "feedback": "كلمة 'Renaissance' مشتقة من اللاتينية وتعني إعادة الولادة (Re-birth) أو أن يولد المرء من جديد (Re-born) [32-34]."
+  },
+   {
+    "q": "Metaphysical poets were fond of using....... in their poems.",
+    "options": ["Concets", "Conceits", "Conscits", "Consents"],
+    "correct": 1,
+    "feedback": "الإجابة الصحيحة هي 'Conceits'؛ وهي استعارات معقدة ومبتكرة تربط بين أشياء متباعدة جداً، وهي سمة أساسية في شعر جون دون ورفاقه [1], [2]."
+  },
+  {
+    "q": "Identify the poet who first used blank verse in English Poetry is ......",
+    "options": ["Thomas Whyatt", "The Earl of Surry", "Ben Johnson", "Marlowe"],
+    "correct": 1,
+    "feedback": "هنري هوارد (إيرل ساري) هو من اخترع الشعر المرسل (Blank Verse) في الإنجليزية، بينما توماس وايات هو من أدخل السونيت [1], [3]."
+  },
+  {
+    "q": "The earliest sonnets are attributed to Italy's greatest poet......",
+    "options": ["Jacopo de Lentino", "Petrarch", "Dante", "Aristo"],
+    "correct": 0,
+    "feedback": "جاكوبو دي لينتينو (Jacopo de Lentino) هو من اخترع السونيت في صقلية، بينما بترارك هو من جعلها مشهورة عالمياً لاحقاً [4], [5]."
+  },
+  {
+    "q": "This word means rebirth and refers especially to the revival of classical learning Greek and Roman.",
+    "options": ["Elizabethan", "The Renaissance", "Humanist", "Wittenberg"],
+    "correct": 1,
+    "feedback": "كلمة 'النهضة' (Renaissance) تعني لغوياً إعادة الولادة، وتشير تاريخياً لإحياء التراث الكلاسيكي اليوناني والروماني [6], [7]."
+  },
+  {
+    "q": "Who is the great genius of the Renaissance age who wrote more than 154 sonnets?",
+    "options": ["William Shakespeare", "Christopher Marlowe", "John Milton", "Ben Johnson"],
+    "correct": 0,
+    "feedback": "ويليام شيكسبير هو صاحب السلسلة الشهيرة المكونة من 154 سوناتة التي نُشرت عام 1609 [8], [9]."
+  },
+  {
+    "q": "The King James Bible is one of the greatest achievements of the Renaissance time and made by......",
+    "options": ["12 scholars", "47 scholars", "100 scholars", "One King"],
+    "correct": 1,
+    "feedback": "تم إنجاز نسخة الملك جيمس للكتاب المقدس (Authorized Version) عام 1611 بواسطة 47 عالماً [8], [10]."
+  },
+  {
+    "q": "Pastoral poetry elevated.......",
+    "options": ["The sheep beauty", "The rural life", "Urban beauty", "All"],
+    "correct": 1,
+    "feedback": "يركز الشعر الرعوي (Pastoral) على تمجيد الحياة الريفية (Rural life) وبساطتها في مقابل فساد حياة المدينة [8], [11]."
+  },
+  {
+    "q": "Which prophet is thought to have composed the psalms?",
+    "options": ["Johannes", "Solomon", "David", "Jacob"],
+    "correct": 2,
+    "feedback": "يُنسب تأليف المزامير (Psalms) في الكتاب المقدس إلى النبي داود (David) [12], [13]."
+  },
+  {
+    "q": "The name of the lady to whom Petrarch addressed his sonnets was.......",
+    "options": ["Aura", "Flora", "Beatrice", "Laura"],
+    "correct": 3,
+    "feedback": "لورا (Laura) هي المرأة التي خلدها الشاعر الإيطالي بترارك في سوناتاته [12], [14]."
+  },
+  {
+    "q": "The Renaissance view of poetry accords with the belief that the poet is......",
+    "options": ["An aristocrat", "A scholar", "A maker", "All"],
+    "correct": 3,
+    "feedback": "الإجابة الصحيحة هي 'All'؛ حيث اعتبر عصر النهضة أن الشاعر هو أستاذ (Scholar) في اللغة، وصانع (Maker) للكلمات، وأحياناً من طبقة الأرستقراطية (Aristocrat) [15], [16]."
+  },
+  {
+    "q": "One of these poets is not a Renaissance poet.",
+    "options": ["Abraham Cowley", "George Herbert", "John Keats", "John Milton"],
+    "correct": 2,
+    "feedback": "جون كيتس (John Keats) هو أحد أبرز شعراء العصر الرومانسي، بينما البقية ينتمون لعصر النهضة أو الفترة الميتافيزيقية [1], [2]."
+  },
+  {
+    "q": "The earliest sonnets are attributed to a French poet called.......",
+    "options": ["Jacopo de Lentino", "Petrarch", "Dante", "Mellin de Saint-Gelais"],
+    "correct": 3,
+    "feedback": "وفقاً للملاحظة رقم 11 في الأسئلة، يُنسب إدخال السونيت لفرنسا للشاعر Mellin de Saint-Gelais، رغم أن أصلها إيطالي [3]."
+  },
+  {
+    "q": "Due to certain reasons, the Renaissance started in.......",
+    "options": ["Italy in the 14th c.", "France in the 15th c.", "America", "Germany"],
+    "correct": 0,
+    "feedback": "بدأت النهضة في إيطاليا في القرن الرابع عشر نتيجة التواصل الجديد مع الشرق بعد الحروب الصليبية [4]."
+  },
+  {
+    "q": "Cavalier poets were a group of English gentlemen poets who supported ...... during the Civil War.",
+    "options": ["The Parliament", "Oliver Cromwell", "King Charles II", "King Charles I"],
+    "correct": 3,
+    "feedback": "الشعراء الفرسان (Cavaliers) كانوا من أتباع الملك تشارلز الأول في حربه ضد البرلمانيين [5], [6]."
+  },
+  {
+    "q": "\"Hey, troly loly lo, maid, whither go you?\" is written by.......",
+    "options": ["Richard Banfield", "Christopher Marlowe", "Walter Raleigh", "An anonymous poet"],
+    "correct": 3,
+    "feedback": "هذه القصيدة الرعوية تعتبر من الأعمال المجهولة المؤلف (Anonymous) [7]."
+  },
+  {
+    "q": "The shepherds' swains shall dance and sing. \"Swains\" means.......",
+    "options": ["Servants", "Attendants", "Both A&B", "Wives"],
+    "correct": 2,
+    "feedback": "كلمة 'Swains' في السياق الرعوي تعني الخدم أو المرافقين (servants/attendants) [8]."
+  },
+  {
+    "q": "The rules of decorum stipulate there should be a \"proper\" relationship between.......",
+    "options": ["The theme", "Language", "Form", "All of the above"],
+    "correct": 3,
+    "feedback": "قواعد اللياقة (Decorum) تتطلب تناسقاً بين الموضوع، اللغة (الرفيعة)، والشكل الشعري [9]."
+  },
+  {
+    "q": "Metaphysical poetry means poetry that goes beyond the physical world and explores.......",
+    "options": ["The scientific world", "The spiritual world", "The world of knowledge", "None of these"],
+    "correct": 1,
+    "feedback": "الشعر الميتافيزيقي يتجاوز العالم المادي ليستكشف العالم الروحي والمفاهيم الفلسفية العميقة [10]."
+  },
+  {
+    "q": "In Thomas Campion's \"There Is a Garden in Her Face\" the line \"Till Cherry-ripe themselves do cry\" is a.......",
+    "options": ["Refrain", "Personification", "Epitaph", "Epigram"],
+    "correct": 0,
+    "feedback": "تُسمى العبارة المتكررة في القصيدة 'Refrain' (قرار أو لازمة) [11], [12]."
+  },
+  {
+    "q": "A rhetorical question is a question that requires.......",
+    "options": ["No answer", "An answer", "A witness", "None of the above"],
+    "correct": 0,
+    "feedback": "السؤال البلاغي لا يحتاج لإجابة؛ بل يُستخدم للتأكيد أو لإثارة التفكير [13]."
+  },
+  {
+    "q": "The English canon refers to a collection of....... deemed to be authoritative in English literature.",
+    "options": ["Literary works", "Constitutions", "Artistic paintings", "All of these"],
+    "correct": 0,
+    "feedback": "يُقصد بـ 'Canon' الأدبي مجموعة الأعمال الأدبية التي تُعتبر مرجعية وأساسية في لغة ما [14]."
+  },
+  {
+    "q": "In his hugely influential 'Defence of Poesy'....... wrote that verse far exceedeth prose in the knitting up of memory.",
+    "options": ["George Puttenham", "Riger Ascham", "Philip Sidney", "Thomas More"],
+    "correct": 2,
+    "feedback": "الإجابة صحيحة؛ السير فيليب سيدني هو مؤلف 'الدفاع عن الشعر'، ويرى فيه أن الشعر يتفوق على النثر في قدرته على صياغة الذاكرة [1, 2]."
+  },
+  {
+    "q": "At the end of 'Fain would I wed' by Thomas Campion the lady expresses her wish to ....... because she 'had a mother'.",
+    "options": ["serve her family", "be divorced", "remain celibate", "wed a fair young man"],
+    "correct": 2,
+    "feedback": "في هذه القصيدة، تعبر السيدة عن رغبتها في البقاء عزباء (celibate) مبررة ذلك بتجربة والدتها أو تحذيرها [3]."
+  },
+  {
+    "q": "Some poets like ....... used the sonnet for religious purposes; others like ....... used it for political purposes.",
+    "options": ["Jonson/Drummond", "Donne/Milton", "Donne/Herbert", "Sidney/Milton"],
+    "correct": 1,
+    "feedback": "استخدم جون دون السوناتة لأغراض دينية (The Holy Sonnets)، بينما استخدمها ميلتون لأغراض سياسية [4, 5]."
+  },
+  {
+    "q": "The sonnet sequence is ....... on a certain theme or to certain individual.",
+    "options": ["100 sonnets", "12 sonnets", "a series of sonnets", "6 sonnets"],
+    "correct": 2,
+    "feedback": "سلسلة السوناتات (Sonnet sequence) هي مجموعة متتالية من السوناتات التي تدور حول موضوع واحد أو شخص معين [6]."
+  },
+  {
+    "q": "Thomas Dekker says: 'Are you then travelling to the temple of Eliza?' Eliza here is.......",
+    "options": ["Queen Elizabeth I", "Queen Elizabeth II", "Roman goddess", "Greek goddess"],
+    "correct": 0,
+    "feedback": "المقصود بـ 'إليزا' هي الملكة إليزابيث الأولى، التي كانت توصف بألقاب تمجيدية في أدب عصرها [7, 8]."
+  },
+  {
+    "q": "Thomas Wyatt says: 'They flee from me that sometime did me seek/ With naked foot, stalking in my chamber'. 'Chamber' means.......",
+    "options": ["room", "tower", "office", "garden"],
+    "correct": 0,
+    "feedback": "كلمة 'Chamber' في قصيدة توماس وايات تعني الغرفة الخاصة أو مخدع النوم [9]."
+  },
+  {
+    "q": "\"There is a garden in her face / Where roses and white lilies blow\" is a poem by........",
+    "options": ["Ben Jonson", "Thomas Campion", "Shakespeare", "Spenser"],
+    "correct": 1,
+    "feedback": "القصيدة للشاعر توماس كامبيون، وتعتبر مثالاً كلاسيكياً على الشعر الغنائي الذي يصف الجمال المثالي للمرأة باستخدام صور من الطبيعة [1], [2]."
+  },
+  {
+    "q": "Which of the following terms best describes a person who supports the arts?",
+    "options": ["Patrone", "Petrarch", "Patron", "Patriotic"],
+    "correct": 2,
+    "feedback": "المصطلح الصحيح هو 'Patron' (راعي الفنون)، وقد كان عصر النهضة عصراً ذهبياً للرعاية (Patronage) حيث دعم النبلاء والملوك الشعراء [3], [4]."
+  },
+  {
+    "q": "Which author wrote the book 'Utopia' about a fictional place where its' inhabitants attempt to live by Christian principles?",
+    "options": ["Michelangelo", "Thomas More", "Philip Sidney", "George Puttenham"],
+    "correct": 1,
+    "feedback": "السير توماس مور هو صاحب كتاب 'يوتوبيا' (Utopia) الذي نُشر عام 1516 ويصف جزيرة خيالية ذات نظام سياسي واجتماعي مثالي [5], [6]."
+  },
+  {
+    "q": "This poet was an explorer, an adventurer, a warrior, a poet so favoured by Queen Elizabeth I, but sentenced to death by King James I.",
+    "options": ["Samuel Daniel", "John Donne", "Walter Raleigh", "Christopher Marlowe"],
+    "correct": 2,
+    "feedback": "والتر رالي كان 'رجل نهضة' بامتياز؛ مستكشفاً وشاعراً، لكنه أُعدم في عهد جيمس الأول بتهمة التآمر [7], [8]."
+  },
+  {
+    "q": "One day I wrote her name upon the........../ But came the waves and ..........it away:",
+    "options": ["beach/ cleaned", "strand/ washed", "bank/cleared", "none of the above"],
+    "correct": 1,
+    "feedback": "الأبيات مأخوذة من سوناتة سبنسر رقم 75، والكلمات الصحيحة هي 'strand' (الشاطئ) و 'washed' (غسلت) [9], [10]."
+  },
+  {
+    "q": "A/an...... is a sacred song or hymn especially one of the collection in the Bible.",
+    "options": ["elegy", "verse", "Psalm", "sonnet"],
+    "correct": 2,
+    "feedback": "المزمور (Psalm) هو أغنية أو ترنيمة دينية مقدسة، ويحتوي الكتاب المقدس على 150 مزموراً يُنسب معظمها للنبي داود [9], [11]."
+  },
+  {
+    "q": "The themes of the early sonnets in English were based almost exclusively on this Italian poet..........",
+    "options": ["Petrarch", "Dante", "Machiavelli", "Picasso"],
+    "correct": 0,
+    "feedback": "اعتمدت السوناتات الإنجليزية المبكرة (مثل أعمال وايات وهواراد) بشكل كلي تقريباً على نموذج الشاعر الإيطالي 'بترارك' [9], [12]."
+  },
+  {
+    "q": "Chief Characteristics of Metaphysical Poetry include the use of colloquial speech, fondness of wit and fondness for......",
+    "options": ["conseet", "konceits", "conceits", "conciets"],
+    "correct": 2,
+    "feedback": "السمة الأساسية للشعر الميتافيزيقي هي 'Conceits' (الاستعارات الميتافيزيقية البعيدة)، وهي مقارنات ذكية ومعقدة بين أشياء متباعدة [9], [13]."
+  },
+  {
+    "q": "For political reasons, this king wanted to end papal control over the English church.",
+    "options": ["Charles I", "Henry VII", "Henry VIII", "James VI"],
+    "correct": 2,
+    "feedback": "الملك هنري الثامن هو من فصل الكنيسة الإنجليزية عن روما وأنهى سلطة البابا ليصبح هو الرأس الأعلى للكنيسة [5], [14]."
+  },
+  {
+    "q": "Where did the sonnet originate?",
+    "options": ["In Sicily", "In Roma", "In Paris", "by Walter Raleigh"],
+    "correct": 0,
+    "feedback": "نشأت السوناتة في 'صقلية' (Sicily) بإيطاليا في القرن الثاني عشر على يد جاكوبو دي لينتينو [15], [16]."
+  },
+  {
+    "q": "Which of the following is a feature of the metaphysical poetry of John Donne?",
+    "options": ["Focus on death and religion", "Use of wit and conceits", "simple language", "adherence to classical forms"],
+    "correct": 1,
+    "feedback": "يتميز شعر جون دون باستخدام الذكاء (Wit) والاستعارات المعقدة (Conceits) التي تدمج العاطفة بالمنطق الفلسفي [15], [13]."
+  },
+  {
+    "q": "This poet held the position of Oliver Cromwell's Secretary and he was a staunch supporter of his rule.",
+    "options": ["John Milton", "Andrew Marvell", "William Davenant", "George Herbert"],
+    "correct": 0,
+    "feedback": "جون ميلتون كان المدافع الأبرز عن الجمهورية وشغل منصب سكرتير اللغات الأجنبية في حكومة كرومويل [17], [2]."
+  },
+  {
+    "q": "In a Petrarchan sonnet, the shift or \"turn\" (known as the volta) typically occurs between which two parts of the sonnet?",
+    "options": ["Between the first and second quatrains", "Between the octave and sestet", "Between the second and third quatrains", "Between the third quatrain and the final couplet"],
+    "correct": 1,
+    "feedback": "في السوناتة البتراركية، تظهر 'التحولة' (Volta) في بداية البيت التاسع، أي بين المقطع الثماني (Octave) والمقطع السداسي (Sestet) [18], [19]."
+  },
+  {
+    "q": "In John Donne's \"Death Be Not Proud\" the poet argues that Death is:",
+    "options": ["Invincible and eternal", "A natural, inevitable force", "A powerless, temporary state", "A welcome release"],
+    "correct": 2,
+    "feedback": "يجادل دون بأن الموت 'ضعيف وحالة مؤقتة'؛ لأنه بالنسبة للمؤمن ليس إلا نوماً قصيراً يعقبه استيقاظ أبدي في الآخرة [20], [21]."
+  },
+  {
+    "q": "Which poet is credited with significantly shaping the English pastoral tradition with his work 'The Shepheard's Calendar'?",
+    "options": ["Christopher Marlowe", "Edmund Spenser", "Sir Philip Sidney", "John Milton"],
+    "correct": 1,
+    "feedback": "يُعد إدموند سبنسر هو من صاغ التقاليد الرعوية الإنجليزية بعملة 'تقويم الرعاة' (The Shepheardes Calender) عام 1579 [20], [22]."
+  },
+   {
+    "q": "The origin of the term 'Renaissance' is Latin, meaning",
+    "options": ["Re-borne", "Re-birth", "Re-live", "Both B and C"],
+    "correct": 3,
+    "feedback": "كلمة 'Renaissance' مشتقة من اللاتينية وتعني حرفياً 'إعادة الولادة' (Re-birth) أو 'أن يولد المرء من جديد' (Re-born) [1, 2]."
+  },
+  {
+    "q": "Due to certain reasons, the Renaissance started in",
+    "options": ["Germany in the 13th c", "France in the 5th c", "Italy in the 14th c", "America"],
+    "correct": 2,
+    "feedback": "بدأت النهضة في إيطاليا خلال القرن الرابع عشر نتيجة للتواصل الجديد مع الشرق بعد الحروب الصليبية [3]."
+  },
+  {
+    "q": "Cavalier poets were a group of English gentlemen poets who supported ...... during the Civil War.",
+    "options": ["The Parliament", "Oliver Cromwell", "King Charles II", "King Charles I"],
+    "correct": 3,
+    "feedback": "الشعراء الفرسان (Cavaliers) كانوا من أتباع الملك تشارلز الأول في صراعه ضد البرلمانيين بقيادة كرومويل [4, 5]."
+  },
+  {
+    "q": "The rules of decorum stipulate there should be a 'proper' relationship between",
+    "options": ["The theme", "Language", "Form", "All of the above"],
+    "correct": 3,
+    "feedback": "تقتضي قواعد اللياقة (Decorum) وجود تناسق تام بين الموضوع (Theme)، واللغة (Language)، والشكل الشعري (Form) [6]."
+  },
+  {
+    "q": "In Thomas Campion's 'There Is a Garden in Her Face' the line 'Till Cherry-ripe themselves do cry' is a",
+    "options": ["refrain", "personification", "epitaph", "epigram"],
+    "correct": 0,
+    "feedback": "يُعرف البيت المتكرر في القصيدة بـ 'القرار' أو 'اللازمة' (Refrain) [7]."
+  },
+  {
+    "q": "The Commonwealth era ended with the restoration in",
+    "options": ["September 1649", "1660", "1661", "1662"],
+    "correct": 1,
+    "feedback": "انتهت فترة الكومنولث وعادت الملكية (Restoration) بتولي تشارلز الثاني العرش عام 1660 [3, 8]."
+  },
+  {
+    "q": "King Henry VIII formally married ...... Times.",
+    "options": ["1", "3", "6", "4"],
+    "correct": 2,
+    "feedback": "تزوج الملك هنري الثامن ست مرات في محاولاته المستمرة للحصول على وريث ذكر [9, 10]."
+  },
+  {
+    "q": "At the end of 'Fain would I wed' by Thomas Campion the lady expresses her wish to",
+    "options": ["serve her family", "be divorced", "remain celibate", "wed a fair young man"],
+    "correct": 2,
+    "feedback": "تعبر السيدة في نهاية القصيدة عن رغبتها في البقاء عزباء (celibate) لأنها تقتدي بتجربة والدتها [7]."
+  },
+  {
+    "q": "Thomas Wyatt says: 'Whoso list to hunt, I know where is an hind'. 'hind' means",
+    "options": ["beautiful girl", "big bird", "female duck", "female deer"],
+    "correct": 3,
+    "feedback": "كلمة 'hind' تعني أنثى الغزال، وهي استعارة للمرأة التي يحاول الشاعر مطاردة حبها [11, 12]."
+  },
+  {
+    "q": "Which Renaissance figure is most associated with the humanist movement?",
+    "options": ["Thomas More", "William Shakespeare", "Ben Jonson", "King Henry VIII"],
+    "correct": 0,
+    "feedback": "السير توماس مور هو الشخصية الأبرز المرتبطة بالحركة الإنسانية (Humanism) وصاحب كتاب 'يوتوبيا' [13, 14]."
+  },
+  {
+    "q": "John Donne's 'The Good-Morrow' is",
+    "options": ["a satire", "a ballad", "an aubade", "an elegy"],
+    "correct": 2,
+    "feedback": "تعتبر قصيدة 'The Good-Morrow' أغنية فجر (Aubade) لأنها تصور استيقاظ أرواح العاشقين عند الصباح [15, 16]."
+  },
+  {
+    "q": "In Donne's 'Death Be Not Proud', the poet argues that Death is",
+    "options": ["Invincible and eternal", "A natural force", "A powerless, temporary state", "A welcome release"],
+    "correct": 2,
+    "feedback": "يجادل دون بأن الموت 'ضعيف' ومجرد حالة مؤقتة تشبه النوم، يليه استيقاظ أبدي [17, 18]."
+  },
+  {
+    "q": "Which poet is credited with shaping the English pastoral tradition with 'The Shepheard's Calendar'?",
+    "options": ["Christopher Marlowe", "Edmund Spenser", "Sir Philip Sidney", "John Milton"],
+    "correct": 1,
+    "feedback": "إدموند سبنسر هو من صاغ التقاليد الرعوية الإنجليزية بملحمته 'تقويم الرعاة' عام 1579 [19, 20]."
+  },
+  {
+    "q": "What is the 'light' metaphorically referring to in 'When I consider how my light is spent'?",
+    "options": ["The speaker's physical sight", "Wisdom", "Life force", "Daylight"],
+    "correct": 0,
+    "feedback": "تشير كلمة 'الضوء' (Light) هنا استعارةً إلى حاسة البصر التي فقدها ميلتون في سن الرابعة والأربعين [21, 22]."
+  },
+  {
+    "q": "The first major translation of the Bible from original Hebrew and Greek into Latin was",
+    "options": ["Vulgate", "Septuagint", "King James Bible", "Tyndale Bible"],
+    "correct": 0,
+    "feedback": "النسخة اللاتينية المترجمة عن العبرية واليونانية تسمى 'فولغاتا' (Vulgate) [23]."
+  },
+  {
+    "q": "For political reasons, this king wanted to end papal control over the English church.",
+    "options": ["Charles I", "Henry VII", "Henry VIII", "James VI"],
+    "correct": 2,
+    "feedback": "الملك هنري الثامن هو من أنهى سلطة البابا لإنشاء الكنيسة الأنجليكانية لأسباب سياسية وشخصية [1, 2]."
+  },
+  {
+    "q": "The term 'Renaissance' is derived from the English renasci. This word means:",
+    "options": ["Rebirth", "to be re-born again", "Both A and B", "None of these"],
+    "correct": 2,
+    "feedback": "كلمة 'النهضة' مشتقة من اللاتينية وتعني إعادة الولادة أو أن يولد المرء من جديد [1, 3]."
+  },
+  {
+    "q": "King Henry VIII married ...... times.",
+    "options": ["6", "5", "4", "2"],
+    "correct": 0,
+    "feedback": "تزوج الملك هنري الثامن ست مرات في سعيه للحصول على وريث ذكر [1, 4]."
+  },
+  {
+    "q": "One of the supreme achievements of the King James VI and I was......",
+    "options": ["Uniting England and Wales", "The Scotland Yard", "The Bible", "King's Quire"],
+    "correct": 2,
+    "feedback": "يعد إصدار نسخة الملك جيمس للكتاب المقدس (Authorized Version) عام 1611 أعظم إنجازاته [5, 6]."
+  },
+  {
+    "q": "When the humanist Thomas More refused to recognize the Act of Succession and the Act of Supremacy, Henry had him......",
+    "options": ["appointed as deputy", "executed", "apologized", "banished to France"],
+    "correct": 1,
+    "feedback": "أُعدم توماس مور لرفضه الاعتراف بسيادة الملك على الكنيسة [5, 7]."
+  },
+  {
+    "q": "Kings and queens Henry VII, his son Henry VIII and Elizabeth I belong to the...........family.",
+    "options": ["Hanover", "Stuart", "Tudor", "Angles"],
+    "correct": 2,
+    "feedback": "ينتمي هؤلاء الملوك لعائلة تيودور (Tudor) التي حكمت إنجلترا في بداية النهضة [5, 8]."
+  },
+  {
+    "q": "The Renaissance reached the British Isles much later than other European countries because England in the fifteenth century was torn apart by wars. This statement is........",
+    "options": ["Ambiguous", "False", "True", "None of these"],
+    "correct": 2,
+    "feedback": "صحيح؛ تأخرت النهضة في إنجلترا بسبب 'حرب الوردتين' التي جعلتها معزولة فكرياً ومادياً [9, 10]."
+  }
+  
+
+
+  ]}

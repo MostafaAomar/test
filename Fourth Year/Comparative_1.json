@@ -1,0 +1,1933 @@
+{
+  "subject": "ادب مقارن سنه رابعه 1",
+  "lang": "en",
+  "questions": [
+
+    {
+      "id": 1,
+      "q": "According to the lectures, what is the main 'identity crisis' inherent in comparative literature?",
+      "options": ["A) It has no practitioners", "B) It is difficult to define and constantly renews its mission", "C) It is only studied in one country", "D) It relies solely on one language"],
+      "correct": 1,
+      "feedback": "كما ذكر في المحاضرة 2/3، يفتقر الأدب المقارن إلى الوضع المؤسسي الآمن الذي تتمتع به التخصصات الأخرى، مما يتطلب منه تبرير مهمته باستمرار."
+    },
+    {
+      "id": 2,
+      "q": "Which school of comparative literature is characterized as 'nationalistic'?",
+      "options": ["A) The American School", "B) The Russian School", "C) The French School", "D) The Oriental School"],
+      "correct": 2,
+      "feedback": "ترتبط المدرسة الفرنسية تاريخيًا بالتوجهات القومية والتركيز على دراسة التأثير."
+    },
+    {
+      "id": 3,
+      "q": "What is the primary focus of the 'French School' according to the Golden Papers?",
+      "options": ["A) Intertextuality", "B) Influence", "C) Distant reading", "D) Compensation"],
+      "correct": 1,
+      "feedback": "ركزت المدرسة الفرنسية على دراسة التأثير، بينما تحولت المدارس الأحدث غالبًا إلى دراسة التناص."
+    },
+    {
+      "id": 4,
+      "q": "What does 'reception' describe in comparative literature?",
+      "options": ["A) Tracing meaning through languages on a vertical axis", "B) Only reading foreign works", "C) The study of linguistics", "D) A step towards influence"],
+      "correct": 0,
+      "feedback": "بينما تنقل الترجمة المعنى على محور أفقي، يتتبع الاستقبال المعنى على محور رأسي."
+    },
+    {
+      "id": 5,
+      "q": "Who famously declared the 'Death of a Discipline' in comparative literature?",
+      "options": ["A) Susan Bassnett", "B) Gayatri Chakravorty Spivak", "C) Dr. Muhannad", "D) Roland Barthes"],
+      "correct": 1,
+      "feedback": "أعلنت سبيفاك 'موت التخصص' بعد عقد من ادعاء سوزان باسنيت أن المجال في تدهور."
+    },
+    {
+      "id": 6,
+      "q": "How is 'close reading' generally described in the course?",
+      "options": ["A) Sociological", "B) Aesthetic", "C) Political", "D) Institutional"],
+      "correct": 1,
+      "feedback": "تحلل القراءة المتعمقة النص كعمل فني (جمالي)، بينما تُعامل القراءة عن بعد على أنها سوسيولوجية (اجتماعية)."
+    },
+    {
+      "id": 7,
+      "q": "What is the 'canon' in the context of comparative literature studies?",
+      "options": ["A) A type of weapon", "B) A set of generally accepted standards and principles", "C) A specific author", "D) A type of poem"],
+      "correct": 1,
+      "feedback": "يشير 'الكانون' أو 'المعيار الأدبي' إلى مجموعة المعايير والمبادئ المقبولة، والتي يتحدها النقاد الآن غالبًا بـ 'معيار مضاد'."
+    },
+    {
+      "id": 8,
+      "q": "According to the course, what is a defining characteristic of a comparatist?",
+      "options": ["A) Nationalistic pride", "B) An insistence on clear-cut causality", "C) 'Unbelonging' to any specific tradition", "D) Focus only on Greek literature"],
+      "correct": 2,
+      "feedback": "المقارنون مثل الرحالة؛ يختارون عدم الانتماء إلى أي تقليد معين، وهو ما يعمل كسمة مميزة لهم."
+    },
+    {
+      "id": 9,
+      "q": "What is the result of the 'universalization of the European model' in comparative literature?",
+      "options": ["A) It ended the discipline", "B) It made international/national comparison the default setting", "C) It favored Asian literature", "D) It banned translation"],
+      "correct": 1,
+      "feedback": "كرّس هذا النموذج المقارنة الدولية والوطنية كإعداد افتراضي للتخصص."
+    },
+    {
+      "id": 10,
+      "q": "What shift happened between the French/German schools and the American school?",
+      "options": ["A) The American school became less nationalistic", "B) The American school opposed the French but made similar mistakes", "C) The French school became the American school", "D) The American school stopped comparing"],
+      "correct": 1,
+      "feedback": "عارضت المدرسة الأمريكية المدرسة الفرنسية، لكنها انتهت بتكرار أخطاء مماثلة."
+    },
+    {
+      "id": 11,
+      "q": "How did Roland Barthes define the text?",
+      "options": ["A) As a solid object", "B) As a network", "C) As a historical document only", "D) As a translation"],
+      "correct": 1,
+      "feedback": "يعتبر رولان بارت النص بمثابة شبكة."
+    },
+    {
+      "id": 12,
+      "q": "Which ancient text is cited as an early example of the hero archetype (exile/return)?",
+      "options": ["A) The Iliad", "B) The Aeneid", "C) The Odyssey", "D) Beowulf"],
+      "correct": 2,
+      "feedback": "تُستخدم الأوديسة كمثال لقصة البطل الذي يُنفى ثم يعود وقد تغير."
+    },
+    {
+      "id": 13,
+      "q": "Comparative literature in the 21st century is best described as:",
+      "options": ["A) Declining rapidly", "B) Dead and irrelevant", "C) A surge of interest driven by strategic positioning", "D) Focused only on French literature"],
+      "correct": 2,
+      "feedback": "على الرغم من ادعاءات الموت، شهد المجال اهتمامًا متزايدًا بسبب موقعه الاستراتيجي بين اللغات والدراسات الثقافية."
+    },
+    {
+      "id": 14,
+      "q": "What is the primary role of the writer according to the lecture on reading?",
+      "options": ["A) To follow the reader's lead", "B) To set the tune, as they are readers themselves", "C) To translate texts only", "D) To ignore other literature"],
+      "correct": 1,
+      "feedback": "تذكر المحاضرة أن الكتّاب، وليس القراء، هم من يحددون إيقاع الأدب."
+    },
+    {
+      "id": 15,
+      "q": "What is a 'loyal translation'?",
+      "options": ["A) A free/creative translation", "B) Sticking to the source text", "C) A translation that changes the meaning", "D) Translating only titles"],
+      "correct": 1,
+      "feedback": "الترجمة 'الأمينة' تعني الالتزام بالنص المصدر، بينما الترجمة 'الخائنة' تكون حرة أو إبداعية."
+    },
+    {
+      "id": 16,
+      "q": "Why is 'comparison' considered an act of 'compensation'?",
+      "options": ["A) Because it is paid work", "B) Because it redresses perceived literary/cultural injustices", "C) Because it replaces the original text", "D) Because it is faster than reading"],
+      "correct": 1,
+      "feedback": "تطورت المقارنة لتصبح وسيلة لتعويض الظلم الأدبي والثقافي المتصور."
+    },
+    {
+      "id": 17,
+      "q": "What is the main challenge of studying 'influence'?",
+      "options": ["A) Finding books", "B) Knowing languages", "C) Proving direct relations between writers", "D) The length of the works"],
+      "correct": 2,
+      "feedback": "التحدي الرئيسي (خاصة للمدرسة الفرنسية) هو صعوبة إثبات السببية الواضحة أو العلاقات المباشرة."
+    },
+    {
+      "id": 18,
+      "q": "What did Susan Bassnett claim in 1993?",
+      "options": ["A) Comparative literature was growing", "B) Comparative literature was in decline", "C) Comparative literature was dead", "D) Comparative literature was only for Americans"],
+      "correct": 1,
+      "feedback": "ادعت باسنيت أن التخصص كان في تدهور؛ وأعلنت سبيفاك أنه 'مات' بعد عشر سنوات."
+    },
+    {
+      "id": 19,
+      "q": "What is the 'horizontal axis' of translation?",
+      "options": ["A) Comparing different eras", "B) Moving meaning between languages", "C) Analyzing the structure", "D) Ignoring the text"],
+      "correct": 1,
+      "feedback": "تنقل الترجمة المعنى بين اللغات على محور أفقي، بينما يتتبعه الاستقبال على محور رأسي."
+    },
+    {
+      "id": 20,
+      "q": "The 'French School's' focus on the confinement of comparison to the boundary of language is:",
+      "options": ["A) Considered a major flaw", "B) Considered one of the 'good things' by some", "C) Never mentioned", "D) Irrelevant"],
+      "correct": 1,
+      "feedback": "يُعتبر حصر المقارنة في حدود اللغة أحد المناهج الإيجابية للمدرسة الفرنسية."
+    },
+    {
+      "id": 21,
+      "q": "How does the author characterize the shift from 'close reading' to 'distant reading'?",
+      "options": ["A) A move from aesthetic to sociological", "B) A move from literary to scientific", "C) A move from text to author", "D) A move from reading to writing"],
+      "correct": 0,
+      "feedback": "القراءة المتعمقة هي قراءة جمالية، بينما القراءة عن بعد هي في النهاية قراءة سوسيولوجية (اجتماعية)."
+    },
+    {
+      "id": 22,
+      "q": "Why do comparatists need linguistic skills?",
+      "options": ["A) To translate for money", "B) To be able to cross-refer mutually enlightening texts", "C) Because the university requires it", "D) To write poetry"],
+      "correct": 1,
+      "feedback": "المهارات اللغوية ضرورية للربط بين النصوص التي تثري بعضها البعض ضمن إطار مشترك."
+    },
+    {
+      "id": 23,
+      "q": "What was the role of the USSR in comparative literature in Eastern Europe?",
+      "options": ["A) It banned the subject", "B) It centralized the study of texts translated into Russian", "C) It ignored the subject", "D) It only studied Russian poetry"],
+      "correct": 1,
+      "feedback": "كان الأدب المقارن متمركزًا حول الاتحاد السوفيتي، مع ترجمة النصوص إلى اللغة الروسية."
+    },
+    {
+      "id": 24,
+      "q": "What is the relationship between literature and culture?",
+      "options": ["A) They are completely unrelated", "B) Literature is a form of cultural expression", "C) Comparative literature ignores culture", "D) Literature is not related to culture"],
+      "correct": 1,
+      "feedback": "يؤكد المقرر على الموقع الاستراتيجي للتخصص بين اللغات والنقد الأدبي والدراسات الثقافية."
+    },
+    {
+      "id": 25,
+      "q": "True or False: Religion is a source of literary figures like Noah and Moses.",
+      "options": ["A) True", "B) False"],
+      "correct": 0,
+      "feedback": "نعم، لقد زود الدين الآداب بشخصيات مثل نوح ويوسف وموسى وغيرهم."
+    },
+    {
+      "id": 26,
+      "q": "What is the primary function of philology according to the documents?",
+      "options": ["A) To study grammar only", "B) The study of language in its historical texts/contexts", "C) To write literature", "D) To translate"],
+      "correct": 1,
+      "feedback": "ازدهر علم الفيلولوجيا (فقه اللغة) في القرن التاسع عشر بسبب الاستعمار ويركز على النصوص والسياقات التاريخية."
+    },
+    {
+      "id": 27,
+      "q": "Why do comparatists try not to belong to one tradition?",
+      "options": ["A) To avoid prejudices", "B) Because they hate tradition", "C) Because they want to be popular", "D) Because they want to write novels"],
+      "correct": 0,
+      "feedback": "من خلال عدم الانتماء إلى تقليد معين، يهدفون إلى أن يكونوا موضوعيين مثل الرحالة بدلاً من امتلاك أحكام مسبقة."
+    },
+    {
+      "id": 28,
+      "q": "What does intertextuality focus on?",
+      "options": ["A) Influence", "B) Rewriting/blending of texts", "C) Historical dates", "D) Geography"],
+      "correct": 1,
+      "feedback": "ركزت المدارس الأحدث على التناص، والذي يتضمن كيفية تفاعل النصوص وإعادة صياغة المواد الموجودة."
+    },
+    {
+      "id": 29,
+      "q": "What is the 'Golden Papers' document?",
+      "options": ["A) A novel", "B) A study guide/summary for Comparative Literature (1)", "C) A historical archive", "D) A dictionary"],
+      "correct": 1,
+      "feedback": "الأوراق الذهبية هي دليل الدراسة أو الملخصات المقدمة للمقرر."
+    },
+    {
+      "id": 30,
+      "q": "How does translation represent an intervention in international relations?",
+      "options": ["A) By changing governments", "B) Through linguistic choices and aesthetics", "C) By funding wars", "D) By banning writers"],
+      "correct": 1,
+      "feedback": "كل خيار لغوي في الترجمة يمثل تدخلاً في العلاقات الدولية."
+    },
+    {
+      "id": 31,
+      "q": "What is the 'horizontal axis' of comparative literature?",
+      "options": ["A) History", "B) Translation (carrying over between languages)", "C) Biography", "D) Grammar"],
+      "correct": 1,
+      "feedback": "تعمل الترجمة على المحور الأفقي؛ بينما يعمل الاستقبال على المحور الرأسي."
+    },
+    {
+      "id": 32,
+      "q": "According to the course, when does 'reception' happen?",
+      "options": ["A) When someone reads another's work and is influenced by/rewrites it", "B) When a book is published", "C) When a book is translated", "D) Never"],
+      "correct": 0,
+      "feedback": "يوصف الاستقبال بأنه قراءة عمل ما أو إعادة كتابته أو التأثر به."
+    },
+    {
+      "id": 33,
+      "q": "What is 'comparative philology'?",
+      "options": ["A) The study of ancient languages and their relationships", "B) Writing poetry", "C) Analyzing film", "D) Editing"],
+      "correct": 0,
+      "feedback": "أصبحت المقارنات بين اللغات الأوروبية الحديثة واللغات الشرقية القديمة حتمية."
+    },
+    {
+      "id": 34,
+      "q": "What was the problem with the American School?",
+      "options": ["A) It didn't exist", "B) It repeated the same mistakes as the French School", "C) It only studied American literature", "D) It didn't use English"],
+      "correct": 1,
+      "feedback": "عارضت المدرسة الأمريكية المدرسة الفرنسية لكنها انتهت بارتكاب نفس الأخطاء."
+    },
+    {
+      "id": 35,
+      "q": "What does 'canon' imply regarding literature?",
+      "options": ["A) A list of rejected books", "B) A set of standards/accepted principles for study", "C) A type of author", "D) A specific publisher"],
+      "correct": 1,
+      "feedback": "يشير 'الكانون' أو 'المعيار الأدبي' إلى المعايير والمبادئ المقبولة."
+    },
+    {
+      "id": 36,
+      "q": "Are writers also readers?",
+      "options": ["A) Yes, first and foremost of their own work", "B) No, they don't read", "C) Only occasionally", "D) Never"],
+      "correct": 0,
+      "feedback": "الكتّاب هم قراء، أولاً وقبل كل شيء لأعمالهم الخاصة، ويضعون أنفسهم في مكان القراء."
+    },
+    {
+      "id": 37,
+      "q": "Is literature a 'dance of similarity and difference'?",
+      "options": ["A) Yes", "B) No"],
+      "correct": 0,
+      "feedback": "يوصف الأدب بأنه رقصة من التشابه والاختلاف، حيث يحدد الكتّاب الإيقاع."
+    },
+    {
+      "id": 38,
+      "q": "What makes comparative literature different from other disciplines?",
+      "options": ["A) It is less theoretical", "B) It must constantly renew its sense of mission", "C) It is older", "D) It only uses one language"],
+      "correct": 1,
+      "feedback": "على عكس التخصصات الأكثر استقرارًا، يجب على الأدب المقارن أن يروي لنفسه باستمرار قصة جديدة حول سبب قيامه بالمقارنة."
+    },
+    {
+      "id": 39,
+      "q": "Does Comparative Literature have a fixed identity?",
+      "options": ["A) Yes, it is very stable", "B) No, it has an inherent identity crisis"],
+      "correct": 1,
+      "feedback": "أزمة الهوية متأصلة في الدراسة بأكملها."
+    },
+    {
+      "id": 40,
+      "q": "Which of the following is a motive for studying comparative literature?",
+      "options": ["A) To prove one language is better", "B) To understand how stories and ideas circulate", "C) To make money", "D) To ignore foreign texts"],
+      "correct": 1,
+      "feedback": "يساعدنا الأدب المقارن على فهم كيفية تداول القصص والأفكار، وغالبًا ما يستخدم الأساطير اليونانية كنقطة انطلاق."
+    },
+    {
+      "id": 41,
+      "q": "What is 'intertextuality' according to the quiz material?",
+      "options": ["A) A reworking of frequently dealt-with materials", "B) A type of language", "C) A historical period", "D) A book title"],
+      "correct": 0,
+      "feedback": "يتضمن التناص إعادة صياغة للمواد مع قدر معين من التغيير."
+    },
+    {
+      "id": 42,
+      "q": "True or False: The history of European literature is a history of comparison.",
+      "options": ["A) True", "B) False"],
+      "correct": 0,
+      "feedback": "غالبًا ما يُنظر إلى تاريخ الأدب الأوروبي على أنه تاريخ للمقارنة."
+    },
+    {
+      "id": 43,
+      "q": "What does a 'comparatist' do?",
+      "options": ["A) Only translate", "B) Cross-refers any number of mutually enlightening texts", "C) Criticizes authors", "D) Sells books"],
+      "correct": 1,
+      "feedback": "يسعى المقارن إلى الربط بين أي عدد من النصوص التي تثري بعضها البعض ضمن إطار مشترك."
+    },
+    {
+      "id": 44,
+      "q": "Which school is associated with the 'principle of non-literary influence'?",
+      "options": ["A) French School", "B) American School", "C) Oriental School", "D) No school"],
+      "correct": 0,
+      "feedback": "ناقشت المدرسة الفرنسية 'مبدأ التأثير غير الأدبي'."
+    },
+    {
+      "id": 45,
+      "q": "What is the importance of 'metaphors' in comparative literature?",
+      "options": ["A) They make literature harder", "B) They help comparative literature view itself", "C) They are not important", "D) They are for poets only"],
+      "correct": 1,
+      "feedback": "يتساءل النص عن أهمية الاستعارات ويشير إلى أنها حاسمة في كيفية رؤية التخصص لنفسه."
+    },
+    {
+      "id": 46,
+      "q": "What does it mean for a discipline to be 'politicized'?",
+      "options": ["A) It works in politics", "B) It is influenced by power structures, biases, and historical contexts", "C) It has a president", "D) It is illegal"],
+      "correct": 1,
+      "feedback": "أصبح الأدب المقارن أكثر تسييسًا عبر التاريخ، مما استلزم فهم هذا التاريخ."
+    },
+    {
+      "id": 47,
+      "q": "Is the 'reception' of a text the same as the 'influence' of a text?",
+      "options": ["A) Yes", "B) No"],
+      "correct": 1,
+      "feedback": "الاستقبال يختلف عن التأثير؛ فالاستقبال يتتبع المعنى رأسيًا بينما التأثير أفقي."
+    },
+    {
+      "id": 48,
+      "q": "Why is the historical emphasis on Europe in comparative literature problematic?",
+      "options": ["A) Because it is wrong", "B) Because it ignores non-European literatures", "C) Because it is too long", "D) Because it is boring"],
+      "correct": 1,
+      "feedback": "ركز التخصص تاريخيًا على أوروبا، لكن هذا التركيز قاد تطوره، وفهمه هو مفتاح مستقبله."
+    },
+    {
+      "id": 49,
+      "q": "Which of these is a motif of texts and a metaphor of context?",
+      "options": ["A) Exile", "B) Return", "C) Metamorphosis", "D) All of the above"],
+      "correct": 3,
+      "feedback": "المنفى والعودة والتحول هي تيمات للنصوص واستعارات للسياق."
+    },
+    {
+      "id": 50,
+      "q": "What is the primary advice for studying this material?",
+      "options": ["A) Memorize everything", "B) Understand, then memorize definitions", "C) Ignore the critics", "D) Only read the titles"],
+      "correct": 1,
+      "feedback": "تؤكد الأوراق الذهبية: 'النقطة الأساسية... هي الفهم، ثم الفهم. بالطبع، الحفظ مهم ولكن فقط للتعريفات والكلمات الجديدة'."
+    },
+  {
+    "q": "1. \"Without difference, no similarity\" implies that:",
+    "options": ["A) Similarity is more important than difference", "B) Comparison eliminates contrast", "C) Recognizing differences is essential to identifying similarities", "D) Contrastive literature replaces comparative literature"],
+    "correct": 2,
+    "feedback": "لأن المقارنة تفترض مسبقاً القدرة على التباين؛ فلا يمكننا إدراك أوجه التشابه إلا إذا استطعنا أولاً تمييز أوجه الاختلاف [16، 89]."
+  },
+  {
+    "q": "2. The relationship between comparative and contrastive literature is best described as:",
+    "options": ["A) Competing methodologies", "B) Historically unrelated fields", "C) Mutually dependent analytical approaches", "D) Identical modes of study"],
+    "correct": 2,
+    "feedback": "الأدب التبايني هو النظير الضروري للأدب المقارن؛ فهما منهجان يكملان بعضهما البعض ولا ينفصلان في العملية التحليلية [15، 88]."
+  },
+  {
+    "q": "3. The phrase \"willed homelessness\" is used to describe comparatists':",
+    "options": ["A) Lack of linguistic competence", "B) Rejection of all literary traditions", "C) Deliberate distancing from a single national or cultural canon", "D) Political opposition to nationalism"],
+    "correct": 2,
+    "feedback": "يختار المقارنون الابتعاد المتعمد عن ثقافاتهم الأصلية ليكونوا مثل \"المسافرين\" الموضوعيين، متجنبين الأحكام المسبقة التي قد يفرضها الانتماء لثقافة واحدة [17، 92]."
+  },
+  {
+    "q": "4. According to the textbook, comparatists distance themselves from their \"home literatures\" in order to:",
+    "options": ["A) Avoid translation", "B) Engage more fully with transnational texts and tropes", "C) Achieve professional neutrality", "D) Promote global literary markets"],
+    "correct": 1,
+    "feedback": "الهدف من هذا التباعد هو اكتساب قدرة أفضل على فهم والسيطرة على النصوص والصور البلاغية التي تتجاوز حدود أي لغة أو ثقافة وطنية واحدة [17، 92]."
+  },
+  {
+    "q": "5. The concept of \"unbelonging\" is presented as:",
+    "options": ["A) A defining feature of the comparatist's identity", "B) A temporary academic phase", "C) A weakness of comparative literature", "D) A rejection of literary history"],
+    "correct": 0,
+    "feedback": "يعتبر \"عدم الانتماء\" لتقليد محدد هو السمة الجوهرية والمميزة لهوية دارس الأدب المقارن، مما يمنحه رؤية أوسع [17، 93]."
+  },
+  {
+    "q": "6. According to the textbook, comparative literature differs from other disciplines because:",
+    "options": ["A) It is more prestigious academically", "B) Its methodology is universally agreed upon", "C) It must constantly renew its sense of mission and justification", "D) It focuses exclusively on canonical texts"],
+    "correct": 2,
+    "feedback": "على عكس التخصصات المستقرة، يجب على الأدب المقارن دائماً أن يجدد أهدافه ويبرر سبب حاجتنا لمقارنة الآداب [18، 96]."
+  },
+  {
+    "q": "7. The \"unceasing sense of insecurity\" in comparative literature arises from:",
+    "options": ["A) Limited student interest", "B) Its position between established disciplines", "C) Political interference", "D) The lack of literary material"],
+    "correct": 1,
+    "feedback": "ينبع هذا القلق من كون الأدب المقارن يعمل في \"الفجوات\" أو المساحات الفاصلة بين التخصصات الأكاديمية الأخرى [18، 98]."
+  },
+  {
+    "q": "8. The textbook implies that other Humanities disciplines:",
+    "options": ["A) Are static and unchanging", "B) Have no need for innovation", "C) Reject interdisciplinary work", "D) Are innovative but not defined by perpetual disciplinary crisis"],
+    "correct": 3,
+    "feedback": "التخصصات الأخرى مبتكرة، لكنها لا تعاني من نفس \"أزمة الهوية\" أو الشعور الدائم بعدم الأمان الذي يميز الأدب المقارن [97، 98]."
+  },
+  {
+    "q": "9. The phrase \"works in the gaps between disciplines\" highlights comparative literature's:",
+    "options": ["A) Establishment as a primary field of study", "B) Dependence on historical studies", "C) Interdisciplinary and boundary-crossing nature", "D) Alignment with national literatures"],
+    "correct": 2,
+    "feedback": "تعني العبارة أن جوهر هذا التخصص ليس مراقبة الحدود الثقافية بل عبورها والربط بين مجالات معرفية ولغوية مختلفة [17، 51]."
+  },
+  {
+    "q": "10. Close reading primarily focuses on:",
+    "options": ["A) Comparing multiple cultures simultaneously", "B) Broad historical trends", "C) Detailed analysis of language, style, and textual minutiae", "D) Marketability of literature"],
+    "correct": 2,
+    "feedback": "تركز القراءة المتعمقة على التفاصيل الدقيقة داخل النص مثل النحو، بنية الجملة، والغموض الدلالي [29، 149]."
+  },
+  {
+    "q": "11. Distant or macro analysis is characterized by:",
+    "options": ["A) Attention to single words or phrases", "B) Observation of large-scale patterns across texts or traditions", "C) Ignoring context", "D) Exclusive focus on authorial intention"],
+    "correct": 1,
+    "feedback": "القراءة عن بعد تستخدم البيانات والخرائط لتتبع أنماط كبرى وتطورات أدبية عبر آلاف النصوص التي لا يمكن لباحث واحد قراءتها تفصيلياً [31، 161]."
+  },
+  {
+    "q": "12. Comparative literature is described as both \"natural\" and \"constructed\" because:",
+    "options": ["A) It occurs both naturally and methodologically", "B) It is innate and learned at the same time", "C) Readers naturally compare texts and use educated ways of reading", "D) All of the above"],
+    "correct": 0,
+    "feedback": "هي \"طبيعية\" لأننا نقارن تلقائياً لفهم العالم، و\"مصطنعة\" لأنها تتطلب بناءً منهجياً وأطراً فكرية معقدة كدراسة أكاديمية [4، 12]."
+  },
+  {
+    "q": "13. The variation in terms for comparative literature across French, German, and English primarily illustrates:",
+    "options": ["A) Translation errors between languages", "B) Institutional differences between universities", "C) Conceptual and cultural differences embedded in language", "D) The superiority of one academic tradition"],
+    "correct": 2,
+    "feedback": "اختلاف المصطلحات (مقارَن، يُقارن، مُقارِن) يفتح \"صندوق باندورا\" من الاختلافات الثقافية والرؤى المختلفة لكيفية فهم المقارنة [10، 68]."
+  },
+  {
+    "q": "14. The French term (littérature comparée) implies that:",
+    "options": ["A) Comparison is yet to begin", "B) Comparison is unnecessary", "C) The act of comparison is already completed", "D) Literature resists interpretation"],
+    "correct": 2,
+    "feedback": "استخدام اسم المفعول في الفرنسية (comparée) يشير إلى أن عملية المقارنة قد حدثت وانتهت بالفعل [9، 67]."
+  },
+  {
+    "q": "15. The ambiguity of the English term \"comparative literature\" highlights:",
+    "options": ["A) The failure of the discipline", "B) Uncertainty over whether comparison lies in the texts or the method", "C) Linguistic incompetence", "D) Agreement among scholars"],
+    "correct": 1,
+    "feedback": "الصفة في الإنجليزية (Comparative) تطمس الفرق بين ما إذا كان الأدب نفسه هو المقارن أم أن طريقتنا في القراءة هي المقارنة [67، 68]."
+  },
+  {
+    "q": "16. The textbook characterizes comparative literature as:",
+    "options": ["A) A stable and universally defined field", "B) A mode of enquiry rather than a rigid practical practice", "C) A purely aesthetic activity", "D) An exclusively historical field"],
+    "correct": 1,
+    "feedback": "يُنظر إليها كنمط من الاستقصاء (Mode of enquiry) حيث تلعب ميول وافتراضات المراقب دوراً مساوياً للمادة المدروسة [16، 55]."
+  },
+  {
+    "q": "17. The claim that \"the history of comparative literature is also the history of its self-understanding\" suggests that:",
+    "options": ["A) The discipline has remained methodologically fixed", "B) Its objects of study have disappeared", "C) The discipline continually redefines its own purpose and identity", "D) Scholars agree on its central aims"],
+    "correct": 2,
+    "feedback": "يعني أن تاريخ العلم لا يقتصر على النصوص، بل يشمل كيفية قيام المقارنين بإعادة تعريف تخصصهم وأهدافه باستمرار [12، 73]."
+  },
+  {
+    "q": "18. According to the textbook, which two concepts have most strongly shaped the traditional self-understanding of comparative literature?",
+    "options": ["A) Translation and theory", "B) Modernity and Europe", "C) Language and genre", "D) Canon and authorship"],
+    "correct": 1,
+    "feedback": "الحداثة وأوروبا هما الفئتان اللتان هيمنتا تاريخياً على تشكيل هوية هذا العلم وفهمه لذاته [12، 74]."
+  },
+  {
+    "q": "19. The author argues that focusing on Modernity and Europe in the discipline's history:",
+    "options": ["A) Is entirely arbitrary", "B) Should be rejected outright", "C) Accurately reflects how the discipline historically developed", "D) Eliminates the need for alternative perspectives"],
+    "correct": 2,
+    "feedback": "تتبع هذه المصطلحات ضروري لأن القيام بغير ذلك سيشوه التاريخ الفعلي لتطور العلم، رغم وجود توجهات عالمية حديثة [12، 75]."
+  },
+  {
+    "q": "20. The \"marketplace\" metaphor introduced in the textbook is used to explain:",
+    "options": ["A) How economic and global forces shape literary comparison and production", "B) The dominance of popular genres", "C) The decline of national literatures", "D) The replacement of criticism by commerce"],
+    "correct": 0,
+    "feedback": "يشير نموذج \"السوق\" إلى أن قابلية التسويق العالمي أصبحت معياراً يحدد ما يتم كتابته وما يستحق المقارنة في عصر العولمة [14، 86]."
+  },
+  {
+    "q": "21. According to the textbook, the growing importance of an international audience has led authors to:",
+    "options": ["A) Abandon national traditions", "B) Write exclusively for global markets", "C) Write as much for an international as for a national audience", "D) Reject comparative evaluation"],
+    "correct": 2,
+    "feedback": "في العصر الحالي، يكتب المؤلفون الناجحون واضعين في اعتبارهم الجمهور العالمي والوطني في آن واحد لضمان الانتشار [14، 86]."
+  },
+  {
+    "q": "22. The criterion of \"cross-cultural marketability\" influences comparative literature by:",
+    "options": ["A) Ensuring aesthetic quality", "B) Limiting literary diversity", "C) Eliminating critical judgment", "D) Affecting which texts are selected for comparison"],
+    "correct": 3,
+    "feedback": "تؤثر القوى الاقتصادية في اختيار النصوص التي تخضع للدراسة المقارنة بناءً على نجاحها التجاري العابر للثقافات [14، 86]."
+  },
+  {
+    "q": "23. According to the textbook, \"reading literature is also reading into literature,\" means:",
+    "options": ["A) The importance of careful textual study", "B) The dangers of subjective interpretation", "C) The reader's opinions in shaping meaning", "D) None"],
+    "correct": 2,
+    "feedback": "القراءة ليست عملية سلبية، بل القارئ يضفي ميوله ومعرفته لتشكيل المعنى، مثل اختبار بقع الحبر (رورشاخ) [5، 121]."
+  },
+  {
+    "q": "24. The statement \"literature exists, after all, comparatively\" suggests that:",
+    "options": ["A) Literary texts cannot be fully understood on their own", "B) Literature can only be understood through history", "C) Literary works must be judged against one another", "D) Comparison is the ultimate end of literature"],
+    "correct": 0,
+    "feedback": "لا يوجد نص في التاريخ مكتفٍ بذاته؛ ففهم أي عمل يعتمد دائماً على علاقته بنصوص وتقاليد أخرى [5، 24]."
+  },
+  {
+    "q": "25. The textbook presents reading and writing as practices that:",
+    "options": ["A) Develop meaning without relying on earlier texts or models", "B) Deliberately break away from established literary traditions", "C) Take place within inherited patterns, forms, and shared traditions", "D) Make comparative reading unnecessary"],
+    "correct": 2,
+    "feedback": "الكتابة تعني وضع الذات ضمن إطار موجود من المراجع؛ فالكلمات والأفكار الجديدة تشتق دائماً من أفكار قديمة [15، 41]."
+  },
+  {
+    "q": "26. The claim that \"knowledge itself is comparative\" emphasizes that:",
+    "options": ["A) Comparison is only useful in academic research", "B) True knowledge belongs only to literature", "C) Comparison makes understanding weaker", "D) Understanding depends on relationships and context"],
+    "correct": 3,
+    "feedback": "كلما تعلمنا أكثر، زادت قدرتنا على وضع الأمور في سياقها والمقارنة بينها؛ فالمعرفة عملية ربط مستمرة [6، 26]."
+  },
+  {
+    "q": "27. The textbook's use of Hermann Rorschach's inkblot test functions primarily as a metaphor to argue that:",
+    "options": ["A) Literary meaning exists independently", "B) Texts contain universal meanings shared by all readers", "C) Acts of interpretation tell us about the interpreter as well as the text", "D) Comparative literature lacks academic value"],
+    "correct": 2,
+    "feedback": "مثلما نرى صوراً في بقع الحبر بناءً على حالتنا، فإن تفسيرنا للنصوص يكشف عن هويتنا وأفكارنا المسبقة [27، 121]."
+  },
+  {
+    "q": "28. Which of the following is the most correct statement:",
+    "options": ["A) One side of the object mirrors the other", "B) One side of the object shapes the other", "C) To look at literature comparatively is to discover more about other literatures and one's own", "D) None"],
+    "correct": 2,
+    "feedback": "النظر للأدب مقارناً يسمح لنا ليس فقط بفهم الآخر، بل باكتشاف جوانب خفية في أدبنا وثقافتنا المحلية [10، 69]."
+  },
+  {
+    "q": "29. The reference to George Steiner's phrase \"to read is to compare\" raises which central problem?",
+    "options": ["A) The necessity of comparative literature as a separate discipline", "B) The difficulty of defining literary genres", "C) The dominance of theory over texts", "D) The decline of close reading"],
+    "correct": 0,
+    "feedback": "إذا كانت كل قراءة هي مقارنة بطبيعتها، فقد يبدو من غير الضروري تخصيص علم مستقل لها طالما أننا نفعل ذلك تلقائياً [6، 29]."
+  },
+  {
+    "q": "30. The q \"what is the force of comparative literature, as opposed to that of literature?\" points to:",
+    "options": ["A) A need to justify the discipline's distinct purpose and methodology", "B) The rejection of national canons", "C) The superiority of comparative methods", "D) The end of literary studies"],
+    "correct": 0,
+    "feedback": "يشير إلى التحدي المستمر للأدب المقارن في إثبات قيمته المضافة ومنهجه المختلف عن مجرد دراسة الأدب العادية [18، 96]."
+  },
+  {
+    "q": "31. The textbook identifies identifying comparison as:",
+    "options": ["A) A learned academic habit", "B) A purely literary skill", "C) A modern intellectual invention", "D) A fundamental human instinct"],
+    "correct": 3,
+    "feedback": "المقارنة \"مدمجة\" في صلب تفكيرنا البشري، وهي نشاط طبيعي نقوم به لفهم الأشياء [6، 31]."
+  },
+  {
+    "q": "32. According to the textbook, comparison helps individuals primarily to:",
+    "options": ["A) Compete with others", "B) Assert superiority", "C) Avoid self-reflection", "D) Understand themselves in relation to others"],
+    "correct": 3,
+    "feedback": "من خلال النظر وراء أفق تقاليدنا، نكتشف المزيد عن أنفسنا وعن مكانتنا في العالم [10، 69]."
+  },
+  {
+    "q": "33. The various forms comparison can take (such as empathy or envy) all share:",
+    "options": ["A) Emotional intensity", "B) Moral judgment", "C) Recognition of diversity and multiplicity", "D) A desire for hierarchy"],
+    "correct": 2,
+    "feedback": "مهما اختلف الدافع، فإن المقارنة تعود دائماً للاعتراف بوجود أكثر من طريقة للوجود وفعل الأشياء [7، 33]."
+  },
+  {
+    "q": "34. The author argues that comparative literature's claim to objectivity is:",
+    "options": ["A) Fully justified", "B) Achieved through strict methodology", "C) Guaranteed by academic consensus", "D) Undermined by cultural and ideological bias"],
+    "correct": 3,
+    "feedback": "رغم سعي التخصص للموضوعية، فإنه يظل متواطئاً مع الأحكام المسبقة والمواقف الثقافية التي ينطلق منها الباحث [7، 34]."
+  },
+  {
+    "q": "35. The statement that \"there is no such thing as a single, objective sense of comparative literature\" implies that:",
+    "options": ["A) Definitions and methods vary according to the comparatist", "B) Comparative literature should be abandoned", "C) The discipline lacks academic value", "D) Objectivity is unique to national literatures"],
+    "correct": 0,
+    "feedback": "لا يوجد إجماع واحد؛ فلكل مقارن فكرته الخاصة حول \"كيف\" و \"ماذا\" يقارن بناءً على أولوياته [8، 35]."
+  },
+  {
+    "q": "36. The comparison between comparative literature and democratic government suggests that:",
+    "options": ["A) The discipline lacks leadership", "B) Standards are fixed", "C) Methods reflect collective choices and values", "D) Stability is imposed from above"],
+    "correct": 2,
+    "feedback": "(استنتاجاً من فكرة \"أدب المقارنين\")، المناهج المتبعة تعكس خيارات وقيم الباحثين أنفسهم وليس قواعد مفروضة من الخارج [56، 249]."
+  },
+  {
+    "q": "37. The claim that comparative literature has a \"canon of approaches\" rather than texts highlights its:",
+    "options": ["A) Rejection of theory", "B) Dependence on translation", "C) Methodological flexibility and openness", "D) Focus on national traditions"],
+    "correct": 2,
+    "feedback": "التخصص لا يقدس نصوصاً محددة بل يركز على تنوع المناهج التي يمكن من خلالها مقارنة أي نصوص [9، 37]."
+  },
+  {
+    "q": "38. According to the textbook, the essential qualities required for making comparisons are:",
+    "options": ["A) Technical expertise and linguistic mastery", "B) Extensive theoretical training", "C) Curiosity, open-mindedness and intellectual ambition", "D) Methodological rigidity and discipline"],
+    "correct": 2,
+    "feedback": "الفضول والانفتاح هما المتطلبان الأساسيان الوحيدان لإجراء مقارنات مثمرة [7، 38]."
+  },
+  {
+    "q": "39. According to the textbook, the \"instability\" of comparative literature is presented as:",
+    "options": ["A) An academic weakness", "B) A consequence of poor planning", "C) A sign of disciplinary failure", "D) Its very essence, enabling fresh connections"],
+    "correct": 3,
+    "feedback": "عدم الاستقرار هو جوهر التخصص؛ لأنه يسمح بزعزعة القوانين الثابتة وبناء صلات جديدة [8، 39]."
+  },
+  {
+    "q": "40. \"Forging fresh connections and mutually enriching links\" emphasizes comparative that focus on:",
+    "options": ["A) Establishing definitive interpretations", "B) Preserving traditional boundaries", "C) Standardizing comparative methods", "D) Creating dynamic relationships between diverse texts and traditions"],
+    "correct": 3,
+    "feedback": "الهدف هو خلق روابط حركية ومتبادلة بين النصوص المتباعدة لإثراء الفهم [8، 40]."
+  }
+,
+    {
+      "q": "What are people who work in the field of Comparative Literature called?",
+      "options": ["Comparatists", "Comparative Literarists", "Comparers", "All"],
+      "correct": 0,
+      "feedback": "يُطلق على المشتغلين في هذا المجال اسم 'Comparatists' أو المقارنون[cite: 1, 665]."
+    },
+    {
+      "q": "Traditionally, students and teachers in comparative literature have been:",
+      "options": ["Established critics", "Proficient in several languages", "Acquainted with literary traditions and major texts", "B and C"],
+      "correct": 3,
+      "feedback": "تقليدياً، يجب أن يتقن المقارن عدة لغات ويكون على دراية بالتقاليد النصوص الأدبية الكبرى[cite: 2, 665]."
+    },
+    {
+      "q": "Newer sub-fields of Comparative Literature are influenced by:",
+      "options": ["Theoretical acumen", "Ability to consider different arts concurrently", "High linguistic competence", "A and B"],
+      "correct": 3,
+      "feedback": "تتأثر الحقول الفرعية الجديدة بالفطنة النظرية والقدرة على دراسة أنواع مختلفة من الفنون في آن واحد[cite: 3, 666]."
+    },
+    {
+      "q": "Critics have charged that Comparative Literature is:",
+      "options": ["Too narrow minded", "Insufficiently well-defined and too broad", "Overall useless", "None of the above"],
+      "correct": 1,
+      "feedback": "اتهم النقاد الأدب المقارن بأنه غير محدد بدقة وواسع المجال بشكل مفرط[cite: 5, 670]."
+    },
+    {
+      "q": "The interdisciplinary nature of the field means comparatists exhibit acquaintance with:",
+      "options": ["Biochemistry", "Sociology and History", "Astrology", "Cybernetics"],
+      "correct": 1,
+      "feedback": "الطبيعة البينية للمجال تتطلب الاطلاع على علم الاجتماع والتاريخ والترجمة وغيرها[cite: 668, 939]."
+    },
+    {
+      "q": "Comparative Literature is defined in its broadest sense as:",
+      "options": ["Literature of one nation", "Literature without borders", "Universal Ideals", "Human Ethos"],
+      "correct": 1,
+      "feedback": "في أوسع تعريفاته، هو دراسة 'أدب بلا حدود'[cite: 7, 676]."
+    },
+    {
+      "q": "From the early 20th century until WWII, the field was dominated by the:",
+      "options": ["American School", "German School", "French School", "Positivist School"],
+      "correct": 2,
+      "feedback": "المدرسة الفرنسية هي التي هيمنت منذ مطلع القرن العشرين وحتى الحرب العالمية الثانية[cite: 9, 679]."
+    },
+    {
+      "q": "The French School approach is characterized as:",
+      "options": ["Empiricist and positivist", "Abstract and theoretical", "Linguistic only", "Nationalistic only"],
+      "correct": 0,
+      "feedback": "تتميز المدرسة الفرنسية بالمنهج التجريبي (Empiricist) والمنطقي (Positivist)[cite: 9, 681]."
+    },
+    {
+      "q": "French scholars examined works of different nations looking for evidence of:",
+      "options": ["Superiority", "Origins and influences", "Dogmatism", "Crimes"],
+      "correct": 1,
+      "feedback": "بحث علماء المدرسة الفرنسية عن أدلة حول 'الأصول' و 'التأثيرات' بين الأمم[cite: 12, 680]."
+    },
+    {
+      "q": "The study of 'mentalities' and 'influences' dominates the:",
+      "options": ["French School", "American School", "German School", "Both A and B"],
+      "correct": 0,
+      "feedback": "تهيمن دراسة العقليات والتأثيرات على أبحاث المدرسة الفرنسية[cite: 14, 683]."
+    },
+    {
+      "q": "The founding fathers of the French School define comparative literature as a branch of:",
+      "options": ["Linguistics", "Literary study/history", "Philosophy", "Sociology"],
+      "correct": 1,
+      "feedback": "عرف الآباء المؤسسون للمدرسة الفرنسية الأدب المقارن كفرع من دراسة أو تاريخ الأدب[cite: 686, 695]."
+    },
+    {
+      "q": "Who said: 'Comparative literature is a branch of literary history... international spiritual affinities'?",
+      "options": ["Henry Remak", "Jean Marie Carré", "Guyard", "Van Tieghem"],
+      "correct": 1,
+      "feedback": "هذه المقولة الشهيرة تنسب لجان ماري كاريه[cite: 696, 950]."
+    },
+    {
+      "q": "Because it emphasizes geographical boundaries, the French school shows a ______ propensity.",
+      "options": ["Universal", "National", "Interdisciplinary", "Scientific"],
+      "correct": 1,
+      "feedback": "بسبب تركيزها على الحدود الجغرافية واللغوية، تظهر المدرسة الفرنسية نزعة قومية (National)[cite: 698, 950]."
+    },
+    {
+      "q": "Which type of works are EXCLUDED from the French School of Comparative Literature?",
+      "options": ["Canonical works", "Anonymous and folkloric works", "Individual works", "Modern works"],
+      "correct": 1,
+      "feedback": "تستبعد المدرسة الفرنسية الأعمال مجهولة المؤلف والفلكلورية لأنها شفهية وغير شخصية[cite: 702, 952]."
+    },
+    {
+      "q": "Van Tieghem makes a rigid sharp distinction between:",
+      "options": ["Poetry and Prose", "General literature and Comparative literature", "French and German schools", "Influences and Origins"],
+      "correct": 1,
+      "feedback": "وضع فان تيجم تمييزاً حاداً بين الأدب العام والأدب المقارن[cite: 709, 953]."
+    },
+    {
+      "q": "For Van Tieghem, 'General Literature' is the research of:",
+      "options": ["Two entities or books", "Common properties of a number of literatures", "One national literature", "Modern trends"],
+      "correct": 1,
+      "feedback": "الأدب العام عند فان تيجم يبحث في الخصائص المشتركة لعدد من الآداب[cite: 714, 715]."
+    },
+    {
+      "q": "According to Remak, Tieghem's concept of 'general literature' is:",
+      "options": ["Helpful and clear", "Blurred and illegitimate", "The same as American school", "Revolutionary"],
+      "correct": 1,
+      "feedback": "يرى ريماك أن مفهوم فان تيجم للأدب العام غير شرعي ومبهم[cite: 721, 724]."
+    },
+    {
+      "q": "Henry Remak belongs to which school?",
+      "options": ["French School", "German School", "American School", "Oriental School"],
+      "correct": 2,
+      "feedback": "هنري ريماك هو الأب المؤسس للمدرسة الأمريكية[cite: 721, 1055]."
+    },
+    {
+      "q": "The French School has been criticized for ignoring ______ aspects of the texts.",
+      "options": ["Outside impacts", "Internal", "Historical", "Causality"],
+      "correct": 1,
+      "feedback": "انتقدت المدرسة الفرنسية لانشغالها بالأسباب الخارجية وتجاهلها للجوانب الداخلية للنص[cite: 752, 753]."
+    },
+    {
+      "q": "The movement (conscious or unconscious) of an idea or theme from one text to another is:",
+      "options": ["Reception", "Imitation", "Influence", "Borrowing"],
+      "correct": 2,
+      "feedback": "انتقال فكرة أو موضوع من نص لآخر بوعي أو بدون وعي يسمى 'التأثير'[cite: 783, 784]."
+    },
+    {
+      "q": "French School ignores 'non-literary influence' because the receiver writer:",
+      "options": ["Does not read", "Dexterously reshapes primary material", "Only plagiarizes", "Fails to understand"],
+      "correct": 1,
+      "feedback": "تتجاهل المدرسة الفرنسية التأثير غير الأدبي لأن الكاتب يعيد تشكيل المادة الخام ببراعة[cite: 789, 790]."
+    },
+    {
+      "q": "Direct influence is marked by:",
+      "options": ["Language barriers", "Actual contact between writers", "Translations only", "Reading journals"],
+      "correct": 1,
+      "feedback": "يتميز التأثير المباشر بوجود تواصل فعلي بين الكتاب[cite: 608, 609]."
+    },
+    {
+      "q": "What act as 'intermediaries' in indirect influence?",
+      "options": ["Salons and societies", "Journals/periodicals", "Translations", "All of the above"],
+      "correct": 3,
+      "feedback": "الوسطاء في التأثير غير المباشر تشمل الصالونات، الدوريات، والترجمات[cite: 612]."
+    },
+    {
+      "q": "What is 'False Influence'?",
+      "options": ["Direct contact", "Writer influenced by a countryman believing it is foreign", "Plagiarism", "Oral tradition"],
+      "correct": 1,
+      "feedback": "التأثير الزائف هو تأثر الكاتب بكاتب من بلده ظناً منه أنه يعكس نصوصاً أجنبية[cite: 614]."
+    },
+    {
+      "q": "The process that must occur before 'influence' takes place is:",
+      "options": ["Imitation", "Reception", "Borrowing", "Plagiarism"],
+      "correct": 1,
+      "feedback": "الاستقبال (Reception) هو الخطوة التي تسبق حدوث التأثير[cite: 616, 617]."
+    },
+    {
+      "q": "If a foreign work helps develop a new work in another country, this is a sign of:",
+      "options": ["Passive influence", "Positive influence", "Imitation", "Borrowing"],
+      "correct": 1,
+      "feedback": "تطوير عمل جديد بمساعدة عمل أجنبي يعد دليلاً على 'التأثير الإيجابي'[cite: 618, 630]."
+    },
+    {
+      "q": "Which of these is NOT a field of study in the French School?",
+      "options": ["Literary Schools/Genres", "Ideological Echoes", "Human Models", "Biochemistry in Literature"],
+      "correct": 3,
+      "feedback": "تشمل مجالات المدرسة الفرنسية المدارس الأدبية، الأصداء الفكرية، والنماذج البشرية[cite: 632]."
+    },
+    {
+      "q": "When they first appeared, epic and drama were confined to:",
+      "options": ["Prose", "Both verse and prose", "Verse only", "Oral tradition"],
+      "correct": 2,
+      "feedback": "في بدايتها، اقتصرت الملحمة والدراما على الشعر (Verse)[cite: 637, 638]."
+    },
+    {
+      "q": "Romanticism appeared in the Arab world in the:",
+      "options": ["19th Century", "First half of the 20th century", "After WWII", "Ancient times"],
+      "correct": 1,
+      "feedback": "ظهرت الرومانسية في العالم العربي في النصف الأول من القرن العشرين[cite: 635, 636]."
+    },
+    {
+      "q": "Borrowing from foreign works without referring to sources is:",
+      "options": ["Creative ability", "Plagiarism", "Imitation", "Influence"],
+      "correct": 1,
+      "feedback": "الاقتباس دون ذكر المصدر يسمى 'انتحال' (Plagiarism) وهو غير مقبول[cite: 629, 630]."
+    },
+    {
+      "q": "What does the term 'empiricist' mean in the context of the French School?",
+      "options": [
+        "Relating to empires and emperors",
+        "Derived from senses and experience",
+        "Logical reasoning only",
+        "Purely theoretical"
+      ],
+      "correct": 1,
+      "feedback": "كلمة 'empiricist' تعني تجريبي، أي ما يمكن فهمه من خلال الخبرة المستمدة من الحواس[cite: 64, 945]."
+    },
+    {
+      "q": "The French School defines Comparative Literature as a branch of:",
+      "options": ["Linguistics", "Literary History", "Sociology", "Philosophy"],
+      "correct": 1,
+      "feedback": "يعرّف الآباء المؤسسون للمدرسة الفرنسية الأدب المقارن كفرع من تاريخ الأدب[cite: 686, 949]."
+    },
+    {
+      "q": "According to the French School, why are anonymous and folkloric works excluded?",
+      "options": [
+        "They are too modern",
+        "They are oral and impersonal",
+        "They are not written in French",
+        "They are too difficult to translate"
+      ],
+      "correct": 1,
+      "feedback": "تُستبعد الأعمال الفلكلورية والمجهولة لأنها شفهية وغير شخصية بطبيعتها[cite: 703, 952]."
+    },
+    {
+      "q": "Who made a rigid sharp distinction between 'general literature' and 'comparative literature'?",
+      "options": ["Henry Remak", "Van Tieghem", "Jean Marie Carré", "Guyard"],
+      "correct": 1,
+      "feedback": "فان تيجم هو من وضع تمييزاً حاداً وصارماً بين الأدب العام والأدب المقارن[cite: 709, 953]."
+    },
+    {
+      "q": "What is 'General Literature' according to Van Tieghem?",
+      "options": [
+        "Study of two specific books",
+        "Common properties of a number of literatures",
+        "National literature only",
+        "The study of one writer"
+      ],
+      "correct": 1,
+      "feedback": "الأدب العام عند فان تيجم هو البحث في الخصائص المشتركة لمجموعة من الآداب[cite: 714, 954]."
+    },
+    {
+      "q": "Henry Remak argues that Tieghem's concept of 'general literature' is:",
+      "options": ["Legitimate and clear", "Illegitimate and blurred", "Scientific", "Traditional"],
+      "correct": 1,
+      "feedback": "يرى ريماك أن مفهوم فان تيجم غير شرعي ويجعل تعريف الأدب المقارن أكثر غموضاً[cite: 724, 592]."
+    },
+    {
+      "q": "In the French School, comparative literary study should take place between:",
+      "options": ["Large groups of texts", "Specific individuals (Binary studies)", "Oral traditions", "All world literatures"],
+      "correct": 1,
+      "feedback": "تركز المدرسة الفرنسية على الدراسات الثنائية بين أفراد أو نصوص محددة[cite: 702, 950]."
+    },
+    {
+      "q": "The movement of an idea or theme from one text to another, consciously or unconsciously, is:",
+      "options": ["Reception", "Influence", "Imitation", "Plagiarism"],
+      "correct": 1,
+      "feedback": "هذا هو تعريف 'التأثير' (Influence)[cite: 784, 605]."
+    },
+    {
+      "q": "Why does the French School ignore 'non-literary' influence?",
+      "options": [
+        "Because it is not important",
+        "Because the writer reshapes primary material into a new literary work",
+        "Because it is too easy to trace",
+        "Because culture is not related to literature"
+      ],
+      "correct": 1,
+      "feedback": "يتم تجاهله لأن الكاتب يعيد تشكيل المادة الأولية ببراعة في عمل أدبي جديد[cite: 789, 607]."
+    },
+    {
+      "q": "Direct influence is marked by:",
+      "options": ["Translation", "Actual contact between writers", "Journals", "Saloons"],
+      "correct": 1,
+      "feedback": "يتميز التأثير المباشر بوجود تواصل فعلي أو علاقة حقيقية بين الكتاب[cite: 794, 609]."
+    },
+    {
+      "q": "Which of the following is considered an 'intermediary' for indirect influence?",
+      "options": ["Personal letters", "Translations", "Face-to-face meetings", "Original manuscripts"],
+      "correct": 1,
+      "feedback": "تعتبر الترجمات والدوريات والصالونات من 'الوسطاء' في التأثير غير المباشر[cite: 612, 613]."
+    },
+    {
+      "q": "What is 'False Influence'?",
+      "options": [
+        "Direct contact between two writers",
+        "A writer influenced by a countryman believing they are foreign elements",
+        "Intentional plagiarism",
+        "Oral transmission of stories"
+      ],
+      "correct": 1,
+      "feedback": "التأثير الزائف هو تأثر الكاتب بكاتب من بلده ظناً منه أنها عناصر أجنبية[cite: 614, 615]."
+    },
+    {
+      "q": "No influence can take place outside national borders WITHOUT:",
+      "options": ["Imitation", "Reception", "Plagiarism", "Translation"],
+      "correct": 1,
+      "feedback": "لا يمكن حدوث تأثير دون عملية 'الاستقبال' (Reception)[cite: 616, 617]."
+    },
+    {
+      "q": "According to the French School, literary comparative studies are linked to:",
+      "options": ["History", "Physics", "Chemistry", "Mathematics"],
+      "correct": 0,
+      "feedback": "بما أن العلاقات بين الأمم لها جذور تاريخية، فإن الدراسات المقارنة ترتبط بالتاريخ[cite: 688, 950]."
+    },
+    {
+      "q": "The concept of 'literature WITHOUT borders' is associated with:",
+      "options": ["The French School", "The American School", "The Positivist School", "The Arabic School"],
+      "correct": 1,
+      "feedback": "هذا المفهوم هو جوهر تعريف المدرسة الأمريكية للأدب المقارن[cite: 676, 942]."
+    },
+    {
+      "q": "Who is considered the founding father of the American School?",
+      "options": ["Jean Marie Carré", "Van Tieghem", "Henry Remak", "Guyard"],
+      "correct": 2,
+      "feedback": "هنري ريماك هو الأب المؤسس للمدرسة الأمريكية[cite: 659, 1055]."
+    },
+    {
+      "q": "Borrowing from foreign works without referring to the source is called:",
+      "options": ["Influence", "Imitation", "Plagiarism", "Reception"],
+      "correct": 2,
+      "feedback": "الاقتباس دون ذكر المصدر يسمى 'انتحال' (Plagiarism) وهو غير مقبول[cite: 629, 630]."
+    },
+    {
+      "q": "When a national writer writes in reaction to an affront to national figures, this is:",
+      "options": ["Positive influence", "Passive influence", "False influence", "Direct influence"],
+      "correct": 1,
+      "feedback": "يسمى 'التأثير السلبي' (Passive influence) عندما يكون رد فعل لعمل أجنبي مهين[cite: 630, 631]."
+    },
+    {
+      "q": "The study of 'Image Echoes' is a field of study in the:",
+      "options": ["German School", "American School", "French School", "British School"],
+      "correct": 2,
+      "feedback": "دراسة أصداء الصور (Image Echoes) هي أحد مجالات دراسة المدرسة الفرنسية[cite: 632]."
+    },
+    {
+      "q": "Romanticism appeared in the Arab world in the:",
+      "options": ["19th Century", "First half of the 20th century", "After WWII", "Ancient times"],
+      "correct": 1,
+      "feedback": "ظهرت الرومانسية في العالم العربي في النصف الأول من القرن العشرين[cite: 636]."
+    },
+    {
+      "q": "Critics charge that Comparative Literature practitioners may fall into:",
+      "options": ["Professionalism", "Dilettantism", "Specialization", "Scientific rigour"],
+      "correct": 1,
+      "feedback": "يتهم النقاد المقارنين بالوقوع في 'الهواية' (Dilettantism) بسبب اتساع مجال عملهم[cite: 670, 941]."
+    },
+    {
+      "q": "The interdisciplinary nature of Comparative Literature includes links to:",
+      "options": ["Psychology", "Sociology", "Religion", "All of the above"],
+      "correct": 3,
+      "feedback": "يشمل الأدب المقارن الربط مع علم النفس والاجتماع والدين وغيرها[cite: 675, 942]."
+    },
+    {
+      "q": "For French comparatists, it is important to work on a writer's:",
+      "options": ["Wealth", "Popularity and influence", "Personal life only", "Political party"],
+      "correct": 1,
+      "feedback": "يهتم المقارنون الفرنسيون بدراسة شهرة وتأثير الكاتب في الدول الأجنبية[cite: 759, 601]."
+    },
+    {
+      "q": "The French School has been criticized for being:",
+      "options": ["Too global", "Eurocentric", "Too modern", "Unstructured"],
+      "correct": 1,
+      "feedback": "تعرضت المدرسة الفرنسية للنقد لكونها متمحورة حول أوروبا (Eurocentric)[cite: 779, 604]."
+    },
+    {
+      "q": "Ulrich Veisstein distinguishes 'influence' from 'imitation' based on:",
+      "options": ["Creative ability", "Language used", "Number of pages", "The genre of the work"],
+      "correct": 0,
+      "feedback": "يميز فايستاين بينهما بناءً على 'القدرة الإبداعية' للكاتب[cite: 622, 628]."
+    },
+    
+  {
+    "q": "What are people who work in the field of Comparative Literature called?",
+    "options": [
+      "Comparatists",
+      "Comparative Literarists",
+      "Comparers",
+      "All"
+    ],
+    "correct": 0,
+    "feedback": "يُطلق على الباحثين المتخصصين في مجال الأدب المقارن اسم 'المقارنين' (Comparatists)."
+  },
+  {
+    "q": "Students and teachers working in the field of comparative literature have been traditionally:",
+    "options": [
+      "Proficient in several languages",
+      "Acquainted with literary traditions, criticism, and major texts",
+      "Established critics",
+      "A and B"
+    ],
+    "correct": 3,
+    "feedback": "تقليدياً، يُشترط في من يدرس أو يعلّم الأدب المقارن إتقان عدة لغات ومعرفة واسعة بالتقاليد الأدبية والنقد والنصوص الكبرى."
+  },
+  {
+    "q": "Newer sub-fields of Comparative Literature are influenced by:",
+    "options": [
+      "Theoretical acumen",
+      "Ability to consider different types of art concurrently",
+      "High linguistic competence",
+      "A and B"
+    ],
+    "correct": 3,
+    "feedback": "تتأثر الفروع الفرعية الأحدث للأدب المقارن بالقدرة النظرية والقدرة على دراسة أنواع مختلفة من الفنون في آن واحد."
+  },
+  {
+    "q": "Comparative literature programs in universities may be designed by scholars drawn from:",
+    "options": [
+      "Biochemistry",
+      "Astrology",
+      "Cybernetics",
+      "None"
+    ],
+    "correct": 3,
+    "feedback": "لا يُصمم هذه البرامج علماء من مجالات علمية بحتة كالكيمياء أو الفلك، بل أكاديميون من أقسام اللغات والأدب."
+  },
+  {
+    "q": "Critics have criticized Comparative Literature as being:",
+    "options": [
+      "Insufficiently well-defined and too broad",
+      "Overly ambitious but often useful",
+      "Too narrow minded and overall useless",
+      "All"
+    ],
+    "correct": 0,
+    "feedback": "واجه التخصص انتقادات بأنه غير محدد المعالم بشكل كافٍ ومجاله واسع جداً ومطاطي."
+  },
+  {
+    "q": "Comparative literature is an interdisciplinary field whose practitioners study literature across:",
+    "options": [
+      "Time periods, languages, and genres",
+      "Disciplines",
+      "Literature and other arts",
+      "All"
+    ],
+    "correct": 3,
+    "feedback": "الأدب المقارن هو مجال متعدد التخصصات يدرس الأدب عبر العصور، اللغات، الأجناس الأدبية، وعلاقة الأدب بالفنون الأخرى."
+  },
+  {
+    "q": "In its broadest definition, Comparative Literature is the study of:",
+    "options": [
+      "Literature without borders",
+      "Universal Ideals",
+      "Human Ethos",
+      "None"
+    ],
+    "correct": 0,
+    "feedback": "في أوسع تعريف له، يعتبر الأدب المقارن دراسة 'الأدب بلا حدود'، متجاوزاً الحدود الوطنية واللغوية."
+  },
+  {
+    "q": "Studying the links of literature to folklore and mythology can be classified as:",
+    "options": [
+      "An example of mythological studies",
+      "An example of scholarships in Comparative literature",
+      "An example of traditional studies",
+      "None"
+    ],
+    "correct": 1,
+    "feedback": "تُعد دراسة الروابط بين الأدب والفولكلور والأساطير مثالاً واضحاً على الأبحاث في مجال الأدب المقارن."
+  },
+  {
+    "q": "From the early part of the 20th century until WWII, the field was characterised by a notably empiricist and positivist approach, termed the:",
+    "options": [
+      "Post-war school",
+      "French School",
+      "Positivist school",
+      "Empiricist School"
+    ],
+    "correct": 1,
+    "feedback": "المدرسة الفرنسية هي التي تميزت بالمنهج التجريبي والوضعي الصارم في دراسة الأدب منذ أوائل القرن العشرين وحتى الحرب العالمية الثانية."
+  },
+  {
+    "q": "The word \"empiricist\" in the previous quote means:",
+    "options": [
+      "Can be understood through experience derived from the senses",
+      "Cannot be understood through experience derived from the senses",
+      "Relating to empires and emperors",
+      "All"
+    ],
+    "correct": 0,
+    "feedback": "كلمة 'تجريبي' (Empiricist) تعني الاعتماد على المعرفة التي يمكن فهمها وإثباتها من خلال التجربة والأدلة الملموسة."
+  },
+  {
+    "q": "The word \"positivist\" in the previous quote means:",
+    "options": [
+      "Positive",
+      "Not negative",
+      "Can be understood through logical reasoning",
+      "Both A and B"
+    ],
+    "correct": 2,
+    "feedback": "الفلسفة الوضعية (Positivist) في هذا السياق تشير إلى الفهم القائم على الاستدلال المنطقي والحقائق المثبتة بدلاً من التكهنات."
+  },
+  {
+    "q": "The French Schools examined works of different nations looking for evidence of:",
+    "options": [
+      "Origins and influences",
+      "Crimes and punishments",
+      "Superiority complex",
+      "None"
+    ],
+    "correct": 0,
+    "feedback": "ركزت المدرسة الفرنسية بشكل أساسي على البحث عن أدلة مادية تثبت 'الأصول والتأثيرات' (Origins and influences) بين الأعمال الأدبية."
+  },
+  {
+    "q": "One of the things a French scholar might attempt to trace is:",
+    "options": [
+      "French literature's superiority to all other literatures",
+      "Dogmatism in philosophy",
+      "How an idea or motif traveled over time between nations",
+      "National material treasures"
+    ],
+    "correct": 2,
+    "feedback": "يهتم الباحث في المدرسة الفرنسية بتتبع كيفية انتقال الأفكار أو التيمات الأدبية عبر الزمن بين الأمم المختلفة."
+  },
+  {
+    "q": "The French school can be said to be dominated by:",
+    "options": [
+      "The study of mentalities",
+      "The study of influences",
+      "Both A and B",
+      "None, the French school was free of domination"
+    ],
+    "correct": 1,
+    "feedback": "هيمنت 'دراسة التأثيرات' (Study of influences) بشكل شبه كامل على منهجية المدرسة الفرنسية."
+  },
+  {
+    "q": "What is the French School approach today towards the discipline?",
+    "options": [
+      "Nation-state approach",
+      "French-centric approach",
+      "Linguistic originalism",
+      "Historical documentaries"
+    ],
+    "correct": 0,
+    "feedback": "لا تزال المدرسة الفرنسية تميل إلى التركيز على حدود 'الدولة الأمة' (Nation-state) في دراساتها المقارنة."
+  },
+  {
+    "q": "The founding fathers of this school define 'comparative literature' as a branch of literary study which traces:",
+    "options": [
+      "the relations between several internationally linguistically different literatures or texts",
+      "Origins of authors birthplaces and birthnames",
+      "Theological evidence of supernatural events",
+      "A and B"
+    ],
+    "correct": 0,
+    "feedback": "عَرّف مؤسسو المدرسة الفرنسية الأدب المقارن بأنه دراسة العلاقات والتأثيرات بين نصوص أو آداب تختلف دولياً ولغوياً."
+  },
+  {
+    "q": "According to the French School, Comparative Studies can be said to be linked to history to the extent that:",
+    "options": [
+      "Relations between nations have historical roots",
+      "Both A and C",
+      "Documents historical records of authors lives exist",
+      "None, comparative study is not linked to history"
+    ],
+    "correct": 0,
+    "feedback": "ترى المدرسة الفرنسية أن الدراسات المقارنة مرتبطة بالتاريخ لأن العلاقات الأدبية بين الأمم مبنية على جذور تاريخية موثقة."
+  },
+  {
+    "q": "\"comparative literature is a branch of literary history, for it tackles the international spiritual affinities.\" This quote can be attributed to:",
+    "options": [
+      "Jean Paul Sartre",
+      "Chauvinsky Roustov",
+      "Jean M. Carré",
+      "Marius F. Guyard"
+    ],
+    "correct": 2,
+    "feedback": "هذا الاقتباس الشهير الذي يربط الأدب المقارن بالتاريخ الأدبي والروابط الروحية الدولية يعود للناقد الفرنسي جان ماري كاريه."
+  },
+  {
+    "q": "The influence of binary studies on the approach of the French is best described as:",
+    "options": [
+      "Complicating things",
+      "Simplifying things",
+      "Developing things",
+      "All"
+    ],
+    "correct": 1,
+    "feedback": "دراسة العلاقات الثنائية (المرسل والمستقبل) ساهمت في تبسيط الأمور وتسهيل تتبع التأثيرات المباشرة في المدرسة الفرنسية."
+  },
+  {
+    "q": "Which of the following is excluded from the province of comparative literature according to French School?",
+    "options": [
+      "Folkloric works",
+      "Anonymous works",
+      "Collective works",
+      "All"
+    ],
+    "correct": 3,
+    "feedback": "استبعدت المدرسة الفرنسية الأعمال الفولكلورية والمجهولة والجماعية لعدم القدرة على تتبع مؤلفيها وتواريخها بدقة."
+  },
+  {
+    "q": "The reason for the exclusion of works in the previous quote is because:",
+    "options": [
+      "They are oral and impersonal",
+      "They have no real dates",
+      "They are unnatural",
+      "All"
+    ],
+    "correct": 3,
+    "feedback": "تم استبعادها لأنها أعمال شفوية وغير شخصية ولا تمتلك تواريخ دقيقة، مما يصعب تطبيق المنهج التاريخي الوضعي عليها."
+  },
+  {
+    "q": "French Theorists are blamed for:",
+    "options": [
+      "Not reaching an idealistic methodology",
+      "Lacking honesty",
+      "Talking too much",
+      "None, they were the ideal theorists"
+    ],
+    "correct": 0,
+    "feedback": "يُلام منظرو المدرسة الفرنسية لعدم وصولهم إلى منهجية أدبية مثالية، بسبب إفراطهم في التركيز على الوثائق والحقائق التاريخية على حساب الجماليات."
+  },
+  {
+    "q": "Tieghem makes a rigid and sharp distinction between ________ literature.",
+    "options": [
+      "Comparative/General",
+      "General/National",
+      "Natural/Supernatural",
+      "General/International"
+    ],
+    "correct": 0,
+    "feedback": "وضع بول فان تيغيم تمييزاً صارماً وحاداً بين 'الأدب المقارن' (الذي يدرس علاقات ثنائية) و'الأدب العام' (الذي يدرس تيارات أدبية تشمل عدة دول)."
+  },
+  {
+    "q": "Tieghem's attempt to circulate the concept of \"general literature\" in Europe was:",
+    "options": [
+      "Successful",
+      "Glorious",
+      "In vain",
+      "Naughty"
+    ],
+    "correct": 2,
+    "feedback": "كانت محاولة تيغيم لتعميم وفصل مفهوم 'الأدب العام' بلا جدوى ومآلها الفشل."
+  },
+  {
+    "q": "H. Remak viewed the concept of \"general literature as defined by Tieghem as being:",
+    "options": [
+      "Admirable",
+      "Confusing",
+      "Useless",
+      "Useful"
+    ],
+    "correct": 1,
+    "feedback": "اعتبر الناقد الأمريكي هنري ريماك أن التمييز الذي وضعه تيغيم كان مربكاً (Confusing) وغير عملي."
+  },
+  {
+    "q": "The French school came to an impasse because:",
+    "options": [
+      "It failed to clearly define the terminology",
+      "Its theorists focused on irrelevant things",
+      "It was widely successful",
+      "A and B"
+    ],
+    "correct": 3,
+    "feedback": "وصلت المدرسة الفرنسية إلى طريق مسدود بسبب فشلها في تحديد المصطلحات بوضوح وتركيزها على تفاصيل تاريخية غير أدبية."
+  },
+  {
+    "q": "Influence study under the French school is very knotty because:",
+    "options": [
+      "It is rather old",
+      "It is not useless",
+      "It often gets misused",
+      "All"
+    ],
+    "correct": 3,
+    "feedback": "دراسة التأثير معقدة وشائكة لأنها قديمة وغالباً ما يُساء استخدامها لاستنتاج تفوق أدب على آخر."
+  },
+  {
+    "q": "\"Influence\" can be defined simply as:",
+    "options": [
+      "The movement of an idea, theme, image, or literary tradition",
+      "The loss of an idea, theme, image, or literary tradition",
+      "Both",
+      "None, it cannot be simply defined"
+    ],
+    "correct": 0,
+    "feedback": "يُعرّف التأثير ببساطة بأنه انتقال فكرة أو تيمة أو صورة أو تقليد أدبي من كاتب إلى آخر أو من أمة إلى أخرى."
+  },
+  {
+    "q": "Types of influence include:",
+    "options": [
+      "Non-literary influence",
+      "Direct and indirect influence",
+      "Literary influence",
+      "All"
+    ],
+    "correct": 3,
+    "feedback": "تشمل أنواع التأثير: التأثير الأدبي وغير الأدبي، وكذلك التأثير المباشر (عبر قراءة الأصل) وغير المباشر (عبر الترجمة)."
+  },
+  {
+    "q": "The French school ignores culture in the study of literature on the ground that the influenced writer:",
+    "options": [
+      "Reshapes primary materials",
+      "Copies-pastes works as is",
+      "Only translates works",
+      "None"
+    ],
+    "correct": 0,
+    "feedback": "تتجاهل المدرسة الفرنسية السياق الثقافي أحياناً بحجة أن الكاتب المتأثر لا ينسخ العمل، بل يعيد تشكيل المواد الأولية لتناسب بيئته."
+  },
+  {
+    "q": "Shakespeare's plays were:",
+    "options": [
+      "The raw product of his genius, derived from nothing",
+      "Derived from older histories and biographies",
+      "Derived from his own history",
+      "None"
+    ],
+    "correct": 1,
+    "feedback": "مسرحيات شكسبير لم تأتِ من فراغ، بل كانت مستمدة من تواريخ وسير ذاتية أقدم أعاد صياغتها بعبقريته."
+  },
+  {
+    "q": "\"False influence\" happens when:",
+    "options": [
+      "A writer falsely thinks that another is influenced by a foreign text",
+      "A false result is reached by the practitioner of comparative literature",
+      "A negative influence takes place",
+      "All"
+    ],
+    "correct": 0,
+    "feedback": "يحدث 'التأثير الخاطئ' عندما يُعتقد خطأً أن كاتباً تأثر بنص أجنبي، بينما قد يكون التشابه مجرد توارد أفكار."
+  },
+  {
+    "q": "Fitzgerald's English translation of Omar Khayyam Rubaiyat would not have been had well-received had it not been for:",
+    "options": [
+      "Its fulfillment of the need for the new trends of mysticism",
+      "Its fulfillment of the need for the new trends of pessimism",
+      "The good translation",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "feedback": "نجحت ترجمة فيتزجيرالد لرباعيات الخيام لأنها توافقت مع حاجة العصر الفيكتوري للاتجاهات الجديدة في التصوف والتشاؤم."
+  },
+  {
+    "q": "\"Pure imitation\" is the:",
+    "options": [
+      "unconscious process of translating other work",
+      "Subconscious process of taking other work",
+      "conscious process of adopting certain parts of a foreign work",
+      "Intentionally stealing the work of others to further one's agenda"
+    ],
+    "correct": 2,
+    "feedback": "التقليد البحت هو عملية واعية ومقصودة يتبنى فيها الكاتب أجزاء معينة من عمل أجنبي لمحاكاتها."
+  },
+  {
+    "q": "Plagiarism is a process that has always been:",
+    "options": [
+      "Disapproved",
+      "Glorified",
+      "Encouraged",
+      "Ignored"
+    ],
+    "correct": 0,
+    "feedback": "السرقة الأدبية (الانتحال) هي عملية كانت ولا تزال غير مقبولة ومرفوضة في كل العصور."
+  },
+  {
+    "q": "The approach of the American School would be familiar to current practitioners of:",
+    "options": [
+      "Cultural Studies",
+      "Central Studies",
+      "Centro Studies",
+      "Cerebral Studies"
+    ],
+    "correct": 0,
+    "feedback": "نهج المدرسة الأمريكية الذي يربط الأدب بمجالات أخرى يعتبر مألوفاً جداً لممارسي 'الدراسات الثقافية' الحديثة."
+  },
+  {
+    "q": "\"comparative literature should not be regarded as a discipline on its own but rather as a connecting link between subjects or 'subject areas.\" This statement belongs to:",
+    "options": [
+      "Guyard",
+      "Al-Gahiz",
+      "Gustovo",
+      "Remak"
+    ],
+    "correct": 3,
+    "feedback": "هذا التعريف الذي يرى الأدب المقارن كحلقة وصل بين التخصصات يعود للناقد الأمريكي هنري ريماك."
+  },
+  {
+    "q": "The sole aim of the model of \"interdisciplinary work\" is to:",
+    "options": [
+      "Do away with chauvinistic nationalism",
+      "Stress the importance of national identities",
+      "Forego any racism",
+      "All"
+    ],
+    "correct": 0,
+    "feedback": "الهدف الأساسي من العمل متعدد التخصصات والمقارن هو القضاء على القومية الشوفينية المتعصبة في دراسة الأدب."
+  },
+  {
+    "q": "\"Parallelism theory\" states that:",
+    "options": [
+      "We live in a multiverse where things are happening differently",
+      "there are affinities between the literatures of different peoples whose social evolution",
+      "No two works are the same",
+      "All"
+    ],
+    "correct": 1,
+    "feedback": "تنص نظرية التوازي على وجود تقاربات وتشابهات بين آداب الشعوب التي مرت بتطور اجتماعي وتاريخي متشابه، حتى دون اتصال مباشر."
+  },
+  {
+    "q": "Who is Ihab Hassan?",
+    "options": [
+      "An Egyptian citizen",
+      "An American critic",
+      "A French philosopher",
+      "A and B"
+    ],
+    "correct": 3,
+    "feedback": "إيهاب حسن هو ناقد أدبي أمريكي من أصل مصري، ويعتبر من أبرز منظري ما بعد الحداثة."
+  },
+  {
+    "q": "\"the relation between two or more texts at a level which affects the way or ways of reading the new text\" is the definition of:",
+    "options": [
+      "Intertextuality",
+      "Hypertextuality",
+      "Hyoptextuality",
+      "Textuality"
+    ],
+    "correct": 0,
+    "feedback": "هذا هو التعريف الكلاسيكي لمفهوم 'التناص' (Intertextuality)، حيث تؤثر النصوص السابقة على فهم وقراءة النص الجديد."
+  },
+  {
+    "q": "The above definition is attributed to:",
+    "options": [
+      "Enani",
+      "Adnani",
+      "Zeydani",
+      "Hassan"
+    ],
+    "correct": 0,
+    "feedback": "يُنسب هذا التعريف إلى الأستاذ الدكتور محمد عناني، أحد أبرز مترجمي ومنظري الأدب في العالم العربي."
+  },
+  {
+    "q": "According to intertextuality:",
+    "options": [
+      "Literature in this way is no more or less than a reworking of frequently-dealt-with materials, with a certain amount of change",
+      "In interpreting the text the author is no longer 'the great originator' or 'the creative genius,' but as someone whose task is to put together in a certain literary form and structural pattern 'linguistic raw materials",
+      "Both A and B",
+      "None, intertextuality is irrelevant"
+    ],
+    "correct": 2,
+    "feedback": "يعتبر التناص أن الأدب هو إعادة صياغة لمواد سابقة، وأن المؤلف ليس المبدع من العدم بل هو منسق للمواد اللغوية والنصية السابقة."
+  },
+  {
+    "q": "One of the faults of the American school is:",
+    "options": [
+      "Rapid favoritism",
+      "Roped paramilitarism",
+      "Rabid nationalism",
+      "Rabies"
+    ],
+    "correct": 2,
+    "feedback": "من العيوب التي وُجهت للمدرسة الأمريكية، ورغم انفتاحها، هو الوقوع أحياناً في فخ القومية المتعصبة أو المركزية الغربية."
+  },
+  {
+    "q": "Roland Barthes considers the text to be a network.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "صحيح، يعتبر الناقد رولان بارت أن النص ليس كياناً مغلقاً بل 'شبكة' (Network) تتقاطع فيها نصوص ومعانٍ متعددة."
+  },
+  {
+    "q": "A writer may try to blend another text into his own, yet the alignment between the two texts can always be entirely broken.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "صحيح، قد يقتبس الكاتب نصاً ويدمجه في عمله، ولكن العلاقة بين النصين يمكن أن تنفصل أو تتغير دلالتها بالكامل في السياق الجديد."
+  },
+  {
+    "q": "\"The affiliation of a phenomenon with a specific pattern\" is something studied by the French School.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "صحيح، اهتمت المدرسة الفرنسية بدرس انتماء الظواهر الأدبية إلى أنماط أو تيارات محددة تاريخياً وجغرافياً."
+  },
+  {
+    "q": "One of the good things that the French school did is the confinement of comparison to the boundary of language.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "خطأ، لأن الأدب المقارن بحد ذاته (بما فيه المدرسة الفرنسية) يتطلب تجاوز حدود اللغة الواحدة للمقارنة بين لغات وآداب مختلفة."
+  },
+  {
+    "q": "Religion has provided all literatures with such figures as: Noah, Joseph, Moses, Solomon Cain, Abel and the devil",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "صحيح، تعتبر القصص والشخصيات الدينية من أغنى المصادر وأكثرها تأثيراً في مختلف الآداب العالمية."
+  },
+  {
+    "q": "It is hardly difficult to notice that ethical ideas have been the raw material for the masterpieces of world writers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "صحيح، شكلت الأفكار والصراعات الأخلاقية المادة الخام الأساسية لمعظم روائع الأدب العالمي عبر التاريخ."
+  },
+  {
+    "q": "1. \"Without difference, no similarity\" implies that:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Recognizing differences is essential to identifying similarities.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "لأن الأدب التبايني هو المتمم الضروري للمقارنة؛ فلكي نقول إن شيئاً يشبه الآخر، يجب ضمنياً معرفة ما لا يشبهه."
+  },
+  {
+    "q": "2. The relationship between comparative and contrastive literature is best described as:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Mutually dependent analytical approaches.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "هما نهجان يعتمد كل منهما على الآخر؛ فالمقارنة تفترض مسبقاً القدرة على إدراك التباين."
+  },
+  {
+    "q": "3. The phrase \"willed homelessness\" is used to describe comparatists':",
+    "options": [
+      "(A)",
+      "(B)",
+      "Deliberate distancing from a single national or cultural canon.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "يختار المقارنون النأي بأنفسهم عن ثقافاتهم الأصلية طواعية (تشرد إرادي) لتجنب الأحكام المسبقة الوطنية."
+  },
+  {
+    "q": "4. According to the textbook, comparatists distance themselves from their \"home literatures\" in order to:",
+    "options": [
+      "(A)",
+      "Engage more fully with transnational texts and tropes.",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 1,
+    "feedback": "هذا التباعد يمنحهم قدرة أفضل على فهم الصور البيانية والنصوص التي تتجاوز أي لغة أو ثقافة وطنية واحدة."
+  },
+  {
+    "q": "5. The concept of \"unbelonging\" is presented as:",
+    "options": [
+      "A defining feature of the comparatist's identity.",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 0,
+    "feedback": "إن 'عدم الانتماء' لتقليد واحد محدد هو السمة الجوهرية والمميزة التي تحدد هوية الباحث المقارن."
+  },
+  {
+    "q": "6. According to the textbook, comparative literature differs from other disciplines because:",
+    "options": [
+      "(A)",
+      "(B)",
+      "It must constantly renew its sense of mission and justification.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "على عكس العلوم المستقرة، يجب على الأدب المقارن أن يبتكر دائماً أسباباً وقصصاً جديدة لتبرير وجوده ومهمته."
+  },
+  {
+    "q": "7. The \"unceasing sense of insecurity\" in comparative literature arises from:",
+    "options": [
+      "(A)",
+      "Its position between established disciplines.",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 1,
+    "feedback": "ينبع هذا القلق المستمر من كون التخصص يعمل دائماً في الفجوات أو المساحات الفاصلة بين التخصصات الأخرى."
+  },
+  {
+    "q": "8. The textbook implies that other Humanities disciplines:",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "Are innovative but not defined by perpetual disciplinary crisis."
+    ],
+    "correct": 3,
+    "feedback": "العلوم الإنسانية الأخرى مبتكرة، لكنها لا تُعرف بـ 'أزمة هوية' أو عدم أمان دائم كالأدب المقارن."
+  },
+  {
+    "q": "9. The phrase \"works in the gaps between disciplines\" highlights comparative literature's:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Interdisciplinary and boundary-crossing nature.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "جوهر التخصص هو كونه عابراً للحدود ويربط بين مجالات معرفية مختلفة بدلاً من مجرد مراقبتها."
+  },
+  {
+    "q": "10. Close reading primarily focuses on:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Detailed analysis of language, style, and textual minutiae.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "تركز القراءة المتعمقة على التحليل الدقيق للتفاصيل النصية مثل النحو وبنية الجملة والغموض الدلالي."
+  },
+  {
+    "q": "11. Distant or macro analysis is characterized by:",
+    "options": [
+      "(A)",
+      "Observation of large-scale patterns across texts or traditions.",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 1,
+    "feedback": "القراءة عن بعد تعتمد على البيانات والرسوم البيانية لتتبع تطور الأشكال والأنواع الأدبية بشكل كلي."
+  },
+  {
+    "q": "12. Comparative literature is described as both \"natural\" and \"constructed\" because:",
+    "options": [
+      "It occurs both naturally and methodologically.",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 0,
+    "feedback": "هي نشاط طبيعي لأننا نقارن غريزياً لفهم العالم، ومصطنع لأنها تتطلب بناءً فكرياً ومنهجياً."
+  },
+  {
+    "q": "13. The variation in terms for comparative literature across French, German, and English primarily illustrates:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Conceptual and cultural differences embedded in language.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "اختلاف المصطلحات (مقارَن، يُقارن، مُقارِن) يفتح صندوقاً من الاختلافات الثقافية والرؤى المختلفة لعملية المقارنة."
+  },
+  {
+    "q": "14. The French term (littérature comparée) implies that:",
+    "options": [
+      "(A)",
+      "(B)",
+      "The act of comparison is already completed.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "اسم المفعول في الفرنسية يشير إلى أن المقارنة فعل تم وانتهى بالفعل."
+  },
+  {
+    "q": "15. The ambiguity of the English term \"comparative literature\" highlights:",
+    "options": [
+      "(A)",
+      "Uncertainty over whether comparison lies in the texts or the method.",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 1,
+    "feedback": "الصفة في الإنجليزية تطمس التمييز بين ما إذا كان الأدب نفسه هو المقارن أم أن المنهج المتبع هو المقارن."
+  },
+  {
+    "q": "16. The textbook characterizes comparative literature as:",
+    "options": [
+      "(A)",
+      "A mode of enquiry rather than a rigid practical practice.",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 1,
+    "feedback": "يُنظر إليها كنمط من الاستقصاء تكون فيه افتراضات المراقب بنفس أهمية المادة المدروسة."
+  },
+  {
+    "q": "17. The claim that \"the history of comparative literature is also the history of its self-understanding\" suggests that:",
+    "options": [
+      "(A)",
+      "(B)",
+      "The discipline continually redefines its own purpose and identity.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "يعني أن العلم يدرس تاريخ تطوره وكيفية محاولاته المستمرة لتعريف نفسه وفهم أهدافه."
+  },
+  {
+    "q": "18. According to the textbook, which two concepts have most strongly shaped the traditional self-understanding of comparative literature?",
+    "options": [
+      "(A)",
+      "Modernity and Europe.",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 1,
+    "feedback": "الحداثة وأوروبا هما الفئتان اللتان هيمنتا تاريخياً على تشكيل هوية هذا العلم وفهمه لذاته."
+  },
+  {
+    "q": "19. The author argues that focusing on Modernity and Europe in the discipline's history:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Accurately reflects how the discipline historically developed.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "تتبع هذه المصطلحات ضروري لأن القيام بغير ذلك سيشوه التاريخ الفعلي لتطور العلم."
+  },
+  {
+    "q": "20. The \"marketplace\" metaphor introduced in the textbook is used to explain:",
+    "options": [
+      "How economic and global forces shape literary comparison and production.",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 0,
+    "feedback": "نموذج السوق يشير إلى أن قابلية التسويق العالمية أصبحت معياراً يحدد ما يتم كتابته وما يستحق المقارنة."
+  },
+  {
+    "q": "21. According to the textbook, the growing importance of an international audience has led authors to:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Write as much for an international as for a national audience.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "المؤلفون الناجحون يكتبون الآن واضعين في اعتبارهم الجمهور العالمي والوطني في آن واحد."
+  },
+  {
+    "q": "22. The criterion of \"cross-cultural marketability\" influences comparative literature by:",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "Affecting which texts are selected for comparison."
+    ],
+    "correct": 3,
+    "feedback": "المعايير الاقتصادية تتدخل في تحديد النصوص التي تحظى بالدراسة المقارنة بناءً على نجاحها العالمي."
+  },
+  {
+    "q": "23. According to the textbook, \"reading literature is also reading into literature\" means:",
+    "options": [
+      "(A)",
+      "(B)",
+      "The reader's opinions in shaping meaning.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "القراءة ليست عملية سلبية، بل القارئ يضفي ميوله ومعرفته لتشكيل المعنى."
+  },
+  {
+    "q": "24. The statement \"literature exists, after all, comparatively\" suggests that:",
+    "options": [
+      "Literary texts cannot be fully understood on their own.",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 0,
+    "feedback": "لا يوجد نص في التاريخ مكتفٍ بذاته؛ ففهم أي عمل يعتمد دائماً على علاقته بنصوص وتقاليد أخرى."
+  },
+  {
+    "q": "25. The textbook presents reading and writing as practices that:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Take place within inherited patterns, forms, and shared traditions.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "الكتابة تعني وضع الذات ضمن إطار موجود من المراجع؛ فالأفكار الجديدة تشتق حتماً من أفكار قديمة."
+  },
+  {
+    "q": "26. The claim that \"knowledge itself is comparative\" emphasizes that:",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "Understanding depends on relationships and context."
+    ],
+    "correct": 3,
+    "feedback": "كلما تعلمنا أكثر، زادت قدرتنا على وضع الأمور في سياقها؛ فالمعرفة هي عملية ربط مستمرة."
+  },
+  {
+    "q": "27. The textbook's use of Hermann Rorschach's inkblot test functions primarily as a metaphor to argue that:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Acts of interpretation tell us about the interpreter as well as the text.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "مثلما نرى صوراً في بقع الحبر بناءً على حالتنا، فإن تفسيرنا للنصوص يكشف عن هويتنا وأفكارنا المسبقة."
+  },
+  {
+    "q": "28. Which of the following is the most correct statement:",
+    "options": [
+      "(A)",
+      "(B)",
+      "To look at literature comparatively is to discover more about other literatures and one's own.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "المقارنة تسمح لنا ليس فقط بفهم الآخر، بل باكتشاف جوانب خفية وجديدة في أدبنا وثقافتنا المحلية."
+  },
+  {
+    "q": "29. The reference to George Steiner's phrase \"to read is to compare\" raises which central problem?",
+    "options": [
+      "The necessity of comparative literature as a separate discipline.",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 0,
+    "feedback": "إذا كانت كل قراءة هي مقارنة بطبيعتها، فقد يبدو من غير الضروري تخصيص علم مستقل لها."
+  },
+  {
+    "q": "30. The q \"what is the force of comparative literature, as opposed to that of literature?\" points to:",
+    "options": [
+      "A need to justify the discipline's distinct purpose and methodology.",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 0,
+    "feedback": "يشير إلى التحدي في إثبات القيمة المضافة للتخصص وكيفية اختلاف منهجه عن مجرد دراسة الأدب."
+  },
+  {
+    "q": "31. The textbook identifies identifying comparison as:",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "A fundamental human instinct."
+    ],
+    "correct": 3,
+    "feedback": "المقارنة مدمجة في صلب تفكيرنا البشري، وهي نشاط طبيعي نقوم به لفهم الأشياء."
+  },
+  {
+    "q": "32. According to the textbook, comparison helps individuals primarily to:",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "Understand themselves in relation to others."
+    ],
+    "correct": 3,
+    "feedback": "من خلال النظر وراء أفق تقاليدنا، نكتشف المزيد عن أنفسنا وعن مكانتنا في العالم."
+  },
+  {
+    "q": "33. The various forms comparison can take (such as empathy or envy) all share:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Recognition of diversity and multiplicity.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "المقارنة تعود دائماً للاعتراف بوجود أكثر من طريقة للوجود وفعل الأشياء في العالم."
+  },
+  {
+    "q": "34. The author argues that comparative literature's claim to objectivity is:",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "Undermined by cultural and ideological bias."
+    ],
+    "correct": 3,
+    "feedback": "رغم السعي للموضوعية، يظل التخصص متواطئاً مع الأحكام المسبقة والمواقف الثقافية للباحث."
+  },
+  {
+    "q": "35. The statement that \"there is no such thing as a single, objective sense of comparative literature\" implies that:",
+    "options": [
+      "Definitions and methods vary according to the comparatist.",
+      "(B)",
+      "(C)",
+      "(D)"
+    ],
+    "correct": 0,
+    "feedback": "لا يوجد إجماع واحد؛ فلكل مقارن فكرته وأولوياته الخاصة حول كيف وماذا يقارن."
+  },
+  {
+    "q": "36. The comparison between comparative literature and democratic government suggests that:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Methods reflect collective choices and values.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "المناهج المتبعة تعكس خيارات وقيم الباحثين أنفسهم، وهو ما يُعرف بـ أدب المقارنين."
+  },
+  {
+    "q": "37. The claim that comparative literature has a \"canon of approaches\" rather than texts highlights its:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Methodological flexibility and openness.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "التخصص لا يقدس نصوصاً معينة بل يركز على تنوع المناهج التي يمكن من خلالها مقارنة النصوص."
+  },
+  {
+    "q": "38. According to the textbook, the essential qualities required for making comparisons are:",
+    "options": [
+      "(A)",
+      "(B)",
+      "Curiosity, open-mindedness and intellectual ambition.",
+      "(D)"
+    ],
+    "correct": 2,
+    "feedback": "الفضول والانفتاح والطموح الفكري هي المتطلبات الأساسية لإجراء مقارنات مثمرة."
+  },
+  {
+    "q": "39. According to the textbook, the \"instability\" of comparative literature is presented as:",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "Its very essence, enabling fresh connections."
+    ],
+    "correct": 3,
+    "feedback": "عدم الاستقرار هو جوهر العلم؛ لأنه يسمح بزعزعة القوانين الثابتة وبناء صلات جديدة."
+  },
+  {
+    "q": "40. \"Forging fresh connections and mutually enriching links\" emphasizes comparative that focus on:",
+    "options": [
+      "(A)",
+      "(B)",
+      "(C)",
+      "Creating dynamic relationships between diverse texts and traditions."
+    ],
+    "correct": 3,
+    "feedback": "الهدف الأساسي هو خلق روابط حركية ومتبادلة بين النصوص المتباعدة لإثراء الفهم."
+  }
+
+  ]
+}
