@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#0f172a">
+    <title>أسئلة تدريبية لقسم اللغة الإنجليزية</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="app-container">
+    
+    <div id="setup-screen" class="screen">
+        <div class="header-box animate-pop">
+            <div class="logo-area">🚀</div>
+            <h2>المواد الدراسية</h2>
+            <p class="subtitle">اختر مادة وابدأ رحلة التعلم</p>
+        </div>
+
+       <!-- Replace the existing #subject-list div in setup-screen with this structure -->
+<div id="years-container" class="subject-grid">
+    <div class="loader" style="text-align: center; color: var(--primary); padding: 20px;">جاري التحقق من الفصول الدراسية...</div>
+</div>
+
+<div id="subject-list" class="subject-grid hidden">
+    <!-- Sync button injected here dynamically -->
+</div>
+
+<!-- In the #quiz-screen, update the .bottom-nav div to include the interim result button -->
+<div class="bottom-nav">
+    <button class="nav-btn prev" onclick="prevQuestion()">السابق</button>
+    <button id="interim-result-btn" class="nav-btn ghost-btn hidden" onclick="showInterimResult()" style="margin-top: 0; border-color: var(--success) !important; color: var(--success);">عرض نتيجتي</button>
+    <button class="nav-btn next" onclick="nextQuestion()">التالي</button>
+</div>
+
+<!-- Add this interim result modal at the very bottom of your #app-container -->
+<div id="interim-modal" class="screen hidden" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-dark); z-index: 9999; justify-content: center; align-items: center; padding: 20px;">
+    <div class="result-card animate-pop" style="width: 100%;">
+        <div class="trophy">📊</div>
+        <h2>نتيجتك حتى الآن</h2>
+        <div id="interim-stats" class="stats-box"></div>
+        <button onclick="document.getElementById('interim-modal').classList.add('hidden')" class="action-btn full-width">متابعة الاختبار</button>
+    </div>
+</div>
+
+        <!-- قسم إعدادات المزامنة (مخفي افتراضياً) -->
+        <div id="sync-settings-container" class="hidden">
+            <h3 id="sync-status">المزامنة معطلة</h3>
+            <p class="note">لحفظ تقدمك عبر الأجهزة، قم بربط حسابك في GitHub. <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens" target="_blank">كيفية إنشاء توكن</a> (اختر `repo` scope).</p>
+            <div class="form-group">
+                <label for="sync-enabled">تفعيل المزامنة</label>
+                <input type="checkbox" id="sync-enabled">
+            </div>
+            <div class="form-group">
+                <label for="sync-username">اسم مستخدم GitHub</label>
+                <input type="text" id="sync-username" placeholder="e.g., MostafaAomar">
+            </div>
+            <div class="form-group">
+                <label for="sync-repo">اسم المستودع (Repository)</label>
+                <input type="text" id="sync-repo" placeholder="e.g., uni-progress">
+            </div>
+            <div class="form-group">
+                <label for="sync-token">توكن الوصول الشخصي (PAT)</label>
+                <input type="password" id="sync-token" placeholder="يبدأ بـ ghp_...">
+            </div>
+            <button class="action-btn" onclick="saveSyncConfig()">حفظ الإعدادات</button>
+            <button class="secondary-btn" onclick="toggleSyncSettings()">إغلاق</button>
+        </div>
+
+        <div class="footer-controls">
+            <button class="danger-text-btn" onclick="fullReset()">إعادة ضبط التطبيق 🗑️</button>
+        </div>
+    </div>
+
+    <div id="mode-screen" class="screen hidden">
+        <h2 id="selected-subject-name" class="gradient-text">المادة</h2>
+        <div class="mode-cards">
+            <div class="mode-card" onclick="setMode('study')">
+                <div class="icon">📖</div>
+                <h3>مذاكرة</h3>
+                <p>نظام البطاقات القلابة</p>
+            </div>
+            <div class="mode-card" onclick="setMode('quiz')">
+                <div class="icon">⚡</div>
+                <h3>اختبار</h3>
+                <p>تحدي الأسئلة والخيارات</p>
+            </div>
+        </div>
+        <button onclick="goBackToSubjects()" class="nav-btn ghost-btn">← العودة للقائمة</button>
+    </div>
+
+    <div id="study-screen" class="screen hidden">
+        <div class="top-header">
+            <button onclick="goBackToSubjects()" class="icon-btn glass-btn">🏠</button>
+            <div class="progress-pill">
+                <span id="study-count">0/0</span>
+                <div class="mini-bar"><div id="study-progress-bar" class="fill"></div></div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="flip-card" onclick="toggleFlip()">
+                <div class="flip-card-inner" id="card-inner">
+                    <div class="flip-card-front">
+                        <span class="card-label">السؤال</span>
+                        <h3 id="study-question">...</h3>
+                        <p class="tap-hint">اضغط لعرض الإجابة</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <span class="card-label">الإجابة</span>
+                        <h3 id="study-answer">...</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="study-displayArea" class="phonetics-area"></div>
+
+        <div class="controls-area">
+            <div class="voice-row">
+                <button class="icon-btn round" onclick="speakCurrent()">🔊</button>
+                <button class="icon-btn round" onclick="analyzeCurrentQuestion('study')" title="تحليل صوتي للجملة">🧪</button>
+                <input type="range" class="slider" min="0.5" max="1.5" step="0.1" value="0.8" oninput="syncSpeed(this.value)">
+            </div>
+            
+            <div class="notes-row">
+                <input type="text" id="note-input" placeholder="اكتب ملاحظة..." class="glass-input">
+                <button onclick="saveUserNote()" class="small-btn">حفظ</button>
+            </div>
+            <div id="user-note-display" class="note-feedback hidden"></div>
+        </div>
+
+        <div class="bottom-nav">
+            <button class="nav-btn prev" onclick="prevQuestion()">السابق</button>
+            <button class="nav-btn next" onclick="nextQuestion()">التالي</button>
+        </div>
+    </div>
+
+    <div id="quiz-screen" class="screen hidden">
+        <div class="top-header">
+            <button onclick="goBackToSubjects()" class="icon-btn glass-btn">🏠</button>
+            <div class="progress-pill">
+                <span id="quiz-count-display">0/0</span>
+                <div class="mini-bar"><div id="quiz-progress-bar" class="fill"></div></div>
+            </div>
+        </div>
+
+        <div class="quiz-content">
+            <div class="question-bubble">
+                <h3 id="question-text">...</h3>
+            </div>
+
+            <div id="options-container" class="options-list"></div>
+            <div id="quiz-feedback" class="feedback-toast hidden"></div>
+        </div>
+        
+        <div id="quiz-displayArea" class="phonetics-area"></div>
+
+        <div class="controls-area">
+            <div class="voice-row">
+                <button class="icon-btn round" onclick="speakCurrent()">🔊</button>
+                <button class="icon-btn round" onclick="analyzeCurrentQuestion('quiz')" title="تحليل صوتي للجملة">🧪</button>
+                <input type="range" class="slider" min="0.5" max="1.5" step="0.1" value="0.8" oninput="syncSpeed(this.value)">
+            </div>
+            
+            <div class="notes-row">
+                <input type="text" id="quiz-note-input" placeholder="اكتب ملاحظة..." class="glass-input">
+                <button onclick="saveUserNote()" class="small-btn">حفظ</button>
+            </div>
+            <div id="quiz-note-display" class="note-feedback hidden"></div>
+        </div>
+
+        <div class="bottom-nav">
+            <button class="nav-btn prev" onclick="prevQuestion()">السابق</button>
+            <button class="nav-btn next" onclick="nextQuestion()">التالي</button>
+        </div>
+    </div>
+
+    <div id="result-screen" class="screen hidden">
+        <div class="result-card animate-pop">
+            <div class="trophy">🏆</div>
+            <h2>اكتملت المادة!</h2>
+            <div id="final-stats" class="stats-box"></div>
+            <button onclick="goBackToSubjects()" class="action-btn full-width">العودة للرئيسية</button>
+            <button onclick="restartSubject()" class="secondary-btn full-width">إعادة المادة</button>
+        </div>
+    </div>
+
+    <section class="section-dictionary py-5 bg-light integrated-dictionary" id="dictionary">
+        <div class="container">
+            <h3 class="text-center mb-4">القاموس (إنجليزي - إنجليزي)</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="dictionary-widget">
+                        <input type="text" id="wordInput" class="form-control mb-3 glass-input text-center" placeholder="اكتب كلمة للبحث..." autocomplete="off" aria-label="Enter word for definition">
+                        <div id="dictionaryOutput" class="dictionary-output border p-3 rounded bg-white min-height-100 dark-output">
+                            <p class="text-muted" style="text-align: center;">أدخل كلمة في الأعلى لرؤية معناها.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

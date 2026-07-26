@@ -1,0 +1,19 @@
+{
+  "year1": [
+    { "id": "y1_s1", "name": "اسم المادة الأولى", "test_file": "american_1.json" },
+    { "id": "y1_s2", "name": "اسم المادة الثانية", "test_file": "french.json" },
+    { "id": "y1_s3", "name": "اسم المادة الثالثة", "test_file": "history.json" }
+  ],
+  "year2": [
+    { "id": "y2_s1", "name": "شعر 2", "test_file": "poetry_2.json" },
+    { "id": "y2_s2", "name": "لسانيات 1", "test_file": "linguistics_1.json" }
+  ],
+  "year3": [
+    { "id": "y3_s1", "name": "نقد 1", "test_file": "criticism_1.json" },
+    { "id": "y3_s2", "name": "مسرحية", "test_file": "play_third_year.json" }
+  ],
+  "year4": [
+    { "id": "y4_s1", "name": "أدب أمريكي 2", "test_file": "test.json" },
+    { "id": "y4_s2", "name": "شعر 4", "test_file": "poetry4.json" }
+  ]
+}

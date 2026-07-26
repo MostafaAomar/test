@@ -1,0 +1,398 @@
+
+    {
+  "subject": "ادب امريكي 2 سنه رابعه \n هذه الاسئله مخصصه فقط لروايه لمن تقرع الاجراس",
+  "lang": "en",
+  "questions": [
+  {
+    "q": "All the characters in the novel can justify killing for the cause.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "الإجابة خاطئة (False)؛ لأن أنسيلمو (Anselmo) لا يستطيع تبرير القتل تماماً، فهو يراه خطيئة وجريمة بحق البشرية رغم أنه يقوم به كواجب [1, 2]."
+  },
+  {
+    "q": "'I am not of the race of Pablo' is said by.......",
+    "options": ["Eladio", "Anselmo", "Robert", "Rafael"],
+    "correct": 1,
+    "feedback": "أنسيلمو (Anselmo) هو من قال هذه العبارة ليؤكد أنه لا يشبه بابلو في خيانته أو قسوته، بل هو مخلص للقضية [1, 3]."
+  },
+  {
+    "q": "'reluctant' means..",
+    "options": ["unwilling", "aggressive", "precise", "whimsical"],
+    "correct": 0,
+    "feedback": "كلمة 'reluctant' تعني الممانعة أو عدم الرغبة (unwilling) في القيام بشيء ما [1, 4]."
+  },
+  {
+    "q": "'But with or without God, I think it is a sin to kill' is said by.....",
+    "options": ["Agustin", "Robert", "Anselmo", "Pilar"],
+    "correct": 2,
+    "feedback": "أنسيلمو (Anselmo) هو من قال هذه العبارة، حيث تعكس صراعه الأخلاقي العميق تجاه فكرة القتل حتى في أوقات الحرب [1, 2]."
+  },
+  {
+    "q": "[ _____ ] is the belief that nothing has any meaning or value.",
+    "options": ["Fascism", "Nihilism", "Communism", "Modernism"],
+    "correct": 1,
+    "feedback": "العدمية (Nihilism) هي الاعتقاد الفلسفي بأن الحياة والقيم ليس لها معنى أو قيمة حقيقية [1, 2]."
+  },
+  {
+    "q": "Robert Jordan is prepared to [ _____ ] to avoid being captured.",
+    "options": ["kill himself", "be killed", "kill enemies", "All"],
+    "correct": 0,
+    "feedback": "روبرت جوردان مستعد لقتل نفسه (kill himself) لتجنب الوقوع في أسر الفاشيين، تماماً كما فعل كاشكين [5, 6]."
+  },
+  {
+    "q": "Hemingway characterizes suicide as an act of cowardice by associating it with vulnerable characters.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح (True)؛ همنغواي ربط الانتحار بشخصيات ضعيفة مثل والد روبرت جوردان، واعتبره عملاً جباناً في البداية [1, 7]."
+  },
+  {
+    "q": "Robert Jordan's nickname for Maria is....",
+    "options": ["Dove", "Rabbit", "squirrel", "both b & c"],
+    "correct": 1,
+    "feedback": "روبرت جوردان ينادي ماريا بلقب 'الأرنب' (Rabbit) نظراً لطريقتها في الحركة وخجلها [1, 2]."
+  },
+  {
+    "q": "'any mans death..... me, because I am involved in Mankind'.",
+    "options": ["occupies", "diminishes", "defeats", "controls"],
+    "correct": 1,
+    "feedback": "الكلمة الصحيحة هي 'diminishes' (يُنقصني)؛ وهي جزء من الاقتباس الاستهلالي لجون دون، وتعني أن موت أي إنسان يُنقص من قدر البشرية ككل [1, 8]."
+  },
+  {
+    "q": "'You do know that he is going bad fast without hiding it' is said by....",
+    "options": ["Pilar", "Pablo", "Anselmo", "Robert"],
+    "correct": 3,
+    "feedback": "روبرت جوردان (Robert) هو من قال هذه العبارة في مونولوج داخلي واصفاً تدهور حالة بابلو النفسية واتجاهه نحو الخيانة [1, 9]."
+  },
+  {
+    "q": "'If a Clod bee washed away by the Sea, Europe is the lesse' is a(n).....",
+    "options": ["epigraph", "memento mori", "reflection", "monologue"],
+    "correct": 0,
+    "feedback": "هذا النص هو جزء من 'الاقتباس الاستهلالي' (epigraph) للرواية المأخوذ من عظة جون دون [1, 8]."
+  },
+  {
+    "q": "Rafael is described as [ _____ ] in the novel.",
+    "options": ["honest", "patriotic", "worthless", "brave"],
+    "correct": 2,
+    "feedback": "وُصف رافائيل الغجري بأنه 'بلا قيمة' (worthless) لأن الغجر وُصفوا بأنهم يتحدثون كثيراً ويفعلون قليلاً [1, 10]."
+  },
+  {
+    "q": "Hemingway gives Pilar some masculine traits such as......",
+    "options": ["self-sufficiency", "hostility", "both a & b", "obedience"],
+    "correct": 2,
+    "feedback": "أعطى همنغواي بيلار صفات ذكورية مثل الاكتفاء الذاتي والعدائية/القوة (both a & b) ليعزز دورها كقائدة قوية [1, 11]."
+  },
+  {
+    "q": "'When he starts to hide it, he will have made a decision. Remember that..,' is speaking to",
+    "options": ["Anselmo/Robert", "Pilar/Pablo", "Robert/himself", "Pablo/Robert"],
+    "correct": 2,
+    "feedback": "روبرت جوردان يتحدث إلى نفسه (Robert/himself) في مونولوج داخلي حول توقيت اتخاذ بابلو لقرار الخيانة [1, 12]."
+  },
+  {
+    "q": "'it' in the previous quotation refers to [ _____ ]",
+    "options": ["reality", "loyalty", "betrayal", "duty"],
+    "correct": 2,
+    "feedback": "كلمة 'it' تشير إلى 'الخيانة' (betrayal)؛ حيث يراقب جوردان متى سيقرر بابلو خيانتهم [1, 12]."
+  },
+  {
+    "q": "Pilar foretells Jordan's future through.......",
+    "options": ["palm reading", "the stars", "prophecy", "imagination"],
+    "correct": 0,
+    "feedback": "بيلار تتنبأ بمستقبل جوردان من خلال 'قراءة الكف' (palm reading) في بداية لقائهم [1, 13]."
+  },
+  {
+    "q": "El Sordo's name refers to which characteristic?",
+    "options": ["courage", "blindness", "deafness", "lameness"],
+    "correct": 2,
+    "feedback": "كلمة 'Sordo' تعني 'الأصم' (deafness) باللغة الإسبانية، وهو لقب قائد المقاومة [1]."
+  },
+  {
+    "q": "'Go on, guerilla leader with the sad face' is said by.....",
+    "options": ["Robert", "Anselmo", "Maria", "Pilar"],
+    "correct": 1,
+    "feedback": "أنسيلمو (Anselmo) هو من قال هذه العبارة مخاطباً بابلو وواصفاً 'وجهه الحزين' الذي يربطه همنغواي بالخيانة [1, 14]."
+  },
+  {
+    "q": "Anselmo shows revulsion at killing people in all circumstances.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ (False)؛ لأنه رغم كرهه للقتل، إلا أنه يقوم به إذا كان ضرورياً لمهمته (مثل قتل الحراس) [1, 2]."
+  },
+  {
+    "q": "What theme does John Donne's epigraph establish?",
+    "options": ["War", "Fear", "Solitude", "Death"],
+    "correct": 3,
+    "feedback": "موضوع المقدمة الرئيسي هو الموت (Death) وترابط البشر في مواجهته [1, 8]."
+  },
+  {
+    "q": "How many days do the events of the novel span?....",
+    "options": ["One", "Two", "Three", "None"],
+    "correct": 2,
+    "feedback": "تمتد أحداث الرواية على مدار ثلاثة أيام (Three) فقط [1, 15]."
+  },
+  {
+    "q": "What was Robert Jordan's occupation in America?",
+    "options": ["Soldier", "Professor", "Volunteer", "Dynamiter"],
+    "correct": 1,
+    "feedback": "كان يعمل أستاذاً جامعياً (Professor) للغة الإسبانية في أمريكا [1, 16]."
+  },
+  {
+    "q": "Robert suggests that a form of civic penance should be organized after the war to cleanse people from the killing.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح (True)؛ جوردان وأنسيلمو ناقشا ضرورة القيام بعمل من أعمال التكفير (penance) بعد الحرب للتطهير من خطيئة القتل [1, 2]."
+  },
+  {
+    "q": "Lieutenant Berrendo is allied with the.......",
+    "options": ["Fascists", "Spanish", "Russians", "Republicans"],
+    "correct": 0,
+    "feedback": "الملازم بيرندو (Berrendo) ينتمي لجانب الفاشيين (Fascists) [1, 2]."
+  },
+  {
+    "q": "The twentieth century is known as the century of....",
+    "options": ["experience", "war", "absurdism", "naturalness"],
+    "correct": 1,
+    "feedback": "يُوصف القرن العشرون بقرن الحرب (war) نظراً للنزاعات العنيفة التي شهدها [3, 17]."
+  },
+  {
+    "q": "[ _____ ] are people who refuse having any government.",
+    "options": ["Fascists", "Republicans", "Anarchists", "Communists"],
+    "correct": 2,
+    "feedback": "الفوضويون (Anarchists) هم الذين يرفضون وجود أي حكومة أو سلطة مركزية [3, 18]."
+  },
+  {
+    "q": "Kashkin gives orders to Robert Jordan to blow the bridge.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ (False)؛ فالجنرال غولز (Golz) هو من أعطاه الأوامر، بينما كاشكين كان خبير متفجرات سابق وتوفي [3, 19]."
+  },
+  {
+    "q": "Gypsies are known for their [ _____ ]",
+    "options": ["intimacy", "wizardry", "harm", "pride"],
+    "correct": 1,
+    "feedback": "وفقاً لمفتاح الحل والملف، يُعرف الغجر بقدراتهم على التنبؤ أو السحر (wizardry) مثل بيلار [3, 20]."
+  },
+  {
+    "q": "'I am for the Republic. And the Republic is the bridge' is said by....",
+    "options": ["Robert Jordan", "Anselmo", "Pilar", "Fernando"],
+    "correct": 2,
+    "feedback": "بيلار (Pilar) هي من أكدت ولائها للجمهورية وارتباط ذلك بنجاح مهمة الجسر [3, 20]."
+  },
+  {
+    "q": "Many characters prefer death over [ _____ ]",
+    "options": ["capture", "assassination", "war", "sin"],
+    "correct": 0,
+    "feedback": "يفضل العديد من الشخصيات الموت على الوقوع في الأسر (capture) تجنباً للتعذيب [3, 21]."
+  },
+  {
+    "q": "'demolition' means [ _____ ]",
+    "options": ["atonement", "destruction", "repugnance", "corruption"],
+    "correct": 1,
+    "feedback": "كلمة 'demolition' تعني التدمير أو الهدم (destruction) [3, 22]."
+  },
+  {
+    "q": "The sabotage operation is within a [ _____ ] day duration.",
+    "options": ["one", "two", "three", "five"],
+    "correct": 2,
+    "feedback": "عملية التخريب بأكملها تحدث ضمن إطار زمني مدته ثلاثة أيام (three) [3, 15]."
+  },
+  {
+    "q": "For Whom the Bell Tolls opens with (a)n....",
+    "options": ["elegy", "soliloquy", "melody", "epigraph"],
+    "correct": 3,
+    "feedback": "تفتتح الرواية بنص 'الاقتباس الاستهلالي' (epigraph) لجون دون [3, 23]."
+  },
+  {
+    "q": "'It is not you who decides what shall be done.' [ _____ ] is speaking to [ _____ ]",
+    "options": ["Anselmo/himself", "Maria/Robert", "Robert/himself", "Pablo/Robert"],
+    "correct": 2,
+    "feedback": "روبرت جوردان يتحدث إلى نفسه (Robert/himself) متمسكاً بالتزامه بالأوامر العسكرية رغم شكوكه [3, 20]."
+  },
+  {
+    "q": "[ _____ ] suggests to imprison Pablo.",
+    "options": ["Primitivo", "Fernando", "Rafael", "Anselmo"],
+    "correct": 1,
+    "feedback": "فرناندو (Fernando) هو من اقترح سجن بابلو في لحظات التوتر داخل المجموعة [3, 20]."
+  },
+  {
+    "q": "General Golz is allied with the..",
+    "options": ["Fascists", "Spanish", "Italians", "Republicans"],
+    "correct": 3,
+    "feedback": "الجنرال غولز (Golz) هو قائد روسي حليف للجمهوريين (Republicans) [21, 24]."
+  },
+  {
+    "q": "Robert Jordan is torn between love and [ _____ ]",
+    "options": ["reality", "loyalty", "family", "duty"],
+    "correct": 3,
+    "feedback": "يعاني روبرت جوردان من صراع داخلي بين مشاعر حبه لماريا وبين التزامه بواجبه (duty) العسكري [21, 25]."
+  },
+  {
+    "q": "The bell is a [ _____ ] a reminder of death.",
+    "options": ["momento", "memento mori", "momenta mori", "mementa"],
+    "correct": 1,
+    "feedback": "يُعتبر الجرس 'memento mori'؛ أي تذكاراً بالموت أو رمزاً له [21, 26]."
+  },
+  {
+    "q": "Robert Jordan had not had an opportunity to test Anselmo's [ _____ ]",
+    "options": ["faithfulness", "devotion", "judgment", "responsibility"],
+    "correct": 2,
+    "feedback": "في البداية، لم تكن لدى جوردان فرصة لاختبار 'حكم' أنسيلمو (judgment) أو قدرته على اتخاذ القرارات [21, 27]."
+  },
+  {
+    "q": "Love can distract Jordan from his duty.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ (False)؛ فرغم قوة حبه، إلا أنه لم يسمح له بتعطيله عن تنفيذ واجبه بتفجير الجسر في النهاية [21, 26]."
+  },
+   {
+    "q": "\"I don't want to do that business that my father did\". The addressee is.....",
+    "options": ["Augustin", "Robert", "Maria", "Pilar"],
+    "correct": 1,
+    "feedback": "روبرت جوردان (Robert) يوجه هذا الكلام لنفسه في مونولوج داخلي، مشيراً إلى انتحار والده الذي يعتبره فعلاً جباناً ولا يريد تكراره [1, 2]."
+  },
+  {
+    "q": "\"There is no such thing as safety\". This quotation refers to...",
+    "options": ["war", "victory", "fortune", "courage"],
+    "correct": 0,
+    "feedback": "هذه العبارة تشير إلى طبيعة الحرب (war) حيث لا يوجد مكان آمن والجميع معرض للموت في أي لحظة [3, 4]."
+  },
+  {
+    "q": "There is no [ _____ ] when it comes to war.",
+    "options": ["hatred", "chaos", "humanity", "experience"],
+    "correct": 2,
+    "feedback": "وفقاً للمحاضرات، الحرب تُغيّب الإنسانية (humanity) وتجعل القتل أمراً واقعاً يتجاوز المشاعر الشخصية [117، 378]."
+  },
+  {
+    "q": "\"War is a bitchery\" is said by.....",
+    "options": ["Anselmo", "Robert Jordan", "Fernando", "Agustin"],
+    "correct": 3,
+    "feedback": "أغوستين (Agustin) هو من استخدم هذا التعبير الفظ لوصف فظاعة الحرب وقذارتها [5, 6]."
+  },
+  {
+    "q": "\"valiant\" means very [ _____ ]",
+    "options": ["serious", "proud", "brave", "intelligent"],
+    "correct": 2,
+    "feedback": "كلمة 'valiant' هي مرادف لكلمة شجاع (brave)، وهي من الصفات التي وُصف بها الثوار [7-12]."
+  },
+  {
+    "q": "\"At bottom I am not a coward\" is said by.......",
+    "options": ["Eladio", "Pablo", "El-Sordo", "Rafael"],
+    "correct": 1,
+    "feedback": "بابلو (Pablo) هو من قال ذلك محاولاً تبرير خوفه على حياته وخيوله بأنه 'حس تكتيكي' وليس جبناً [320، 395]."
+  },
+  {
+    "q": "\"discard\" means [ _____ ]",
+    "options": ["suppose", "get rid of sth", "forget", "stop"],
+    "correct": 1,
+    "feedback": "كلمة 'discard' تعني التخلص من شيء ما (get rid of something) [7-12]."
+  },
+  {
+    "q": "\"We should have killed all or none\" is said by.....",
+    "options": ["Agustin", "Primitivo", "Anselmo", "Pablo"],
+    "correct": 3,
+    "feedback": "بابلو (Pablo) قال هذه العبارة ليعكس وحشية الحرب والواقعية السياسية التي يؤمن بها في التعامل مع الأعداء [10-12]."
+  },
+  {
+    "q": "Robert Jordan uses his love to justify [ _____ ]",
+    "options": ["betrayal", "fighting", "dying", "assassination"],
+    "correct": 1,
+    "feedback": "حبه لماريا يجعله يجد سبباً شخصياً للقتال (fighting) من أجل مستقبل أفضل وبناء عالم جديد [111، 386]."
+  },
+  {
+    "q": "\"The most important thing that can happen to a human being\" refers to..",
+    "options": ["love", "death", "sacrifice", "justice"],
+    "correct": 0,
+    "feedback": "يقصد همنغواي هنا 'الحب' (love)؛ ففي وسط الموت والدمار، يظل الحب هو التجربة الإنسانية الأسمى [111، 366-367]."
+  },
+  {
+    "q": "Pablo views Robert Jordan as a [ _____ ] to the guerrillas' safety.",
+    "options": ["shame", "threat", "spot", "stain"],
+    "correct": 1,
+    "feedback": "يرى بابلو أن وجود جوردان ومهمته لتفجير الجسر يشكلان تهديداً (threat) لأمان المجموعة لأن الفاشيين سيطاردونهم بعدها [163، 315]."
+  },
+  {
+    "q": "Hemingway was born in [ _____ ]",
+    "options": ["1890", "1895", "1899", "1900"],
+    "correct": 2,
+    "feedback": "ولد إرنست همنغواي في عام 1899 [13]."
+  },
+  {
+    "q": "Hemingway focuses on his characters' [ _____ ]",
+    "options": ["feelings", "death", "betrayal", "images"],
+    "correct": 0,
+    "feedback": "يركز همنغواي بشكل كبير على 'مشاعر' (feelings) شخصياته وصراعاتهم الداخلية ونضجهم النفسي [117، 378]."
+  },
+  {
+    "q": "Jordan fights as an American [ _____ ] in the Spanish Civil war.",
+    "options": ["soldier", "lieutenant", "officer", "volunteer"],
+    "correct": 3,
+    "feedback": "جوردان ليس جندياً نظامياً، بل هو متطوع (volunteer) أمريكي جاء لدعم القضية الجمهورية [101، 163]."
+  },
+  {
+    "q": "Although he is wounded, Robert Jordan still thinks about the fate of......",
+    "options": ["fascists", "republicans", "Maria", "both b and c"],
+    "correct": 3,
+    "feedback": "حتى وهو يحتضر، ظل جوردان يفكر في نجاة ماريا واستمرار القضية الجمهورية (both b and c) [168، 390]."
+  },
+  {
+    "q": "\"You treat a man as coward because he has a tactical sense\". The addressee is........",
+    "options": ["Anselmo", "Robert", "Pilar", "Rafael"],
+    "correct": 1,
+    "feedback": "بابلو يوجه هذا الكلام لروبرت (Robert) رداً على اتهامه بالجبن، معتبراً حذره ذكاءً تكتيكياً [14-16]."
+  },
+  {
+    "q": "\"In the old days people devoted a lifetime to it\" refers to [ _____ ]",
+    "options": ["war", "cause", "killing", "love"],
+    "correct": 3,
+    "feedback": "تشير هذه العبارة إلى 'الحب' (love)؛ حيث يرى جوردان أن الحب في زمن الحرب يختزل عمراً كاملاً في أيام قليلة [14-16]."
+  },
+  {
+    "q": "\"They are poor men as we are. They should never be fighting against us\" is said by.........",
+    "options": ["Robert", "Pilar", "Anselmo", "Fernando"],
+    "correct": 2,
+    "feedback": "أنسيلمو (Anselmo) هو من قال ذلك، معبراً عن تضامنه الإنساني مع جنود العدو الذين هم فلاحون فقراء مثله [175، 395]."
+  },
+  {
+    "q": "He had not [ _____ ] once since the movement.",
+    "options": ["disobeyed", "killed", "loved", "prayed"],
+    "correct": 3,
+    "feedback": "أنسيلمو لم يصلّ (prayed) منذ بداية الحركة لأن الجمهوريين ألغوا الدين الرسمي [164، 395]."
+  },
+  {
+    "q": "[ _____ ] suggests that they blind Pablo.",
+    "options": ["Anselmo", "Eladio", "Primitivo", "Rafael"],
+    "correct": 3,
+    "feedback": "رافائيل (Rafael) الغجري هو من اقترح فكرة سمل عيني بابلو أو تعميته كعقاب له [14-16]."
+  },
+  {
+    "q": "\"How many of those you have killed have been real fascists?.\" is speaking to [ _____ ]",
+    "options": ["Anselmo/himself", "Maria/Robert", "Robert/himself", "Pablo/Robert"],
+    "correct": 2,
+    "feedback": "روبرت جوردان يوجه هذا السؤال لنفسه (Robert/himself) في تساؤل أخلاقي حول هويات من يقتلهم في الحرب [14-16]."
+  },
+  {
+    "q": "The work of the 'Lost Generation' is [ _____ ]",
+    "options": ["autobiographical", "general", "academic", "childish"],
+    "correct": 0,
+    "feedback": "أعمال هذا الجيل (ومنهم همنغواي) غالباً ما تكون مستمدة من سيرهم الذاتية (autobiographical) وتجاربهم في الحرب [17, 18]."
+  },
+  {
+    "q": "Robert Jordan is a(n) [ _____ ]",
+    "options": ["fascist", "anti-fascist", "anti-republican", "Communist"],
+    "correct": 1,
+    "feedback": "جوردان هو 'مناهض للفاشية' (anti-fascist)؛ فهو يقاتل ضدهم رغم أنه لا يعتبر نفسه شيوعياً صرفاً [162، 398]."
+  },
+  {
+    "q": "\"I feel nothing against it when it is necessary\". \"it\" refers to [ _____ ]",
+    "options": ["love", "the bridge", "killing", "hatred"],
+    "correct": 2,
+    "feedback": "يشير الضمير 'it' هنا إلى القتل (killing)؛ حيث يراه جوردان ضرورة عسكرية رغم عدم حبه له [19-23]."
+  },
+  {
+    "q": "The bridge is a symbol of [ _____ ]",
+    "options": ["death", "sacrifice", "hope", "war"],
+    "correct": 2,
+    "feedback": "يمثل الجسر 'الأمل' (hope) في نجاح الهجوم الجمهوري وتغيير مجرى الحرب لصالحهم [163، 404]."
+  }
+  
+]
+    }
