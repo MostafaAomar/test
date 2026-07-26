@@ -29,23 +29,6 @@
     <!-- Sync button injected here dynamically -->
 </div>
 
-<!-- In the #quiz-screen, update the .bottom-nav div to include the interim result button -->
-<div class="bottom-nav">
-    <button class="nav-btn prev" onclick="prevQuestion()">السابق</button>
-    <button id="interim-result-btn" class="nav-btn ghost-btn hidden" onclick="showInterimResult()" style="margin-top: 0; border-color: var(--success) !important; color: var(--success);">عرض نتيجتي</button>
-    <button class="nav-btn next" onclick="nextQuestion()">التالي</button>
-</div>
-
-<!-- Add this interim result modal at the very bottom of your #app-container -->
-<div id="interim-modal" class="screen hidden" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-dark); z-index: 9999; justify-content: center; align-items: center; padding: 20px;">
-    <div class="result-card animate-pop" style="width: 100%;">
-        <div class="trophy">📊</div>
-        <h2>نتيجتك حتى الآن</h2>
-        <div id="interim-stats" class="stats-box"></div>
-        <button onclick="document.getElementById('interim-modal').classList.add('hidden')" class="action-btn full-width">متابعة الاختبار</button>
-    </div>
-</div>
-
         <!-- قسم إعدادات المزامنة (مخفي افتراضياً) -->
         <div id="sync-settings-container" class="hidden">
             <h3 id="sync-status">المزامنة معطلة</h3>
@@ -139,6 +122,16 @@
         </div>
     </div>
 
+    <!-- Interim result modal -->
+    <div id="interim-modal" class="screen hidden" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-dark); z-index: 9999; justify-content: center; align-items: center; padding: 20px;">
+        <div class="result-card animate-pop" style="width: 100%;">
+            <div class="trophy">📊</div>
+            <h2>نتيجتك حتى الآن</h2>
+            <div id="interim-stats" class="stats-box"></div>
+            <button onclick="document.getElementById('interim-modal').classList.add('hidden')" class="action-btn full-width">متابعة الاختبار</button>
+        </div>
+    </div>
+
     <div id="quiz-screen" class="screen hidden">
         <div class="top-header">
             <button onclick="goBackToSubjects()" class="icon-btn glass-btn">🏠</button>
@@ -175,6 +168,7 @@
 
         <div class="bottom-nav">
             <button class="nav-btn prev" onclick="prevQuestion()">السابق</button>
+            <button id="interim-result-btn" class="nav-btn ghost-btn hidden" onclick="showInterimResult()" style="margin-top: 0; border-color: var(--success) !important; color: var(--success);">عرض نتيجتي</button>
             <button class="nav-btn next" onclick="nextQuestion()">التالي</button>
         </div>
     </div>

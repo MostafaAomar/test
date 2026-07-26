@@ -776,7 +776,6 @@ function setMode(m) {
 
         if (Array.isArray(savedAnswers)) {
             userAnswers = [...savedAnswers];
-            saveDetailedProgress();
         } else {
             userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
         }
@@ -792,7 +791,7 @@ function setMode(m) {
         currentIndex = restoredIndex;
     } else {
         currentIndex = 0;
-        userAnswers = [];
+        userAnswers = new Array(currentSubject.questions.length).fill(undefined);
     }
     renderStep();
 }
@@ -839,16 +838,17 @@ document.addEventListener('DOMContentLoaded', () => {
     let isDictionaryLoaded = false;
     let isLoadingDictionary = false;
 
-async function loadLocalDictionary() {
-  try {
-    const res = await fetch('myOwnDic.json');
-    if (!res.ok) return {}; // Silently skip if file doesn't exist
-    return await res.json();
-  } catch (error) {
-    console.warn('Dictionary skipped:', error);
-    return {}; // Return empty object so the app keeps running
-  }
-}
+    async function loadLocalDictionary() {
+        try {
+            const res = await fetch('myOwnDic.json');
+            if (!res.ok) return []; // Silently skip if file doesn't exist
+            const data = await res.json();
+            return Array.isArray(data) ? data : [];
+        } catch (error) {
+            console.warn('Dictionary skipped:', error);
+            return []; // Return empty array so the app keeps running
+        }
+    }
 
     function searchLocalDictionary(word) {
         if (!isDictionaryLoaded || dictionaryData.length === 0) return undefined; 
@@ -931,7 +931,10 @@ async function loadLocalDictionary() {
     }
 
     if (wordInput && dictionaryOutput) {
-        loadLocalDictionary();
+        (async () => {
+            dictionaryData = await loadLocalDictionary();
+            isDictionaryLoaded = true;
+        })();
         wordInput.addEventListener('input', debounce(handleWordSearch, 350)); 
     }
 
