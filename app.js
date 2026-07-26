@@ -840,7 +840,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadLocalDictionary() {
         try {
-            const res = await fetch('myOwnDic.json');
+            const res = await fetch('localDictionaryPath');
             if (!res.ok) return []; // Silently skip if file doesn't exist
             const data = await res.json();
             return Array.isArray(data) ? data : [];
@@ -1137,7 +1137,27 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
 
 
 
+function toggleSyncSettings() {
+    const container = document.getElementById('sync-settings-container');
+    if (container) {
+        container.classList.toggle('hidden');
+    }
+}
 
+function saveSyncConfig() {
+    const enabled = document.getElementById('sync-enabled').checked;
+    const username = document.getElementById('sync-username').value.trim();
+    const repo = document.getElementById('sync-repo').value.trim();
+    const token = document.getElementById('sync-token').value.trim();
+
+    localStorage.setItem('sync_enabled', enabled);
+    if(username) localStorage.setItem('sync_username', username);
+    if(repo) localStorage.setItem('sync_repo', repo);
+    if(token) localStorage.setItem('sync_token', token);
+
+    alert("تم حفظ إعدادات المزامنة بنجاح!");
+    toggleSyncSettings();
+}
 
 
 document.addEventListener('mouseup', performSmartSearch);
