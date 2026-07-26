@@ -832,7 +832,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/data/subdata/myOwnDic.json'; 
+    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/test/refs/heads/main/data/subdata/myOwnDic.json'; 
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
     let dictionaryData = []; 
