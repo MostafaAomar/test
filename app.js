@@ -840,7 +840,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadLocalDictionary() {
         try {
-            const res = await fetch('localDictionaryPath');
+            const res = await fetch(localDictionaryPath);
             if (!res.ok) return []; // Silently skip if file doesn't exist
             const data = await res.json();
             return Array.isArray(data) ? data : [];
