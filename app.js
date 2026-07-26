@@ -839,24 +839,16 @@ document.addEventListener('DOMContentLoaded', () => {
     let isDictionaryLoaded = false;
     let isLoadingDictionary = false;
 
-    async function loadLocalDictionary() {
-        if (isDictionaryLoaded || isLoadingDictionary) return; 
-        isLoadingDictionary = true;
-
-        try {
-            const response = await fetch(localDictionaryPath);
-            if (!response.ok) throw new Error(`Failed to load local dictionary.json`);
-            dictionaryData = await response.json();
-            isDictionaryLoaded = true;
-            if (wordInput && wordInput.value.trim()) {
-                handleWordSearch();
-            }
-        } catch (error) {
-            console.error('Error loading local dictionary:', error);
-        } finally {
-            isLoadingDictionary = false;
-        }
-    }
+async function loadLocalDictionary() {
+  try {
+    const res = await fetch('myOwnDic.json');
+    if (!res.ok) return {}; // Silently skip if file doesn't exist
+    return await res.json();
+  } catch (error) {
+    console.warn('Dictionary skipped:', error);
+    return {}; // Return empty object so the app keeps running
+  }
+}
 
     function searchLocalDictionary(word) {
         if (!isDictionaryLoaded || dictionaryData.length === 0) return undefined; 
