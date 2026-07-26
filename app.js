@@ -1106,11 +1106,30 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
                 const existingQuestionIds = existingSub.questions.map(q => q.id);
                 const newQuestions = newSub.questions.filter(q => !existingQuestionIds.includes(q.id));
                 existingSub.questions = [...existingSub.questions, ...newQuestions];
+                existingSub.lang = newSub.lang; // Update language if needed
+                existingSub.subject = newSub.subject; // Update subject name if needed
             } else {
                 quizData.push(newSub); // Entirely new subject added
             }
         });
     }
+
+    // CRITICAL: Restore all saved progress data for each mode (study & quiz)
+    quizData.forEach(subject => {
+        ['study', 'quiz'].forEach(m => {
+            const progressKey = `progress_${subject.id}_${m}`;
+            const savedProgress = localStorage.getItem(progressKey);
+            if (savedProgress) {
+                try {
+                    const prog = JSON.parse(savedProgress);
+                    // Keep saved progress intact - do NOT overwrite
+                    localStorage.setItem(progressKey, JSON.stringify(prog));
+                } catch (e) {
+                    console.warn("Error restoring progress:", e);
+                }
+            }
+        });
+    });
 
     localStorage.setItem(`year_data_${yearName}`, JSON.stringify(quizData));
     if (isFirstTime) renderSubjectListWithSync(yearName, files, owner, repo);
