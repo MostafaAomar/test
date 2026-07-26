@@ -1135,5 +1135,10 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
     if (isFirstTime) renderSubjectListWithSync(yearName, files, owner, repo);
 }
 
+
+
+
+
+
 document.addEventListener('mouseup', performSmartSearch);
 document.addEventListener('touchend', performSmartSearch);
