@@ -1,7 +1,7 @@
 /* ==========================================
    1. المتغيرات وإدارة الحالة (State Management)
    ========================================== */
-const USE_LOCAL_TEST_FILE = true;
+const USE_LOCAL_TEST_FILE = false;
 
 let quizData = [];
 let currentSubject = null;
@@ -10,7 +10,7 @@ let userAnswers = [];
 let mode = ''; 
 let currentSpeed = 0.8;
 
-const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
+const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/test';
 
 const screens = {
     setup: document.getElementById('setup-screen'),
