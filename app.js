@@ -168,6 +168,7 @@ async function init() {
     }
     
     showScreen('setup');
+    loadThemePreference(); // Load theme preference on init
 }
 
 function showWelcomeMessage() {
@@ -208,6 +209,24 @@ function showWelcomeMessage() {
 
     welcomeDiv.addEventListener('click', removeMessage);
     setTimeout(removeMessage, 3000);
+}
+
+function toggleTheme() {
+    const body = document.body;
+    if (body.classList.contains('light-theme')) {
+        body.classList.remove('light-theme');
+        localStorage.setItem('theme', 'dark');
+    } else {
+        body.classList.add('light-theme');
+        localStorage.setItem('theme', 'light');
+    }
+}
+
+function loadThemePreference() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+        document.body.classList.add('light-theme');
+    }
 }
 
 // Replace the existing fetchRepoAndAddSubjects in app.js
