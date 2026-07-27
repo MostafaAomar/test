@@ -111,6 +111,7 @@ function saveDetailedProgress() {
    ========================================== */
 async function init() {
     showWelcomeMessage();
+    addDownloadAllButton();
 
     const loadingDiv = document.querySelector('.loader');
 
@@ -846,6 +847,122 @@ function fullReset() {
     if(confirm("⚠️ تحذير: سيتم حذف كافة الملاحظات والتقدم المخزن. هل أنت متأكد؟")) {
         localStorage.clear();
         location.reload();
+    }
+}
+
+function addDownloadAllButton() {
+    const footerControls = document.querySelector('#setup-screen .footer-controls');
+    if (footerControls) {
+        const downloadBtn = document.createElement('button');
+        downloadBtn.className = 'action-btn'; // A nice prominent style
+        downloadBtn.id = 'download-all-btn';
+        downloadBtn.innerHTML = 'تحميل الكل للاستخدام بدون انترنت 🌐';
+        downloadBtn.onclick = downloadAllDataForOffline;
+        
+        // Add some margin to separate it from the reset button
+        downloadBtn.style.marginTop = '15px';
+        downloadBtn.style.marginBottom = '10px';
+
+
+        footerControls.prepend(downloadBtn); // Prepend to show it on top
+    }
+}
+
+async function downloadAllDataForOffline() {
+    const downloadBtn = document.getElementById('download-all-btn');
+    if (!downloadBtn) return;
+
+    if (!navigator.onLine) {
+        alert("تحتاج إلى اتصال بالإنترنت لتنزيل البيانات لأول مرة.");
+        return;
+    }
+
+    const confirmation = confirm("سيتم تنزيل جميع المواد الدراسية. قد يستهلك هذا بعض البيانات. هل تريد المتابعة؟");
+    if (!confirmation) return;
+
+    downloadBtn.disabled = true;
+    downloadBtn.innerHTML = 'جاري التنزيل... (0%)';
+
+    const cachedTree = localStorage.getItem('app_repo_tree');
+    let treeData = null;
+    let owner, repo;
+
+    try {
+        // First, ensure we have the file tree
+        if (cachedTree) {
+            treeData = JSON.parse(cachedTree);
+        } else {
+            // Logic borrowed from fetchRepoAndAddSubjects to get the tree
+            let cleanUrl = DEFAULT_REPO_URL.replace('https://github.com/', '').split('/tree/')[0];
+            if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4);
+            const parts = cleanUrl.split('/');
+            if (parts.length < 2) throw new Error("Invalid repo URL");
+            owner = parts[0];
+            repo = parts[1];
+            
+            const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/main?recursive=1`;
+            const resp = await fetch(api);
+            if (!resp.ok) throw new Error("فشل الاتصال بـ GitHub API.");
+            const tree = await resp.json();
+            treeData = tree.tree;
+            localStorage.setItem('app_repo_tree', JSON.stringify(treeData));
+        }
+
+        if (!owner || !repo) {
+             let cleanUrl = DEFAULT_REPO_URL.replace('https://github.com/', '').split('/tree/')[0];
+            if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4);
+            const parts = cleanUrl.split('/');
+            owner = parts[0];
+            repo = parts[1];
+        }
+
+
+        // Group files by year
+        const yearGroups = {};
+        treeData.forEach(file => {
+            const parts = file.path.split('/');
+            if (parts.length > 1) {
+                const yearFolder = parts[0];
+                if (!yearGroups[yearFolder]) yearGroups[yearFolder] = [];
+                yearGroups[yearFolder].push(file);
+            }
+        });
+
+        const yearsToDownload = VALID_YEARS.filter(year => {
+            const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
+            return folderName && yearGroups[folderName].length > 0;
+        });
+
+        if (yearsToDownload.length === 0) {
+            throw new Error("لم يتم العثور على بيانات للسنوات الدراسية.");
+        }
+
+        let downloadedCount = 0;
+        for (const year of yearsToDownload) {
+            const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
+            const filesForYear = yearGroups[folderName];
+            
+            // We call fetchAndMergeYearData which correctly saves to localStorage
+            // The 'true' for isFirstTime will force it to replace any old cached year data with fresh data.
+            await fetchAndMergeYearData(year, filesForYear, owner, repo, true);
+            
+            downloadedCount++;
+            const progress = Math.round((downloadedCount / yearsToDownload.length) * 100);
+            downloadBtn.innerHTML = `جاري التنزيل... (${progress}%)`;
+        }
+
+        downloadBtn.innerHTML = '✅ تم التنزيل بنجاح';
+        alert("تم تنزيل جميع البيانات بنجاح! التطبيق جاهز الآن للعمل بدون انترنت.");
+        setTimeout(() => {
+            downloadBtn.disabled = false;
+            downloadBtn.innerHTML = 'تحميل الكل للاستخدام بدون انترنت 🌐';
+        }, 5000);
+
+    } catch (error) {
+        console.error("Download failed:", error);
+        alert(`فشل التنزيل: ${error.message}`);
+        downloadBtn.disabled = false;
+        downloadBtn.innerHTML = '⚠️ فشل التنزيل, حاول مرة أخرى';
     }
 }
 
