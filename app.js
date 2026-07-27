@@ -213,19 +213,26 @@ function showWelcomeMessage() {
 
 function toggleTheme() {
     const body = document.body;
+    const themeBtn = document.getElementById('theme-toggle-btn');
     if (body.classList.contains('light-theme')) {
         body.classList.remove('light-theme');
         localStorage.setItem('theme', 'dark');
+        if (themeBtn) themeBtn.innerHTML = '☀️';
     } else {
         body.classList.add('light-theme');
         localStorage.setItem('theme', 'light');
+        if (themeBtn) themeBtn.innerHTML = '🌙';
     }
 }
 
 function loadThemePreference() {
     const savedTheme = localStorage.getItem('theme');
+    const themeBtn = document.getElementById('theme-toggle-btn');
     if (savedTheme === 'light') {
         document.body.classList.add('light-theme');
+        if (themeBtn) themeBtn.innerHTML = '🌙';
+    } else {
+        if (themeBtn) themeBtn.innerHTML = '☀️';
     }
 }
 
@@ -451,6 +458,7 @@ function renderAllSubjects(container) {
     quizData.forEach((data, index) => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn';
+        btn.dir = data.lang === 'ar' ? 'rtl' : 'ltr'; // Set direction for each button
         const progressPercent = getSubjectProgress(data.id, data.questions.length);
         btn.innerHTML = `
             <span style="z-index:2; position:relative;">${data.subject}</span>
