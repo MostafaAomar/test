@@ -1,0 +1,42 @@
+[
+    {
+        "word": "example",
+        "phonetics": [
+            {
+                "text": "/ɪɡˈzæmpəl/",
+                "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/example-us.mp3"
+            }
+        ],
+        "meanings": [
+            {
+                "partOfSpeech": "noun",
+                "definitions": [
+                    {
+                        "definition": "A thing characteristic of its kind or illustrating a general rule.",
+                        "synonyms": ["instance","specimen"]
+                    }
+                ]
+            }
+        ]
+    },
+     {
+        "word": "mostafa",
+        "phonetics": [
+            {
+                "text": "/ɪɡˈzæmpəl/",
+                "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/example-us.mp3"
+            }
+        ],
+        "meanings": [
+            {
+                "partOfSpeech": "noun",
+                "definitions": [
+                    {
+                        "definition": "A thing characteristic of its kind or illustrating a general rule.",
+                        "synonyms": ["instance","specimen"]
+                    }
+                ]
+            }
+        ]
+    }
+]

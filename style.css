@@ -19,7 +19,15 @@
     --card-bg: linear-gradient(145deg, rgba(22, 30, 49, 0.9), rgba(11, 17, 32, 0.95));
     --blur-strength: 14px;
 }
+.subject-btn[dir="rtl"] {
+    text-align: right;
+    flex-direction: row-reverse;
+}
 
+.subject-btn[dir="ltr"] {
+    text-align: left;
+    flex-direction: row;
+}
 .light-theme {
     --bg-dark: #f0f2f5; /* Light gray background */
     --primary: #5a67d8; /* A slightly deeper purple */
@@ -131,6 +139,7 @@ div { background-color: transparent; }
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
+    direction: ltr !important; /* Keeps header control buttons in fixed positions across LTR and RTL modes */
 }
 
 /* توحيد أحجام أزرار الأيقونات كلها (المنزل، الصوت، التحليل) */
@@ -380,8 +389,9 @@ input[type="text"]:focus {
     color: var(--text-main);
 }
 
-[dir="rtl"] .flip-card h3 { text-align: right; }
-[dir="ltr"] .flip-card h3 { text-align: left; }
+[dir="rtl"] .flip-card h3 { text-align: right; direction: rtl;}
+[dir="ltr"] .flip-card h3 { text-align: left; direction: ltr;
+    unicode-bidi: plaintext;}
 
 .flip-card-back h3 { color: white; }
 
@@ -411,7 +421,31 @@ input[type="text"]:focus {
     gap: 6px;
 }
 .tap-hint:before { content: '\f25a'; font-family: 'Font Awesome 6 Free'; }
+.question-bubble h3[dir="ltr"],
+.flip-card h3[dir="ltr"] {
+    text-align: left;
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+.question-bubble h3[dir="rtl"],
+.flip-card h3[dir="rtl"] {
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: isolate;
+}
 
+/* Options buttons alignment */
+.option-btn[dir="ltr"] {
+    text-align: left;
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+
+.option-btn[dir="rtl"] {
+    text-align: right;
+    direction: rtl;
+    unicode-bidi: isolate;
+}
 /* شاشة الاختبار (Quiz Screen) */
 .question-bubble {
     background: var(--card-bg);
@@ -431,8 +465,9 @@ input[type="text"]:focus {
     color: var(--text-main); 
 }
 
-[dir="rtl"] .question-bubble h3 { text-align: right; }
-[dir="ltr"] .question-bubble h3 { text-align: left; }
+[dir="rtl"] .question-bubble h3 { text-align: right; direction: rtl;}
+[dir="ltr"] .question-bubble h3 { text-align: left; direction: ltr;
+    unicode-bidi: plaintext;}
 
 
 .options-list { display: flex; flex-direction: column; gap: 12px; }
@@ -451,8 +486,9 @@ input[type="text"]:focus {
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-[dir="rtl"] .option-btn { text-align: right; }
-[dir="ltr"] .option-btn { text-align: left; }
+[dir="rtl"] .option-btn { text-align: right; direction: rtl;}
+[dir="ltr"] .option-btn { text-align: left; direction: ltr;
+    unicode-bidi: plaintext; }
 .option-btn:hover:not(:disabled) {
     background: var(--glass-bg);
     border-color: var(--primary);

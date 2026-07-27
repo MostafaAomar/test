@@ -2,6 +2,7 @@
    1. المتغيرات وإدارة الحالة (State Management)
    ========================================== */
 const USE_LOCAL_TEST_FILE = false;
+const VALID_YEARS = ["First Year", "Second Year", "Third Year", "Fourth Year"];
 
 let quizData = [];
 let currentSubject = null;
@@ -33,59 +34,17 @@ function showScreen(name) {
     }
 }
 
-// دالة المحافظة على ترتيب الأسئلة وإضافة الأسئلة الجديدة للنهاية
-function applyUserQuestionOrder(subject, currentMode) {
-    if (!subject || !subject.questions) return;
-    const subProgKey = `progress_${subject.id}_${currentMode}`;
-    const savedProg = localStorage.getItem(subProgKey);
-    if (!savedProg) return;
-
-    try {
-        const parsed = JSON.parse(savedProg);
-        const savedOrder = parsed.questionOrder || [];
-
-        if (savedOrder.length > 0) {
-            const knownQuestionsMap = {};
-            const newQuestions = [];
-
-            // فرز الأسئلة إلى "معروفة تاريخياً" و "جديدة مضافة"
-            subject.questions.forEach(q => {
-                if (savedOrder.includes(q.id)) {
-                    knownQuestionsMap[q.id] = q;
-                } else {
-                    newQuestions.push(q);
-                }
-            });
-
-            // إعادة بناء القائمة بحيث تحافظ على الترتيب القديم بدقة
-            const reconstructedQuestions = [];
-            savedOrder.forEach(id => {
-                if (knownQuestionsMap[id]) {
-                    reconstructedQuestions.push(knownQuestionsMap[id]);
-                }
-            });
-
-            // وضع الأسئلة الجديدة في ذيل القائمة لكي لا تقطع استمرارية المستخدم
-            subject.questions = [...reconstructedQuestions, ...newQuestions];
-        }
-    } catch (e) {
-        console.error("Error applying user question order:", e);
-    }
-}
-
 function saveDetailedProgress() {
     if (!currentSubject) return;
 
     const subjectId = currentSubject.id;
     const lastQuestionId = currentSubject.questions[currentIndex]?.id || null;
     
-    // حفظ مكان التوقف العام
     const lastState = { subjectId: subjectId, mode: mode, lastQuestionId: lastQuestionId };
     localStorage.setItem('app_last_position', JSON.stringify(lastState));
 
     const subjectProgressKey = `progress_${subjectId}_${mode}`;
     
-    // حفظ الإجابات باستخدام المعرفات بدلاً من الخانات
     const progressToSave = {};
     userAnswers.forEach((answer, index) => {
         const questionId = currentSubject.questions[index]?.id;
@@ -94,14 +53,10 @@ function saveDetailedProgress() {
         }
     });
 
-    // التقاط الترتيب الحالي للأسئلة لحفظه (هذا ما كان مفقوداً في النسخة السابقة)
-    const currentOrder = currentSubject.questions.map(q => q.id);
-
     const progressData = { 
         lastQuestionId: lastQuestionId, 
-        index: currentIndex, // For backward compatibility
-        answers: progressToSave,
-        questionOrder: currentOrder // حفظ الترتيب ضروري لمنع القفزات
+        index: currentIndex,
+        answers: progressToSave
     };
     localStorage.setItem(subjectProgressKey, JSON.stringify(progressData));
 }
@@ -110,13 +65,13 @@ function saveDetailedProgress() {
    3. التحميل والتهيئة التلقائية (Initialization)
    ========================================== */
 async function init() {
+    loadThemePreference(); // Moved to top so theme always applies immediately
     showWelcomeMessage();
     addDownloadAllButton();
 
     const loadingDiv = document.querySelector('.loader');
 
     if (USE_LOCAL_TEST_FILE) {
-        console.log("--- وضع الاختبار المحلي مفعل ---");
         if (loadingDiv) loadingDiv.classList.remove('hidden');
         await fetchLocalTestFile();
         if (loadingDiv) loadingDiv.classList.add('hidden');
@@ -135,15 +90,12 @@ async function init() {
                 currentSubject = foundSub;
                 mode = pos.mode;
 
-                // تطبيق ترتيب المستخدم أولاً قبل البحث عن مكان التوقف
-                applyUserQuestionOrder(currentSubject, mode);
+
 
                 let restoredIndex = 0;
                 if (pos.lastQuestionId) {
                     const newIndex = currentSubject.questions.findIndex(q => q.id === pos.lastQuestionId);
-                    if (newIndex !== -1) {
-                        restoredIndex = newIndex;
-                    }
+                    if (newIndex !== -1) restoredIndex = newIndex;
                 }
                 currentIndex = restoredIndex;
                 
@@ -153,7 +105,6 @@ async function init() {
                     const parsedProg = JSON.parse(savedProg);
                     const savedAnswers = parsedProg.answers || {};
                     
-                    // توافقية رجعية (Backward compatibility) لاستعادة التقدم القديم
                     if (Array.isArray(savedAnswers)) {
                         userAnswers = [...savedAnswers];
                         saveDetailedProgress(); 
@@ -169,7 +120,6 @@ async function init() {
     }
     
     showScreen('setup');
-    loadThemePreference(); // Load theme preference on init
 }
 
 function showWelcomeMessage() {
@@ -197,7 +147,6 @@ function showWelcomeMessage() {
             border: 1px solid #3f3f46;
         }
         #welcome-message p { margin: 0 0 10px 0; font-weight: bold; line-height: 1.6; font-size: 1.25rem; }
-        #welcome-message small { font-size: 0.8em; opacity: 0.7; display: block; }
     `;
     document.head.appendChild(style);
     document.body.appendChild(welcomeDiv);
@@ -237,7 +186,6 @@ function loadThemePreference() {
     }
 }
 
-// Replace the existing fetchRepoAndAddSubjects in app.js
 async function fetchRepoAndAddSubjects(repoUrl) {
     let cleanUrl = repoUrl.replace('https://github.com/', '').split('/tree/')[0]; 
     if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4); 
@@ -247,7 +195,6 @@ async function fetchRepoAndAddSubjects(repoUrl) {
     const owner = parts[0];
     const repo = parts[1];
     
-    // Check if we have cached tree for offline support
     const cachedTree = localStorage.getItem('app_repo_tree');
     let treeData = null;
 
@@ -275,7 +222,6 @@ async function fetchRepoAndAddSubjects(repoUrl) {
 
 async function fetchLocalTestFile() {
     try {
-        // معامل إلغاء الكاش لضمان تحديث الملف فور تعديله
         const response = await fetch(`test.json?t=${Date.now()}`);
         if (!response.ok) throw new Error('Could not find test.json.');
         
@@ -368,10 +314,8 @@ async function processJsonFiles(files, type, githubInfo = {}) {
             
             if (data && data.questions) {
                 data.questions.forEach(q => {
-                    // الاعتماد على محتوى السؤال في الـ ID
-                    // إذا تغير المحتوى (نص السؤال أو الخيارات)، سيتغير الـ ID وسيصبح سؤالاً جديداً
                     const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
-q.id = q.id || 'id_' + simpleHash(combinedStr);
+                    q.id = q.id || 'id_' + simpleHash(combinedStr);
                 });
 
                 quizData.push({
@@ -415,10 +359,6 @@ function performSearch(term, container) {
             currentSubject = quizData[result.subjectIndex];
             mode = 'quiz'; 
             
-            // تطبيق ترتيب المستخدم أولاً
-            applyUserQuestionOrder(currentSubject, mode);
-            
-            // إيجاد مكان السؤال بعد إعادة الترتيب
             currentIndex = currentSubject.questions.findIndex(q => q.id === result.question.id);
             if(currentIndex === -1) currentIndex = 0;
 
@@ -459,7 +399,7 @@ function renderAllSubjects(container) {
     quizData.forEach((data, index) => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn';
-        btn.dir = data.lang === 'ar' ? 'rtl' : 'ltr'; // Set direction for each button
+        btn.dir = data.lang === 'ar' ? 'rtl' : 'ltr';
         const progressPercent = getSubjectProgress(data.id, data.questions.length);
         btn.innerHTML = `
             <span style="z-index:2; position:relative;">${data.subject}</span>
@@ -492,7 +432,12 @@ function renderStep() {
 
     const lang = currentSubject.lang || 'en';
     document.documentElement.setAttribute('lang', lang);
-    document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+    document.documentElement.setAttribute('dir', 'ltr');
+
+    const quizScreen = document.getElementById('quiz-screen');
+    const studyScreen = document.getElementById('study-screen');
+    if (quizScreen) quizScreen.setAttribute('dir', 'ltr');
+    if (studyScreen) studyScreen.setAttribute('dir', 'ltr');
 
     updateProgress();
     displayNotes();
@@ -548,11 +493,9 @@ function renderQuizQuestion() {
         showFeedbackMessage(qData, userAnswers[currentIndex]);
     }
 
-    // NEW LOGIC: Milestone button every 50 questions
     const interimBtn = document.getElementById('interim-result-btn');
     if (interimBtn) {
         const questionNumber = currentIndex + 1;
-        // Show if multiple of 50, OR if we previously passed 50 and want to keep it visible on the 50th index
         if (questionNumber % 50 === 0 && questionNumber !== currentSubject.questions.length) {
             interimBtn.classList.remove('hidden');
         } else {
@@ -561,12 +504,10 @@ function renderQuizQuestion() {
     }
 }
 
-// Add this new function to handle the milestone click
 function showInterimResult() {
     const modal = document.getElementById('interim-modal');
     const statsBox = document.getElementById('interim-stats');
     
-    // Calculate score up to current point
     let score = 0;
     let answered = 0;
     
@@ -791,9 +732,6 @@ function showResults() {
 
 function setMode(m) {
     mode = m;
-    
-    // تطبيق الترتيب وتثبيته فور اختيار النمط وقبل حساب الاندكس
-    applyUserQuestionOrder(currentSubject, mode);
 
     const subProgKey = `progress_${currentSubject.id}_${mode}`;
     const savedProg = localStorage.getItem(subProgKey);
@@ -827,6 +765,8 @@ function setMode(m) {
 function goBackToSubjects() {
     saveDetailedProgress(); 
     currentSubject = null;
+    document.documentElement.setAttribute('dir', 'rtl'); // Default setup orientation
+    document.documentElement.setAttribute('lang', 'ar');
     showScreen('setup');
 }
 
@@ -854,17 +794,15 @@ function addDownloadAllButton() {
     const footerControls = document.querySelector('#setup-screen .footer-controls');
     if (footerControls) {
         const downloadBtn = document.createElement('button');
-        downloadBtn.className = 'action-btn'; // A nice prominent style
+        downloadBtn.className = 'action-btn'; 
         downloadBtn.id = 'download-all-btn';
         downloadBtn.innerHTML = 'تحميل الكل للاستخدام بدون انترنت 🌐';
         downloadBtn.onclick = downloadAllDataForOffline;
         
-        // Add some margin to separate it from the reset button
         downloadBtn.style.marginTop = '15px';
         downloadBtn.style.marginBottom = '10px';
 
-
-        footerControls.prepend(downloadBtn); // Prepend to show it on top
+        footerControls.prepend(downloadBtn); 
     }
 }
 
@@ -888,11 +826,9 @@ async function downloadAllDataForOffline() {
     let owner, repo;
 
     try {
-        // First, ensure we have the file tree
         if (cachedTree) {
             treeData = JSON.parse(cachedTree);
         } else {
-            // Logic borrowed from fetchRepoAndAddSubjects to get the tree
             let cleanUrl = DEFAULT_REPO_URL.replace('https://github.com/', '').split('/tree/')[0];
             if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4);
             const parts = cleanUrl.split('/');
@@ -916,8 +852,6 @@ async function downloadAllDataForOffline() {
             repo = parts[1];
         }
 
-
-        // Group files by year
         const yearGroups = {};
         treeData.forEach(file => {
             const parts = file.path.split('/');
@@ -942,8 +876,6 @@ async function downloadAllDataForOffline() {
             const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
             const filesForYear = yearGroups[folderName];
             
-            // We call fetchAndMergeYearData which correctly saves to localStorage
-            // The 'true' for isFirstTime will force it to replace any old cached year data with fresh data.
             await fetchAndMergeYearData(year, filesForYear, owner, repo, true);
             
             downloadedCount++;
@@ -975,7 +907,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/myOwnDic.json'; 
+    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/test/refs/heads/main/myOwnDic.json'; 
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
     let dictionaryData = []; 
@@ -985,12 +917,12 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadLocalDictionary() {
         try {
             const res = await fetch(localDictionaryPath);
-            if (!res.ok) return []; // Silently skip if file doesn't exist
+            if (!res.ok) return []; 
             const data = await res.json();
             return Array.isArray(data) ? data : [];
         } catch (error) {
             console.warn('Dictionary skipped:', error);
-            return []; // Return empty array so the app keeps running
+            return []; 
         }
     }
 
@@ -1122,16 +1054,10 @@ function performSmartSearch() {
     }, 150); 
 }
 
-
-
-// New Functions for Lazy Loading and Syncing
-const VALID_YEARS = ["First Year", "Second Year", "Third Year", "Fourth Year"];
-
 function renderDynamicYears(files, owner, repo) {
     const yearsContainer = document.getElementById('years-container');
     yearsContainer.innerHTML = '';
     
-    // Group files by Year folder
     const yearGroups = {};
     files.forEach(file => {
         const parts = file.path.split('/');
@@ -1144,7 +1070,6 @@ function renderDynamicYears(files, owner, repo) {
 
     let hasData = false;
     VALID_YEARS.forEach(year => {
-        // Match standard folder names (e.g., "First Year" or "FirstYear")
         const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
         
         if (folderName && yearGroups[folderName].length > 0) {
@@ -1174,18 +1099,16 @@ async function loadYearData(yearName, files, owner, repo) {
         quizData = JSON.parse(savedData);
         renderSubjectListWithSync(yearName, files, owner, repo);
     } else {
-        // First time downloading this year
         subjectList.innerHTML = '<div class="loader" style="text-align: center;">جاري تحميل بيانات السنة لأول مرة...</div>';
         await fetchAndMergeYearData(yearName, files, owner, repo, true);
     }
 }
 
 function renderSubjectListWithSync(yearName, files, owner, repo) {
-    renderSubjectList(); // Calls your existing function
+    renderSubjectList(); 
     
     const list = document.getElementById('subject-list');
     
-    // Inject Year Header and Back Button
     const header = document.createElement('div');
     header.className = 'year-header';
     header.innerHTML = `
@@ -1194,7 +1117,6 @@ function renderSubjectListWithSync(yearName, files, owner, repo) {
     `;
     list.insertBefore(header, list.firstChild);
 
-    // Inject Sync Button
     const syncBtn = document.createElement('div');
     syncBtn.className = 'subject-btn sync-btn';
     syncBtn.innerHTML = `<span>مزامنة وتحديث المواد (Sync) 🔄</span>`;
@@ -1211,7 +1133,7 @@ function renderSubjectListWithSync(yearName, files, owner, repo) {
 function backToYears() {
     document.getElementById('subject-list').classList.add('hidden');
     document.getElementById('years-container').classList.remove('hidden');
-    quizData = []; // Clear RAM to optimize performance
+    quizData = []; 
 }
 
 async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) {
@@ -1242,23 +1164,20 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
     if (isFirstTime) {
         quizData = freshData;
     } else {
-        // Advanced Merge Mechanism: Preserve local progress completely
         freshData.forEach(newSub => {
-            const existingSub = quizData.find(oldSub => oldSub.id === newSub.id);
-            if (existingSub) {
-                // Merge questions, keeping old ones intact to preserve IDs and progress mapping
-                const existingQuestionIds = existingSub.questions.map(q => q.id);
-                const newQuestions = newSub.questions.filter(q => !existingQuestionIds.includes(q.id));
-                existingSub.questions = [...existingSub.questions, ...newQuestions];
-                existingSub.lang = newSub.lang; // Update language if needed
-                existingSub.subject = newSub.subject; // Update subject name if needed
+            const existingSubIndex = quizData.findIndex(oldSub => oldSub.id === newSub.id);
+            if (existingSubIndex !== -1) {
+                // Replace the existing subject's questions and metadata with the fresh data
+                // to ensure the file's order and content are fully respected.
+                quizData[existingSubIndex].questions = newSub.questions;
+                quizData[existingSubIndex].lang = newSub.lang;
+                quizData[existingSubIndex].subject = newSub.subject;
             } else {
-                quizData.push(newSub); // Entirely new subject added
+                quizData.push(newSub);
             }
         });
     }
 
-    // CRITICAL: Restore all saved progress data for each mode (study & quiz)
     quizData.forEach(subject => {
         ['study', 'quiz'].forEach(m => {
             const progressKey = `progress_${subject.id}_${m}`;
@@ -1266,7 +1185,6 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
             if (savedProgress) {
                 try {
                     const prog = JSON.parse(savedProgress);
-                    // Keep saved progress intact - do NOT overwrite
                     localStorage.setItem(progressKey, JSON.stringify(prog));
                 } catch (e) {
                     console.warn("Error restoring progress:", e);
@@ -1278,8 +1196,6 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
     localStorage.setItem(`year_data_${yearName}`, JSON.stringify(quizData));
     if (isFirstTime) renderSubjectListWithSync(yearName, files, owner, repo);
 }
-
-
 
 function toggleSyncSettings() {
     const container = document.getElementById('sync-settings-container');
@@ -1302,7 +1218,6 @@ function saveSyncConfig() {
     alert("تم حفظ إعدادات المزامنة بنجاح!");
     toggleSyncSettings();
 }
-
 
 document.addEventListener('mouseup', performSmartSearch);
 document.addEventListener('touchend', performSmartSearch);
