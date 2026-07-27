@@ -545,11 +545,11 @@ function applyFeedbackStyles(btn, index, correctIndex) {
     if (index === correctIndex) {
         btn.style.backgroundColor = "rgba(16, 185, 129, 0.2)";
         btn.style.borderColor = "#10b981";
-        btn.style.color = "#6ee7b7";
+        btn.style.color = "#058754";
     } else if (index === selectedIndex && selectedIndex !== correctIndex) {
         btn.style.backgroundColor = "rgba(239, 68, 68, 0.2)";
         btn.style.borderColor = "#ef4444";
-        btn.style.color = "#fca5a5";
+        btn.style.color = "#d37676";
     }
 }
 
