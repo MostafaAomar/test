@@ -113,6 +113,7 @@ div { background-color: transparent; }
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
+    text-align: center;
     color: var(--primary); /* Fallback color for browsers that don't support the gradient */
 }
 
