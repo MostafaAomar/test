@@ -61,13 +61,15 @@ function saveDetailedProgress() {
     localStorage.setItem(subjectProgressKey, JSON.stringify(progressData));
 }
 
+
+
+
 /* ==========================================
    3. التحميل والتهيئة التلقائية (Initialization)
    ========================================== */
 async function init() {
     loadThemePreference(); // Moved to top so theme always applies immediately
     showWelcomeMessage();
-    addDownloadAllButton();
 
     const loadingDiv = document.querySelector('.loader');
 
@@ -790,114 +792,6 @@ function fullReset() {
     }
 }
 
-function addDownloadAllButton() {
-    const footerControls = document.querySelector('#setup-screen .footer-controls');
-    if (footerControls) {
-        const downloadBtn = document.createElement('button');
-        downloadBtn.className = 'action-btn'; 
-        downloadBtn.id = 'download-all-btn';
-        downloadBtn.innerHTML = 'تحميل الكل للاستخدام بدون انترنت 🌐';
-        downloadBtn.onclick = downloadAllDataForOffline;
-        
-        downloadBtn.style.marginTop = '15px';
-        downloadBtn.style.marginBottom = '10px';
-
-        footerControls.prepend(downloadBtn); 
-    }
-}
-
-async function downloadAllDataForOffline() {
-    const downloadBtn = document.getElementById('download-all-btn');
-    if (!downloadBtn) return;
-
-    if (!navigator.onLine) {
-        alert("تحتاج إلى اتصال بالإنترنت لتنزيل البيانات لأول مرة.");
-        return;
-    }
-
-    const confirmation = confirm("سيتم تنزيل جميع المواد الدراسية. قد يستهلك هذا بعض البيانات. هل تريد المتابعة؟");
-    if (!confirmation) return;
-
-    downloadBtn.disabled = true;
-    downloadBtn.innerHTML = 'جاري التنزيل... (0%)';
-
-    const cachedTree = localStorage.getItem('app_repo_tree');
-    let treeData = null;
-    let owner, repo;
-
-    try {
-        if (cachedTree) {
-            treeData = JSON.parse(cachedTree);
-        } else {
-            let cleanUrl = DEFAULT_REPO_URL.replace('https://github.com/', '').split('/tree/')[0];
-            if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4);
-            const parts = cleanUrl.split('/');
-            if (parts.length < 2) throw new Error("Invalid repo URL");
-            owner = parts[0];
-            repo = parts[1];
-            
-            const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/main?recursive=1`;
-            const resp = await fetch(api);
-            if (!resp.ok) throw new Error("فشل الاتصال بـ GitHub API.");
-            const tree = await resp.json();
-            treeData = tree.tree;
-            localStorage.setItem('app_repo_tree', JSON.stringify(treeData));
-        }
-
-        if (!owner || !repo) {
-             let cleanUrl = DEFAULT_REPO_URL.replace('https://github.com/', '').split('/tree/')[0];
-            if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4);
-            const parts = cleanUrl.split('/');
-            owner = parts[0];
-            repo = parts[1];
-        }
-
-        const yearGroups = {};
-        treeData.forEach(file => {
-            const parts = file.path.split('/');
-            if (parts.length > 1) {
-                const yearFolder = parts[0];
-                if (!yearGroups[yearFolder]) yearGroups[yearFolder] = [];
-                yearGroups[yearFolder].push(file);
-            }
-        });
-
-        const yearsToDownload = VALID_YEARS.filter(year => {
-            const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
-            return folderName && yearGroups[folderName].length > 0;
-        });
-
-        if (yearsToDownload.length === 0) {
-            throw new Error("لم يتم العثور على بيانات للسنوات الدراسية.");
-        }
-
-        let downloadedCount = 0;
-        for (const year of yearsToDownload) {
-            const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
-            const filesForYear = yearGroups[folderName];
-            
-            await fetchAndMergeYearData(year, filesForYear, owner, repo, true);
-            
-            downloadedCount++;
-            const progress = Math.round((downloadedCount / yearsToDownload.length) * 100);
-            downloadBtn.innerHTML = `جاري التنزيل... (${progress}%)`;
-        }
-
-        downloadBtn.innerHTML = '✅ تم التنزيل بنجاح';
-        alert("تم تنزيل جميع البيانات بنجاح! التطبيق جاهز الآن للعمل بدون انترنت.");
-        setTimeout(() => {
-            downloadBtn.disabled = false;
-            downloadBtn.innerHTML = 'تحميل الكل للاستخدام بدون انترنت 🌐';
-        }, 5000);
-
-    } catch (error) {
-        console.error("Download failed:", error);
-        alert(`فشل التنزيل: ${error.message}`);
-        downloadBtn.disabled = false;
-        downloadBtn.innerHTML = '⚠️ فشل التنزيل, حاول مرة أخرى';
-    }
-}
-
 window.onload = init;
 
 /* ==========================================
@@ -1221,3 +1115,162 @@ function saveSyncConfig() {
 
 document.addEventListener('mouseup', performSmartSearch);
 document.addEventListener('touchend', performSmartSearch);
+
+function renderDynamicYears(files, owner, repo) {
+    const yearsContainer = document.getElementById('years-container');
+    yearsContainer.innerHTML = '';
+    
+    const yearGroups = {};
+    files.forEach(file => {
+        const parts = file.path.split('/');
+        if (parts.length > 1) {
+            const yearFolder = parts[0];
+            if (!yearGroups[yearFolder]) yearGroups[yearFolder] = [];
+            yearGroups[yearFolder].push(file);
+        }
+    });
+
+    let hasData = false;
+    VALID_YEARS.forEach(year => {
+        const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
+        
+        if (folderName && yearGroups[folderName].length > 0) {
+            hasData = true;
+            const btn = document.createElement('div');
+            btn.className = 'subject-btn year-btn';
+            btn.innerHTML = `<span style="z-index:2; position:relative;">${year}</span>`;
+            btn.onclick = () => loadYearData(year, yearGroups[folderName], owner, repo);
+            yearsContainer.appendChild(btn);
+        }
+    });
+
+    if (!hasData) {
+        yearsContainer.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد بيانات متاحة لأي سنة دراسية حالياً.</p>";
+    }
+}
+
+async function loadYearData(yearName, files, owner, repo) {
+    document.getElementById('years-container').classList.add('hidden');
+    const subjectList = document.getElementById('subject-list');
+    subjectList.classList.remove('hidden');
+    
+    const localKey = `year_data_${yearName}`;
+    const savedData = localStorage.getItem(localKey);
+    
+    if (savedData) {
+        quizData = JSON.parse(savedData);
+        renderSubjectListWithSync(yearName, files, owner, repo); // عرض المواد مباشرة من الذاكرة
+    } else {
+        // إذا لم تكن البيانات محملة، نعرض زر التحميل بدلاً من التحميل التلقائي
+        subjectList.innerHTML = `
+            <div class="year-header">
+                <h3 style="margin:0;">${yearName}</h3>
+                <button onclick="backToYears()" class="small-btn ghost-btn" style="margin:0;">العودة</button>
+            </div>
+            <div style="padding: 20px; text-align: center;">
+                <p style="margin-bottom: 20px; color: var(--text-muted);">بيانات هذه السنة غير محملة. قم بتحميلها للوصول إلى المواد.</p>
+                <button id="download-year-btn" class="action-btn" style="width: 100%; max-width: 300px;">
+                    تحميل بيانات السنة لأول مرة
+                </button>
+            </div>
+        `;
+        document.getElementById('download-year-btn').onclick = () => {
+            document.getElementById('download-year-btn').innerHTML = 'جاري التحميل...';
+            document.getElementById('download-year-btn').disabled = true;
+            fetchAndMergeYearData(yearName, files, owner, repo, true);
+        };
+    }
+}
+
+function renderSubjectListWithSync(yearName, files, owner, repo) {
+    renderSubjectList(); 
+    
+    const list = document.getElementById('subject-list');
+    
+    const header = document.createElement('div');
+    header.className = 'year-header';
+    header.innerHTML = `
+        <h3 style="margin:0;">${yearName}</h3>
+        <button onclick="backToYears()" class="small-btn ghost-btn" style="margin:0;">العودة</button>
+    `;
+    list.insertBefore(header, list.firstChild);
+
+    const syncBtn = document.createElement('div');
+    syncBtn.className = 'subject-btn sync-btn';
+    syncBtn.innerHTML = `<span>مزامنة وتحديث المواد (Sync) 🔄</span>`;
+    syncBtn.onclick = () => {
+        syncBtn.innerHTML = `<span>جاري المزامنة... ⏳</span>`;
+        fetchAndMergeYearData(yearName, files, owner, repo, false).then(() => {
+            syncBtn.innerHTML = `<span>تمت المزامنة بنجاح ✅</span>`;
+            setTimeout(() => renderSubjectListWithSync(yearName, files, owner, repo), 1500);
+        });
+    };
+    list.insertBefore(syncBtn, header.nextSibling);
+}
+
+function backToYears() {
+    document.getElementById('subject-list').classList.add('hidden');
+    document.getElementById('years-container').classList.remove('hidden');
+    quizData = []; 
+}
+
+async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) {
+    let freshData = [];
+    for (const file of files) {
+        try {
+            const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}?t=${Date.now()}`;
+            const r = await fetch(rawUrl);
+            if (!r.ok) continue;
+            let content = await r.json();
+            const data = Array.isArray(content) ? content[0] : content;
+            
+            if (data && data.questions) {
+                data.questions.forEach(q => {
+                    const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
+                    q.id = q.id || 'id_' + simpleHash(combinedStr);
+                });
+                freshData.push({
+                    id: file.path, 
+                    subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
+                    lang: data.lang || 'en',
+                    questions: data.questions
+                });
+            }
+        } catch (e) { console.warn("Error fetching file", e); }
+    }
+
+    if (isFirstTime) {
+        quizData = freshData;
+    } else {
+        freshData.forEach(newSub => {
+            const existingSubIndex = quizData.findIndex(oldSub => oldSub.id === newSub.id);
+            if (existingSubIndex !== -1) {
+                // Replace the existing subject's questions and metadata with the fresh data
+                // to ensure the file's order and content are fully respected.
+                quizData[existingSubIndex].questions = newSub.questions;
+                quizData[existingSubIndex].lang = newSub.lang;
+                quizData[existingSubIndex].subject = newSub.subject;
+            } else {
+                quizData.push(newSub);
+            }
+        });
+    }
+
+    quizData.forEach(subject => {
+        ['study', 'quiz'].forEach(m => {
+            const progressKey = `progress_${subject.id}_${m}`;
+            const savedProgress = localStorage.getItem(progressKey);
+            if (savedProgress) {
+                try {
+                    const prog = JSON.parse(savedProgress);
+                    localStorage.setItem(progressKey, JSON.stringify(prog));
+                } catch (e) {
+                    console.warn("Error restoring progress:", e);
+                }
+            }
+        });
+    });
+
+    localStorage.setItem(`year_data_${yearName}`, JSON.stringify(quizData));
+    if (isFirstTime) renderSubjectListWithSync(yearName, files, owner, repo);
+}
