@@ -363,7 +363,7 @@ input[type="text"]:focus {
 }
 
 .subject-btn:after {
-    content: '\f060';
+
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     font-size: 0.95rem;
@@ -371,10 +371,10 @@ input[type="text"]:focus {
     transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-[dir="rtl"] .subject-btn:after {
+/* [dir="rtl"] .subject-btn:after {
     content: '\f060';
-    /* left arrow */
-}
+    /* left arrow 
+} */
 
 [dir="ltr"] .subject-btn:after {
     content: '\f061';
@@ -1041,19 +1041,4 @@ input[type="text"]:focus {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
-}
-
-/* Force vertical stacking (one over the other) */
-.subject-grid {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 12px;
-    width: 100%;
-}
-
-.subject-btn {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }

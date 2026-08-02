@@ -404,8 +404,26 @@ function renderAllSubjects(container) {
         btn.dir = data.lang === 'ar' ? 'rtl' : 'ltr';
         const progressPercent = getSubjectProgress(data.id, data.questions.length);
         btn.innerHTML = `
-            <span style="z-index:2; position:relative;">${data.subject}</span>
-            <div class="subject-progress-line" style="width: ${progressPercent}%"></div>
+        <div onclick="switchView('view-modes')"
+                        class="glass-card rounded-3xl p-md flex flex-col gap-sm shadow-sm hover:shadow-lg transition-all cursor-pointer group active:scale-95">
+                        <div
+                            class="w-12 h-12 rounded-2xl bg-primary-container/10 flex items-center justify-center mb-xs">
+                            <span class="material-symbols-outlined text-primary">arched_word</span>
+                        </div>
+                        <div>
+                            <h3 class="font-title-lg text-title-lg mb-1 leading-tight">${data.subject}</h3>
+                            <p class="font-caption text-caption text-on-surface-variant">${data.subject}</p>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="flex justify-between font-label-md text-label-md mb-2">
+                                <span>Progress</span>
+                                <span class="text-primary">${progressPercent}%</span>
+                            </div>
+                            <div class="w-full h-2 bg-surface-container-highest rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full" style="width: ${progressPercent}%"></div>
+                            </div>
+                        </div>
+                    </div>
         `;
         btn.onclick = () => {
             currentSubject = quizData[index];
@@ -415,7 +433,23 @@ function renderAllSubjects(container) {
         container.appendChild(btn);
     });
 }
+function openDownloadModal(year) {
+    document.getElementById('target-year').textContent = year;
+    document.getElementById('download-modal').classList.remove('hidden');
+}
+document.querySelectorAll('.year-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.year-btn').forEach(b => {
+            b.className = "year-btn whitespace-nowrap px-6 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md border border-outline-variant hover:border-primary transition-all active:scale-95";
+        });
+        btn.className = "year-btn whitespace-nowrap px-6 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-transform";
+        openDownloadModal(btn.getAttribute('data-year'));
+    });
+});
 
+function closeDownloadModal() {
+    document.getElementById('download-modal').classList.add('hidden');
+}
 function simpleHash(str) {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {

@@ -255,56 +255,95 @@
     <div id="view-subjects" class="view-screen flex-1 flex flex-col pb-12">
         <main class="px-margin-mobile pt-lg max-w-2xl mx-auto w-full">
             <section class="mb-lg">
-                <div id="years-container" class="flex gap-3 overflow-x-auto pb-2 custom-scrollbar">
-                    <button
-                        class="year-btn whitespace-nowrap px-6 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-transform"
-                        data-year="First Year">First Year</button>
+                <div id="years-container" class="flex gap-3 year-btn overflow-x-auto pb-2 custom-scrollbar ">
                 </div>
             </section>
-
-
-
-
-            <!-- Replace the existing #subject-list div in setup-screen with this structure -->
-            <div id="years-container" class="subject-grid">
-                <div class="loader" style="text-align: center; color: var(--primary); padding: 20px;">جاري
-                    التحقق من
-                    الفصول الدراسية...</div>
-            </div>
-
-            <div id="subject-list" class="subject-grid hidden">
-                <!-- Sync button injected here dynamically -->
-            </div>
-
-            <!-- قسم إعدادات المزامنة (مخفي افتراضياً) -->
-            <div id="sync-settings-container" class="hidden">
-                <h3 id="sync-status">المزامنة معطلة</h3>
-                <p class="note">لحفظ تقدمك عبر الأجهزة، قم بربط حسابك في GitHub. <a
-                        href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens"
-                        target="_blank">كيفية إنشاء توكن</a> (اختر `repo` scope).</p>
-                <div class="form-group">
-                    <label for="sync-enabled">تفعيل المزامنة</label>
-                    <input type="checkbox" id="sync-enabled">
+            <section>
+                <div class="flex justify-between items-end mb-md">
+                    <h2 class="font-headline-md text-headline-md">Your Subjects</h2>
+                    <span class="font-label-md text-label-md text-primary">6 Total</span>
                 </div>
-                <div class="form-group">
-                    <label for="sync-username">اسم مستخدم GitHub</label>
-                    <input type="text" id="sync-username" placeholder="e.g., MostafaAomar">
+                <div class="flex gap-3 mb-lg">
+                    <button
+                        class="flex-1 flex items-center justify-center gap-2 py-4 bg-surface-container text-on-surface-variant rounded-2xl font-label-md text-label-md border border-outline-variant hover:border-primary transition-all active:scale-95 shadow-sm">
+                        <span class="material-symbols-outlined text-secondary">chat</span> WhatsApp
+                    </button>
+                    <!-- <button id="years-container"
+                        class="flex-1 flex items-center justify-center gap-2 py-4 bg-surface-container text-on-surface-variant rounded-2xl font-label-md text-label-md border border-outline-variant hover:border-primary transition-all active:scale-95 shadow-sm">
+                        <span class="material-symbols-outlined text-primary">cloud_download</span> Retrieve Data
+                    </button> -->
                 </div>
-                <div class="form-group">
-                    <label for="sync-repo">اسم المستودع (Repository)</label>
-                    <input type="text" id="sync-repo" placeholder="e.g., uni-progress">
-                </div>
-                <div class="form-group">
-                    <label for="sync-token">توكن الوصول الشخصي (PAT)</label>
-                    <input type="password" id="sync-token" placeholder="يبدأ بـ ghp_...">
-                </div>
-                <button class="action-btn" onclick="saveSyncConfig()">حفظ الإعدادات</button>
-                <button class="secondary-btn" onclick="toggleSyncSettings()">إغلاق</button>
-            </div>
+                <div class="bento-grid"></div>
 
-            <div class="footer-controls">
-                <button class="danger-text-btn" onclick="fullReset()">إعادة ضبط التطبيق 🗑️</button>
+
+
+
+            </section>
+        </main>
+    </div>
+
+    <!-- DOWNLOAD MODAL -->
+    <div class="fixed inset-0 z-[100] flex items-center justify-center p-gutter hidden" id="download-modal">
+        <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeDownloadModal()"></div>
+        <div class="relative bg-surface p-xl rounded-[32px] shadow-2xl max-w-sm w-full">
+            <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-lg mx-auto">
+                <span class="material-symbols-outlined text-primary text-4xl">cloud_download</span>
             </div>
+            <h3 class="font-headline-md text-headline-md text-center mb-sm">Download Data?</h3>
+            <p class="font-body-md text-body-md text-center text-on-surface-variant mb-xl">Would you like to download
+                the materials for <span class="font-bold text-primary" id="target-year">this year</span> for offline
+                use?</p>
+            <div class="flex flex-col gap-3">
+                <button onclick="closeDownloadModal()" id="years-container"
+                    class="w-full py-4 bg-primary text-on-primary rounded-2xl font-label-md text-label-md shadow-lg shadow-primary/20">Download</button>
+                <button onclick="closeDownloadModal()"
+                    class="w-full py-4 bg-surface-container text-on-surface-variant rounded-2xl font-label-md text-label-md border border-outline-variant">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Replace the existing #subject-list div in setup-screen with this structure -->
+    <div id="years-container" class="subject-grid">
+        <div class="loader" style="text-align: center; color: var(--primary); padding: 20px;">جاري
+            التحقق من
+            الفصول الدراسية...</div>
+    </div>
+
+    <div id="subject-list" class="subject-grid hidden">
+        <!-- Sync button injected here dynamically -->
+    </div>
+
+    <!-- قسم إعدادات المزامنة (مخفي افتراضياً) -->
+    <div id="sync-settings-container" class="hidden">
+        <h3 id="sync-status">المزامنة معطلة</h3>
+        <p class="note">لحفظ تقدمك عبر الأجهزة، قم بربط حسابك في GitHub. <a
+                href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens"
+                target="_blank">كيفية إنشاء توكن</a> (اختر `repo` scope).</p>
+        <div class="form-group">
+            <label for="sync-enabled">تفعيل المزامنة</label>
+            <input type="checkbox" id="sync-enabled">
+        </div>
+        <div class="form-group">
+            <label for="sync-username">اسم مستخدم GitHub</label>
+            <input type="text" id="sync-username" placeholder="e.g., MostafaAomar">
+        </div>
+        <div class="form-group">
+            <label for="sync-repo">اسم المستودع (Repository)</label>
+            <input type="text" id="sync-repo" placeholder="e.g., uni-progress">
+        </div>
+        <div class="form-group">
+            <label for="sync-token">توكن الوصول الشخصي (PAT)</label>
+            <input type="password" id="sync-token" placeholder="يبدأ بـ ghp_...">
+        </div>
+        <button class="action-btn" onclick="saveSyncConfig()">حفظ الإعدادات</button>
+        <button class="secondary-btn" onclick="toggleSyncSettings()">إغلاق</button>
+    </div>
+
+    <div class="footer-controls">
+        <button class="danger-text-btn" onclick="fullReset()">إعادة ضبط التطبيق 🗑️</button>
+    </div>
     </div>
 
     <div id="mode-screen" class="screen hidden">
