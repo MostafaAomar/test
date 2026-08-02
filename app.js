@@ -8,7 +8,7 @@ let quizData = [];
 let currentSubject = null;
 let currentIndex = 0;
 let userAnswers = [];
-let mode = ''; 
+let mode = '';
 let currentSpeed = 0.8;
 
 const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/test';
@@ -26,11 +26,11 @@ const screens = {
    ========================================== */
 function showScreen(name) {
     Object.values(screens).forEach(screen => {
-        if(screen) screen.classList.add('hidden');
+        if (screen) screen.classList.add('hidden');
     });
     if (screens[name]) {
         screens[name].classList.remove('hidden');
-        window.scrollTo(0, 0); 
+        window.scrollTo(0, 0);
     }
 }
 
@@ -39,12 +39,12 @@ function saveDetailedProgress() {
 
     const subjectId = currentSubject.id;
     const lastQuestionId = currentSubject.questions[currentIndex]?.id || null;
-    
+
     const lastState = { subjectId: subjectId, mode: mode, lastQuestionId: lastQuestionId };
     localStorage.setItem('app_last_position', JSON.stringify(lastState));
 
     const subjectProgressKey = `progress_${subjectId}_${mode}`;
-    
+
     const progressToSave = {};
     userAnswers.forEach((answer, index) => {
         const questionId = currentSubject.questions[index]?.id;
@@ -53,8 +53,8 @@ function saveDetailedProgress() {
         }
     });
 
-    const progressData = { 
-        lastQuestionId: lastQuestionId, 
+    const progressData = {
+        lastQuestionId: lastQuestionId,
         index: currentIndex,
         answers: progressToSave
     };
@@ -82,7 +82,7 @@ async function init() {
         await fetchRepoAndAddSubjects(DEFAULT_REPO_URL);
         if (loadingDiv) loadingDiv.classList.add('hidden');
     }
-    
+
     const savedPos = localStorage.getItem('app_last_position');
     if (savedPos) {
         try {
@@ -100,27 +100,27 @@ async function init() {
                     if (newIndex !== -1) restoredIndex = newIndex;
                 }
                 currentIndex = restoredIndex;
-                
+
                 const subProgKey = `progress_${currentSubject.id}_${mode}`;
                 const savedProg = localStorage.getItem(subProgKey);
                 if (savedProg) {
                     const parsedProg = JSON.parse(savedProg);
                     const savedAnswers = parsedProg.answers || {};
-                    
+
                     if (Array.isArray(savedAnswers)) {
                         userAnswers = [...savedAnswers];
-                        saveDetailedProgress(); 
+                        saveDetailedProgress();
                     } else {
                         userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
                     }
                 }
-                
+
                 renderStep();
                 return;
             }
         } catch (e) { console.log("Error restoring session", e); }
     }
-    
+
     showScreen('setup');
 }
 
@@ -189,14 +189,14 @@ function loadThemePreference() {
 }
 
 async function fetchRepoAndAddSubjects(repoUrl) {
-    let cleanUrl = repoUrl.replace('https://github.com/', '').split('/tree/')[0]; 
-    if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4); 
+    let cleanUrl = repoUrl.replace('https://github.com/', '').split('/tree/')[0];
+    if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4);
     const parts = cleanUrl.split('/');
     if (parts.length < 2) return;
 
     const owner = parts[0];
     const repo = parts[1];
-    
+
     const cachedTree = localStorage.getItem('app_repo_tree');
     let treeData = null;
 
@@ -216,7 +216,7 @@ async function fetchRepoAndAddSubjects(repoUrl) {
 
         const jsonFiles = treeData.filter(t => t.path.endsWith('.json') && !t.path.includes('myOwnDic.json'));
         renderDynamicYears(jsonFiles, owner, repo);
-    } catch (e) { 
+    } catch (e) {
         console.error("Load Error:", e);
         document.getElementById('years-container').innerHTML = `<p style="text-align:center; color:var(--error);">❌ تعذر تحميل البيانات: ${e.message}</p>`;
     }
@@ -226,7 +226,7 @@ async function fetchLocalTestFile() {
     try {
         const response = await fetch(`test.json?t=${Date.now()}`);
         if (!response.ok) throw new Error('Could not find test.json.');
-        
+
         const content = await response.json();
         const fileObject = { name: 'test.json', content: JSON.stringify(content) };
         processJsonFiles([fileObject], 'local');
@@ -242,13 +242,13 @@ function getSubjectProgress(subjectName, totalQuestions) {
     let maxProgress = 0;
 
     modes.forEach(m => {
-        const key = `progress_${subjectName}_${m}`; 
+        const key = `progress_${subjectName}_${m}`;
         const savedData = localStorage.getItem(key);
         if (savedData) {
             try {
                 const parsed = JSON.parse(savedData);
                 let reached = 0;
-                
+
                 if (Array.isArray(parsed.answers)) {
                     reached = parsed.answers.filter(a => a !== null && a !== undefined).length;
                 } else {
@@ -307,13 +307,13 @@ async function processJsonFiles(files, type, githubInfo = {}) {
                 const r = await fetch(rawUrl);
                 if (!r.ok) continue;
                 content = await r.json();
-            } else { 
+            } else {
                 fileName = file.name;
                 content = JSON.parse(file.content);
             }
 
             const data = Array.isArray(content) ? content[0] : content;
-            
+
             if (data && data.questions) {
                 data.questions.forEach(q => {
                     const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
@@ -321,7 +321,7 @@ async function processJsonFiles(files, type, githubInfo = {}) {
                 });
 
                 quizData.push({
-                    id: fileName, 
+                    id: fileName,
                     subject: (data.subject || fileName.replace('.json', '').split('/').pop()).trim(),
                     lang: data.lang || 'en',
                     questions: data.questions
@@ -359,19 +359,19 @@ function performSearch(term, container) {
         `;
         btn.onclick = () => {
             currentSubject = quizData[result.subjectIndex];
-            mode = 'quiz'; 
-            
+            mode = 'quiz';
+
             currentIndex = currentSubject.questions.findIndex(q => q.id === result.question.id);
-            if(currentIndex === -1) currentIndex = 0;
+            if (currentIndex === -1) currentIndex = 0;
 
             const subProgKey = `progress_${currentSubject.id}_${mode}`;
             const savedProg = localStorage.getItem(subProgKey);
-            
+
             let savedAnswers = {};
             if (savedProg) {
                 const progObj = JSON.parse(savedProg);
                 savedAnswers = progObj.answers || {};
-                
+
                 if (Array.isArray(savedAnswers)) {
                     userAnswers = [...savedAnswers];
                 } else {
@@ -397,7 +397,7 @@ function renderAllSubjects(container) {
         container.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد مواد متاحة حالياً.</p>";
         return;
     }
-    
+
     quizData.forEach((data, index) => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn';
@@ -421,7 +421,7 @@ function simpleHash(str) {
     for (let i = 0; i < str.length; i++) {
         const char = str.charCodeAt(i);
         hash = (hash << 5) - hash + char;
-        hash |= 0; 
+        hash |= 0;
     }
     return Math.abs(hash).toString(16);
 }
@@ -447,8 +447,8 @@ function renderStep() {
 
     const studyArea = document.getElementById('study-displayArea');
     const quizArea = document.getElementById('quiz-displayArea');
-    if(studyArea) studyArea.innerHTML = "";
-    if(quizArea) quizArea.innerHTML = "";
+    if (studyArea) studyArea.innerHTML = "";
+    if (quizArea) quizArea.innerHTML = "";
 
     if (mode === 'quiz') {
         showScreen('quiz');
@@ -464,19 +464,19 @@ function renderStudyCard() {
     document.getElementById('study-question').innerText = qData.q;
     document.getElementById('study-answer').innerText = qData.options[qData.correct];
     document.getElementById('study-count').innerText = `${currentIndex + 1} / ${currentSubject.questions.length}`;
-    document.getElementById('card-inner').classList.remove('is-flipped'); 
+    document.getElementById('card-inner').classList.remove('is-flipped');
 }
 
 function renderQuizQuestion() {
     const qData = currentSubject.questions[currentIndex];
     document.getElementById('question-text').innerText = qData.q;
     document.getElementById('quiz-count-display').innerText = `${currentIndex + 1} / ${currentSubject.questions.length}`;
-    
+
     const container = document.getElementById('options-container');
     const feedbackBox = document.getElementById('quiz-feedback');
     container.innerHTML = '';
     feedbackBox.classList.add('hidden');
-    
+
     qData.options.forEach((opt, i) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
@@ -491,7 +491,7 @@ function renderQuizQuestion() {
         container.appendChild(btn);
     });
 
-   if (userAnswers[currentIndex] !== undefined && userAnswers[currentIndex] !== null) {
+    if (userAnswers[currentIndex] !== undefined && userAnswers[currentIndex] !== null) {
         showFeedbackMessage(qData, userAnswers[currentIndex]);
     }
 
@@ -509,10 +509,10 @@ function renderQuizQuestion() {
 function showInterimResult() {
     const modal = document.getElementById('interim-modal');
     const statsBox = document.getElementById('interim-stats');
-    
+
     let score = 0;
     let answered = 0;
-    
+
     userAnswers.forEach((ans, idx) => {
         if (idx <= currentIndex && ans !== undefined && ans !== null) {
             answered++;
@@ -526,12 +526,12 @@ function showInterimResult() {
         <p>أجبت على ${score} بشكل صحيح من أصل ${answered} سؤال قمت بحله حتى الآن.</p>
         <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;">لن يتم مسح أي بيانات. يمكنك المتابعة للسؤال ${currentIndex + 2}.</p>
     `;
-    
+
     modal.classList.remove('hidden');
 }
 
 function handleAnswer(selectedIndex, clickedBtn, qData) {
-    userAnswers[currentIndex] = selectedIndex; 
+    userAnswers[currentIndex] = selectedIndex;
     saveDetailedProgress();
     const container = document.getElementById('options-container');
     const buttons = container.querySelectorAll('.option-btn');
@@ -562,10 +562,10 @@ function showFeedbackMessage(qData, selectedIndex) {
 
     feedbackBox.classList.remove('hidden');
     feedbackBox.className = isCorrect ? "feedback-toast feedback-success" : "feedback-toast feedback-error";
-    
+
     const title = isCorrect ? (isAr ? "✅ ممتاز!" : "✅ Correct!") : (isAr ? "❌ خطأ" : "❌ Incorrect");
     const explanation = qData.feedback || (isCorrect ? "" : (isAr ? `الإجابة الصحيحة هي: ${qData.options[qData.correct]}` : `Correct answer: ${qData.options[qData.correct]}`));
-    
+
     feedbackBox.innerHTML = `<strong>${title}</strong><br><span>${explanation}</span>`;
 }
 
@@ -586,9 +586,9 @@ function syncSpeed(val) {
 
 function speakCurrent() {
     if (!window.speechSynthesis || !currentSubject) return;
-    window.speechSynthesis.cancel(); 
+    window.speechSynthesis.cancel();
     const qData = currentSubject.questions[currentIndex];
-    
+
     const utter = new SpeechSynthesisUtterance(qData.q);
     utter.lang = currentSubject.lang || 'en';
     utter.rate = parseFloat(currentSpeed);
@@ -649,19 +649,19 @@ async function analyzeCurrentQuestion(currentMode) {
     const text = qData.q;
     const displayAreaId = currentMode === 'quiz' ? 'quiz-displayArea' : 'study-displayArea';
     const displayArea = document.getElementById(displayAreaId);
-    
-    if(!displayArea) return;
+
+    if (!displayArea) return;
 
     displayArea.innerHTML = '<div style="text-align:center; padding:20px; color:var(--primary);">جاري معالجة النطق المتصل...</div>';
-    
+
     playFullSentence(text);
 
     const words = text.split(/\s+/);
     let ipaParts = [];
 
-    for(let word of words) {
+    for (let word of words) {
         const clean = word.replace(/[^\w]/g, '');
-        if(clean) {
+        if (clean) {
             try {
                 const resp = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${clean}`);
                 const data = await resp.json();
@@ -693,7 +693,7 @@ async function analyzeCurrentQuestion(currentMode) {
    ========================================== */
 function toggleFlip() {
     const inner = document.getElementById('card-inner');
-    if(inner) inner.classList.toggle('is-flipped');
+    if (inner) inner.classList.toggle('is-flipped');
 }
 
 function nextQuestion() {
@@ -701,7 +701,7 @@ function nextQuestion() {
         currentIndex++;
         renderStep();
     } else {
-        showResults(); 
+        showResults();
     }
 }
 
@@ -715,8 +715,8 @@ function prevQuestion() {
 function showResults() {
     showScreen('result');
     const statsBox = document.getElementById('final-stats');
-    if(!statsBox) return;
-    
+    if (!statsBox) return;
+
     if (mode === 'quiz') {
         let score = 0;
         userAnswers.forEach((ans, idx) => {
@@ -733,11 +733,16 @@ function showResults() {
 }
 
 function setMode(m) {
+    if (!currentSubject || !currentSubject.questions) {
+        console.error("No subject selected.");
+        showScreen('setup');
+        return;
+    }
     mode = m;
 
     const subProgKey = `progress_${currentSubject.id}_${mode}`;
     const savedProg = localStorage.getItem(subProgKey);
-    
+
     if (savedProg) {
         const prog = JSON.parse(savedProg);
         const savedAnswers = prog.answers || {};
@@ -755,7 +760,7 @@ function setMode(m) {
         } else if (prog.index !== undefined) {
             restoredIndex = prog.index;
         }
-        
+
         currentIndex = restoredIndex;
     } else {
         currentIndex = 0;
@@ -765,15 +770,24 @@ function setMode(m) {
 }
 
 function goBackToSubjects() {
-    saveDetailedProgress(); 
+    if (currentSubject) {
+        saveDetailedProgress();
+    }
     currentSubject = null;
-    document.documentElement.setAttribute('dir', 'rtl'); // Default setup orientation
+    document.documentElement.setAttribute('dir', 'rtl');
     document.documentElement.setAttribute('lang', 'ar');
+
+    // Reset internal view containers for setup-screen
+    const yearsContainer = document.getElementById('years-container');
+    const subjectList = document.getElementById('subject-list');
+    if (yearsContainer) yearsContainer.classList.remove('hidden');
+    if (subjectList) subjectList.classList.add('hidden');
+
     showScreen('setup');
 }
 
 function restartSubject() {
-    if(confirm("هل تريد إعادة هذه المادة من البداية؟")) {
+    if (confirm("هل تريد إعادة هذه المادة من البداية؟")) {
         currentIndex = 0;
         userAnswers = [];
         const subjectProgressKey = `progress_${currentSubject.id}_${mode}`;
@@ -786,7 +800,7 @@ function restartSubject() {
 }
 
 function fullReset() {
-    if(confirm("⚠️ تحذير: سيتم حذف كافة الملاحظات والتقدم المخزن. هل أنت متأكد؟")) {
+    if (confirm("⚠️ تحذير: سيتم حذف كافة الملاحظات والتقدم المخزن. هل أنت متأكد؟")) {
         localStorage.clear();
         location.reload();
     }
@@ -801,27 +815,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/test/refs/heads/main/myOwnDic.json'; 
+    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/test/refs/heads/main/myOwnDic.json';
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
-    let dictionaryData = []; 
+    let dictionaryData = [];
     let isDictionaryLoaded = false;
     let isLoadingDictionary = false;
 
     async function loadLocalDictionary() {
         try {
             const res = await fetch(localDictionaryPath);
-            if (!res.ok) return []; 
+            if (!res.ok) return [];
             const data = await res.json();
             return Array.isArray(data) ? data : [];
         } catch (error) {
             console.warn('Dictionary skipped:', error);
-            return []; 
+            return [];
         }
     }
 
     function searchLocalDictionary(word) {
-        if (!isDictionaryLoaded || dictionaryData.length === 0) return undefined; 
+        if (!isDictionaryLoaded || dictionaryData.length === 0) return undefined;
         const searchTerm = word.trim().toLowerCase();
         return dictionaryData.find(entry => entry.word.toLowerCase() === searchTerm);
     }
@@ -837,14 +851,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
             return (data && data.length > 0) ? data[0] : null;
         } catch (error) {
-            return null; 
+            return null;
         }
     }
 
     function displayDefinition(entryData, searchTerm) {
-         if (!dictionaryOutput) return; 
+        if (!dictionaryOutput) return;
 
-         if (!entryData) {
+        if (!entryData) {
             dictionaryOutput.innerHTML = `<p class="text-warning" style="text-align:center;">لم يتم العثور على تعريف للكلمة "${escapeHTML(searchTerm)}".</p>`;
             return;
         }
@@ -879,24 +893,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function handleWordSearch() {
-        if (!wordInput || !dictionaryOutput) return; 
+        if (!wordInput || !dictionaryOutput) return;
         const word = wordInput.value.trim();
 
-        if (word.length < 1) { 
+        if (word.length < 1) {
             dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">أدخل كلمة للبحث.</p>';
             return;
         }
 
         if (!isDictionaryLoaded && !isLoadingDictionary) {
-            await loadLocalDictionary(); 
+            await loadLocalDictionary();
         }
 
         const localResult = searchLocalDictionary(word);
         if (localResult) {
             displayDefinition(localResult, word);
         } else {
-            const apiResult = await searchApiDictionary(word); 
-            displayDefinition(apiResult, word); 
+            const apiResult = await searchApiDictionary(word);
+            displayDefinition(apiResult, word);
         }
     }
 
@@ -905,7 +919,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dictionaryData = await loadLocalDictionary();
             isDictionaryLoaded = true;
         })();
-        wordInput.addEventListener('input', debounce(handleWordSearch, 350)); 
+        wordInput.addEventListener('input', debounce(handleWordSearch, 350));
     }
 
     function debounce(func, wait) {
@@ -933,10 +947,10 @@ function performSmartSearch() {
         const selectedText = window.getSelection().toString().trim();
 
         if (selectedText && selectedText.length > 0 && selectedText.length <= 30) {
-            
+
             const wordInput = document.getElementById('wordInput');
             const dictionarySection = document.getElementById('dictionary');
-            
+
             if (wordInput && dictionarySection) {
                 if (wordInput.value !== selectedText) {
                     wordInput.value = selectedText;
@@ -945,13 +959,13 @@ function performSmartSearch() {
                 }
             }
         }
-    }, 150); 
+    }, 150);
 }
 
 function renderDynamicYears(files, owner, repo) {
     const yearsContainer = document.getElementById('years-container');
     yearsContainer.innerHTML = '';
-    
+
     const yearGroups = {};
     files.forEach(file => {
         const parts = file.path.split('/');
@@ -965,7 +979,7 @@ function renderDynamicYears(files, owner, repo) {
     let hasData = false;
     VALID_YEARS.forEach(year => {
         const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
-        
+
         if (folderName && yearGroups[folderName].length > 0) {
             hasData = true;
             const btn = document.createElement('div');
@@ -985,10 +999,10 @@ async function loadYearData(yearName, files, owner, repo) {
     document.getElementById('years-container').classList.add('hidden');
     const subjectList = document.getElementById('subject-list');
     subjectList.classList.remove('hidden');
-    
+
     const localKey = `year_data_${yearName}`;
     const savedData = localStorage.getItem(localKey);
-    
+
     if (savedData) {
         quizData = JSON.parse(savedData);
         renderSubjectListWithSync(yearName, files, owner, repo);
@@ -999,10 +1013,10 @@ async function loadYearData(yearName, files, owner, repo) {
 }
 
 function renderSubjectListWithSync(yearName, files, owner, repo) {
-    renderSubjectList(); 
-    
+    renderSubjectList();
+
     const list = document.getElementById('subject-list');
-    
+
     const header = document.createElement('div');
     header.className = 'year-header';
     header.innerHTML = `
@@ -1027,7 +1041,7 @@ function renderSubjectListWithSync(yearName, files, owner, repo) {
 function backToYears() {
     document.getElementById('subject-list').classList.add('hidden');
     document.getElementById('years-container').classList.remove('hidden');
-    quizData = []; 
+    quizData = [];
 }
 
 async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) {
@@ -1039,14 +1053,14 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
             if (!r.ok) continue;
             let content = await r.json();
             const data = Array.isArray(content) ? content[0] : content;
-            
+
             if (data && data.questions) {
                 data.questions.forEach(q => {
                     const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
                     q.id = q.id || 'id_' + simpleHash(combinedStr);
                 });
                 freshData.push({
-                    id: file.path, 
+                    id: file.path,
                     subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
                     lang: data.lang || 'en',
                     questions: data.questions
@@ -1105,9 +1119,9 @@ function saveSyncConfig() {
     const token = document.getElementById('sync-token').value.trim();
 
     localStorage.setItem('sync_enabled', enabled);
-    if(username) localStorage.setItem('sync_username', username);
-    if(repo) localStorage.setItem('sync_repo', repo);
-    if(token) localStorage.setItem('sync_token', token);
+    if (username) localStorage.setItem('sync_username', username);
+    if (repo) localStorage.setItem('sync_repo', repo);
+    if (token) localStorage.setItem('sync_token', token);
 
     alert("تم حفظ إعدادات المزامنة بنجاح!");
     toggleSyncSettings();
@@ -1119,7 +1133,7 @@ document.addEventListener('touchend', performSmartSearch);
 function renderDynamicYears(files, owner, repo) {
     const yearsContainer = document.getElementById('years-container');
     yearsContainer.innerHTML = '';
-    
+
     const yearGroups = {};
     files.forEach(file => {
         const parts = file.path.split('/');
@@ -1133,7 +1147,7 @@ function renderDynamicYears(files, owner, repo) {
     let hasData = false;
     VALID_YEARS.forEach(year => {
         const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
-        
+
         if (folderName && yearGroups[folderName].length > 0) {
             hasData = true;
             const btn = document.createElement('div');
@@ -1153,10 +1167,10 @@ async function loadYearData(yearName, files, owner, repo) {
     document.getElementById('years-container').classList.add('hidden');
     const subjectList = document.getElementById('subject-list');
     subjectList.classList.remove('hidden');
-    
+
     const localKey = `year_data_${yearName}`;
     const savedData = localStorage.getItem(localKey);
-    
+
     if (savedData) {
         quizData = JSON.parse(savedData);
         renderSubjectListWithSync(yearName, files, owner, repo); // عرض المواد مباشرة من الذاكرة
@@ -1183,10 +1197,10 @@ async function loadYearData(yearName, files, owner, repo) {
 }
 
 function renderSubjectListWithSync(yearName, files, owner, repo) {
-    renderSubjectList(); 
-    
+    renderSubjectList();
+
     const list = document.getElementById('subject-list');
-    
+
     const header = document.createElement('div');
     header.className = 'year-header';
     header.innerHTML = `
@@ -1211,7 +1225,7 @@ function renderSubjectListWithSync(yearName, files, owner, repo) {
 function backToYears() {
     document.getElementById('subject-list').classList.add('hidden');
     document.getElementById('years-container').classList.remove('hidden');
-    quizData = []; 
+    quizData = [];
 }
 
 async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) {
@@ -1223,14 +1237,14 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
             if (!r.ok) continue;
             let content = await r.json();
             const data = Array.isArray(content) ? content[0] : content;
-            
+
             if (data && data.questions) {
                 data.questions.forEach(q => {
                     const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
                     q.id = q.id || 'id_' + simpleHash(combinedStr);
                 });
                 freshData.push({
-                    id: file.path, 
+                    id: file.path,
                     subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
                     lang: data.lang || 'en',
                     questions: data.questions

@@ -1,62 +1,310 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta name="theme-color" content="#0f172a">
     <title>أسئلة تدريبية لقسم اللغة الإنجليزية</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+ -->
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport">
+    <title>UniQuiz - Unified Learning App</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed": "#410002",
+                        "secondary-fixed": "#95f8a7",
+                        "error": "#ba1a1a",
+                        "on-background": "#191c1e",
+                        "on-primary-fixed-variant": "#2f2ebe",
+                        "surface-container-low": "#f2f4f6",
+                        "on-secondary-fixed-variant": "#005323",
+                        "on-secondary": "#ffffff",
+                        "surface-tint": "#494bd6",
+                        "primary-container": "#6063ee",
+                        "surface-container-highest": "#e0e3e5",
+                        "on-tertiary-fixed-variant": "#93000b",
+                        "on-secondary-fixed": "#00210a",
+                        "tertiary-container": "#d9352f",
+                        "tertiary-fixed": "#ffdad6",
+                        "tertiary-fixed-dim": "#ffb4ab",
+                        "primary": "#4648d4",
+                        "inverse-surface": "#2d3133",
+                        "surface-container-high": "#e6e8ea",
+                        "on-secondary-container": "#007233",
+                        "secondary-fixed-dim": "#79db8d",
+                        "on-tertiary-container": "#fffbff",
+                        "primary-fixed": "#e1e0ff",
+                        "secondary": "#006d30",
+                        "background": "#f7f9fb",
+                        "surface-variant": "#e0e3e5",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-container": "#fffbff",
+                        "surface": "#f7f9fb",
+                        "surface-bright": "#f7f9fb",
+                        "on-tertiary": "#ffffff",
+                        "outline-variant": "#c7c4d7",
+                        "on-primary-fixed": "#07006c",
+                        "on-error-container": "#93000a",
+                        "outline": "#767586",
+                        "primary-fixed-dim": "#c0c1ff",
+                        "secondary-container": "#92f5a4",
+                        "tertiary": "#b6191a",
+                        "on-surface-variant": "#464554",
+                        "on-primary": "#ffffff",
+                        "on-surface": "#191c1e",
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#eff1f3",
+                        "error-container": "#ffdad6",
+                        "surface-container": "#eceef0",
+                        "inverse-primary": "#c0c1ff",
+                        "surface-dim": "#d8dadc"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "16px",
+                        "3xl": "24px",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "sm": "12px",
+                        "xl": "32px",
+                        "margin-mobile": "20px",
+                        "gutter": "16px",
+                        "margin-desktop": "40px",
+                        "lg": "24px",
+                        "base": "4px",
+                        "md": "16px",
+                        "xs": "8px"
+                    },
+                    "fontFamily": {
+                        "title-lg": ["Cairo"],
+                        "caption": ["Cairo"],
+                        "label-md": ["Cairo"],
+                        "body-lg": ["Cairo"],
+                        "body-md": ["Cairo"],
+                        "display-lg-mobile": ["Cairo"],
+                        "display-lg": ["Cairo"],
+                        "headline-md": ["Cairo"]
+                    },
+                    "fontSize": {
+                        "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+                        "display-lg": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+            min-height: 100dvh;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .correct-choice {
+            background-color: #15803D !important;
+            color: white !important;
+            border-color: #15803D !important;
+        }
+
+        .incorrect-choice {
+            background-color: #B91C1C !important;
+            color: white !important;
+            border-color: #B91C1C !important;
+        }
+
+        .disabled-choice {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .perspective {
+            perspective: 1000px;
+        }
+
+        .card-inner {
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-style: preserve-3d;
+        }
+
+        .card-inner.is-flipped {
+            transform: rotateY(180deg);
+        }
+
+        .card-front,
+        .card-back {
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+        }
+
+        .glass-sheet,
+        .glass-card,
+        .custom-glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 16px;
+        }
+
+        @media (min-width: 768px) {
+            .bento-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #c7c4d7;
+            border-radius: 10px;
+        }
+
+        .scroll-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scroll-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        @keyframes scaleIn {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .animate-scale-in {
+            animation: scaleIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .confetti-piece {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div id="app-container">
-    
-    <div id="setup-screen" class="screen">
-        <div class="header-box animate-pop">
-            <button class="icon-btn" id="theme-toggle-btn" onclick="toggleTheme()" style="position: absolute; top: 20px; left: 20px; z-index: 10;">🌙</button>
-            <div class="logo-area">🚀</div>
-            <h2>المواد الدراسية</h2>
-            <p class="subtitle">اختر مادة وابدأ رحلة التعلم</p>
+<body class="bg-background text-on-background min-h-screen flex flex-col relative">
+
+    <!-- Top App Bar (Consistent placement across all views) -->
+    <header
+        class="bg-surface shadow-sm sticky top-0 z-50 flex justify-between items-center w-full px-margin-mobile h-16">
+        <div class="flex items-center gap-3">
+            <button onclick="goBackToSubjects()" class="icon-btn glass-btn">🏠</button>
+            <h1 class="font-display-lg-mobile text-display-lg-mobile font-bold text-primary cursor-pointer"
+                onclick="goBackToSubjects()">UniQuiz</h1>
         </div>
-
-       <!-- Replace the existing #subject-list div in setup-screen with this structure -->
-<div id="years-container" class="subject-grid">
-    <div class="loader" style="text-align: center; color: var(--primary); padding: 20px;">جاري التحقق من الفصول الدراسية...</div>
-</div>
-
-<div id="subject-list" class="subject-grid hidden">
-    <!-- Sync button injected here dynamically -->
-</div>
-
-        <!-- قسم إعدادات المزامنة (مخفي افتراضياً) -->
-        <div id="sync-settings-container" class="hidden">
-            <h3 id="sync-status">المزامنة معطلة</h3>
-            <p class="note">لحفظ تقدمك عبر الأجهزة، قم بربط حسابك في GitHub. <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens" target="_blank">كيفية إنشاء توكن</a> (اختر `repo` scope).</p>
-            <div class="form-group">
-                <label for="sync-enabled">تفعيل المزامنة</label>
-                <input type="checkbox" id="sync-enabled">
-            </div>
-            <div class="form-group">
-                <label for="sync-username">اسم مستخدم GitHub</label>
-                <input type="text" id="sync-username" placeholder="e.g., MostafaAomar">
-            </div>
-            <div class="form-group">
-                <label for="sync-repo">اسم المستودع (Repository)</label>
-                <input type="text" id="sync-repo" placeholder="e.g., uni-progress">
-            </div>
-            <div class="form-group">
-                <label for="sync-token">توكن الوصول الشخصي (PAT)</label>
-                <input type="password" id="sync-token" placeholder="يبدأ بـ ghp_...">
-            </div>
-            <button class="action-btn" onclick="saveSyncConfig()">حفظ الإعدادات</button>
-            <button class="secondary-btn" onclick="toggleSyncSettings()">إغلاق</button>
+        <div class="flex items-center gap-1">
+            <button onclick="fullReset()"
+                class="material-symbols-outlined text-error hover:bg-error-container/20 transition-colors p-2 rounded-full active:scale-95 duration-200"
+                title="Reset App">restart_alt</button>
+            <button onclick="toggleTheme()"
+                class="material-symbols-outlined text-primary hover:bg-surface-container transition-colors p-2 rounded-full active:scale-95 duration-200"
+                title="Toggle Theme">dark_mode</button>
         </div>
+    </header>
 
-        <div class="footer-controls">
-            <button class="danger-text-btn" onclick="fullReset()">إعادة ضبط التطبيق 🗑️</button>
-        </div>
+    <div id="view-subjects" class="view-screen flex-1 flex flex-col pb-12">
+        <main class="px-margin-mobile pt-lg max-w-2xl mx-auto w-full">
+            <section class="mb-lg">
+                <div id="years-container" class="flex gap-3 overflow-x-auto pb-2 custom-scrollbar">
+                    <button
+                        class="year-btn whitespace-nowrap px-6 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-transform"
+                        data-year="First Year">First Year</button>
+                </div>
+            </section>
+
+
+
+
+            <!-- Replace the existing #subject-list div in setup-screen with this structure -->
+            <div id="years-container" class="subject-grid">
+                <div class="loader" style="text-align: center; color: var(--primary); padding: 20px;">جاري
+                    التحقق من
+                    الفصول الدراسية...</div>
+            </div>
+
+            <div id="subject-list" class="subject-grid hidden">
+                <!-- Sync button injected here dynamically -->
+            </div>
+
+            <!-- قسم إعدادات المزامنة (مخفي افتراضياً) -->
+            <div id="sync-settings-container" class="hidden">
+                <h3 id="sync-status">المزامنة معطلة</h3>
+                <p class="note">لحفظ تقدمك عبر الأجهزة، قم بربط حسابك في GitHub. <a
+                        href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens"
+                        target="_blank">كيفية إنشاء توكن</a> (اختر `repo` scope).</p>
+                <div class="form-group">
+                    <label for="sync-enabled">تفعيل المزامنة</label>
+                    <input type="checkbox" id="sync-enabled">
+                </div>
+                <div class="form-group">
+                    <label for="sync-username">اسم مستخدم GitHub</label>
+                    <input type="text" id="sync-username" placeholder="e.g., MostafaAomar">
+                </div>
+                <div class="form-group">
+                    <label for="sync-repo">اسم المستودع (Repository)</label>
+                    <input type="text" id="sync-repo" placeholder="e.g., uni-progress">
+                </div>
+                <div class="form-group">
+                    <label for="sync-token">توكن الوصول الشخصي (PAT)</label>
+                    <input type="password" id="sync-token" placeholder="يبدأ بـ ghp_...">
+                </div>
+                <button class="action-btn" onclick="saveSyncConfig()">حفظ الإعدادات</button>
+                <button class="secondary-btn" onclick="toggleSyncSettings()">إغلاق</button>
+            </div>
+
+            <div class="footer-controls">
+                <button class="danger-text-btn" onclick="fullReset()">إعادة ضبط التطبيق 🗑️</button>
+            </div>
     </div>
 
     <div id="mode-screen" class="screen hidden">
@@ -81,7 +329,9 @@
             <button onclick="goBackToSubjects()" class="icon-btn glass-btn">🏠</button>
             <div class="progress-pill">
                 <span id="study-count">0/0</span>
-                <div class="mini-bar"><div id="study-progress-bar" class="fill"></div></div>
+                <div class="mini-bar">
+                    <div id="study-progress-bar" class="fill"></div>
+                </div>
             </div>
         </div>
 
@@ -106,10 +356,12 @@
         <div class="controls-area">
             <div class="voice-row">
                 <button class="icon-btn round" onclick="speakCurrent()">🔊</button>
-                <button class="icon-btn round" onclick="analyzeCurrentQuestion('study')" title="تحليل صوتي للجملة">🧪</button>
-                <input type="range" class="slider" min="0.5" max="1.5" step="0.1" value="0.8" oninput="syncSpeed(this.value)">
+                <button class="icon-btn round" onclick="analyzeCurrentQuestion('study')"
+                    title="تحليل صوتي للجملة">🧪</button>
+                <input type="range" class="slider" min="0.5" max="1.5" step="0.1" value="0.8"
+                    oninput="syncSpeed(this.value)">
             </div>
-            
+
             <div class="notes-row">
                 <input type="text" id="note-input" placeholder="اكتب ملاحظة..." class="glass-input">
                 <button onclick="saveUserNote()" class="small-btn">حفظ</button>
@@ -124,12 +376,14 @@
     </div>
 
     <!-- Interim result modal -->
-    <div id="interim-modal" class="screen hidden" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-dark); z-index: 9999; justify-content: center; align-items: center; padding: 20px;">
+    <div id="interim-modal" class="screen hidden"
+        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-dark); z-index: 9999; justify-content: center; align-items: center; padding: 20px;">
         <div class="result-card animate-pop" style="width: 100%;">
             <div class="trophy">📊</div>
             <h2>نتيجتك حتى الآن</h2>
             <div id="interim-stats" class="stats-box"></div>
-            <button onclick="document.getElementById('interim-modal').classList.add('hidden')" class="action-btn full-width">متابعة الاختبار</button>
+            <button onclick="document.getElementById('interim-modal').classList.add('hidden')"
+                class="action-btn full-width">متابعة الاختبار</button>
         </div>
     </div>
 
@@ -138,7 +392,9 @@
             <button onclick="goBackToSubjects()" class="icon-btn glass-btn">🏠</button>
             <div class="progress-pill">
                 <span id="quiz-count-display">0/0</span>
-                <div class="mini-bar"><div id="quiz-progress-bar" class="fill"></div></div>
+                <div class="mini-bar">
+                    <div id="quiz-progress-bar" class="fill"></div>
+                </div>
             </div>
         </div>
 
@@ -150,16 +406,18 @@
             <div id="options-container" class="options-list"></div>
             <div id="quiz-feedback" class="feedback-toast hidden"></div>
         </div>
-        
+
         <div id="quiz-displayArea" class="phonetics-area"></div>
 
         <div class="controls-area">
             <div class="voice-row">
                 <button class="icon-btn round" onclick="speakCurrent()">🔊</button>
-                <button class="icon-btn round" onclick="analyzeCurrentQuestion('quiz')" title="تحليل صوتي للجملة">🧪</button>
-                <input type="range" class="slider" min="0.5" max="1.5" step="0.1" value="0.8" oninput="syncSpeed(this.value)">
+                <button class="icon-btn round" onclick="analyzeCurrentQuestion('quiz')"
+                    title="تحليل صوتي للجملة">🧪</button>
+                <input type="range" class="slider" min="0.5" max="1.5" step="0.1" value="0.8"
+                    oninput="syncSpeed(this.value)">
             </div>
-            
+
             <div class="notes-row">
                 <input type="text" id="quiz-note-input" placeholder="اكتب ملاحظة..." class="glass-input">
                 <button onclick="saveUserNote()" class="small-btn">حفظ</button>
@@ -169,7 +427,9 @@
 
         <div class="bottom-nav">
             <button class="nav-btn prev" onclick="prevQuestion()">السابق</button>
-            <button id="interim-result-btn" class="nav-btn ghost-btn hidden" onclick="showInterimResult()" style="margin-top: 0; border-color: var(--success) !important; color: var(--success);">عرض نتيجتي</button>
+            <button id="interim-result-btn" class="nav-btn ghost-btn hidden" onclick="showInterimResult()"
+                style="margin-top: 0; border-color: var(--success) !important; color: var(--success);">عرض
+                نتيجتي</button>
             <button class="nav-btn next" onclick="nextQuestion()">التالي</button>
         </div>
     </div>
@@ -190,9 +450,12 @@
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6">
                     <div class="dictionary-widget">
-                        <input type="text" id="wordInput" class="form-control mb-3 glass-input text-center" placeholder="اكتب كلمة للبحث..." autocomplete="off" aria-label="Enter word for definition">
-                        <div id="dictionaryOutput" class="dictionary-output border p-3 rounded bg-white min-height-100 dark-output">
-                            <p class="text-muted" style="text-align: center;">أدخل كلمة في الأعلى لرؤية معناها.</p>
+                        <input type="text" id="wordInput" class="form-control mb-3 glass-input text-center"
+                            placeholder="اكتب كلمة للبحث..." autocomplete="off" aria-label="Enter word for definition">
+                        <div id="dictionaryOutput"
+                            class="dictionary-output border p-3 rounded bg-white min-height-100 dark-output">
+                            <p class="text-muted" style="text-align: center;">أدخل كلمة في الأعلى لرؤية
+                                معناها.</p>
                         </div>
                     </div>
                 </div>
@@ -200,8 +463,9 @@
         </div>
     </section>
 
-</div>
+    </div>
 
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
