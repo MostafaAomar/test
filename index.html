@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#4648d4">
     <title>UniQuiz - Unified Learning App</title>
+    <script src="https://jsdelivr.net"></script>
 
     <!-- Existing application styles and the visual system from t.html -->
     <link rel="stylesheet" href="style.css">
@@ -1526,6 +1527,7 @@
         </div>
     </div>
 
+
     <script src="app.js"></script>
     <script>
         // Small compatibility helpers for visual-only elements introduced by t.html.
@@ -1574,15 +1576,6 @@
             event.currentTarget.href = "https://chat.whatsapp.com/K1rG3xwihbv0hFgwpPj3zz?s=cl&p=a&ilr=1";
         }
 
-        function decorateYears() {
-            const yearsContainer = document.getElementById("years-container");
-            if (!yearsContainer) return;
-            const yearButtons = [...yearsContainer.querySelectorAll(".year-btn")];
-            if (yearButtons.length && !yearsContainer.querySelector(".active-year")) {
-                yearButtons[0].classList.add("active-year");
-            }
-        }
-
         function refreshSubjectsDashboard() {
             const cards = [...document.querySelectorAll(
                 "#search-results-container > .subject-btn:not(.search-result-item)"
@@ -1610,11 +1603,6 @@
                     button.classList.toggle("active-year", button === yearButton);
                 });
             });
-
-            new MutationObserver(decorateYears).observe(yearsContainer, {
-                childList: true,
-                subtree: true
-            });
         }
 
         const subjectList = document.getElementById("subject-list");
@@ -1640,7 +1628,6 @@
             });
         }
 
-        decorateYears();
         refreshSubjectsDashboard();
         renderThemeButton();
 
