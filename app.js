@@ -842,8 +842,16 @@ function goBackToSubjects() {
     // Reset internal view containers for setup-screen
     const yearsContainer = document.getElementById('years-container');
     const subjectList = document.getElementById('subject-list');
-    if (yearsContainer) yearsContainer.classList.remove('hidden');
-    if (subjectList) subjectList.classList.add('hidden');
+    if (yearsContainer) {
+        yearsContainer.classList.remove('hidden');
+        yearsContainer.querySelectorAll('.year-btn').forEach(button => {
+            button.classList.remove('active-year');
+        });
+    }
+    if (subjectList) {
+        subjectList.classList.add('hidden');
+        subjectList.innerHTML = '';
+    }
 
     showScreen('setup');
 }
@@ -1400,7 +1408,6 @@ function renderDynamicYears(files, owner, repo) {
 }
 
 async function loadYearData(yearName, files, owner, repo) {
-    document.getElementById('years-container').classList.add('hidden');
     const subjectList = document.getElementById('subject-list');
     subjectList.classList.remove('hidden');
 
@@ -1443,8 +1450,15 @@ function renderSubjectListWithSync(yearName, files, owner, repo) {
 }
 
 function backToYears() {
-    document.getElementById('subject-list').classList.add('hidden');
-    document.getElementById('years-container').classList.remove('hidden');
+    const subjectList = document.getElementById('subject-list');
+    const yearsContainer = document.getElementById('years-container');
+
+    subjectList.classList.add('hidden');
+    subjectList.innerHTML = '';
+    yearsContainer.classList.remove('hidden');
+    yearsContainer.querySelectorAll('.year-btn').forEach(button => {
+        button.classList.remove('active-year');
+    });
     quizData = [];
 }
 
@@ -1569,7 +1583,6 @@ function renderDynamicYears(files, owner, repo) {
 }
 
 async function loadYearData(yearName, files, owner, repo) {
-    document.getElementById('years-container').classList.add('hidden');
     const subjectList = document.getElementById('subject-list');
     subjectList.classList.remove('hidden');
 
@@ -1580,24 +1593,8 @@ async function loadYearData(yearName, files, owner, repo) {
         quizData = JSON.parse(savedData);
         renderSubjectListWithSync(yearName, files, owner, repo); // عرض المواد مباشرة من الذاكرة
     } else {
-        // إذا لم تكن البيانات محملة، نعرض زر التحميل بدلاً من التحميل التلقائي
-        subjectList.innerHTML = `
-            <div class="year-header">
-                <h3 style="margin:0;">${yearName}</h3>
-                <button onclick="backToYears()" class="small-btn ghost-btn" style="margin:0;">العودة</button>
-            </div>
-            <div style="padding: 20px; text-align: center;">
-                <p style="margin-bottom: 20px; color: var(--text-muted);">بيانات هذه السنة غير محملة. قم بتحميلها للوصول إلى المواد.</p>
-                <button id="download-year-btn" class="action-btn" style="width: 100%; max-width: 300px;">
-                    تحميل بيانات السنة لأول مرة
-                </button>
-            </div>
-        `;
-        document.getElementById('download-year-btn').onclick = () => {
-            document.getElementById('download-year-btn').innerHTML = 'جاري التحميل...';
-            document.getElementById('download-year-btn').disabled = true;
-            fetchAndMergeYearData(yearName, files, owner, repo, true);
-        };
+        subjectList.innerHTML = '<div class="loader" style="text-align: center;">جاري تحميل بيانات السنة لأول مرة...</div>';
+        await fetchAndMergeYearData(yearName, files, owner, repo, true);
     }
 }
 
@@ -1628,8 +1625,15 @@ function renderSubjectListWithSync(yearName, files, owner, repo) {
 }
 
 function backToYears() {
-    document.getElementById('subject-list').classList.add('hidden');
-    document.getElementById('years-container').classList.remove('hidden');
+    const subjectList = document.getElementById('subject-list');
+    const yearsContainer = document.getElementById('years-container');
+
+    subjectList.classList.add('hidden');
+    subjectList.innerHTML = '';
+    yearsContainer.classList.remove('hidden');
+    yearsContainer.querySelectorAll('.year-btn').forEach(button => {
+        button.classList.remove('active-year');
+    });
     quizData = [];
 }
 
