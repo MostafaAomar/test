@@ -15,6 +15,7 @@ const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/test';
 
 const screens = {
     setup: document.getElementById('setup-screen'),
+    vocabulary: document.getElementById('vocabulary-screen'),
     mode: document.getElementById('mode-screen'),
     quiz: document.getElementById('quiz-screen'),
     study: document.getElementById('study-screen'),
@@ -263,8 +264,8 @@ function getSubjectProgress(subjectName, totalQuestions) {
         }
     });
 
-    let percentage = (maxProgress / totalQuestions) * 100;
-    return Math.min(100, Math.max(0, percentage));
+    const percentage = (maxProgress / totalQuestions) * 100;
+    return Math.round(Math.min(100, Math.max(0, percentage)));
 }
 
 function renderSubjectList() {
@@ -323,6 +324,7 @@ async function processJsonFiles(files, type, githubInfo = {}) {
                 quizData.push({
                     id: fileName,
                     subject: (data.subject || fileName.replace('.json', '').split('/').pop()).trim(),
+                    description: typeof data.description === 'string' ? data.description.trim() : '',
                     lang: data.lang || 'en',
                     questions: data.questions
                 });
@@ -391,6 +393,16 @@ function performSearch(term, container) {
     });
 }
 
+function escapeCardHTML(value) {
+    return String(value ?? '').replace(/[&<>"']/g, character => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+    })[character]);
+}
+
 function renderAllSubjects(container) {
     container.innerHTML = "";
     if (quizData.length === 0) {
@@ -403,20 +415,22 @@ function renderAllSubjects(container) {
         btn.className = 'subject-btn';
         btn.dir = data.lang === 'ar' ? 'rtl' : 'ltr';
         const progressPercent = getSubjectProgress(data.id, data.questions.length);
+        const description = data.description || (data.lang === 'ar'
+            ? 'لا يوجد وصف متاح لهذه المادة.'
+            : 'No description is available for this subject.');
+        const questionCount = data.lang === 'ar'
+            ? `${data.questions.length} سؤال`
+            : `${data.questions.length} Questions`;
         btn.innerHTML = `
         <div onclick="switchView('view-modes')"
                         class="glass-card rounded-3xl p-md flex flex-col gap-sm shadow-sm hover:shadow-lg transition-all cursor-pointer group active:scale-95">
-                        <div
-                            class="w-12 h-12 rounded-2xl bg-primary-container/10 flex items-center justify-center mb-xs">
-                            <span class="material-symbols-outlined text-primary">arched_word</span>
-                        </div>
                         <div>
-                            <h3 class="font-title-lg text-title-lg mb-1 leading-tight">${data.subject}</h3>
-                            <p class="font-caption text-caption text-on-surface-variant">${data.subject}</p>
+                            <h3 class="font-title-lg text-title-lg mb-1 leading-tight">${escapeCardHTML(data.subject)}</h3>
+                            <p class="subject-card-description font-caption text-caption text-on-surface-variant">${escapeCardHTML(description)}</p>
+                            <small class="subject-card-question-count">${escapeCardHTML(questionCount)}</small>
                         </div>
-                        <div class="mt-auto">
-                            <div class="flex justify-between font-label-md text-label-md mb-2">
-                                <span>Progress</span>
+                        <div class="subject-card-progress mt-auto" dir="ltr">
+                            <div class="flex justify-end font-label-md text-label-md mb-2">
                                 <span class="text-primary">${progressPercent}%</span>
                             </div>
                             <div class="w-full h-2 bg-surface-container-highest rounded-full overflow-hidden">
@@ -697,9 +711,23 @@ async function analyzeCurrentQuestion(currentMode) {
         const clean = word.replace(/[^\w]/g, '');
         if (clean) {
             try {
-                const resp = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${clean}`);
+                const params = new URLSearchParams({
+                    sp: clean,
+                    qe: 'sp',
+                    md: 'r',
+                    ipa: '1',
+                    max: '1'
+                });
+                const resp = await fetch(`https://api.datamuse.com/words?${params}`, {
+                    mode: 'cors',
+                    credentials: 'omit'
+                });
+                if (!resp.ok) throw new Error(`Pronunciation lookup failed (${resp.status})`);
+
                 const data = await resp.json();
-                let phonetic = data[0]?.phonetic || (data[0]?.phonetics?.find(p => p.text)?.text) || clean;
+                const tags = data[0]?.tags || [];
+                const ipaTag = tags.find(tag => tag.startsWith('ipa_pron:'));
+                const phonetic = ipaTag ? ipaTag.slice('ipa_pron:'.length).trim() : clean;
                 ipaParts.push(phonetic.replace(/\//g, ''));
             } catch (e) {
                 ipaParts.push(clean);
@@ -840,38 +868,325 @@ function fullReset() {
     }
 }
 
+/* ==========================================
+   8. مدير المفردات المحفوظة محلياً
+   ========================================== */
+const VOCABULARY_STORAGE_KEY = 'uniquiz_vocabulary_entries_v1';
+let vocabularyEditingId = null;
+
+function getVocabularyEntries() {
+    try {
+        const storedEntries = JSON.parse(localStorage.getItem(VOCABULARY_STORAGE_KEY) || '[]');
+        if (!Array.isArray(storedEntries)) return [];
+
+        return storedEntries.filter(entry =>
+            entry &&
+            typeof entry.id === 'string' &&
+            typeof entry.word === 'string' &&
+            typeof entry.meaning === 'string'
+        );
+    } catch (error) {
+        console.warn('Could not read saved vocabulary:', error);
+        return [];
+    }
+}
+
+function setVocabularyStatus(message, type = '') {
+    const status = document.getElementById('vocabulary-form-status');
+    if (!status) return;
+    status.textContent = message;
+    status.className = `vocabulary-form-status ${type}`.trim();
+}
+
+function persistVocabularyEntries(entries) {
+    try {
+        localStorage.setItem(VOCABULARY_STORAGE_KEY, JSON.stringify(entries));
+        return true;
+    } catch (error) {
+        console.error('Could not save vocabulary:', error);
+        setVocabularyStatus('The word could not be saved. Please check your browser storage settings.', 'error');
+        return false;
+    }
+}
+
+function resetVocabularyForm(clearStatus = true) {
+    vocabularyEditingId = null;
+    const form = document.getElementById('vocabulary-form');
+    const submitButton = document.getElementById('vocabulary-submit');
+    const cancelButton = document.getElementById('vocabulary-cancel');
+
+    if (form) form.reset();
+    if (submitButton) {
+        submitButton.innerHTML = '<span class="material-symbols-outlined"></span><span>حفظ الكلمة</span>';
+    }
+    if (cancelButton) cancelButton.classList.add('hidden');
+    if (clearStatus) setVocabularyStatus('');
+}
+
+function createVocabularyActionButton(label, icon, className, handler) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = `vocabulary-row-action ${className}`;
+    button.setAttribute('aria-label', label);
+    button.title = label;
+
+    const iconElement = document.createElement('span');
+    iconElement.className = 'material-symbols-outlined';
+    iconElement.textContent = icon;
+
+    const labelElement = document.createElement('span');
+    labelElement.className = 'vocabulary-action-label';
+    labelElement.textContent = label;
+
+    button.append(iconElement, labelElement);
+    button.addEventListener('click', handler);
+    return button;
+}
+
+function renderVocabularyTable() {
+    const tableBody = document.getElementById('vocabulary-table-body');
+    const tableWrapper = document.getElementById('vocabulary-table-wrapper');
+    const emptyState = document.getElementById('vocabulary-empty');
+    const count = document.getElementById('vocabulary-count');
+    if (!tableBody || !tableWrapper || !emptyState) return;
+
+    const entries = getVocabularyEntries();
+    tableBody.replaceChildren();
+
+    if (count) count.textContent = `${entries.length} ${entries.length === 1 ? 'word' : 'words'}`;
+    tableWrapper.classList.toggle('hidden', entries.length === 0);
+    emptyState.classList.toggle('hidden', entries.length > 0);
+
+    entries.forEach(entry => {
+        const row = document.createElement('tr');
+
+        const wordCell = document.createElement('td');
+        wordCell.className = 'vocabulary-word-cell';
+        wordCell.textContent = entry.word;
+
+        const meaningCell = document.createElement('td');
+        meaningCell.className = 'vocabulary-meaning-cell';
+        meaningCell.textContent = entry.meaning;
+
+        const actionCell = document.createElement('td');
+        actionCell.className = 'vocabulary-row-actions';
+        actionCell.append(
+            createVocabularyActionButton('Edit', 'edit', 'edit', () => editVocabularyEntry(entry.id)),
+            createVocabularyActionButton('Delete', 'delete', 'delete', () => deleteVocabularyEntry(entry.id))
+        );
+
+        row.append(wordCell, meaningCell, actionCell);
+        tableBody.appendChild(row);
+    });
+}
+
+function retrieveData() {
+    resetVocabularyForm();
+    renderVocabularyTable();
+    showScreen('vocabulary');
+}
+
+function saveVocabularyEntry(event) {
+    event?.preventDefault();
+    const wordInput = document.getElementById('vocabulary-word');
+    const meaningInput = document.getElementById('vocabulary-meaning');
+    const word = wordInput?.value.trim() || '';
+    const meaning = meaningInput?.value.trim() || '';
+
+    if (!word || !meaning) {
+        setVocabularyStatus('Please enter both the word and its meaning.', 'error');
+        (!word ? wordInput : meaningInput)?.focus();
+        return;
+    }
+
+    const entries = getVocabularyEntries();
+    const wasEditing = Boolean(vocabularyEditingId);
+
+    if (wasEditing) {
+        const entryIndex = entries.findIndex(entry => entry.id === vocabularyEditingId);
+        if (entryIndex === -1) {
+            resetVocabularyForm(false);
+            setVocabularyStatus('This entry no longer exists.', 'error');
+            renderVocabularyTable();
+            return;
+        }
+        entries[entryIndex] = {
+            ...entries[entryIndex],
+            word,
+            meaning,
+            updatedAt: new Date().toISOString()
+        };
+    } else {
+        const id = window.crypto?.randomUUID
+            ? window.crypto.randomUUID()
+            : `word_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+        entries.unshift({
+            id,
+            word,
+            meaning,
+            createdAt: new Date().toISOString()
+        });
+    }
+
+    if (!persistVocabularyEntries(entries)) return;
+    resetVocabularyForm(false);
+    renderVocabularyTable();
+    setVocabularyStatus(wasEditing ? 'Entry updated successfully.' : 'Word saved successfully.', 'success');
+    wordInput?.focus();
+}
+
+function editVocabularyEntry(id) {
+    const entry = getVocabularyEntries().find(item => item.id === id);
+    if (!entry) {
+        setVocabularyStatus('This entry no longer exists.', 'error');
+        renderVocabularyTable();
+        return;
+    }
+
+    vocabularyEditingId = id;
+    const wordInput = document.getElementById('vocabulary-word');
+    const meaningInput = document.getElementById('vocabulary-meaning');
+    const submitButton = document.getElementById('vocabulary-submit');
+    const cancelButton = document.getElementById('vocabulary-cancel');
+
+    if (wordInput) wordInput.value = entry.word;
+    if (meaningInput) meaningInput.value = entry.meaning;
+    if (submitButton) {
+        submitButton.innerHTML = '<span class="material-symbols-outlined">check</span><span>Update entry</span>';
+    }
+    if (cancelButton) cancelButton.classList.remove('hidden');
+    setVocabularyStatus(`Editing “${entry.word}”.`, 'editing');
+    wordInput?.focus();
+    document.getElementById('vocabulary-form')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function cancelVocabularyEdit() {
+    resetVocabularyForm();
+    document.getElementById('vocabulary-word')?.focus();
+}
+
+function deleteVocabularyEntry(id) {
+    const entries = getVocabularyEntries();
+    const entry = entries.find(item => item.id === id);
+    if (!entry) {
+        setVocabularyStatus('This entry no longer exists.', 'error');
+        renderVocabularyTable();
+        return;
+    }
+
+    if (!confirm(`Delete “${entry.word}”?`)) return;
+    const remainingEntries = entries.filter(item => item.id !== id);
+    if (!persistVocabularyEntries(remainingEntries)) return;
+
+    if (vocabularyEditingId === id) resetVocabularyForm(false);
+    renderVocabularyTable();
+    setVocabularyStatus('Entry deleted.', 'success');
+}
+
 window.onload = init;
 
 /* ==========================================
-   8. القاموس المدمج الذكي - (English-English Dictionary)
+   9. القاموس المدمج الذكي - (English-English Dictionary)
    ========================================== */
 document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/test/refs/heads/main/myOwnDic.json';
-    const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
+    const localDictionaryPaths = [
+        './myOwnDic.json',
+        'https://raw.githubusercontent.com/MostafaAomar/test/main/myOwnDic.json'
+    ];
+    // Datamuse supplies definitions and IPA metadata and permits browser CORS requests.
+    const apiEndpoint = 'https://api.datamuse.com/words';
 
     let dictionaryData = [];
     let isDictionaryLoaded = false;
     let isLoadingDictionary = false;
+    let dictionaryLoadPromise = null;
+    let latestSearchId = 0;
 
     async function loadLocalDictionary() {
-        try {
-            const res = await fetch(localDictionaryPath);
-            if (!res.ok) return [];
-            const data = await res.json();
-            return Array.isArray(data) ? data : [];
-        } catch (error) {
-            console.warn('Dictionary skipped:', error);
+        if (isDictionaryLoaded) return dictionaryData;
+        if (dictionaryLoadPromise) return dictionaryLoadPromise;
+
+        isLoadingDictionary = true;
+        dictionaryLoadPromise = (async () => {
+            for (const path of localDictionaryPaths) {
+                try {
+                    const response = await fetch(`${path}${path.includes('?') ? '&' : '?'}t=${Date.now()}`);
+                    if (!response.ok) continue;
+
+                    const data = await response.json();
+                    if (Array.isArray(data)) return data;
+                } catch (error) {
+                    console.warn(`Dictionary source unavailable: ${path}`, error);
+                }
+            }
             return [];
+        })();
+
+        try {
+            dictionaryData = await dictionaryLoadPromise;
+            return dictionaryData;
+        } finally {
+            isDictionaryLoaded = true;
+            isLoadingDictionary = false;
+            dictionaryLoadPromise = null;
         }
     }
 
     function searchLocalDictionary(word) {
-        if (!isDictionaryLoaded || dictionaryData.length === 0) return undefined;
+        if (dictionaryData.length === 0) return undefined;
         const searchTerm = word.trim().toLowerCase();
-        return dictionaryData.find(entry => entry.word.toLowerCase() === searchTerm);
+        return dictionaryData.find(entry => entry.word?.trim().toLowerCase() === searchTerm);
+    }
+
+    function convertDatamuseEntry(entry, searchTerm) {
+        if (!entry || !Array.isArray(entry.defs) || entry.defs.length === 0) return null;
+
+        const partOfSpeechNames = {
+            n: 'noun',
+            v: 'verb',
+            adj: 'adjective',
+            adv: 'adverb',
+            u: 'other'
+        };
+        const definitionsByPartOfSpeech = new Map();
+
+        entry.defs.forEach(rawDefinition => {
+            if (typeof rawDefinition !== 'string') return;
+            const separatorIndex = rawDefinition.indexOf('\t');
+            const code = separatorIndex >= 0 ? rawDefinition.slice(0, separatorIndex).trim() : 'u';
+            const definition = (separatorIndex >= 0
+                ? rawDefinition.slice(separatorIndex + 1)
+                : rawDefinition).trim();
+
+            if (!definition) return;
+            const partOfSpeech = partOfSpeechNames[code] || code || 'other';
+            if (!definitionsByPartOfSpeech.has(partOfSpeech)) {
+                definitionsByPartOfSpeech.set(partOfSpeech, []);
+            }
+            definitionsByPartOfSpeech.get(partOfSpeech).push({ definition });
+        });
+
+        if (definitionsByPartOfSpeech.size === 0) return null;
+
+        const tags = Array.isArray(entry.tags) ? entry.tags : [];
+        const ipaTag = tags.find(tag => tag.startsWith('ipa_pron:'));
+        const arpabetTag = tags.find(tag => tag.startsWith('pron:'));
+        const phonetic = ipaTag
+            ? `/${ipaTag.slice('ipa_pron:'.length).trim()}/`
+            : (arpabetTag ? arpabetTag.slice('pron:'.length).trim() : '');
+
+        return {
+            word: entry.word || searchTerm,
+            phonetic,
+            phonetics: [],
+            meanings: Array.from(definitionsByPartOfSpeech, ([partOfSpeech, definitions]) => ({
+                partOfSpeech,
+                definitions
+            }))
+        };
     }
 
     async function searchApiDictionary(word) {
@@ -880,12 +1195,61 @@ document.addEventListener('DOMContentLoaded', () => {
         dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">لم يتم العثور عليه محليًا، جار البحث عبر الإنترنت...</p>';
 
         try {
-            const response = await fetch(`${apiEndpoint}${encodeURIComponent(searchTerm)}`);
+            const params = new URLSearchParams({
+                sp: searchTerm,
+                qe: 'sp',
+                md: 'dpr',
+                ipa: '1',
+                max: '1'
+            });
+            const response = await fetch(`${apiEndpoint}?${params}`, {
+                mode: 'cors',
+                credentials: 'omit'
+            });
             if (!response.ok) return null;
             const data = await response.json();
-            return (data && data.length > 0) ? data[0] : null;
+            if (!Array.isArray(data) || data.length === 0) return null;
+
+            const exactMatch = data.find(entry =>
+                entry.word?.trim().toLowerCase() === searchTerm.toLowerCase()
+            ) || data[0];
+            return convertDatamuseEntry(exactMatch, searchTerm);
         } catch (error) {
+            console.warn('Online dictionary lookup failed:', error);
             return null;
+        }
+    }
+
+    function normalizeAudioUrl(url) {
+        if (!url || typeof url !== 'string') return '';
+        const trimmedUrl = url.trim();
+        if (trimmedUrl.startsWith('//')) return `https:${trimmedUrl}`;
+
+        try {
+            return new URL(trimmedUrl, window.location.href).href;
+        } catch (error) {
+            return '';
+        }
+    }
+
+    async function playDictionaryPronunciation(word, audioUrl) {
+        if (audioUrl) {
+            try {
+                const audio = new Audio(audioUrl);
+                audio.preload = 'auto';
+                await audio.play();
+                return;
+            } catch (error) {
+                console.warn('Dictionary MP3 playback failed; using browser speech instead.', error);
+            }
+        }
+
+        if ('speechSynthesis' in window) {
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(word);
+            utterance.lang = 'en-US';
+            utterance.rate = 0.9;
+            window.speechSynthesis.speak(utterance);
         }
     }
 
@@ -897,15 +1261,18 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        const word = entryData.word;
-        const phoneticText = entryData.phonetics?.find(p => p.text)?.text;
-        const audioUrl = entryData.phonetics?.find(p => p.audio)?.audio;
+        const word = entryData.word || searchTerm;
+        const phoneticText = entryData.phonetic || entryData.phonetics?.find(p => p.text)?.text;
+        const rawAudioUrl = entryData.phonetics?.find(p => typeof p.audio === 'string' && p.audio.trim())?.audio;
+        const audioUrl = normalizeAudioUrl(rawAudioUrl);
 
         let html = `<h4 class="mb-2" style="text-align:left; direction:ltr;">${escapeHTML(word)} ${phoneticText ? `<span class="text-muted fs-6">${escapeHTML(phoneticText)}</span>` : ''}</h4>`;
 
         if (audioUrl) {
-            html += `<div class="audio mb-3"><audio controls src="${escapeHTML(audioUrl)}">متصفحك لا يدعم الصوت.</audio></div>`;
+            html += `<div class="audio mb-3"><audio  preload="none" src="${escapeHTML(audioUrl)}">متصفحك لا يدعم الصوت.</audio></div>`;
         }
+
+        html += `<button type="button" class="small-btn dictionary-audio-btn">🔊 Play pronunciation</button>`;
 
         if (entryData.meanings && Array.isArray(entryData.meanings)) {
             entryData.meanings.forEach(meaning => {
@@ -924,35 +1291,38 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
         dictionaryOutput.innerHTML = html;
+
+        const audioButton = dictionaryOutput.querySelector('.dictionary-audio-btn');
+        if (audioButton) {
+            audioButton.addEventListener('click', () => playDictionaryPronunciation(word, audioUrl));
+        }
     }
 
     async function handleWordSearch() {
         if (!wordInput || !dictionaryOutput) return;
         const word = wordInput.value.trim();
+        const searchId = ++latestSearchId;
 
         if (word.length < 1) {
             dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">أدخل كلمة للبحث.</p>';
             return;
         }
 
-        if (!isDictionaryLoaded && !isLoadingDictionary) {
-            await loadLocalDictionary();
-        }
+        await loadLocalDictionary();
+        if (searchId !== latestSearchId) return;
 
         const localResult = searchLocalDictionary(word);
         if (localResult) {
             displayDefinition(localResult, word);
         } else {
             const apiResult = await searchApiDictionary(word);
+            if (searchId !== latestSearchId) return;
             displayDefinition(apiResult, word);
         }
     }
 
     if (wordInput && dictionaryOutput) {
-        (async () => {
-            dictionaryData = await loadLocalDictionary();
-            isDictionaryLoaded = true;
-        })();
+        loadLocalDictionary();
         wordInput.addEventListener('input', debounce(handleWordSearch, 350));
     }
 
@@ -1096,6 +1466,7 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
                 freshData.push({
                     id: file.path,
                     subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
+                    description: typeof data.description === 'string' ? data.description.trim() : '',
                     lang: data.lang || 'en',
                     questions: data.questions
                 });
@@ -1280,6 +1651,7 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
                 freshData.push({
                     id: file.path,
                     subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
+                    description: typeof data.description === 'string' ? data.description.trim() : '',
                     lang: data.lang || 'en',
                     questions: data.questions
                 });

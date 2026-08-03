@@ -305,6 +305,9 @@ input[type="text"] {
     font-size: 0.95rem;
     transition: all 0.25s ease;
     user-select: text;
+    font-weight: 900;
+    padding-left: 15%;
+
 }
 
 input[type="text"]:focus {
@@ -756,6 +759,7 @@ input[type="text"]:focus {
     font-size: 0.9rem;
     font-family: inherit;
     user-select: text;
+    direction: ltr;
 }
 
 .small-btn {
