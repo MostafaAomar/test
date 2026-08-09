@@ -352,6 +352,35 @@ Here is a complete mind map of every single function defined in the provided cod
 
 * **`handleWordSearch()`**: Manages the logic chain of searching when typing.
 
+**9. New-subject Update Notifications (تنبيهات المواد الجديدة)**
+
+* **`fetchRepositorySubjectIndex()`**: Loads one repository tree and groups subject JSON paths by year.
+* **`getLocallyKnownSubjectPaths(yearName)`**: Builds the local baseline used to identify only newly added subject files.
+* **`refreshYearUpdateControls()`**: Shows the year Update alert only when new subject paths are pending.
+* **`checkDownloadedYearsForNewSubjects(force)`**: Periodically compares downloaded years with the repository.
+* **`watchYearDownloadCompletion()`**: Clears and rechecks the alert after a successful year update.
+* **`bindYearUpdateNotifications()`**: Connects automatic checks to page, connection, and visibility events.
+
+**10. Cross-device Vocabulary & Notes (مزامنة الكلمات والملاحظات)**
+
+* **`collectLocalCloudData()`**: Collects vocabulary, notes, timestamps, and deletion markers without including credentials.
+* **`mergeCloudCollections(localData, remoteData)`**: Resolves multi-device changes using per-entry timestamps.
+* **`applyCloudDataLocally(data)`**: Applies merged words and notes to the existing localStorage format.
+* **`readVocabularyCloudFile(config)`**: Reads the private UniQuiz data file from the configured GitHub repository.
+* **`writeVocabularyCloudFile(config, data, sha)`**: Creates or updates the cloud data file using GitHub's Contents API.
+* **`syncVocabularyCloudData(showStatus)`**: Pulls, merges, applies, and uploads user data with conflict retry.
+* **`connectVocabularyCloudSync()`**: Saves the chosen login configuration and performs the first sync.
+* **`disconnectVocabularyCloudSync()`**: Removes the token from the current device while retaining local data.
+* **`bindVocabularyCloudSync()`**: Adds automatic synchronization after vocabulary/note changes and while online.
+
+**11. Automatic Daily Updates (التحديث التلقائي كل 24 ساعة)**
+
+* **`isAutomaticUpdateDue()`**: Checks the last successful run and the retry window before starting another update.
+* **`updateDownloadedYearInBackground(yearName)`**: Downloads new or changed subject files silently while preserving stable-ID progress and notes.
+* **`refreshApplicationShellInBackground()`**: Requests a fresh application shell from the service worker without clearing browser storage.
+* **`performAutomaticDailyUpdate(force)`**: Runs the complete online update for all downloaded years and the application shell.
+* **`bindAutomaticDailyUpdates()`**: Runs updates when due on startup, reconnect, visibility changes, hourly checks, and supported Periodic Background Sync events.
+
 
 * **`debounce(func, wait)`**: Rate-limits input to prevent API spam.
 

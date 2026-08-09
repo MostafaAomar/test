@@ -11,8 +11,8 @@
     <title>أسئلة الدورات السابقة</title>
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="icon" href="icon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="offline.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="offline.css?v=6">
+    <link rel="stylesheet" href="style.css?v=6">
     <link href="https://googleapis.com" rel="stylesheet">
 
 
@@ -1107,11 +1107,62 @@
                                 <p class="text-label-md font-semibold uppercase tracking-wider text-primary">قائمة
                                     الكلمات الشخصية</p>
                                 <h2 id="vocabulary-title">مفرداتي</h2>
-                                <p>احفظ الكلمات ومعانيها على هذا الجهاز، ثم قم بتعديلها أو حذفها متى شئت؛ ولكن إذا فتحت
-                                    التطبيق على جهاز جديد، فلن تتمكن من رؤيتها.
-                                </p>
+                                <p>احفظ كلماتك ومعانيها محليًا، ويمكنك تفعيل المزامنة الاختيارية لرؤيتها مع ملاحظاتك
+                                    على أكثر من جهاز.</p>
                             </div>
-                            <span id="vocabulary-count" class="vocabulary-count" aria-live="polite">0 words</span>
+                            <div class="vocabulary-heading-actions">
+                                <span id="vocabulary-count" class="vocabulary-count" aria-live="polite">0 words</span>
+                                <button id="vocabulary-sync-open" type="button" class="vocabulary-sync-open"
+                                    onclick="toggleVocabularyCloudSyncPanel()">
+                                    ☁️ تسجيل الدخول والمزامنة
+                                </button>
+                            </div>
+                        </section>
+
+                        <section id="vocabulary-cloud-panel" class="vocabulary-cloud-panel hidden"
+                            aria-labelledby="vocabulary-cloud-title">
+                            <div class="vocabulary-cloud-heading">
+                                <div>
+                                    <p class="vocabulary-cloud-kicker">مزامنة اختيارية بين الأجهزة</p>
+                                    <h3 id="vocabulary-cloud-title">تسجيل الدخول عبر GitHub</h3>
+                                </div>
+                                <button type="button" class="vocabulary-cloud-close"
+                                    onclick="toggleVocabularyCloudSyncPanel()" aria-label="إغلاق">×</button>
+                            </div>
+                            <p class="vocabulary-cloud-help">
+                                استخدم نفس الحساب والمستودع على كل جهاز. يجب أن يكون المستودع موجودًا، وأن يملك رمز
+                                الدخول صلاحية قراءة وكتابة محتوياته. لا يتم حفظ الرمز داخل ملف الكلمات والملاحظات.
+                                لا تكتب بريدك الإلكتروني أو كلمة مرور GitHub في هذه الخانات.
+                            </p>
+                            <div class="vocabulary-cloud-grid">
+                                <label>
+                                    <span>اسم مستخدم GitHub</span>
+                                    <input id="vocabulary-sync-username" type="text" class="glass-input"
+                                        autocomplete="username" placeholder="e.g. MostafaAomar">
+                                </label>
+                                <label>
+                                    <span>اسم المستودع</span>
+                                    <input id="vocabulary-sync-repo" type="text" class="glass-input"
+                                        autocomplete="off" placeholder="e.g. uniquiz-sync">
+                                </label>
+                                <label class="vocabulary-cloud-token-field">
+                                    <span>رمز وصول GitHub (PAT) — ليس كلمة المرور</span>
+                                    <input id="vocabulary-sync-token" type="password" class="glass-input"
+                                        autocomplete="new-password" placeholder="GitHub access token">
+                                </label>
+                            </div>
+                            <div class="vocabulary-cloud-actions">
+                                <button type="button" class="vocabulary-primary-btn"
+                                    onclick="connectVocabularyCloudSync()">تسجيل الدخول والمزامنة</button>
+                                <button id="vocabulary-sync-now" type="button"
+                                    class="vocabulary-secondary-btn hidden" onclick="syncVocabularyCloudNow()">مزامنة
+                                    الآن</button>
+                                <button id="vocabulary-sync-signout" type="button"
+                                    class="vocabulary-secondary-btn vocabulary-sync-signout hidden"
+                                    onclick="disconnectVocabularyCloudSync()">تسجيل الخروج</button>
+                            </div>
+                            <p id="vocabulary-cloud-status" class="vocabulary-cloud-status" role="status"
+                                aria-live="polite"></p>
                         </section>
 
                         <section class="vocabulary-panel" aria-label="Add or edit a word">
@@ -1296,7 +1347,8 @@
                             </div>
                             <div class="notes-row">
                                 <input type="text" id="note-input" placeholder="اكتب ملاحظة..." class="glass-input">
-                                <button type="button" onclick="saveUserNote()" class="small-btn">حفظ</button>
+                                <button type="button" onclick="saveUserNote()" class="small-btn"
+                                    data-cloud-sync-change="note">حفظ</button>
                             </div>
                             <div id="user-note-display" class="note-feedback hidden"></div>
                         </section>
@@ -1352,7 +1404,8 @@
                             <div class="notes-row">
                                 <input type="text" id="quiz-note-input" placeholder="اكتب ملاحظة..."
                                     class="glass-input">
-                                <button type="button" onclick="saveUserNote()" class="small-btn">حفظ</button>
+                                <button type="button" onclick="saveUserNote()" class="small-btn"
+                                    data-cloud-sync-change="note">حفظ</button>
                             </div>
                             <div id="quiz-note-display" class="note-feedback hidden"></div>
                         </section>
@@ -1379,7 +1432,8 @@
                                 <h2 class="mt-2 text-headline-md font-semibold text-on-surface">أحسنت!</h2>
                                 <div id="final-stats" class="stats-box my-xl" aria-live="polite"></div>
                                 <div class="flex flex-col gap-3">
-                                    <button type="button" onclick="restartSubject()" class="action-btn full-width">
+                                    <button type="button" onclick="restartSubject()" class="action-btn full-width"
+                                        data-cloud-sync-change="notes">
                                         إعادة المادة
                                     </button>
                                     <button type="button" onclick="goBackToSubjects()" class="secondary-btn full-width">
@@ -1464,7 +1518,7 @@
     </div>
 
 
-    <script src="app.js"></script>
+    <script src="app.js?v=7"></script>
     <script>
         // Small compatibility helpers for visual-only elements introduced by t.html.
         function toggleDictionary(forceOpen) {
