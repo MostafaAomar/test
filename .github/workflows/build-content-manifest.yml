@@ -1,0 +1,43 @@
+name: Refresh question manifest
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "First Year/**/*.json"
+      - "Second Year/**/*.json"
+      - "Third Year/**/*.json"
+      - "Fourth Year/**/*.json"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build manifest
+        run: node scripts/build-content-manifest.mjs
+
+      - name: Commit updated manifest
+        shell: bash
+        run: |
+          if git diff --quiet -- content-manifest.json; then
+            echo "Manifest is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content-manifest.json
+          git commit -m "Update question content manifest"
+          git push

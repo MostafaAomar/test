@@ -1,0 +1,402 @@
+Here is a complete mind map of every single function defined in the provided code, structured logically based on the core modules of the application.
+
+### 🧠 UniQuiz Application Functions Mind Map
+
+**1. Initialization & Setup (التحميل والتهيئة التلقائية)**
+
+* **`init()`**: Main initialization function that starts the app.
+
+
+* **`registerOfflineWorker()`**: Registers the service worker for offline support.
+
+
+* **`bindConnectionStatus()`**: Listens for online/offline events.
+
+
+* **`update()`**: Inner function to toggle offline/online UI indicators.
+
+
+
+
+* **`restoreLastDownloadedSession()`**: Loads the last active offline session if available.
+
+
+* **`showWelcomeMessage()`**: Displays a welcome popup once per user.
+
+
+* **`removeMessage()`**: Inner function to dismiss the welcome message.
+
+
+
+
+* **`toggleTheme()`**: Switches between dark and light modes.
+
+
+* **`loadThemePreference()`**: Loads the user's saved theme on startup.
+
+
+* **`fetchRepoAndAddSubjects(repoUrl)`**: Fetches subjects from a GitHub repository.
+
+
+* **`fetchLocalTestFile()`**: Loads a local `test.json` file for testing environments.
+
+
+* **`processJsonFiles(files, type, githubInfo)`**: Parses JSON subject data.
+
+
+* **`simpleHash(str)`**: Generates a basic hash for ID creation.
+
+
+
+**2. Navigation, Sorting & Progress Tracking (إدارة التنقل، الترتيب وحفظ التقدم)**
+
+* **`showScreen(name)`**: Handles hiding and showing different UI screens.
+
+
+* **`normaliseQuestionText(value)`**: Sanitizes and standardizes question text.
+
+
+* **`legacyQuestionId(question)`**: Fallback ID generator for older JSON formats.
+
+
+* **`defineHiddenValue(target, name, value)`**: Attaches hidden, non-enumerable properties to objects.
+
+
+* **`ensureStableQuestionIds(questions)`**: Secures stable identifiers for questions, preventing duplicates.
+
+
+* **`setSubjectSourceQuestions(subject, questions)`**: Prepares and securely assigns questions to a subject.
+
+
+* **`getSubjectSourceQuestions(subject)`**: Retrieves a subject's initialized questions.
+
+
+* **`getProgressKey(subjectId, selectedMode)`**: Generates the localStorage key for a specific subject/mode.
+
+
+* **`buildQuestionLookup(questions)`**: Creates a Map dictionary to map aliases to standard IDs.
+
+
+* **`mapSavedQuestionId(savedId, lookup)`**: Matches stored IDs against the lookup dictionary.
+
+
+* **`encodeAnswer(question, selectedIndex)`**: Prepares an answer for saving into storage.
+
+
+* **`decodeAnswer(question, savedAnswer)`**: Converts a stored answer back to its working index.
+
+
+* **`readSubjectProgress(subject, selectedMode)`**: Retrieves the student's progress from localStorage.
+
+
+* **`writeSubjectProgress(subject, selectedMode, progress)`**: Saves the current progress payload to localStorage.
+
+
+* **`restoreCurrentSubjectProgress(preferredQuestionId)`**: Applies saved progress data back to the active session.
+
+
+* **`upgradeStoredProgress(subject, selectedMode)`**: Checks and updates older progress data to current schemas.
+
+
+* **`saveDetailedProgress()`**: Aggregates the current state and writes it to storage.
+
+
+
+**3. Dashboard, Search & Filtering**
+
+* **`getSubjectProgress(subjectName, totalQuestions)`**: Calculates the percentage of completion.
+
+
+* **`renderSubjectList()`**: Triggers the rendering of loaded subjects.
+
+
+* **`getSearchResultsContainer()`**: Finds or creates the search results container.
+
+
+* **`setSubjectDashboardState(state)`**: Adjusts UI visibility based on whether the user is searching, viewing a year, or on the home screen.
+
+
+* **`getSearchableSubjectSources()`**: Caches and returns all downloadable subjects for global searching.
+
+
+* **`handleGlobalSearchInput(event)`**: The event handler for the global search bar.
+
+
+* **`performSearch(term, container, subjectSources)`**: Executes the search filter logic.
+
+
+* **`openResult()`**: Inner function that launches a subject directly from search results.
+
+
+
+
+* **`escapeCardHTML(value)`**: Escapes HTML strings to prevent XSS in cards.
+
+
+* **`renderAllSubjects(container)`**: Loops through `quizData` and builds HTML cards for subjects.
+
+
+
+**4. Core Study & Quiz Logic (المنطق الأساسي)**
+
+* **`renderStep()`**: Main conductor function that decides whether to render a quiz question or a study card.
+
+
+* **`renderStudyCard()`**: Populates the UI for Flashcard (Study) mode.
+
+
+* **`renderQuizQuestion()`**: Populates the UI for Quiz mode.
+
+
+* **`updateInterimResultButton()`**: Shows/hides the "Interim Results" button based on checkpoints.
+
+
+* **`calculateQuizStats(lastIndex)`**: Calculates correctly answered questions.
+
+
+* **`showInterimResult()`**: Opens a modal showing mid-quiz statistics.
+
+
+* **`handleAnswer(selectedIndex, clickedBtn, qData)`**: Processes the user's quiz selection.
+
+
+* **`applyFeedbackStyles(btn, index, correctIndex)`**: Updates button colors (red/green) after answering.
+
+
+* **`showFeedbackMessage(qData, selectedIndex)`**: Shows textual feedback/explanations after a question.
+
+
+
+**5. App Flow Control (التحكم في التدفق)**
+
+* **`toggleFlip()`**: Flips the flashcard in Study mode.
+
+
+* **`nextQuestion()`**: Advances the index to the next question.
+
+
+* **`prevQuestion()`**: Reverts the index to the previous question.
+
+
+* **`showResults()`**: Displays the final score screen.
+
+
+* **`setMode(m)`**: Toggles the app between `quiz` and `study`.
+
+
+* **`goBackToSubjects()`**: Exits the active session and returns to the dashboard.
+
+
+* **`restartSubject()`**: Clears progress for the current subject and restarts at index 0.
+
+
+* **`fullReset()`**: Wipes all localStorage data and reloads the page.
+
+
+
+**6. Voice, Utilities & Phonetics (أدوات مساعدة ونطق ومختبر الصوتيات)**
+
+* **`updateProgress()`**: Fills the top progress bar.
+
+
+* **`syncSpeed(val)`**: Synchronizes the text-to-speech reading speed sliders.
+
+
+* **`speakCurrent()`**: Uses the browser's SpeechSynthesis to read questions/answers.
+
+
+* **`saveUserNote()`**: Saves a custom note specific to the current question.
+
+
+* **`displayNotes()`**: Retrieves and displays any saved notes for the current question.
+
+
+* **`playFullSentence(text)`**: Uses Google TTS to pronounce full sentences.
+
+
+* **`analyzeCurrentQuestion(currentMode)`**: Fetches phonetic (IPA) data from the Datamuse API.
+
+
+
+**7. Offline Download & GitHub Sync (إدارة التنزيل دون اتصال والمزامنة)**
+
+* **`getYearDataKey(yearName)`**: Returns the storage key for a year's raw data.
+
+
+* **`getYearMetaKey(yearName)`**: Returns the storage key for a year's metadata.
+
+
+* **`getDownloadedYearMeta(yearName)`**: Retrieves storage metadata.
+
+
+* **`readDownloadedYear(yearName)`**: Retrieves full year quiz data from storage.
+
+
+* **`formatStoredBytes(bytes)`**: Converts byte counts to readable KB/MB formats.
+
+
+* **`renderDynamicYears()`**: Builds the year selection UI (First Year, Second Year, etc.).
+
+
+* **`loadYearData(yearName)`**: Loads offline data into the active application state.
+
+
+* **`renderSubjectListWithSync(yearName)`**: Renders the offline year with an update header.
+
+
+* **`backToYears()`**: Navigates out of an offline year view.
+
+
+* **`getRepositoryParts()`**: Parses the hardcoded GitHub URL.
+
+
+* **`fetchGitHubJson(url)`**: A wrapper for fetching JSON securely from GitHub.
+
+
+* **`findYearFolder(yearName)`**: Locates the specific folder for a year within the repo.
+
+
+* **`collectJsonFiles(apiUrl)`**: Recursively hunts for `.json` files in the GitHub repo tree.
+
+
+* **`fetchYearFileList(yearName)`**: Triggers the collection of file paths for a selected year.
+
+
+* **`updateDownloadStatus(message, isError)`**: Updates the UI text in the download modal.
+
+
+* **`setDownloadBusy(isBusy)`**: Locks buttons during an active download.
+
+
+* **`openDownloadModal(year)`**: Triggers the download popup UI.
+
+
+* **`confirmYearDownload()`**: Starts the download process based on modal confirmation.
+
+
+* **`closeDownloadModal()`**: Hides the download popup UI.
+
+
+* **`downloadYearData(yearName)`**: The core function that fetches, parses, and caches a year's JSON files.
+
+
+* **`removeDownloadedYear(yearName)`**: Deletes a downloaded year from local storage.
+
+
+* **`toggleSyncSettings()`**: Opens the custom GitHub Personal Access Token (PAT) modal.
+
+
+* **`saveSyncConfig()`**: Saves the user's PAT and Repo data for sync.
+
+
+
+**8. Saved Vocabulary Manager (مدير المفردات)**
+
+* **`getVocabularyEntries()`**: Retrieves saved words from localStorage.
+
+
+* **`setVocabularyStatus(message, type)`**: Shows success/error text beneath the form.
+
+
+* **`persistVocabularyEntries(entries)`**: Writes the updated vocabulary array to storage.
+
+
+* **`resetVocabularyForm(clearStatus)`**: Clears the input fields and resets edit states.
+
+
+* **`createVocabularyActionButton(label, icon, className, handler)`**: Generates Edit/Delete buttons dynamically.
+
+
+* **`renderVocabularyTable()`**: Populates the HTML table with saved words.
+
+
+* **`retrieveData()`**: Initializes the vocabulary screen view.
+
+
+* **`saveVocabularyEntry(event)`**: Creates or updates a word entry.
+
+
+* **`editVocabularyEntry(id)`**: Pre-fills the form with an existing word for editing.
+
+
+* **`cancelVocabularyEdit()`**: Aborts an active edit session.
+
+
+* **`deleteVocabularyEntry(id)`**: Removes a word from the list and storage.
+
+
+
+**9. Smart Integrated Dictionary (القاموس المدمج الذكي)**
+*(Wrapped inside a `DOMContentLoaded` event listener)*
+
+* **`loadLocalDictionary()`**: Attempts to fetch the custom `myOwnDic.json`.
+
+
+* **`searchLocalDictionary(word)`**: Scans the local dictionary for a match.
+
+
+* **`convertDatamuseEntry(entry, searchTerm)`**: Formats API data to match local structure.
+
+
+* **`searchApiDictionary(word)`**: Falls back to Datamuse API if local search fails.
+
+
+* **`normalizeAudioUrl(url)`**: Ensures audio URLs are absolute and secure.
+
+
+* **`playDictionaryPronunciation(word, audioUrl)`**: Plays an MP3 or falls back to browser synthesis.
+
+
+* **`displayDefinition(entryData, searchTerm)`**: Renders the dictionary HTML output.
+
+
+* **`handleWordSearch()`**: Manages the logic chain of searching when typing.
+
+**9. New-subject Update Notifications (تنبيهات المواد الجديدة)**
+
+* **`fetchRepositorySubjectIndex()`**: Loads one repository tree and groups subject JSON paths by year.
+* **`getLocallyKnownSubjectPaths(yearName)`**: Builds the local baseline used to identify only newly added subject files.
+* **`refreshYearUpdateControls()`**: Shows the year Update alert only when new subject paths are pending.
+* **`checkDownloadedYearsForNewSubjects(force)`**: Periodically compares downloaded years with the repository.
+* **`watchYearDownloadCompletion()`**: Clears and rechecks the alert after a successful year update.
+* **`bindYearUpdateNotifications()`**: Connects automatic checks to page, connection, and visibility events.
+
+**10. Cross-device Vocabulary & Notes (مزامنة الكلمات والملاحظات)**
+
+* **`collectLocalCloudData()`**: Collects vocabulary, notes, timestamps, and deletion markers without including credentials.
+* **`mergeCloudCollections(localData, remoteData)`**: Resolves multi-device changes using per-entry timestamps.
+* **`applyCloudDataLocally(data)`**: Applies merged words and notes to the existing localStorage format.
+* **`readVocabularyCloudFile(config)`**: Reads the private UniQuiz data file from the configured GitHub repository.
+* **`writeVocabularyCloudFile(config, data, sha)`**: Creates or updates the cloud data file using GitHub's Contents API.
+* **`syncVocabularyCloudData(showStatus)`**: Pulls, merges, applies, and uploads user data with conflict retry.
+* **`connectVocabularyCloudSync()`**: Saves the chosen login configuration and performs the first sync.
+* **`disconnectVocabularyCloudSync()`**: Removes the token from the current device while retaining local data.
+* **`bindVocabularyCloudSync()`**: Adds automatic synchronization after vocabulary/note changes and while online.
+
+**11. Automatic Daily Updates (التحديث التلقائي كل 24 ساعة)**
+
+* **`isAutomaticUpdateDue()`**: Checks the last successful run and the retry window before starting another update.
+* **`updateDownloadedYearInBackground(yearName)`**: Downloads new or changed subject files silently while preserving stable-ID progress and notes.
+* **`refreshApplicationShellInBackground()`**: Requests a fresh application shell from the service worker without clearing browser storage.
+* **`performAutomaticDailyUpdate(force)`**: Runs the complete online update for all downloaded years and the application shell.
+* **`bindAutomaticDailyUpdates()`**: Runs updates when due on startup, reconnect, visibility changes, hourly checks, and supported Periodic Background Sync events.
+
+
+* **`debounce(func, wait)`**: Rate-limits input to prevent API spam.
+
+
+* **`executedFunction(...args)`**: Inner closure controlling the timeout reset.
+
+
+* **`later()`**: Inner callback triggered after the timeout.
+
+
+
+
+* **`escapeHTML(str)`**: Encodes text for the dictionary DOM.
+
+
+
+**10. Smart Highlight Search (التحديد الذكي للبحث التلقائي)**
+
+* **`performSmartSearch()`**: Captures highlighted text on the page and automatically pastes it into the dictionary search bar.

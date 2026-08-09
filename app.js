@@ -11,6 +11,7 @@ const YEAR_META_KEY_PREFIX = "year_meta_";
 // 1 * 60 * 1000 = one minute. 24 * 60 * 60 * 1000 = twenty-four hours.
 const AUTOMATIC_UPDATE_INTERVAL_MS = 1 * 60 * 1000;
 const AUTOMATIC_UPDATE_RETRY_MS = 1 * 60 * 1000;
+const CONTENT_MANIFEST_URL = "./content-manifest.json";
 
 let quizData = [];
 let currentSubject = null;
@@ -22,6 +23,9 @@ let activeYear = null;
 let pendingDownloadYear = null;
 let downloadInProgress = false;
 let globalSearchSourcesCache = null;
+let contentManifestCache = null;
+let contentManifestFetchedAt = 0;
+let contentManifestPromise = null;
 
 const DEFAULT_REPO_URL = "https://github.com/MostafaAomar/test";
 
@@ -399,7 +403,7 @@ async function init() {
 function registerOfflineWorker() {
   if (!("serviceWorker" in navigator) || location.protocol === "file:") return;
   navigator.serviceWorker
-    .register("./service-worker.js?v=7", { updateViaCache: "none" })
+    .register("./service-worker.js?v=8", { updateViaCache: "none" })
     .catch((error) =>
       console.warn("Offline worker registration failed:", error),
     );
@@ -2166,9 +2170,8 @@ async function collectJsonFiles(apiUrl) {
 }
 
 async function fetchYearFileList(yearName) {
-  const folder = await findYearFolder(yearName);
-  if (!folder) throw new Error(`لا توجد بيانات جاهزة في ${yearName}`);
-  const files = await collectJsonFiles(folder.url);
+  const filesByYear = await fetchRepositorySubjectIndex();
+  const files = filesByYear.get(yearName) || [];
   if (files.length === 0)
     throw new Error(`No JSON subjects were found in ${yearName}.`);
   return files;
@@ -2387,7 +2390,97 @@ function normaliseYearFolderName(value) {
     .toLowerCase();
 }
 
-async function fetchRepositorySubjectIndex() {
+function encodeContentPath(path) {
+  return String(path || "")
+    .split("/")
+    .map((part) => encodeURIComponent(part))
+    .join("/");
+}
+
+function createEmptyRepositorySubjectIndex() {
+  return new Map(VALID_YEARS.map((year) => [year, []]));
+}
+
+function parseContentManifest(manifest) {
+  if (!manifest || manifest.version !== 1 || !manifest.years) {
+    throw new Error("The content manifest is not valid.");
+  }
+
+  const filesByYear = createEmptyRepositorySubjectIndex();
+  VALID_YEARS.forEach((yearName) => {
+    const files = Array.isArray(manifest.years[yearName])
+      ? manifest.years[yearName]
+      : [];
+
+    files.forEach((file) => {
+      if (
+        typeof file?.path !== "string" ||
+        !file.path.toLowerCase().endsWith(".json") ||
+        file.path.split("/").pop().toLowerCase() === "myowndic.json"
+      )
+        return;
+
+      filesByYear.get(yearName).push({
+        path: file.path,
+        sha: file.sha256 || file.sha || null,
+        size: Number(file.size) || 0,
+        downloadUrl: new URL(
+          encodeContentPath(file.path),
+          document.baseURI,
+        ).href,
+      });
+    });
+  });
+
+  return filesByYear;
+}
+
+async function fetchStaticContentManifest(force = false) {
+  const now = Date.now();
+  if (
+    !force &&
+    contentManifestCache &&
+    now - contentManifestFetchedAt < AUTOMATIC_UPDATE_INTERVAL_MS
+  ) {
+    return contentManifestCache;
+  }
+  if (contentManifestPromise) return contentManifestPromise;
+
+  contentManifestPromise = (async () => {
+    const separator = CONTENT_MANIFEST_URL.includes("?") ? "&" : "?";
+    const response = await fetch(
+      `${CONTENT_MANIFEST_URL}${separator}update=${Date.now()}`,
+      {
+        cache: "no-store",
+        headers: { Accept: "application/json" },
+      },
+    );
+    if (!response.ok) {
+      throw new Error(`Content manifest request failed (${response.status}).`);
+    }
+
+    contentManifestCache = parseContentManifest(await response.json());
+    contentManifestFetchedAt = Date.now();
+    return contentManifestCache;
+  })();
+
+  try {
+    return await contentManifestPromise;
+  } finally {
+    contentManifestPromise = null;
+  }
+}
+
+async function fetchRepositorySubjectIndex(force = false) {
+  try {
+    return await fetchStaticContentManifest(force);
+  } catch (manifestError) {
+    console.warn(
+      "Static content manifest is unavailable; using GitHub once as a fallback:",
+      manifestError,
+    );
+  }
+
   const { owner, repo } = getRepositoryParts();
   const tree = await fetchGitHubJson(
     `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/git/trees/main?recursive=1`,
@@ -2396,7 +2489,7 @@ async function fetchRepositorySubjectIndex() {
     throw new Error("The repository file list is not available right now.");
   }
 
-  const filesByYear = new Map(VALID_YEARS.map((year) => [year, []]));
+  const filesByYear = createEmptyRepositorySubjectIndex();
   tree.tree.forEach((item) => {
     if (item.type !== "blob" || !item.path?.toLowerCase().endsWith(".json"))
       return;
@@ -2408,7 +2501,12 @@ async function fetchRepositorySubjectIndex() {
         normaliseYearFolderName(year) === normaliseYearFolderName(rootFolder),
     );
     if (!yearName) return;
-    filesByYear.get(yearName).push({ path: item.path, sha: item.sha || null });
+    filesByYear.get(yearName).push({
+      path: item.path,
+      sha: item.sha || null,
+      size: Number(item.size) || 0,
+      downloadUrl: `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/main/${encodeContentPath(item.path)}`,
+    });
   });
   return filesByYear;
 }
@@ -2515,7 +2613,7 @@ async function checkDownloadedYearsForNewSubjects(force = false) {
 
   yearUpdateCheckPromise = (async () => {
     try {
-      const remoteFilesByYear = await fetchRepositorySubjectIndex();
+      const remoteFilesByYear = await fetchRepositorySubjectIndex(force);
       downloadedYears.forEach((yearName) => {
         const locallyKnownPaths = getLocallyKnownSubjectPaths(yearName);
         const addedFiles = (remoteFilesByYear.get(yearName) || []).filter(
