@@ -41,9 +41,12 @@ Automatic updates
 
 - While online and open, the app checks once every minute for a new application shell
   and for changes inside every subject file of each downloaded year.
-- Question discovery uses `content-manifest.json`, so the one-minute check does
-  not consume the public GitHub API limit. The included GitHub workflow rebuilds
-  that manifest automatically whenever a JSON file in a year folder is committed.
+- Question discovery uses one conditional repository-tree request shared by all
+  downloaded years. Unchanged responses are reused, and `content-manifest.json`
+  remains available as a fallback. JSON files are downloaded directly from the
+  committed `main` branch instead of waiting for the GitHub Pages deployment.
+- The included GitHub workflow also rebuilds the fallback manifest automatically
+  whenever a JSON file in a year folder is committed.
 - If the workflow cannot push its manifest commit, open the repository's
   Settings > Actions > General > Workflow permissions and allow read and write
   permissions, then run "Refresh question manifest" once from the Actions tab.
@@ -53,7 +56,7 @@ Automatic updates
   shell while the installed PWA is closed. All other browsers run the same check
   when the app opens, becomes visible, or reconnects to the internet.
 - After deploying this version, replace every file once and reopen/refresh the
-  app so cache version v8 becomes active. Future releases no longer require the
+  app so cache version v9 becomes active. Future releases no longer require the
   student to clear browser storage manually.
 - To change the interval later, edit `AUTOMATIC_UPDATE_INTERVAL_MS` near the top
   of app.js. For 24 hours, use `24 * 60 * 60 * 1000`.

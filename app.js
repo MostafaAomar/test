@@ -26,6 +26,10 @@ let globalSearchSourcesCache = null;
 let contentManifestCache = null;
 let contentManifestFetchedAt = 0;
 let contentManifestPromise = null;
+let repositorySubjectIndexCache = null;
+let repositorySubjectIndexEtag = "";
+let repositorySubjectIndexFetchedAt = 0;
+let repositorySubjectIndexPromise = null;
 
 const DEFAULT_REPO_URL = "https://github.com/MostafaAomar/test";
 
@@ -403,7 +407,7 @@ async function init() {
 function registerOfflineWorker() {
   if (!("serviceWorker" in navigator) || location.protocol === "file:") return;
   navigator.serviceWorker
-    .register("./service-worker.js?v=8", { updateViaCache: "none" })
+    .register("./service-worker.js?v=9", { updateViaCache: "none" })
     .catch((error) =>
       console.warn("Offline worker registration failed:", error),
     );
@@ -2401,6 +2405,11 @@ function createEmptyRepositorySubjectIndex() {
   return new Map(VALID_YEARS.map((year) => [year, []]));
 }
 
+function getRepositoryContentUrl(path) {
+  const { owner, repo } = getRepositoryParts();
+  return `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/main/${encodeContentPath(path)}`;
+}
+
 function parseContentManifest(manifest) {
   if (!manifest || manifest.version !== 1 || !manifest.years) {
     throw new Error("The content manifest is not valid.");
@@ -2424,10 +2433,7 @@ function parseContentManifest(manifest) {
         path: file.path,
         sha: file.sha256 || file.sha || null,
         size: Number(file.size) || 0,
-        downloadUrl: new URL(
-          encodeContentPath(file.path),
-          document.baseURI,
-        ).href,
+        downloadUrl: getRepositoryContentUrl(file.path),
       });
     });
   });
@@ -2471,20 +2477,7 @@ async function fetchStaticContentManifest(force = false) {
   }
 }
 
-async function fetchRepositorySubjectIndex(force = false) {
-  try {
-    return await fetchStaticContentManifest(force);
-  } catch (manifestError) {
-    console.warn(
-      "Static content manifest is unavailable; using GitHub once as a fallback:",
-      manifestError,
-    );
-  }
-
-  const { owner, repo } = getRepositoryParts();
-  const tree = await fetchGitHubJson(
-    `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/git/trees/main?recursive=1`,
-  );
+function parseGitHubSubjectTree(tree, owner, repo) {
   if (!Array.isArray(tree?.tree) || tree.truncated) {
     throw new Error("The repository file list is not available right now.");
   }
@@ -2493,7 +2486,7 @@ async function fetchRepositorySubjectIndex(force = false) {
   tree.tree.forEach((item) => {
     if (item.type !== "blob" || !item.path?.toLowerCase().endsWith(".json"))
       return;
-    if (item.path.split("/").pop() === "myOwnDic.json") return;
+    if (item.path.split("/").pop().toLowerCase() === "myowndic.json") return;
 
     const rootFolder = item.path.split("/")[0];
     const yearName = VALID_YEARS.find(
@@ -2509,6 +2502,65 @@ async function fetchRepositorySubjectIndex(force = false) {
     });
   });
   return filesByYear;
+}
+
+async function fetchGitHubRepositorySubjectIndex(force = false) {
+  const now = Date.now();
+  if (
+    !force &&
+    repositorySubjectIndexCache &&
+    now - repositorySubjectIndexFetchedAt < AUTOMATIC_UPDATE_INTERVAL_MS
+  ) {
+    return repositorySubjectIndexCache;
+  }
+  if (repositorySubjectIndexPromise) return repositorySubjectIndexPromise;
+
+  const { owner, repo } = getRepositoryParts();
+  repositorySubjectIndexPromise = (async () => {
+    const headers = { Accept: "application/vnd.github+json" };
+    if (repositorySubjectIndexEtag) {
+      headers["If-None-Match"] = repositorySubjectIndexEtag;
+    }
+
+    const response = await fetch(
+      `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/git/trees/main?recursive=1`,
+      { cache: "no-store", headers },
+    );
+    if (response.status === 304 && repositorySubjectIndexCache) {
+      repositorySubjectIndexFetchedAt = Date.now();
+      return repositorySubjectIndexCache;
+    }
+    if (!response.ok) {
+      throw new Error(`GitHub file-list request failed (${response.status}).`);
+    }
+
+    repositorySubjectIndexCache = parseGitHubSubjectTree(
+      await response.json(),
+      owner,
+      repo,
+    );
+    repositorySubjectIndexEtag = response.headers.get("etag") || "";
+    repositorySubjectIndexFetchedAt = Date.now();
+    return repositorySubjectIndexCache;
+  })();
+
+  try {
+    return await repositorySubjectIndexPromise;
+  } finally {
+    repositorySubjectIndexPromise = null;
+  }
+}
+
+async function fetchRepositorySubjectIndex(force = false) {
+  try {
+    return await fetchGitHubRepositorySubjectIndex(force);
+  } catch (githubError) {
+    console.warn(
+      "GitHub file discovery is temporarily unavailable; using the static manifest:",
+      githubError,
+    );
+    return fetchStaticContentManifest(force);
+  }
 }
 
 function getLocallyKnownSubjectPaths(yearName) {

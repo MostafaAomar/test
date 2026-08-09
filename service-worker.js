@@ -1,9 +1,9 @@
-const SHELL_CACHE = 'uniquiz-shell-v8';
+const SHELL_CACHE = 'uniquiz-shell-v9';
 const APP_SHELL = [
     './index.html',
-    './offline.css?v=8',
-    './style.css?v=8',
-    './app.js?v=8',
+    './offline.css?v=9',
+    './style.css?v=9',
+    './app.js?v=9',
     './manifest.webmanifest',
     './icon.svg'
 ];
