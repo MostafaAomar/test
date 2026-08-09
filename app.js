@@ -3,6 +3,10 @@
    ========================================== */
 const USE_LOCAL_TEST_FILE = false;
 const VALID_YEARS = ["First Year", "Second Year", "Third Year", "Fourth Year"];
+const PROGRESS_SCHEMA_VERSION = 2;
+const SCORE_CHECKPOINT_SIZE = 50;
+const YEAR_DATA_KEY_PREFIX = 'year_data_';
+const YEAR_META_KEY_PREFIX = 'year_meta_';
 
 let quizData = [];
 let currentSubject = null;
@@ -10,8 +14,12 @@ let currentIndex = 0;
 let userAnswers = [];
 let mode = '';
 let currentSpeed = 0.8;
+let activeYear = null;
+let pendingDownloadYear = null;
+let downloadInProgress = false;
+let globalSearchSourcesCache = null;
 
-const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/test';
+const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
 
 const screens = {
     setup: document.getElementById('setup-screen'),
@@ -35,8 +43,269 @@ function showScreen(name) {
     }
 }
 
+function normaliseQuestionText(value) {
+    return String(value ?? '')
+        .normalize('NFKC')
+        .trim()
+        .replace(/\s+/g, ' ')
+        .toLowerCase();
+}
+
+function legacyQuestionId(question) {
+    const combined = String(question.q ?? '')
+        + (Array.isArray(question.options) ? question.options.join('') : '')
+        + (question.correct !== undefined ? question.correct : '');
+    return 'id_' + simpleHash(combined);
+}
+
+function defineHiddenValue(target, name, value) {
+    Object.defineProperty(target, name, {
+        value,
+        writable: true,
+        configurable: true,
+        enumerable: false
+    });
+}
+
+/*
+ * A question's position in a JSON array is not its identity.  The stable ID
+ * below survives insertions and option reordering.  Explicit IDs in JSON are
+ * always preferred; generated IDs from the previous app are retained as
+ * migration aliases so existing students do not lose their saved answers.
+ */
+function ensureStableQuestionIds(questions) {
+    const duplicateCounts = new Map();
+
+    (questions || []).forEach(question => {
+        const suppliedId = question.id !== undefined && question.id !== null
+            ? String(question.id)
+            : '';
+        const looksLikeOldGeneratedId = /^id_[0-9a-f]+$/i.test(suppliedId);
+        const questionFingerprint = normaliseQuestionText(question.q)
+            || normaliseQuestionText((question.options || []).join('|'));
+        const baseId = suppliedId && !looksLikeOldGeneratedId
+            ? suppliedId
+            : `qid_${simpleHash(questionFingerprint)}`;
+        const duplicateNumber = duplicateCounts.get(baseId) || 0;
+        duplicateCounts.set(baseId, duplicateNumber + 1);
+        const stableId = duplicateNumber === 0 ? baseId : `${baseId}__${duplicateNumber + 1}`;
+
+        const aliases = new Set([stableId, baseId, suppliedId, legacyQuestionId(question)]);
+        aliases.delete('');
+        question.id = stableId;
+        defineHiddenValue(question, '_progressAliases', [...aliases]);
+    });
+
+    return questions || [];
+}
+
+function setSubjectSourceQuestions(subject, questions) {
+    const prepared = ensureStableQuestionIds(questions || []);
+    defineHiddenValue(subject, '_sourceQuestions', [...prepared]);
+    subject.questions = [...prepared];
+    return subject;
+}
+
+function getSubjectSourceQuestions(subject) {
+    if (!subject._sourceQuestions) {
+        setSubjectSourceQuestions(subject, subject.questions || []);
+    }
+    return subject._sourceQuestions;
+}
+
+function getProgressKey(subjectId, selectedMode) {
+    return `progress_${subjectId}_${selectedMode}`;
+}
+
+function buildQuestionLookup(questions) {
+    const lookup = new Map();
+    questions.forEach(question => {
+        lookup.set(String(question.id), question.id);
+        (question._progressAliases || []).forEach(alias => {
+            if (!lookup.has(String(alias))) lookup.set(String(alias), question.id);
+        });
+    });
+    return lookup;
+}
+
+function mapSavedQuestionId(savedId, lookup) {
+    if (savedId === undefined || savedId === null) return null;
+    return lookup.get(String(savedId)) || null;
+}
+
+function encodeAnswer(question, selectedIndex) {
+    return {
+        selectedIndex,
+        selectedOption: Array.isArray(question.options)
+            ? question.options[selectedIndex] ?? null
+            : null
+    };
+}
+
+function decodeAnswer(question, savedAnswer) {
+    if (savedAnswer === undefined || savedAnswer === null) return undefined;
+
+    if (typeof savedAnswer === 'object') {
+        if (savedAnswer.selectedOption !== undefined && savedAnswer.selectedOption !== null) {
+            const optionIndex = (question.options || []).findIndex(option => option === savedAnswer.selectedOption);
+            if (optionIndex !== -1) return optionIndex;
+        }
+        savedAnswer = savedAnswer.selectedIndex;
+    }
+
+    const numericAnswer = Number(savedAnswer);
+    return Number.isInteger(numericAnswer) && numericAnswer >= 0
+        && numericAnswer < (question.options || []).length
+        ? numericAnswer
+        : undefined;
+}
+
+function readSubjectProgress(subject, selectedMode) {
+    const sourceQuestions = getSubjectSourceQuestions(subject);
+    const lookup = buildQuestionLookup(sourceQuestions);
+    const sourceIds = sourceQuestions.map(question => question.id);
+    const key = getProgressKey(subject.id, selectedMode);
+    const saved = localStorage.getItem(key);
+
+    if (!saved) {
+        return {
+            exists: false,
+            answers: {},
+            questionOrder: sourceIds,
+            lastQuestionId: sourceIds[0] || null,
+            index: 0
+        };
+    }
+
+    try {
+        const parsed = JSON.parse(saved);
+        const rawAnswers = parsed.answers || {};
+        const answers = {};
+        const knownLegacyOrder = [];
+
+        if (Array.isArray(rawAnswers)) {
+            rawAnswers.forEach((answer, index) => {
+                const question = sourceQuestions[index];
+                if (!question || answer === undefined || answer === null) return;
+                answers[question.id] = answer;
+                knownLegacyOrder.push(question.id);
+            });
+        } else {
+            Object.entries(rawAnswers).forEach(([savedId, answer]) => {
+                const currentId = mapSavedQuestionId(savedId, lookup);
+                if (!currentId || answer === undefined || answer === null) return;
+                answers[currentId] = answer;
+                if (!knownLegacyOrder.includes(currentId)) knownLegacyOrder.push(currentId);
+            });
+        }
+
+        let lastQuestionId = mapSavedQuestionId(parsed.lastQuestionId, lookup);
+        let savedOrder = Array.isArray(parsed.questionOrder) ? parsed.questionOrder : [];
+        savedOrder = savedOrder
+            .map(id => mapSavedQuestionId(id, lookup))
+            .filter((id, index, all) => id && all.indexOf(id) === index);
+
+        // Version-1 progress did not store the complete order.  Put its known
+        // answered/current prefix first, then append all unseen questions.  If
+        // new JSON questions were inserted at the top, this places them after
+        // the student's current point instead of in front of it.
+        if (savedOrder.length === 0) {
+            savedOrder = [...knownLegacyOrder];
+            if (lastQuestionId && !savedOrder.includes(lastQuestionId)) savedOrder.push(lastQuestionId);
+            sourceIds.forEach(id => {
+                if (!savedOrder.includes(id)) savedOrder.push(id);
+            });
+        }
+
+        savedOrder = savedOrder.filter(id => sourceIds.includes(id));
+        const newQuestionIds = sourceIds.filter(id => !savedOrder.includes(id));
+
+        let anchorIndex = lastQuestionId ? savedOrder.indexOf(lastQuestionId) : -1;
+        if (anchorIndex === -1) {
+            anchorIndex = Math.min(Math.max(Number(parsed.index) || 0, 0), Math.max(savedOrder.length - 1, 0));
+            lastQuestionId = savedOrder[anchorIndex] || sourceIds[0] || null;
+        }
+
+        if (newQuestionIds.length > 0) {
+            savedOrder.splice(anchorIndex + 1, 0, ...newQuestionIds);
+        }
+
+        sourceIds.forEach(id => {
+            if (!savedOrder.includes(id)) savedOrder.push(id);
+        });
+
+        return {
+            exists: true,
+            answers,
+            questionOrder: savedOrder,
+            lastQuestionId,
+            index: Math.max(savedOrder.indexOf(lastQuestionId), 0)
+        };
+    } catch (error) {
+        console.warn('Could not read saved progress:', error);
+        return {
+            exists: false,
+            answers: {},
+            questionOrder: sourceIds,
+            lastQuestionId: sourceIds[0] || null,
+            index: 0
+        };
+    }
+}
+
+function writeSubjectProgress(subject, selectedMode, progress) {
+    const questions = getSubjectSourceQuestions(subject);
+    const questionById = new Map(questions.map(question => [question.id, question]));
+    const encodedAnswers = {};
+
+    Object.entries(progress.answers || {}).forEach(([questionId, answer]) => {
+        const question = questionById.get(questionId);
+        if (!question || answer === undefined || answer === null) return;
+        encodedAnswers[questionId] = typeof answer === 'object'
+            ? answer
+            : encodeAnswer(question, answer);
+    });
+
+    const payload = {
+        schemaVersion: PROGRESS_SCHEMA_VERSION,
+        updatedAt: new Date().toISOString(),
+        lastQuestionId: progress.lastQuestionId || null,
+        index: Math.max(Number(progress.index) || 0, 0),
+        answers: encodedAnswers,
+        questionOrder: [...(progress.questionOrder || questions.map(question => question.id))]
+    };
+
+    localStorage.setItem(getProgressKey(subject.id, selectedMode), JSON.stringify(payload));
+    return payload;
+}
+
+function restoreCurrentSubjectProgress(preferredQuestionId = null) {
+    const progress = readSubjectProgress(currentSubject, mode);
+    const sourceQuestions = getSubjectSourceQuestions(currentSubject);
+    const questionById = new Map(sourceQuestions.map(question => [question.id, question]));
+    currentSubject.questions = progress.questionOrder
+        .map(id => questionById.get(id))
+        .filter(Boolean);
+
+    const lookup = buildQuestionLookup(currentSubject.questions);
+    const preferredId = mapSavedQuestionId(preferredQuestionId, lookup);
+    const restoredId = preferredId || progress.lastQuestionId;
+    const restoredIndex = currentSubject.questions.findIndex(question => question.id === restoredId);
+    currentIndex = restoredIndex === -1
+        ? Math.min(progress.index || 0, Math.max(currentSubject.questions.length - 1, 0))
+        : restoredIndex;
+    userAnswers = currentSubject.questions.map(question => decodeAnswer(question, progress.answers[question.id]));
+    return progress;
+}
+
+function upgradeStoredProgress(subject, selectedMode) {
+    const progress = readSubjectProgress(subject, selectedMode);
+    if (!progress.exists) return;
+    writeSubjectProgress(subject, selectedMode, progress);
+}
+
 function saveDetailedProgress() {
-    if (!currentSubject) return;
+    if (!currentSubject || !currentSubject.questions.length) return;
 
     const subjectId = currentSubject.id;
     const lastQuestionId = currentSubject.questions[currentIndex]?.id || null;
@@ -44,22 +313,20 @@ function saveDetailedProgress() {
     const lastState = { subjectId: subjectId, mode: mode, lastQuestionId: lastQuestionId };
     localStorage.setItem('app_last_position', JSON.stringify(lastState));
 
-    const subjectProgressKey = `progress_${subjectId}_${mode}`;
-
     const progressToSave = {};
     userAnswers.forEach((answer, index) => {
-        const questionId = currentSubject.questions[index]?.id;
-        if (questionId !== undefined && answer !== undefined && answer !== null) {
-            progressToSave[questionId] = answer;
+        const question = currentSubject.questions[index];
+        if (question && answer !== undefined && answer !== null) {
+            progressToSave[question.id] = encodeAnswer(question, answer);
         }
     });
 
-    const progressData = {
+    writeSubjectProgress(currentSubject, mode, {
         lastQuestionId: lastQuestionId,
         index: currentIndex,
-        answers: progressToSave
-    };
-    localStorage.setItem(subjectProgressKey, JSON.stringify(progressData));
+        answers: progressToSave,
+        questionOrder: currentSubject.questions.map(question => question.id)
+    });
 }
 
 
@@ -69,63 +336,79 @@ function saveDetailedProgress() {
    3. التحميل والتهيئة التلقائية (Initialization)
    ========================================== */
 async function init() {
-    loadThemePreference(); // Moved to top so theme always applies immediately
+    loadThemePreference();
     showWelcomeMessage();
-
-    const loadingDiv = document.querySelector('.loader');
+    registerOfflineWorker();
+    bindConnectionStatus();
 
     if (USE_LOCAL_TEST_FILE) {
-        if (loadingDiv) loadingDiv.classList.remove('hidden');
         await fetchLocalTestFile();
-        if (loadingDiv) loadingDiv.classList.add('hidden');
     } else {
-        if (loadingDiv) loadingDiv.classList.remove('hidden');
-        await fetchRepoAndAddSubjects(DEFAULT_REPO_URL);
-        if (loadingDiv) loadingDiv.classList.add('hidden');
+        renderDynamicYears();
     }
 
-    const savedPos = localStorage.getItem('app_last_position');
-    if (savedPos) {
-        try {
-            const pos = JSON.parse(savedPos);
-            const foundSub = quizData.find(s => s.id === pos.subjectId);
-            if (foundSub) {
-                currentSubject = foundSub;
-                mode = pos.mode;
-
-
-
-                let restoredIndex = 0;
-                if (pos.lastQuestionId) {
-                    const newIndex = currentSubject.questions.findIndex(q => q.id === pos.lastQuestionId);
-                    if (newIndex !== -1) restoredIndex = newIndex;
-                }
-                currentIndex = restoredIndex;
-
-                const subProgKey = `progress_${currentSubject.id}_${mode}`;
-                const savedProg = localStorage.getItem(subProgKey);
-                if (savedProg) {
-                    const parsedProg = JSON.parse(savedProg);
-                    const savedAnswers = parsedProg.answers || {};
-
-                    if (Array.isArray(savedAnswers)) {
-                        userAnswers = [...savedAnswers];
-                        saveDetailedProgress();
-                    } else {
-                        userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
-                    }
-                }
-
-                renderStep();
-                return;
-            }
-        } catch (e) { console.log("Error restoring session", e); }
-    }
+    if (restoreLastDownloadedSession()) return;
 
     showScreen('setup');
 }
 
+function registerOfflineWorker() {
+    if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
+    navigator.serviceWorker.register('./service-worker.js')
+        .catch(error => console.warn('Offline worker registration failed:', error));
+}
+
+function bindConnectionStatus() {
+    const update = () => {
+        const status = document.getElementById('connection-status');
+        if (!status) return;
+        status.textContent = navigator.onLine
+            ? 'متصل — يمكنك تنزيل أو تحديث سنة'
+            : 'وضع عدم الاتصال — البيانات المحمّلة متاحة';
+        status.classList.toggle('is-offline', !navigator.onLine);
+    };
+
+    window.addEventListener('online', () => {
+        update();
+        renderDynamicYears();
+    });
+    window.addEventListener('offline', () => {
+        update();
+        renderDynamicYears();
+    });
+    update();
+}
+
+function restoreLastDownloadedSession() {
+    const savedPosition = localStorage.getItem('app_last_position');
+    if (!savedPosition) return false;
+
+    try {
+        const position = JSON.parse(savedPosition);
+        for (const year of VALID_YEARS) {
+            const subjects = readDownloadedYear(year);
+            const foundSubject = subjects.find(subject => subject.id === position.subjectId);
+            if (!foundSubject) continue;
+
+            quizData = subjects;
+            activeYear = year;
+            currentSubject = foundSubject;
+            mode = position.mode;
+            restoreCurrentSubjectProgress(position.lastQuestionId);
+            renderStep();
+            return true;
+        }
+    } catch (error) {
+        console.warn('Could not restore the last offline session:', error);
+    }
+
+    return false;
+}
+
 function showWelcomeMessage() {
+    if (localStorage.getItem('welcome_message_seen') === '1') return;
+    localStorage.setItem('welcome_message_seen', '1');
+
     const welcomeDiv = document.createElement('div');
     welcomeDiv.id = 'welcome-message';
     welcomeDiv.innerHTML = `
@@ -161,7 +444,7 @@ function showWelcomeMessage() {
     };
 
     welcomeDiv.addEventListener('click', removeMessage);
-    setTimeout(removeMessage, 3000);
+    setTimeout(removeMessage, 1600);
 }
 
 function toggleTheme() {
@@ -271,27 +554,88 @@ function getSubjectProgress(subjectName, totalQuestions) {
 function renderSubjectList() {
     const list = document.getElementById('subject-list');
     if (!list) return;
-    list.innerHTML = `
-        <div class="search-container">
-            <input type="text" id="question-search-input" placeholder="ابحث عن سؤال في جميع المواد..." />
-        </div>
-    `;
+    list.innerHTML = '<div id="search-results-container"></div>';
+    const resultsContainer = document.getElementById('search-results-container');
+    renderAllSubjects(resultsContainer);
+}
 
-    const searchInput = document.getElementById('question-search-input');
-    const resultsContainer = document.createElement('div');
-    resultsContainer.id = 'search-results-container';
-    list.appendChild(resultsContainer);
+function getSearchResultsContainer() {
+    const list = document.getElementById('subject-list');
+    if (!list) return null;
 
-    searchInput.addEventListener('input', (e) => {
-        const searchTerm = e.target.value.trim().toLowerCase();
-        if (searchTerm.length > 2) {
-            performSearch(searchTerm, resultsContainer);
-        } else {
-            renderAllSubjects(resultsContainer);
-        }
+    let container = document.getElementById('search-results-container');
+    if (!container) {
+        list.innerHTML = '<div id="search-results-container"></div>';
+        container = document.getElementById('search-results-container');
+    }
+    return container;
+}
+
+function setSubjectDashboardState(state) {
+    const view = document.getElementById('view-subjects');
+    const homeContent = document.getElementById('dashboard-home-content');
+    const subjectList = document.getElementById('subject-list');
+    const focused = state === 'year' || state === 'search';
+
+    view?.classList.toggle('year-view-active', state === 'year');
+    view?.classList.toggle('search-view-active', state === 'search');
+
+    if (homeContent) homeContent.hidden = focused;
+    if (subjectList) {
+        subjectList.hidden = !focused;
+        subjectList.classList.toggle('hidden', !focused);
+    }
+}
+
+function getSearchableSubjectSources() {
+    if (activeYear) {
+        return quizData.map((subject, subjectIndex) => ({
+            subject,
+            subjectIndex,
+            yearName: activeYear,
+            yearSubjects: quizData
+        }));
+    }
+
+    if (globalSearchSourcesCache) return globalSearchSourcesCache;
+
+    const downloadedSources = [];
+    VALID_YEARS.forEach(yearName => {
+        const yearSubjects = readDownloadedYear(yearName);
+        yearSubjects.forEach((subject, subjectIndex) => {
+            downloadedSources.push({ subject, subjectIndex, yearName, yearSubjects });
+        });
     });
 
-    renderAllSubjects(resultsContainer);
+    // Keep the local-test/import workflow working when no downloaded year exists.
+    if (downloadedSources.length === 0 && quizData.length > 0) {
+        quizData.forEach((subject, subjectIndex) => {
+            downloadedSources.push({ subject, subjectIndex, yearName: null, yearSubjects: quizData });
+        });
+    }
+
+    globalSearchSourcesCache = downloadedSources;
+    return downloadedSources;
+}
+
+function handleGlobalSearchInput(event) {
+    const term = String(event?.target?.value ?? '').trim().toLowerCase();
+    const resultsContainer = getSearchResultsContainer();
+    if (!resultsContainer) return;
+
+    if (!term) {
+        if (activeYear) {
+            setSubjectDashboardState('year');
+            renderAllSubjects(resultsContainer);
+        } else {
+            resultsContainer.innerHTML = '';
+            setSubjectDashboardState('home');
+        }
+        return;
+    }
+
+    setSubjectDashboardState(activeYear ? 'year' : 'search');
+    performSearch(term, resultsContainer, getSearchableSubjectSources());
 }
 
 async function processJsonFiles(files, type, githubInfo = {}) {
@@ -316,18 +660,15 @@ async function processJsonFiles(files, type, githubInfo = {}) {
             const data = Array.isArray(content) ? content[0] : content;
 
             if (data && data.questions) {
-                data.questions.forEach(q => {
-                    const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
-                    q.id = q.id || 'id_' + simpleHash(combinedStr);
-                });
-
-                quizData.push({
+                const subject = {
                     id: fileName,
                     subject: (data.subject || fileName.replace('.json', '').split('/').pop()).trim(),
                     description: typeof data.description === 'string' ? data.description.trim() : '',
                     lang: data.lang || 'en',
-                    questions: data.questions
-                });
+                    questions: []
+                };
+                setSubjectSourceQuestions(subject, data.questions);
+                quizData.push(subject);
             }
         } catch (fileErr) {
             console.warn(`⚠️ تم تخطي الملف ${file.path || file.name} لوجود خطأ في صيغة الـ JSON داخله.`, fileErr);
@@ -336,13 +677,14 @@ async function processJsonFiles(files, type, githubInfo = {}) {
     renderSubjectList();
 }
 
-function performSearch(term, container) {
+function performSearch(term, container, subjectSources = getSearchableSubjectSources()) {
     container.innerHTML = '';
-    let results = [];
-    quizData.forEach((subject, subjectIndex) => {
-        subject.questions.forEach((question, questionIndex) => {
-            if (question.q.toLowerCase().includes(term)) {
-                results.push({ subject, subjectIndex, question, questionIndex });
+    const results = [];
+    subjectSources.forEach(source => {
+        const subject = source.subject;
+        (subject.questions || []).forEach((question, questionIndex) => {
+            if (String(question.q ?? '').toLowerCase().includes(term)) {
+                results.push({ ...source, question, questionIndex });
             }
         });
     });
@@ -355,40 +697,32 @@ function performSearch(term, container) {
     results.forEach(result => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn search-result-item';
+        btn.setAttribute('role', 'button');
+        btn.tabIndex = 0;
+        const yearLabel = result.yearName
+            ? ` · السنة: ${escapeCardHTML(result.yearName)}`
+            : '';
         btn.innerHTML = `
-            <span style="z-index:2; position:relative; display:block;">${result.question.q}</span>
-            <small style="z-index:2; position:relative; color: #a1a1aa; display:block; margin-top: 5px;">المادة: ${result.subject.subject}</small>
+            <span style="z-index:2; position:relative; display:block;">${escapeCardHTML(result.question.q)}</span>
+            <small style="z-index:2; position:relative; color: #a1a1aa; display:block; margin-top: 5px;">المادة: ${escapeCardHTML(result.subject.subject)}${yearLabel}</small>
         `;
-        btn.onclick = () => {
-            currentSubject = quizData[result.subjectIndex];
+        const openResult = () => {
+            quizData = result.yearSubjects;
+            if (result.yearName) activeYear = result.yearName;
+            currentSubject = result.yearSubjects[result.subjectIndex];
             mode = 'quiz';
-
+            restoreCurrentSubjectProgress();
             currentIndex = currentSubject.questions.findIndex(q => q.id === result.question.id);
             if (currentIndex === -1) currentIndex = 0;
-
-            const subProgKey = `progress_${currentSubject.id}_${mode}`;
-            const savedProg = localStorage.getItem(subProgKey);
-
-            let savedAnswers = {};
-            if (savedProg) {
-                const progObj = JSON.parse(savedProg);
-                savedAnswers = progObj.answers || {};
-
-                if (Array.isArray(savedAnswers)) {
-                    userAnswers = [...savedAnswers];
-                } else {
-                    userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
-                }
-            } else {
-                userAnswers = [];
-            }
-
-            if (userAnswers[currentIndex] === undefined || userAnswers[currentIndex] === null) {
-                userAnswers[currentIndex] = result.question.correct;
-            }
-
             renderStep();
         };
+        btn.addEventListener('click', openResult);
+        btn.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                openResult();
+            }
+        });
         container.appendChild(btn);
     });
 }
@@ -424,7 +758,7 @@ function renderAllSubjects(container) {
         btn.innerHTML = `
         <div onclick="switchView('view-modes')"
                         class="glass-card rounded-3xl p-md flex flex-col gap-sm shadow-sm hover:shadow-lg transition-all cursor-pointer group active:scale-95">
-                        <div>
+                        <div class="text-center-of-years">
                             <h3 class="font-title-lg text-title-lg mb-1 leading-tight">${escapeCardHTML(data.subject)}</h3>
                             <p class="subject-card-description font-caption text-caption text-on-surface-variant">${escapeCardHTML(description)}</p>
                             <small class="subject-card-question-count">${escapeCardHTML(questionCount)}</small>
@@ -448,21 +782,30 @@ function renderAllSubjects(container) {
     });
 }
 function openDownloadModal(year) {
+    if (!VALID_YEARS.includes(year)) return;
+    pendingDownloadYear = year;
+    const hasExistingDownload = Boolean(localStorage.getItem(getYearDataKey(year)));
+    const modal = document.getElementById('download-modal');
+    const title = document.getElementById('download-modal-title');
+    const confirmButton = document.getElementById('download-confirm-btn');
     document.getElementById('target-year').textContent = year;
-    document.getElementById('download-modal').classList.remove('hidden');
+    if (title) title.textContent = hasExistingDownload ? 'Update offline data?' : 'هل ترغب في التنزيل للاستخدام دون اتصال بالإنترنت؟';
+    if (confirmButton) confirmButton.textContent = hasExistingDownload ? 'Update' : 'Download';
+    updateDownloadStatus(hasExistingDownload
+        ? 'Only this selected year will use internet data. Your progress will be preserved.'
+        : 'This downloads only the selected year and stores it on this device.');
+    modal?.classList.remove('hidden');
 }
-document.querySelectorAll('.year-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        document.querySelectorAll('.year-btn').forEach(b => {
-            b.className = "year-btn whitespace-nowrap px-6 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md border border-outline-variant hover:border-primary transition-all active:scale-95";
-        });
-        btn.className = "year-btn whitespace-nowrap px-6 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-transform";
-        openDownloadModal(btn.getAttribute('data-year'));
-    });
-});
+
+async function confirmYearDownload() {
+    if (!pendingDownloadYear) return;
+    await downloadYearData(pendingDownloadYear);
+}
 
 function closeDownloadModal() {
-    document.getElementById('download-modal').classList.add('hidden');
+    if (downloadInProgress) return;
+    document.getElementById('download-modal')?.classList.add('hidden');
+    pendingDownloadYear = null;
 }
 function simpleHash(str) {
     let hash = 0;
@@ -543,36 +886,58 @@ function renderQuizQuestion() {
         showFeedbackMessage(qData, userAnswers[currentIndex]);
     }
 
+    updateInterimResultButton();
+}
+
+function updateInterimResultButton() {
     const interimBtn = document.getElementById('interim-result-btn');
-    if (interimBtn) {
-        const questionNumber = currentIndex + 1;
-        if (questionNumber % 50 === 0 && questionNumber !== currentSubject.questions.length) {
-            interimBtn.classList.remove('hidden');
-        } else {
-            interimBtn.classList.add('hidden');
-        }
+    if (!interimBtn || mode !== 'quiz') return;
+
+    const questionNumber = currentIndex + 1;
+    const answeredCurrentQuestion = userAnswers[currentIndex] !== undefined
+        && userAnswers[currentIndex] !== null;
+    const isCheckpoint = questionNumber > 0
+        && questionNumber % SCORE_CHECKPOINT_SIZE === 0
+        && answeredCurrentQuestion;
+
+    interimBtn.classList.toggle('hidden', !isCheckpoint);
+    if (isCheckpoint) {
+        interimBtn.textContent = `نتيجتي بعد ${questionNumber}`;
+        interimBtn.setAttribute('aria-label', `عرض النتيجة بعد ${questionNumber} سؤال`);
     }
+}
+
+function calculateQuizStats(lastIndex = currentSubject.questions.length - 1) {
+    let correct = 0;
+    let answered = 0;
+
+    currentSubject.questions.forEach((question, index) => {
+        const answer = userAnswers[index];
+        if (index > lastIndex || answer === undefined || answer === null) return;
+        answered++;
+        if (answer === question.correct) correct++;
+    });
+
+    return {
+        correct,
+        answered,
+        percentage: answered ? Math.round((correct / answered) * 100) : 0
+    };
 }
 
 function showInterimResult() {
     const modal = document.getElementById('interim-modal');
     const statsBox = document.getElementById('interim-stats');
+    if (!modal || !statsBox) return;
 
-    let score = 0;
-    let answered = 0;
-
-    userAnswers.forEach((ans, idx) => {
-        if (idx <= currentIndex && ans !== undefined && ans !== null) {
-            answered++;
-            if (ans === currentSubject.questions[idx].correct) score++;
-        }
-    });
-
-    const pct = Math.round((score / answered) * 100) || 0;
+    const stats = calculateQuizStats(currentIndex);
+    const nextMessage = currentIndex < currentSubject.questions.length - 1
+        ? `يمكنك المتابعة للسؤال ${currentIndex + 2}.`
+        : 'لقد وصلت إلى نهاية الأسئلة.';
     statsBox.innerHTML = `
-        <div style="font-size:3rem; font-weight:800; color:${pct >= 50 ? '#10b981' : '#ef4444'}">${pct}%</div>
-        <p>أجبت على ${score} بشكل صحيح من أصل ${answered} سؤال قمت بحله حتى الآن.</p>
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;">لن يتم مسح أي بيانات. يمكنك المتابعة للسؤال ${currentIndex + 2}.</p>
+        <div style="font-size:3rem; font-weight:800; color:${stats.percentage >= 50 ? '#10b981' : '#ef4444'}">${stats.percentage}%</div>
+        <p>أجبت على ${stats.correct} بشكل صحيح من أصل ${stats.answered} سؤال قمت بحله حتى الآن.</p>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;">تم حفظ تقدمك تلقائياً. ${nextMessage}</p>
     `;
 
     modal.classList.remove('hidden');
@@ -588,6 +953,7 @@ function handleAnswer(selectedIndex, clickedBtn, qData) {
         applyFeedbackStyles(btn, index, qData.correct);
     });
     showFeedbackMessage(qData, selectedIndex);
+    updateInterimResultButton();
 }
 
 function applyFeedbackStyles(btn, index, correctIndex) {
@@ -741,7 +1107,7 @@ async function analyzeCurrentQuestion(currentMode) {
         <div class="word-pill" style="display: block; text-align: left; direction: ltr;">
             <div style="margin-bottom: 15px;">
                 <span style="font-size: 0.7rem; color: var(--accent); font-weight: 800; text-transform: uppercase;">Full Sentence Flow</span>
-                <h3 style="margin: 5px 0; line-height: 1.4; color: #fff;">${text}</h3>
+                <h3 style="margin: 5px 0; line-height: 1.4; color: #bf8686;">${text}</h3>
                 <div class="ipa" style="color: #6366f1; font-size: 1.1rem; margin-top: 10px; background: rgba(99,102,241,0.1); padding: 8px; border-radius: 8px; border-left: 3px solid var(--primary);">
                     ${fullIpa}
                 </div>
@@ -780,14 +1146,10 @@ function showResults() {
     if (!statsBox) return;
 
     if (mode === 'quiz') {
-        let score = 0;
-        userAnswers.forEach((ans, idx) => {
-            if (ans === currentSubject.questions[idx].correct) score++;
-        });
-        const pct = Math.round((score / currentSubject.questions.length) * 100);
+        const stats = calculateQuizStats();
         statsBox.innerHTML = `
-            <div style="font-size:3rem; font-weight:800; color:${pct >= 50 ? '#10b981' : '#ef4444'}">${pct}%</div>
-            <p>أجبت على ${score} من أصل ${currentSubject.questions.length} بشكل صحيح</p>
+            <div style="font-size:3rem; font-weight:800; color:${stats.percentage >= 50 ? '#10b981' : '#ef4444'}">${stats.percentage}%</div>
+            <p>أجبت على ${stats.correct} من أصل ${stats.answered} سؤال تم حله بشكل صحيح</p>
         `;
     } else {
         statsBox.innerHTML = `<p>أتممت مراجعة جميع البطاقات بنجاح!</p>`;
@@ -801,33 +1163,7 @@ function setMode(m) {
         return;
     }
     mode = m;
-
-    const subProgKey = `progress_${currentSubject.id}_${mode}`;
-    const savedProg = localStorage.getItem(subProgKey);
-
-    if (savedProg) {
-        const prog = JSON.parse(savedProg);
-        const savedAnswers = prog.answers || {};
-
-        if (Array.isArray(savedAnswers)) {
-            userAnswers = [...savedAnswers];
-        } else {
-            userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
-        }
-
-        let restoredIndex = 0;
-        if (prog.lastQuestionId) {
-            const newIndex = currentSubject.questions.findIndex(q => q.id === prog.lastQuestionId);
-            if (newIndex !== -1) restoredIndex = newIndex;
-        } else if (prog.index !== undefined) {
-            restoredIndex = prog.index;
-        }
-
-        currentIndex = restoredIndex;
-    } else {
-        currentIndex = 0;
-        userAnswers = new Array(currentSubject.questions.length).fill(undefined);
-    }
+    restoreCurrentSubjectProgress();
     renderStep();
 }
 
@@ -850,9 +1186,16 @@ function goBackToSubjects() {
     }
     if (subjectList) {
         subjectList.classList.add('hidden');
+        subjectList.hidden = true;
         subjectList.innerHTML = '';
     }
 
+    activeYear = null;
+    quizData = [];
+    const globalSearch = document.getElementById('global-subject-search');
+    if (globalSearch) globalSearch.value = '';
+    setSubjectDashboardState('home');
+    renderDynamicYears();
     showScreen('setup');
 }
 
@@ -925,7 +1268,7 @@ function resetVocabularyForm(clearStatus = true) {
 
     if (form) form.reset();
     if (submitButton) {
-        submitButton.innerHTML = '<span class="material-symbols-outlined"></span><span>حفظ الكلمة</span>';
+        submitButton.innerHTML = '<span class="material-symbols-outlined" aria-hidden="true">💾</span><span>حفظ الكلمة</span>';
     }
     if (cancelButton) cancelButton.classList.add('hidden');
     if (clearStatus) setVocabularyStatus('');
@@ -940,7 +1283,8 @@ function createVocabularyActionButton(label, icon, className, handler) {
 
     const iconElement = document.createElement('span');
     iconElement.className = 'material-symbols-outlined';
-    iconElement.textContent = icon;
+    iconElement.textContent = icon === 'edit' ? '✎' : '🗑';
+    iconElement.setAttribute('aria-hidden', 'true');
 
     const labelElement = document.createElement('span');
     labelElement.className = 'vocabulary-action-label';
@@ -1060,7 +1404,7 @@ function editVocabularyEntry(id) {
     if (wordInput) wordInput.value = entry.word;
     if (meaningInput) meaningInput.value = entry.meaning;
     if (submitButton) {
-        submitButton.innerHTML = '<span class="material-symbols-outlined">check</span><span>Update entry</span>';
+        submitButton.innerHTML = '<span class="material-symbols-outlined" aria-hidden="true">✓</span><span>Update entry</span>';
     }
     if (cancelButton) cancelButton.classList.remove('hidden');
     setVocabularyStatus(`Editing “${entry.word}”.`, 'editing');
@@ -1102,7 +1446,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const localDictionaryPaths = [
         './myOwnDic.json',
-        'https://raw.githubusercontent.com/MostafaAomar/test/main/myOwnDic.json'
+        'https://raw.githubusercontent.com/MostafaAomar/uni/main/myOwnDic.json'
     ];
     // Datamuse supplies definitions and IPA metadata and permits browser CORS requests.
     const apiEndpoint = 'https://api.datamuse.com/words';
@@ -1330,7 +1674,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (wordInput && dictionaryOutput) {
-        loadLocalDictionary();
         wordInput.addEventListener('input', debounce(handleWordSearch, 350));
     }
 
@@ -1374,154 +1717,354 @@ function performSmartSearch() {
     }, 150);
 }
 
-function renderDynamicYears(files, owner, repo) {
+function getYearDataKey(yearName) {
+    return `${YEAR_DATA_KEY_PREFIX}${yearName}`;
+}
+
+function getYearMetaKey(yearName) {
+    return `${YEAR_META_KEY_PREFIX}${yearName}`;
+}
+
+function getDownloadedYearMeta(yearName) {
+    try {
+        return JSON.parse(localStorage.getItem(getYearMetaKey(yearName)) || 'null');
+    } catch (error) {
+        return null;
+    }
+}
+
+function readDownloadedYear(yearName) {
+    const savedData = localStorage.getItem(getYearDataKey(yearName));
+    if (!savedData) return [];
+
+    try {
+        const subjects = JSON.parse(savedData);
+        if (!Array.isArray(subjects)) return [];
+        return subjects.map(subject => {
+            setSubjectSourceQuestions(subject, subject.questions || []);
+            ['study', 'quiz'].forEach(savedMode => upgradeStoredProgress(subject, savedMode));
+            return subject;
+        });
+    } catch (error) {
+        console.warn(`Could not read downloaded data for ${yearName}:`, error);
+        return [];
+    }
+}
+
+function formatStoredBytes(bytes) {
+    const amount = Number(bytes) || 0;
+    if (amount < 1024) return `${amount} B`;
+    if (amount < 1024 * 1024) return `${Math.round(amount / 1024)} KB`;
+    return `${(amount / (1024 * 1024)).toFixed(1)} MB`;
+}
+
+function renderDynamicYears() {
     const yearsContainer = document.getElementById('years-container');
+    if (!yearsContainer) return;
+    globalSearchSourcesCache = null;
     yearsContainer.innerHTML = '';
 
-    const yearGroups = {};
-    files.forEach(file => {
-        const parts = file.path.split('/');
-        if (parts.length > 1) {
-            const yearFolder = parts[0];
-            if (!yearGroups[yearFolder]) yearGroups[yearFolder] = [];
-            yearGroups[yearFolder].push(file);
+    VALID_YEARS.forEach(yearName => {
+        const storedYear = localStorage.getItem(getYearDataKey(yearName));
+        const hasDownload = Boolean(storedYear);
+        let meta = getDownloadedYearMeta(yearName);
+        if (hasDownload && !meta) {
+            try {
+                const legacySubjects = JSON.parse(storedYear);
+                meta = {
+                    downloadedAt: null,
+                    subjectCount: legacySubjects.length,
+                    questionCount: legacySubjects.reduce((total, subject) => total + (subject.questions?.length || 0), 0),
+                    sizeBytes: new Blob([storedYear]).size
+                };
+                localStorage.setItem(getYearMetaKey(yearName), JSON.stringify(meta));
+            } catch (error) {
+                meta = null;
+            }
         }
+        const card = document.createElement('div');
+        card.className = `subject-btn year-btn offline-year-card${hasDownload ? ' downloaded-year' : ''}${activeYear === yearName ? ' active-year' : ''}`;
+        card.dir = 'ltr';
+
+        const storedSummary = hasDownload
+            ? `${meta?.subjectCount || 0} subjects · ${meta?.questionCount || 0} questions · ${formatStoredBytes(meta?.sizeBytes)}`
+            : (navigator.onLine ? 'Not downloaded' : 'Not available offline');
+
+        card.innerHTML = `
+            <div class="year-card-main">
+                <strong>${escapeCardHTML(yearName)}</strong>
+                <small>${escapeCardHTML(storedSummary)}</small>
+            </div>
+            <div class="year-card-actions">
+                <button type="button" class="year-download-btn" ${navigator.onLine ? '' : 'disabled'}>
+                    ${hasDownload ? 'Update' : 'Download'}
+                </button>
+                ${hasDownload ? '<button type="button" class="year-remove-btn">Remove</button>' : ''}
+            </div>
+        `;
+
+        card.addEventListener('click', event => {
+            if (event.target.closest('button')) return;
+            if (hasDownload) loadYearData(yearName);
+            else openDownloadModal(yearName);
+        });
+        card.querySelector('.year-open-btn')?.addEventListener('click', () => loadYearData(yearName));
+        card.querySelector('.year-download-btn')?.addEventListener('click', () => openDownloadModal(yearName));
+        card.querySelector('.year-remove-btn')?.addEventListener('click', () => removeDownloadedYear(yearName));
+        yearsContainer.appendChild(card);
     });
-
-    let hasData = false;
-    VALID_YEARS.forEach(year => {
-        const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
-
-        if (folderName && yearGroups[folderName].length > 0) {
-            hasData = true;
-            const btn = document.createElement('div');
-            btn.className = 'subject-btn year-btn';
-            btn.innerHTML = `<span style="z-index:2; position:relative;">${year}</span>`;
-            btn.onclick = () => loadYearData(year, yearGroups[folderName], owner, repo);
-            yearsContainer.appendChild(btn);
-        }
-    });
-
-    if (!hasData) {
-        yearsContainer.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد بيانات متاحة لأي سنة دراسية حالياً.</p>";
-    }
 }
 
-async function loadYearData(yearName, files, owner, repo) {
-    const subjectList = document.getElementById('subject-list');
-    subjectList.classList.remove('hidden');
-
-    const localKey = `year_data_${yearName}`;
-    const savedData = localStorage.getItem(localKey);
-
-    if (savedData) {
-        quizData = JSON.parse(savedData);
-        renderSubjectListWithSync(yearName, files, owner, repo);
-    } else {
-        subjectList.innerHTML = '<div class="loader" style="text-align: center;">جاري تحميل بيانات السنة لأول مرة...</div>';
-        await fetchAndMergeYearData(yearName, files, owner, repo, true);
+function loadYearData(yearName) {
+    const downloadedSubjects = readDownloadedYear(yearName);
+    if (downloadedSubjects.length === 0) {
+        if (navigator.onLine) openDownloadModal(yearName);
+        else alert('هذه السنة غير محمّلة. اتصل بالإنترنت واضغط Download مرة واحدة.');
+        return;
     }
+
+    quizData = downloadedSubjects;
+    activeYear = yearName;
+    const globalSearch = document.getElementById('global-subject-search');
+    if (globalSearch) globalSearch.value = '';
+    renderDynamicYears();
+    renderSubjectListWithSync(yearName);
+    setSubjectDashboardState('year');
+    showScreen('setup');
+    window.scrollTo(0, 0);
 }
 
-function renderSubjectListWithSync(yearName, files, owner, repo) {
+function renderSubjectListWithSync(yearName) {
     renderSubjectList();
-
     const list = document.getElementById('subject-list');
+    if (!list) return;
 
     const header = document.createElement('div');
     header.className = 'year-header';
     header.innerHTML = `
-        <h3 style="margin:0;">${yearName}</h3>
-        <button onclick="backToYears()" class="small-btn ghost-btn" style="margin:0;">العودة</button>
+        <div>
+            <h3>${escapeCardHTML(yearName)}</h3>
+            <small>Saved on this device and available offline</small>
+        </div>
+        <button type="button" class="small-btn ghost-btn">العودة</button>
     `;
+    header.querySelector('button').addEventListener('click', backToYears);
     list.insertBefore(header, list.firstChild);
 
-    const syncBtn = document.createElement('div');
-    syncBtn.className = 'subject-btn sync-btn';
-    syncBtn.innerHTML = `<span>مزامنة وتحديث المواد (Sync) 🔄</span>`;
-    syncBtn.onclick = () => {
-        syncBtn.innerHTML = `<span>جاري المزامنة... ⏳</span>`;
-        fetchAndMergeYearData(yearName, files, owner, repo, false).then(() => {
-            syncBtn.innerHTML = `<span>تمت المزامنة بنجاح ✅</span>`;
-            setTimeout(() => renderSubjectListWithSync(yearName, files, owner, repo), 1500);
-        });
-    };
-    list.insertBefore(syncBtn, header.nextSibling);
+    const updateButton = document.createElement('button');
+    updateButton.type = 'button';
+    updateButton.className = 'subject-btn sync-btn';
+    updateButton.disabled = !navigator.onLine;
+    updateButton.innerHTML = navigator.onLine
+        ? '<span>Check for updates ↻</span>'
+        : '<span>Offline — using saved data ✓</span>';
+    updateButton.addEventListener('click', () => openDownloadModal(yearName));
+    list.insertBefore(updateButton, header.nextSibling);
 }
 
 function backToYears() {
     const subjectList = document.getElementById('subject-list');
-    const yearsContainer = document.getElementById('years-container');
-
-    subjectList.classList.add('hidden');
-    subjectList.innerHTML = '';
-    yearsContainer.classList.remove('hidden');
-    yearsContainer.querySelectorAll('.year-btn').forEach(button => {
-        button.classList.remove('active-year');
-    });
+    if (subjectList) {
+        subjectList.classList.add('hidden');
+        subjectList.hidden = true;
+        subjectList.innerHTML = '';
+    }
+    activeYear = null;
     quizData = [];
+    const globalSearch = document.getElementById('global-subject-search');
+    if (globalSearch) globalSearch.value = '';
+    setSubjectDashboardState('home');
+    renderDynamicYears();
+    showScreen('setup');
+    window.scrollTo(0, 0);
 }
 
-async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) {
-    let freshData = [];
-    for (const file of files) {
-        try {
-            const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}?t=${Date.now()}`;
-            const r = await fetch(rawUrl);
-            if (!r.ok) continue;
-            let content = await r.json();
-            const data = Array.isArray(content) ? content[0] : content;
+function getRepositoryParts() {
+    const cleanUrl = DEFAULT_REPO_URL.replace('https://github.com/', '').replace(/\.git$/, '');
+    const [owner, repo] = cleanUrl.split('/');
+    return { owner, repo };
+}
 
-            if (data && data.questions) {
-                data.questions.forEach(q => {
-                    const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
-                    q.id = q.id || 'id_' + simpleHash(combinedStr);
-                });
-                freshData.push({
-                    id: file.path,
-                    subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
-                    description: typeof data.description === 'string' ? data.description.trim() : '',
-                    lang: data.lang || 'en',
-                    questions: data.questions
-                });
-            }
-        } catch (e) { console.warn("Error fetching file", e); }
-    }
+async function fetchGitHubJson(url) {
+    const response = await fetch(url, {
+        cache: 'no-cache',
+        headers: { Accept: 'application/vnd.github+json' }
+    });
+    if (!response.ok) throw new Error(`GitHub request failed (${response.status})`);
+    return response.json();
+}
 
-    if (isFirstTime) {
-        quizData = freshData;
-    } else {
-        freshData.forEach(newSub => {
-            const existingSubIndex = quizData.findIndex(oldSub => oldSub.id === newSub.id);
-            if (existingSubIndex !== -1) {
-                // Replace the existing subject's questions and metadata with the fresh data
-                // to ensure the file's order and content are fully respected.
-                quizData[existingSubIndex].questions = newSub.questions;
-                quizData[existingSubIndex].lang = newSub.lang;
-                quizData[existingSubIndex].subject = newSub.subject;
-            } else {
-                quizData.push(newSub);
-            }
-        });
-    }
+async function findYearFolder(yearName) {
+    const { owner, repo } = getRepositoryParts();
+    const rootItems = await fetchGitHubJson(`https://api.github.com/repos/${owner}/${repo}/contents?ref=main`);
+    const normalisedYear = yearName.replace(/\s/g, '').toLowerCase();
+    return rootItems.find(item => item.type === 'dir'
+        && item.name.replace(/\s/g, '').toLowerCase() === normalisedYear) || null;
+}
 
-    quizData.forEach(subject => {
-        ['study', 'quiz'].forEach(m => {
-            const progressKey = `progress_${subject.id}_${m}`;
-            const savedProgress = localStorage.getItem(progressKey);
-            if (savedProgress) {
-                try {
-                    const prog = JSON.parse(savedProgress);
-                    localStorage.setItem(progressKey, JSON.stringify(prog));
-                } catch (e) {
-                    console.warn("Error restoring progress:", e);
-                }
-            }
-        });
+async function collectJsonFiles(apiUrl) {
+    const items = await fetchGitHubJson(apiUrl);
+    const files = [];
+    const directories = [];
+
+    (Array.isArray(items) ? items : [items]).forEach(item => {
+        if (item.type === 'file' && item.name.endsWith('.json') && item.name !== 'myOwnDic.json') {
+            files.push({
+                path: item.path,
+                downloadUrl: item.download_url,
+                sha: item.sha || null,
+                size: item.size || 0
+            });
+        } else if (item.type === 'dir') {
+            directories.push(item.url);
+        }
     });
 
-    localStorage.setItem(`year_data_${yearName}`, JSON.stringify(quizData));
-    if (isFirstTime) renderSubjectListWithSync(yearName, files, owner, repo);
+    for (const directoryUrl of directories) {
+        files.push(...await collectJsonFiles(directoryUrl));
+    }
+    return files;
+}
+
+async function fetchYearFileList(yearName) {
+    const folder = await findYearFolder(yearName);
+    if (!folder) throw new Error(`لا توجد بيانات جاهزة في ${yearName}`);
+    const files = await collectJsonFiles(folder.url);
+    if (files.length === 0) throw new Error(`No JSON subjects were found in ${yearName}.`);
+    return files;
+}
+
+function updateDownloadStatus(message, isError = false) {
+    const status = document.getElementById('download-status');
+    if (!status) return;
+    status.textContent = message;
+    status.classList.toggle('download-error', isError);
+}
+
+function setDownloadBusy(isBusy) {
+    downloadInProgress = isBusy;
+    const confirmButton = document.getElementById('download-confirm-btn');
+    const cancelButton = document.getElementById('download-cancel-btn');
+    if (confirmButton) {
+        confirmButton.disabled = isBusy;
+        confirmButton.textContent = isBusy ? 'Downloading…' : 'Download';
+    }
+    if (cancelButton) cancelButton.disabled = isBusy;
+}
+
+async function downloadYearData(yearName) {
+    if (!navigator.onLine) {
+        updateDownloadStatus('No internet connection. Your existing downloads are still available.', true);
+        return false;
+    }
+
+    setDownloadBusy(true);
+    updateDownloadStatus('Finding the subjects for this year…');
+
+    try {
+        const files = await fetchYearFileList(yearName);
+        const freshSubjects = [];
+        const existingSubjects = readDownloadedYear(yearName);
+        const existingById = new Map(existingSubjects.map(subject => [subject.id, subject]));
+        const previousMeta = getDownloadedYearMeta(yearName);
+        const previousFileShas = previousMeta?.fileShas || {};
+        let changedFileCount = 0;
+
+        for (let index = 0; index < files.length; index++) {
+            const file = files[index];
+            const existingSubject = existingById.get(file.path);
+            if (existingSubject && file.sha && previousFileShas[file.path] === file.sha) {
+                freshSubjects.push(existingSubject);
+                updateDownloadStatus(`Checked subject ${index + 1} of ${files.length} — already current.`);
+                continue;
+            }
+
+            changedFileCount++;
+            updateDownloadStatus(`Downloading changed subject ${index + 1} of ${files.length}…`);
+            const response = await fetch(file.downloadUrl, { cache: 'no-cache' });
+            if (!response.ok) throw new Error(`Could not download ${file.path}.`);
+            const content = await response.json();
+            const data = Array.isArray(content) ? content[0] : content;
+            if (!data || !Array.isArray(data.questions)) continue;
+
+            const subject = {
+                id: file.path,
+                subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
+                description: typeof data.description === 'string' ? data.description.trim() : '',
+                lang: data.lang || 'en',
+                questions: []
+            };
+            setSubjectSourceQuestions(subject, data.questions);
+            freshSubjects.push(subject);
+        }
+
+        if (freshSubjects.length === 0) throw new Error('The downloaded files did not contain any subjects.');
+
+        quizData = freshSubjects.map(freshSubject => {
+            const existingSubject = existingById.get(freshSubject.id);
+            if (!existingSubject) return freshSubject;
+
+            ['study', 'quiz'].forEach(savedMode => upgradeStoredProgress(existingSubject, savedMode));
+            setSubjectSourceQuestions(existingSubject, getSubjectSourceQuestions(freshSubject));
+            existingSubject.subject = freshSubject.subject;
+            existingSubject.description = freshSubject.description;
+            existingSubject.lang = freshSubject.lang;
+            return existingSubject;
+        });
+
+        quizData.forEach(subject => {
+            ['study', 'quiz'].forEach(savedMode => upgradeStoredProgress(subject, savedMode));
+        });
+
+        const cacheableData = quizData.map(subject => ({
+            id: subject.id,
+            subject: subject.subject,
+            description: subject.description || '',
+            lang: subject.lang,
+            questions: getSubjectSourceQuestions(subject)
+        }));
+        const serialisedData = JSON.stringify(cacheableData);
+        const questionCount = cacheableData.reduce((total, subject) => total + subject.questions.length, 0);
+        const metadata = {
+            downloadedAt: new Date().toISOString(),
+            subjectCount: cacheableData.length,
+            questionCount,
+            sizeBytes: new Blob([serialisedData]).size,
+            fileShas: Object.fromEntries(files.map(file => [file.path, file.sha]))
+        };
+
+        try {
+            localStorage.setItem(getYearDataKey(yearName), serialisedData);
+            localStorage.setItem(getYearMetaKey(yearName), JSON.stringify(metadata));
+        } catch (storageError) {
+            throw new Error('There is not enough browser storage. Remove another downloaded year and try again.');
+        }
+
+        activeYear = yearName;
+        updateDownloadStatus(changedFileCount > 0
+            ? `Saved ${metadata.subjectCount} subjects and ${metadata.questionCount} questions offline.`
+            : `Everything is already current. No subject files needed downloading.`);
+        renderDynamicYears();
+        setTimeout(() => {
+            closeDownloadModal();
+            loadYearData(yearName);
+        }, 650);
+        return true;
+    } catch (error) {
+        console.error('Year download failed:', error);
+        updateDownloadStatus(error.message || 'The download failed. Please try again.', true);
+        return false;
+    } finally {
+        setDownloadBusy(false);
+    }
+}
+
+function removeDownloadedYear(yearName) {
+    if (!confirm(`هل تريد إزالة البيانات التي تم تنزيلها للسنة ${yearName}? ستفقد ما أنجزته في الاختبار.`)) return;
+    localStorage.removeItem(getYearDataKey(yearName));
+    localStorage.removeItem(getYearMetaKey(yearName));
+    if (activeYear === yearName) backToYears();
+    else renderDynamicYears();
 }
 
 function toggleSyncSettings() {
@@ -1548,153 +2091,3 @@ function saveSyncConfig() {
 
 document.addEventListener('mouseup', performSmartSearch);
 document.addEventListener('touchend', performSmartSearch);
-
-function renderDynamicYears(files, owner, repo) {
-    const yearsContainer = document.getElementById('years-container');
-    yearsContainer.innerHTML = '';
-
-    const yearGroups = {};
-    files.forEach(file => {
-        const parts = file.path.split('/');
-        if (parts.length > 1) {
-            const yearFolder = parts[0];
-            if (!yearGroups[yearFolder]) yearGroups[yearFolder] = [];
-            yearGroups[yearFolder].push(file);
-        }
-    });
-
-    let hasData = false;
-    VALID_YEARS.forEach(year => {
-        const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
-
-        if (folderName && yearGroups[folderName].length > 0) {
-            hasData = true;
-            const btn = document.createElement('div');
-            btn.className = 'subject-btn year-btn';
-            btn.innerHTML = `<span style="z-index:2; position:relative;">${year}</span>`;
-            btn.onclick = () => loadYearData(year, yearGroups[folderName], owner, repo);
-            yearsContainer.appendChild(btn);
-        }
-    });
-
-    if (!hasData) {
-        yearsContainer.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد بيانات متاحة لأي سنة دراسية حالياً.</p>";
-    }
-}
-
-async function loadYearData(yearName, files, owner, repo) {
-    const subjectList = document.getElementById('subject-list');
-    subjectList.classList.remove('hidden');
-
-    const localKey = `year_data_${yearName}`;
-    const savedData = localStorage.getItem(localKey);
-
-    if (savedData) {
-        quizData = JSON.parse(savedData);
-        renderSubjectListWithSync(yearName, files, owner, repo); // عرض المواد مباشرة من الذاكرة
-    } else {
-        subjectList.innerHTML = '<div class="loader" style="text-align: center;">جاري تحميل بيانات السنة لأول مرة...</div>';
-        await fetchAndMergeYearData(yearName, files, owner, repo, true);
-    }
-}
-
-function renderSubjectListWithSync(yearName, files, owner, repo) {
-    renderSubjectList();
-
-    const list = document.getElementById('subject-list');
-
-    const header = document.createElement('div');
-    header.className = 'year-header';
-    header.innerHTML = `
-        <h3 style="margin:0;">${yearName}</h3>
-        <button onclick="backToYears()" class="small-btn ghost-btn" style="margin:0;">العودة</button>
-    `;
-    list.insertBefore(header, list.firstChild);
-
-    const syncBtn = document.createElement('div');
-    syncBtn.className = 'subject-btn sync-btn';
-    syncBtn.innerHTML = `<span>مزامنة وتحديث المواد (Sync) 🔄</span>`;
-    syncBtn.onclick = () => {
-        syncBtn.innerHTML = `<span>جاري المزامنة... ⏳</span>`;
-        fetchAndMergeYearData(yearName, files, owner, repo, false).then(() => {
-            syncBtn.innerHTML = `<span>تمت المزامنة بنجاح ✅</span>`;
-            setTimeout(() => renderSubjectListWithSync(yearName, files, owner, repo), 1500);
-        });
-    };
-    list.insertBefore(syncBtn, header.nextSibling);
-}
-
-function backToYears() {
-    const subjectList = document.getElementById('subject-list');
-    const yearsContainer = document.getElementById('years-container');
-
-    subjectList.classList.add('hidden');
-    subjectList.innerHTML = '';
-    yearsContainer.classList.remove('hidden');
-    yearsContainer.querySelectorAll('.year-btn').forEach(button => {
-        button.classList.remove('active-year');
-    });
-    quizData = [];
-}
-
-async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) {
-    let freshData = [];
-    for (const file of files) {
-        try {
-            const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}?t=${Date.now()}`;
-            const r = await fetch(rawUrl);
-            if (!r.ok) continue;
-            let content = await r.json();
-            const data = Array.isArray(content) ? content[0] : content;
-
-            if (data && data.questions) {
-                data.questions.forEach(q => {
-                    const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
-                    q.id = q.id || 'id_' + simpleHash(combinedStr);
-                });
-                freshData.push({
-                    id: file.path,
-                    subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
-                    description: typeof data.description === 'string' ? data.description.trim() : '',
-                    lang: data.lang || 'en',
-                    questions: data.questions
-                });
-            }
-        } catch (e) { console.warn("Error fetching file", e); }
-    }
-
-    if (isFirstTime) {
-        quizData = freshData;
-    } else {
-        freshData.forEach(newSub => {
-            const existingSubIndex = quizData.findIndex(oldSub => oldSub.id === newSub.id);
-            if (existingSubIndex !== -1) {
-                // Replace the existing subject's questions and metadata with the fresh data
-                // to ensure the file's order and content are fully respected.
-                quizData[existingSubIndex].questions = newSub.questions;
-                quizData[existingSubIndex].lang = newSub.lang;
-                quizData[existingSubIndex].subject = newSub.subject;
-            } else {
-                quizData.push(newSub);
-            }
-        });
-    }
-
-    quizData.forEach(subject => {
-        ['study', 'quiz'].forEach(m => {
-            const progressKey = `progress_${subject.id}_${m}`;
-            const savedProgress = localStorage.getItem(progressKey);
-            if (savedProgress) {
-                try {
-                    const prog = JSON.parse(savedProgress);
-                    localStorage.setItem(progressKey, JSON.stringify(prog));
-                } catch (e) {
-                    console.warn("Error restoring progress:", e);
-                }
-            }
-        });
-    });
-
-    localStorage.setItem(`year_data_${yearName}`, JSON.stringify(quizData));
-    if (isFirstTime) renderSubjectListWithSync(yearName, files, owner, repo);
-}

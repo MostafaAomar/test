@@ -1,7 +1,249 @@
 {
-  "subject": "المسرح في العصر الحديث سنة رابعة ف2 - Waiting for Godot , Major Barbara، د. واحة",
+  "subject": "المسرح في العصر الحديث ",
+  "description": " الفصل 2 د. واحة Waiting for Godot , Major Barbara،",
   "lang": "ar",
   "questions": [
+    
+     {
+    "q": "Which European dramatist was Bernard Shaw compared to by the critics of his time?",
+    "options": ["Leo Tolstoy", "Eugene Scribe", "Albert Camus", "Henrik Ibsen"],
+    "correct": 3,
+    "feedback": "غالباً ما قارن النقاد برنارد شو بالكاتب النرويجي هنريك إبسن (Henrik Ibsen) بسبب اهتمامه بالواقعية الاجتماعية والقضايا الحديثة."
+  },
+  {
+    "q": "What are the approximate active years of the Naturalism in theatre and literature?",
+    "options": ["1800-1850", "1865-1940", "1900-1960", "1940-1980"],
+    "correct": 1,
+    "feedback": "بدأت المدرسة الطبيعية (Naturalism) في الظهور في أواخر القرن التاسع عشر (حوالي 1865) واستمر تأثيرها حتى منتصف القرن العشرين."
+  },
+  {
+    "q": "What characterises Bernard Shaw's drama?",
+    "options": ["social activism", "philosophical debate", "long monologues", "religious morality"],
+    "correct": 1,
+    "feedback": "تتميز دراما شو بالذكاء والنقاش الفكري والفلسفي (philosophical debate) والمواضيع الجدلية."
+  },
+  {
+    "q": "In his preface to Major Barbara, Shaw commented on Undershaft's choice of profession as being a choice between energetic enterprise and:",
+    "options": ["self respect", "cowardly infamy", "good reputation", "religious hypocrisy"],
+    "correct": 1,
+    "feedback": "في المقدمة، يرى شو أن خيار أندرشفت كان بين العمل الجاد (energetic enterprise) والخزي الجبان (cowardly infamy) الناتج عن الفقر."
+  },
+  {
+    "q": "According to Undershaft, what is the greatest of evils?",
+    "options": ["War", "Ignorance", "Hypocrisy", "Poverty"],
+    "correct": 3,
+    "feedback": "يؤكد أندرشفت (وشو في المقدمة) أن الفقر (Poverty) هو أكبر الشرور وأسوأ الجرائم."
+  },
+  {
+    "q": "Undershaft told his son, Stephen, that money can buy:",
+    "options": ["people", "governments", "salvation", "happiness"],
+    "correct": 1,
+    "feedback": "يشير أندرشفت إلى أن أصحاب المال هم من يحكمون فعلياً ويسيطرون على القرارات الوطنية (governments)."
+  },
+  {
+    "q": "Barbara says that every man is 'a potential scoundrel' based on their:",
+    "options": ["upbringing", "class", "circumstances", "profession"],
+    "correct": 2,
+    "feedback": "تؤكد المسرحية (وخاصة في المقدمة) أن سلوك الإنسان يعتمد على ظروفه (circumstances)، فكل شخص هو وغد محتمل إذا ساءت ظروفه."
+  },
+  {
+    "q": "What does Shaw argue should be sacrificed to avoid poverty?",
+    "options": ["Morality", "Family", "Dignity", "Everything"],
+    "correct": 3,
+    "feedback": "يجادل شو بأن الواجب الأول هو ألا يكون المرء فقيراً، ويجب التضحية بكل شيء (everything) آخر لتحقيق ذلك."
+  },
+  {
+    "q": "Which of the following phrases does Shaw believe is dangerously immoral?",
+    "options": ["Money enables life", "Hard work pays", "Poor but honest", "All of the above"],
+    "correct": 2,
+    "feedback": "يعتبر شو عبارة 'فقير لكنه شريف' (Poor but honest) عبارة غير أخلاقية لأنها تجمل حالة الفقر القبيحة."
+  },
+  {
+    "q": "Shaw argues that money is the counter that enables:",
+    "options": ["Life", "generosity", "authority", "war"],
+    "correct": 0,
+    "feedback": "يصف شو المال بأنه الوسيلة أو 'العداد' الذي يسمح بتوزيع الحياة (Life) اجتماعياً."
+  },
+  {
+    "q": "Who criticised the habit of confession in the play?",
+    "options": ["The Salvation Army", "Barbara", "Lady Britomart", "Cousins"],
+    "correct": 3,
+    "feedback": "كوزنز (Cusins) هو من انتقد عادة الاعتراف، وكذلك شو في مقدمته اعتبرها عادة كاذبة ومقرفة."
+  },
+  {
+    "q": "Cousins told Barbara that he decided to sell himself to Undershaft for:",
+    "options": ["wealth", "social status", "the truth", "all of the above"],
+    "correct": 2,
+    "feedback": "يوضح كوزنز أنه لم يبع نفسه من أجل المال أو الجاه، بل من أجل الواقع (reality) والقوة."
+  },
+  {
+    "q": "Which character claims to copy a capitalist society that is based on exploitation?",
+    "options": ["Rummy Minchin", "Snobby Price", "Bill Walker", "Peter Shirley"],
+    "correct": 1,
+    "feedback": "سنوبي برايس (Snobby Price) يعترف بأنه يفعل ما يفعله الرأسماليون من استغلال الفرص وأخذ ما يمكنه الوصول إليه."
+  },
+  {
+    "q": "Which character revealed that salvation is sold to the highest bidder?",
+    "options": ["Rummy Minchin", "Snobby Price", "Bill Walker", "Peter Shirley"],
+    "correct": 2,
+    "feedback": "بيل ووكر (Bill Walker) هو من تهكم على بربارة والجيش عندما قبلوا أموال أندرشفت الضخمة ورفضوا تعويضه الصغير."
+  },
+  {
+    "q": "What did Undershaft advise Barbara to do when her faith failed her?",
+    "options": ["Reform it", "fight it", "defend it", "scrap it"],
+    "correct": 3,
+    "feedback": "عندما انهار إيمان بربارة القديم، نصحها أندرشفت بالتخلص منه (scrap it) واستبداله بآخر يناسب الحقائق."
+  },
+  {
+    "q": "The controversial ending of the play aims primarily at:",
+    "options": ["gaining financial success", "provoking critics", "encouraging constructive debate", "promoting himself"],
+    "correct": 2,
+    "feedback": "تهدف نهايات مسرحيات شو الجدلية عادةً إلى إثارة النقاش البناء (constructive debate) حول القضايا الاجتماعية."
+  },
+  {
+    "q": "Who wrote 'The Myth of Sisyphus'?",
+    "options": ["Friedrich Nietzsche", "Jean-Paul Sartre", "Albert Camus", "Soren Kierkegaard"],
+    "correct": 2,
+    "feedback": "كتاب 'أسطورة سيزيف' (The Myth of Sisyphus) هو عمل فلسفي شهير لألبرت كامو (Albert Camus)."
+  },
+  {
+    "q": "When did Martin Esslin write his essay, 'The Theatre of the Absurd'?",
+    "options": ["1960", "1942", "1947", "1860"],
+    "correct": 0,
+    "feedback": "نشر مارتن إسلين مقاله الشهير 'مسرح العبث' في عام 1960، ثم تبعه بكتابه في عام 1961."
+  },
+  {
+    "q": "What structural pattern mainly describes Waiting for Godot?",
+    "options": ["Fragmented", "linear", "cyclical", "retrospective"],
+    "correct": 2,
+    "feedback": "تعتبر بنية المسرحية دائرية (cyclical) حيث يتكرر الفعل في الفصل الثاني بشكل يوازي الفصل الأول."
+  },
+  {
+    "q": "What doesn't characterise the language pattern in the play?",
+    "options": ["interrupted", "repetitive", "fragmented", "dynamic"],
+    "correct": 3,
+    "feedback": "لغة المسرحية تفتقر إلى الديناميكية (dynamic)؛ فهي لغة متكررة، ومفككة، ومليئة بالمقاطعات."
+  },
+  {
+    "q": "All but one are hallmarks of the theatre of the absurd:",
+    "options": ["social conflict", "farce", "minimal settings", "individual dilemma"],
+    "correct": 0,
+    "feedback": "يركز مسرح العبث على العزلة والعبثية، بينما يعتبر الصراع الاجتماعي (social conflict) سمة من سمات الواقعية الاجتماعية."
+  },
+  {
+    "q": "Samuel Beckett used silence in the play:",
+    "options": ["exhaustively", "strategically", "minimally", "rarely"],
+    "correct": 1,
+    "feedback": "استخدم بيكيت الصمت بشكل استراتيجي (strategically) لإعطاء شكل للفوضى ولتأكيد الفراغ."
+  },
+  {
+    "q": "In the play's diverse language styles, Vladimir and Estragon's conversations are rarely:",
+    "options": ["rapid", "productive", "repetitive", "disjointed"],
+    "correct": 1,
+    "feedback": "حوارات الشخصيات في مسرح العبث نادراً ما تكون منتجة (productive)؛ فهي لا تؤدي إلى نتيجة أو فعل حقيقي."
+  },
+  {
+    "q": "What does Vladimir give Estragon to eat in Act I?",
+    "options": ["chicken", "chicken bones", "A carrot", "A turnip"],
+    "correct": 3,
+    "feedback": "في الفصل الأول، يعطي فلاديمير لإستراغون لفتة (turnip) أولاً، ثم جزرة."
+  },
+  {
+    "q": "Who said 'astride of a grave and a difficult birth'?",
+    "options": ["Estragon", "Lucky", "Vladimir", "Pozzo"],
+    "correct": 2,
+    "feedback": "هذه الجملة الشهيرة قالها فلاديمير (Vladimir) في خطابه الأخير في الفصل الثاني."
+  },
+  {
+    "q": "What is Vladimir's first reaction when Pozzo says he wants to sell Lucky?",
+    "options": ["He consoles Lucky", "He protests", "He dances", "None of the above"],
+    "correct": 1,
+    "feedback": "اعترض فلاديمير (protests) بشدة واصفاً معاملة لاكي بأنها 'فضيحة' (scandal)."
+  },
+  {
+    "q": "Does the boy meet Lucky and Pozzo in person in the play?",
+    "options": ["Yes, in Act I", "Yes, in Act II", "Yes, in both acts", "No, never"],
+    "correct": 3,
+    "feedback": "لا يلتقي الصبي بـ بوزو ولاكي أبداً؛ فهو يدخل دائماً بعد مغادرتهما للمسرح."
+  },
+  {
+    "q": "Vladimir and Estragon describe thoughts as all but one of the following:",
+    "options": ["Sand", "Waves", "Feathers", "Leaves"],
+    "correct": 1,
+    "feedback": "وصفوا الأصوات (الأفكار) بأنها تشبه الأجنحة، والأوراق، والرمل، لكنهم لم يذكرو الأمواج (Waves)."
+  },
+  {
+    "q": "Who has no notion of time according to Pozzo?",
+    "options": ["Slaves", "Children", "The blind", "The dead"],
+    "correct": 2,
+    "feedback": "يقول بوزو في الفصل الثاني إن العميان (The blind) ليس لديهم إدراك للوقت."
+  },
+  {
+    "q": "The setting in the play, a country road with a single bare tree, symbolises:",
+    "options": ["comfort", "estrangement", "a new beginning", "none of the above"],
+    "correct": 1,
+    "feedback": "يرمز المكان الجرد والمنعزل إلى الاغتراب (estrangement) والوحدة الإنسانية."
+  },
+  {
+    "q": "Pozzo: 'the tears of the world are a constant quantity'. This means that life is:",
+    "options": ["absurdly balanced", "very unfair", "fair and just", "full of suffering"],
+    "correct": 0,
+    "feedback": "تشير العبارة إلى وجود توازن عبثي (absurdly balanced) في البؤس الإنساني؛ فكلما بدأ شخص بالبكاء، توقف آخر."
+  },
+  {
+    "q": "What symbolises the character's fragile identity in the play?",
+    "options": ["forgetfulness", "co-dependency", "physical disability", "all of the above"],
+    "correct": 3,
+    "feedback": "تساهم كل هذه العناصر (النسيان، الاعتمادية المتبادلة، والعجز الجسدي) في إظهار هشاشة هوية الشخصيات."
+  },
+  {
+    "q": "The article argues that the play's central psychological concern is a lack of inner security stemming from a disconnection from a 'good mother' figure.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ يرى كيلر أن القلق الأساسي ينبع من فقدان الأمان الداخلي بسبب الانفصال عن 'الأم الطيبة'."
+  },
+  {
+    "q": "Godot in the play contains the tramps suicidal thoughts by giving them hope.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ انتظار غودو هو ما يمنعهما من الانتحار لأنه يمثل 'محتوياً للقلق' وبصيص أمل."
+  },
+  {
+    "q": "The author suggests that Vladimir interrogates the boy about Godot in order to better understand him.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ يحاول فلاديمير من خلال استجواب الصبي الاقتراب من غودو وفهمه."
+  },
+  {
+    "q": "Godot's absence is not the foundation of the tramps' despair.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ غياب غودو هو تحديداً أساس (foundation) يأس المشردين وفقاً لتحليل كيلر."
+  },
+  {
+    "q": "Godot in the play represents certainty.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ غودو محاط بهالة من عدم اليقين (uncertainty) والغموض."
+  },
+  {
+    "q": "The tramps' relationship is one of autonomy.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ علاقتهما علاقة اعتمادية متبادلة (codependency) وفاشلة في تحقيق الاستقلالية."
+  },
+  {
+    "q": "In the relationship between Pozzo and Lucky, the former is the child and the latter is the mother.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ يحلل كيلر بوزو كطفل محتاج للاعتراف، ولاكي كأم توفر له المعرفة والهوية."
+  },
+  {
+    "q": "Vladimir consistently offers comfort and containment for Estragon's anxiety.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ؛ فلاديمير يرفض باستمرار سماع كوابيس إستراغون أو احتواء قلقه."
+  },
     {
       "q": "1. Vladimir and Estragon are brothers.",
       "options": ["True", "False"],
@@ -464,7 +706,7 @@
     {
       "q": "75. Vladimir's difficult urination represents his inability to:",
       "options": ["Cope and adapt", "Forget the past", "Move onto the future", "All of the above"],
-      "perfect": 3,
+      "correct": 3,
       "feedback": "يرمز صعوبة التبول عند فلاديمير إلى عجزه عن التكيف ونسيان الماضي والمضي قدماً نحو المستقبل."
     },
     {

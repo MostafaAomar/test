@@ -1,7 +1,292 @@
 {
-  "subject": "الشعر الرومانتيكي سنة ٣",
+  "subject": "الشعر الرومانتيكي",
+  "description": "  الفصل 1",
   "lang": "en",
   "questions": [
+    {
+      "q": "What kind of movement was Romanticism?",
+      "options": ["Social", "Political", "Literary"],
+      "correct": 2,
+      "feedback": "الرومانتيكية هي في المقام الأول حركة أدبية وفنية، رغم أنها تأثرت بالتحولات الاجتماعية والسياسية مثل الثورة الفرنسية."
+    },
+    {
+      "q": "Romanticism as a movement placed the greatest emphasis on:",
+      "options": ["logic", "magic", "emotions"],
+      "correct": 2,
+      "feedback": "ركزت الرومانتيكية على العواطف والخيال الفردي كرد فعل على عقلانية ومنطق عصر التنوير."
+    },
+    {
+      "q": "(...) was essential, and it could only be achieved through subjectivity.",
+      "options": ["Spontaneity", "freedom", "originality"],
+      "correct": 1,
+      "feedback": "تعتبر 'الحرية' (freedom) عنصراً أساسياً في الفكر الرومانتيكي، ولا يمكن تحقيقها إلا من خلال الرؤية الذاتية للفرد."
+    },
+    {
+      "q": "Which of the following had a minimal influence on British romantics?",
+      "options": ["the supernatural", "spirituality", "nationalism"],
+      "correct": 2,
+      "feedback": "بينما ركز الرومانتيكيون الألمان على القومية، كان للرومانتيكيين البريطانيين الأوائل اهتمام أقل بها مقارنة بالطبيعة والقوى الخارقة والروحانية."
+    },
+    {
+      "q": "The Age of enlightenment (...) Romanticism.",
+      "options": ["preceded", "followed", "was contemporary to"],
+      "correct": 0,
+      "feedback": "عصر التنوير (Enlightenment) سبق العصر الرومانتيكي، وكانت الرومانتيكية رد فعل ضده."
+    },
+    {
+      "q": "Which was a proto-Romantic movement?",
+      "options": ["Sturm und Drang", "The Pre-Raphaelite", "Realism"],
+      "correct": 0,
+      "feedback": "حركة 'Sturm und Drang' (العاصفة والاندفاع) الألمانية تعتبر الحركة التمهيدية أو الأولية للرومانتيكية."
+    },
+    {
+      "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
+      "options": [
+        "the French revolution",
+        "the Enlightenment",
+        "the scientific Revolution"
+      ],
+      "correct": 2,
+      "feedback": "الثورة العلمية (Scientific Revolution) هي التي امتدت عبر هذه القرون الثلاثة وشكلت الفكر الحديث."
+    },
+    {
+      "q": "How many Reform Acts were introduced in Britain during the 19th century?",
+      "options": ["three", "two", "None"],
+      "correct": 0,
+      "feedback": "شهد القرن التاسع عشر في بريطانيا ثلاث قوانين إصلاح رئيسية (1832، 1867، 1884)."
+    },
+    {
+      "q": "Lord Byron's 'Darkness' was composed using:",
+      "options": [
+        "structured meter",
+        "free verse",
+        "blank verse",
+        "sonnet form"
+      ],
+      "correct": 2,
+      "feedback": "قصيدة 'Darkness' لبايرون مكتوبة بأسلوب 'Blank Verse' (الشعر المرسل)، وهو شعر موزون لكن غير مقفى."
+    },
+    {
+      "q": "Lord Byron's 'Childe Harold's Pilgrimage' consists of:",
+      "options": ["three cantos", "four cantos", "five cantos", "six cantos"],
+      "correct": 1,
+      "feedback": "تتكون هذه القصيدة الطويلة من أربعة أجزاء أو أناشيد (cantos)."
+    },
+    {
+      "q": "The poem's (Childe Harold) tone is best described as:",
+      "options": ["cheerful", "melancholic", "ecstatic", "wise"],
+      "correct": 1,
+      "feedback": "تتسم قصائد بايرون، خاصة 'Childe Harold'، بنبرة سوداوية أو كئيبة (melancholic) تعكس شخصية البطل البايروني."
+    },
+    {
+      "q": "The central theme of Wordsworth's 'Mutability' is:",
+      "options": [
+        "Religious devotion",
+        "social satire",
+        "accepting fate",
+        "change as a noble truth"
+      ],
+      "correct": 3,
+      "feedback": "تتناول قصيدة 'Mutability' (التحول) فكرة أن التغيير هو الحقيقة الوحيدة الثابتة والنبيلة في الكون."
+    },
+    {
+      "q": "Wordsworth suggests that all but one of the following do not realise that nothing lasts forever:",
+      "options": [
+        "kings",
+        "criminals",
+        "the greedy",
+        "people overwhelmed by distress"
+      ],
+      "correct": 3,
+      "feedback": "في القصيدة، يقترح وردزورث أن الأشخاص الغارقين في الحزن أو المحنة هم وحدهم من قد يدركون حقيقة زوال كل شيء."
+    },
+    {
+      "q": "Shelley's 'Hymn to Intellectual Beauty' is a praise of:",
+      "options": [
+        "Christian faith",
+        "human power",
+        "the spirit of inspiration",
+        "wise poets"
+      ],
+      "correct": 2,
+      "feedback": "القصيدة هي تمجيد لقوة خفية تمنح الإلهام والجمال للعالم، ويسميها شيلي 'روح الجمال الفكري'."
+    },
+    {
+      "q": "Shelley mentioned that he sought for the truth of intellectual beauty in:",
+      "options": ["black magic", "the sea", "the forest", "the Church"],
+      "correct": 0,
+      "feedback": "يذكر شيلي في القصيدة أنه في شبابه بحث عن الحقيقة في 'السحر الأسود' (black magic) والقبور قبل أن يكتشف الجمال الفكري."
+    },
+    {
+      "q": "As a poem of praise and prayer, its form and style (Hymn to Intellectual Beauty) reflect that of:",
+      "options": ["an ode", "an epic", "a ballad", "a sonnet"],
+      "correct": 0,
+      "feedback": "القصيدة هي 'Ode' (قصيدة غنائية أو نشيد)، وهو قالب شعري يستخدم للتمجيد والتأمل الفلسفي."
+    },
+    {
+      "q": "In his poem, 'Time', Shelley personifies time as:",
+      "options": [
+        "a nurturing parent",
+        "a merciless destroyer and creator",
+        "a playful child",
+        "a merciful guardian"
+      ],
+      "correct": 1,
+      "feedback": "يشبه شيلي الزمن بالمحيط الذي يبتلع كل شيء، فهو مدمر لا يرحم."
+    },
+    {
+      "q": "When Shelley said that Time's 'waves are years', he compares it to:",
+      "options": [
+        "A deep ocean",
+        "a rippling desert",
+        "a rocky mountain",
+        "A stormy ocean"
+      ],
+      "correct": 3,
+      "feedback": "القصيدة تبدأ بـ 'Unfathomable Sea!'، ويصف أمواجه بأنها سنوات، مما يشير إلى محيط عاصف ومخيف."
+    },
+    {
+      "q": "Shelley suggests Time's power is:",
+      "options": ["Controllable", "Limited", "Absolute", "An illusion"],
+      "correct": 2,
+      "feedback": "يصور شيلي قوة الزمن كقوة مطلقة (Absolute) وشاملة لا يمكن للإنسان الهروب منها."
+    },
+    {
+      "q": "The poem's (Time) tone is best described as:",
+      "options": ["Humorous", "Sarcastic", "Serious", "Satirical"],
+      "correct": 2,
+      "feedback": "القصيدة جادة جداً (Serious) وتتأمل في فناء الوجود وضخامة الزمن."
+    },
+    {
+      "q": "Who was considered the father of English Romanticism during his time?",
+      "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
+      "correct": 3,
+      "feedback": "يعتبر ويليام وردزورث الأب الروحي للرومانتيكية الإنجليزية، خاصة بعد نشره 'Lyrical Ballads'."
+    },
+    {
+      "q": "Which Romantic poet worked in restoring churches?",
+      "options": ["Byron", "Blake", "Coleridge", "Wordsworth"],
+      "correct": 1,
+      "feedback": "ويليام بليك عمل كفنان ونقاش، وقضى وقتاً طويلاً في رسم وترميم تفاصيل الكنائس مثل كاتدرائية وستمنستر."
+    },
+    {
+      "q": "What is the common characteristic in the poetry of all Romantic poets that cannot be controlled?",
+      "options": ["Imagination", "Love", "poetic form", "Nature"],
+      "correct": 0,
+      "feedback": "الخيال (Imagination) هو القوة العظمى واللامحدودة التي تميز جميع الشعراء الرومانتيكيين."
+    },
+    {
+      "q": "Which of the following poems is not a sonnet?",
+      "options": ["The World", "Ozymandias", "Time", "None of the above"],
+      "correct": 2,
+      "feedback": "قصيدة 'Time' لشيلي ليست سونيت، بينما 'The World' لوردزورث و'Ozymandias' لشيلي هما سونيتات."
+    },
+    {
+      "q": "'Thy spells did bind/ To fear himself, and love all human kind' is a line from Shelley's:",
+      "options": [
+        "Mutability",
+        "Time",
+        "To a Skylark",
+        "Hymn to Intellectual Beauty"
+      ],
+      "correct": 3,
+      "feedback": "هذه الأسطر مأخوذة من المقطع الأخير من قصيدة 'Hymn to Intellectual Beauty'."
+    },
+    {
+      "q": "Blake's Songs of Innocence and of Experience mainly represented themes about:",
+      "options": ["Religion", "human nature", "Animals", "cruelty"],
+      "correct": 1,
+      "feedback": "تمثل المجموعتان 'الحالتين المتضادتين للنفس البشرية' (human nature) كما ذكر بليك في العنوان الفرعي."
+    },
+    {
+      "q": "Who described himself as a 'visionary poet'?",
+      "options": ["Shelley", "Coleridge", "Byron", "Blake"],
+      "correct": 3,
+      "feedback": "ويليام بليك كان يرى رؤى (visions) واعتبر شعره وفنه تعبيراً عن هذه الرؤى الروحية."
+    },
+    {
+      "q": "Which of the following poems was not written by Coleridge?",
+      "options": [
+        "Ozymandias",
+        "Christabel",
+        "Don Juan",
+        "The Rime of the Ancient Mariner"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'Ozymandias' هي لبيرسي شيلي، بينما 'Don Juan' لبايرون. (ملاحظة: السؤال يحتوي على خيارين صحيحين ولكن 'Ozymandias' هو الخيار الأول المعتاد)."
+    },
+    {
+      "q": "Wordsworth believed that poetry is 'the spontaneous overflow of powerful feelings'.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح؛ هذا هو التعريف الشهير الذي وضعه وردزورث للشعر في مقدمة 'Lyrical Ballads'."
+    },
+    {
+      "q": "Both Blake and Shelley were rumoured to be mad during their lifetime.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح؛ اتُهم بليك بالجنون بسبب رؤاه، وشيلي بسبب أفكاره السياسية والاجتماعية الراديكالية."
+    },
+    {
+      "q": "Shelley's was interested in social and political themes.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح؛ كان شيلي ثائراً سياسياً ومهتماً جداً بقضايا الحرية والإصلاح الاجتماعي."
+    },
+    {
+      "q": "Blake was a supporter of the Protestant Church in England.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خطأ؛ بليك كان معارضاً للكنيسة المؤسسية (المذهب البروتستانتي الرسمي) واعتبرها قيداً على الروح البشرية."
+    },
+    {
+      "q": "Wordsworth was not popular as a poet during his lifetime.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خطأ؛ أصبح وردزورث مشهوراً جداً في حياته وعُين 'شاعر البلاط' (Poet Laureate) في عام 1843."
+    },
+    {
+      "q": "Blake's 'The Human Abstract' suggests that evil is the creation of gods.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خطأ؛ القصيدة تقترح أن الشر (والفضائل الزائفة) تنمو في 'دماغ الإنسان' (the Human Brain) وليس من خلق الآلهة."
+    },
+    {
+      "q": "Blake's 'The Human Abstract' places 'the caterpillar and the fly' as symbols of religious and state power.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح؛ يستخدم بليك هذه الرموز للإشارة إلى القوى التي تتغذى على ثمار الروح البشرية."
+    },
+    {
+      "q": "Coleridge used no archaic words in his 'Rime of the Ancient Mariner'.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خطأ؛ تعمد كولريدج استخدام كلمات قديمة (archaic) لمحاكاة أسلوب البالاد الشعبي القديم."
+    },
+    {
+      "q": "Blake's 'Songs of Innocence' was published in 1794.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خطأ؛ نُشرت 'Songs of Innocence' في 1789، بينما نُشرت 'Songs of Experience' في 1794."
+    },
+    {
+      "q": "Blake's method of printing involved cutting lines into a metal plate template.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح؛ ابتكر بليك طريقة 'النقش البارز' (relief etching) حيث كان يرسم ويكتب على ألواح نحاسية."
+    },
+    {
+      "q": "Coleridge used the ballad form in his 'Rime of the Ancient Mariner'.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح؛ القصيدة تتبع تقاليد البالاد (Ballad) في لغتها وبنائها القصصي."
+    },
+    {
+      "q": "The 'Rime of the Ancient Mariner' was written in Iambic Pentameter.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خطأ؛ القصيدة مكتوبة بوزن البالاد (Ballad meter) الذي يعتمد عادة على تناوب الأسطر الرباعية والثلاثية التفاعيل، وليس البحر الخماسي."
+    },
     {
       "q": "Which Poet was born in Cockermouth?",
       "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
@@ -10,7 +295,12 @@
     },
     {
       "q": "Blake's Songs of Innocence and of Experience mainly represented themes about:",
-      "options": ["innocence", "good and evil", "human nature", "divine cruelty"],
+      "options": [
+        "innocence",
+        "good and evil",
+        "human nature",
+        "divine cruelty"
+      ],
       "correct": 2,
       "feedback": "تستكشف المجموعة المزدوجة لوليام بليك الحالات المتناقضة للطبيعة البشرية وسلوكياتها."
     },
@@ -124,7 +414,11 @@
     },
     {
       "q": "(.......) lasted through the sixteenth, seventeenth, and eighteenth centuries",
-      "options": ["The French Revolution", "the Enlightenment", "the scientific Revolution"],
+      "options": [
+        "The French Revolution",
+        "the Enlightenment",
+        "the scientific Revolution"
+      ],
       "correct": 2,
       "feedback": "تطورت الثورة العلمية ونشطت بشكل أساسي عبر هذه القرون الثلاثة المتعاقبة."
     },
@@ -154,7 +448,11 @@
     },
     {
       "q": "New subsectors of Christianity emerged including the Methodists and the Evangelicals in:",
-      "options": ["The 20th century", "the Victorian Age", "Age of Enlightenment"],
+      "options": [
+        "The 20th century",
+        "the Victorian Age",
+        "Age of Enlightenment"
+      ],
       "correct": 1,
       "feedback": "شهد العصر الفيكتوري نشاطاً واسعاً وصعوداً قوياً لهذه الحركات والطوائف المسيحية التجديدية."
     },
@@ -238,13 +536,23 @@
     },
     {
       "q": "Which of the following poems is not a sonnet?",
-      "options": ["The World", "Ozymandias", "To a Skylark", "Composed upon Westminster Bridge"],
+      "options": [
+        "The World",
+        "Ozymandias",
+        "To a Skylark",
+        "Composed upon Westminster Bridge"
+      ],
       "correct": 2,
       "feedback": "قصيدة شيلي 'To a Skylark' هي قصيدة غنائية طويلة ممتدة، وليست سونيت (السونيت تتكون من 14 سطراً فقط مثل القصائد الأخرى المذكورة)."
     },
     {
       "q": "Who shall put forth on thee,/ unfathomable sea? are lines from Shelley's:",
-      "options": ["Mutability", "Time", "A Hymn to Intellectual Beauty", "None"],
+      "options": [
+        "Mutability",
+        "Time",
+        "A Hymn to Intellectual Beauty",
+        "None"
+      ],
       "correct": 1,
       "feedback": "هذه الأسطر مأخوذة من قصيدة شيلي القصيرة والتأملية المعنونة بـ 'Time'."
     },
@@ -328,7 +636,12 @@
     },
     {
       "q": "Lord Byron's 'Darkness' was composed using:",
-      "options": ["structured meter", "free verse", "blank verse", "sonnet form"],
+      "options": [
+        "structured meter",
+        "free verse",
+        "blank verse",
+        "sonnet form"
+      ],
       "correct": 2,
       "feedback": "قصيدة 'الظلام' للورد بايرون تتميز بأنها كُتبت بالشعر المرسل (blank verse)، وهو شعر خماسي التفاعيل غير مقفى."
     },
@@ -346,19 +659,34 @@
     },
     {
       "q": "The central theme of Wordsworth's 'Mutability' is:",
-      "options": ["Religious devotion", "social satire", "accepting fate", "change as a noble truth"],
+      "options": [
+        "Religious devotion",
+        "social satire",
+        "accepting fate",
+        "change as a noble truth"
+      ],
       "correct": 3,
       "feedback": "تستكشف قصيدة 'التغير' لوردزورث حتمية التغير، مقدمةً إياه كحقيقة طبيعية ونبيلة في النهاية لهذا العالم."
     },
     {
       "q": "Wordsworth suggests that all but one of the following do not realise that nothing lasts forever:",
-      "options": ["kings", "criminals", "the greedy", "people overwhelmed by distress"],
+      "options": [
+        "kings",
+        "criminals",
+        "the greedy",
+        "people overwhelmed by distress"
+      ],
       "correct": 0,
       "feedback": "تشير القصيدة إلى أن السلطة والمكانة العالية غالباً ما تقود الأفراد (مثل الملوك) إلى الاعتقاد الخاطئ بأنهم معفيون من عواقب وعوامل الزمن."
     },
     {
       "q": "Shelley's 'Hymn to Intellectual Beauty' is a praise of:",
-      "options": ["Christian faith", "human power", "the spirit of inspiration", "wise poets"],
+      "options": [
+        "Christian faith",
+        "human power",
+        "the spirit of inspiration",
+        "wise poets"
+      ],
       "correct": 2,
       "feedback": "القصيدة هي استحضار وإشادة بـ 'روح الجمال' أو الجمال الفكري الذي يوفر الإلهام للشاعر."
     },
@@ -376,13 +704,23 @@
     },
     {
       "q": "In his poem, 'Time', Shelley personifies time as:",
-      "options": ["A nurturing parent", "A merciless destroyer and creator", "A playful child", "A merciful guardian"],
+      "options": [
+        "A nurturing parent",
+        "A merciless destroyer and creator",
+        "A playful child",
+        "A merciful guardian"
+      ],
       "correct": 1,
       "feedback": "غالباً ما يصور شيلي الزمن كقوة جبارة تدمر القديم وتخلق الجديد في آن واحد."
     },
     {
       "q": "When Shelley said that Time's 'waves are years', he compares it to:",
-      "options": ["A deep ocean", "A rippling desert", "A rocky mountain", "A stormy ocean"],
+      "options": [
+        "A deep ocean",
+        "A rippling desert",
+        "A rocky mountain",
+        "A stormy ocean"
+      ],
       "correct": 3,
       "feedback": "توحي استعارة 'الأمواج' بالحركة المتواصلة والمضطربة وغير المنتهية التي تميز المحيط العاصف."
     },
@@ -424,7 +762,12 @@
     },
     {
       "q": "Thy spells did bind/ To fear himself, and love all human kind is a line from Shelley's:",
-      "options": ["Mutability", "Time", "To a Skylark", "Hymn to Intellectual Beauty"],
+      "options": [
+        "Mutability",
+        "Time",
+        "To a Skylark",
+        "Hymn to Intellectual Beauty"
+      ],
       "correct": 3,
       "feedback": "هذا السطر هو جزء مميز من قصيدة شيلي الشهيرة 'ترنيمة للجمال الفكري'."
     },
@@ -442,7 +785,12 @@
     },
     {
       "q": "Which of the following poems was not written by Coleridge?",
-      "options": ["Ozymandias", "Christabel", "Don Juan", "The Rime of the Ancient Mariner"],
+      "options": [
+        "Ozymandias",
+        "Christabel",
+        "Don Juan",
+        "The Rime of the Ancient Mariner"
+      ],
       "correct": 0,
       "feedback": "قصيدة 'أوزيماندياس' هي واحدة من أشهر القصائد التي كتبها بيرسي بيش شيلي، وليس صامويل تايلور كولريدج."
     },
@@ -628,7 +976,11 @@
     },
     {
       "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
-      "options": ["the French Revolution", "the Enlightenment", "the scientific Revolution"],
+      "options": [
+        "the French Revolution",
+        "the Enlightenment",
+        "the scientific Revolution"
+      ],
       "correct": 2,
       "feedback": "تُؤرخ الثورة العلمية عموماً ضمن هذا الإطار الزمني الممتد بين القرون الـ16 والـ18."
     },
@@ -640,7 +992,12 @@
     },
     {
       "q": "Lord Byron's 'Darkness' was composed using:",
-      "options": ["structured meter", "free verse", "blank verse", "sonnet form"],
+      "options": [
+        "structured meter",
+        "free verse",
+        "blank verse",
+        "sonnet form"
+      ],
       "correct": 2,
       "feedback": "اعتمد بايرون في قصيدته 'الظلام' على الشعر المرسل (blank verse) غير المقفى المعتمد على تفعيلة البحر الخماسي."
     },
@@ -658,19 +1015,34 @@
     },
     {
       "q": "The central theme of Wordsworth's 'Mutability' is:",
-      "options": ["Religious devotion", "social satire", "accepting fate", "change as a noble truth"],
+      "options": [
+        "Religious devotion",
+        "social satire",
+        "accepting fate",
+        "change as a noble truth"
+      ],
       "correct": 3,
       "feedback": "يتناول وردزورث في القصيدة حتمية التغير في الطبيعة وفي حياة الإنسان باعتباره قانوناً كونياً."
     },
     {
       "q": "Wordsworth suggests that all but one of the following do not realise that nothing lasts forever:",
-      "options": ["kings", "criminals", "the greedy", "people overwhelmed by distress"],
+      "options": [
+        "kings",
+        "criminals",
+        "the greedy",
+        "people overwhelmed by distress"
+      ],
       "correct": 0,
       "feedback": "غالباً ما يُصور الملوك كنموذج لمن يعتقد واهماً أن سلطانه وقوته ثابتة ولا تزول."
     },
     {
       "q": "Shelley's 'Hymn to Intellectual Beauty' is a praise of:",
-      "options": ["Christian faith", "human power", "the spirit of inspiration", "wise poets"],
+      "options": [
+        "Christian faith",
+        "human power",
+        "the spirit of inspiration",
+        "wise poets"
+      ],
       "correct": 2,
       "feedback": "تمجد القصيدة القوة المتعالية والخفية للجمال الفكري والإلهام الفني وتتغنى بآثارها."
     },
@@ -688,13 +1060,23 @@
     },
     {
       "q": "In his poem, 'Time', Shelley personifies time as:",
-      "options": ["A nurturing parent", "A merciless destroyer and creator", "A playful child", "A merciful guardian"],
+      "options": [
+        "A nurturing parent",
+        "A merciless destroyer and creator",
+        "A playful child",
+        "A merciful guardian"
+      ],
       "correct": 1,
       "feedback": "يصوّر شيلي الزمن كقوة لا يمكن إيقافها، تجمع بين الخلق والتدمير في آن واحد."
     },
     {
       "q": "When Shelley said that Time's 'waves are years', he compares it to:",
-      "options": ["A deep ocean", "A rippling desert", "A rocky mountain", "A stormy ocean"],
+      "options": [
+        "A deep ocean",
+        "A rippling desert",
+        "A rocky mountain",
+        "A stormy ocean"
+      ],
       "correct": 3,
       "feedback": "تستحضر صورة 'الأمواج' الطبيعة المضطربة والهائجة للمحيط العاصف."
     },
@@ -736,7 +1118,12 @@
     },
     {
       "q": "'Thy spells did bind/ To fear himself, and love all human kind is a line from Shelley's:",
-      "options": ["Mutability", "Time", "To a Skylark", "Hymn to Intellectual Beauty"],
+      "options": [
+        "Mutability",
+        "Time",
+        "To a Skylark",
+        "Hymn to Intellectual Beauty"
+      ],
       "correct": 3,
       "feedback": "هذا البيت هو مقطع شهير ومعروف من قصيدة 'ترنيمة للجمال الفكري'."
     },
@@ -754,13 +1141,23 @@
     },
     {
       "q": "Which of the following poems was not written by Coleridge?",
-      "options": ["Ozymandias", "Christabel", "Don Juan", "The Rime of the Ancient Mariner"],
+      "options": [
+        "Ozymandias",
+        "Christabel",
+        "Don Juan",
+        "The Rime of the Ancient Mariner"
+      ],
       "correct": 0,
       "feedback": "قصيدة 'أوزيماندياس' هي واحدة من أشهر السونيتات التي كتبها الشاعر بيرسي بيش شيلي."
     },
     {
       "q": "His full name was:",
-      "options": ["Lord Gordon Byron", "Arthur Gordon Byron", "Gordon Junior Byron", "George Gordon Byron"],
+      "options": [
+        "Lord Gordon Byron",
+        "Arthur Gordon Byron",
+        "Gordon Junior Byron",
+        "George Gordon Byron"
+      ],
       "correct": 3,
       "feedback": "الاسم الكامل للشاعر هو جورج غوردون بايرون[cite: 1]."
     },
@@ -778,7 +1175,12 @@
     },
     {
       "q": "The poem that made him famous was:",
-      "options": ["Don Juan", "Childe Harold's Pilgrimage", "The Corsair", "She Walks in Beauty"],
+      "options": [
+        "Don Juan",
+        "Childe Harold's Pilgrimage",
+        "The Corsair",
+        "She Walks in Beauty"
+      ],
       "correct": 1,
       "feedback": "حققت قصيدة 'رحلة تشايلد هارولد' لبايرون شهرة فورية وواسعة بمجرد نشرها[cite: 1]."
     },
@@ -802,7 +1204,12 @@
     },
     {
       "q": "Which of the following poems didn't feature the Byronic hero?",
-      "options": ["Darkness", "Don Juan", "The Corsair", "Childe Harold's Pilgrimage"],
+      "options": [
+        "Darkness",
+        "Don Juan",
+        "The Corsair",
+        "Childe Harold's Pilgrimage"
+      ],
       "correct": 1,
       "feedback": "تتميز شخصية 'دون جوان' باختلافها عن الصورة النمطية التقليدية للبطل البايروني الكئيب والمثالي[cite: 1]."
     },
@@ -844,7 +1251,11 @@
     },
     {
       "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries.",
-      "options": ["The French Revolution", "Enlightenment", "the scientific Revolution"],
+      "options": [
+        "The French Revolution",
+        "Enlightenment",
+        "the scientific Revolution"
+      ],
       "correct": 2,
       "feedback": "امتدت الثورة العلمية وتطورت عبر هذه القرون الثلاثة المتتالية[cite: 1]."
     },
@@ -874,7 +1285,11 @@
     },
     {
       "q": "New subsectors of Christianity emerged including the Methodists and the Evangelicals in:",
-      "options": ["The 20th century", "the Victorian Age", "Age of Enlightenment"],
+      "options": [
+        "The 20th century",
+        "the Victorian Age",
+        "Age of Enlightenment"
+      ],
       "correct": 1,
       "feedback": "شهدت هذه المذاهب والطوائف المسيحية نمواً وتوسعاً كبيراً خلال العصر الفيكتوري[cite: 1]."
     },
@@ -976,7 +1391,11 @@
     },
     {
       "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
-      "options": ["The French Revolution", "Enlightenment", "the scientific Revolution"],
+      "options": [
+        "The French Revolution",
+        "Enlightenment",
+        "the scientific Revolution"
+      ],
       "correct": 2,
       "feedback": "امتد عصر الثورة العلمية وازدهر طوال هذه القرون الثلاثة المتتالية[cite: 1]."
     },
@@ -1006,7 +1425,11 @@
     },
     {
       "q": "New subsectors of Christianity emerged including the Methodists and the Evangelicals in:",
-      "options": ["The 20th century", "the Victorian Age", "Age of Enlightenment"],
+      "options": [
+        "The 20th century",
+        "the Victorian Age",
+        "Age of Enlightenment"
+      ],
       "correct": 1,
       "feedback": "شهد العصر الفيكتوري صعود ونشاط هذه الطوائف والحركات الدينية المسيحية الجديدة[cite: 1]."
     },

@@ -1,8 +1,447 @@
 {
-  "subject": "نقد 2 سنه رابعه ",
+  "subject": "نقد 2   ",
+  "description": " الفصل 1 ",
+
   "lang": "en",
   "questions": [
-
+ {
+    "q": "The formalist concept of \"organic unity\" refers to:",
+    "options": [
+      "The poem's relationship to nature",
+      "How all parts of a poem support and enhance its unity",
+      "The historical context of the poem",
+      "The reader's emotional response"
+    ],
+    "correct": 1,
+    "feedback": "الوحدة العضوية تعني أن النص الأدبي يشبه الكائن الحي، حيث تترابط جميع أجزائه لتعزز وحدته، وإذا أزيل جزء واحد ينهار الكيان بالكامل [1, 2]."
+  },
+  {
+    "q": "According to the text, formalists refuse to separate form from content because:",
+    "options": [
+      "Form decides the meaning or content",
+      "They are unable to analyze content",
+      "They prefer historical analysis",
+      "They focus on reader response"
+    ],
+    "correct": 0,
+    "feedback": "يرفض الشكلانيون الفصل بين الشكل والمضمون لأنهم يعتبرون أن شكل القصيدة هو نفسه معناها؛ أي أن 'كيفية' قول الشيء هي 'ما' يقال [1, 3, 4]."
+  },
+  {
+    "q": "The text states that reader-response critics are concerned with:",
+    "options": [
+      "The author's original intention",
+      "The present audience and their responses",
+      "Historical accuracy",
+      "Formal literary devices"
+    ],
+    "correct": 1,
+    "feedback": "يهتم نقاد استجابة القارئ بالجمهور الحالي وتفاعلهم المباشر مع النص الأدبي في اللحظة الراهنة [1, 5]."
+  },
+  {
+    "q": "According to the text, Louise Rosenblatt's \"transactional theory\" holds that:",
+    "options": [
+      "Only the author determines meaning",
+      "A \"poem\" exists only when a reader interacts with a text",
+      "Formal analysis is the only valid approach",
+      "History determines literary value"
+    ],
+    "correct": 1,
+    "feedback": "ترى لويز روزنبلات في 'النظرية التبادلية' أن القصيدة لا توجد كحدث فني إلا عندما يتفاعل القارئ مع النص ويقرأه قراءة جمالية [6, 7]."
+  },
+  {
+    "q": "The concept of the \"implied reader\" proposed by Wolfgang Iser refers to:",
+    "options": [
+      "A reader who exists in reality",
+      "A reader who embodies predispositions laid down by the text itself",
+      "The author's intended audience",
+      "Critics who study documented reader responses"
+    ],
+    "correct": 1,
+    "feedback": "'القارئ الضمني' عند إيزر هو بناء نصي يجسد الاستعدادات والاتفاقات الأدبية التي يضعها النص نفسه ليوجه القارئ الحقيقي [8]."
+  },
+  {
+    "q": "According to the text, intertextual criticism argues that:",
+    "options": [
+      "Poems imitate life directly",
+      "Poems imitate other poems",
+      "Only the author determines meaning",
+      "Readers create meaning independently"
+    ],
+    "correct": 1,
+    "feedback": "يرى نقاد التناص أن القصيدة ليست محاكاة للواقع، بل هي محاكاة لأعمال فنية وأدبية أخرى تستخدم نفس الأعراف اللغوية والأدبية [9, 10]."
+  },
+  {
+    "q": "The text states that intertextual criticism is:",
+    "options": [
+      "Diachronic, genetic, and causal",
+      "Synchronic, generic, and analogical",
+      "Historical, biographical, and psychological",
+      "Formal, structural, and objective"
+    ],
+    "correct": 1,
+    "feedback": "العلاقات بين النصوص في النقد التناصي هي علاقات تزامنية (Synchronic) وتناظرية (Analogical) ونوعية (Generic)، وليست تاريخية تتابعية أو سببية [10]."
+  },
+  {
+    "q": "According to the text, Russian Formalism aimed to:",
+    "options": [
+      "Study literature as a reflection of reality",
+      "Establish the study of literature on a scientific footing",
+      "Focus exclusively on historical context",
+      "Emphasize reader response"
+    ],
+    "correct": 1,
+    "feedback": "سعت الشكلانية الروسية إلى تحويل دراسة الأدب إلى علم موضوعي يعتمد على الخصائص اللغوية والبنيوية للنص نفسه [11, 12]."
+  },
+  {
+    "q": "Jakobson's concept of \"defamiliarization\" refers to:",
+    "options": [
+      "Making familiar concepts easier to understand",
+      "Literature's ability to make the familiar strange and renew our perception",
+      "Returning to historical origins",
+      "Simplifying complex literary texts"
+    ],
+    "correct": 1,
+    "feedback": "مفهوم 'التغريب' أو 'التعجيب' يعني قدرة الأدب على جعل الأشياء المألوفة والحياة اليومية تبدو غريبة وغير معتادة لتجديد إدراكنا لها [1, 13]."
+  },
+  {
+    "q": "According to Stephen Greenblatt's \"cultural poetics,\" the critic should ask questions about:",
+    "options": [
+      "Only the formal elements of the text",
+      "The author's biographical details",
+      "What kinds of behavior the work enforces and what social structures it connects to",
+      "The reader's psychological response"
+    ],
+    "correct": 2,
+    "feedback": "يقترح ستيفن غرينبلات أن على الناقد الثقافي البحث في أنواع السلوك التي يعززها العمل الأدبي والبنى الاجتماعية التي يرتبط بها [14, 15]."
+  },
+  {
+    "q": "Louise Rosenblatt has a position near the textual terminus of the line connecting the work and the reader.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "تقع لويز روزنبلات في موقع قريب من 'الطرف النصي' في الخط الواصل بين العمل والقارئ، لأنها لا تهمل خصائص النص الأصلية [6]."
+  },
+  {
+    "q": "To -------- a \"poem\" exists only when a reader \"compenetrates\" a text, that is, when he or she chooses to read it \"aesthetically.\"",
+    "options": [
+      "Warren",
+      "Wimsatt",
+      "Iser",
+      "Rosenblatt"
+    ],
+    "correct": 3,
+    "feedback": "وفقاً لروزنبلات، النص الثابت يصبح 'قصيدة' (كحدث حي) فقط عندما 'يتغلغل' فيه القارئ ويقرأه قراءة جمالية [6]."
+  },
+  {
+    "q": "Phenomenology is a philosophy that stresses the -------- role in perception.",
+    "options": [
+      "speaker's",
+      "perceiver's",
+      "social",
+      "cultural"
+    ],
+    "correct": 1,
+    "feedback": "الظاهراتية هي فلسفة تؤكد على دور 'المدرك' (perceiver) في عملية الإدراك، حيث لا يمكن فصل الشيء المدرك عن العقل الذي يدركه [16]."
+  },
+  {
+    "q": "The Dynamics of Literary Response is by --------",
+    "options": [
+      "Holland",
+      "Wimsatt",
+      "Ornstein",
+      "Richards"
+    ],
+    "correct": 0,
+    "feedback": "كتاب 'ديناميكيات الاستجابة الأدبية' هو أحد المؤلفات الأساسية للناقد نورمان هولاند الذي ركز على التحليل النفسي [17]."
+  },
+  {
+    "q": "Iser would insist on the poem's ability to transcend the code, to violate the conventions. It does so by presenting readers with -------- that they must bridge.",
+    "options": [
+      "marks",
+      "symbols",
+      "gaps",
+      "codes"
+    ],
+    "correct": 2,
+    "feedback": "يرى إيزر أن النص الأدبي يحتوي على 'فجوات' (gaps) أو مساحات غير محددة يجب على القارئ ملؤها وربطها للوصول إلى المعنى [16]."
+  },
+  {
+    "q": "Rosenblatt offers a/an \"--------\" theory of the reading experience in which the \"poem\" comes into being only when the reader and the text \"compenetrate\".",
+    "options": [
+      "textual",
+      "transactional",
+      "motivational",
+      "affective"
+    ],
+    "correct": 1,
+    "feedback": "تسمى نظرية روزنبلات بالنظرية 'التبادلية' (transactional) لأنها ترى المعنى كعملية تبادل وتفاعل مستمر بين النص والقارئ [6, 7]."
+  },
+  {
+    "q": "To Iser, the reader's role is prestructured by the different perspectives represented in --------",
+    "options": [
+      "the text",
+      "literature at large",
+      "criticism",
+      "interpretive communities"
+    ],
+    "correct": 0,
+    "feedback": "بالنسبة لإيزر، دور القارئ ليس عشوائياً، بل هو محدد مسبقاً من خلال وجهات النظر والمنظورات التي يقدمها 'النص' نفسه [16]."
+  },
+  {
+    "q": "Norman Holland is more concerned with the ways -------- readers control the text.",
+    "options": [
+      "hypothetical",
+      "educated",
+      "actual",
+      "implied"
+    ],
+    "correct": 2,
+    "feedback": "يركز نورمان هولاند اهتمامه على استجابات 'القراء الحقيقيين' (actual readers) وكيف تؤثر هوياتهم النفسية على فهمهم للنص [17]."
+  },
+  {
+    "q": "To Holland, the secret of the greatness of Hamlet and, finally, of all great works of art: they permit us to become -------- ourselves.",
+    "options": [
+      "readers",
+      "great readers",
+      "creators",
+      "authors"
+    ],
+    "correct": 2,
+    "feedback": "يرى هولاند أن عظمة الأعمال الفنية تكمن في أنها تسمح لنا بأن نصبح 'خالقين' (creators) لأنفسنا من خلال تجربتنا النفسية معها [17]."
+  },
+  {
+    "q": "The most notable trend in recent literary theory has been a turn to -------- criticism.",
+    "options": [
+      "Formal",
+      "Reader-response",
+      "historical",
+      "aesthetic"
+    ],
+    "correct": 2,
+    "feedback": "شهدت النظرية الأدبية الحديثة توجهاً بارزاً نحو النقد 'التاريخي'، وتحديداً ما يعرف بالتاريخانية الجديدة (New Historicism) [18, 19]."
+  },
+  {
+    "q": "Poststructuralist criticism has occasionally been -------- as well.",
+    "options": [
+      "historical",
+      "antihistorical",
+      "Marxist",
+      "anti-Marxist"
+    ],
+    "correct": 1,
+    "feedback": "وُصف النقد ما بعد البنيوي في بعض الأحيان بأنه 'ضد تاريخي' (antihistorical) لميله للتركيز على البنية اللغوية وتفكيكها بعيداً عن السياق الزمني التقليدي [صورة 2]."
+  },
+  {
+    "q": "Foucault's project was to examine the intricately structured -------- that obtain in a society at a given time.",
+    "options": [
+      "power relations",
+      "cultural limits",
+      "social ties",
+      "economic links"
+    ],
+    "correct": 0,
+    "feedback": "ركز مشروع ميشيل فوكو على تحليل 'علاقات القوة' المتغلغلة في الخطابات الاجتماعية والمؤسسات في زمن معين [15, 20]."
+  },
+  {
+    "q": " \"Literature and History\" is by --------",
+    "options": [
+      "Iser",
+      "Eagleton",
+      "Holland",
+      "Wimsatt"
+    ],
+    "correct": 1,
+    "feedback": "الناقد والمنظر الماركسي تيري إيغلتون هو مؤلف كتاب 'الأدب والتاريخ' [صورة 2]."
+  },
+  {
+    "q": "Greenblatt's questions will certainly lead us to investigate what Eagleton calls the \"--------\" of an age.",
+    "options": [
+      "terminology",
+      "ideology",
+      "culture",
+      "pastness"
+    ],
+    "correct": 1,
+    "feedback": "تؤدي تساؤلات غرينبلات الثقافية إلى فحص 'الأيديولوجيا' أو منظومة الأفكار والقيم السائدة في عصر معين [صورة 2]."
+  },
+  {
+    "q": "Greenblatt reminds us that art sometimes challenges cultural boundaries, becoming thereby a/an \"--------\" force.",
+    "options": [
+      "demographic",
+      "transgressive",
+      "social",
+      "aesthetic"
+    ],
+    "correct": 1,
+    "feedback": "يرى غرينبلات أن الفن لا يعكس الثقافة فحسب، بل قد يتحدى حدودها ويصبح 'قوة تجاوز' (transgressive force) تفتح آفاقاً جديدة [14]."
+  },
+  {
+    "q": "According to the text, every reading is an act of criticism because:",
+    "options": [
+      "Only professional critics can interpret literature properly",
+      "Reading is an active process of making sense and interpretation",
+      "Literary criticism requires formal training",
+      "Readers must always agree with each other"
+    ],
+    "correct": 1,
+    "feedback": "كل قراءة هي فعل نقدي لأنها تتضمن بالضرورة عملية نشطة لتفسير الرموز وصنع المعنى، مما يجعل كل قارئ ناقداً بطبعه [21]."
+  },
+  {
+    "q": "The author argues that the only choice readers have is:",
+    "options": [
+      "Whether to read literature or not",
+      "What kind of critic to become",
+      "Which literary works to study",
+      "Whether to accept formalist interpretations"
+    ],
+    "correct": 1,
+    "feedback": "بما أن كل قارئ هو ناقد بالضرورة، فإن الخيار الحقيقي الوحيد هو تحديد 'نوع الناقد' والمنهج الذي سيتبعه في قراءته [صورة 2]."
+  },
+  {
+    "q": "According to the text, the first and crucial step in the process of interpretation is:",
+    "options": [
+      "Analyzing the author's biography",
+      "Deciding from what perspective or angle of vision to view the work",
+      "Understanding the historical context",
+      "Identifying the literary devices used"
+    ],
+    "correct": 1,
+    "feedback": "الخطوة الأولى والأكثر أهمية في التفسير هي اختيار 'المنظور أو الزاوية' التي سننظر من خلالها إلى النص الأدبي [22]."
+  },
+  {
+    "q": "The text states that all contexts in literary criticism are:",
+    "options": [
+      "Invalid if they contradict each other",
+      "Correct as long as they are based on strong theoretical grounds",
+      "Subject to absolute truth",
+      "Limited to formal analysis only"
+    ],
+    "correct": 1,
+    "feedback": "جميع المناهج والسياقات النقدية تعتبر صحيحة ومقبولة طالما أنها تستند إلى أسس ومنطلقات نظرية متينة [23]."
+  },
+  {
+    "q": "According to Keesey, the best approach to literary criticism is one that:",
+    "options": [
+      "Focuses exclusively on the author's intention",
+      "Ignores historical context",
+      "Caters for all contexts and builds comprehensive understanding of all critical theories",
+      "Relies solely on reader response"
+    ],
+    "correct": 2,
+    "feedback": "يرى كيزي أن النهج الأفضل هو الذي يجمع بين المناهج المختلفة لبناء فهم شامل وعميق للنص الأدبي [صورة 2]."
+  },
+  {
+    "q": "The text argues that literary approaches:",
+    "options": [
+      "Compete with each other for dominance",
+      "Are mutually exclusive",
+      "Complement each other",
+      "Have no value in modern criticism"
+    ],
+    "correct": 2,
+    "feedback": "المناهج النقدية ليست متصارعة بالضرورة، بل هي 'تكمل بعضها البعض' لتقديم رؤية متكاملة للعمل الفني [صورة 2]."
+  },
+  {
+    "q": "Old Historical Criticism is called \"genetic\" criticism because:",
+    "options": [
+      "It studies the origin of the work",
+      "It focuses on the reader's genetics",
+      "It analyzes genetic metaphors in poetry",
+      "It rejects biological interpretations"
+    ],
+    "correct": 0,
+    "feedback": "يسمى النقد التاريخي القديم بالنقدي 'الوراثي' (genetic) لأنه يركز على 'أصل' العمل في عقل المؤلف والظروف التي ولد فيها [11, 24]."
+  },
+  {
+    "q": "According to the text, the two reasons behind the inclination to interpret works depending on the age and life of the author are:",
+    "options": [
+      "The shift in understanding poems as imitating nature and the pastness of the past",
+      "Economic factors and political influences",
+      "Religious beliefs and philosophical traditions",
+      "Linguistic analysis and formal structure"
+    ],
+    "correct": 0,
+    "feedback": "السبب هو تحول مفهوم القصيدة من محاكاة للطبيعة إلى تعبير عن فردية الشاعر، بالإضافة للشعور بفرادة كل عصر تاريخي [25, 26]."
+  },
+  {
+    "q": "Formalists accuse genetic critics of:",
+    "options": [
+      "Being too objective in their analysis",
+      "Their inability to distinguish works of art from other types of writing",
+      "Focusing too much on literary devices",
+      "Ignoring historical facts"
+    ],
+    "correct": 1,
+    "feedback": "يعترض الشكلانيون على النقاد التاريخيين بأن منهجهم لا يميز القصيدة عن أي وثيقة لفظية أخرى غير أدبية [27]."
+  },
+  {
+    "q": "According to the text, formalists believe that poetic form and meaning are:",
+    "options": [
+      "Completely separate from each other",
+      "One and the same thing",
+      "Unrelated to literary value",
+      "Determined solely by the reader"
+    ],
+    "correct": 1,
+    "feedback": "يؤمن الشكلانيون أن الشكل والمحتوى وجهان لعملة واحدة، ولا يوجد معنى أدبي خارج حدود الشكل الفني [1, 28]."
+  },
+  {
+    "q": "Russian Formalists and Anglo-American New Critics share:",
+    "options": [
+      "A focus on historical context",
+      "A concentration on Kant's doctrine of \"art for art's sake\"",
+      "An emphasis on reader response",
+      "A commitment to Marxist ideology"
+    ],
+    "correct": 1,
+    "feedback": "كلا المدرستين تشتركان في مبدأ استقلالية الفن والتركيز على الخصائص الجمالية للنص بعيداً عن الأهداف التعليمية أو السياسية [12, 29]."
+  },
+  {
+    "q": "The \"heresy of paraphrasing\" refers to the New Critical belief that:",
+    "options": [
+      "A poem can be accurately summarized in prose",
+      "A work of art is not equal to its paraphrased version",
+      "Paraphrasing is the best way to analyze literature",
+      "Historical context should be paraphrased"
+    ],
+    "correct": 1,
+    "feedback": "'بدعة التلخيص' تعني أن محاولة شرح القصيدة نثراً تفقدها هويتها الفنية، فالقصيدة لا تساوي ملخصها [30]."
+  },
+  {
+    "q": "New Historicism challenges old historicism by declaring that:",
+    "options": [
+      "History serves as a reliable background to literature",
+      "Historians can provide a totally accurate picture of past events",
+      "All history is subjective and historians can never provide the truth",
+      "History is an accurate view of what really occurred"
+    ],
+    "correct": 2,
+    "feedback": "تؤكد التاريخانية الجديدة أن التاريخ ذاتي ومتعدد، ولا يمكن للمؤرخين تقديم صورة واحدة وحقيقية لما حدث بالفعل [31]."
+  },
+  {
+    "q": "The name \"formalism\" was:",
+    "options": [
+      "Chosen by the formalists themselves to describe their movement",
+      "A pejorative label applied to them by their opponents",
+      "Coined by Victor Shklovsky in 1915",
+      "Officially adopted at the Moscow Linguistic Circle meeting"
+    ],
+    "correct": 1,
+    "feedback": "لم يختر الشكلانيون هذا الاسم لأنفسهم، بل كان 'تسمية سلبية' أطلقها عليهم خصومهم للتقليل من شأن منهجهم [صورة 2]."
+  },
+  {
+    "q": "Marxism is different from other schools of criticism because:",
+    "options": [
+      "It focuses exclusively on literary form",
+      "It is primarily a set of social, economic, and political ideas, not merely a literary theory",
+      "It rejects all historical analysis",
+      "It emphasizes reader response above all else"
+    ],
+    "correct": 1,
+    "feedback": "تتميز الماركسية بأنها منظومة فكرية شاملة (اجتماعية وسياسية واقتصادية)، وليست مجرد أداة لتحليل النصوص الأدبية [صورة 2]."
+  },
   {
     "q": "Hirsch seeks to show that [ _____ ] can support different, and even totally opposed, interpretations.",
     "options": ["public norms of language", "identity thesis", "identity theme", "historical events"],

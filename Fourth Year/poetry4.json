@@ -1,7 +1,248 @@
 {
-    "subject": "شعر حديث للبروفيسور منذر سنه ٤",
+    "subject": "شعر حديث ",
+    "description": " للبروفيسور منذر فصل 2",
     "lang": "en",
     "questions": [
+         {
+    "q": "--- contributed most directly to the Victorian crisis of faith.",
+    "options": ["Newton's Law of Gravity", "Darwin's Theory of Evolution", "Einstein's Theory of Relativity", "Freud's Theory of the Unconscious"],
+    "correct": 1,
+    "feedback": "ساهمت نظرية داروين للتطور بشكل مباشر في أزمة الإيمان الفيكتورية من خلال التشكيك في الحقيقة الحرفية للتعاليم الدينية حول أصل الإنسان [1]، [2]."
+  },
+  {
+    "q": "The intellectual conflict between traditional religious belief and modern scientific thought can best be termed as:",
+    "options": ["The Industrial Revolution", "Colonial Expansion", "The Crisis of Faith", "The Renaissance Revival"],
+    "correct": 2,
+    "feedback": "يُعرف الصراع الفكري بين المعتقدات الدينية التقليدية والفكر العلمي الحديث في العصر الفيكتوري بـ 'أزمة الإيمان' (The Crisis of Faith) [3]، [4]."
+  },
+  {
+    "q": "Why is Matthew Arnold considered a transitional poet?",
+    "options": ["He rejected Romanticism.", "He wrote only political verse.", "He captures both Victorian and modern spiritual crisis.", "He avoided philosophy."],
+    "correct": 2,
+    "feedback": "يُعتبر أرنولد شاعراً انتقالياً لأنه يجسد في شعره أزمة الروح والقلق التي ميزت العصر الفيكتوري وبدايات العصر الحديث [5]، [6]."
+  },
+  {
+    "q": "Besides being an accomplished poet, Matthew Arnold devoted much of his professional life to public service as ---",
+    "options": ["Professor of History", "Inspector of Schools", "British Ambassador", "Member of Parliament"],
+    "correct": 1,
+    "feedback": "عمل ماثيو أرنولد كمفتش للمدارس (Inspector of Schools) لمدة خمسة وثلاثين عاماً [7]."
+  },
+  {
+    "q": "Arnold's poem Dover Beach has become one of the best-known poems of the Victorian Age because it expresses:",
+    "options": ["Joy at Britain's imperial expansion.", "Optimism about scientific discoveries.", "Anxiety over the decline of religious certainty.", "Admiration for medieval chivalry."],
+    "correct": 2,
+    "feedback": "تعبر قصيدة 'شاطئ دوفر' عن القلق واليأس الناتج عن تراجع اليقين الديني في مواجهة التقدم العلمي [8]، [9]."
+  },
+  {
+    "q": "Arnold compares the sound of the waves to the 'eternal note of sadness'. This image mainly reinforces the poem's atmosphere of:",
+    "options": ["Celebration.", "Excitement.", "Melancholy.", "Humour."],
+    "correct": 2,
+    "feedback": "يعزز تشبيه صوت الأمواج بـ 'نوتة الحزن الأبدية' جو الكآبة (Melancholy) الذي يسود قصائد أرنولد المرتبطة بالبحر [10]، [11]."
+  },
+  {
+    "q": "Modernism is a radical break with the past and a fresh search for new forms of expression. It fosters the years following ---",
+    "options": ["World War II", "Commercial trade.", "The Great War", "Both B & C"],
+    "correct": 2,
+    "feedback": "نشأت الحداثة كقطيعة مع الماضي وبحث عن أشكال تعبير جديدة، خاصة في السنوات التي أعقبت الحرب العالمية الأولى أو 'الحرب العظمى' [4]، [12]."
+  },
+  {
+    "q": "Alfred, Lord Tennyson became one of the most respected poets of the Victorian Age after he was appointed:",
+    "options": ["Archbishop of Canterbury.", "Chancellor of Oxford University.", "Poet Laureate of Britain.", "Secretary of State."],
+    "correct": 2,
+    "feedback": "عُين تينيسون شاعراً للبلاط (Poet Laureate) في عام 1850 خلفاً لويليام وردزورث، مما عزز مكانته الأدبية [13]."
+  },
+  {
+    "q": "The sudden death of Arthur Hallam had a profound effect on Tennyson's personal life and inspired him to write which major work?",
+    "options": ["Maud", "In Memoriam A.H.H.", "The Lady of Shalott", "Ulysses"],
+    "correct": 1,
+    "feedback": "ألهم الموت المفاجئ لصديقه آرثر هالام تينيسون لكتابة مرثيته العظيمة 'In Memoriam A.H.H' [14]، [15]."
+  },
+  {
+    "q": "During the modern age the writing of this literary genre was only marginal:",
+    "options": ["None of the following", "novel", "poetry", "the essay"],
+    "correct": 3,
+    "feedback": "خلال العصر الحديث، اعتُبرت كتابة المقالات (the essay) صنفاً أدبياً هامشياً مقارنة بالشعر والرواية التجريبية [1]."
+  },
+  {
+    "q": "One reason why Tennyson continues to be widely read today is that his poetry addresses universal human experiences such as:",
+    "options": ["Parliamentary elections.", "Commercial trade.", "Loss, hope, doubt.", "Agricultural reforms."],
+    "correct": 2,
+    "feedback": "يستمد شعر تينيسون ديمومته من معالجته لتجارب إنسانية عالمية مثل الفقد والأمل والشك [16]."
+  },
+  {
+    "q": "In Break, Break, Break, Tennyson contrasts the continuous movement of the sea with the permanence of human loss. This contrast emphasizes:",
+    "options": ["The beauty of the English coast.", "The importance of travel.", "Nature unchanged vs human grief remains unresolved.", "The superiority of science over emotion."],
+    "correct": 2,
+    "feedback": "تُبرز القصيدة التباين بين حركة البحر المستمرة وبين الطبيعة النهائية للموت وفقدان الأحبة الذي لا يعوضه شيء [17]، [18]."
+  },
+  {
+    "q": "Tennyson's poetry often attempts to reconcile scientific discoveries with religious belief. This concern reflects:",
+    "options": ["Political revolution.", "Religious persecution.", "The conflict between faith and scientific progress.", "Colonial expansion."],
+    "correct": 2,
+    "feedback": "يعكس شعر تينيسون محاولة المصالحة بين الاكتشافات العلمية (مثل نظرية داروين) وبين المعتقدات الدينية [19]، [20]."
+  },
+  {
+    "q": "In many of his major poems, Tennyson suggests that doubt should be understood as:",
+    "options": ["A complete rejection of religion.", "A sign of moral weakness.", "A necessary stage in the search for truth.", "A punishment from nature."],
+    "correct": 2,
+    "feedback": "يصور تينيسون الشك كخطوة ضرورية ومرحلة لا بد منها في رحلة البحث عن الحقيقة والإيمان الأعمق [3]."
+  },
+  {
+    "q": "Elizabeth Barrett Browning occupies an important place in Victorian poetry because she successfully combined personal emotion with:",
+    "options": ["Political propaganda.", "Intellectual and social concerns.", "Dramatic monologue.", "Scientific research."],
+    "correct": 1,
+    "feedback": "تتميز إليزابيث باريت براونينغ بدمج العواطف الشخصية بالقضايا الفكرية والاجتماعية مثل حقوق الأطفال والمرأة [21]، [22]."
+  },
+  {
+    "q": "In the famous sonnet beginning \"How do I love thee?\", the speaker measures love mainly in terms of:",
+    "options": ["Wealth and social status.", "Physical beauty alone.", "Devotion & permanence.", "Political loyalty."],
+    "correct": 2,
+    "feedback": "في هذه السونيتة، تقيس الشاعرة حبها بمصطلحات التفاني المطلق والخلود الذي يمتد لما بعد الموت [23]، [24]."
+  },
+  {
+    "q": "Elizabeth Barrett Browning's poetry differs from much earlier love poetry because it presents love as:",
+    "options": ["A temporary emotional experience.", "A comic misunderstanding.", "A moral and spiritual force.", "A political obligation."],
+    "correct": 2,
+    "feedback": "تقدم الشاعرة الحب كقوة أخلاقية وروحية عميقة، وليس مجرد عاطفة عابرة [23]، [24]."
+  },
+  {
+    "q": "Which statement best explains why Elizabeth Barrett Browning remains one of the most influential Victorian poets?",
+    "options": ["She wrote only patriotic poems.", "She united emotions and sincerity.", "She rejected all poetic traditions.", "She wrote exclusively about mythology."],
+    "correct": 1,
+    "feedback": "تكمن قوة الشاعرة في قدرتها على التعبير بصدق عاطفي (sincerity) وجدية فكرية في قصائدها [25]، [23]."
+  },
+  {
+    "q": "Robert Browning is remembered primarily because he brought -------- to its highest level of artistic achievement. Which poetic form is this?",
+    "options": ["The drama monologue", "The dramatical monologue", "The dramatic monologue", "All of the above"],
+    "correct": 2,
+    "feedback": "يُعتبر روبرت براونينغ الرائد في تطوير فن 'المونولوج الدرامي' (Dramatic Monologue) والوصول به إلى أعلى مستويات الإتقان [26]، [27]."
+  },
+  {
+    "q": "In My Last Duchess, the Duke unintentionally reveals his own character while attempting to describe his late wife. This technique illustrates the effectiveness of:",
+    "options": ["Allegory.", "Blank verse.", "Dramatic irony.", "Epic narration."],
+    "correct": 2,
+    "feedback": "يكشف الدوق عن طبيعته الاستبدادية والغيورة دون قصد، وهو ما يمثل ذروة 'المفارقة الدرامية' (Dramatic Irony) [28]، [29]."
+  },
+  {
+    "q": "The Duke's attitude toward the Duchess suggests that he values:",
+    "options": ["Mutual understanding.", "Romantic equality.", "Absolute authority.", "Religious devotion."],
+    "correct": 2,
+    "feedback": "تشير مواقف الدوق إلى أنه يقدّر السلطة المطلقة (Absolute authority) والتحكم الكامل في الآخرين [30]، [28]."
+  },
+  {
+    "q": "Robert Browning's poetry is often described as psychologically complex because it focuses on:",
+    "options": ["Detailed descriptions of nature.", "Historical events only.", "The motives and hidden thoughts of individuals.", "Scientific discoveries."],
+    "correct": 2,
+    "feedback": "يوصف شعر براونينغ بالتعقيد النفسي لأنه يغوص في الدوافع والأفكار الخفية للشخصيات [27]، [31]."
+  },
+  {
+    "q": "Browning frequently chose speakers who were morally flawed because this allowed him to:",
+    "options": ["Teach grammar.", "Describe landscapes.", "Explore human character.", "Explore himself."],
+    "correct": 2,
+    "feedback": "سمح استخدام شخصيات معيبة أخلاقياً لبراونينغ باستكشاف جوانب متنوعة من الشخصية البشرية وتقلباتها النفسية [31]، [30]."
+  },
+  {
+    "q": "Many of Christina Rossetti's poems reflect religious beliefs and emphasize:",
+    "options": ["Political revolution.", "Spiritual commitment.", "Military heroism.", "Economic prosperity."],
+    "correct": 1,
+    "feedback": "يعكس شعر كريستينا روسيتي التزاماً روحياً (Spiritual commitment) ودينياً عميقاً يظهر بوضوح في مواضيعها [32]، [33]."
+  },
+  {
+    "q": "Modernist writers rejected many Victorian assumptions because they believed that traditional literary forms could no longer adequately express:",
+    "options": ["Agricultural life.", "Medieval society.", "Uncertainty of the modern world.", "Classical mythology."],
+    "correct": 2,
+    "feedback": "رفض الحداثيون الأشكال التقليدية لأنها لم تعد قادرة على التعبير عن حالة عدم اليقين (Uncertainty) والقلق في العالم الحديث [4]، [34]."
+  },
+  {
+    "q": "Which slogan is most closely associated with the Modernist movement and reflects its desire for artistic innovation?",
+    "options": ["Make all New", "Make writing New", "Make It New", "Make life New"],
+    "correct": 2,
+    "feedback": "شعار 'اجعله جديداً' (Make It New) الذي أطلقه عزرا باوند هو المبدأ الأساسي لحركة الحداثة [35]، [36]، [37]."
+  },
+  {
+    "q": "One of the defining characteristics of Modernist poetry is its tendency to portray modern life as:",
+    "options": ["Stable and harmonious.", "Simple and predictable.", "Fragmented & spiritually empty.", "Entirely optimistic."],
+    "correct": 2,
+    "feedback": "يميل الشعر الحداثي لتصوير الحياة الحديثة كحياة مجزأة وخالية روحياً (Fragmented & spiritually empty) [38]، [39]."
+  },
+  {
+    "q": "Compared with Victorian poets, Modernist poets generally preferred:",
+    "options": ["Straightforward moral lessons.", "Experimentation with language and form.", "Strict imitation of classical poetry.", "Avoiding difficult subjects."],
+    "correct": 1,
+    "feedback": "فضل الحداثيون التجريب في اللغة والشكل الأدبي (Experimentation) على عكس الالتزام الأخلاقي التقليدي [38]، [36]."
+  },
+  {
+    "q": "W. H. Auden's poetry frequently examines the relationship between the individual and:",
+    "options": ["Ancient mythology.", "Romantic imagination.", "Society, politics, and history.", "Medieval romance."],
+    "correct": 2,
+    "feedback": "يهتم شعر أودن بالعلاقة بين الفرد وبين القوى الاجتماعية والسياسية والتاريخية المحيطة به [40]، [41]."
+  },
+  {
+    "q": "In The Unknown Citizen, Auden criticizes modern society because it tends to judge people primarily by:",
+    "options": ["Their artistic imagination.", "Their religious beliefs.", "Official records, statistics, and social conformity.", "Their family traditions."],
+    "correct": 2,
+    "feedback": "ينتقد أودن المجتمع الذي يختزل الإنسان في مجرد أرقام وإحصائيات (statistics) ومدى امتثاله للنظام [42]."
+  },
+  {
+    "q": "The title The Unknown Citizen deliberately reminds readers of the traditional image of: The Unknown",
+    "options": ["Poet", "Soldier", "King", "Monarch"],
+    "correct": 1,
+    "feedback": "يشير العنوان بسخرية إلى النصب التذكاري لـ 'الجندي المجهول' (The Unknown Soldier) [42]."
+  },
+  {
+    "q": "Auden's later poetry became increasingly influenced by:",
+    "options": ["Greek mythology alone.", "Victorian realism.", "Christian ethics and morality.", "Medieval romance."],
+    "correct": 2,
+    "feedback": "في المرحلة المتأخرة من حياته، تأثر شعر أودن بشكل كبير بالأخلاق والمبادئ المسيحية [40]، [41]."
+  },
+  {
+    "q": "Rupert Brooke's poem The Soldier reflects the early mood of the First World War by presenting military service as:",
+    "options": ["A meaningless sacrifice.", "A psychological nightmare.", "A noble and patriotic duty.", "A tragic political mistake."],
+    "correct": 2,
+    "feedback": "تعبر قصيدة بروك عن الروح الوطنية في بداية الحرب، مصورةً الخدمة العسكرية كواجب وطني نبيل [43]، [44]."
+  },
+  {
+    "q": "Unlike Rupert Brooke, many later war poets described war as brutal and meaningless because they had experienced:",
+    "options": ["Political exile.", "Terrible realities of trench warfare.", "Naval exploration.", "Religious persecution."],
+    "correct": 1,
+    "feedback": "وصف شعراء لاحقون الحرب بالبشاعة نتيجة لتجربتهم الواقعية المريرة في 'حرب الخنادق' (trench warfare) [45]، [43]."
+  },
+  {
+    "q": "Siegfried Sassoon's poem The General attacks military leadership mainly because the General:",
+    "options": ["Refuses to fight.", "Is physically weak.", "Sends soldiers to their unnecessary deaths through poor leadership.", "Lacks military experience."],
+    "correct": 2,
+    "feedback": "يهاجم ساسون القيادة العسكرية التي ترسل الجنود للموت بسبب خطط هجومية فاشلة وغير كفؤة [46]، [47]."
+  },
+  {
+    "q": "Sassoon's poetry is especially effective because he combines bitter criticism with:",
+    "options": ["Romantic idealism.", "Medieval symbolism.", "Irony, realism, and personal experience.", "Comic fantasy."],
+    "correct": 2,
+    "feedback": "تكمن قوة شعر ساسون في الجمع بين النقد اللاذع والواقعية والمفارقة (Irony) [48]، [47]."
+  },
+  {
+    "q": "Keith Douglas differs from many First World War poets because his poetry often presents violence with a tone that is:",
+    "options": ["Highly sentimental.", "Purely patriotic.", "Ironic and emotionally controlled.", "Entirely humorous."],
+    "correct": 2,
+    "feedback": "يتميز كيث دوغلاس بنبرة باردة ومتحكم بها عاطفياً عند وصف العنف، مائلاً للمفارقة [49]، [50]."
+  },
+  {
+    "q": "In Vergissmeinnicht, the discovery of the dead enemy soldier reminds the speaker that:",
+    "options": ["War always produces heroes.", "Human beings share similar emotions.", "Victory solves every problem.", "National identity is more important than human life."],
+    "correct": 1,
+    "feedback": "من خلال صورة حبيبة الجندي الألماني، يدرك المتحدث أن الأعداء بشر يمتلكون مشاعر إنسانية مشابهة له [50]."
+  },
+  {
+    "q": "Why is WWI significant in war poetry?",
+    "options": ["It ended all major conflicts.", "It produced the most war poems.", "It was the first written war.", "It had no patriotic verse."],
+    "correct": 1,
+    "feedback": "تعتبر الحرب العالمية الأولى الأهم لأنها أنتجت أكبر كمية من القصائد التي عبرت عن تجربة الحرب وصدمتها [51]، [52]."
+  },
+  {
+    "q": "In Rupert Brooke's \"The Soldier\" what happens to the speaker's body?",
+    "options": ["decays unnoticed", "returns to England", "Enriches foreign soil", "It becomes a war memorial"],
+    "correct": 2,
+    "feedback": "يتخيل الشاعر أن جثته المدفونة في أرض غريبة ستجعل تلك الأرض إنجليزية للأبد، مخصبةً إياها بغباره [53]، [54]."
+  },
         {
             "q": "The Victorian period in British literature broadly coincides with the reign of:",
             "options": [
