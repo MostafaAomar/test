@@ -9,8 +9,8 @@ const YEAR_DATA_KEY_PREFIX = "year_data_";
 const YEAR_META_KEY_PREFIX = "year_meta_";
 // Change this one value to control how often the open app checks for updates.
 // 1 * 60 * 1000 = one minute. 24 * 60 * 60 * 1000 = twenty-four hours.
-const AUTOMATIC_UPDATE_INTERVAL_MS = 1 * 60 * 1000;
-const AUTOMATIC_UPDATE_RETRY_MS = 1 * 60 * 1000;
+const AUTOMATIC_UPDATE_INTERVAL_MS = 24 * 60 * 60 * 1000;
+const AUTOMATIC_UPDATE_RETRY_MS = 24 * 60 * 60 * 1000;
 const CONTENT_MANIFEST_URL = "./content-manifest.json";
 
 let quizData = [];
@@ -2814,8 +2814,7 @@ function getVocabularyAuthRedirectUrl() {
 }
 
 async function initializeVocabularySupabaseSync() {
-  if (vocabularySupabaseInitialization)
-    return vocabularySupabaseInitialization;
+  if (vocabularySupabaseInitialization) return vocabularySupabaseInitialization;
 
   vocabularySupabaseInitialization = (async () => {
     try {
