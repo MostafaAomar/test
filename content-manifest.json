@@ -4,114 +4,114 @@
     "First Year": [
       {
         "path": "First Year/Comprehension_1.json",
-        "sha256": "9bcb9e0a02fd9c68e5bbfd67f617b5f6abedbab047db52e26bca7e926a10c887",
-        "size": 37441
+        "sha256": "6d9ba6d4d6b41d20bfcaedc10b2393776d7b303c7e0e22a50a0b1c0f357345f3",
+        "size": 36704
       },
       {
         "path": "First Year/Introduction_to_Dram.json",
-        "sha256": "f2ed207c6c8b8c87e84097a51b8ae4e4ca94c4b1f3a78d03ee96819cb725a21c",
-        "size": 57244
+        "sha256": "ecdbd186ec4c488faefdabaae0fbd5d9a526c23470acf83b0155717eaf40154d",
+        "size": 56316
       },
       {
         "path": "First Year/Introduction_to_Drama.json",
-        "sha256": "f2ed207c6c8b8c87e84097a51b8ae4e4ca94c4b1f3a78d03ee96819cb725a21c",
-        "size": 57244
+        "sha256": "ecdbd186ec4c488faefdabaae0fbd5d9a526c23470acf83b0155717eaf40154d",
+        "size": 56316
       }
     ],
     "Second Year": [
       {
         "path": "Second Year/history.json",
-        "sha256": "6d0bba8349f117d46da9f523d2fe6d3d5f3916865bc40aa35d0f946c58be3d06",
-        "size": 39881
+        "sha256": "67b6f3c92636c9ef6c4cc16ee53fd4eb705a427f3db47d086c18facb29cb4af5",
+        "size": 38960
       },
       {
         "path": "Second Year/poetry_2.json",
-        "sha256": "b3497e53dbb7624e74a61f12841a79a41f1965c87440340e6b782bf00e36ec4c",
-        "size": 32888
+        "sha256": "0a85cc965e2063b31bfba4bc5f4d87a7b76491b8530c728ef757cce5d91c350b",
+        "size": 32376
       }
     ],
     "Third Year": [
       {
         "path": "Third Year/criticism_1.json",
-        "sha256": "75ea63a3610d4d47630eabd49d31e48f68aebb349338672eca38223b904b07b0",
-        "size": 88632
+        "sha256": "4060d24c352806f38f25b3c1bfd0511d025e4ca1fefe412c885f2f025c202236",
+        "size": 87218
       },
       {
         "path": "Third Year/french.json",
-        "sha256": "04359ea4283b71f34fdf37b3514b34c0d2f6ff0008d158cbd12076a2e6853614",
-        "size": 28969
+        "sha256": "cb8910d95b4efb012640558da17c2d00f37dde34ea9c5edc75fafc953537389c",
+        "size": 27903
       },
       {
         "path": "Third Year/linguistic_2.json",
-        "sha256": "8c0a6c105aef1b3f1c77cb2a6613341c727f7e17d5b7a32694944e0871351126",
-        "size": 29063
+        "sha256": "bc8fdba4b0072a2e5cf196c6f398d1e3f4f2135accb7199e7db8bcf65d862ff3",
+        "size": 28274
       },
       {
         "path": "Third Year/linguistics_1.json",
-        "sha256": "468dddf3ddd6867e08b9ed8d8bafe3a360a58e0e2221b7fd90cf2c207fa8647d",
-        "size": 79127
+        "sha256": "00773aa7097e7c5fcf88adc6dda164cc1c255308e413bb92faec627198544a57",
+        "size": 77929
       },
       {
         "path": "Third Year/play_third_year.json",
-        "sha256": "db931877493f8f4810db8e956ed0ae078c607a42a4770161ab697eb0eed4040a",
-        "size": 91597
+        "sha256": "6719c236bd6cd31ed138aa96723d23deaaeb31c29d25a66596c396d57edb7b39",
+        "size": 89948
       },
       {
         "path": "Third Year/romantic_poetry_3.json",
-        "sha256": "24f2bb16d16c540c7f219122c9d160af20c20a5fc562a7667b5eb4517efd6e95",
-        "size": 80108
+        "sha256": "da3b427b2ebe9e5c2c878640e6edcba562bbde1065639e0d6141b33f8938bbce",
+        "size": 78611
       }
     ],
     "Fourth Year": [
       {
         "path": "Fourth Year/america_2.json",
-        "sha256": "7ef8f648da6459503666a26866d4b24b3efc020725b5701b4a306ca5f7cb38ec",
-        "size": 38171
+        "sha256": "f8962a0c64460bb5317490d0a7e4130f9b5f5cc5b57beb0bf2051b8b72067459",
+        "size": 37464
       },
       {
         "path": "Fourth Year/american_1.json",
-        "sha256": "9b77cb7e27a13129d7fdde8c3179e88ddef6c60f2476872f40da5b74c834a7a2",
-        "size": 122122
+        "sha256": "af710d0b6c10796b0e160536818b3f66de063c42135659cda22636a1e7fba02c",
+        "size": 120128
       },
       {
         "path": "Fourth Year/Comparative_1.json",
-        "sha256": "02476dc9a86502ac433e25ed91b474cda0c47fa912eaae86a5870f5968c3f2d4",
-        "size": 106844
+        "sha256": "6a12ef5fc930d9016442564f9ff9b34ddd6eaf169f986aaa05d52ce1f8a495c0",
+        "size": 104910
       },
       {
         "path": "Fourth Year/comparative_2.json",
-        "sha256": "c2ff2cce4920c7b8c5c2aff1ab8e9b640e3c43101fdc6d468a5b9c6e02beb2bc",
-        "size": 215340
+        "sha256": "a1359d5df21540b742ec94555505a226ffb72e8537aa3564300884caec55653e",
+        "size": 210365
       },
       {
         "path": "Fourth Year/criticism_2.json",
-        "sha256": "7b1bac8a306c32c56e3e6b47d65b729a1040f6debd5404f0f34da16fc8d3c3f6",
-        "size": 91941
+        "sha256": "8146f906c2b92f5b680e936656b0db8acac10c4dc4c205263568d5a34dcd6a67",
+        "size": 90471
       },
       {
         "path": "Fourth Year/learn_methology.json",
-        "sha256": "9afc8d97fa763d728cc6db7833f002c9240f9a7a2c869304aaef02f5ddd72b8a",
-        "size": 128744
+        "sha256": "a936487b09ecb4f0e0f437118b995cd4ac99f8fd99dc3bb11d430eb419b6dc23",
+        "size": 126267
       },
       {
         "path": "Fourth Year/Modern_Drama.json",
-        "sha256": "267936891ed3591e74f35b3120d427762aab46f355dec903b7a550790162f839",
-        "size": 117689
+        "sha256": "9c786a13e0b915828cdbd31e1679b1b5c7fe109d40b17fa99e9c5477e5b3e6e5",
+        "size": 115485
       },
       {
         "path": "Fourth Year/modern_prose.json",
-        "sha256": "9f6f385d93a5cd5e473b079ca11975a37dcc2150ef2c07b3a05bec45ef765a83",
-        "size": 64324
+        "sha256": "d18ea3b11da1ba018e8fbe38eba15e111149e0f8167c70a6dcccba7d8f26103e",
+        "size": 62843
       },
       {
         "path": "Fourth Year/poetry4.json",
-        "sha256": "99772a9b666a05eda1dee4552a9f11520213c899659171814631abbcf3708168",
-        "size": 103386
+        "sha256": "7b0d4f3db63d99a51e1e39c5d93fb56374159349d21dc4bc2b5915048d22c226",
+        "size": 101401
       },
       {
         "path": "Fourth Year/world_lit.json",
-        "sha256": "bb35b0cc7b15253df82149653b235f366e8c2c206fa73bf43bb808e8f3d14a70",
-        "size": 57648
+        "sha256": "3504c9deeed4fbd13d921f5d80e014e1709d0795cec78fa033a7a4aa1824464b",
+        "size": 56141
       }
     ]
   }
