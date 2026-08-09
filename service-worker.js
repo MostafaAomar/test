@@ -1,9 +1,9 @@
-const SHELL_CACHE = 'uniquiz-shell-v5';
+const SHELL_CACHE = 'uniquiz-shell-v3';
 const APP_SHELL = [
     './index.html',
-    './offline.css?v=5',
-    './style.css?v=5',
-    './app.js?v=5',
+    './offline.css',
+    './style.css',
+    './app.js',
     './manifest.webmanifest',
     './icon.svg'
 ];
@@ -36,14 +36,8 @@ self.addEventListener('fetch', event => {
 
     if (request.mode === 'navigate') {
         event.respondWith(
-            fetch(request)
-                .then(response => {
-                    if (response && response.ok) {
-                        const copy = response.clone();
-                        caches.open(SHELL_CACHE).then(cache => cache.put('./index.html', copy));
-                    }
-                    return response;
-                })
+            caches.match('./index.html')
+                .then(cached => cached || fetch(request))
                 .catch(() => caches.match('./index.html'))
         );
         return;
