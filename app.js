@@ -407,7 +407,7 @@ async function init() {
 function registerOfflineWorker() {
   if (!("serviceWorker" in navigator) || location.protocol === "file:") return;
   navigator.serviceWorker
-    .register("./service-worker.js?v=9", { updateViaCache: "none" })
+    .register("./service-worker.js?v=10", { updateViaCache: "none" })
     .catch((error) =>
       console.warn("Offline worker registration failed:", error),
     );
@@ -2749,15 +2749,22 @@ function bindYearUpdateNotifications() {
 }
 
 /* ==========================================
-   11. مزامنة الكلمات والملاحظات عبر GitHub
+   11. مزامنة الكلمات والملاحظات عبر Supabase
    ========================================== */
 const CLOUD_SYNC_FILE_NAME = "uniquiz-user-data.json";
 const CLOUD_NOTE_TIMESTAMPS_KEY = "uniquiz_cloud_note_timestamps_v1";
 const CLOUD_TOMBSTONES_KEY = "uniquiz_cloud_tombstones_v1";
 const CLOUD_SYNC_SCHEMA_VERSION = 1;
+const SUPABASE_URL = "https://zllcvqrwvuvoqtgvvhrs.supabase.co";
+const SUPABASE_PUBLISHABLE_KEY =
+  "sb_publishable_f_d_P4LWnPJSToEY4qEvpg_iGBxXZ1E";
+const SUPABASE_DATA_TABLE = "user_app_data";
 let cloudSyncBusy = false;
 let cloudSyncTimer = null;
 let cloudLastKnownSnapshot = null;
+let vocabularySupabaseClient = null;
+let vocabularySupabaseSession = null;
+let vocabularySupabaseInitialization = null;
 
 function readJsonStorage(key, fallback) {
   try {
@@ -2770,11 +2777,84 @@ function readJsonStorage(key, fallback) {
 
 function getVocabularyCloudConfig() {
   return {
-    enabled: localStorage.getItem("sync_enabled") === "true",
-    username: localStorage.getItem("sync_username") || "",
-    repo: localStorage.getItem("sync_repo") || "",
-    token: localStorage.getItem("sync_token") || "",
+    enabled: Boolean(vocabularySupabaseSession?.user?.id),
+    email: vocabularySupabaseSession?.user?.email || "",
+    userId: vocabularySupabaseSession?.user?.id || "",
   };
+}
+
+function createVocabularySupabaseClient() {
+  if (vocabularySupabaseClient) return vocabularySupabaseClient;
+  if (!window.supabase?.createClient) {
+    throw new Error(
+      "تعذر تحميل خدمة تسجيل الدخول. حدّث الصفحة أثناء الاتصال بالإنترنت.",
+    );
+  }
+
+  vocabularySupabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_PUBLISHABLE_KEY,
+    {
+      auth: {
+        persistSession: true,
+        autoRefreshToken: true,
+        detectSessionInUrl: true,
+      },
+    },
+  );
+  return vocabularySupabaseClient;
+}
+
+function getVocabularyAuthRedirectUrl() {
+  try {
+    return new URL("./", window.location.href).href;
+  } catch (error) {
+    return window.location.href;
+  }
+}
+
+async function initializeVocabularySupabaseSync() {
+  if (vocabularySupabaseInitialization)
+    return vocabularySupabaseInitialization;
+
+  vocabularySupabaseInitialization = (async () => {
+    try {
+      const client = createVocabularySupabaseClient();
+      const { data, error } = await client.auth.getSession();
+      if (error) throw error;
+
+      vocabularySupabaseSession = data?.session || null;
+
+      // Remove credentials left by the retired GitHub-token implementation.
+      localStorage.removeItem("sync_token");
+      refreshVocabularyCloudInterface();
+
+      client.auth.onAuthStateChange((event, session) => {
+        const previousUserId = vocabularySupabaseSession?.user?.id || "";
+        vocabularySupabaseSession = session || null;
+        refreshVocabularyCloudInterface();
+
+        if (
+          session?.user?.id &&
+          event === "SIGNED_IN" &&
+          session.user.id !== previousUserId
+        ) {
+          window.setTimeout(() => syncVocabularyCloudData(false), 0);
+        }
+      });
+
+      if (vocabularySupabaseSession?.user?.id) {
+        window.setTimeout(() => syncVocabularyCloudData(false), 0);
+      }
+      return client;
+    } catch (error) {
+      console.warn("Supabase initialization failed:", error);
+      setVocabularyCloudStatus(explainCloudSyncError(error), "error");
+      return null;
+    }
+  })();
+
+  return vocabularySupabaseInitialization;
 }
 
 function setVocabularyCloudStatus(message, type = "") {
@@ -2786,28 +2866,31 @@ function setVocabularyCloudStatus(message, type = "") {
 
 function refreshVocabularyCloudInterface() {
   const config = getVocabularyCloudConfig();
-  const usernameInput = document.getElementById("vocabulary-sync-username");
-  const repoInput = document.getElementById("vocabulary-sync-repo");
-  const tokenInput = document.getElementById("vocabulary-sync-token");
+  const emailInput = document.getElementById("vocabulary-sync-email");
+  const passwordInput = document.getElementById("vocabulary-sync-password");
+  const authFields = document.getElementById("vocabulary-auth-fields");
   const openButton = document.getElementById("vocabulary-sync-open");
+  const loginButton = document.getElementById("vocabulary-sync-login");
+  const registerButton = document.getElementById("vocabulary-sync-register");
   const nowButton = document.getElementById("vocabulary-sync-now");
   const signOutButton = document.getElementById("vocabulary-sync-signout");
 
-  if (usernameInput && !usernameInput.value)
-    usernameInput.value = config.username;
-  if (repoInput && !repoInput.value) repoInput.value = config.repo;
-  if (tokenInput && !tokenInput.value) tokenInput.value = config.token;
+  if (emailInput && config.email) emailInput.value = config.email;
+  if (passwordInput && config.enabled) passwordInput.value = "";
   if (openButton) {
     openButton.textContent = config.enabled
       ? "☁️ المزامنة مفعّلة"
       : "☁️ تسجيل الدخول والمزامنة";
   }
+  authFields?.classList.toggle("hidden", config.enabled);
+  loginButton?.classList.toggle("hidden", config.enabled);
+  registerButton?.classList.toggle("hidden", config.enabled);
   nowButton?.classList.toggle("hidden", !config.enabled);
   signOutButton?.classList.toggle("hidden", !config.enabled);
 
   if (config.enabled) {
     setVocabularyCloudStatus(
-      "متصل — تتم مزامنة الكلمات والملاحظات بين أجهزتك.",
+      `متصل بالحساب ${config.email} — تتم مزامنة الكلمات والملاحظات بين أجهزتك.`,
       "success",
     );
   }
@@ -2819,7 +2902,7 @@ function toggleVocabularyCloudSyncPanel() {
   refreshVocabularyCloudInterface();
   panel.classList.toggle("hidden");
   if (!panel.classList.contains("hidden")) {
-    document.getElementById("vocabulary-sync-username")?.focus();
+    document.getElementById("vocabulary-sync-email")?.focus();
   }
 }
 
@@ -3117,26 +3200,57 @@ async function writeVocabularyCloudFile(config, data, sha = null) {
 }
 
 function explainCloudSyncError(error) {
-  if (error?.status === 401) return "رمز الدخول غير صحيح أو انتهت صلاحيته.";
-  if (error?.status === 403)
-    return "رمز الدخول لا يملك صلاحية قراءة وكتابة محتويات المستودع.";
-  if (error?.status === 404)
-    return "لم يتم العثور على المستودع. أنشئه أولًا وتأكد من الاسم والصلاحيات.";
-  if (error?.status === 409)
-    return "تغيّرت البيانات على جهاز آخر. حاول المزامنة مرة ثانية.";
+  const message = String(error?.message || "").toLowerCase();
+  if (message.includes("invalid login credentials"))
+    return "البريد الإلكتروني أو كلمة المرور غير صحيحة.";
+  if (message.includes("email not confirmed"))
+    return "يجب تأكيد البريد الإلكتروني أولًا، ثم تسجيل الدخول.";
+  if (message.includes("user already registered"))
+    return "هذا البريد مسجل بالفعل. استخدم زر تسجيل الدخول.";
+  if (message.includes("password") && message.includes("characters"))
+    return "كلمة المرور قصيرة. استخدم 6 أحرف على الأقل.";
+  if (
+    error?.code === "42501" ||
+    message.includes("row-level security") ||
+    message.includes("permission denied")
+  ) {
+    return "رفضت قاعدة البيانات الوصول. فعّل سياسات RLS للمستخدم على جدول user_app_data.";
+  }
+  if (message.includes("relation") && message.includes("does not exist"))
+    return "لم يتم العثور على جدول user_app_data في Supabase.";
+  if (message.includes("failed to fetch") || message.includes("network"))
+    return "تعذر الاتصال بـ Supabase. تحقق من الإنترنت وحاول مرة أخرى.";
   return error?.message || "تعذرت المزامنة. تحقق من الاتصال وحاول مرة أخرى.";
+}
+
+async function readVocabularySupabaseData(userId) {
+  const { data, error } = await vocabularySupabaseClient
+    .from(SUPABASE_DATA_TABLE)
+    .select("data, updated_at")
+    .eq("user_id", userId)
+    .maybeSingle();
+  if (error) throw error;
+  return data?.data || null;
+}
+
+async function writeVocabularySupabaseData(userId, data) {
+  const updatedAt = new Date().toISOString();
+  const { error } = await vocabularySupabaseClient
+    .from(SUPABASE_DATA_TABLE)
+    .upsert(
+      {
+        user_id: userId,
+        data: { ...data, updatedAt },
+        updated_at: updatedAt,
+      },
+      { onConflict: "user_id" },
+    );
+  if (error) throw error;
 }
 
 async function syncVocabularyCloudData(showStatus = true) {
   const config = getVocabularyCloudConfig();
-  if (
-    !config.enabled ||
-    !config.username ||
-    !config.repo ||
-    !config.token ||
-    cloudSyncBusy
-  )
-    return false;
+  if (!config.enabled || !config.userId || cloudSyncBusy) return false;
   if (!navigator.onLine) {
     if (showStatus)
       setVocabularyCloudStatus(
@@ -3151,33 +3265,29 @@ async function syncVocabularyCloudData(showStatus = true) {
     setVocabularyCloudStatus("جاري مزامنة الكلمات والملاحظات…", "loading");
 
   try {
-    for (let attempt = 0; attempt < 2; attempt++) {
-      const localData = captureCloudDeletions();
-      const remoteFile = await readVocabularyCloudFile(config);
-      const merged = mergeCloudCollections(localData, remoteFile.data);
-      applyCloudDataLocally(merged);
+    const localData = captureCloudDeletions();
+    const remoteData = await readVocabularySupabaseData(config.userId);
 
-      if (
-        !remoteFile.data ||
-        cloudComparableData(merged) !== cloudComparableData(remoteFile.data)
-      ) {
-        try {
-          await writeVocabularyCloudFile(config, merged, remoteFile.sha);
-        } catch (error) {
-          if (error.status === 409 && attempt === 0) continue;
-          throw error;
-        }
-      }
+    if (vocabularySupabaseSession?.user?.id !== config.userId) return false;
 
-      cloudLastKnownSnapshot = collectLocalCloudData();
-      localStorage.setItem("sync_last_success_at", new Date().toISOString());
-      refreshVocabularyCloudInterface();
-      setVocabularyCloudStatus(
-        "تمت المزامنة بنجاح. بياناتك متاحة الآن على أجهزتك الأخرى.",
-        "success",
-      );
-      return true;
+    const merged = mergeCloudCollections(localData, remoteData);
+    applyCloudDataLocally(merged);
+
+    if (
+      !remoteData ||
+      cloudComparableData(merged) !== cloudComparableData(remoteData)
+    ) {
+      await writeVocabularySupabaseData(config.userId, merged);
     }
+
+    cloudLastKnownSnapshot = collectLocalCloudData();
+    localStorage.setItem("sync_last_success_at", new Date().toISOString());
+    refreshVocabularyCloudInterface();
+    setVocabularyCloudStatus(
+      "تمت المزامنة بنجاح. بياناتك متاحة الآن على أجهزتك الأخرى.",
+      "success",
+    );
+    return true;
   } catch (error) {
     console.warn("Vocabulary cloud sync failed:", error);
     if (showStatus)
@@ -3190,51 +3300,111 @@ async function syncVocabularyCloudData(showStatus = true) {
 }
 
 async function connectVocabularyCloudSync() {
-  const username =
-    document.getElementById("vocabulary-sync-username")?.value.trim() || "";
-  const repo =
-    document.getElementById("vocabulary-sync-repo")?.value.trim() || "";
-  const token =
-    document.getElementById("vocabulary-sync-token")?.value.trim() || "";
-  if (!username || !repo || !token) {
-    setVocabularyCloudStatus(
-      "أدخل اسم المستخدم واسم المستودع ورمز الدخول.",
-      "error",
-    );
+  const email =
+    document.getElementById("vocabulary-sync-email")?.value.trim() || "";
+  const password =
+    document.getElementById("vocabulary-sync-password")?.value || "";
+  if (!email || !password) {
+    setVocabularyCloudStatus("أدخل البريد الإلكتروني وكلمة المرور.", "error");
     return;
   }
 
-  localStorage.setItem("sync_username", username);
-  localStorage.setItem("sync_repo", repo);
-  localStorage.setItem("sync_token", token);
-  localStorage.setItem("sync_enabled", "true");
-  refreshVocabularyCloudInterface();
+  const client = await initializeVocabularySupabaseSync();
+  if (!client) return;
+  setVocabularyCloudStatus("جاري تسجيل الدخول…", "loading");
 
-  const connected = await syncVocabularyCloudData(true);
-  if (!connected) localStorage.setItem("sync_enabled", "false");
-  refreshVocabularyCloudInterface();
+  try {
+    const { data, error } = await client.auth.signInWithPassword({
+      email,
+      password,
+    });
+    if (error) throw error;
+    vocabularySupabaseSession = data?.session || null;
+    const passwordInput = document.getElementById("vocabulary-sync-password");
+    if (passwordInput) passwordInput.value = "";
+    refreshVocabularyCloudInterface();
+    await syncVocabularyCloudData(true);
+  } catch (error) {
+    console.warn("Supabase login failed:", error);
+    setVocabularyCloudStatus(explainCloudSyncError(error), "error");
+  }
 }
 
-function syncVocabularyCloudNow() {
+async function registerVocabularyCloudAccount() {
+  const email =
+    document.getElementById("vocabulary-sync-email")?.value.trim() || "";
+  const password =
+    document.getElementById("vocabulary-sync-password")?.value || "";
+  if (!email || !password) {
+    setVocabularyCloudStatus("أدخل البريد الإلكتروني وكلمة المرور.", "error");
+    return;
+  }
+  if (password.length < 6) {
+    setVocabularyCloudStatus("استخدم كلمة مرور من 6 أحرف على الأقل.", "error");
+    return;
+  }
+
+  const client = await initializeVocabularySupabaseSync();
+  if (!client) return;
+  setVocabularyCloudStatus("جاري إنشاء الحساب…", "loading");
+
+  try {
+    const { data, error } = await client.auth.signUp({
+      email,
+      password,
+      options: { emailRedirectTo: getVocabularyAuthRedirectUrl() },
+    });
+    if (error) throw error;
+
+    const passwordInput = document.getElementById("vocabulary-sync-password");
+    if (passwordInput) passwordInput.value = "";
+
+    if (data?.session) {
+      vocabularySupabaseSession = data.session;
+      refreshVocabularyCloudInterface();
+      await syncVocabularyCloudData(true);
+      return;
+    }
+
+    setVocabularyCloudStatus(
+      "تم إنشاء الحساب. افتح رسالة التأكيد في بريدك، ثم ارجع وسجّل الدخول.",
+      "success",
+    );
+  } catch (error) {
+    console.warn("Supabase registration failed:", error);
+    setVocabularyCloudStatus(explainCloudSyncError(error), "error");
+  }
+}
+
+async function syncVocabularyCloudNow() {
+  await initializeVocabularySupabaseSync();
   syncVocabularyCloudData(true);
 }
 
-function disconnectVocabularyCloudSync() {
+async function disconnectVocabularyCloudSync() {
   if (
     !confirm(
       "هل تريد تسجيل الخروج من المزامنة على هذا الجهاز؟ ستبقى كلماتك وملاحظاتك المحلية محفوظة.",
     )
   )
     return;
-  localStorage.setItem("sync_enabled", "false");
-  localStorage.removeItem("sync_token");
-  const tokenInput = document.getElementById("vocabulary-sync-token");
-  if (tokenInput) tokenInput.value = "";
-  refreshVocabularyCloudInterface();
-  setVocabularyCloudStatus(
-    "تم تسجيل الخروج. بقيت البيانات محفوظة على هذا الجهاز.",
-    "",
-  );
+
+  const client = await initializeVocabularySupabaseSync();
+  if (!client) return;
+
+  try {
+    const { error } = await client.auth.signOut();
+    if (error) throw error;
+    vocabularySupabaseSession = null;
+    cloudLastKnownSnapshot = collectLocalCloudData();
+    refreshVocabularyCloudInterface();
+    setVocabularyCloudStatus(
+      "تم تسجيل الخروج. بقيت البيانات محفوظة على هذا الجهاز.",
+      "",
+    );
+  } catch (error) {
+    setVocabularyCloudStatus(explainCloudSyncError(error), "error");
+  }
 }
 
 function markCurrentNoteForCloudSync() {
@@ -3249,7 +3419,7 @@ function markCurrentNoteForCloudSync() {
 }
 
 function scheduleVocabularyCloudSync() {
-  if (!getVocabularyCloudConfig().enabled) return;
+  if (!vocabularySupabaseSession?.user?.id) return;
   window.clearTimeout(cloudSyncTimer);
   cloudSyncTimer = window.setTimeout(() => syncVocabularyCloudData(false), 900);
 }
@@ -3257,6 +3427,7 @@ function scheduleVocabularyCloudSync() {
 function bindVocabularyCloudSync() {
   cloudLastKnownSnapshot = collectLocalCloudData();
   refreshVocabularyCloudInterface();
+  initializeVocabularySupabaseSync();
 
   document.getElementById("vocabulary-form")?.addEventListener("submit", () => {
     window.setTimeout(scheduleVocabularyCloudSync, 0);

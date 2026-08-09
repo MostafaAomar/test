@@ -16,15 +16,24 @@ Cross-device words and notes
 ----------------------------
 
 1. Open "My Vocabulary" and press "تسجيل الدخول والمزامنة".
-2. Enter the same GitHub username, repository name, and Personal Access Token on
-   every device. The repository must already exist and the token needs permission
-   to read and write repository contents.
-3. UniQuiz creates/updates `uniquiz-user-data.json` in that repository. The token
-   itself is never written into that data file.
+2. Press "إنشاء حساب", enter an email address and a password of at least six
+   characters, and confirm the email if Supabase email confirmation is enabled.
+3. Sign in with the same email and password on every device. UniQuiz reads and
+   writes the signed-in user's row in the Supabase `user_app_data` table.
 4. Saved vocabulary and question notes are merged by their update time. Deletions
    are also remembered so removed entries do not reappear on another device.
-5. Local use remains available without signing in. Signing out removes the token
-   from that device but keeps its local words and notes.
+5. Local use remains available without signing in. Signing out removes the
+   Supabase session from that device but keeps its local words and notes.
+
+Supabase requirements:
+- Run `SUPABASE_SETUP.sql` once in Supabase Dashboard > SQL Editor.
+- Authentication > Sign In / Providers > Email must be enabled.
+- Authentication > URL Configuration must contain the deployed application URL.
+- `public.user_app_data.user_id` must reference `auth.users.id` and be the primary key.
+- Row Level Security must allow authenticated users to select, insert, and update
+  only the row where `auth.uid() = user_id`.
+- The frontend contains only the Project URL and publishable key. Never place a
+  Supabase secret/service-role key in this project.
 
 Important:
 - Offline mode requires HTTPS hosting (GitHub Pages is suitable). Service workers do
@@ -56,7 +65,7 @@ Automatic updates
   shell while the installed PWA is closed. All other browsers run the same check
   when the app opens, becomes visible, or reconnects to the internet.
 - After deploying this version, replace every file once and reopen/refresh the
-  app so cache version v9 becomes active. Future releases no longer require the
+  app so cache version v10 becomes active. Future releases no longer require the
   student to clear browser storage manually.
 - To change the interval later, edit `AUTOMATIC_UPDATE_INTERVAL_MS` near the top
   of app.js. For 24 hours, use `24 * 60 * 60 * 1000`.

@@ -11,8 +11,8 @@
     <title>أسئلة الدورات السابقة</title>
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="icon" href="icon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="offline.css?v=6">
-    <link rel="stylesheet" href="style.css?v=6">
+    <link rel="stylesheet" href="offline.css?v=10">
+    <link rel="stylesheet" href="style.css?v=10">
     <link href="https://googleapis.com" rel="stylesheet">
 
 
@@ -1124,36 +1124,32 @@
                             <div class="vocabulary-cloud-heading">
                                 <div>
                                     <p class="vocabulary-cloud-kicker">مزامنة اختيارية بين الأجهزة</p>
-                                    <h3 id="vocabulary-cloud-title">تسجيل الدخول عبر GitHub</h3>
+                                    <h3 id="vocabulary-cloud-title">تسجيل الدخول عبر Supabase</h3>
                                 </div>
                                 <button type="button" class="vocabulary-cloud-close"
                                     onclick="toggleVocabularyCloudSyncPanel()" aria-label="إغلاق">×</button>
                             </div>
                             <p class="vocabulary-cloud-help">
-                                استخدم نفس الحساب والمستودع على كل جهاز. يجب أن يكون المستودع موجودًا، وأن يملك رمز
-                                الدخول صلاحية قراءة وكتابة محتوياته. لا يتم حفظ الرمز داخل ملف الكلمات والملاحظات.
-                                لا تكتب بريدك الإلكتروني أو كلمة مرور GitHub في هذه الخانات.
+                                أنشئ حسابًا بالبريد الإلكتروني وكلمة المرور، ثم استخدم الحساب نفسه على كل جهاز.
+                                تُحفَظ الكلمات والملاحظات في حسابك فقط، ولا يحفظ التطبيق كلمة المرور.
                             </p>
-                            <div class="vocabulary-cloud-grid">
+                            <div id="vocabulary-auth-fields" class="vocabulary-cloud-grid">
                                 <label>
-                                    <span>اسم مستخدم GitHub</span>
-                                    <input id="vocabulary-sync-username" type="text" class="glass-input"
-                                        autocomplete="username" placeholder="e.g. MostafaAomar">
-                                </label>
-                                <label>
-                                    <span>اسم المستودع</span>
-                                    <input id="vocabulary-sync-repo" type="text" class="glass-input"
-                                        autocomplete="off" placeholder="e.g. uniquiz-sync">
+                                    <span>البريد الإلكتروني</span>
+                                    <input id="vocabulary-sync-email" type="email" class="glass-input"
+                                        autocomplete="email" inputmode="email" placeholder="name@example.com">
                                 </label>
                                 <label class="vocabulary-cloud-token-field">
-                                    <span>رمز وصول GitHub (PAT) — ليس كلمة المرور</span>
-                                    <input id="vocabulary-sync-token" type="password" class="glass-input"
-                                        autocomplete="new-password" placeholder="GitHub access token">
+                                    <span>كلمة المرور</span>
+                                    <input id="vocabulary-sync-password" type="password" class="glass-input"
+                                        autocomplete="current-password" minlength="6" placeholder="6 أحرف على الأقل">
                                 </label>
                             </div>
                             <div class="vocabulary-cloud-actions">
-                                <button type="button" class="vocabulary-primary-btn"
-                                    onclick="connectVocabularyCloudSync()">تسجيل الدخول والمزامنة</button>
+                                <button id="vocabulary-sync-login" type="button" class="vocabulary-primary-btn"
+                                    onclick="connectVocabularyCloudSync()">تسجيل الدخول</button>
+                                <button id="vocabulary-sync-register" type="button" class="vocabulary-secondary-btn"
+                                    onclick="registerVocabularyCloudAccount()">إنشاء حساب</button>
                                 <button id="vocabulary-sync-now" type="button"
                                     class="vocabulary-secondary-btn hidden" onclick="syncVocabularyCloudNow()">مزامنة
                                     الآن</button>
@@ -1518,7 +1514,8 @@
     </div>
 
 
-    <script src="app.js?v=9"></script>
+    <script src="supabase.js?v=10"></script>
+    <script src="app.js?v=10"></script>
     <script>
         // Small compatibility helpers for visual-only elements introduced by t.html.
         function toggleDictionary(forceOpen) {
