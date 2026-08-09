@@ -4,6 +4,12 @@
   "lang": "en",
   "questions": [
     {
+      "q": "fuck you",
+      "options": ["catharsis", "assimilation", "social reform", "satire"],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'social reform'. تذكر الأوراق الذهبية أن الاتجاهات الجديدة في الدراما والمسرح غالباً ما تنبع من الرغبة في الإصلاح الاجتماعي [1]."
+    },
+    {
       "q": "New trends in drama are often inspired by the desire for:",
       "options": ["catharsis", "assimilation", "social reform", "satire"],
       "correct": 2,
