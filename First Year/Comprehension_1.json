@@ -4,123 +4,74 @@
   "lang": "en",
   "questions": [
     {
+      "q": "hello mostafa",
+      "options": ["serious", "secret", "dangerous", "type of fish"],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'serious'. وفقاً لقائمة الكلمات الصعبة في النص الأول من الأوراق الذهبية، فإن 'solemn' تعني جاد أو رصين (very serious)."
+    },
+    {
       "q": "\"solemn\" means",
-      "options": [
-        "serious",
-        "secret",
-        "dangerous",
-        "type of fish"
-      ],
+      "options": ["serious", "secret", "dangerous", "type of fish"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'serious'. وفقاً لقائمة الكلمات الصعبة في النص الأول من الأوراق الذهبية، فإن 'solemn' تعني جاد أو رصين (very serious)."
     },
     {
       "q": "All they were interested in ...... her money.",
-      "options": [
-        "were",
-        "are",
-        "is been",
-        "none is correct"
-      ],
+      "options": ["were", "are", "is been", "none is correct"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'none is correct'. تشير الملاحظات في المصدر إلى أن الفعل الصحيح يجب أن يكون 'was' (ماضي مفرد)، وبما أنه غير موجود في الخيارات، نختار 'none is correct'."
     },
     {
       "q": "They gathered to hear the lawyer ...... the will.",
-      "options": [
-        "reading",
-        "be reading",
-        "read",
-        "red"
-      ],
+      "options": ["reading", "be reading", "read", "red"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'read'. ورد في النص الأول: 'gathered at the house to hear Sally's lawyer read her will'، حيث يأتي الفعل مجرداً بعد الفعل hear المتبوع بمفعول به."
     },
     {
       "q": "Dark black clouds in a \"......\" sky meant there was going to be a thunderstorm.",
-      "options": [
-        "dill",
-        "dull",
-        "boring",
-        "dille"
-      ],
+      "options": ["dill", "dull", "boring", "dille"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'dull'. يفتتح النص الثاني بوصف السماء بأنها باهتة أو كئيبة (dull) قبل العاصفة."
     },
     {
       "q": "The boys ran here and there like a wild \"......\"",
-      "options": [
-        "clog",
-        "school",
-        "party",
-        "tribe"
-      ],
+      "options": ["clog", "school", "party", "tribe"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'tribe'. وصف الكاتب في النص الثاني حركة الأولاد الفوضوية في المتحف بأنها تشبه ركض 'قبيلة همجية' (wild tribe)."
     },
     {
       "q": "The boys came \"............\" an educational visit.",
-      "options": [
-        "in",
-        "before about",
-        "on",
-        "about"
-      ],
+      "options": ["in", "before about", "on", "about"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'on'. حرف الجر المستخدم مع 'educational visit' في النص هو 'on'."
     },
     {
       "q": "The word \"empty\" is close in meaning to",
-      "options": [
-        "deserted",
-        "disserted",
-        "dissected",
-        "none is correct"
-      ],
+      "options": ["deserted", "disserted", "dissected", "none is correct"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'deserted'. في قاموس المفردات المرفق بالنص، كلمة 'deserted' تعني مهجور أو فارغ من الناس (empty)."
     },
     {
       "q": "We arrived just as large drops of rain \"......\" to fall.",
-      "options": [
-        "beginning",
-        "begin",
-        "were begin",
-        "none is correct"
-      ],
+      "options": ["beginning", "begin", "were begin", "none is correct"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'none is correct'. تنبه الأوراق الذهبية في الحاشية إلى أن الخيار القواعدي الصحيح هو 'were beginning'، وبما أنه غير متوفر، نختار لا شيء مما سبق."
     },
     {
       "q": "Leaving my hotel, I bought a map and ...... a car.",
-      "options": [
-        "hiring",
-        "hire",
-        "hired",
-        "hires"
-      ],
+      "options": ["hiring", "hire", "hired", "hires"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'hired'. يتحدث النص الثالث في زمن الماضي البسيط: 'Leaving my hotel, I bought a map and hired a car'."
     },
     {
       "q": "The opposite of \"shallow\" is......",
-      "options": [
-        "surface",
-        "downward bolt",
-        "sound",
-        "deep"
-      ],
+      "options": ["surface", "downward bolt", "sound", "deep"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'deep'. كلمة 'shallow' تعني ضحل، وعكسها هو 'deep' (عميق) حسب قائمة المرادفات والأضداد."
     },
     {
       "q": "A five ...... house was built in a garage workshop.",
-      "options": [
-        "rooms",
-        "room",
-        "rooms'",
-        "room's"
-      ],
+      "options": ["rooms", "room", "rooms'", "room's"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'room'. عند استخدام الرقم والاسم كصفة مركبة لاسم آخر، يبقى الاسم مفرداً: 'a five-room house'."
     },
@@ -137,247 +88,137 @@
     },
     {
       "q": "Cousteau spoke \".......\" the possibility of cultivating the sea bed.",
-      "options": [
-        "on",
-        "for",
-        "of",
-        "about to"
-      ],
+      "options": ["on", "for", "of", "about to"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'of'. الفعل 'speak' يُتبع بحرف الجر 'of' عندما نتحدث عن موضوع معين في هذا السياق: 'spoke of the possibility'."
     },
     {
       "q": "There was \".......\" colony of crabs that numbered hundreds of millions.",
-      "options": [
-        "a mini",
-        "gigantic",
-        "an elegant",
-        "an enormous"
-      ],
+      "options": ["a mini", "gigantic", "an elegant", "an enormous"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'an enormous'. يصف النص المستعمرة بأنها 'immense'، وهي مرادفة لـ 'enormous' (هائلة/ضخمة)."
     },
     {
       "q": "Some \"...\" ago, scientists began experiments to find out whether it would be possible to set \"...\" a village under the sea.",
-      "options": [
-        "times / off",
-        "time / on",
-        "time / up",
-        "age / in"
-      ],
+      "options": ["times / off", "time / on", "time / up", "age / in"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'time / up'. التعبير هو 'Some time ago' (منذ فترة) و 'set up' (يقيم/يؤسس)."
     },
     {
       "q": "Hunting was originally a means of providing food, but it \"...........\" now a sport.",
-      "options": [
-        "is becoming",
-        "had became",
-        "has became",
-        "has become"
-      ],
+      "options": ["is becoming", "had became", "has became", "has become"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'has become'. يستخدم النص زمن المضارع التام للتعبير عن حالة بدأت في الماضي ومستمرة للآن: 'has now become a sport'."
     },
     {
       "q": "Fishermen are not seriously ...... in catching fish.",
-      "options": [
-        "interesting",
-        "interestedly",
-        "interested",
-        "interestingly"
-      ],
+      "options": ["interesting", "interestedly", "interested", "interestingly"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'interested'. نستخدم الصفة المنتهية بـ ed لوصف شعور الأشخاص: 'interested in' (مهتم بـ)."
     },
     {
       "q": "The fishermen must take care to keep the birds separate \"......\" each other.",
-      "options": [
-        "from",
-        "to",
-        "off",
-        "for"
-      ],
+      "options": ["from", "to", "off", "for"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'from'. حرف الجر الذي يأتي مع 'separate' هو 'from' (منفصل عن)."
     },
     {
       "q": "The synonym of \"dislike\" is",
-      "options": [
-        "unlike",
-        "unlikely",
-        "likeless",
-        "none is correct"
-      ],
+      "options": ["unlike", "unlikely", "likeless", "none is correct"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'none is correct'. مرادف 'dislike' هو 'hate' (يكره)، وهو غير موجود في الخيارات المعطاة."
     },
     {
       "q": "It was my responsibility to lead a small ...... of soldiers back to camp.",
-      "options": [
-        "party",
-        "band",
-        "cluster",
-        "herd"
-      ],
+      "options": ["party", "band", "cluster", "herd"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'band'. ورد في النص السابع أن الكاتب كان مسؤولاً عن قيادة 'small band of soldiers' (مجموعة صغيرة من الجنود)."
     },
     {
       "q": "The soldiers smiled as they saw me ...... at the map.",
-      "options": [
-        "was looking",
-        "looked",
-        "looking",
-        "be looking"
-      ],
+      "options": ["was looking", "looked", "looking", "be looking"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'looking'. نستخدم صيغة الحاضر المستمر (V-ing) بعد مفعول به الفعل 'saw' لوصف مشهد مستمر."
     },
     {
       "q": "The opposite of \"artificial\" is",
-      "options": [
-        "normal",
-        "unusual",
-        "natural",
-        "unnatural"
-      ],
+      "options": ["normal", "unusual", "natural", "unnatural"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'natural'. عكس 'artificial' (اصطناعي) هو 'natural' (طبيعي) كما ورد في النص الثامن."
     },
     {
       "q": "The cat ...... a salary of 13 pounds per year.",
-      "options": [
-        "taking",
-        "earning",
-        "earns",
-        "is got"
-      ],
+      "options": ["taking", "earning", "earns", "is got"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'earns'. يتحدث النص عن راتب القطة السنوي باستخدام الفعل 'earns' (تكسب)."
     },
     {
       "q": "Glass is lightweight, ...... to liquids, readily cleaned and reused.",
-      "options": [
-        "permeable",
-        "impermeable",
-        "malleable",
-        "unpermeable"
-      ],
+      "options": ["permeable", "impermeable", "malleable", "unpermeable"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'impermeable'. من خصائص الزجاج أنه 'impermeable' (غير منفذ للسوائل)."
     },
     {
       "q": "The opposite of \"urban\" is:",
-      "options": [
-        "rural",
-        "global",
-        "cultural",
-        "foreign"
-      ],
+      "options": ["rural", "global", "cultural", "foreign"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'rural'. عكس كلمة 'urban' (مدني/حضري) هو 'rural' (ريفي)."
     },
     {
       "q": "\"Recycle\" means:",
-      "options": [
-        "throw away",
-        "use again",
-        "destroy",
-        "pollute"
-      ],
+      "options": ["throw away", "use again", "destroy", "pollute"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'use again'. إعادة التدوير تعني استخدام الشيء مرة أخرى."
     },
     {
       "q": "Which word is a synonym for \"protect\"?",
-      "options": [
-        "harm",
-        "guard",
-        "ignore",
-        "destroy"
-      ],
+      "options": ["harm", "guard", "ignore", "destroy"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'guard'. كلمة 'guard' تعني يحمي أو يحرس وهي مرادفة لـ 'protect'."
     },
     {
       "q": "A synonym of \"deserted\" is:",
-      "options": [
-        "empty",
-        "full",
-        "busy",
-        "noisy"
-      ],
+      "options": ["empty", "full", "busy", "noisy"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'empty'. كلمة 'deserted' تعني مهجور أي فارغ تماماً من الناس."
     },
     {
       "q": "\"Extinct\" means:",
-      "options": [
-        "still existing",
-        "in danger",
-        "rare",
-        "completely gone"
-      ],
+      "options": ["still existing", "in danger", "rare", "completely gone"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'completely gone'. الانقراض يعني أن النوع قد اختفى تماماً من الوجود."
     },
     {
       "q": "\"Maintain\" means:",
-      "options": [
-        "keep in good condition",
-        "destroy",
-        "ignore",
-        "remove"
-      ],
+      "options": ["keep in good condition", "destroy", "ignore", "remove"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'keep in good condition'. الحفاظ على الشيء (maintain) يعني إبقاؤه في حالة جيدة."
     },
     {
       "q": "\"To examine something closely\" means to:",
-      "options": [
-        "glance",
-        "scan",
-        "ignore",
-        "inspect"
-      ],
+      "options": ["glance", "scan", "ignore", "inspect"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'inspect'. فحص الشيء عن قرب وبدقة يسمى 'inspect' (يفتش/يفحص)."
     },
     {
       "q": "The glass was so ...... that it broke easily.",
-      "options": [
-        "fragile",
-        "strong",
-        "durable",
-        "heavy"
-      ],
+      "options": ["fragile", "strong", "durable", "heavy"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'fragile'. الزجاج هش (fragile) ولذلك ينكسر بسهولة."
     },
     {
       "q": "A \"malleable\" material can be:",
-      "options": [
-        "broken easily",
-        "colored",
-        "eaten",
-        "shaped easily"
-      ],
+      "options": ["broken easily", "colored", "eaten", "shaped easily"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'shaped easily'. المادة القابلة للطرق (malleable) هي التي يمكن تشكيلها بسهولة."
     },
     {
       "q": "Which word means the same as \"shatter\"?",
-      "options": [
-        "build",
-        "destroy",
-        "break into pieces",
-        "melt"
-      ],
+      "options": ["build", "destroy", "break into pieces", "melt"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'break into pieces'. كلمة 'shatter' تعني يتحطم إلى قطع صغيرة."
     },
-     {
+    {
       "q": "What do studies mentioned in the passage indicate?",
       "options": [
         "Silence improves physical health",
@@ -412,34 +253,19 @@
     },
     {
       "q": "Which word is closest in meaning to \"undervalued\"?",
-      "options": [
-        "Ignored",
-        "Underestimated",
-        "Rare",
-        "Expensive"
-      ],
+      "options": ["Ignored", "Underestimated", "Rare", "Expensive"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'Underestimated'. كلمة 'undervalued' تعني أن الشيء لم يُعطَ حقه من التقدير، وهو مرادف لـ 'underestimated'."
     },
     {
       "q": "The word \"relentless\" in the final sentence most nearly means:",
-      "options": [
-        "Gentle",
-        "Unavoidable",
-        "Continuous",
-        "Unexpected"
-      ],
+      "options": ["Gentle", "Unavoidable", "Continuous", "Unexpected"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'Continuous'. كلمة 'relentless' تعني مستمر بلا هوادة أو لا يتوقف."
     },
     {
       "q": "Which word is the opposite in meaning of \"constant\" as used in \"constant digital stimulation\"?",
-      "options": [
-        "Endless",
-        "Occasional",
-        "Powerful",
-        "Modern"
-      ],
+      "options": ["Endless", "Occasional", "Powerful", "Modern"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'Occasional'. عكس كلمة 'constant' (دائم/مستمر) هو 'occasional' (عرضي/متقطع)."
     },
@@ -478,56 +304,31 @@
     },
     {
       "q": "The opposite of \"urban\" is:",
-      "options": [
-        "rural",
-        "global",
-        "cultural",
-        "foreign"
-      ],
+      "options": ["rural", "global", "cultural", "foreign"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'rural'. كلمة 'urban' تعني حضري أو مدني، وعكسها هو 'rural' أي ريفي."
     },
     {
       "q": "\"Recycle\" means:",
-      "options": [
-        "harm",
-        "guard",
-        "use again",
-        "destroy"
-      ],
+      "options": ["harm", "guard", "use again", "destroy"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'use again'. إعادة التدوير تعني استخدام المواد مرة أخرى بدلاً من رميها."
     },
     {
       "q": "Which word is a synonym for \"protect\"?",
-      "options": [
-        "harm",
-        "guard",
-        "ignore",
-        "destroy"
-      ],
+      "options": ["harm", "guard", "ignore", "destroy"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'guard'. كلمة 'guard' (يحرس/يحمي) هي مرادف للفعل 'protect'."
     },
     {
       "q": "A synonym of \"deserted\" is:",
-      "options": [
-        "empty",
-        "full",
-        "busy",
-        "noisy"
-      ],
+      "options": ["empty", "full", "busy", "noisy"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'empty'. كلمة 'deserted' تعني مهجور أو خالٍ من الناس."
     },
     {
       "q": "\"Extinct\" means:",
-      "options": [
-        "still existing",
-        "in danger",
-        "rare",
-        "completely gone"
-      ],
+      "options": ["still existing", "in danger", "rare", "completely gone"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'completely gone'. الانقراض يعني اختفاء النوع تماماً من الوجود."
     },
@@ -544,23 +345,13 @@
     },
     {
       "q": "The verb \"to vanish\" means:",
-      "options": [
-        "appear",
-        "disappear",
-        "divide",
-        "stay"
-      ],
+      "options": ["appear", "disappear", "divide", "stay"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'disappear'. الفعل 'vanish' يعني يتلاشى أو يختفي."
     },
     {
       "q": "To \"pretend\" means to:",
-      "options": [
-        "act fully",
-        "dislike",
-        "feel like",
-        "none is correct"
-      ],
+      "options": ["act fully", "dislike", "feel like", "none is correct"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'none is correct'. معنى الفعل 'pretend' هو 'to act like' (يتظاهر)، وبما أنه غير موجود نختار الخيار الأخير."
     },
@@ -577,45 +368,25 @@
     },
     {
       "q": "A synonym for \"fragile\" is:",
-      "options": [
-        "strong",
-        "destroy",
-        "rough",
-        "breakable"
-      ],
+      "options": ["strong", "destroy", "rough", "breakable"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'breakable'. الشيء 'fragile' هو الشيء الهش القابل للكسر بسهولة."
     },
     {
       "q": "\"Maintain\" means:",
-      "options": [
-        "keep in good condition",
-        "destroy",
-        "ignore",
-        "remove"
-      ],
+      "options": ["keep in good condition", "destroy", "ignore", "remove"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'keep in good condition'. الحفاظ على الشيء يعني إبقاؤه في حالة جيدة."
     },
     {
       "q": "\"To examine something closely\" means to:",
-      "options": [
-        "glance",
-        "scan",
-        "ignore",
-        "inspect"
-      ],
+      "options": ["glance", "scan", "ignore", "inspect"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'inspect'. الفحص الدقيق والمقرب يسمى 'inspect' (تفتيش/فحص)."
     },
     {
       "q": "The man was accused of breaking ...... a house and stealing a cheap watch.",
-      "options": [
-        "out",
-        "into",
-        "up into",
-        "through into"
-      ],
+      "options": ["out", "into", "up into", "through into"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'into'. الفعل المركب 'break into' يعني يقتحم مكاناً."
     },
@@ -632,12 +403,7 @@
     },
     {
       "q": "A synonym for \"consume\" is:",
-      "options": [
-        "use up",
-        "waste",
-        "save",
-        "return"
-      ],
+      "options": ["use up", "waste", "save", "return"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'use up'. يستهلك تعني استخدام الموارد حتى تنفد."
     },
@@ -654,45 +420,25 @@
     },
     {
       "q": "The glass was so ...... that it broke easily.",
-      "options": [
-        "fragile",
-        "strong",
-        "durable",
-        "heavy"
-      ],
+      "options": ["fragile", "strong", "durable", "heavy"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'fragile'. الزجاج هش بطبعه ولذلك ينكسر بسهولة."
     },
     {
       "q": "A \"malleable\" material can be:",
-      "options": [
-        "broken easily",
-        "colored",
-        "eaten",
-        "shaped easily"
-      ],
+      "options": ["broken easily", "colored", "eaten", "shaped easily"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'shaped easily'. المادة القابلة للطرق هي التي يمكن تشكيلها بسهولة."
     },
     {
       "q": "Which word means the same as \"shatter\"?",
-      "options": [
-        "build",
-        "destroy",
-        "break into pieces",
-        "melt"
-      ],
+      "options": ["build", "destroy", "break into pieces", "melt"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'break into pieces'. يتحطم (shatter) تعني التكسر إلى قطع صغيرة."
     },
     {
       "q": "The antonym of \"lightweight\" is:",
-      "options": [
-        "heavy",
-        "fragile",
-        "soft",
-        "large"
-      ],
+      "options": ["heavy", "fragile", "soft", "large"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'heavy'. عكس خفيف الوزن هو ثقيل الوزن."
     },
@@ -709,78 +455,43 @@
     },
     {
       "q": "A \"ductile\" metal can be:",
-      "options": [
-        "frozen",
-        "dissolved",
-        "heated",
-        "stretched into wires"
-      ],
+      "options": ["frozen", "dissolved", "heated", "stretched into wires"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'stretched into wires'. المادة القابلة للسحب (ductile) هي التي يمكن تحويلها لأسلاك رفيعة."
     },
     {
       "q": "\"Temporarily\" is the opposite of:",
-      "options": [
-        "prolong",
-        "quickly",
-        "permanently",
-        "silently"
-      ],
+      "options": ["prolong", "quickly", "permanently", "silently"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'permanently'. عكس 'مؤقتاً' هو 'دائماً' (permanently)."
     },
     {
       "q": "Which verb means \"to dismiss a legal case\"?",
-      "options": [
-        "finally",
-        "adjourn",
-        "accuse",
-        "approve"
-      ],
+      "options": ["finally", "adjourn", "accuse", "approve"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'adjourn'. تعني تأجيل أو فض الجلسة القانونية."
     },
     {
       "q": "\"Obtain\" means:",
-      "options": [
-        "receive through effort",
-        "lose",
-        "break",
-        "avoid"
-      ],
+      "options": ["receive through effort", "lose", "break", "avoid"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'receive through effort'. الحصول على شيء (obtain) يعني نيله بعد بذل جهد."
     },
     {
       "q": "\"Puzzled\" means:",
-      "options": [
-        "clear",
-        "confused",
-        "strong",
-        "angry"
-      ],
+      "options": ["clear", "confused", "strong", "angry"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'confused'. كلمة 'puzzled' تعني مرتبك أو محتار."
     },
     {
       "q": "The opposite of \"to take off\" is:",
-      "options": [
-        "to fly",
-        "to crash",
-        "to rise",
-        "to land"
-      ],
+      "options": ["to fly", "to crash", "to rise", "to land"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'to land'. عكس الإقلاع هو الهبوط."
     },
     {
       "q": "\"Myriad\" means:",
-      "options": [
-        "one",
-        "two",
-        "countless",
-        "unclear"
-      ],
+      "options": ["one", "two", "countless", "unclear"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'countless'. كلمة 'myriad' تعني عدداً كبيراً جداً لا يحصى."
     },
@@ -797,89 +508,49 @@
     },
     {
       "q": "When someone is ......, he finds fault with everything around him.",
-      "options": [
-        "practical",
-        "cynical",
-        "critical",
-        "cruel"
-      ],
+      "options": ["practical", "cynical", "critical", "cruel"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'critical'. الشخص الناقد هو من يبحث عن الأخطاء والعيوب في كل شيء."
     },
     {
       "q": "The verb \"to approve\" means to:",
-      "options": [
-        "agree with",
-        "speak",
-        "improve",
-        "applauded"
-      ],
+      "options": ["agree with", "speak", "improve", "applauded"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'agree with'. الموافقة تعني الاتفاق مع رأي أو قرار ما."
     },
     {
       "q": "He threatened to punish them, but they did not pay the ...... attention.",
-      "options": [
-        "slow",
-        "slightest",
-        "highest",
-        "lowest"
-      ],
+      "options": ["slow", "slightest", "highest", "lowest"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'slightest'. التعبير الشائع هو 'not pay the slightest attention' (لم يعيروا أدنى اهتمام)."
     },
     {
       "q": "In the end, the noise ...... too much for us and we decided to leave.",
-      "options": [
-        "proves",
-        "was proved",
-        "proved",
-        "proving"
-      ],
+      "options": ["proves", "was proved", "proved", "proving"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'proved'. وردت في النص الثاني بصيغة الماضي البسيط."
     },
     {
       "q": "Apologizing for this lack of ......, he explained that the boys were rather excited.",
-      "options": [
-        "distraction",
-        "discipline",
-        "attraction",
-        "proving"
-      ],
+      "options": ["distraction", "discipline", "attraction", "proving"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'discipline'. اعتذر المعلم عن نقص 'الانضباط' بين الأولاد."
     },
     {
       "q": "After ...... through cornfields for over an hour, we came to a wide stream.",
-      "options": [
-        "have walked",
-        "walking",
-        "walked",
-        "we are walking"
-      ],
+      "options": ["have walked", "walking", "walked", "we are walking"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'walking'. نستخدم صيغة المصدر (V-ing) بعد حرف الجر الزمني 'after'."
     },
     {
       "q": "Nowadays, it is much easier to walk than ...... .",
-      "options": [
-        "driving",
-        "walk",
-        "to drive",
-        "drive"
-      ],
+      "options": ["driving", "walk", "to drive", "drive"],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'to drive'. للمقارنة بين فعلين نستخدم نفس الصيغة: 'to walk than to drive'."
     },
     {
       "q": "The opposite of \"increase\" is:",
-      "options": [
-        "grow",
-        "multiply",
-        "expand",
-        "reduce"
-      ],
+      "options": ["grow", "multiply", "expand", "reduce"],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'reduce'. عكس الزيادة هو النقصان أو التخفيض."
     },
@@ -896,34 +567,19 @@
     },
     {
       "q": "The witness who was called did not give a very clear ...... of what had happened.",
-      "options": [
-        "count",
-        "account",
-        "describe",
-        "mark"
-      ],
+      "options": ["count", "account", "describe", "mark"],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'account'. كلمة 'account' هنا تعني وصفاً أو سرداً للأحداث."
     },
     {
       "q": "Some time ago, a friend of mine who works in the city invited me to call ...... him.",
-      "options": [
-        "on",
-        "at",
-        "upon",
-        "in"
-      ],
+      "options": ["on", "at", "upon", "in"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'on'. الفعل المركب 'call on' يعني يزور شخصاً ما."
     },
     {
       "q": "The word \"scent\" is closely related to:",
-      "options": [
-        "smell",
-        "sight",
-        "hearing",
-        "touch"
-      ],
+      "options": ["smell", "sight", "hearing", "touch"],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'smell'. كلمة 'scent' تعني رائحة."
     },
@@ -953,7 +609,12 @@
     },
     {
       "q": "Environmental pollution is increasing due to:",
-      "options": ["urbanization", "technological development", "hazardous waste", "all is correct"],
+      "options": [
+        "urbanization",
+        "technological development",
+        "hazardous waste",
+        "all is correct"
+      ],
       "correct": 3,
       "feedback": "الإجابة الصحيحة هي 'all is correct'. يذكر نص البيئة (دورة 2024) أن التمدن والتطور التكنولوجي والنفايات الخطرة كلها عوامل تساهم في زيادة التلوث."
     },
@@ -983,19 +644,34 @@
     },
     {
       "q": "Variable renewable energy sources include:",
-      "options": ["wind and solar power", "geothermal and bioenergy", "hydroelectricity", "none is correct"],
+      "options": [
+        "wind and solar power",
+        "geothermal and bioenergy",
+        "hydroelectricity",
+        "none is correct"
+      ],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'wind and solar power'. يذكر النص أن هذه المصادر لها طبيعة متقلبة (fluctuating nature)."
     },
     {
       "q": "What is 'minimalism' based on the environmental text?",
-      "options": ["a type of pollution", "a way of life with fewer materials", "a scientific law", "a political system"],
+      "options": [
+        "a type of pollution",
+        "a way of life with fewer materials",
+        "a scientific law",
+        "a political system"
+      ],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'a way of life with fewer materials'. التبسيط (minimalism) هو نمط حياة يعتمد على استهلاك أقل للمواد والنفايات."
     },
     {
       "q": "The term 'habitat' refers to:",
-      "options": ["natural home of an organism", "a shopping center", "a new species", "a water source"],
+      "options": [
+        "natural home of an organism",
+        "a shopping center",
+        "a new species",
+        "a water source"
+      ],
       "correct": 0,
       "feedback": "الإجابة الصحيحة هي 'natural home of an organism'. الموطن (habitat) هو البيئة الطبيعية التي يعيش فيها الكائن الحي."
     },
@@ -1007,13 +683,23 @@
     },
     {
       "q": "A 'biodegradable' object:",
-      "options": ["lasts forever", "becomes toxic", "breaks down naturally", "is made of glass"],
+      "options": [
+        "lasts forever",
+        "becomes toxic",
+        "breaks down naturally",
+        "is made of glass"
+      ],
       "correct": 2,
       "feedback": "الإجابة الصحيحة هي 'breaks down naturally'. المادة القابلة للتحلل الحيوي هي التي تتفكك بشكل طبيعي في البيئة."
     },
     {
       "q": "What does 'drought' mean?",
-      "options": ["heavy rain", "long period without rain", "flood", "snowstorm"],
+      "options": [
+        "heavy rain",
+        "long period without rain",
+        "flood",
+        "snowstorm"
+      ],
       "correct": 1,
       "feedback": "الإجابة الصحيحة هي 'long period without rain'. الجفاف (drought) هو فترة زمنية طويلة وشديدة من نقص الأمطار."
     },
