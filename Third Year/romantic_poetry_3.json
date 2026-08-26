@@ -3,41 +3,163 @@
   "description": "  الفصل 1",
   "lang": "en",
   "questions": [
+   
     {
       "q": "What kind of movement was Romanticism?",
-      "options": ["Social", "Political", "Literary"],
+      "options": [
+        "Social",
+        "Political",
+        "Literary"
+      ],
       "correct": 2,
-      "feedback": "الرومانتيكية هي في المقام الأول حركة أدبية وفنية، رغم أنها تأثرت بالتحولات الاجتماعية والسياسية مثل الثورة الفرنسية."
+      "feedback": "الرومانتيكية هي في المقام الأول حركة أدبية وفنية، رغم أنها تأثرت بالتحولات الاجتماعية والسياسية مثل الثورة الفرنسية.",
+      "id": "q_79a39b4e606546f6ed61",
+      "legacyIds": [
+        "id_284cf85a",
+        "id_71e88fdb",
+        "q_0ff4acb16517b4cd5a37",
+        "q_225d4541b7d895632c02",
+        "q_3142e0c7a6504ec56c1a",
+        "q_7243dc0c6001406dc9f4",
+        "q_8221b367ccfa70b51241",
+        "qid_590dce24",
+        "qid_590dce24__2",
+        "qid_590dce24__3",
+        "qid_590dce24__4",
+        "qid_590dce24__5",
+        "qid_590dce24__6"
+      ],
+      "legacyPrimaryIds": [
+        "q_0ff4acb16517b4cd5a37",
+        "q_225d4541b7d895632c02",
+        "q_3142e0c7a6504ec56c1a",
+        "q_7243dc0c6001406dc9f4",
+        "q_8221b367ccfa70b51241",
+        "qid_590dce24",
+        "qid_590dce24__2",
+        "qid_590dce24__3",
+        "qid_590dce24__4",
+        "qid_590dce24__5",
+        "qid_590dce24__6"
+      ]
     },
     {
       "q": "Romanticism as a movement placed the greatest emphasis on:",
-      "options": ["logic", "magic", "emotions"],
+      "options": [
+        "logic",
+        "magic",
+        "emotions"
+      ],
       "correct": 2,
-      "feedback": "ركزت الرومانتيكية على العواطف والخيال الفردي كرد فعل على عقلانية ومنطق عصر التنوير."
-    },
-    {
-      "q": "(...) was essential, and it could only be achieved through subjectivity.",
-      "options": ["Spontaneity", "freedom", "originality"],
-      "correct": 1,
-      "feedback": "تعتبر 'الحرية' (freedom) عنصراً أساسياً في الفكر الرومانتيكي، ولا يمكن تحقيقها إلا من خلال الرؤية الذاتية للفرد."
+      "feedback": "ركزت الرومانتيكية على العواطف والخيال الفردي كرد فعل على عقلانية ومنطق عصر التنوير.",
+      "id": "q_5880e058ede20283033c",
+      "legacyIds": [
+        "id_185083db",
+        "id_3c3af1d1",
+        "id_751b96ed",
+        "id_e92be22",
+        "q_18cf29458c177f384062",
+        "q_425bc4b4f0552c6adcf3",
+        "q_bf2db1206af9840be66e",
+        "q_cb036e8fe91ebf82cd03",
+        "qid_11050c42",
+        "qid_11050c42__2",
+        "qid_11050c42__3",
+        "qid_74297404",
+        "qid_74297404__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_18cf29458c177f384062",
+        "q_425bc4b4f0552c6adcf3",
+        "q_bf2db1206af9840be66e",
+        "q_cb036e8fe91ebf82cd03",
+        "qid_11050c42",
+        "qid_11050c42__2",
+        "qid_11050c42__3",
+        "qid_74297404",
+        "qid_74297404__2"
+      ]
     },
     {
       "q": "Which of the following had a minimal influence on British romantics?",
-      "options": ["the supernatural", "spirituality", "nationalism"],
+      "options": [
+        "the supernatural",
+        "spirituality",
+        "nationalism"
+      ],
       "correct": 2,
-      "feedback": "بينما ركز الرومانتيكيون الألمان على القومية، كان للرومانتيكيين البريطانيين الأوائل اهتمام أقل بها مقارنة بالطبيعة والقوى الخارقة والروحانية."
+      "feedback": "بينما ركز الرومانتيكيون الألمان على القومية، كان للرومانتيكيين البريطانيين الأوائل اهتمام أقل بها مقارنة بالطبيعة والقوى الخارقة والروحانية.",
+      "id": "q_8fb1b0c45f7a0ef1d456",
+      "legacyIds": [
+        "id_5c620116",
+        "q_67e2326dab570e8e3bc0",
+        "q_7caf3f1c4cbc9f06235a",
+        "qid_1f063d87",
+        "qid_1f063d87__2",
+        "qid_1f063d87__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_67e2326dab570e8e3bc0",
+        "q_7caf3f1c4cbc9f06235a",
+        "qid_1f063d87",
+        "qid_1f063d87__2",
+        "qid_1f063d87__3"
+      ]
     },
     {
       "q": "The Age of enlightenment (...) Romanticism.",
-      "options": ["preceded", "followed", "was contemporary to"],
+      "options": [
+        "preceded",
+        "followed",
+        "was contemporary to"
+      ],
       "correct": 0,
-      "feedback": "عصر التنوير (Enlightenment) سبق العصر الرومانتيكي، وكانت الرومانتيكية رد فعل ضده."
+      "feedback": "عصر التنوير (Enlightenment) سبق العصر الرومانتيكي، وكانت الرومانتيكية رد فعل ضده.",
+      "id": "q_890605086dbad82422f7",
+      "legacyIds": [
+        "id_1f697199",
+        "id_e018427",
+        "q_04f208238e3f50361b84",
+        "q_a8ea8e441c6c68a1721f",
+        "qid_49dbcbd0",
+        "qid_e6251fe",
+        "qid_e6251fe__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_04f208238e3f50361b84",
+        "q_a8ea8e441c6c68a1721f",
+        "qid_49dbcbd0",
+        "qid_e6251fe",
+        "qid_e6251fe__2"
+      ]
     },
     {
       "q": "Which was a proto-Romantic movement?",
-      "options": ["Sturm und Drang", "The Pre-Raphaelite", "Realism"],
+      "options": [
+        "Sturm und Drang",
+        "The Pre-Raphaelite",
+        "Realism"
+      ],
       "correct": 0,
-      "feedback": "حركة 'Sturm und Drang' (العاصفة والاندفاع) الألمانية تعتبر الحركة التمهيدية أو الأولية للرومانتيكية."
+      "feedback": "حركة 'Sturm und Drang' (العاصفة والاندفاع) الألمانية تعتبر الحركة التمهيدية أو الأولية للرومانتيكية.",
+      "id": "q_68b12646f2c32abdfe1b",
+      "legacyIds": [
+        "id_620d17bc",
+        "id_76365444",
+        "id_7d774c06",
+        "q_008fabdba1eb1b20731d",
+        "q_56e9fceb61c65bc7cede",
+        "qid_322e9a5f",
+        "qid_322e9a5f__2",
+        "qid_322e9a5f__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_008fabdba1eb1b20731d",
+        "q_56e9fceb61c65bc7cede",
+        "qid_322e9a5f",
+        "qid_322e9a5f__2",
+        "qid_322e9a5f__3"
+      ]
     },
     {
       "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
@@ -47,13 +169,75 @@
         "the scientific Revolution"
       ],
       "correct": 2,
-      "feedback": "الثورة العلمية (Scientific Revolution) هي التي امتدت عبر هذه القرون الثلاثة وشكلت الفكر الحديث."
+      "feedback": "الثورة العلمية (Scientific Revolution) هي التي امتدت عبر هذه القرون الثلاثة وشكلت الفكر الحديث.",
+      "id": "q_57a64d1135666af949f3",
+      "legacyIds": [
+        "id_18a821a9",
+        "id_27833d29",
+        "id_312692b7",
+        "id_4ff32ffa",
+        "id_59705a4e",
+        "id_5f165a39",
+        "q_25756c2f49585982eef2",
+        "q_2ac978c5dfcb0c5b47c7",
+        "q_c3a1d5775bf9314f2154",
+        "q_e5c9da0959f0ab7fa6da",
+        "q_f967f43b468598b85867",
+        "qid_21595cd1",
+        "qid_346714fd",
+        "qid_6d0b9551",
+        "qid_6d0b9551__2",
+        "qid_6d0b9551__3",
+        "qid_6d0b9551__4"
+      ],
+      "legacyPrimaryIds": [
+        "q_25756c2f49585982eef2",
+        "q_2ac978c5dfcb0c5b47c7",
+        "q_c3a1d5775bf9314f2154",
+        "q_e5c9da0959f0ab7fa6da",
+        "q_f967f43b468598b85867",
+        "qid_21595cd1",
+        "qid_346714fd",
+        "qid_6d0b9551",
+        "qid_6d0b9551__2",
+        "qid_6d0b9551__3",
+        "qid_6d0b9551__4"
+      ]
     },
     {
       "q": "How many Reform Acts were introduced in Britain during the 19th century?",
-      "options": ["three", "two", "None"],
+      "options": [
+        "three",
+        "two",
+        "None"
+      ],
       "correct": 0,
-      "feedback": "شهد القرن التاسع عشر في بريطانيا ثلاث قوانين إصلاح رئيسية (1832، 1867، 1884)."
+      "feedback": "شهد القرن التاسع عشر في بريطانيا ثلاث قوانين إصلاح رئيسية (1832، 1867، 1884).",
+      "id": "q_ffc5a670bba3f0ddf495",
+      "legacyIds": [
+        "id_3c1da3b",
+        "id_a478c7c",
+        "q_071615f59a3cac5aae92",
+        "q_3d5ea5791a9ab91c4291",
+        "q_829fd831ce073cc7fb1c",
+        "q_def6c291e70c7ca8743c",
+        "qid_9b2152",
+        "qid_9b2152__2",
+        "qid_9b2152__3",
+        "qid_9b2152__4",
+        "qid_9b2152__5"
+      ],
+      "legacyPrimaryIds": [
+        "q_071615f59a3cac5aae92",
+        "q_3d5ea5791a9ab91c4291",
+        "q_829fd831ce073cc7fb1c",
+        "q_def6c291e70c7ca8743c",
+        "qid_9b2152",
+        "qid_9b2152__2",
+        "qid_9b2152__3",
+        "qid_9b2152__4",
+        "qid_9b2152__5"
+      ]
     },
     {
       "q": "Lord Byron's 'Darkness' was composed using:",
@@ -64,19 +248,69 @@
         "sonnet form"
       ],
       "correct": 2,
-      "feedback": "قصيدة 'Darkness' لبايرون مكتوبة بأسلوب 'Blank Verse' (الشعر المرسل)، وهو شعر موزون لكن غير مقفى."
+      "feedback": "قصيدة 'Darkness' لبايرون مكتوبة بأسلوب 'Blank Verse' (الشعر المرسل)، وهو شعر موزون لكن غير مقفى.",
+      "id": "q_9d1950f7eebac918ffa9",
+      "legacyIds": [
+        "id_5cd58e5e",
+        "q_07b9899b9fd275e6546b",
+        "q_d6ec493a02195c483d44",
+        "qid_6283a905",
+        "qid_6283a905__2",
+        "qid_6283a905__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_07b9899b9fd275e6546b",
+        "q_d6ec493a02195c483d44",
+        "qid_6283a905",
+        "qid_6283a905__2",
+        "qid_6283a905__3"
+      ]
     },
     {
       "q": "Lord Byron's 'Childe Harold's Pilgrimage' consists of:",
-      "options": ["three cantos", "four cantos", "five cantos", "six cantos"],
+      "options": [
+        "three cantos",
+        "four cantos",
+        "five cantos",
+        "six cantos"
+      ],
       "correct": 1,
-      "feedback": "تتكون هذه القصيدة الطويلة من أربعة أجزاء أو أناشيد (cantos)."
+      "feedback": "تتكون هذه القصيدة الطويلة من أربعة أجزاء أو أناشيد (cantos).",
+      "id": "q_4c338916e2703d737406",
+      "legacyIds": [
+        "id_6fa90b89",
+        "q_32a530c2c86deff5925b",
+        "q_517dba2ab67b56676940",
+        "qid_54f35bfc",
+        "qid_54f35bfc__2",
+        "qid_54f35bfc__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_32a530c2c86deff5925b",
+        "q_517dba2ab67b56676940",
+        "qid_54f35bfc",
+        "qid_54f35bfc__2",
+        "qid_54f35bfc__3"
+      ]
     },
     {
       "q": "The poem's (Childe Harold) tone is best described as:",
-      "options": ["cheerful", "melancholic", "ecstatic", "wise"],
+      "options": [
+        "cheerful",
+        "melancholic",
+        "ecstatic",
+        "wise"
+      ],
       "correct": 1,
-      "feedback": "تتسم قصائد بايرون، خاصة 'Childe Harold'، بنبرة سوداوية أو كئيبة (melancholic) تعكس شخصية البطل البايروني."
+      "feedback": "تتسم قصائد بايرون، خاصة 'Childe Harold'، بنبرة سوداوية أو كئيبة (melancholic) تعكس شخصية البطل البايروني.",
+      "id": "q_ab2ab0cff020e20e58f9",
+      "legacyIds": [
+        "id_13ff78f3",
+        "qid_6bdebc41"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6bdebc41"
+      ]
     },
     {
       "q": "The central theme of Wordsworth's 'Mutability' is:",
@@ -87,18 +321,23 @@
         "change as a noble truth"
       ],
       "correct": 3,
-      "feedback": "تتناول قصيدة 'Mutability' (التحول) فكرة أن التغيير هو الحقيقة الوحيدة الثابتة والنبيلة في الكون."
-    },
-    {
-      "q": "Wordsworth suggests that all but one of the following do not realise that nothing lasts forever:",
-      "options": [
-        "kings",
-        "criminals",
-        "the greedy",
-        "people overwhelmed by distress"
+      "feedback": "تتناول قصيدة 'Mutability' (التحول) فكرة أن التغيير هو الحقيقة الوحيدة الثابتة والنبيلة في الكون.",
+      "id": "q_0413bd1af0cf5fbd41f9",
+      "legacyIds": [
+        "id_614c920a",
+        "q_bab0129e98150ee25ca2",
+        "q_df767531b4002231c404",
+        "qid_5b6536f7",
+        "qid_5b6536f7__2",
+        "qid_5b6536f7__3"
       ],
-      "correct": 3,
-      "feedback": "في القصيدة، يقترح وردزورث أن الأشخاص الغارقين في الحزن أو المحنة هم وحدهم من قد يدركون حقيقة زوال كل شيء."
+      "legacyPrimaryIds": [
+        "q_bab0129e98150ee25ca2",
+        "q_df767531b4002231c404",
+        "qid_5b6536f7",
+        "qid_5b6536f7__2",
+        "qid_5b6536f7__3"
+      ]
     },
     {
       "q": "Shelley's 'Hymn to Intellectual Beauty' is a praise of:",
@@ -109,19 +348,42 @@
         "wise poets"
       ],
       "correct": 2,
-      "feedback": "القصيدة هي تمجيد لقوة خفية تمنح الإلهام والجمال للعالم، ويسميها شيلي 'روح الجمال الفكري'."
-    },
-    {
-      "q": "Shelley mentioned that he sought for the truth of intellectual beauty in:",
-      "options": ["black magic", "the sea", "the forest", "the Church"],
-      "correct": 0,
-      "feedback": "يذكر شيلي في القصيدة أنه في شبابه بحث عن الحقيقة في 'السحر الأسود' (black magic) والقبور قبل أن يكتشف الجمال الفكري."
+      "feedback": "القصيدة هي تمجيد لقوة خفية تمنح الإلهام والجمال للعالم، ويسميها شيلي 'روح الجمال الفكري'.",
+      "id": "q_faf5fc57070785f37e34",
+      "legacyIds": [
+        "id_567364f4",
+        "q_3edacbf811a35d95752e",
+        "q_6797c15d0e1c944cd8be",
+        "qid_a2e9f2d",
+        "qid_a2e9f2d__2",
+        "qid_a2e9f2d__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_3edacbf811a35d95752e",
+        "q_6797c15d0e1c944cd8be",
+        "qid_a2e9f2d",
+        "qid_a2e9f2d__2",
+        "qid_a2e9f2d__3"
+      ]
     },
     {
       "q": "As a poem of praise and prayer, its form and style (Hymn to Intellectual Beauty) reflect that of:",
-      "options": ["an ode", "an epic", "a ballad", "a sonnet"],
+      "options": [
+        "an ode",
+        "an epic",
+        "a ballad",
+        "a sonnet"
+      ],
       "correct": 0,
-      "feedback": "القصيدة هي 'Ode' (قصيدة غنائية أو نشيد)، وهو قالب شعري يستخدم للتمجيد والتأمل الفلسفي."
+      "feedback": "القصيدة هي 'Ode' (قصيدة غنائية أو نشيد)، وهو قالب شعري يستخدم للتمجيد والتأمل الفلسفي.",
+      "id": "q_132e935cfe6be614286d",
+      "legacyIds": [
+        "id_4333afc",
+        "qid_4066a6f2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4066a6f2"
+      ]
     },
     {
       "q": "In his poem, 'Time', Shelley personifies time as:",
@@ -132,7 +394,24 @@
         "a merciful guardian"
       ],
       "correct": 1,
-      "feedback": "يشبه شيلي الزمن بالمحيط الذي يبتلع كل شيء، فهو مدمر لا يرحم."
+      "feedback": "يشبه شيلي الزمن بالمحيط الذي يبتلع كل شيء، فهو مدمر لا يرحم.",
+      "id": "q_1d6cf3a31b735578674e",
+      "legacyIds": [
+        "id_10dd8be2",
+        "id_22182fa2",
+        "q_b23a1e3d4b5cb0f3a3cc",
+        "q_eb3cefaab1ae49ebab03",
+        "qid_72189049",
+        "qid_72189049__2",
+        "qid_72189049__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_b23a1e3d4b5cb0f3a3cc",
+        "q_eb3cefaab1ae49ebab03",
+        "qid_72189049",
+        "qid_72189049__2",
+        "qid_72189049__3"
+      ]
     },
     {
       "q": "When Shelley said that Time's 'waves are years', he compares it to:",
@@ -143,43 +422,161 @@
         "A stormy ocean"
       ],
       "correct": 3,
-      "feedback": "القصيدة تبدأ بـ 'Unfathomable Sea!'، ويصف أمواجه بأنها سنوات، مما يشير إلى محيط عاصف ومخيف."
+      "feedback": "القصيدة تبدأ بـ 'Unfathomable Sea!'، ويصف أمواجه بأنها سنوات، مما يشير إلى محيط عاصف ومخيف.",
+      "id": "q_e4a0354d692aca418450",
+      "legacyIds": [
+        "id_2ea25e9e",
+        "id_58351a9e",
+        "q_3eb4cfaa01aafe091529",
+        "q_8bad6e02ddd2e08aeb15",
+        "qid_af88494",
+        "qid_af88494__2",
+        "qid_af88494__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_3eb4cfaa01aafe091529",
+        "q_8bad6e02ddd2e08aeb15",
+        "qid_af88494",
+        "qid_af88494__2",
+        "qid_af88494__3"
+      ]
     },
     {
       "q": "Shelley suggests Time's power is:",
-      "options": ["Controllable", "Limited", "Absolute", "An illusion"],
+      "options": [
+        "Controllable",
+        "Limited",
+        "Absolute",
+        "An illusion"
+      ],
       "correct": 2,
-      "feedback": "يصور شيلي قوة الزمن كقوة مطلقة (Absolute) وشاملة لا يمكن للإنسان الهروب منها."
+      "feedback": "يصور شيلي قوة الزمن كقوة مطلقة (Absolute) وشاملة لا يمكن للإنسان الهروب منها.",
+      "id": "q_b3d53fe5b1ac30f9d03d",
+      "legacyIds": [
+        "id_2ba8ed23",
+        "q_601d09541d73319c2c51",
+        "q_9a1163e9bdfa6afa6489",
+        "qid_6985a463",
+        "qid_6985a463__2",
+        "qid_6985a463__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_601d09541d73319c2c51",
+        "q_9a1163e9bdfa6afa6489",
+        "qid_6985a463",
+        "qid_6985a463__2",
+        "qid_6985a463__3"
+      ]
     },
     {
       "q": "The poem's (Time) tone is best described as:",
-      "options": ["Humorous", "Sarcastic", "Serious", "Satirical"],
+      "options": [
+        "Humorous",
+        "Sarcastic",
+        "Serious",
+        "Satirical"
+      ],
       "correct": 2,
-      "feedback": "القصيدة جادة جداً (Serious) وتتأمل في فناء الوجود وضخامة الزمن."
+      "feedback": "القصيدة جادة جداً (Serious) وتتأمل في فناء الوجود وضخامة الزمن.",
+      "id": "q_9ff90d191e1d8c80a329",
+      "legacyIds": [
+        "id_19073e6a",
+        "qid_3f2caa05"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3f2caa05"
+      ]
     },
     {
       "q": "Who was considered the father of English Romanticism during his time?",
-      "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
+      "options": [
+        "Shelley",
+        "Blake",
+        "Coleridge",
+        "Wordsworth"
+      ],
       "correct": 3,
-      "feedback": "يعتبر ويليام وردزورث الأب الروحي للرومانتيكية الإنجليزية، خاصة بعد نشره 'Lyrical Ballads'."
+      "feedback": "يعتبر ويليام وردزورث الأب الروحي للرومانتيكية الإنجليزية، خاصة بعد نشره 'Lyrical Ballads'.",
+      "id": "q_7d7ced7cdc3db1131c57",
+      "legacyIds": [
+        "id_31348cfb",
+        "q_48b1f08e1bfb0970af6c",
+        "q_4cb45088e95450879264",
+        "q_69091fe162b3a9c908cb",
+        "qid_65b77dda",
+        "qid_65b77dda__2",
+        "qid_65b77dda__3",
+        "qid_65b77dda__4"
+      ],
+      "legacyPrimaryIds": [
+        "q_48b1f08e1bfb0970af6c",
+        "q_4cb45088e95450879264",
+        "q_69091fe162b3a9c908cb",
+        "qid_65b77dda",
+        "qid_65b77dda__2",
+        "qid_65b77dda__3",
+        "qid_65b77dda__4"
+      ]
     },
     {
-      "q": "Which Romantic poet worked in restoring churches?",
-      "options": ["Byron", "Blake", "Coleridge", "Wordsworth"],
+      "q": "Which Romantic poet, while apprenticed as an engraver, copied medieval monuments in Westminster Abbey?",
+      "options": [
+        "Byron",
+        "Blake",
+        "Coleridge",
+        "Wordsworth"
+      ],
       "correct": 1,
-      "feedback": "ويليام بليك عمل كفنان ونقاش، وقضى وقتاً طويلاً في رسم وترميم تفاصيل الكنائس مثل كاتدرائية وستمنستر."
+      "feedback": "ويليام بليك عمل كفنان ونقاش، وقضى وقتاً طويلاً في رسم وترميم تفاصيل الكنائس مثل كاتدرائية وستمنستر.",
+      "id": "q_47deb946f16e15db9d93",
+      "legacyIds": [
+        "id_55ea9241",
+        "id_55ea9243",
+        "q_6c306e119aa71560c0b6",
+        "q_b4a0e4faf3238f5aae47",
+        "qid_7b96bc",
+        "qid_7b96bc__2",
+        "qid_7b96bc__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_6c306e119aa71560c0b6",
+        "q_b4a0e4faf3238f5aae47",
+        "qid_7b96bc",
+        "qid_7b96bc__2",
+        "qid_7b96bc__3"
+      ]
     },
     {
       "q": "What is the common characteristic in the poetry of all Romantic poets that cannot be controlled?",
-      "options": ["Imagination", "Love", "poetic form", "Nature"],
+      "options": [
+        "Imagination",
+        "Love",
+        "poetic form",
+        "Nature"
+      ],
       "correct": 0,
-      "feedback": "الخيال (Imagination) هو القوة العظمى واللامحدودة التي تميز جميع الشعراء الرومانتيكيين."
-    },
-    {
-      "q": "Which of the following poems is not a sonnet?",
-      "options": ["The World", "Ozymandias", "Time", "None of the above"],
-      "correct": 2,
-      "feedback": "قصيدة 'Time' لشيلي ليست سونيت، بينما 'The World' لوردزورث و'Ozymandias' لشيلي هما سونيتات."
+      "feedback": "الخيال (Imagination) هو القوة العظمى واللامحدودة التي تميز جميع الشعراء الرومانتيكيين.",
+      "id": "q_9a85b5b4d3768db52af4",
+      "legacyIds": [
+        "id_46aa9386",
+        "id_4f6c4f",
+        "q_02422f8c9830ef4e7b67",
+        "q_2de26346a5727f887df0",
+        "q_356c9ece5fd22032ec27",
+        "qid_4b16a5ec",
+        "qid_4b16a5ec__2",
+        "qid_4b16a5ec__3",
+        "qid_4b16a5ec__4"
+      ],
+      "legacyPrimaryIds": [
+        "q_02422f8c9830ef4e7b67",
+        "q_2de26346a5727f887df0",
+        "q_356c9ece5fd22032ec27",
+        "qid_4b16a5ec",
+        "qid_4b16a5ec__2",
+        "qid_4b16a5ec__3",
+        "qid_4b16a5ec__4"
+      ]
     },
     {
       "q": "'Thy spells did bind/ To fear himself, and love all human kind' is a line from Shelley's:",
@@ -190,19 +587,87 @@
         "Hymn to Intellectual Beauty"
       ],
       "correct": 3,
-      "feedback": "هذه الأسطر مأخوذة من المقطع الأخير من قصيدة 'Hymn to Intellectual Beauty'."
+      "feedback": "هذه الأسطر مأخوذة من المقطع الأخير من قصيدة 'Hymn to Intellectual Beauty'.",
+      "id": "q_81974b7d81dfe28a333c",
+      "legacyIds": [
+        "id_27e4e2d8",
+        "id_666715e7",
+        "id_72443d20",
+        "q_abfbf535d03b40a42f9f",
+        "q_c3b3a1898b1273e63136",
+        "qid_28581384",
+        "qid_2c77978b",
+        "qid_385674c4"
+      ],
+      "legacyPrimaryIds": [
+        "q_abfbf535d03b40a42f9f",
+        "q_c3b3a1898b1273e63136",
+        "qid_28581384",
+        "qid_2c77978b",
+        "qid_385674c4"
+      ]
     },
     {
       "q": "Blake's Songs of Innocence and of Experience mainly represented themes about:",
-      "options": ["Religion", "human nature", "Animals", "cruelty"],
+      "options": [
+        "Religion",
+        "human nature",
+        "Animals",
+        "cruelty"
+      ],
       "correct": 1,
-      "feedback": "تمثل المجموعتان 'الحالتين المتضادتين للنفس البشرية' (human nature) كما ذكر بليك في العنوان الفرعي."
+      "feedback": "تمثل المجموعتان 'الحالتين المتضادتين للنفس البشرية' (human nature) كما ذكر بليك في العنوان الفرعي.",
+      "id": "q_a88ff3fd4255e98a19ad",
+      "legacyIds": [
+        "id_44592dd3",
+        "id_69682063",
+        "id_d9225d7",
+        "q_1b502f80951ec35792fe",
+        "q_61f0979b65c8530a3914",
+        "q_de74580e94235ff26bbd",
+        "qid_130fa9a2",
+        "qid_130fa9a2__2",
+        "qid_18371f8",
+        "qid_18371f8__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_1b502f80951ec35792fe",
+        "q_61f0979b65c8530a3914",
+        "q_de74580e94235ff26bbd",
+        "qid_130fa9a2",
+        "qid_130fa9a2__2",
+        "qid_18371f8",
+        "qid_18371f8__2"
+      ]
     },
     {
       "q": "Who described himself as a 'visionary poet'?",
-      "options": ["Shelley", "Coleridge", "Byron", "Blake"],
+      "options": [
+        "Shelley",
+        "Coleridge",
+        "Byron",
+        "Blake"
+      ],
       "correct": 3,
-      "feedback": "ويليام بليك كان يرى رؤى (visions) واعتبر شعره وفنه تعبيراً عن هذه الرؤى الروحية."
+      "feedback": "ويليام بليك كان يرى رؤى (visions) واعتبر شعره وفنه تعبيراً عن هذه الرؤى الروحية.",
+      "id": "q_55032b50d6c271ca82b2",
+      "legacyIds": [
+        "id_2ebeaf37",
+        "id_457a4415",
+        "id_52f6f5e4",
+        "q_0a0cf9e8a8b5d66aa550",
+        "q_990b09b270d0e41c61b9",
+        "qid_58152731",
+        "qid_58152731__2",
+        "qid_73e0594f"
+      ],
+      "legacyPrimaryIds": [
+        "q_0a0cf9e8a8b5d66aa550",
+        "q_990b09b270d0e41c61b9",
+        "qid_58152731",
+        "qid_58152731__2",
+        "qid_73e0594f"
+      ]
     },
     {
       "q": "Which of the following poems was not written by Coleridge?",
@@ -213,326 +678,910 @@
         "The Rime of the Ancient Mariner"
       ],
       "correct": 0,
-      "feedback": "قصيدة 'Ozymandias' هي لبيرسي شيلي، بينما 'Don Juan' لبايرون. (ملاحظة: السؤال يحتوي على خيارين صحيحين ولكن 'Ozymandias' هو الخيار الأول المعتاد)."
+      "feedback": "قصيدة 'Ozymandias' هي لبيرسي شيلي، بينما 'Don Juan' لبايرون. (ملاحظة: السؤال يحتوي على خيارين صحيحين ولكن 'Ozymandias' هو الخيار الأول المعتاد).",
+      "id": "q_94e8a6bcb9b39422143d",
+      "legacyIds": [
+        "id_12dad128",
+        "q_46c7e20ea0dbcbfd22b0",
+        "q_b3b9f3bb9b3defb01bbe",
+        "qid_669973e3",
+        "qid_669973e3__2",
+        "qid_669973e3__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_46c7e20ea0dbcbfd22b0",
+        "q_b3b9f3bb9b3defb01bbe",
+        "qid_669973e3",
+        "qid_669973e3__2",
+        "qid_669973e3__3"
+      ]
     },
     {
       "q": "Wordsworth believed that poetry is 'the spontaneous overflow of powerful feelings'.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "صحيح؛ هذا هو التعريف الشهير الذي وضعه وردزورث للشعر في مقدمة 'Lyrical Ballads'."
+      "feedback": "صحيح؛ هذا هو التعريف الشهير الذي وضعه وردزورث للشعر في مقدمة 'Lyrical Ballads'.",
+      "id": "q_074ecf07c720245a8c76",
+      "legacyIds": [
+        "id_4f451166",
+        "id_793fe484",
+        "id_7b6018e2",
+        "q_1eea6a33072c3ba2684d",
+        "q_7f98c36dd25dea978e75",
+        "qid_3702ba21",
+        "qid_4d8dcc03",
+        "qid_642bb48b"
+      ],
+      "legacyPrimaryIds": [
+        "q_1eea6a33072c3ba2684d",
+        "q_7f98c36dd25dea978e75",
+        "qid_3702ba21",
+        "qid_4d8dcc03",
+        "qid_642bb48b"
+      ]
     },
     {
       "q": "Both Blake and Shelley were rumoured to be mad during their lifetime.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "صحيح؛ اتُهم بليك بالجنون بسبب رؤاه، وشيلي بسبب أفكاره السياسية والاجتماعية الراديكالية."
+      "feedback": "صحيح؛ اتُهم بليك بالجنون بسبب رؤاه، وشيلي بسبب أفكاره السياسية والاجتماعية الراديكالية.",
+      "id": "q_3117ddb2d51429ed0edc",
+      "legacyIds": [
+        "id_47464196",
+        "id_47464197",
+        "q_0639806575ef42720fbd",
+        "q_552057e7c334c1af0170",
+        "qid_6349e07b",
+        "qid_6349e07b__2",
+        "qid_6349e07b__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_0639806575ef42720fbd",
+        "q_552057e7c334c1af0170",
+        "qid_6349e07b",
+        "qid_6349e07b__2",
+        "qid_6349e07b__3"
+      ]
     },
     {
       "q": "Shelley's was interested in social and political themes.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "صحيح؛ كان شيلي ثائراً سياسياً ومهتماً جداً بقضايا الحرية والإصلاح الاجتماعي."
+      "feedback": "صحيح؛ كان شيلي ثائراً سياسياً ومهتماً جداً بقضايا الحرية والإصلاح الاجتماعي.",
+      "id": "q_d66f439153a038f407e8",
+      "legacyIds": [
+        "id_6222935",
+        "q_ba3d5865ded7dab7c314",
+        "q_d44d7bd8ec774cd30d08",
+        "qid_7a2c6010",
+        "qid_7a2c6010__2",
+        "qid_7a2c6010__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_ba3d5865ded7dab7c314",
+        "q_d44d7bd8ec774cd30d08",
+        "qid_7a2c6010",
+        "qid_7a2c6010__2",
+        "qid_7a2c6010__3"
+      ]
     },
     {
       "q": "Blake was a supporter of the Protestant Church in England.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "خطأ؛ بليك كان معارضاً للكنيسة المؤسسية (المذهب البروتستانتي الرسمي) واعتبرها قيداً على الروح البشرية."
+      "feedback": "خطأ؛ بليك كان معارضاً للكنيسة المؤسسية (المذهب البروتستانتي الرسمي) واعتبرها قيداً على الروح البشرية.",
+      "id": "q_d1498e8593755479241b",
+      "legacyIds": [
+        "id_94abe54",
+        "q_324f40f0a38b66780dd5",
+        "q_8064ae1cd6b190c92114",
+        "qid_45401ab0",
+        "qid_45401ab0__2",
+        "qid_45401ab0__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_324f40f0a38b66780dd5",
+        "q_8064ae1cd6b190c92114",
+        "qid_45401ab0",
+        "qid_45401ab0__2",
+        "qid_45401ab0__3"
+      ]
     },
     {
       "q": "Wordsworth was not popular as a poet during his lifetime.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "خطأ؛ أصبح وردزورث مشهوراً جداً في حياته وعُين 'شاعر البلاط' (Poet Laureate) في عام 1843."
+      "feedback": "خطأ؛ أصبح وردزورث مشهوراً جداً في حياته وعُين 'شاعر البلاط' (Poet Laureate) في عام 1843.",
+      "id": "q_944341ba88995aebb669",
+      "legacyIds": [
+        "id_6a9742a1",
+        "q_c524d61cb2def00f0fac",
+        "q_d52b6d25a81a7f3bbcad",
+        "qid_4115d683",
+        "qid_4115d683__2",
+        "qid_4115d683__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_c524d61cb2def00f0fac",
+        "q_d52b6d25a81a7f3bbcad",
+        "qid_4115d683",
+        "qid_4115d683__2",
+        "qid_4115d683__3"
+      ]
     },
     {
       "q": "Blake's 'The Human Abstract' suggests that evil is the creation of gods.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "خطأ؛ القصيدة تقترح أن الشر (والفضائل الزائفة) تنمو في 'دماغ الإنسان' (the Human Brain) وليس من خلق الآلهة."
+      "feedback": "خطأ؛ القصيدة تقترح أن الشر (والفضائل الزائفة) تنمو في 'دماغ الإنسان' (the Human Brain) وليس من خلق الآلهة.",
+      "id": "q_4bfb78196d708ecabfea",
+      "legacyIds": [
+        "id_4cfbe648",
+        "id_4cfbe649",
+        "q_972eae26b5037c915bac",
+        "q_bb840b1ee450694f2e64",
+        "qid_407080d",
+        "qid_407080d__2",
+        "qid_407080d__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_972eae26b5037c915bac",
+        "q_bb840b1ee450694f2e64",
+        "qid_407080d",
+        "qid_407080d__2",
+        "qid_407080d__3"
+      ]
     },
     {
       "q": "Blake's 'The Human Abstract' places 'the caterpillar and the fly' as symbols of religious and state power.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "صحيح؛ يستخدم بليك هذه الرموز للإشارة إلى القوى التي تتغذى على ثمار الروح البشرية."
+      "feedback": "صحيح؛ يستخدم بليك هذه الرموز للإشارة إلى القوى التي تتغذى على ثمار الروح البشرية.",
+      "id": "q_54999097f679225490d5",
+      "legacyIds": [
+        "id_425cea4b",
+        "q_930ff26fb84ba0a70b57",
+        "q_f7bbe565dcaeeef9fa20",
+        "qid_6fa61bba",
+        "qid_6fa61bba__2",
+        "qid_6fa61bba__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_930ff26fb84ba0a70b57",
+        "q_f7bbe565dcaeeef9fa20",
+        "qid_6fa61bba",
+        "qid_6fa61bba__2",
+        "qid_6fa61bba__3"
+      ]
     },
     {
       "q": "Coleridge used no archaic words in his 'Rime of the Ancient Mariner'.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "خطأ؛ تعمد كولريدج استخدام كلمات قديمة (archaic) لمحاكاة أسلوب البالاد الشعبي القديم."
+      "feedback": "خطأ؛ تعمد كولريدج استخدام كلمات قديمة (archaic) لمحاكاة أسلوب البالاد الشعبي القديم.",
+      "id": "q_999e100221669da41c4e",
+      "legacyIds": [
+        "id_20d10c02",
+        "id_4733d5a8",
+        "q_67a4f4f9968c17f082cf",
+        "q_bf8f9e68fd6caf222280",
+        "qid_4ea9f842",
+        "qid_4ea9f842__2",
+        "qid_71134a94"
+      ],
+      "legacyPrimaryIds": [
+        "q_67a4f4f9968c17f082cf",
+        "q_bf8f9e68fd6caf222280",
+        "qid_4ea9f842",
+        "qid_4ea9f842__2",
+        "qid_71134a94"
+      ]
     },
     {
       "q": "Blake's 'Songs of Innocence' was published in 1794.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "خطأ؛ نُشرت 'Songs of Innocence' في 1789، بينما نُشرت 'Songs of Experience' في 1794."
-    },
-    {
-      "q": "Blake's method of printing involved cutting lines into a metal plate template.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "صحيح؛ ابتكر بليك طريقة 'النقش البارز' (relief etching) حيث كان يرسم ويكتب على ألواح نحاسية."
+      "feedback": "خطأ؛ نُشرت 'Songs of Innocence' في 1789، بينما نُشرت 'Songs of Experience' في 1794.",
+      "id": "q_353941bf3a39471f7aac",
+      "legacyIds": [
+        "id_311457eb",
+        "q_92c2d5406d386b378af0",
+        "q_a433c7671ba6aa495ac9",
+        "q_d27f247b83738007ba5e",
+        "qid_2238b747",
+        "qid_2238b747__2",
+        "qid_2238b747__3",
+        "qid_2238b747__4"
+      ],
+      "legacyPrimaryIds": [
+        "q_92c2d5406d386b378af0",
+        "q_a433c7671ba6aa495ac9",
+        "q_d27f247b83738007ba5e",
+        "qid_2238b747",
+        "qid_2238b747__2",
+        "qid_2238b747__3",
+        "qid_2238b747__4"
+      ]
     },
     {
       "q": "Coleridge used the ballad form in his 'Rime of the Ancient Mariner'.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "صحيح؛ القصيدة تتبع تقاليد البالاد (Ballad) في لغتها وبنائها القصصي."
+      "feedback": "صحيح؛ القصيدة تتبع تقاليد البالاد (Ballad) في لغتها وبنائها القصصي.",
+      "id": "q_50bcf2975e90d3ba4f2b",
+      "legacyIds": [
+        "id_3c490e15",
+        "id_733f36b1",
+        "q_9762d4c7ff552e3f7684",
+        "q_bfc5326fc4d95294090c",
+        "qid_1b0287d4",
+        "qid_1b0287d4__2",
+        "qid_fa51466"
+      ],
+      "legacyPrimaryIds": [
+        "q_9762d4c7ff552e3f7684",
+        "q_bfc5326fc4d95294090c",
+        "qid_1b0287d4",
+        "qid_1b0287d4__2",
+        "qid_fa51466"
+      ]
     },
     {
       "q": "The 'Rime of the Ancient Mariner' was written in Iambic Pentameter.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "خطأ؛ القصيدة مكتوبة بوزن البالاد (Ballad meter) الذي يعتمد عادة على تناوب الأسطر الرباعية والثلاثية التفاعيل، وليس البحر الخماسي."
+      "feedback": "خطأ؛ القصيدة مكتوبة بوزن البالاد (Ballad meter) الذي يعتمد عادة على تناوب الأسطر الرباعية والثلاثية التفاعيل، وليس البحر الخماسي.",
+      "id": "q_8345c480d1cfe91e37c9",
+      "legacyIds": [
+        "id_14bb3ce7",
+        "id_7f3afcfb",
+        "q_3ecdfa561287e2becca3",
+        "q_61a989a937ed82a87c44",
+        "qid_653aefab",
+        "qid_7292a81",
+        "qid_7292a81__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_3ecdfa561287e2becca3",
+        "q_61a989a937ed82a87c44",
+        "qid_653aefab",
+        "qid_7292a81",
+        "qid_7292a81__2"
+      ]
     },
     {
       "q": "Which Poet was born in Cockermouth?",
-      "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
-      "correct": 3,
-      "feedback": "ولد الشاعر ويليام وردزورث في بلدة كوكيرموث (Cockermouth) بمقاطعة كومبريا الإنجليزية."
-    },
-    {
-      "q": "Blake's Songs of Innocence and of Experience mainly represented themes about:",
       "options": [
-        "innocence",
-        "good and evil",
-        "human nature",
-        "divine cruelty"
+        "Shelley",
+        "Blake",
+        "Coleridge",
+        "Wordsworth"
       ],
-      "correct": 2,
-      "feedback": "تستكشف المجموعة المزدوجة لوليام بليك الحالات المتناقضة للطبيعة البشرية وسلوكياتها."
+      "correct": 3,
+      "feedback": "ولد الشاعر ويليام وردزورث في بلدة كوكيرموث (Cockermouth) بمقاطعة كومبريا الإنجليزية.",
+      "id": "q_80835bb3592f22867e75",
+      "legacyIds": [
+        "id_48549d08",
+        "qid_73fdd863"
+      ],
+      "legacyPrimaryIds": [
+        "qid_73fdd863"
+      ]
     },
     {
       "q": "Wordsworth wrote his poem 'Mutability' before Shelley wrote his poem with the same title.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "العبارة خاطئة؛ حيث كتب شيلي قصيدته 'Mutability' ونشرها أولاً عام 1816، بينما نشر وردزورث قصيدته لاحقاً في عام 1821."
+      "feedback": "العبارة خاطئة؛ حيث كتب شيلي قصيدته 'Mutability' ونشرها أولاً عام 1816، بينما نشر وردزورث قصيدته لاحقاً في عام 1821.",
+      "id": "q_e9da4e0978531e189e8d",
+      "legacyIds": [
+        "id_159f9ee1",
+        "qid_2b467643"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2b467643"
+      ]
     },
     {
       "q": "Wordsworth and Coleridge drifted apart because the former criticised the latter's 'The Rime of the Ancient Mariner'.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "العبارة خاطئة؛ على الرغم من وجود بعض الملاحظات النقدية، إلا أن خلافاتهما الشخصية والفكرية الأوسع هي التي أدت إلى تباعدهما وليس مجرد انتقاد هذه القصيدة."
+      "feedback": "العبارة خاطئة؛ على الرغم من وجود بعض الملاحظات النقدية، إلا أن خلافاتهما الشخصية والفكرية الأوسع هي التي أدت إلى تباعدهما وليس مجرد انتقاد هذه القصيدة.",
+      "id": "q_7bc90faa158030322e8e",
+      "legacyIds": [
+        "id_d06c08e",
+        "qid_74a6f4a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_74a6f4a"
+      ]
     },
     {
       "q": "Coleridge struggled mentally and physically throughout his life.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "العبارة صحيحة؛ عانى كولريدج طوال حياته من اعتلال صحته الجسدية ونوبات الاكتئاب، بالإضافة إلى إدمانه على الأفيون."
+      "feedback": "العبارة صحيحة؛ عانى كولريدج طوال حياته من اعتلال صحته الجسدية ونوبات الاكتئاب، بالإضافة إلى إدمانه على الأفيون.",
+      "id": "q_32ff51433ad16dc05b2a",
+      "legacyIds": [
+        "id_7f6659e4",
+        "qid_e1261b7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_e1261b7"
+      ]
     },
     {
       "q": "Illuminated writing is the process of illustrating poems with images that appear on the same page.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "العبارة صحيحة؛ وهي طريقة الطباعة والرسم المبتكرة التي اشتهر بها ويليام بليك لدمج النص بالرسومات التوضيحية في صفحة واحدة."
+      "feedback": "العبارة صحيحة؛ وهي طريقة الطباعة والرسم المبتكرة التي اشتهر بها ويليام بليك لدمج النص بالرسومات التوضيحية في صفحة واحدة.",
+      "id": "q_4a1a6ada356108df49b7",
+      "legacyIds": [
+        "id_6ffb97a5",
+        "qid_588f14a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_588f14a"
+      ]
     },
     {
       "q": "Wordsworth's of mutability carries a satirical tone as opposed to Shelley's that carries a sad one.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "العبارة خاطئة؛ قصيدة وردزورث 'Mutability' تحمل نبرة جادة وتأملية وقورة، بينما قصيدة شيلي تحمل طابعاً حزيناً وسوداوياً، ولا توجد نبرة ساخرة فيها."
+      "feedback": "العبارة خاطئة؛ قصيدة وردزورث 'Mutability' تحمل نبرة جادة وتأملية وقورة، بينما قصيدة شيلي تحمل طابعاً حزيناً وسوداوياً، ولا توجد نبرة ساخرة فيها.",
+      "id": "q_f509bb77bf13af583d86",
+      "legacyIds": [
+        "id_3f810140",
+        "qid_62488544"
+      ],
+      "legacyPrimaryIds": [
+        "qid_62488544"
+      ]
     },
     {
       "q": "The skylark in Wordsworth's poem is a representation of man's guide to wisdom.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "العبارة صحيحة؛ حيث يصور وردزورث طائر القبرة كرمز للحكمة والاتصال المتوازن بين الأرض والسماء."
+      "feedback": "العبارة صحيحة؛ حيث يصور وردزورث طائر القبرة كرمز للحكمة والاتصال المتوازن بين الأرض والسماء.",
+      "id": "q_f4186bf6dfab186f3fa2",
+      "legacyIds": [
+        "id_4e820e7",
+        "qid_2c02fd2c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2c02fd2c"
+      ]
     },
     {
       "q": "Blake's 'A Poison Tree' is about the consequences of repressed anger.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "العبارة صحيحة؛ تستكشف القصيدة كيف ينمو الغضب المكتوم والعداء الداخلي ليصبح قوة مدمرة وقاتلة."
+      "feedback": "العبارة صحيحة؛ تستكشف القصيدة كيف ينمو الغضب المكتوم والعداء الداخلي ليصبح قوة مدمرة وقاتلة.",
+      "id": "q_20e3a50561733edc24cf",
+      "legacyIds": [
+        "id_7639e518",
+        "qid_2e79569d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2e79569d"
+      ]
     },
     {
       "q": "Blake's 'The Human Abstract' suggests that the Tree of Mystery lies in God's mind.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "العبارة خاطئة؛ يوضح بليك في القصيدة أن 'شجرة الغموض' لا توجد في عقل الله، بل تنمو وتعيش داخل العقل البشري المليء بالخداع والأوهام."
-    },
-    {
-      "q": "Blake's 'Songs of Innocence' was published in 1794.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "العبارة خاطئة؛ نُشرت مجموعة 'أغاني البراءة' بشكل منفصل عام 1789، بينما نُشرت المجموعة المشتركة مع 'أغاني الخبرة' عام 1794."
+      "feedback": "العبارة خاطئة؛ يوضح بليك في القصيدة أن 'شجرة الغموض' لا توجد في عقل الله، بل تنمو وتعيش داخل العقل البشري المليء بالخداع والأوهام.",
+      "id": "q_1cc2c248d1292cfbf12b",
+      "legacyIds": [
+        "id_21a9027a",
+        "qid_7faa6a22"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7faa6a22"
+      ]
     },
     {
       "q": "Wordsworth's 'The World' mainly criticizes city life and environmental pollution.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "العبارة خاطئة؛ القصيدة تنتقد بشكل أساسي النزعة المادية الاستهلاكية وانفصال البشر الروحي عن الطبيعة."
+      "feedback": "العبارة خاطئة؛ القصيدة تنتقد بشكل أساسي النزعة المادية الاستهلاكية وانفصال البشر الروحي عن الطبيعة.",
+      "id": "q_bff1d0d890072d205a25",
+      "legacyIds": [
+        "id_69be16cf",
+        "qid_4e73e115"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4e73e115"
+      ]
     },
     {
       "q": "Coleridge was a literary critic and wrote substantial critical essays of Shakespeare's works.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "العبارة صحيحة؛ تميز كولريدج كناقد أدبي وقدم محاضرات ودراسات نقدية عميقة ومؤثرة جداً حول مسرحيات وشخصيات شكسبير."
+      "feedback": "العبارة صحيحة؛ تميز كولريدج كناقد أدبي وقدم محاضرات ودراسات نقدية عميقة ومؤثرة جداً حول مسرحيات وشخصيات شكسبير.",
+      "id": "q_9734e39eda5e40c6069c",
+      "legacyIds": [
+        "id_7b5a0413",
+        "qid_32be4758"
+      ],
+      "legacyPrimaryIds": [
+        "qid_32be4758"
+      ]
     },
     {
       "q": "For Shelley, the skylark is like a prophet, and so is the poet.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "العبارة صحيحة؛ يرى شيلي في طائر القبرة رمزاً للملهم والشاعر الرؤيوي الذي يبث نداءاته الروحية غير المرئية للعالم."
-    },
-    {
-      "q": "What kind of movement was Romanticism?",
-      "options": ["Social", "Political", "Literary"],
-      "correct": 2,
-      "feedback": "الرومانسية تُصنف تاريخياً وفي المقام الأول كحركة أدبية وثقافية كبرى."
-    },
-    {
-      "q": "Romanticism as a movement placed the greatest emphasis on:",
-      "options": ["expression", "individualism", "emotions"],
-      "correct": 1,
-      "feedback": "الفردية (Individualism) والتركيز على التجربة والذات الفردية تعتبر جوهر الحركة الفلسفية والأدبية الرومانسية."
-    },
-    {
-      "q": "(...) was essential, and it could only be achieved through subjectivity.",
-      "options": ["Spontaneity", "innocence", "originality"],
-      "correct": 2,
-      "feedback": "اعتُبرت الأصالة (Originality) هدفاً رئيسياً لا يمكن بلوغه إلا من خلال تفعيل الذاتية والتجربة الشعورية الخاصة."
-    },
-    {
-      "q": "Which of the following had a minimal influence on British romantics?",
-      "options": ["the supernatural", "spirituality", "nationalism"],
-      "correct": 2,
-      "feedback": "كانت القومية أقل تأثيراً على الرومانسيين البريطانيين مقارنة بافتتانهم الواضح بالروحانيات والظواهر الخارقة للطبيعة."
+      "feedback": "العبارة صحيحة؛ يرى شيلي في طائر القبرة رمزاً للملهم والشاعر الرؤيوي الذي يبث نداءاته الروحية غير المرئية للعالم.",
+      "id": "q_e6a7a50e5a383d40d8b7",
+      "legacyIds": [
+        "id_6f8c65c",
+        "qid_30586521"
+      ],
+      "legacyPrimaryIds": [
+        "qid_30586521"
+      ]
     },
     {
       "q": "One of the main classical western values is:",
-      "options": ["Realism", "objectivity", "truth"],
+      "options": [
+        "Realism",
+        "objectivity",
+        "truth"
+      ],
       "correct": 1,
-      "feedback": "تُعد الموضوعية (Objectivity) واحدة من الركائز الأساسية التي ميزت الفكر الكلاسيكي الغربي في مواجهة الذاتية الرومانسية."
+      "feedback": "تُعد الموضوعية (Objectivity) واحدة من الركائز الأساسية التي ميزت الفكر الكلاسيكي الغربي في مواجهة الذاتية الرومانسية.",
+      "id": "q_04fd76b138a34b99ddce",
+      "legacyIds": [
+        "id_4d3c418f",
+        "id_6be5b028",
+        "q_55bfae83988a0194dfc6",
+        "q_86e92c8da76097b625ef",
+        "qid_53ef5eac",
+        "qid_53ef5eac__2",
+        "qid_53ef5eac__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_55bfae83988a0194dfc6",
+        "q_86e92c8da76097b625ef",
+        "qid_53ef5eac",
+        "qid_53ef5eac__2",
+        "qid_53ef5eac__3"
+      ]
     },
     {
       "q": "One of the following was not a mathematical scientist:",
-      "options": ["Francis Bacon", "Rene Descartes", "Isaac Newton"],
-      "correct": 0,
-      "feedback": "يُعرف فرانسيس بيكون بإسهامه وتأسيسه للمنهج الفلسفي التجريبي، ولم يكن عالماً رياضياً مثل ديكارت أو نيوتن."
-    },
-    {
-      "q": "(.......) lasted through the sixteenth, seventeenth, and eighteenth centuries",
       "options": [
-        "The French Revolution",
-        "the Enlightenment",
-        "the scientific Revolution"
+        "Francis Bacon",
+        "Rene Descartes",
+        "Isaac Newton"
       ],
-      "correct": 2,
-      "feedback": "تطورت الثورة العلمية ونشطت بشكل أساسي عبر هذه القرون الثلاثة المتعاقبة."
-    },
-    {
-      "q": "How many Reform Acts were introduced in Britain during the 19th century?",
-      "options": ["One", "Two", "None"],
-      "correct": 1,
-      "feedback": "شهد القرن التاسع عشر في بريطانيا إقرار قانونين بارزين للإصلاح الانتخابي والسياسي (عامي 1832 و1867)."
+      "correct": 0,
+      "feedback": "يُعرف فرانسيس بيكون بإسهامه وتأسيسه للمنهج الفلسفي التجريبي، ولم يكن عالماً رياضياً مثل ديكارت أو نيوتن.",
+      "id": "q_60c02665b62745588b79",
+      "legacyIds": [
+        "id_5c31c041",
+        "q_b2a96ac598df91e0e203",
+        "qid_5fa92df6",
+        "qid_5fa92df6__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_b2a96ac598df91e0e203",
+        "qid_5fa92df6",
+        "qid_5fa92df6__2"
+      ]
     },
     {
       "q": "Romantics were mainly:",
-      "options": ["Atheists", "Religious", "Not necessarily either"],
+      "options": [
+        "Atheists",
+        "Religious",
+        "Not necessarily either"
+      ],
       "correct": 2,
-      "feedback": "تنوعت المعتقدات والمواقف الدينية والروحية لدى الشعراء الرومانسيين، فلم تكن الحركة محددة باتباع نمط ديني أو إلحادي موحد."
+      "feedback": "تنوعت المعتقدات والمواقف الدينية والروحية لدى الشعراء الرومانسيين، فلم تكن الحركة محددة باتباع نمط ديني أو إلحادي موحد.",
+      "id": "q_a8713791a4d69a730ee6",
+      "legacyIds": [
+        "id_7a77c4fd",
+        "id_7e5ce7b",
+        "q_92b9a4d260059ea15408",
+        "qid_41dfde93",
+        "qid_41dfde93__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_92b9a4d260059ea15408",
+        "qid_41dfde93",
+        "qid_41dfde93__2"
+      ]
     },
     {
       "q": "Industrialization in 19th-century Britain was mainly responsible for:",
-      "options": ["Unemployment", "Famine and plague", "Urbanism"],
+      "options": [
+        "Unemployment",
+        "Famine and plague",
+        "Urbanism"
+      ],
       "correct": 2,
-      "feedback": "أدت الثورة الصناعية إلى هجرة كثيفة من الريف إلى المدن للبحث عن عمل، مما أحدث نمواً عمرانياً سريعاً (Urbanism)."
+      "feedback": "أدت الثورة الصناعية إلى هجرة كثيفة من الريف إلى المدن للبحث عن عمل، مما أحدث نمواً عمرانياً سريعاً (Urbanism).",
+      "id": "q_313dcda4a33c2a64777a",
+      "legacyIds": [
+        "id_7b35bcd5",
+        "q_a0ee68f5885fde344967",
+        "qid_6c8a68ce",
+        "qid_6c8a68ce__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_a0ee68f5885fde344967",
+        "qid_6c8a68ce",
+        "qid_6c8a68ce__2"
+      ]
     },
     {
       "q": "Population in Ireland dropped to a half between 1845 and 1852 because of:",
-      "options": ["The Great Famine", "Migration to Europe", "Unemployment"],
+      "options": [
+        "The Great Famine",
+        "Migration to Europe",
+        "Unemployment"
+      ],
       "correct": 0,
-      "feedback": "تسببت 'المجاعة الكبرى' (أزمة البطاطس الكارثية) في وفاة وهجرة ملايين الأيرلنديين، مما قلّص عدد السكان بشكل حاد."
+      "feedback": "تسببت 'المجاعة الكبرى' (أزمة البطاطس الكارثية) في وفاة وهجرة ملايين الأيرلنديين، مما قلّص عدد السكان بشكل حاد.",
+      "id": "q_8427f62d9c92ecd069f4",
+      "legacyIds": [
+        "id_56be0c4e",
+        "q_8ff3aa85e96cb038d0a3",
+        "q_f4035ecaaac4c22b301f",
+        "qid_240bc6b4",
+        "qid_240bc6b4__2",
+        "qid_240bc6b4__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_8ff3aa85e96cb038d0a3",
+        "q_f4035ecaaac4c22b301f",
+        "qid_240bc6b4",
+        "qid_240bc6b4__2",
+        "qid_240bc6b4__3"
+      ]
     },
     {
-      "q": "New subsectors of Christianity emerged including the Methodists and the Evangelicals in:",
+      "q": "New Christian movements—including Methodism and the Evangelical Revival—emerged in Britain mainly during:",
       "options": [
         "The 20th century",
         "the Victorian Age",
         "Age of Enlightenment"
       ],
-      "correct": 1,
-      "feedback": "شهد العصر الفيكتوري نشاطاً واسعاً وصعوداً قوياً لهذه الحركات والطوائف المسيحية التجديدية."
+      "correct": 2,
+      "feedback": "Both movements began in the eighteenth century, before the Victorian period.",
+      "id": "q_cf40a7d35420ecdbddad",
+      "legacyIds": [
+        "id_4eb1670e",
+        "q_0ec20d6f4cd3de6929b8",
+        "q_7e3ccb405b344117f7aa",
+        "qid_1e86c13",
+        "qid_1e86c13__2",
+        "qid_1e86c13__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_0ec20d6f4cd3de6929b8",
+        "q_7e3ccb405b344117f7aa",
+        "qid_1e86c13",
+        "qid_1e86c13__2",
+        "qid_1e86c13__3"
+      ]
     },
     {
       "q": "In profuse strains of unpremeditated art (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 3,
-      "feedback": "هذا السطر الشعري الشهير مأخوذ من قصيدة الشاعر بيرسي بيش شيلي 'To a Skylark'."
+      "feedback": "هذا السطر الشعري الشهير مأخوذ من قصيدة الشاعر بيرسي بيش شيلي 'To a Skylark'.",
+      "id": "q_d457d423db02060221a4",
+      "legacyIds": [
+        "id_1fa13fe5",
+        "q_2e02df0bcaf5309624b5",
+        "qid_7bac13bc",
+        "qid_7bac13bc__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_2e02df0bcaf5309624b5",
+        "qid_7bac13bc",
+        "qid_7bac13bc__2"
+      ]
     },
     {
       "q": "The human heart, its hungry gore (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 1,
-      "feedback": "هذا التعبير السوداوي المميز يعود لقصائد ويليام بليك الفلسفية."
+      "feedback": "هذا التعبير السوداوي المميز يعود لقصائد ويليام بليك الفلسفية.",
+      "id": "q_93e47520d565b8081237",
+      "legacyIds": [
+        "id_6e0cf165",
+        "q_b83792641e2197723047",
+        "qid_5c482d3e",
+        "qid_5c482d3e__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_b83792641e2197723047",
+        "qid_5c482d3e",
+        "qid_5c482d3e__2"
+      ]
     },
     {
       "q": "A spring of love gushed from my heart (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 2,
-      "feedback": "هذا البيت الشعري مأخوذ من ملحمة 'The Rime of the Ancient Mariner' للشاعر صامويل تايلور كولريدج."
+      "feedback": "هذا البيت الشعري مأخوذ من ملحمة 'The Rime of the Ancient Mariner' للشاعر صامويل تايلور كولريدج.",
+      "id": "q_f59fe3fe945af7be720e",
+      "legacyIds": [
+        "id_101c36b5",
+        "q_a329c69751cca677ed72",
+        "qid_4fdad63",
+        "qid_4fdad63__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_a329c69751cca677ed72",
+        "qid_4fdad63",
+        "qid_4fdad63__2"
+      ]
     },
     {
       "q": "In thy ebb and flow/ claspests the limits of mortality (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 3,
-      "feedback": "هذه الصياغة مأخوذة من إحدى القصائد الفلسفية والوجدانية للشاعر شيلي."
+      "feedback": "هذه الصياغة مأخوذة من إحدى القصائد الفلسفية والوجدانية للشاعر شيلي.",
+      "id": "q_1bdd5f5cfd1e901b823f",
+      "legacyIds": [
+        "id_41dd6f7f",
+        "q_e1e541b689bab9f268ed",
+        "qid_2ca373a8",
+        "qid_2ca373a8__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_e1e541b689bab9f268ed",
+        "qid_2ca373a8",
+        "qid_2ca373a8__2"
+      ]
     },
     {
       "q": "The river glideth at his own sweet will (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 0,
-      "feedback": "هذا البيت الشعري الشهير مأخوذ من قصيدة ويليام وردزورث 'Composed upon Westminster Bridge'."
+      "feedback": "هذا البيت الشعري الشهير مأخوذ من قصيدة ويليام وردزورث 'Composed upon Westminster Bridge'.",
+      "id": "q_716314c8ba61d22f4ecc",
+      "legacyIds": [
+        "id_30d1c42d",
+        "q_fdba67db0042b2fd86be",
+        "qid_1ae2c013",
+        "qid_1ae2c013__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_fdba67db0042b2fd86be",
+        "qid_1ae2c013",
+        "qid_1ae2c013__2"
+      ]
     },
     {
       "q": "The hand that mocked them (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 3,
-      "feedback": "هذا التعبير مأخوذ من قصيدة السونيت الشهيرة 'Ozymandias' للشاعر شيلي."
+      "feedback": "هذا التعبير مأخوذ من قصيدة السونيت الشهيرة 'Ozymandias' للشاعر شيلي.",
+      "id": "q_3dd715cfbca0993a79d0",
+      "legacyIds": [
+        "id_1d7ce53b",
+        "q_005cbc80600862f90e35",
+        "qid_315052dc",
+        "qid_315052dc__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_005cbc80600862f90e35",
+        "qid_315052dc",
+        "qid_315052dc__2"
+      ]
     },
     {
       "q": "Half sunk a shattered visage (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 3,
-      "feedback": "هذا البيت يصف تمثال رمسيس الثاني المحطم في قصيدة 'Ozymandias' لشيلي."
+      "feedback": "هذا البيت يصف تمثال رمسيس الثاني المحطم في قصيدة 'Ozymandias' لشيلي.",
+      "id": "q_4c3de2411bf491d6a7fd",
+      "legacyIds": [
+        "id_6e7c377d",
+        "q_76863bdb1df872fe9955",
+        "qid_32bc9ba6",
+        "qid_32bc9ba6__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_76863bdb1df872fe9955",
+        "qid_32bc9ba6",
+        "qid_32bc9ba6__2"
+      ]
     },
     {
       "q": "I closed my lids, and kept them closed (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 2,
-      "feedback": "هذا البيت ينتمي لقصيدة 'The Rime of the Ancient Mariner' للشاعر كولريدج."
+      "feedback": "هذا البيت ينتمي لقصيدة 'The Rime of the Ancient Mariner' للشاعر كولريدج.",
+      "id": "q_97cb6919d5a88b2cc748",
+      "legacyIds": [
+        "id_4c916e56",
+        "q_f6fe0d8a00973b4d2d7b",
+        "qid_630c022e",
+        "qid_630c022e__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_f6fe0d8a00973b4d2d7b",
+        "qid_630c022e",
+        "qid_630c022e__2"
+      ]
     },
     {
       "q": "And all must love the human form (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 1,
-      "feedback": "هذا السطر الشعري مأخوذ من قصيدة 'The Divine Image' للشاعر ويليام بليك."
+      "feedback": "هذا السطر الشعري مأخوذ من قصيدة 'The Divine Image' للشاعر ويليام بليك.",
+      "id": "q_cea2b6ac6963730057ef",
+      "legacyIds": [
+        "id_2e3447d4",
+        "q_27eef9b79dada1006c4a",
+        "qid_745bd005",
+        "qid_745bd005__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_27eef9b79dada1006c4a",
+        "qid_745bd005",
+        "qid_745bd005__2"
+      ]
     },
     {
       "q": "Maids at the wheel, the weaver at his loom (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Coleridge",
+        "Shelley"
+      ],
       "correct": 0,
-      "feedback": "هذا الوصف الحياتي البسيط يُعزى لقصائد ويليام وردزورث."
-    },
-    {
-      "q": "Who was considered the father of English Romanticism during his time?",
-      "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
-      "correct": 3,
-      "feedback": "يُلقب ويليام وردزورث بأنه 'أب الرومانسية الإنجليزية' لدوره الريادي في تأسيس وتوجيه هذه الحركة الشعرية."
+      "feedback": "هذا الوصف الحياتي البسيط يُعزى لقصائد ويليام وردزورث.",
+      "id": "q_dbacaf66385858d60adf",
+      "legacyIds": [
+        "id_6924b290",
+        "q_e3ecd58b3e09a7180c28",
+        "qid_34e4614a",
+        "qid_34e4614a__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_e3ecd58b3e09a7180c28",
+        "qid_34e4614a",
+        "qid_34e4614a__2"
+      ]
     },
     {
       "q": "Which Romantic poet died at the age of sixty?",
-      "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
+      "options": [
+        "Shelley",
+        "Blake",
+        "Coleridge",
+        "Wordsworth"
+      ],
       "correct": 2,
-      "feedback": "توفي صامويل تايلور كولريدج عن عمر ناهز الستين عاماً (1772–1834)."
-    },
-    {
-      "q": "What is the common characteristic in the poetry of all Romantic poets that cannot be controlled?",
-      "options": ["Imagination", "love", "poetic form", "spirits"],
-      "correct": 0,
-      "feedback": "الخيال (Imagination) يُنظر إليه في المفهوم الرومانسي كقوة فطرية وجامحة تفوق السيطرة البشرية المباشرة."
+      "feedback": "توفي صامويل تايلور كولريدج عن عمر ناهز الستين عاماً (1772–1834).",
+      "id": "q_4d6fe17a0872979a2a84",
+      "legacyIds": [
+        "id_539bfaae",
+        "qid_12ceefc6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_12ceefc6"
+      ]
     },
     {
       "q": "Which of the following poems is not a sonnet?",
@@ -543,7 +1592,28 @@
         "Composed upon Westminster Bridge"
       ],
       "correct": 2,
-      "feedback": "قصيدة شيلي 'To a Skylark' هي قصيدة غنائية طويلة ممتدة، وليست سونيت (السونيت تتكون من 14 سطراً فقط مثل القصائد الأخرى المذكورة)."
+      "feedback": "The retained option set has one clear non-sonnet: Shelley's ode 'To a Skylark'.",
+      "id": "q_4254225fd441fc303287",
+      "legacyIds": [
+        "id_1f7437d2",
+        "id_3b00721b",
+        "q_648c1792be04263a58db",
+        "q_94f5216302cdc4274529",
+        "q_f94c71b64741526d4133",
+        "qid_483a11aa",
+        "qid_483a11aa__2",
+        "qid_483a11aa__3",
+        "qid_483a11aa__4"
+      ],
+      "legacyPrimaryIds": [
+        "q_648c1792be04263a58db",
+        "q_94f5216302cdc4274529",
+        "q_f94c71b64741526d4133",
+        "qid_483a11aa",
+        "qid_483a11aa__2",
+        "qid_483a11aa__3",
+        "qid_483a11aa__4"
+      ]
     },
     {
       "q": "Who shall put forth on thee,/ unfathomable sea? are lines from Shelley's:",
@@ -554,119 +1624,123 @@
         "None"
       ],
       "correct": 1,
-      "feedback": "هذه الأسطر مأخوذة من قصيدة شيلي القصيرة والتأملية المعنونة بـ 'Time'."
+      "feedback": "هذه الأسطر مأخوذة من قصيدة شيلي القصيرة والتأملية المعنونة بـ 'Time'.",
+      "id": "q_caa6cb3a0c1fcaec88b5",
+      "legacyIds": [
+        "id_5e8022b1",
+        "qid_33192e11"
+      ],
+      "legacyPrimaryIds": [
+        "qid_33192e11"
+      ]
     },
     {
       "q": "Coleridge's 'The Rime of the Ancient Mariner' is about half of the length of the whole Lyrical Ballads.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "العبارة خاطئة؛ حيث تمثل قصيدة 'The Rime' حوالي ثلث (وليس نصف) الحجم الكلي لديوان القصائد الغنائية المشترك (Lyrical Ballads)."
+      "feedback": "العبارة خاطئة؛ حيث تمثل قصيدة 'The Rime' حوالي ثلث (وليس نصف) الحجم الكلي لديوان القصائد الغنائية المشترك (Lyrical Ballads).",
+      "id": "q_aa67856bba2ad36d25c5",
+      "legacyIds": [
+        "id_f9741b8",
+        "qid_996455c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_996455c"
+      ]
     },
     {
       "q": "Shelley's 'Ozymandias' celebrates the legacy of Ramsesses II.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "العبارة خاطئة؛ فالقصيدة لا تحتفل بإرث رمسيس الثاني، بل تسخر من كبرياء الطغاة وتوضح حتمية زوال القوة والسلطان أمام عوامل الزمن."
+      "feedback": "العبارة خاطئة؛ فالقصيدة لا تحتفل بإرث رمسيس الثاني، بل تسخر من كبرياء الطغاة وتوضح حتمية زوال القوة والسلطان أمام عوامل الزمن.",
+      "id": "q_7304d58e636ec8b50a5a",
+      "legacyIds": [
+        "id_58007c46",
+        "qid_145ba2a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_145ba2a"
+      ]
     },
     {
       "q": "The Romantic poets were primarily concerned with logic, reason, and science.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "العبارة خاطئة؛ ثار الشعراء الرومانسيون ضد الهيمنة الجافة للمنطق والعلوم التجريبية، مفضلين التركيز على المشاعر الحرة والتجربة الذاتية والخيال."
+      "feedback": "العبارة خاطئة؛ ثار الشعراء الرومانسيون ضد الهيمنة الجافة للمنطق والعلوم التجريبية، مفضلين التركيز على المشاعر الحرة والتجربة الذاتية والخيال.",
+      "id": "q_4c2afea944f0461011fc",
+      "legacyIds": [
+        "id_30d4125b",
+        "qid_6bbf5217"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6bbf5217"
+      ]
     },
     {
       "q": "Mary Shelley, the author of Frankenstein, was married to P. B. Shelley and was part of his literary circles.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "العبارة صحيحة؛ كانت ماري شيلي زوجة للشاعر بيرسي بيش شيلي وجزءاً أساسياً من الدوائر الفكرية والأدبية المحيطة به."
+      "feedback": "العبارة صحيحة؛ كانت ماري شيلي زوجة للشاعر بيرسي بيش شيلي وجزءاً أساسياً من الدوائر الفكرية والأدبية المحيطة به.",
+      "id": "q_1bb091f4d65ebfdeb8e6",
+      "legacyIds": [
+        "id_106d1c60",
+        "qid_7bab84db"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7bab84db"
+      ]
     },
     {
       "q": "Coleridge's 'The Rime of the Ancient Mariner' is a poem about guilt, redemption, and the supernatural.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "العبارة صحيحة؛ فالقصيدة تتناول ذنب البحار بعد قتله الطائر، ورحلته الشاقة للتكفير عن الذنب وسط قوى خارقة للظبيعة."
-    },
-    {
-      "q": "What kind of movement was Romanticism?",
-      "options": ["Social", "Political", "Literary"],
-      "correct": 2,
-      "feedback": "تُصنف الرومانسية في المقام الأول كحركة أدبية وفنية ركزت على الجماليات والفردية."
-    },
-    {
-      "q": "Romanticism as a movement placed the greatest emphasis on",
-      "options": ["logic", "magic", "emotion"],
-      "correct": 2,
-      "feedback": "من أهم سمات الرومانسية التركيز على العاطفة القوية والتجربة الشخصية بدلاً من العقلانية."
-    },
-    {
-      "q": "(...) was essential, and it could only be achieved through subjectivity",
-      "options": ["Spontaneity", "Originality"],
-      "correct": 1,
-      "feedback": "اعتُبرت الأصالة جوهرية في الفكر الرومانسي، حيث تعكس الرؤية الذاتية الفريدة للفنان."
-    },
-    {
-      "q": "Which of the following had a minimal influence on British romanticism?",
-      "options": ["the supernatural", "spirituality", "nationalism"],
-      "correct": 2,
-      "feedback": "على الرغم من وجودها، كانت القومية غالباً ثانوية مقارنة بالتركيز العميق على الروحانية والخوارق في الأدب الرومانسي البريطاني."
-    },
-    {
-      "q": "The Age of enlightenment (...) Romanticism",
-      "options": ["preceded", "followed", "was contemporary to"],
-      "correct": 0,
-      "feedback": "عصر التنوير سبق العصر الرومانسي عموماً، وكان بمثابة الفترة العقلانية التي ثار ضدها الرومانسيون."
-    },
-    {
-      "q": "Which was a proto-Romantic movement?",
-      "options": ["Sturm und drang", "the Pro-Raphaelite", "Realism"],
-      "correct": 0,
-      "feedback": "تُعرف حركة 'Sturm und Drang' (العاصفة والاندفاع) الألمانية على نطاق واسع بأنها سابقة وممهدة للرومانسية."
-    },
-    {
-      "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
-      "options": ["logic", "the Enlightenment", "the scientific Revolution"],
-      "correct": 2,
-      "feedback": "امتدت الثورة العلمية تقريباً من القرن السادس عشر حتى القرن الثامن عشر، مما غيّر النظرة العالمية لتلك الحقبة بشكل جذري."
-    },
-    {
-      "q": "How many Reform Acts were introduced in Britain during the 19th century?",
-      "options": ["One", "Two", "None"],
-      "correct": 1,
-      "feedback": "كان هناك قانونان رئيسيان للإصلاح (1832 و1867) غيرا النظام الانتخابي البريطاني بشكل كبير في القرن التاسع عشر."
-    },
-    {
-      "q": "Lord Byron's 'Darkness' was composed using:",
       "options": [
-        "structured meter",
-        "free verse",
-        "blank verse",
-        "sonnet form"
+        "True",
+        "False"
       ],
-      "correct": 2,
-      "feedback": "قصيدة 'الظلام' للورد بايرون تتميز بأنها كُتبت بالشعر المرسل (blank verse)، وهو شعر خماسي التفاعيل غير مقفى."
+      "correct": 0,
+      "feedback": "العبارة صحيحة؛ فالقصيدة تتناول ذنب البحار بعد قتله الطائر، ورحلته الشاقة للتكفير عن الذنب وسط قوى خارقة للظبيعة.",
+      "id": "q_495e24687bcce7e2fb55",
+      "legacyIds": [
+        "id_57edbbb6",
+        "qid_2bf2071b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2bf2071b"
+      ]
     },
     {
-      "q": "Lord Byron's 'Childe Harold's Pilgrimage' consists of:",
-      "options": ["three cantos", "four cantos", "five cantos", "six cantos"],
-      "correct": 1,
-      "feedback": "العمل الكامل لـ 'رحلة تشايلد هارولد' مصمم هيكلياً بشكل شهير في أربعة أناشيد (cantos)."
-    },
-    {
-      "q": "The poem's tone is best described as:",
-      "options": ["cheerful", "melancholic", "ecstatic", "wise"],
-      "correct": 1,
-      "feedback": "نبرة الكثير من قصيدة 'تشايلد هارولد' لبايرون هي نبرة تأملية وكئيبة، وهي سمة نموذجية لبطل بايرون (Byronic hero)."
-    },
-    {
-      "q": "The central theme of Wordsworth's 'Mutability' is:",
+      "q": "The tone of Byron’s ‘Childe Harold’s Pilgrimage’ is best described as:",
       "options": [
-        "Religious devotion",
-        "social satire",
-        "accepting fate",
-        "change as a noble truth"
+        "cheerful",
+        "melancholic",
+        "ecstatic",
+        "wise"
       ],
-      "correct": 3,
-      "feedback": "تستكشف قصيدة 'التغير' لوردزورث حتمية التغير، مقدمةً إياه كحقيقة طبيعية ونبيلة في النهاية لهذا العالم."
+      "correct": 1,
+      "feedback": "نبرة الكثير من قصيدة 'تشايلد هارولد' لبايرون هي نبرة تأملية وكئيبة، وهي سمة نموذجية لبطل بايرون (Byronic hero).",
+      "id": "q_b93086e03613da5446b2",
+      "legacyIds": [
+        "id_1c500ee1",
+        "q_2fe6c294d105a00b8c13",
+        "qid_6cfc3815",
+        "qid_6cfc3815__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_2fe6c294d105a00b8c13",
+        "qid_6cfc3815",
+        "qid_6cfc3815__3"
+      ]
     },
     {
       "q": "Wordsworth suggests that all but one of the following do not realise that nothing lasts forever:",
@@ -677,478 +1751,190 @@
         "people overwhelmed by distress"
       ],
       "correct": 0,
-      "feedback": "تشير القصيدة إلى أن السلطة والمكانة العالية غالباً ما تقود الأفراد (مثل الملوك) إلى الاعتقاد الخاطئ بأنهم معفيون من عواقب وعوامل الزمن."
-    },
-    {
-      "q": "Shelley's 'Hymn to Intellectual Beauty' is a praise of:",
-      "options": [
-        "Christian faith",
-        "human power",
-        "the spirit of inspiration",
-        "wise poets"
+      "feedback": "In Wordsworth's 'Mutability', 'kings' does not occur; 'distress' does.",
+      "id": "q_e4da7e9a5dd32bfd6667",
+      "legacyIds": [
+        "id_3cffd5ea",
+        "id_3cffd5ed",
+        "q_7478cade482f053a4ce5",
+        "q_c7bea2f6d5d222df23c8",
+        "qid_a1ca989",
+        "qid_a1ca989__2",
+        "qid_a1ca989__3"
       ],
-      "correct": 2,
-      "feedback": "القصيدة هي استحضار وإشادة بـ 'روح الجمال' أو الجمال الفكري الذي يوفر الإلهام للشاعر."
+      "legacyPrimaryIds": [
+        "q_7478cade482f053a4ce5",
+        "q_c7bea2f6d5d222df23c8",
+        "qid_a1ca989",
+        "qid_a1ca989__2",
+        "qid_a1ca989__3"
+      ]
     },
     {
       "q": "Shelley mentioned that he sought for the truth of intellectual beauty in:",
-      "options": ["black magic", "the sea", "the forest", "the Church"],
+      "options": [
+        "black magic",
+        "the sea",
+        "the forest",
+        "the Church"
+      ],
       "correct": 2,
-      "feedback": "سعى شيلي إليها في 'غرفة استماع، كهف وأطلال، وغابة تحت ضوء النجوم'. وقد تمرد بنشاط ضد الكنيسة."
+      "feedback": "Shelley's hymn describes Intellectual Beauty moving through a forest.",
+      "id": "q_0844ec6cb7d53e50f031",
+      "legacyIds": [
+        "id_689c1df0",
+        "id_689c1df2",
+        "q_22c3918c4b5282058fc0",
+        "q_a547660bd22d9b61bf5e",
+        "qid_54f4f52c",
+        "qid_54f4f52c__2",
+        "qid_54f4f52c__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_22c3918c4b5282058fc0",
+        "q_a547660bd22d9b61bf5e",
+        "qid_54f4f52c",
+        "qid_54f4f52c__2",
+        "qid_54f4f52c__3"
+      ]
     },
     {
       "q": "As a poem of praise and prayer, its form and style reflect that of:",
-      "options": ["an ode", "an epic", "a ballad", "a sonnet"],
-      "correct": 0,
-      "feedback": "نظراً لموضوعها السامي وخطابها الغنائي الشبيه بالصلاة لمفهوم مجرد، فهي مهيكلة كلاسيكياً كقصيدة 'أود'."
-    },
-    {
-      "q": "In his poem, 'Time', Shelley personifies time as:",
       "options": [
-        "A nurturing parent",
-        "A merciless destroyer and creator",
-        "A playful child",
-        "A merciful guardian"
-      ],
-      "correct": 1,
-      "feedback": "غالباً ما يصور شيلي الزمن كقوة جبارة تدمر القديم وتخلق الجديد في آن واحد."
-    },
-    {
-      "q": "When Shelley said that Time's 'waves are years', he compares it to:",
-      "options": [
-        "A deep ocean",
-        "A rippling desert",
-        "A rocky mountain",
-        "A stormy ocean"
-      ],
-      "correct": 3,
-      "feedback": "توحي استعارة 'الأمواج' بالحركة المتواصلة والمضطربة وغير المنتهية التي تميز المحيط العاصف."
-    },
-    {
-      "q": "Shelley suggests Time's power is:",
-      "options": ["Controllable", "Limited", "Absolute", "An illusion"],
-      "correct": 2,
-      "feedback": "يصور شيلي الزمن كقوة مطلقة تحكم كل الأشياء الأرضية، وهي محصنة تماماً ضد التدخل البشري."
-    },
-    {
-      "q": "The poem's tone is best described as:",
-      "options": ["Humourous", "Sarcastic", "Serious", "Satirical"],
-      "correct": 2,
-      "feedback": "التأمل في طبيعة الزمن التي لا يمكن إيقافها والخطيرة يجعل نبرة القصيدة جدية ورصينة بطبيعتها."
-    },
-    {
-      "q": "Who was considered the father of English Romanticism during his time?",
-      "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
-      "correct": 3,
-      "feedback": "يُعتبر ويليام وردزورث على نطاق واسع الشخصية التأسيسية و'أب' الحركة الرومانسية الإنجليزية بسبب ديوانه القصائد الغنائية (Lyrical Ballads)."
-    },
-    {
-      "q": "Which Romantic poet worked in restoring churches?",
-      "options": ["Byron", "Blake", "Coleridge", "Wordsworth"],
-      "correct": 3,
-      "feedback": "كان لدى وردزورث ميل واهتمام خاص للحفاظ على الهياكل والمباني الكنسية التاريخية وترميمها."
-    },
-    {
-      "q": "What is the common characteristic in the poetry of all Romantic poets that cannot be controlled?",
-      "options": ["Imagination", "Love", "poetic form", "Nature"],
-      "correct": 0,
-      "feedback": "المفهوم الرومانسي للخيال الإبداعي غالباً ما يُوصف بأنه قوة جامحة وفطرية ولا يمكن السيطرة عليها."
-    },
-    {
-      "q": "Which of the following poems is not a sonnet?",
-      "options": ["The World", "Ozymandias", "Time", "None of the above"],
-      "correct": 2,
-      "feedback": "بينما العديد من القصائد الرومانسية كُتبت على نمط السونيت، إلا أن قصيدة شيلي 'الزمن' لا تتبع بنية السونيت الصارمة المكونة من 14 سطراً."
-    },
-    {
-      "q": "Thy spells did bind/ To fear himself, and love all human kind is a line from Shelley's:",
-      "options": [
-        "Mutability",
-        "Time",
-        "To a Skylark",
-        "Hymn to Intellectual Beauty"
-      ],
-      "correct": 3,
-      "feedback": "هذا السطر هو جزء مميز من قصيدة شيلي الشهيرة 'ترنيمة للجمال الفكري'."
-    },
-    {
-      "q": "Blake's 'Songs of Innocence and of Experience' mainly represented themes about:",
-      "options": ["Religion", "human nature", "Animals", "cruelty"],
-      "correct": 1,
-      "feedback": "تستكشف مجموعة بليك المزدوجة تعقيدات الطبيعة البشرية من خلال حالتي البراءة والخبرة المتناقضتين."
-    },
-    {
-      "q": "Who described himself as 'a visionary poet'?",
-      "options": ["Shelley", "Byron", "Blake"],
-      "correct": 0,
-      "feedback": "يصف شيلي نفسه صراحةً قائلاً: 'أنا شاعر رؤيوي'، بينما يصف وردزورث بأنه 'شاعر طبيعي'."
-    },
-    {
-      "q": "Which of the following poems was not written by Coleridge?",
-      "options": [
-        "Ozymandias",
-        "Christabel",
-        "Don Juan",
-        "The Rime of the Ancient Mariner"
+        "an ode",
+        "an epic",
+        "a ballad",
+        "a sonnet"
       ],
       "correct": 0,
-      "feedback": "قصيدة 'أوزيماندياس' هي واحدة من أشهر القصائد التي كتبها بيرسي بيش شيلي، وليس صامويل تايلور كولريدج."
+      "feedback": "نظراً لموضوعها السامي وخطابها الغنائي الشبيه بالصلاة لمفهوم مجرد، فهي مهيكلة كلاسيكياً كقصيدة 'أود'.",
+      "id": "q_6248bab63912a749a8c4",
+      "legacyIds": [
+        "id_799c2628",
+        "q_15f5c772749099e9decf",
+        "qid_503182fe",
+        "qid_503182fe__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_15f5c772749099e9decf",
+        "qid_503182fe",
+        "qid_503182fe__2"
+      ]
     },
     {
-      "q": "Wordsworth believed that poetry is the spontaneous overflow of powerful feelings.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "هذا اقتباس مباشر من 'مقدمة القصائد الغنائية' لوردزورث."
-    },
-    {
-      "q": "Both Blake and Shelley were rumoured to be mad during their lifetime.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "هذه العبارة صحيحة وهي حقيقة تتعلق بالتاريخ البيوغرافي وسير الشاعرين الذاتية."
-    },
-    {
-      "q": "Shelley's was interested in social and political themes.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "كان شيلي منخرطاً ومشاركاً بعمق في السياسة الراديكالية ومشاريع الإصلاح الاجتماعي."
-    },
-    {
-      "q": "Blake was a supporter of the Protestant Church in England.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "كان بليك ينتقد بشدة وبشكل مستمر المؤسسات الدينية المنظمة، بما في ذلك كنيسة إنجلترا البروتستانتية."
-    },
-    {
-      "q": "Wordsworth was not popular as a poet during his lifetime.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "حقق وردزورث في الواقع اعترافاً جماهيرياً ونقدياً كبيراً خلال حياته، وأصبح في النهاية شاعراً للبلاط (Poet Laureate)."
-    },
-    {
-      "q": "Blake's 'The Human Abstract' suggests that evil is the creation of gods.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "غير صحيح؛ يوضح بليك في القصيدة أن مصدر الشر ينبع من العقل البشري وليس من خلق الآلهة."
-    },
-    {
-      "q": "Blake's 'The Human Abstract' places 'the caterpillar and the fly' as symbols of religious and state power.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "كثيراً ما استخدم بليك مثل هذه الرموز الحية للإشارة رمزياً وتجسيد فساد المؤسسات والسلطات الحاكمة."
-    },
-    {
-      "q": "Coleridge used no archaic words in his 'Rime of the Ancient Mariner'.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "استخدم كولريدج الكلمات القديمة والمهجورة (archaic) عمداً لاستحضار روح وشعور القصص الشعبية والقصائد القديمة."
-    },
-    {
-      "q": "Blake's 'Songs of Innocence' was published in 1794.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "نُشرت مجموعة 'أغاني البراءة' منفردة عام 1789؛ أما الطبعة المجمعة مع 'أغاني الخبرة' فكانت في عام 1794."
-    },
-    {
-      "q": "Blake's method of printing involved cutting lines into a metal plate template.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "اخترع بليك أسلوباً فريداً يُعرف بـ 'النقش البارز' (relief etching) لطباعة وتلوين كتبه المصورة وليس مجرد قطع الخطوط التقليدي."
-    },
-    {
-      "q": "Coleridge used the ballad form in his 'Rime of the Ancient Mariner'.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "تُعد هذه القصيدة نموذجاً أساسياً وجوهرياً على الإحياء الرومانسي لشكل القصيدة الشعبية التقليدية (ballad)."
-    },
-    {
-      "q": "The Rime of the Ancient Mariner was written in Iambic Pentameter.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "غير صحيح؛ القصيدة مكتوبة بوزن القصائد الشعبية (ballad meter) الذي يتناوب فيه البحر الرباعي والثلاثي وليس الخماسي التفاعيل."
-    },
-    {
-      "q": "Wordsworth believed that poetry is the spontaneous overflow of powerful feelings",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "هذا هو التعريف الأساسي والجوهري للشعر الذي صاغه وردزورث في مقدمته لـ 'Lyrical Ballads'."
-    },
-    {
-      "q": "Both Blake and Shelley were rumoured to be mad during their lifetime.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "على الرغم من أن كليهما كان يُنظر إليه كشخص غريب الأطوار، إلا أن شائعة الجنون المحددة كانت ترتبط أكثر بشخصيات أخرى ولم تكن إجماعاً عاماً لكليهما."
-    },
-    {
-      "q": "Shelley's was interested in social and political themes.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "كان شيلي ملتزماً سياسياً بعمق، وعكست أعماله باستمرار انتقادات اجتماعية راديكالية وثورية."
-    },
-    {
-      "q": "Blake was a supporter of the Protestant Church in England.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "اشتهر بليك بانتقاداته اللاذعة للكنيسة الرسمية القائمة والطقوس الدينية المنظمة."
-    },
-    {
-      "q": "Wordsworth was not popular as a poet during his lifetime.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "نال وردزورث تدريجياً شعبية واسعة النطاق وقبولاً كبيراً وتُوج بلقب شاعر البلاط."
-    },
-    {
-      "q": "Blake's 'The Human Abstract' suggests that evil is the creation of gods.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "توضح القصيدة أن الفضائل حين يتم تحريفها تخلق ديناً زائفاً يغذي الشر ويبرره."
-    },
-    {
-      "q": "Blake's 'The Human Abstract' places 'the caterpillar and the fly' as symbols of religious and state power.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "تُستخدم هذه الصور عند بليك لتمثيل الطبيعة الطفيلية والامتصاصية لمؤسسات السلطة."
-    },
-    {
-      "q": "Coleridge used no archaic words in his 'Rime of the Ancient Mariner'",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "استخدم كولريدج عمداً مفردات عتيقة وصيغ لغوية قديمة لمحاكاة أسلوب الحكايات الشعبية والقصائد التقليدية."
-    },
-    {
-      "q": "Blake's 'Songs of Innocence' was published in 1794.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "صدر كتاب 'أغاني البراءة' عام 1789، أما الإصدار المزدوج 'أغاني البراءة والخبرة' فكان عام 1794."
-    },
-    {
-      "q": "Blake's method of printing involved cutting lines into a metal plate template.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "استخدم بليك تقنية مبتكرة وفريدة من نوعها تعتمد على النقش البارز على ألواح النحاس."
-    },
-    {
-      "q": "Coleridge used the ballad form in his 'Rime of the Ancient Mariner'",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "تعتبر هذه القصيدة المثال الأبرز في العصر الرومانسي لإعادة إحياء نموذج القصيدة الشعبية (traditional ballad)."
-    },
-    {
-      "q": "The Rime of the Ancient Mariner was written in Iambic Pentameter.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "تعتمد القصيدة على بحر القصائد الشعبية (ballad meter) الذي يزاوج بين التفاعيل الرباعية والثلاثية."
-    },
-    {
-      "q": "What kind of movement was Romanticism?",
-      "options": ["Social", "Political", "Literary"],
+      "q": "The tone of Shelley’s ‘Time’ is best described as:",
+      "options": [
+        "Humourous",
+        "Sarcastic",
+        "Serious",
+        "Satirical"
+      ],
       "correct": 2,
-      "feedback": "تُصنف الرومانسية بشكل أساسي كحركة أدبية وثقافية كبرى."
+      "feedback": "التأمل في طبيعة الزمن التي لا يمكن إيقافها والخطيرة يجعل نبرة القصيدة جدية ورصينة بطبيعتها.",
+      "id": "q_b0df603487b76384b58a",
+      "legacyIds": [
+        "id_8dbebc5",
+        "q_691b2acb8d8a23a86173",
+        "qid_6cfc3815",
+        "qid_6cfc3815__2",
+        "qid_6cfc3815__4"
+      ],
+      "legacyPrimaryIds": [
+        "q_691b2acb8d8a23a86173",
+        "qid_6cfc3815__2",
+        "qid_6cfc3815__4"
+      ]
     },
     {
-      "q": "Romanticism as a movement placed the greatest emphasis on",
-      "options": ["logic", "magic", "emotions"],
-      "correct": 2,
-      "feedback": "تقدم الرومانسية الأصالة العاطفية والمشاعر الحية على المنطق والعقلانية الجافة."
+      "q": "Blake’s illuminated printing was ordinary intaglio engraving made by cutting the printed lines into a metal plate.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "False: Blake used relief etching, leaving text and design raised after acid treatment.",
+      "id": "q_6d0204581e64a62c779d",
+      "legacyIds": [
+        "id_2cbf85d9",
+        "id_2cbf85da",
+        "q_2badd310eae4f3f3c51a",
+        "q_ad487957741afb53f4a8",
+        "qid_4fbbff82",
+        "qid_4fbbff82__2",
+        "qid_4fbbff82__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_2badd310eae4f3f3c51a",
+        "q_ad487957741afb53f4a8",
+        "qid_4fbbff82",
+        "qid_4fbbff82__2",
+        "qid_4fbbff82__3"
+      ]
     },
     {
       "q": "(...) was essential, and it could only be achieved through subjectivity.",
-      "options": ["Spontaneity", "freedom", "originality"],
+      "options": [
+        "Spontaneity",
+        "freedom",
+        "originality"
+      ],
       "correct": 2,
-      "feedback": "تُعد الأصالة ركيزة أساسية تنبع من التجربة الذاتية والوجدانية الخاصة بالفنان الرومانسي."
+      "feedback": "Romantic subjectivity privileges individual originality; the conflicting 'freedom' key is retired.",
+      "id": "q_c994d95cb0ac58dad431",
+      "legacyIds": [
+        "id_1da9a313",
+        "id_1da9a314",
+        "id_50586a2d",
+        "id_5bd77d4b",
+        "id_7109b646",
+        "q_316f5646bb8c5c6745b3",
+        "q_322de0bd63d2e4f29658",
+        "q_35b0be6a8d1823a1ce78",
+        "q_53101a74021a16059f58",
+        "q_c817f21c9975cf1c3d85",
+        "qid_1bc12f37",
+        "qid_5c64b7d7",
+        "qid_5c64b7d7__2",
+        "qid_5c64b7d7__3",
+        "qid_5c64b7d7__4",
+        "qid_5c64b7d7__5"
+      ],
+      "legacyPrimaryIds": [
+        "q_316f5646bb8c5c6745b3",
+        "q_322de0bd63d2e4f29658",
+        "q_35b0be6a8d1823a1ce78",
+        "q_53101a74021a16059f58",
+        "q_c817f21c9975cf1c3d85",
+        "qid_1bc12f37",
+        "qid_5c64b7d7",
+        "qid_5c64b7d7__2",
+        "qid_5c64b7d7__3",
+        "qid_5c64b7d7__4",
+        "qid_5c64b7d7__5"
+      ]
     },
     {
       "q": "Which of the following had a minimal influence on British romanticism?",
-      "options": ["the supernatural", "spirituality", "rationalism"],
-      "correct": 2,
-      "feedback": "العقلانية (المرتبطة بعصر التنوير) كانت العدو الفكري الأساسي الذي ثار ضده الرومانسيون."
-    },
-    {
-      "q": "The Age of enlightenment (...) Romanticism.",
-      "options": ["preceded", "followed", "was contemporary to"],
-      "correct": 0,
-      "feedback": "فترة عصر التنوير سبقت تاريخياً الظهور الكامل والازدهار للعصر الرومانسي."
-    },
-    {
-      "q": "Which was a proto-Romantic movement?",
-      "options": ["Sturm und drang", "the Pre-Raphaelite", "Realism"],
-      "correct": 0,
-      "feedback": "حركة 'Sturm und Drang' في ألمانيا تُعد من أشهر الحركات التمهيدية التي مهدت الطريق للرومانسية."
-    },
-    {
-      "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
       "options": [
-        "the French Revolution",
-        "the Enlightenment",
-        "the scientific Revolution"
+        "the supernatural",
+        "spirituality",
+        "rationalism"
       ],
       "correct": 2,
-      "feedback": "تُؤرخ الثورة العلمية عموماً ضمن هذا الإطار الزمني الممتد بين القرون الـ16 والـ18."
-    },
-    {
-      "q": "How many Reform Acts were introduced in Britain during the 19th century?",
-      "options": ["One", "Two", "None"],
-      "correct": 1,
-      "feedback": "شهد القرن التاسع عشر في بريطانيا قانونين رئيسيين وهامين للإصلاح السياسي (1832 و1867)."
-    },
-    {
-      "q": "Lord Byron's 'Darkness' was composed using:",
-      "options": [
-        "structured meter",
-        "free verse",
-        "blank verse",
-        "sonnet form"
+      "feedback": "Rationalism is the clear least influence in this option set; supernaturalism and spirituality are core Romantic concerns.",
+      "id": "q_d06058c6d50250db427e",
+      "legacyIds": [
+        "id_5bf15ebe",
+        "id_7ab7f43a",
+        "q_eaf590aeca68422ecfae",
+        "qid_7670b2d7",
+        "qid_7670b2d7__2"
       ],
-      "correct": 2,
-      "feedback": "اعتمد بايرون في قصيدته 'الظلام' على الشعر المرسل (blank verse) غير المقفى المعتمد على تفعيلة البحر الخماسي."
-    },
-    {
-      "q": "Lord Byron's 'Childe Harold's Pilgrimage' consists of:",
-      "options": ["three cantos", "four cantos", "five cantos", "six cantos"],
-      "correct": 1,
-      "feedback": "هذه القصيدة الملحمية الطويلة مقسمة ومنظمة في أربعة أناشيد (cantos) رئيسية."
-    },
-    {
-      "q": "The poem's tone is best described as:",
-      "options": ["cheerful", "melancholic", "ecstatic", "wise"],
-      "correct": 1,
-      "feedback": "يُعرف هذا العمل بنبرته التأملية وميله الواضح للكآبة السوداوية، وهي السمة المميزة للبطل البايروني."
-    },
-    {
-      "q": "The central theme of Wordsworth's 'Mutability' is:",
-      "options": [
-        "Religious devotion",
-        "social satire",
-        "accepting fate",
-        "change as a noble truth"
-      ],
-      "correct": 3,
-      "feedback": "يتناول وردزورث في القصيدة حتمية التغير في الطبيعة وفي حياة الإنسان باعتباره قانوناً كونياً."
-    },
-    {
-      "q": "Wordsworth suggests that all but one of the following do not realise that nothing lasts forever:",
-      "options": [
-        "kings",
-        "criminals",
-        "the greedy",
-        "people overwhelmed by distress"
-      ],
-      "correct": 0,
-      "feedback": "غالباً ما يُصور الملوك كنموذج لمن يعتقد واهماً أن سلطانه وقوته ثابتة ولا تزول."
-    },
-    {
-      "q": "Shelley's 'Hymn to Intellectual Beauty' is a praise of:",
-      "options": [
-        "Christian faith",
-        "human power",
-        "the spirit of inspiration",
-        "wise poets"
-      ],
-      "correct": 2,
-      "feedback": "تمجد القصيدة القوة المتعالية والخفية للجمال الفكري والإلهام الفني وتتغنى بآثارها."
-    },
-    {
-      "q": "Shelley mentioned that he sought for the truth of intellectual beauty in:",
-      "options": ["black magic", "the sea", "the forest", "the Church"],
-      "correct": 2,
-      "feedback": "يشير النص إلى بحثه في أماكن مختلفة، بما في ذلك الغابات والمناطق الجبلية."
-    },
-    {
-      "q": "As a poem of praise and prayer, its form and style reflect that of:",
-      "options": ["an ode", "an epic", "a ballad", "a sonnet"],
-      "correct": 0,
-      "feedback": "يحدد البناء الشكلي والخطاب السامي القصيدة على أنها قصيدة 'أود' (قصيدة مدح غنائية)."
-    },
-    {
-      "q": "In his poem, 'Time', Shelley personifies time as:",
-      "options": [
-        "A nurturing parent",
-        "A merciless destroyer and creator",
-        "A playful child",
-        "A merciful guardian"
-      ],
-      "correct": 1,
-      "feedback": "يصوّر شيلي الزمن كقوة لا يمكن إيقافها، تجمع بين الخلق والتدمير في آن واحد."
-    },
-    {
-      "q": "When Shelley said that Time's 'waves are years', he compares it to:",
-      "options": [
-        "A deep ocean",
-        "A rippling desert",
-        "A rocky mountain",
-        "A stormy ocean"
-      ],
-      "correct": 3,
-      "feedback": "تستحضر صورة 'الأمواج' الطبيعة المضطربة والهائجة للمحيط العاصف."
-    },
-    {
-      "q": "Shelley suggests Time's power is:",
-      "options": ["Controllable", "Limited", "Absolute", "An illusion"],
-      "correct": 2,
-      "feedback": "يصور شيلي الزمن كقوة مطلقة ومسيطرة تهيمن على كل شيء."
-    },
-    {
-      "q": "The poem's tone is best described as:",
-      "options": ["Humourous", "Sarcastic", "Serious", "Satirical"],
-      "correct": 2,
-      "feedback": "إن تأمل القصيدة في طبيعة الزمن وجديته يجعل نبرتها بطبيعتها نبرة جادة ورصينة."
-    },
-    {
-      "q": "Who was considered the father of English Romanticism during his time?",
-      "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
-      "correct": 3,
-      "feedback": "يُذكر وردزورث تقليدياً باعتباره المؤسس الرئيسي للرومانسية الإنجليزية."
-    },
-    {
-      "q": "Which Romantic poet worked in restoring churches?",
-      "options": ["Byron", "Blake", "Coleridge", "Wordsworth"],
-      "correct": 3,
-      "feedback": "عُرف عن وردزورث دعمه واهتمامه بترميم الكنائس والحفاظ عليها."
-    },
-    {
-      "q": "What is the common characteristic in the poetry of all Romantic poets that cannot be controlled?",
-      "options": ["Imagination", "Love", "poetic form", "Nature"],
-      "correct": 0,
-      "feedback": "يُنظر إلى الخيال الرومانسي كقوة جامحة وجبارة لا يمكن السيطرة عليها."
-    },
-    {
-      "q": "Which of the following poems is not a sonnet?",
-      "options": ["The World", "Ozymandias", "Time", "None of the above"],
-      "correct": 2,
-      "feedback": "لا تتوافق قصيدة شيلي 'الزمن' مع بنية السونيت الصارمة المكونة من 14 سطراً."
-    },
-    {
-      "q": "'Thy spells did bind/ To fear himself, and love all human kind is a line from Shelley's:",
-      "options": [
-        "Mutability",
-        "Time",
-        "To a Skylark",
-        "Hymn to Intellectual Beauty"
-      ],
-      "correct": 3,
-      "feedback": "هذا البيت هو مقطع شهير ومعروف من قصيدة 'ترنيمة للجمال الفكري'."
-    },
-    {
-      "q": "Blake's 'Songs of Innocence and of Experience' mainly represented themes about:",
-      "options": ["Religion", "human nature", "Animals", "cruelty"],
-      "correct": 1,
-      "feedback": "يُعد عمل بليك دراسة وفحصاً فلسفياً لحالتي الطبيعة البشرية المتناقضتين (البراءة والخبرة)."
-    },
-    {
-      "q": "Who described himself as 'a visionary poet'?",
-      "options": ["Shelley", "Coleridge", "Byron", "Blake"],
-      "correct": 3,
-      "feedback": "اشتهر ويليام بليك بتعريف نفسه كشاعر رؤيوي يبصر الحقائق الروحية والوجدانية."
-    },
-    {
-      "q": "Which of the following poems was not written by Coleridge?",
-      "options": [
-        "Ozymandias",
-        "Christabel",
-        "Don Juan",
-        "The Rime of the Ancient Mariner"
-      ],
-      "correct": 0,
-      "feedback": "قصيدة 'أوزيماندياس' هي واحدة من أشهر السونيتات التي كتبها الشاعر بيرسي بيش شيلي."
+      "legacyPrimaryIds": [
+        "q_eaf590aeca68422ecfae",
+        "qid_7670b2d7",
+        "qid_7670b2d7__2"
+      ]
     },
     {
       "q": "His full name was:",
@@ -1159,19 +1945,53 @@
         "George Gordon Byron"
       ],
       "correct": 3,
-      "feedback": "الاسم الكامل للشاعر هو جورج غوردون بايرون[cite: 1]."
+      "feedback": "الاسم الكامل للشاعر هو جورج غوردون بايرون[cite: 1].",
+      "id": "q_22b95d4501b4bca1c742",
+      "legacyIds": [
+        "id_1be22fb3",
+        "qid_5fd464e3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5fd464e3"
+      ]
     },
     {
       "q": "He was friends with:",
-      "options": ["Wordsworth", "Coleridge", "Shelley", "All of the above"],
+      "options": [
+        "Wordsworth",
+        "Coleridge",
+        "Shelley",
+        "All of the above"
+      ],
       "correct": 2,
-      "feedback": "كان بيرسي بيش شيلي صديقاً مقرباً لبايرون ومعاصراً له[cite: 1]."
+      "feedback": "كان بيرسي بيش شيلي صديقاً مقرباً لبايرون ومعاصراً له[cite: 1].",
+      "id": "q_0b4212dc9d904d4d2731",
+      "legacyIds": [
+        "id_6b397bc",
+        "qid_6d0c5f71"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6d0c5f71"
+      ]
     },
     {
       "q": "He started publishing at the age of:",
-      "options": ["15", "20", "28", "17"],
+      "options": [
+        "15",
+        "20",
+        "28",
+        "17"
+      ],
       "correct": 3,
-      "feedback": "بدأ بايرون مسيرته في النشر والكتابة الأدبية في سن السابعة عشرة[cite: 1]."
+      "feedback": "بدأ بايرون مسيرته في النشر والكتابة الأدبية في سن السابعة عشرة[cite: 1].",
+      "id": "q_e69bbc40867078a915a6",
+      "legacyIds": [
+        "id_7d7cc014",
+        "qid_63a6791"
+      ],
+      "legacyPrimaryIds": [
+        "qid_63a6791"
+      ]
     },
     {
       "q": "The poem that made him famous was:",
@@ -1182,25 +2002,72 @@
         "She Walks in Beauty"
       ],
       "correct": 1,
-      "feedback": "حققت قصيدة 'رحلة تشايلد هارولد' لبايرون شهرة فورية وواسعة بمجرد نشرها[cite: 1]."
+      "feedback": "حققت قصيدة 'رحلة تشايلد هارولد' لبايرون شهرة فورية وواسعة بمجرد نشرها[cite: 1].",
+      "id": "q_3a70ee3067c22f59eb32",
+      "legacyIds": [
+        "id_42395b47",
+        "qid_980b4ba"
+      ],
+      "legacyPrimaryIds": [
+        "qid_980b4ba"
+      ]
     },
     {
       "q": "His way of life was described as:",
-      "options": ["Serious", "Flamboyant", "Patriotic", "Pious"],
+      "options": [
+        "Serious",
+        "Flamboyant",
+        "Patriotic",
+        "Pious"
+      ],
       "correct": 1,
-      "feedback": "يوصف أسلوب حياة بايرون تاريخياً بأنه كان مبهراً، صاخباً ومثيراً للجدل (flamboyant)[cite: 1]."
+      "feedback": "يوصف أسلوب حياة بايرون تاريخياً بأنه كان مبهراً، صاخباً ومثيراً للجدل (flamboyant)[cite: 1].",
+      "id": "q_a90e614f56200540f9a9",
+      "legacyIds": [
+        "id_78cc4d95",
+        "qid_24ed5610"
+      ],
+      "legacyPrimaryIds": [
+        "qid_24ed5610"
+      ]
     },
     {
       "q": "The Byronic hero was characterised by:",
-      "options": ["Sadness", "Violence", "Courage", "Both a and c"],
+      "options": [
+        "Sadness",
+        "Violence",
+        "Courage",
+        "Both a and c"
+      ],
       "correct": 3,
-      "feedback": "غالباً ما يظهر البطل البايروني مزيجاً فريداً من الحزن والشجاعة الجريئة[cite: 1]."
+      "feedback": "غالباً ما يظهر البطل البايروني مزيجاً فريداً من الحزن والشجاعة الجريئة[cite: 1].",
+      "id": "q_fc255d96523c019d6ba1",
+      "legacyIds": [
+        "id_1d67b116",
+        "qid_5c8f0373"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5c8f0373"
+      ]
     },
     {
       "q": "Which of the following poems was not written by Byron?",
-      "options": ["Queen Mab", "The Corsair", "Darkness", "Don Juan"],
+      "options": [
+        "Queen Mab",
+        "The Corsair",
+        "Darkness",
+        "Don Juan"
+      ],
       "correct": 0,
-      "feedback": "قصيدة 'الملكة ماب' كُتبت بواسطة الشاعر بيرسي بيش شيلي وليس بايرون[cite: 1]."
+      "feedback": "قصيدة 'الملكة ماب' كُتبت بواسطة الشاعر بيرسي بيش شيلي وليس بايرون[cite: 1].",
+      "id": "q_5f01206ac66bdabe0aea",
+      "legacyIds": [
+        "id_4d93a9f1",
+        "qid_69d16969"
+      ],
+      "legacyPrimaryIds": [
+        "qid_69d16969"
+      ]
     },
     {
       "q": "Which of the following poems didn't feature the Byronic hero?",
@@ -1211,287 +2078,313 @@
         "Childe Harold's Pilgrimage"
       ],
       "correct": 1,
-      "feedback": "تتميز شخصية 'دون جوان' باختلافها عن الصورة النمطية التقليدية للبطل البايروني الكئيب والمثالي[cite: 1]."
-    },
-    {
-      "q": "What kind of movement was Romanticism?",
-      "options": ["Political", "Poetic", "Literary"],
-      "correct": 2,
-      "feedback": "تُصنف الرومانسية بشكل أساسي كحركة أدبية وفكرية كبرى[cite: 1]."
+      "feedback": "تتميز شخصية 'دون جوان' باختلافها عن الصورة النمطية التقليدية للبطل البايروني الكئيب والمثالي[cite: 1].",
+      "id": "q_f4c81adffebe0ed79581",
+      "legacyIds": [
+        "id_4c77f373",
+        "qid_60483cc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_60483cc"
+      ]
     },
     {
       "q": "Romanticism as a movement placed a great emphasis on:",
-      "options": ["expression", "individualism", "objectivity"],
+      "options": [
+        "expression",
+        "individualism",
+        "objectivity"
+      ],
       "correct": 1,
-      "feedback": "تُعتبر الفردية وتمجيد الذات حجر الزاوية والمحور الأساسي للفلسفة الرومانسية[cite: 1]."
-    },
-    {
-      "q": "(...) was essential, and it could only be achieved through subjectivity.",
-      "options": ["Spontaneity", "innocence", "originality"],
-      "correct": 2,
-      "feedback": "يجري التأكيد على أن الأصالة الحقيقية تتطلب بالضرورة منهجاً وتجربة ذاتية[cite: 1]."
+      "feedback": "تُعتبر الفردية وتمجيد الذات حجر الزاوية والمحور الأساسي للفلسفة الرومانسية[cite: 1].",
+      "id": "q_f61809fdfb97c992b3e6",
+      "legacyIds": [
+        "id_5d1c76d9",
+        "qid_7b31e2a6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7b31e2a6"
+      ]
     },
     {
       "q": "Roman, and its use in European languages such as French, German, and Russian in the (...) to refer to the literary genre known in English as the 'novel'.",
-      "options": ["17th century", "18th century", "19th century"],
+      "options": [
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
       "correct": 0,
-      "feedback": "بدأ استخدام مصطلح 'roman' بهذا السياق للإشارة إلى الرواية الأدبية في القرن السابع عشر[cite: 1]."
-    },
-    {
-      "q": "One of the main classical western values is:",
-      "options": ["Realism", "objectivity", "truth"],
-      "correct": 1,
-      "feedback": "تُعتبر الموضوعية إحدى القيم الجوهرية والأساسية المرتبطة بالتقاليد الكلاسيكية[cite: 1]."
+      "feedback": "بدأ استخدام مصطلح 'roman' بهذا السياق للإشارة إلى الرواية الأدبية في القرن السابع عشر[cite: 1].",
+      "id": "q_96381571330d18ca6a7d",
+      "legacyIds": [
+        "id_17ec515c",
+        "qid_16bb2a59"
+      ],
+      "legacyPrimaryIds": [
+        "qid_16bb2a59"
+      ]
     },
     {
       "q": "Focus on the mysterious human nature in Romanticism was often linked to another interest in:",
-      "options": ["The supernatural", "Science", "Psychology"],
-      "correct": 0,
-      "feedback": "غالباً ما ربطت الرومانسية بين الجوانب الغامضة في الطبيعة البشرية وبين الاهتمام بالظواهر الخارقة للطبيعة[cite: 1]."
-    },
-    {
-      "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries.",
       "options": [
-        "The French Revolution",
-        "Enlightenment",
-        "the scientific Revolution"
+        "The supernatural",
+        "Science",
+        "Psychology"
       ],
-      "correct": 2,
-      "feedback": "امتدت الثورة العلمية وتطورت عبر هذه القرون الثلاثة المتتالية[cite: 1]."
+      "correct": 0,
+      "feedback": "غالباً ما ربطت الرومانسية بين الجوانب الغامضة في الطبيعة البشرية وبين الاهتمام بالظواهر الخارقة للطبيعة[cite: 1].",
+      "id": "q_2e0bd33fc9ec1673602b",
+      "legacyIds": [
+        "id_1a839838",
+        "qid_335ec868"
+      ],
+      "legacyPrimaryIds": [
+        "qid_335ec868"
+      ]
     },
     {
       "q": "Some associate the Enlightenment with the works of:",
-      "options": ["Rene Descartes", "Napoleon", "Albert Einstein"],
+      "options": [
+        "Rene Descartes",
+        "Napoleon",
+        "Albert Einstein"
+      ],
       "correct": 0,
-      "feedback": "غالبًا ما يُربط الفيلسوف رينيه ديكارت بوضع القواعد التأسيسية الأولى لفكر عصر التنوير[cite: 1]."
+      "feedback": "غالبًا ما يُربط الفيلسوف رينيه ديكارت بوضع القواعد التأسيسية الأولى لفكر عصر التنوير[cite: 1].",
+      "id": "q_eddf3ed67b0360611184",
+      "legacyIds": [
+        "id_38f5d35a",
+        "qid_2ecff8e5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2ecff8e5"
+      ]
     },
     {
       "q": "(...) in art focused on painting everyday objects without artistic embellishment.",
-      "options": ["Classicism", "Realism", "Romanticism"],
+      "options": [
+        "Classicism",
+        "Realism",
+        "Romanticism"
+      ],
       "correct": 1,
-      "feedback": "تُعرّف المدرسة الواقعية بتركيزها على تصوير ونقل الأشياء واليوميات العادية كما هي دون تجميل فني[cite: 1]."
+      "feedback": "تُعرّف المدرسة الواقعية بتركيزها على تصوير ونقل الأشياء واليوميات العادية كما هي دون تجميل فني[cite: 1].",
+      "id": "q_3c0ab4d06ce0cc2e0d71",
+      "legacyIds": [
+        "id_3bcd381b",
+        "qid_7b807018"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7b807018"
+      ]
     },
     {
       "q": "Industrialization in 19th-century Britain led to:",
-      "options": ["Unemployment", "Famine", "Urbanism"],
-      "correct": 2,
-      "feedback": "أدت الثورة الصناعية إلى هجرة جماعية هائلة نحو المدن، مما ساهم في نشوء التوسع الحضري السريع (العمران)[cite: 1]."
-    },
-    {
-      "q": "Population in Ireland dropped to a half between 1845 and 1852 because of:",
-      "options": ["The Great Famine", "Migration to Europe", "Unemployment"],
-      "correct": 0,
-      "feedback": "تسببت 'المجاعة الكبرى' في أيرلندا في خسائر ديموغرافية هائلة وانخفاض حاد في عدد السكان خلال هذه الفترة[cite: 1]."
-    },
-    {
-      "q": "New subsectors of Christianity emerged including the Methodists and the Evangelicals in:",
       "options": [
-        "The 20th century",
-        "the Victorian Age",
-        "Age of Enlightenment"
+        "Unemployment",
+        "Famine",
+        "Urbanism"
       ],
-      "correct": 1,
-      "feedback": "شهدت هذه المذاهب والطوائف المسيحية نمواً وتوسعاً كبيراً خلال العصر الفيكتوري[cite: 1]."
+      "correct": 2,
+      "feedback": "أدت الثورة الصناعية إلى هجرة جماعية هائلة نحو المدن، مما ساهم في نشوء التوسع الحضري السريع (العمران)[cite: 1].",
+      "id": "q_b389e09b8056ddc056ef",
+      "legacyIds": [
+        "id_7cd788d0",
+        "qid_4b645b9e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4b645b9e"
+      ]
     },
     {
       "q": "Unpremeditated art",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Byron",
+        "Shelley"
+      ],
       "correct": 3,
-      "feedback": "هذه العبارة الأدبية مستقاة ومرتبطة بشعر الشاعر شيلي[cite: 1]."
+      "feedback": "هذه العبارة الأدبية مستقاة ومرتبطة بشعر الشاعر شيلي[cite: 1].",
+      "id": "q_56543cea8f01ee3ffc6a",
+      "legacyIds": [
+        "id_2541f4a1",
+        "qid_7797b922"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7797b922"
+      ]
     },
     {
       "q": "hungry gore",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Byron",
+        "Shelley"
+      ],
       "correct": 1,
-      "feedback": "وفقاً للمفاتيح المحددة للقصائد، تُنسب هذه الصياغة لوليام بليك[cite: 1]."
+      "feedback": "وفقاً للمفاتيح المحددة للقصائد، تُنسب هذه الصياغة لوليام بليك[cite: 1].",
+      "id": "q_e6376f249eedd447a975",
+      "legacyIds": [
+        "id_4dd07529",
+        "qid_26e490e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_26e490e"
+      ]
     },
     {
       "q": "Men forgot their passions",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Byron",
+        "Shelley"
+      ],
       "correct": 2,
-      "feedback": "وفقاً للمفاتيح المحددة للقصائد، يُنسب هذا التعبير للشاعر بايرون[cite: 1]."
+      "feedback": "وفقاً للمفاتيح المحددة للقصائد، يُنسب هذا التعبير للشاعر بايرون[cite: 1].",
+      "id": "q_8cc886217d2c0cbd3fba",
+      "legacyIds": [
+        "id_61d0f851",
+        "qid_1a8b232b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1a8b232b"
+      ]
     },
     {
       "q": "I sought for ghosts",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Byron",
+        "Shelley"
+      ],
       "correct": 3,
-      "feedback": "وفقاً للمفاتيح المحددة، يُنسب هذا التعبير للشاعر بيرسي بيش شيلي[cite: 1]."
+      "feedback": "وفقاً للمفاتيح المحددة، يُنسب هذا التعبير للشاعر بيرسي بيش شيلي[cite: 1].",
+      "id": "q_35921f5e696fa5b0b7ea",
+      "legacyIds": [
+        "id_28b5e567",
+        "qid_1b2d636a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1b2d636a"
+      ]
     },
     {
       "q": "Getting and spending",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Byron",
+        "Shelley"
+      ],
       "correct": 0,
-      "feedback": "هذا سطر شعري شهير جداً من قصائد الشاعر ويليام وردزورث[cite: 1]."
+      "feedback": "هذا سطر شعري شهير جداً من قصائد الشاعر ويليام وردزورث[cite: 1].",
+      "id": "q_f66f5261231f8c4e8d28",
+      "legacyIds": [
+        "id_7ec8b4fd",
+        "qid_226bb149"
+      ],
+      "legacyPrimaryIds": [
+        "qid_226bb149"
+      ]
     },
     {
       "q": "Thoughts serenely sweet",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Byron",
+        "Shelley"
+      ],
       "correct": 2,
-      "feedback": "وفقاً للمفاتيح المحددة للنصوص، يُنسب هذا البيت الشعري الرقيق للشاعر بايرون[cite: 1]."
+      "feedback": "وفقاً للمفاتيح المحددة للنصوص، يُنسب هذا البيت الشعري الرقيق للشاعر بايرون[cite: 1].",
+      "id": "q_bf654015df22465daade",
+      "legacyIds": [
+        "id_5b4f22fb",
+        "qid_6cfbad81"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6cfbad81"
+      ]
     },
     {
       "q": "Half sunk a shattered visage",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Byron",
+        "Shelley"
+      ],
       "correct": 3,
-      "feedback": "هذا السطر الشعري مأخوذ من قصيدة 'أوزيماندياس' الشهيرة للشاعر شيلي[cite: 1]."
+      "feedback": "هذا السطر الشعري مأخوذ من قصيدة 'أوزيماندياس' الشهيرة للشاعر شيلي[cite: 1].",
+      "id": "q_a337e638d1bc2242105e",
+      "legacyIds": [
+        "id_fe5cce9",
+        "qid_30153326"
+      ],
+      "legacyPrimaryIds": [
+        "qid_30153326"
+      ]
     },
     {
       "q": "Kubla heard from far/Ancestral voices",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Samuel Taylor Coleridge",
+        "Byron",
+        "Shelley"
+      ],
       "correct": 1,
-      "feedback": "تنسب المفاتيح المحددة للنصوص هذا المقطع إلى الشاعر ويليام بليك[cite: 1]."
+      "feedback": "The lines are from Coleridge's ‘Kubla Khan’; the original options omitted him.",
+      "id": "q_2f8f16d9b34b19f1fb90",
+      "legacyIds": [
+        "id_708c9140",
+        "qid_61b9365b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_61b9365b"
+      ]
     },
     {
       "q": "Babe can never hunger here",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+      "options": [
+        "Wordsworth",
+        "Blake",
+        "Byron",
+        "Shelley"
+      ],
       "correct": 1,
-      "feedback": "وفقاً للمفاتيح المحددة والتحليلات، يُنسب هذا السطر لوليام بليك[cite: 1]."
+      "feedback": "وفقاً للمفاتيح المحددة والتحليلات، يُنسب هذا السطر لوليام بليك[cite: 1].",
+      "id": "q_454f265080676d16c56a",
+      "legacyIds": [
+        "id_65b344ca",
+        "qid_6e2d6785"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6e2d6785"
+      ]
     },
     {
       "q": "What dread hand and what dread feet",
-      "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
-      "correct": 1,
-      "feedback": "هذا السطر الشعري الشهير مأخوذ من قصيدة 'النمر' (The Tyger) لوليام بليك[cite: 1]."
-    },
-    {
-      "q": "What kind of movement was Romanticism?",
-      "options": ["Social", "Political", "Literary"],
-      "correct": 2,
-      "feedback": "تُصنف الحركة الرومانسية تاريخياً وبشكل أساسي كحركة أدبية وثقافية[cite: 1]."
-    },
-    {
-      "q": "Romanticism as a movement placed the greatest emphasis on:",
-      "options": ["expression", "individualism", "emotions"],
-      "correct": 1,
-      "feedback": "تُعتبر الفردية (individualism) التركيز الأكثر أهمية والجوهر الحقيقي للحركة الرومانسية[cite: 1]."
-    },
-    {
-      "q": "(...) was essential, and it could only be achieved through subjectivity.",
-      "options": ["Spontaneity", "innocence", "originality", "nationalism"],
-      "correct": 2,
-      "feedback": "يجري التأكيد على الأصالة (originality) كصفة فريدة لا تتحقق إلا من خلال الرؤية الذاتية[cite: 1]."
-    },
-    {
-      "q": "Which of the following had a minimal influence on British romantics?",
-      "options": ["the supernatural", "spirituality", "nationalism"],
-      "correct": 2,
-      "feedback": "غالبًا ما يُذكر أن النزعة القومية كان لها تأثير أقل على الرومانسيين البريطانيين مقارنة بالتركيز على الروحانيات والماورائيات[cite: 1]."
-    },
-    {
-      "q": "One of the main classical western values is:",
-      "options": ["Realism", "objectivity"],
-      "correct": 1,
-      "feedback": "تُعد الموضوعية قيمة محورية وتأسيسية مرتبطة ارتباطاً وثيقاً بالتقاليد الكلاسيكية[cite: 1]."
-    },
-    {
-      "q": "One of the following was not a mathematical scientist:",
-      "options": ["Francis Bacon", "Rene Descartes", "Isaac Newton"],
-      "correct": 0,
-      "feedback": "يُعرف فرانسيس بيكون بإسهاماته الكبيرة في المنهج العلمي التجريبي والفلسفة، بدلاً من كونه عالماً رياضياً مثل ديكارت أو نيوتن[cite: 1]."
-    },
-    {
-      "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
       "options": [
-        "The French Revolution",
-        "Enlightenment",
-        "the scientific Revolution"
-      ],
-      "correct": 2,
-      "feedback": "امتد عصر الثورة العلمية وازدهر طوال هذه القرون الثلاثة المتتالية[cite: 1]."
-    },
-    {
-      "q": "How many Reform Acts were introduced in Britain during the 19th century?",
-      "options": ["One", "Two", "None"],
-      "correct": 1,
-      "feedback": "تم إدخال قانونين رئيسيين للإصلاح السياسي في بريطانيا العظمى خلال القرن التاسع عشر (عامي 1832 و1867)[cite: 1]."
-    },
-    {
-      "q": "Romantics were mainly:",
-      "options": ["Athiests", "Religious", "Not necessarily either"],
-      "correct": 2,
-      "feedback": "لم تكن الرومانسية مقيدة بالإلحاد أو الالتزام الديني الصارم؛ بل تباينت التوجهات الفكرية والروحية بين الشعراء[cite: 1]."
-    },
-    {
-      "q": "Industrialization in 19th-century Britain was mainly responsible for:",
-      "options": ["Unemployment", "Famine and plague", "Urbanism"],
-      "correct": 2,
-      "feedback": "كانت الثورة الصناعية مسؤولة بشكل أساسي عن حركة التوسع العمراني السريع وهجرة الناس للمدن للعمل[cite: 1]."
-    },
-    {
-      "q": "Population in Ireland dropped to a half between 1845 and 1852 because of:",
-      "options": ["The Great Famine", "Migration to Europe", "Unemployment"],
-      "correct": 0,
-      "feedback": "تسببت المجاعة الكبرى الشهيرة (1845-1852) في انخفاض كارثي في عدد السكان في أيرلندا[cite: 1]."
-    },
-    {
-      "q": "New subsectors of Christianity emerged including the Methodists and the Evangelicals in:",
-      "options": [
-        "The 20th century",
-        "the Victorian Age",
-        "Age of Enlightenment"
+        "Wordsworth",
+        "Blake",
+        "Byron",
+        "Shelley"
       ],
       "correct": 1,
-      "feedback": "شهد العصر الفيكتوري صعود ونشاط هذه الطوائف والحركات الدينية المسيحية الجديدة[cite: 1]."
-    },
-    {
-      "q": "In profuse strains of unpremeditated art (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 3,
-      "feedback": "هذا السطر الشعري مأخوذ من قصيدة شيلي الشهيرة 'إلى قُبّرة' (To a Skylark)[cite: 1]."
-    },
-    {
-      "q": "The human heart, its hungry gore (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 1,
-      "feedback": "تُنسب هذه الصورة والتعبير الشعري المكثف إلى أعمال الشاعر ويليام بليك[cite: 1]."
-    },
-    {
-      "q": "A spring of love gushed from my heart (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 2,
-      "feedback": "يظهر هذا البيت الشعري الجميل في قصيدة كولريدج الشهيرة 'ملاحة البحار القديم'[cite: 1]."
-    },
-    {
-      "q": "In thy ebb and flow/ claspests the limits of mortality (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 3,
-      "feedback": "يرتبط هذا السطر الشعري التأملي بأعمال وقصائد الشاعر شيلي[cite: 1]."
-    },
-    {
-      "q": "The river glideth at his own sweet will (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 0,
-      "feedback": "هذا السطر مأخوذ من قصيدة وردزورث الشهيرة 'كُتبت فوق جسر وستمنستر'[cite: 1]."
-    },
-    {
-      "q": "The hand that mocked them (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 3,
-      "feedback": "هذا التعبير مأخوذ من قصيدة 'أوزيماندياس' (Ozymandias) الشهيرة للشاعر شيلي[cite: 1]."
-    },
-    {
-      "q": "Half sunk a shattered visage (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 3,
-      "feedback": "هذا السطر يصف التمثال المهدم في قصيدة 'أوزيماندياس' للشاعر شيلي[cite: 1]."
-    },
-    {
-      "q": "I closed my lids, and kept them closed (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 2,
-      "feedback": "هذا السطر مأخوذ من الجزء الثالث من قصيدة 'ملاحة البحار القديم' للشاعر صامويل تايلور كولريدج."
-    },
-    {
-      "q": "And all must love the human form (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 1,
-      "feedback": "هذا البيت مأخوذ من قصيدة 'الصورة الإلهية' (The Divine Image) للشاعر ويليام بليك[cite: 1]."
-    },
-    {
-      "q": "Maids at the wheel, the weaver at his loom (Identify the poet)",
-      "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
-      "correct": 0,
-      "feedback": "يُنسب هذا السطر الشعري الذي يصور الحياة اليومية البسيطة لوليام وردزورث[cite: 1]."
+      "feedback": "هذا السطر الشعري الشهير مأخوذ من قصيدة 'النمر' (The Tyger) لوليام بليك[cite: 1].",
+      "id": "q_bae896e528300476c49b",
+      "legacyIds": [
+        "id_758f894d",
+        "qid_4e24ea48"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4e24ea48"
+      ]
     }
   ]
 }
