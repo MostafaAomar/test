@@ -1,71 +1,32 @@
-UniQuiz Offline - deployment and use
-=====================================
+Grade 1 Interactive Flipbook
 
-1. Upload every file in this folder to the same GitHub Pages/site directory.
-   This includes `.github/workflows`, `scripts`, and `content-manifest.json`.
-2. Open the deployed HTTPS page once while connected to the internet.
-3. Press Download beside only the year the student wants (First Year, Second Year, etc.).
-4. After the success message, that year and the application design work offline.
-5. After a year is downloaded, UniQuiz checks the repository while online.
-   The Update button stays hidden unless a NEW subject JSON file is added to that year.
-   When the student updates successfully, the alert disappears. Changes inside an
-   existing subject file alone do not show the alert.
-6. Press Remove to delete a year's offline question data. Quiz progress is kept.
+Open index.html in a modern browser while connected to the internet. If opening the file directly does not load the pages, run "python -m http.server 8000" from this folder and open http://localhost:8000/index.html. The book pages are the JPG images in pages/.
 
-Cross-device words and notes
-----------------------------
+NO POPUP BOXES. Everything the student solves appears directly on the page.
 
-1. Open "My Vocabulary" and press "تسجيل الدخول والمزامنة".
-2. Press "إنشاء حساب", enter an email address and a password of at least six
-   characters, and confirm the email if Supabase email confirmation is enabled.
-3. Sign in with the same email and password on every device. UniQuiz reads and
-   writes the signed-in user's row in the Supabase `user_app_data` table.
-4. Saved vocabulary and question notes are merged by their update time. Deletions
-   are also remembered so removed entries do not reappear on another device.
-5. Local use remains available without signing in. Signing out removes the
-   Supabase session from that device but keeps its local words and notes.
+STUDENT VIEW
+Each exercise has a blue button on the page and, beside it, a white "أجب مرة أخرى" (answer again) button. Tapping the blue button hears the instruction (or plays the audio). Tapping "أجب مرة أخرى" clears that student's answer for that exercise only.
+- Fill (اكتب): each blank is a transparent box with a thin underline on the page, so it does not cover the printed words. The student types the answer. When the student leaves the box, it turns green if correct and red if not.
+- Read (قراءة): the reading text and question are not shown. The student taps the blue button to hear the text. There is no answer box.
+- Choice (اختيار): the question shows on the page; tap an answer button. Correct answers turn green and incorrect ones red.
+- Match (توصيل): the dots are on the page. Drag a free line from a dot to a dot on the other side. Correct lines turn green, incorrect ones red.
+- Listen (استماع): the blue button plays the audio or reads the text. There is no answer, so there is no "answer again" button.
+- Writing (كتابة): a drawing area for handwriting.
+- "ارسم على الكتاب" draws freely on the page; "تراجع" undoes the last stroke; "مسح علامات هذه الصفحات" clears the visible page.
+Student answers are saved in the current browser.
 
-Supabase requirements:
-- Run `SUPABASE_SETUP.sql` once in Supabase Dashboard > SQL Editor.
-- Authentication > Sign In / Providers > Email must be enabled.
-- Authentication > URL Configuration must contain the deployed application URL.
-- `public.user_app_data.user_id` must reference `auth.users.id` and be the primary key.
-- Row Level Security must allow authenticated users to select, insert, and update
-  only the row where `auth.uid() = user_id`.
-- The frontend contains only the Project URL and publishable key. Never place a
-  Supabase secret/service-role key in this project.
+TEACHER VIEW
+Turn on "وضع المعلم" to edit. Only in Teacher Mode do the setup tools appear (تحميل PDF, إضافة نشاط, تصدير/استيراد). Each activity shows as a button; click it to edit, or drag it to move it. In Teacher Mode, each fill blank shows as a dashed box: drag it to the exact place on the page, or drag its blue corner to resize it. Click it (without moving) to edit the activity. Turn Teacher Mode off to see the student view.
 
-Important:
-- Offline mode requires HTTPS hosting (GitHub Pages is suitable). Service workers do
-  not work when index.html is opened directly as a file from the computer.
-- Keep index.html, app.js, style.css, offline.css, service-worker.js,
-  manifest.webmanifest, and icon.svg together.
-- Progress and downloaded years are stored in the browser on that device.
-- Cross-device sync currently covers personal vocabulary and question notes.
-  Quiz/study progress and downloaded year files remain device-local.
-- App/code updates on the same website do not erase the saved progress.
+Adding an activity: turn on Teacher Mode, click "إضافة نشاط", then click the page where it should appear. Choose the type, fill in the fields, and save.
+- Fill: enter one line per blank in the answer list. Lines are the correct answers; use / for alternatives (for example: book/books). Save, reopen the activity, click "تحديد مواضع الفراغات على الصفحة", then click the page once for each blank, in order. Afterwards, drag each dashed box to fine-tune its place.
+- Match: enter each pair on its own line as "word = word", for example: father = أب. Save, reopen the activity and click "تحديد نقاط التوصيل على الصفحة". Click the page once for each picture/word dot and then once for its answer dot, pair by pair. Press Esc to cancel. Afterwards you can drag any dot to adjust it.
+- Choice: enter 2–4 options and the number of the correct option. Reopen the activity and click "تحديد مواضع أزرار الإجابة" to click the page once for each answer button.
+- Read: enter the question and the reading text.
+- Voice: the list shows every voice installed on the computer. A voice you choose is always used, even if its language is not the text's language.
+- Listen: enter the text to be read, or upload an audio file in the audio field; the audio plays instead of the voice. If the device has no Arabic voice, upload audio. "تجربة الصوت" previews the voice.
+- Writing: place it on the page, then drag the box to position it. In Teacher Mode, drag anywhere on the box to move it and drag its blue corner to resize it.
 
-Automatic updates
------------------
+"🗑 مسح كل الأنشطة" (Teacher Mode) deletes all activities and marks after a confirmation. Uploading a new PDF also removes the old activities and marks after a confirmation.
 
-- While online and open, the app checks once every minute for a new application shell
-  and for changes inside every subject file of each downloaded year.
-- Question discovery uses one conditional repository-tree request shared by all
-  downloaded years. Unchanged responses are reused, and `content-manifest.json`
-  remains available as a fallback. JSON files are downloaded directly from the
-  committed `main` branch instead of waiting for the GitHub Pages deployment.
-- The included GitHub workflow also rebuilds the fallback manifest automatically
-  whenever a JSON file in a year folder is committed.
-- If the workflow cannot push its manifest commit, open the repository's
-  Settings > Actions > General > Workflow permissions and allow read and write
-  permissions, then run "Refresh question manifest" once from the Actions tab.
-- Added or changed questions are downloaded silently. Saved quiz/study progress
-  and question notes remain attached to their stable question IDs.
-- Browsers that support Periodic Background Sync may refresh the application
-  shell while the installed PWA is closed. All other browsers run the same check
-  when the app opens, becomes visible, or reconnects to the internet.
-- After deploying this version, replace every file once and reopen/refresh the
-  app so cache version v10 becomes active. Future releases no longer require the
-  student to clear browser storage manually.
-- To change the interval later, edit `AUTOMATIC_UPDATE_INTERVAL_MS` near the top
-  of app.js. For 24 hours, use `24 * 60 * 60 * 1000`.
+Use "تصدير الأنشطة" to back up activities and "استيراد الأنشطة" to restore them. "تصدير كتاب الطالب" creates a standalone student book with its pages, activities, and marks.
