@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-visual">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232d6cdf'/%3E%3Cpath d='M14 18h16a6 6 0 0 1 6 6v26a6 6 0 0 0-6-6H14zM50 18H34a6 6 0 0 0-6 6v26a6 6 0 0 1 6-6h16z' fill='%23fff'/%3E%3C/svg%3E">
 <title>Emar English Series - Grade 1 Pupil's Book</title>
 <style>
   :root {
@@ -178,25 +179,159 @@
 .rf-blank-drag{pointer-events:auto;cursor:move;touch-action:none}
 .rf-resize{position:absolute;right:-5px;bottom:-5px;width:11px;height:11px;border:1px solid #fff;border-radius:3px;background:#1674d1;cursor:nwse-resize;touch-action:none;pointer-events:auto}
 </style>
+
+<style id="rf-viewer-css">
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;overscroll-behavior:none;background:#22223b;-webkit-text-size-adjust:100%}
+body{display:block;gap:0}
+.rf-sr{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+#rf-viewer{position:fixed;inset:0;z-index:1;overflow:hidden;background:radial-gradient(circle at 50% 30%,#4a4e69,#22223b);touch-action:none;-webkit-touch-callout:none}
+#rf-viewer .book{position:absolute;left:0;top:0;padding:0;margin:0;max-width:none;max-height:none;overflow:visible;border-radius:0;background:none;box-shadow:none;transform-origin:0 0;width:var(--rf-w,100vw);height:var(--rf-h,auto)}
+#rf-viewer .book.anim{transition:transform .22s ease}
+#rf-viewer .stage{width:var(--rf-w,min(100vw,calc(100vh * .73206)));height:var(--rf-h,auto);aspect-ratio:.73206;touch-action:none;cursor:default;box-shadow:0 6px 28px rgba(0,0,0,.45)}
+#rf-viewer .stage.drawing{cursor:crosshair}
+/* inputs must stay editable on iOS inside a user-select:none page */
+.rf-blank-input,.rf-answer-input{-webkit-user-select:text;user-select:text;-webkit-touch-callout:default;font-size:16px;touch-action:manipulation}
+.rf-blank-input{font-size:16px}
+/* round floating buttons */
+#rf-viewer .rf-round{position:absolute;z-index:22;width:44px;height:44px;border-radius:50%;padding:0;border:0;background:rgba(34,34,59,.9);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 10px rgba(0,0,0,.45)}
+#rf-dock svg,#rf-close svg,#rf-dock-toggle svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+#rf-close{top:max(10px,env(safe-area-inset-top));right:max(10px,env(safe-area-inset-right));background:#c62839!important}
+/* Adobe-style right dock */
+#rf-dock{position:absolute;z-index:21;right:max(8px,env(safe-area-inset-right));top:calc(max(10px,env(safe-area-inset-top)) + 54px);bottom:12px;width:52px;display:flex;flex-direction:column;align-items:flex-end;justify-content:center;gap:6px;pointer-events:none}
+#rf-dock>*{pointer-events:auto}
+#rf-dock-toggle{position:static!important;width:34px!important;height:34px!important;opacity:.9}
+#rf-dock-toggle svg{width:18px;height:18px;transition:transform .2s}
+#rf-dock.collapsed #rf-dock-toggle svg{transform:rotate(180deg)}
+#rf-dock.collapsed #rf-dock-panel{display:none}
+#rf-dock-panel{display:flex;flex-direction:column;align-items:center;gap:2px;max-height:100%;overflow-y:auto;overflow-x:hidden;padding:5px;border-radius:16px;background:rgba(34,34,59,.9);box-shadow:0 4px 16px rgba(0,0,0,.45);touch-action:pan-y;scrollbar-width:none}
+#rf-dock-panel::-webkit-scrollbar{display:none}
+#rf-dock .dk{width:46px;height:46px;min-height:46px;border-radius:12px;background:transparent;color:#fff;box-shadow:none;border:0;padding:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font:600 10px/1.1 system-ui,sans-serif;cursor:pointer;-webkit-tap-highlight-color:transparent}
+#rf-dock .dk svg{width:22px;height:22px}
+#rf-dock .dk-txt{font-size:12px;font-variant-numeric:tabular-nums}
+#rf-dock .dk:active:not(:disabled){background:rgba(255,255,255,.2)}
+#rf-dock .dk:disabled{opacity:.3}
+#rf-dock .dk.rf-tool.active{background:#0ce91d!important;color:#1a1717!important}
+.dk-sep{width:30px;border:0;border-top:1px solid rgba(255,255,255,.25);margin:3px 0}
+@media (max-height:560px){
+  #rf-dock{width:100px}
+  #rf-dock-panel{display:grid;grid-template-columns:repeat(2,44px);gap:2px}
+  #rf-dock .dk{width:44px;height:44px;min-height:44px}
+  .dk-sep{grid-column:1/-1;width:80%;justify-self:center}
+}
+/* page slider (opens when the page number is tapped) */
+#rf-scrubbar{position:absolute;z-index:21;left:12px;right:72px;bottom:max(14px,env(safe-area-inset-bottom));display:none;padding:10px 14px;border-radius:999px;background:rgba(34,34,59,.92);box-shadow:0 3px 12px rgba(0,0,0,.45)}
+#rf-scrubbar.open{display:block}
+#rf-scrubbar input{width:100%;margin:0;display:block}
+/* status toast */
+#rf-status{position:absolute;z-index:23;left:50%;bottom:max(70px,calc(env(safe-area-inset-bottom) + 64px));transform:translateX(-50%);max-width:min(86vw,520px);padding:8px 14px;border-radius:999px;background:rgba(0,0,0,.82);color:#fff;font-size:13px;text-align:center;pointer-events:none;opacity:0;transition:opacity .2s}
+#rf-status.show{opacity:1}
+/* teacher bar (hidden in the exported student book) */
+#rf-teacher-bar{position:absolute;z-index:22;left:max(8px,env(safe-area-inset-left));top:max(8px,env(safe-area-inset-top));display:flex;flex-wrap:wrap;gap:6px;max-width:calc(100% - 70px);align-items:center;touch-action:manipulation}
+#rf-teacher-bar button,#rf-teacher-bar .rf-lbl{width:auto;height:auto;padding:7px 10px;border:0;border-radius:8px;font:inherit;font-size:12px;line-height:1.2;background:#fff;color:#22223b;box-shadow:0 2px 6px rgba(0,0,0,.35);cursor:pointer}
+#rf-teacher-bar .rf-lbl{display:inline-block}
+/* closed screen */
+#rf-closed{position:absolute;inset:0;z-index:40;background:#22223b;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-size:18px;direction:rtl}
+#rf-closed[hidden]{display:none}
+#rf-closed button{margin-top:14px;width:auto;height:auto;padding:10px 22px;border-radius:10px;font-size:16px}
+#rf-panel{z-index:60}
+
+/* ===================== theme ===================== */
+:root{--rf-blue:#2d6cdf;--rf-blue2:#4f8cff;--rf-green:#16a34a;--rf-red:#e5384b;--rf-orange:#f59e0b}
+#rf-viewer{background:radial-gradient(1200px 700px at 50% 20%,#4b4f7a 0%,#2a2b4d 55%,#17182e 100%)}
+#rf-viewer .stage{border-radius:8px;box-shadow:0 18px 50px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.06)}
+#rf-viewer .slot{border-radius:8px}
+/* glass dock */
+#rf-dock-panel{background:rgba(24,25,52,.74);-webkit-backdrop-filter:blur(14px) saturate(1.4);backdrop-filter:blur(14px) saturate(1.4);border:1px solid rgba(255,255,255,.16);border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+#rf-dock .dk{transition:background .15s,transform .1s}
+#rf-dock .dk:hover:not(:disabled){background:rgba(255,255,255,.14)}
+#rf-dock .dk:active:not(:disabled){transform:scale(.92)}
+#rf-dock .dk.rf-tool.active{background:linear-gradient(135deg,#22e06b,#0fb44f)!important;color:#06361a!important;box-shadow:0 0 0 2px rgba(34,224,107,.35)}
+#rf-dock .dk-txt{color:#cfe0ff}
+#rf-viewer .rf-round{transition:transform .15s,filter .15s;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+#rf-viewer .rf-round:hover{transform:scale(1.08)}
+#rf-close{background:linear-gradient(135deg,#ff5a6e,#c62839)!important;border:2px solid rgba(255,255,255,.55)!important}
+#rf-dock-toggle{background:rgba(24,25,52,.74)!important;border:1px solid rgba(255,255,255,.16)!important}
+/* activity buttons */
+.rf-pin{padding:5px 11px;font-size:12px;font-weight:700;border:2px solid #fff;background:linear-gradient(135deg,var(--rf-blue2),var(--rf-blue));box-shadow:0 3px 8px rgba(20,40,100,.4);letter-spacing:.2px}
+.rf-pin.done{background:linear-gradient(135deg,#34d27b,#15803d)}
+.rf-retry svg{width:14px;height:14px}
+.rf-retry{padding:4px 9px;border:2px solid #fff;background:linear-gradient(180deg,#ffffff,#eef2fb);color:#2a3b66;font-size:12px;box-shadow:0 3px 8px rgba(20,40,100,.3)}
+.rf-retry:hover,.rf-pin:hover{filter:brightness(1.07)}
+/* fill-in-the-blank boxes */
+.rf-blank-input,.rf-answer-input{background:rgba(255,246,196,.62);border-bottom:3px solid var(--rf-blue);border-radius:8px 8px 2px 2px;color:#1b2a52;font-weight:700;transition:box-shadow .15s,background .15s;outline:none}
+.rf-blank-input:focus,.rf-answer-input:focus{background:rgba(255,255,255,.92);box-shadow:0 0 0 3px rgba(79,140,255,.45),0 4px 12px rgba(30,60,150,.25)}
+.rf-blank-input.rf-fill-ok{background:rgba(190,255,214,.7);border-bottom-color:var(--rf-green);color:#0b5a28}
+.rf-blank-input.rf-fill-no{background:rgba(255,205,210,.7);border-bottom-color:var(--rf-red);color:#9c1222}
+/* choice answers */
+.rf-choice-answer,.rf-choice-question{border:2px solid #fff;box-shadow:0 3px 8px rgba(0,0,0,.3);font-weight:700}
+.rf-choice-answer{background:linear-gradient(135deg,#ffb23d,#f08a00)}
+.rf-choice-answer.correct{background:linear-gradient(135deg,#34d27b,#15803d)}
+.rf-choice-answer.incorrect{background:linear-gradient(135deg,#ff6b7d,#c62839)}
+/* matching: clear free lines + glowing dots */
+.rf-match-point{width:24px;height:24px;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.45);animation:rfPulse 1.8s ease-out infinite}
+.rf-match-point.preview{animation:none}
+.rf-match-point:active{transform:translate(-50%,-50%) scale(1.25)}
+@keyframes rfPulse{0%{box-shadow:0 2px 8px rgba(0,0,0,.45),0 0 0 0 rgba(79,140,255,.65)}70%{box-shadow:0 2px 8px rgba(0,0,0,.45),0 0 0 12px rgba(79,140,255,0)}100%{box-shadow:0 2px 8px rgba(0,0,0,.45),0 0 0 0 rgba(79,140,255,0)}}
+.rf-match-point[data-side="right"]{animation-name:rfPulseO}
+@keyframes rfPulseO{0%{box-shadow:0 2px 8px rgba(0,0,0,.45),0 0 0 0 rgba(245,158,11,.7)}70%{box-shadow:0 2px 8px rgba(0,0,0,.45),0 0 0 12px rgba(245,158,11,0)}100%{box-shadow:0 2px 8px rgba(0,0,0,.45),0 0 0 0 rgba(245,158,11,0)}}
+.rf-match-line{stroke-width:6;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 2px #fff) drop-shadow(0 1px 3px rgba(0,0,0,.35));opacity:.95}
+@media (prefers-reduced-motion:reduce){.rf-match-point{animation:none!important}}
+/* toast + teacher bar + closed screen */
+#rf-status{background:linear-gradient(135deg,rgba(30,32,70,.95),rgba(15,16,40,.95));border:1px solid rgba(255,255,255,.2);font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,.45)}
+#rf-teacher-bar button,#rf-teacher-bar .rf-lbl{border-radius:999px;font-weight:700;box-shadow:0 3px 10px rgba(0,0,0,.35)}
+#rf-closed{background:radial-gradient(900px 600px at 50% 30%,#4b4f7a,#17182e);flex-direction:column;gap:6px}
+#rf-closed::before{content:"📘";font-size:64px;filter:drop-shadow(0 6px 14px rgba(0,0,0,.5))}
+#rf-closed p{font-size:20px;font-weight:700;margin:6px 0}
+#rf-closed button{background:linear-gradient(135deg,#4f8cff,#2d6cdf);color:#fff;border:2px solid #fff;font-weight:700;box-shadow:0 8px 20px rgba(45,108,223,.5)}
+</style>
 </head>
 <body>
-  <h1>Emar English Series &middot; Grade 1 Pupil's Book</h1>
+  <h1 class="rf-sr">Emar English Series &middot; Grade 1 Pupil's Book</h1>
 
-  <div class="book">
-    <div class="stage" id="stage" aria-label="Book. Click or drag a page corner to turn a page.">
-      <div class="slot slot-l" id="slotL"></div>
-      <div class="slot slot-r" id="slotR"></div>
-      <canvas id="fx"></canvas>
+  <div id="rf-viewer">
+    <div class="book" id="rf-wrap">
+      <div class="stage" id="stage" aria-label="Book. Pinch to zoom, drag a page corner to turn a page.">
+        <div class="slot slot-l" id="slotL"></div>
+        <div class="slot slot-r" id="slotR"></div>
+        <canvas id="fx"></canvas>
+      </div>
     </div>
-  </div>
 
-  <div class="controls">
-    <button id="prev" aria-label="Previous page">&#8249;</button>
-    <div class="info" id="info" aria-live="polite"></div>
-    <button id="next" aria-label="Next page">&#8250;</button>
-  </div>
-  <input type="range" id="scrub" min="0" value="0" aria-label="Jump to page">
+    <button id="rf-close" class="rf-round" type="button" title="إغلاق" aria-label="إغلاق الكتاب"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
 
+    <div id="rf-dock" role="toolbar" aria-label="أدوات الكتاب">
+      <button id="rf-dock-toggle" class="rf-round" type="button" title="إخفاء / إظهار الأدوات" aria-label="إخفاء أو إظهار الأدوات" aria-expanded="true"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+      <div id="rf-dock-panel">
+        <button id="rf-zin" class="dk" type="button" title="تكبير" aria-label="تكبير"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button>
+        <button id="rf-zfit" class="dk dk-txt" type="button" title="ملاءمة الصفحة" aria-label="ملاءمة الصفحة">100%</button>
+        <button id="rf-zout" class="dk" type="button" title="تصغير" aria-label="تصغير"><svg viewBox="0 0 24 24"><path d="M5 12h14"/></svg></button>
+        <hr class="dk-sep">
+        <button id="prev" class="dk" type="button" title="الصفحة السابقة" aria-label="Previous page"><svg viewBox="0 0 24 24"><path d="M6 15l6-6 6 6"/></svg></button>
+        <button id="info" class="dk dk-txt" type="button" title="الانتقال إلى صفحة" aria-live="polite"></button>
+        <button id="next" class="dk" type="button" title="الصفحة التالية" aria-label="Next page"><svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>
+        <hr class="dk-sep">
+        <button id="rf-draw" class="dk rf-tool" type="button" title="ارسم على الكتاب" aria-label="ارسم على الكتاب"><svg viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg><span>ارسم</span></button>
+        <button id="rf-undo" class="dk" type="button" title="تراجع" aria-label="تراجع"><svg viewBox="0 0 24 24"><path d="M9 14L4 9l5-5M4 9h10a6 6 0 0 1 0 12h-3"/></svg><span>تراجع</span></button>
+        <button id="rf-clear" class="dk" type="button" title="مسح علامات هذه الصفحات" aria-label="مسح علامات هذه الصفحات"><svg viewBox="0 0 24 24"><path d="M5 7h14M10 7V4h4v3M7 7l1 13h8l1-13"/></svg><span>مسح</span></button>
+      </div>
+    </div>
+
+    <div id="rf-scrubbar"><input type="range" id="scrub" min="0" value="0" aria-label="Jump to page"></div>
+
+    <div id="rf-teacher-bar">
+      <button id="rf-mode" class="rf-tool" type="button">وضع المعلم: متوقفة</button>
+      <button id="rf-add" class="rf-muted" data-teacher-only type="button">＋ إضافة نشاط</button>
+      <label data-teacher-only class="rf-muted rf-lbl">تحميل PDF<input id="rf-pdf" type="file" accept="application/pdf" style="display:none"></label>
+      <button id="rf-export-book" class="rf-muted" data-teacher-only type="button">تصدير كتاب الطالب</button>
+      <button id="rf-export" class="rf-muted" data-teacher-only type="button">تصدير الأنشطة</button>
+      <button id="rf-import" class="rf-muted" data-teacher-only type="button">استيراد الأنشطة</button>
+      <button id="rf-clear-all" class="rf-muted" data-teacher-only type="button">🗑 مسح كل الأنشطة</button>
+      <input id="rf-file" type="file" accept="application/json" hidden>
+    </div>
+
+    <div id="rf-status" role="status" aria-live="polite"></div>
+    <div id="rf-closed" hidden><div><p>تم إغلاق الكتاب. يمكنك إغلاق هذه النافذة الآن.</p><button id="rf-reopen" type="button">فتح الكتاب</button></div></div>
+  </div>
 
 <style>
 #rf-toolbar{display:flex;gap:7px;align-items:center;justify-content:center;flex-wrap:wrap;max-width:95vw}
@@ -260,20 +395,6 @@ body:not(.rf-teacher) [data-teacher-only]{display:none!important}
 .rf-tool.active{background:#0ce91d!important;color:#1a1717!important}
 @media(max-width:760px){#rf-toolbar button{padding:7px 10px;font-size:12px}}
 </style>
-<div id="rf-toolbar">
-  <button id="rf-mode" class="rf-tool" >وضع المعلم: متوقفة</button>
-  <button id="rf-add" class="rf-muted" data-teacher-only>＋ إضافة نشاط</button>
-  <button id="rf-draw" class="rf-tool">✎ ارسم على الكتاب</button>
-  <button id="rf-undo" class="rf-muted">↶ تراجع</button>
-  <button id="rf-clear" class="rf-muted">مسح علامات هذه الصفحات</button>
-  <label data-teacher-only class="rf-muted" style="border-radius:8px;padding:8px 10px;color:#22223b;font-size:13px;cursor:pointer">تحميل PDF<input id="rf-pdf" type="file" accept="application/pdf" style="display:none"></label>
-  <button id="rf-export-book" class="rf-muted" data-teacher-only>تصدير كتاب الطالب</button>
-  <button id="rf-export" class="rf-muted" data-teacher-only>تصدير الأنشطة</button>
-  <button id="rf-import" class="rf-muted" data-teacher-only>استيراد الأنشطة</button>
-  <button id="rf-clear-all" class="rf-muted" data-teacher-only>🗑 مسح كل الأنشطة</button>
-  <input id="rf-file" type="file" accept="application/json" hidden>
-  <span id="rf-status" style="font-size:12px;color:#fff"></span>
-</div>
 <div id="rf-panel"><div id="rf-box">
   <h2 id="rf-heading">إعداد النشاط</h2>
   <label>نوع النشاط</label><select id="rf-type">
@@ -392,9 +513,12 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    catch(e){status('تعذر حفظ الرسم. مساحة التخزين في هذا المتصفح ممتلئة.');}
  };
  const pageNum=img=>{const n=img?.closest('.slot')?.dataset.pageIndex;if(n)return +n;let m=(img?.getAttribute('src')||'').match(/p-(\d+)\.jpg/);return m?+m[1]:null};
+ const layoutRect=c=>({width:c.clientWidth||c.offsetWidth||0,height:c.clientHeight||c.offsetHeight||0});
+ const redrawers=[];
+ const bitmapScale=r=>{const z=Math.min(3,Math.max(1,(window.RF_VIEW&&window.RF_VIEW.scale)||1));return Math.max(1,Math.min((window.devicePixelRatio||1)*z,Math.sqrt(8e6/Math.max(1,r.width*r.height))));};
  function visibleSlots(){return [...document.querySelectorAll('.slot')].filter(s=>s.querySelector('img'))}
  function redrawCanvas(canvas,page){
-   const rect=canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1;
+   const rect=layoutRect(canvas),dpr=bitmapScale(rect);
    if(!rect.width||!rect.height)return;
    const width=Math.round(rect.width*dpr),height=Math.round(rect.height*dpr);
    if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}
@@ -417,13 +541,13 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
      e.preventDefault();e.stopPropagation();canvas.setPointerCapture(e.pointerId);
      activeStroke={page,canvas,stroke:{color:'#087bd1',width:4,points:[point(e)]}};
      redrawCanvas(canvas,page);
-     const ctx=canvas.getContext('2d'),r=canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1;
+     const ctx=canvas.getContext('2d'),r=layoutRect(canvas),dpr=canvas.width/(r.width||1);
      ctx.setTransform(dpr,0,0,dpr,0,0);ctx.beginPath();ctx.strokeStyle=activeStroke.stroke.color;ctx.lineWidth=4;ctx.lineCap='round';ctx.lineJoin='round';ctx.moveTo(activeStroke.stroke.points[0].x*r.width,activeStroke.stroke.points[0].y*r.height);
    });
    canvas.addEventListener('pointermove',e=>{
      if(!activeStroke||activeStroke.canvas!==canvas)return;
      e.preventDefault();e.stopPropagation();
-     const p=point(e),r=canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1,ctx=canvas.getContext('2d');
+     const p=point(e),r=layoutRect(canvas),dpr=canvas.width/(r.width||1),ctx=canvas.getContext('2d');
      activeStroke.stroke.points.push(p);ctx.setTransform(dpr,0,0,dpr,0,0);ctx.lineTo(p.x*r.width,p.y*r.height);ctx.stroke();
    });
    const finish=e=>{
@@ -433,7 +557,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
      const key=String(page);if(!Array.isArray(drawings[key]))drawings[key]=[];
      drawings[key].push(stroke);saveDrawings();status('تم حفظ الرسم على الصفحة '+page);
    };
-   canvas.addEventListener('pointerup',finish);canvas.addEventListener('pointercancel',finish);
+   canvas.addEventListener('pointerup',finish);canvas.addEventListener('pointercancel',finish);redrawers.push(()=>redrawCanvas(canvas,page));
    redrawCanvas(canvas,page);
  }
  function enableTeacherMatchPointDrag(dot,activity,point,overlay){
@@ -502,7 +626,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
        area.appendChild(clr);}
    }else area.append(toolbar,canvas);
    const redraw=()=>{
-     const rect=canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1;
+     const rect=layoutRect(canvas),dpr=bitmapScale(layoutRect(canvas));
      if(!rect.width||!rect.height)return;
      const width=Math.round(rect.width*dpr),height=Math.round(rect.height*dpr);
      if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}
@@ -528,14 +652,14 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
      event.preventDefault();event.stopPropagation();canvas.setPointerCapture(event.pointerId);
      const stroke={pointerId:event.pointerId,points:[drawPoint(event)],color:selectedColor,erase:erasing};
      activeDrawing=stroke;
-     const rect=canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1,ctx=canvas.getContext('2d');
+     const rect=layoutRect(canvas),dpr=canvas.width/(rect.width||1),ctx=canvas.getContext('2d');
      ctx.setTransform(dpr,0,0,dpr,0,0);ctx.globalCompositeOperation=stroke.erase?'destination-out':'source-over';ctx.beginPath();ctx.strokeStyle=stroke.color;ctx.lineWidth=stroke.erase?14:3;ctx.lineCap='round';ctx.lineJoin='round';ctx.moveTo(stroke.points[0].x*rect.width,stroke.points[0].y*rect.height);ctx.lineTo(stroke.points[0].x*rect.width+0.1,stroke.points[0].y*rect.height+0.1);ctx.stroke();ctx.globalCompositeOperation='source-over';
    });
    canvas.addEventListener('pointermove',event=>{
      if(!activeDrawing||activeDrawing.pointerId!==event.pointerId)return;
      event.preventDefault();event.stopPropagation();
      activeDrawing.points.push(drawPoint(event));
-     const rect=canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1,ctx=canvas.getContext('2d'),points=activeDrawing.points;
+     const rect=layoutRect(canvas),dpr=canvas.width/(rect.width||1),ctx=canvas.getContext('2d'),points=activeDrawing.points;
      ctx.setTransform(dpr,0,0,dpr,0,0);ctx.globalCompositeOperation=activeDrawing.erase?'destination-out':'source-over';ctx.beginPath();ctx.strokeStyle=activeDrawing.color;ctx.lineWidth=activeDrawing.erase?14:3;ctx.lineCap='round';ctx.lineJoin='round';
      const previous=points[points.length-2],current=points[points.length-1];
      ctx.moveTo(previous.x*rect.width,previous.y*rect.height);ctx.lineTo(current.x*rect.width,current.y*rect.height);ctx.stroke();ctx.globalCompositeOperation='source-over';
@@ -549,7 +673,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
      if(!saveWritingDrawings()){writingDrawings[activity.id].pop();redraw();}
    };
    canvas.addEventListener('pointerup',finishDrawing);
-   canvas.addEventListener('pointercancel',finishDrawing);
+   canvas.addEventListener('pointercancel',finishDrawing);redrawers.push(()=>redraw());
    redraw();
    if(teacher){
      const resize=document.createElement('span');resize.className='rf-write-resize';resize.setAttribute('aria-label','تغيير حجم مساحة الكتابة');area.appendChild(resize);
@@ -715,14 +839,20 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    const saved=fillAnswers[a.id]||{};
    const inputs=boxes.map((box,i)=>{
      if(!box)return null;
-     const input=document.createElement('input');input.type='text';input.className='rf-blank-input';input.autocomplete='off';input.spellcheck=false;
+     const input=document.createElement('input');input.type='text';input.className='rf-blank-input';input.autocomplete='off';input.spellcheck=false;input.setAttribute('autocapitalize','off');input.setAttribute('autocorrect','off');input.setAttribute('enterkeyhint','next');input.inputMode='text';
      input.style.left=box.x+'%';input.style.top=box.y+'%';input.style.width=box.width+'%';input.style.height=box.height+'%';
      input.value=(saved.values||[])[i]||'';input.setAttribute('aria-label','الفراغ '+(i+1));
      if(saved.checked&&saved.results)input.classList.add(saved.results[i]?'rf-fill-ok':'rf-fill-no');
      slot.appendChild(input);return input;
    });
-   inputs.forEach(input=>{
+   inputs.forEach((input,idx)=>{
      if(!input)return;
+     input.addEventListener('keydown',ev=>{
+       if(ev.key!=='Enter')return;
+       ev.preventDefault();
+       const nxt=inputs.slice(idx+1).find(Boolean);
+       if(nxt)nxt.focus();else input.blur();
+     });
      input.addEventListener('change',()=>{
        const values=inputs.map(el=>el?el.value:'');
        const results=inputs.map((el,k)=>{
@@ -867,6 +997,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    slot.appendChild(overlay);
  }
  function renderPins(){
+  redrawers.length=0;
    document.querySelectorAll('.rf-layer,.rf-draw-layer,.rf-match-overlay,.rf-match-prompt,.rf-write-area,.rf-choice-layer,.rf-ex-row,.rf-plain-prompt,.rf-blank-input,.rf-blank-placeholder,.rf-answer-input').forEach(x=>x.remove());
    visibleSlots().forEach(slot=>{
      let n=pageNum(slot.querySelector('img')); if(!n)return;
@@ -928,7 +1059,16 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    });
  }
  document.addEventListener('bookpageschange',renderPins);
- window.addEventListener('resize',renderPins);
+ const isEditing=()=>{const a=document.activeElement;return !!a&&(a.tagName==='TEXTAREA'||(a.tagName==='INPUT'&&!/^(range|file|checkbox|radio|button)$/i.test(a.type)))&&!!a.closest('#stage');};
+  let lastLayoutKey='';
+  const redrawAll=()=>redrawers.slice().forEach(f=>{try{f();}catch(e){}});
+  document.addEventListener('rf-layout',()=>{
+    const st=document.getElementById('stage'),key=st.offsetWidth+'x'+st.offsetHeight;
+    if(isEditing()){redrawAll();return;}
+    if(key===lastLayoutKey)return;
+    lastLayoutKey=key;renderPins();
+  });
+  document.addEventListener('rf-zoomend',redrawAll);
  function setDrawing(active){
    document.getElementById('stage').classList.toggle('drawing',active);
    $('rf-draw').classList.toggle('active',active);$('rf-draw').setAttribute('aria-pressed',String(active));
@@ -1150,7 +1290,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
      const pages=await studentPageData();
      const safeJson=value=>JSON.stringify(value).replace(/</g,'\\u003c');
      const data='<script>window.RF_PAGE_DATA='+safeJson(pages)+';window.RF_ACTIVITIES='+safeJson(activities)+';window.RF_DRAWINGS='+safeJson(drawings)+';window.RF_MATCH_ANSWERS='+safeJson(matchAnswers)+';window.RF_WRITING_DRAWINGS='+safeJson(writingDrawings)+';window.RF_CHOICE_ANSWERS='+safeJson(choiceAnswers)+';window.RF_FILL_ANSWERS='+safeJson(fillAnswers)+';window.RF_TEXT_ANSWERS='+safeJson(textAnswers)+';<\/script>'+
-       '<style>#rf-mode, #rf-add,#rf-pdf,#rf-export-book,#rf-export,#rf-import,#rf-file,[data-teacher-only]{display:none!important}#rf-panel{display:none!important}</style>';
+       '<style>#rf-teacher-bar,#rf-mode, #rf-add,#rf-pdf,#rf-export-book,#rf-export,#rf-import,#rf-file,[data-teacher-only]{display:none!important}#rf-panel{display:none!important}</style>';
      const marker='<script>\n(function(){';
      const source=document.documentElement.outerHTML;
      if(!source.includes(marker))throw new Error('تعذّر تجهيز نسخة الطالب.');
@@ -1418,7 +1558,8 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
     } else {
       label = "Pages " + (L + 1) + "\u2013" + (R + 1) + " of " + N;
     }
-    info.textContent = label;
+    info.textContent = mode === "single" ? (R + 1) + "/" + N : label;
+    info.setAttribute("aria-label", label);
     prevBtn.disabled = pos === 0;
     nextBtn.disabled = pos === spreads.length - 1;
     scrub.max = spreads.length - 1;
@@ -1636,6 +1777,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
   stage.addEventListener("pointerdown", (e) => {
     if (turn || drag) return;
     if (stage.classList.contains("placing")) return;
+    if (window.RF_VIEW && window.RF_VIEW.scale > 1.02) return;
     if (stage.classList.contains("drawing") || e.button !== 0 ||
         e.target.closest("button, input, textarea, select, label, .rf-write-area, .rf-choice-layer, .rf-match-overlay, .rf-match-prompt, .rf-ex-row, .rf-blank-input, .rf-answer-input, .rf-blank-drag, .rf-pin, .rf-match-point, #rf-toolbar, .controls, #scrub")) return;
     const rect = stage.getBoundingClientRect();
@@ -1720,6 +1862,8 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
   });
 
   document.addEventListener("keydown", (e) => {
+    const ae = document.activeElement;
+    if (ae && (ae.tagName === "TEXTAREA" || (ae.tagName === "INPUT" && ae.type !== "range"))) return;
     if (e.key === "ArrowRight" || e.key === "PageDown") { e.preventDefault(); flip(1, true); }
     else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); flip(-1, true); }
     else if (e.key === "Home" && !turn && !drag) { if(stage.classList.contains("drawing"))document.getElementById("rf-draw").click();pos = 0; renderStatic(); }
@@ -1727,6 +1871,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
   });
 
   window.addEventListener("resize", () => { if (!turn && !drag) applyLayout(); });
+  document.addEventListener("rf-layout", () => { if (!turn && !drag) { sizeCanvas(); applyLayout(); } });
   document.addEventListener("booksourcechange", () => {
     N = Array.isArray(window.RF_PAGE_DATA) ? window.RF_PAGE_DATA.length : 105;
     if (!N) throw new Error("The book must contain at least one page.");
@@ -1747,5 +1892,255 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
   renderStatic();
 })();
 </script>
+<script>
+/* Full-screen viewer: pinch / wheel zoom, pan, right-side dock, close button, mobile keyboard handling */
+(function(){
+  'use strict';
+  const $=id=>document.getElementById(id);
+  const viewer=$('rf-viewer'), wrap=$('rf-wrap'), stage=$('stage'), dock=$('rf-dock');
+  if(!viewer||!wrap||!stage)return;
+  const RATIO=0.73206, MAXZ=6, MINZ=1;
+  const view=window.RF_VIEW={scale:1,tx:0,ty:0};
+  let baseW=0, baseH=0, lastKey='', zoomEndTimer=0, animTimer=0;
+
+  const clamp=(v,a,b)=>Math.min(b,Math.max(a,v));
+  const isTextEl=a=>!!a&&(a.tagName==='TEXTAREA'||(a.tagName==='INPUT'&&!/^(range|file|checkbox|radio|button|submit)$/i.test(a.type)));
+  const typing=()=>isTextEl(document.activeElement);
+  const dockPad=()=>(dock&&!dock.classList.contains('collapsed'))?64:0;
+
+  /* ---------- geometry ---------- */
+  function box(){return{vw:viewer.clientWidth,vh:viewer.clientHeight,cw:stage.offsetWidth,ch:stage.offsetHeight};}
+  function clampView(){
+    const b=box(), sw=b.cw*view.scale, sh=b.ch*view.scale;
+    view.tx = sw<=b.vw ? (b.vw-sw)/2 : clamp(view.tx,b.vw-sw-dockPad(),0);
+    view.ty = sh<=b.vh ? (b.vh-sh)/2 : clamp(view.ty,b.vh-sh,0);
+  }
+  function apply(animate){
+    clampView();
+    if(animate){wrap.classList.add('anim');clearTimeout(animTimer);animTimer=setTimeout(()=>wrap.classList.remove('anim'),260);}
+    wrap.style.transform='translate('+view.tx.toFixed(2)+'px,'+view.ty.toFixed(2)+'px) scale('+view.scale.toFixed(4)+')';
+    const z=$('rf-zfit'); if(z)z.textContent=Math.round(view.scale*100)+'%';
+  }
+  function zoomEnd(){
+    clearTimeout(zoomEndTimer);
+    zoomEndTimer=setTimeout(()=>document.dispatchEvent(new Event('rf-zoomend')),180);
+  }
+  function zoomAt(ns,cx,cy,animate,live){
+    ns=clamp(ns,live?0.6:MINZ,MAXZ);
+    const k=ns/view.scale;
+    view.tx=cx-(cx-view.tx)*k; view.ty=cy-(cy-view.ty)*k; view.scale=ns;
+    apply(animate);
+  }
+  function centerPt(){const b=box();return[b.vw/2,b.vh/2];}
+  function fitPage(animate){view.scale=1;apply(animate);zoomEnd();}
+  function fitToggle(){
+    const b=box(), fw=b.vw/b.cw;
+    if(Math.abs(view.scale-1)<0.02&&fw>1.1){view.scale=fw;view.ty=0;apply(true);zoomEnd();}
+    else fitPage(true);
+  }
+
+  /* ---------- layout (stable page size, independent of the on-screen keyboard) ---------- */
+  function syncViewerBox(){
+    const vv=window.visualViewport; let top='',h='';
+    if(vv&&window.innerHeight-vv.height>120){top=Math.round(vv.offsetTop)+'px';h=Math.round(vv.height)+'px';}
+    if(viewer.style.top!==top)viewer.style.top=top;
+    if(viewer.style.height!==h)viewer.style.height=h;
+  }
+  let first=true;
+  function layout(){
+    syncViewerBox();
+    if(!typing()||!baseW){baseW=window.innerWidth;baseH=window.innerHeight;}
+    const w=Math.round(Math.min(baseW,baseH*RATIO)), h=Math.round(w/RATIO), key=w+'x'+h;
+    if(key!==lastKey){
+      lastKey=key;
+      const r=document.documentElement.style;
+      r.setProperty('--rf-w',w+'px'); r.setProperty('--rf-h',h+'px');
+      if(!first)view.scale=1;
+      first=false;
+      apply(false);
+      document.dispatchEvent(new Event('rf-layout'));
+    }else apply(false);
+  }
+  let raf=0; const schedule=()=>{cancelAnimationFrame(raf);raf=requestAnimationFrame(()=>{layout();if(typing())reveal(document.activeElement);});};
+  window.addEventListener('resize',schedule);
+  window.addEventListener('orientationchange',()=>setTimeout(schedule,250));
+  if(window.visualViewport){
+    window.visualViewport.addEventListener('resize',()=>{schedule();});
+    window.visualViewport.addEventListener('scroll',schedule);
+  }
+  // some browsers scroll the (overflow:hidden) viewer to show the focused field: undo it, we move the page ourselves
+  viewer.addEventListener('scroll',()=>{viewer.scrollTop=0;viewer.scrollLeft=0;},{passive:true});
+
+  /* ---------- keep the field being typed in visible above the keyboard ---------- */
+  let revealTimer=0;
+  function reveal(el){
+    if(!el||!el.getBoundingClientRect)return;
+    const r=el.getBoundingClientRect(), v=viewer.getBoundingClientRect(), m=48;
+    let dx=0,dy=0;
+    if(r.bottom>v.bottom-m)dy=(v.bottom-m)-r.bottom; else if(r.top<v.top+m)dy=(v.top+m)-r.top;
+    if(r.right>v.right-dockPad()-8)dx=(v.right-dockPad()-8)-r.right; else if(r.left<v.left+8)dx=(v.left+8)-r.left;
+    if(dx||dy){view.tx+=dx;view.ty+=dy;apply(true);}
+  }
+  stage.addEventListener('focusin',e=>{
+    if(!isTextEl(e.target))return;
+    clearTimeout(revealTimer);
+    revealTimer=setTimeout(()=>{layout();reveal(e.target);},320);
+  });
+  // Android: the keyboard "hide" button doesn't blur the field -> blur it so the answer is checked
+  let kbWasOpen=false;
+  function watchKeyboard(){
+    const vv=window.visualViewport; if(!vv)return;
+    const open=window.innerHeight-vv.height>120;
+    if(kbWasOpen&&!open&&typing()){document.activeElement.blur();}
+    kbWasOpen=open;
+  }
+  if(window.visualViewport)window.visualViewport.addEventListener('resize',watchKeyboard);
+
+  /* ---------- gestures ---------- */
+  const UI='#rf-dock,#rf-close,#rf-teacher-bar,#rf-scrubbar,#rf-closed';
+  const INTERACTIVE='button,input,textarea,select,label,a,.rf-write-area,.rf-choice-layer,.rf-match-overlay,.rf-match-prompt,.rf-ex-row,.rf-pin,.rf-blank-input,.rf-answer-input,.rf-blank-drag,.rf-match-point,.rf-retry';
+  const ptrs=new Map(); let g=null, suppressClick=false;
+  const touchCount=()=>[...ptrs.values()].filter(p=>p.type!=='mouse').length;
+  const vrect=()=>viewer.getBoundingClientRect();
+
+  function cancelChild(id,p){
+    try{
+      const ev=new PointerEvent('pointercancel',{pointerId:id,pointerType:p.type,isPrimary:true,bubbles:true,cancelable:false,clientX:p.x,clientY:p.y});
+      (p.target&&p.target.isConnected?p.target:viewer).dispatchEvent(ev);
+    }catch(_){}
+  }
+  function beginPinch(){
+    const list=[...ptrs.entries()].filter(([,p])=>p.type!=='mouse');
+    list.forEach(([id,p])=>{if(!p.swallow){cancelChild(id,p);p.swallow=true;}});
+    const [[ida,a],[idb,b]]=list, r=vrect();
+    g={type:'pinch',ids:[ida,idb],d0:Math.hypot(a.x-b.x,a.y-b.y)||1,s0:view.scale,tx0:view.tx,ty0:view.ty,cx0:(a.x+b.x)/2-r.left,cy0:(a.y+b.y)/2-r.top};
+    wrap.style.willChange='transform';
+  }
+  function updatePinch(){
+    const a=ptrs.get(g.ids[0]), b=ptrs.get(g.ids[1]); if(!a||!b)return;
+    const r=vrect(), d=Math.hypot(a.x-b.x,a.y-b.y), cx=(a.x+b.x)/2-r.left, cy=(a.y+b.y)/2-r.top;
+    const ns=clamp(g.s0*d/g.d0,0.6,MAXZ), k=ns/g.s0;
+    view.scale=ns; view.tx=cx-(g.cx0-g.tx0)*k; view.ty=cy-(g.cy0-g.ty0)*k;
+    apply(false);
+  }
+  function endPinch(){
+    g=null; wrap.style.willChange='';
+    if(view.scale<1){view.scale=1;apply(true);}
+    zoomEnd();
+  }
+
+  viewer.addEventListener('pointerdown',e=>{
+    if(!e.isTrusted||e.target.closest(UI))return;
+    if(e.pointerType==='mouse'&&e.button!==0)return;
+    ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY,type:e.pointerType,target:e.target,swallow:false});
+    if(e.pointerType!=='mouse'&&touchCount()>=2){
+      if(!g||g.type!=='pinch')beginPinch();
+      ptrs.get(e.pointerId).swallow=true;
+      e.stopPropagation();e.preventDefault();return;
+    }
+    if(g){e.stopPropagation();return;}
+    if(view.scale>1.02&&!stage.classList.contains('drawing')&&!e.target.closest(INTERACTIVE)){
+      g={type:'pan',id:e.pointerId,sx:e.clientX,sy:e.clientY,tx0:view.tx,ty0:view.ty,moved:false};
+    }
+  },true);
+
+  viewer.addEventListener('pointermove',e=>{
+    if(!e.isTrusted)return;
+    const p=ptrs.get(e.pointerId); if(!p)return;
+    p.x=e.clientX;p.y=e.clientY;
+    if(g&&g.type==='pinch'){e.stopPropagation();e.preventDefault();updatePinch();return;}
+    if(g&&g.type==='pan'&&g.id===e.pointerId){
+      const dx=e.clientX-g.sx, dy=e.clientY-g.sy;
+      if(!g.moved){if(Math.hypot(dx,dy)<6)return;g.moved=true;try{viewer.setPointerCapture(e.pointerId);}catch(_){}}
+      e.stopPropagation();e.preventDefault();
+      view.tx=g.tx0+dx;view.ty=g.ty0+dy;apply(false);return;
+    }
+    if(p.swallow)e.stopPropagation();
+  },true);
+
+  function release(e,cancelled){
+    if(!e.isTrusted)return;
+    const p=ptrs.get(e.pointerId); if(!p)return;
+    ptrs.delete(e.pointerId);
+    if(g&&g.type==='pinch'){
+      e.stopPropagation();
+      if(touchCount()<2){
+        endPinch();
+        const rest=[...ptrs.entries()].find(([,q])=>q.type!=='mouse');
+        if(rest){const [id,q]=rest;q.swallow=true;if(view.scale>1.02)g={type:'pan',id,sx:q.x,sy:q.y,tx0:view.tx,ty0:view.ty,moved:true};}
+      }
+      return;
+    }
+    if(p.swallow)e.stopPropagation();
+    if(g&&g.type==='pan'&&g.id===e.pointerId){
+      if(g.moved&&!cancelled){e.stopPropagation();suppressClick=true;setTimeout(()=>{suppressClick=false;},60);}
+      g=null;zoomEnd();
+    }
+  }
+  viewer.addEventListener('pointerup',e=>release(e,false),true);
+  viewer.addEventListener('pointercancel',e=>release(e,true),true);
+  viewer.addEventListener('click',e=>{if(suppressClick){e.stopPropagation();e.preventDefault();suppressClick=false;}},true);
+
+  viewer.addEventListener('wheel',e=>{
+    if(e.target.closest(UI))return;
+    e.preventDefault();
+    const r=vrect(), cx=e.clientX-r.left, cy=e.clientY-r.top;
+    if(e.ctrlKey||e.metaKey){zoomAt(view.scale*Math.exp(-e.deltaY*0.01),cx,cy,false);zoomEnd();}
+    else if(view.scale>1.02||box().ch>box().vh){view.tx-=e.deltaX;view.ty-=e.deltaY;apply(false);}
+  },{passive:false});
+  ['gesturestart','gesturechange','gestureend'].forEach(t=>document.addEventListener(t,e=>e.preventDefault(),{passive:false}));
+
+  // new page while zoomed: start at the top of it
+  document.addEventListener('bookpageschange',()=>{if(view.scale>1.02){view.ty=0;apply(false);}});
+
+  /* ---------- dock buttons ---------- */
+  $('rf-zin').addEventListener('click',()=>{const[c,d]=centerPt();zoomAt(view.scale*1.3,c,d,true);zoomEnd();});
+  $('rf-zout').addEventListener('click',()=>{const[c,d]=centerPt();zoomAt(view.scale/1.3,c,d,true);zoomEnd();});
+  $('rf-zfit').addEventListener('click',fitToggle);
+  $('rf-dock-toggle').addEventListener('click',()=>{
+    const c=dock.classList.toggle('collapsed');
+    $('rf-dock-toggle').setAttribute('aria-expanded',String(!c));
+    apply(false);
+  });
+  const scrubbar=$('rf-scrubbar'); let scrubTimer=0;
+  const armScrub=()=>{clearTimeout(scrubTimer);scrubTimer=setTimeout(()=>scrubbar.classList.remove('open'),5000);};
+  $('info').addEventListener('click',()=>{scrubbar.classList.toggle('open');if(scrubbar.classList.contains('open'))armScrub();});
+  $('scrub').addEventListener('input',armScrub);
+
+  // status toast
+  const st=$('rf-status'); let toastTimer=0;
+  new MutationObserver(()=>{
+    if(!st.textContent.trim()){st.classList.remove('show');return;}
+    st.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>st.classList.remove('show'),4500);
+  }).observe(st,{childList:true,characterData:true,subtree:true});
+
+  // keyboard shortcuts (not while typing)
+  document.addEventListener('keydown',e=>{
+    if(typing()||e.ctrlKey||e.metaKey||e.altKey)return;
+    if(e.key==='+'||e.key==='='){const[c,d]=centerPt();zoomAt(view.scale*1.3,c,d,true);zoomEnd();}
+    else if(e.key==='-'||e.key==='_'){const[c,d]=centerPt();zoomAt(view.scale/1.3,c,d,true);zoomEnd();}
+    else if(e.key==='0'){fitPage(true);}
+  });
+
+  /* ---------- close ---------- */
+  const closed=$('rf-closed');
+  function showClosed(){closed.hidden=false;}
+  $('rf-close').addEventListener('click',()=>{
+    try{if(window.parent&&window.parent!==window){window.parent.postMessage({type:'rafeeq-close-book'},'*');}}catch(_){}
+    try{window.close();}catch(_){}
+    setTimeout(()=>{
+      if(document.visibilityState==='hidden')return;
+      if(window.history.length>1&&document.referrer){window.history.back();setTimeout(showClosed,500);}
+      else showClosed();
+    },180);
+  });
+  $('rf-reopen').addEventListener('click',()=>{closed.hidden=true;});
+
+  /* ---------- start ---------- */
+  layout();
+  apply(false);
+})();
+</script>
+
 </body>
 </html>
