@@ -453,7 +453,9 @@ body:not(.rf-teacher) [data-teacher-only]{display:none!important}
        else {const match=url.pathname.match(/^\/(?:embed|shorts|live)\/([^/?#]+)/);if(match)id=match[1];}
      }else return null;
      if(!/^[A-Za-z0-9_-]{11}$/.test(id))return null;
-     return 'https://www.youtube.com/embed/'+id+'?rel=0&playsinline=1';
+     const params=new URLSearchParams({rel:'0',playsinline:'1',enablejsapi:'1'});
+     if(window.location.origin&&window.location.origin!=='null')params.set('origin',window.location.origin);
+     return 'https://www.youtube.com/embed/'+id+'?'+params.toString();
    }catch(_){return null;}
  }
  const clampPercent=(value,min,max)=>Math.min(max,Math.max(min,value));
@@ -1045,25 +1047,88 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    }));
    slot.appendChild(overlay);
  }
+ function findVideoNode(className,activityId){
+   return Array.from(document.querySelectorAll('.'+className)).find(node=>node.dataset.activity===String(activityId))||null;
+ }
+ function makeYoutubeIframe(embed,activity){
+   const iframe=document.createElement('iframe');
+   iframe.src=embed;iframe.title=activity.label||'YouTube video';
+   iframe.loading='eager';iframe.referrerPolicy='strict-origin-when-cross-origin';
+   iframe.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
+   iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+   iframe.allowFullscreen=true;
+   return iframe;
+ }
+ function pauseYoutubeWindow(windowBox){
+   const iframe=windowBox&&windowBox.querySelector('iframe');
+   if(!iframe||!iframe.contentWindow)return;
+   try{
+     iframe.contentWindow.postMessage(JSON.stringify({event:'command',func:'pauseVideo',args:[]}), 'https://www.youtube.com');
+   }catch(_){}
+ }
  function addYoutubeVideo(slot,activity){
    const embed=youtubeEmbedUrl(activity.youtubeUrl);
    const box=activity.videoBox?{...activity.videoBox}:initialVideoBox(activity);
+   let windowBox=findVideoNode('rf-video-window',activity.id);
+   let minimized=findVideoNode('rf-video-minimized',activity.id);
+
+   // Keep the existing iframe DOM node. Answer rendering calls renderPins(); it must
+   // never replace the YouTube iframe or assign its src again for the same URL.
    if(hiddenVideoActivities.has(activity.id)){
-     const minimized=document.createElement('div');minimized.className='rf-video-minimized';minimized.dataset.activity=activity.id;
-     Object.assign(minimized.style,{left:box.x+'%',top:box.y+'%'});
-     const restore=document.createElement('button');restore.type='button';restore.className='rf-video-restore';restore.textContent='▶ '+(activity.label||'فيديو الدرس');restore.setAttribute('aria-label','إظهار فيديو الدرس');
-     restore.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();hiddenVideoActivities.delete(activity.id);renderPins();status('تم إظهار نافذة الفيديو.');});
-     minimized.appendChild(restore);
-     if(teacher){
-       const quickEdit=document.createElement('button');quickEdit.type='button';quickEdit.className='rf-video-quick-edit';quickEdit.textContent='تحرير';
-       quickEdit.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();edit(activity);});
-       minimized.appendChild(quickEdit);
+     if(windowBox)windowBox.style.display='none';
+     if(!minimized){
+       minimized=document.createElement('div');minimized.className='rf-video-minimized';minimized.dataset.activity=activity.id;
+       const restore=document.createElement('button');restore.type='button';restore.className='rf-video-restore';
+       restore.setAttribute('aria-label','إظهار فيديو الدرس');
+       restore.addEventListener('click',event=>{
+         event.preventDefault();event.stopPropagation();hiddenVideoActivities.delete(activity.id);
+         renderPins();status('تم إظهار نافذة الفيديو.');
+       });
+       minimized.appendChild(restore);
+       if(teacher){
+         const quickEdit=document.createElement('button');quickEdit.type='button';quickEdit.className='rf-video-quick-edit';quickEdit.textContent='تحرير';
+         quickEdit.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();edit(activity);});
+         minimized.appendChild(quickEdit);
+       }
      }
-     slot.appendChild(minimized);return;
+     const restoreButton=minimized.querySelector('.rf-video-restore');
+     if(restoreButton)restoreButton.textContent='▶ '+(activity.label||'فيديو الدرس');
+     Object.assign(minimized.style,{left:box.x+'%',top:box.y+'%'});
+     if(minimized.parentElement!==slot)slot.appendChild(minimized);
+     return;
    }
-   const windowBox=document.createElement('section');
+
+   if(minimized)minimized.remove();
+   if(windowBox){
+     windowBox.style.display='flex';
+     windowBox.classList.toggle('teacher',teacher);
+     Object.assign(windowBox.style,{left:box.x+'%',top:box.y+'%',width:box.width+'%',height:box.height+'%'});
+     const title=windowBox.querySelector('.rf-video-title');
+     if(title)title.textContent=activity.label||'فيديو الدرس';
+     const frame=windowBox.querySelector('.rf-video-frame');
+     const iframe=frame&&frame.querySelector('iframe');
+     const localFile=window.location.protocol==='file:'||window.location.origin==='null';
+     if(embed&&!localFile){
+       if(iframe){
+         // This is the ONLY normal update allowed to reload the player: URL changed.
+         if(iframe.getAttribute('src')!==embed)iframe.src=embed;
+       }else if(frame){
+         frame.replaceChildren(makeYoutubeIframe(embed,activity));
+       }
+     }else if(!embed&&frame&&windowBox.dataset.embedUrl){
+       const missing=document.createElement('div');missing.className='rf-video-missing';
+       missing.textContent='رابط YouTube غير صالح. افتح إعدادات النشاط وأضف رابطاً صحيحاً.';
+       frame.replaceChildren(missing);
+     }
+     windowBox.dataset.embedUrl=embed||'';
+     if(windowBox.parentElement!==slot)slot.appendChild(windowBox);
+     return;
+   }
+
+   windowBox=document.createElement('section');
    windowBox.className='rf-video-window'+(teacher?' teacher':'');
    windowBox.dataset.activity=activity.id;
+   windowBox.dataset.embedUrl=embed||'';
    Object.assign(windowBox.style,{left:box.x+'%',top:box.y+'%',width:box.width+'%',height:box.height+'%'});
 
    const bar=document.createElement('div');bar.className='rf-video-bar';
@@ -1077,7 +1142,11 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    }
    const hideButton=document.createElement('button');hideButton.type='button';hideButton.className='rf-video-hide';hideButton.textContent='×';hideButton.title='إخفاء الفيديو';hideButton.setAttribute('aria-label','إخفاء الفيديو');
    hideButton.addEventListener('pointerdown',event=>event.stopPropagation());
-   hideButton.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();hiddenVideoActivities.add(activity.id);renderPins();status('تم إخفاء الفيديو. اضغط زر الفيديو لإظهاره مرة أخرى.');});
+   hideButton.addEventListener('click',event=>{
+     event.preventDefault();event.stopPropagation();pauseYoutubeWindow(windowBox);
+     hiddenVideoActivities.add(activity.id);renderPins();
+     status('تم إخفاء الفيديو. اضغط زر الفيديو لإظهاره مرة أخرى.');
+   });
    bar.appendChild(hideButton);
    const frame=document.createElement('div');frame.className='rf-video-frame';
    if(embed){
@@ -1086,14 +1155,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
        const warning=document.createElement('div');warning.className='rf-video-missing';
        warning.textContent='لتشغيل فيديو YouTube مباشرة، افتح كتاب الطالب من رابط موقع HTTPS أو عبر خادم ويب، وليس كملف HTML محلي من الجهاز.';
        frame.appendChild(warning);
-     }else{
-       const iframe=document.createElement('iframe');
-       iframe.src=embed;iframe.title=activity.label||'YouTube video';
-       iframe.loading='eager';iframe.referrerPolicy='strict-origin-when-cross-origin';iframe.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
-       iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-       iframe.allowFullscreen=true;
-       frame.appendChild(iframe);
-     }
+     }else frame.appendChild(makeYoutubeIframe(embed,activity));
    }else{
      const missing=document.createElement('div');missing.className='rf-video-missing';
      missing.textContent='رابط YouTube غير صالح. افتح إعدادات النشاط وأضف رابطاً صحيحاً.';frame.appendChild(missing);
@@ -1159,7 +1221,10 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
  }
  function renderPins(){
   redrawers.length=0;
-   document.querySelectorAll('.rf-layer,.rf-draw-layer,.rf-match-overlay,.rf-match-prompt,.rf-write-area,.rf-choice-layer,.rf-ex-row,.rf-plain-prompt,.rf-blank-input,.rf-blank-placeholder,.rf-answer-input,.rf-video-window,.rf-video-minimized').forEach(x=>x.remove());
+   // Remove obsolete video nodes only when the activity was actually deleted or changed type.
+   const liveVideoIds=new Set(activities.filter(a=>a.type==='video').map(a=>String(a.id)));
+   document.querySelectorAll('.rf-video-window,.rf-video-minimized').forEach(node=>{if(!liveVideoIds.has(String(node.dataset.activity)))node.remove();});
+   document.querySelectorAll('.rf-layer,.rf-draw-layer,.rf-match-overlay,.rf-match-prompt,.rf-write-area,.rf-choice-layer,.rf-ex-row,.rf-plain-prompt,.rf-blank-input,.rf-blank-placeholder,.rf-answer-input').forEach(x=>x.remove());
    visibleSlots().forEach(slot=>{
      let n=pageNum(slot.querySelector('img')); if(!n)return;
      addDrawingLayer(slot,n);
