@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-visual">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232d6cdf'/%3E%3Cpath d='M14 18h16a6 6 0 0 1 6 6v26a6 6 0 0 0-6-6H14zM50 18H34a6 6 0 0 0-6 6v26a6 6 0 0 1 6-6h16z' fill='%23fff'/%3E%3C/svg%3E">
 <title>Emar English Series - Grade 1 Pupil's Book</title>
 <style>
@@ -175,7 +176,7 @@
 .rf-blank-input.rf-fill-ok{border-bottom-color:#16843b;color:#0f6b2e}
 .rf-blank-input.rf-fill-no{border-bottom-color:#d82e3f;color:#b1202e}
 .rf-answer-input{position:absolute;z-index:12;width:40%;box-sizing:border-box;padding:4px 6px;border:0;border-bottom:2px solid #2d6cdf;border-radius:0;background:transparent;color:#111;font:inherit;font-size:14px;pointer-events:auto}
-.rf-blank-placeholder{position:absolute;z-index:11;box-sizing:border-box;border:1px dashed #2d6cdf;background:#ffffff80;pointer-events:none}
+.rf-blank-placeholder{position:absolute;z-index:11;box-sizing:border-box;border:1px dashed #2d6cdf;background:rgba(205,242,214,.62);pointer-events:none}
 .rf-blank-drag{pointer-events:auto;cursor:move;touch-action:none}
 .rf-resize{position:absolute;right:-5px;bottom:-5px;width:11px;height:11px;border:1px solid #fff;border-radius:3px;background:#1674d1;cursor:nwse-resize;touch-action:none;pointer-events:auto}
 </style>
@@ -258,7 +259,7 @@ body{display:block;gap:0}
 .rf-retry{padding:4px 9px;border:2px solid #fff;background:linear-gradient(180deg,#ffffff,#eef2fb);color:#2a3b66;font-size:12px;box-shadow:0 3px 8px rgba(20,40,100,.3)}
 .rf-retry:hover,.rf-pin:hover{filter:brightness(1.07)}
 /* fill-in-the-blank boxes */
-.rf-blank-input,.rf-answer-input{background:rgba(255,246,196,.62);border-bottom:3px solid var(--rf-blue);border-radius:8px 8px 2px 2px;color:#1b2a52;font-weight:700;transition:box-shadow .15s,background .15s;outline:none}
+.rf-blank-input,.rf-answer-input{background:rgba(211,245,219,.82);border-bottom:3px solid var(--rf-blue);border-radius:8px 8px 2px 2px;color:#1b2a52;font-weight:700;transition:box-shadow .15s,background .15s;outline:none}
 .rf-blank-input:focus,.rf-answer-input:focus{background:rgba(255,255,255,.92);box-shadow:0 0 0 3px rgba(79,140,255,.45),0 4px 12px rgba(30,60,150,.25)}
 .rf-blank-input.rf-fill-ok{background:rgba(190,255,214,.7);border-bottom-color:var(--rf-green);color:#0b5a28}
 .rf-blank-input.rf-fill-no{background:rgba(255,205,210,.7);border-bottom-color:var(--rf-red);color:#9c1222}
@@ -393,7 +394,23 @@ body:not(.rf-teacher) [data-teacher-only]{display:none!important}
 .stage.drawing .rf-layer{pointer-events:none!important}
 .stage.drawing .rf-pin{pointer-events:none!important}
 .rf-tool.active{background:#0ce91d!important;color:#1a1717!important}
-@media(max-width:760px){#rf-toolbar button{padding:7px 10px;font-size:12px}}
+.rf-video-window{position:absolute;z-index:16;display:flex;flex-direction:column;overflow:hidden;min-width:0;min-height:0;border:1px solid rgba(255,255,255,.9);border-radius:10px;background:#10172c;box-shadow:0 8px 24px rgba(0,0,0,.45);direction:rtl;box-sizing:border-box}
+.rf-video-window.teacher{border:2px dashed #58a6ff;box-shadow:0 0 0 2px rgba(22,116,209,.2),0 8px 24px rgba(0,0,0,.45)}
+.rf-video-bar{position:relative;z-index:2;display:flex;flex:0 0 auto;align-items:center;justify-content:space-between;gap:8px;min-height:30px;padding:4px 8px;background:linear-gradient(135deg,#263b68,#162445);color:#fff;font:700 12px/1.2 system-ui,sans-serif;user-select:none;-webkit-user-select:none}
+.rf-video-window.teacher .rf-video-bar{cursor:move;touch-action:none}
+.rf-video-title{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rf-video-edit{flex:0 0 auto;width:auto!important;height:auto!important;min-height:24px;padding:4px 8px!important;border:1px solid rgba(255,255,255,.5)!important;border-radius:6px!important;background:#fff!important;color:#182849!important;font:700 11px/1.2 system-ui,sans-serif!important;box-shadow:none!important}
+.rf-video-frame{position:relative;flex:1 1 auto;min-width:0;min-height:0;background:#000;direction:ltr}
+.rf-video-frame iframe{display:block;width:100%;height:100%;border:0;background:#000}
+.rf-video-window.teacher .rf-video-frame iframe{pointer-events:none}
+.rf-video-missing{display:flex;width:100%;height:100%;align-items:center;justify-content:center;padding:12px;color:#fff;text-align:center;font:13px system-ui,sans-serif}
+.rf-video-resize{position:absolute;right:1px;bottom:1px;z-index:4;width:16px;height:16px;border:2px solid #fff;border-radius:4px 0 8px 0;background:#1674d1;cursor:nwse-resize;touch-action:none}
+.rf-video-hide{flex:0 0 auto;width:24px!important;height:24px!important;min-width:24px!important;min-height:24px!important;padding:0!important;border:1px solid rgba(255,255,255,.55)!important;border-radius:6px!important;background:rgba(255,255,255,.14)!important;color:#fff!important;font:700 18px/1 system-ui,sans-serif!important;box-shadow:none!important;cursor:pointer!important}
+.rf-video-minimized{position:absolute;z-index:16;display:flex;align-items:center;gap:6px;max-width:70%;direction:rtl}
+.rf-video-restore{width:auto!important;height:auto!important;min-height:32px;padding:7px 12px!important;border:1px solid rgba(255,255,255,.9)!important;border-radius:999px!important;background:linear-gradient(135deg,#263b68,#162445)!important;color:#fff!important;font:700 12px/1.2 system-ui,sans-serif!important;box-shadow:0 4px 12px rgba(0,0,0,.35)!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rf-video-quick-edit{width:auto!important;height:auto!important;min-height:30px;padding:6px 9px!important;border:1px solid #fff!important;border-radius:8px!important;background:#fff!important;color:#182849!important;font:700 11px/1.2 system-ui,sans-serif!important;box-shadow:0 2px 6px rgba(0,0,0,.25)!important}
+@media(max-width:760px){#rf-toolbar button{padding:7px 10px;font-size:12px}.rf-video-bar{min-height:27px;padding:3px 6px;font-size:11px}.rf-video-edit{min-height:22px;padding:3px 6px!important;font-size:10px!important}}
+@media(prefers-reduced-motion:reduce){.rf-video-window{scroll-behavior:auto}}
 </style>
 <div id="rf-panel"><div id="rf-box">
   <h2 id="rf-heading">إعداد النشاط</h2>
@@ -401,6 +418,7 @@ body:not(.rf-teacher) [data-teacher-only]{display:none!important}
     <option value="listen">استماع</option><option value="read">قراءة وسؤال</option>
     <option value="choice">اختيار من متعدد</option><option value="fill">ملء الفراغات</option>
     <option value="write">كتابة</option><option value="match">توصيل (مبسط)</option>
+    <option value="video">فيديو YouTube</option>
   </select>
   <label>لغة النشاط</label><select id="rf-lang"><option value="ar">العربية</option><option value="en">English</option><option value="fr">Français</option></select>
   <label>عنوان الزر</label><input id="rf-label" placeholder="مثال: اختر الإجابة">
@@ -410,7 +428,8 @@ body:not(.rf-teacher) [data-teacher-only]{display:none!important}
   <div id="rf-choice-fields"><label>الخيارات (كل خيار في سطر، من 2 إلى 4 خيارات)</label><textarea id="rf-options"></textarea><label>رقم الإجابة الصحيحة</label><input id="rf-correct" type="number" min="1" max="4" value="1"><button type="button" class="rf-muted" id="rf-choice-points" style="width:auto;height:auto;padding:8px;font-size:13px">تحديد مواضع أزرار الإجابة</button></div>
   <div id="rf-fill-fields"><label>الإجابات الصحيحة (كل فراغ في سطر؛ تُصحح تلقائياً عند الكتابة)</label><textarea id="rf-blanks"></textarea><small>كل سطر = فراغ واحد. بعد حفظ النشاط اضغط الزر لتحديد مكان كل فراغ.</small><button type="button" class="rf-muted" id="rf-blanks-points" style="width:auto;height:auto;padding:8px;font-size:13px">تحديد مواضع الفراغات على الصفحة</button></div>
   <div id="rf-match-fields"><label>أزواج التوصيل (كل زوج في سطر: كلمة = كلمة)</label><textarea id="rf-pairs"></textarea><small>بعد حفظ النشاط، افتحه مجدداً لتحديد نقطتي كل زوج مباشرة على الصفحة.</small><button type="button" class="rf-muted" id="rf-match-points" style="width:auto;height:auto;padding:8px;font-size:13px">تحديد نقاط التوصيل على الصفحة</button></div>
-    <label>صوت (اختياري)</label><input id="rf-audio" type="file" accept="audio/*">
+  <div id="rf-youtube-fields" style="display:none"><label>رابط فيديو YouTube</label><input id="rf-youtube-url" type="url" inputmode="url" dir="ltr" placeholder="https://www.youtube.com/watch?v=..."><small>الصق رابط YouTube عادي أو رابط youtu.be. ستظهر النافذة بعد الحفظ. اضغط × لإخفائها مع إبقاء زر لإظهارها مجدداً، أو افتح تحرير الرابط ثم اختر حذف لإزالتها نهائياً.</small></div>
+  <div id="rf-audio-fields"><label>صوت (اختياري)</label><input id="rf-audio" type="file" accept="audio/*"></div>
   <div class="rf-actions"><button class="rf-save" id="rf-save">حفظ النشاط</button><button class="rf-cancel" id="rf-cancel">إلغاء</button><button class="rf-delete" id="rf-delete">حذف</button></div>
 </div></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
@@ -420,7 +439,29 @@ body:not(.rf-teacher) [data-teacher-only]{display:none!important}
  let activities=Array.isArray(window.RF_ACTIVITIES)?window.RF_ACTIVITIES:[];
  if(!Array.isArray(window.RF_ACTIVITIES)){try{activities=JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){}}
  let teacher=false, editing=null, placement=null, pointPlacement=null, choicePlacement=null, blankPlacement=null, activeStroke=null, activeMatchId=null, activeMatchDrag=null;
+ const hiddenVideoActivities=new Set();
  const status=t=>$('rf-status').textContent=t;
+ function youtubeEmbedUrl(value){
+   try{
+     let raw=String(value||'').trim();if(!raw)return null;
+     if(!/^https?:\/\//i.test(raw))raw='https://'+raw;
+     const url=new URL(raw),host=url.hostname.toLowerCase().replace(/^www\./,'');
+     let id='';
+     if(host==='youtu.be')id=url.pathname.split('/').filter(Boolean)[0]||'';
+     else if(host==='youtube.com'||host==='m.youtube.com'||host==='youtube-nocookie.com'){
+       if(url.pathname==='/watch')id=url.searchParams.get('v')||'';
+       else {const match=url.pathname.match(/^\/(?:embed|shorts|live)\/([^/?#]+)/);if(match)id=match[1];}
+     }else return null;
+     if(!/^[A-Za-z0-9_-]{11}$/.test(id))return null;
+     return 'https://www.youtube.com/embed/'+id+'?rel=0&playsinline=1';
+   }catch(_){return null;}
+ }
+ const clampPercent=(value,min,max)=>Math.min(max,Math.max(min,value));
+ function initialVideoBox(activity){
+   const centerX=Number.isFinite(+activity.x)?+activity.x:50;
+   const centerY=Number.isFinite(+activity.y)?+activity.y:50;
+   return{x:clampPercent(centerX-45,0,10),y:clampPercent(centerY-20,0,60),width:90,height:40};
+ }
 const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M15.1 2.9a2.2 2.2 0 0 1 3.1 0l3 3a2.2 2.2 0 0 1 0 3.1L12.6 18.8H19v2H7.5L2.9 16.2a2.2 2.2 0 0 1 0-3.1zM6.3 16.9l3.6 3.6 1.9-1.9-3.6-3.6z"/></svg>';
  const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(activities));return true;}catch(e){status('تعذر الحفظ: حجم البيانات كبير.');return false;}};
  function clearAllContent(silent){
@@ -738,23 +779,27 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
      question.addEventListener('pointerdown',event=>{
        if(!event.isPrimary||event.button!==0)return;
        event.preventDefault();event.stopPropagation();question.setPointerCapture(event.pointerId);
-       drag={pointerId:event.pointerId,startX:event.clientX,startY:event.clientY,moved:false,original:{x:activity.x,y:activity.y}};
+       drag={pointerId:event.pointerId,startX:event.clientX,startY:event.clientY,moved:false,original:{x:activity.x,y:activity.y},current:{x:activity.x,y:activity.y},rect:slot.getBoundingClientRect()};
      });
      question.addEventListener('pointermove',event=>{
        if(!drag||drag.pointerId!==event.pointerId)return;
        event.preventDefault();event.stopPropagation();
        if(!drag.moved&&Math.hypot(event.clientX-drag.startX,event.clientY-drag.startY)<3)return;
-       drag.moved=true;question.style.position='fixed';question.style.left=event.clientX+'px';question.style.top=event.clientY+'px';question.style.zIndex='30';
+       drag.moved=true;
+       const dx=(event.clientX-drag.startX)/drag.rect.width*100;
+       const dy=(event.clientY-drag.startY)/drag.rect.height*100;
+       drag.current.x=clampPercent(drag.original.x+dx,0,100);
+       drag.current.y=clampPercent(drag.original.y+dy,0,100);
+       question.style.left=drag.current.x+'%';question.style.top=drag.current.y+'%';question.style.zIndex='30';
      });
      question.addEventListener('pointerup',event=>{
        if(!drag||drag.pointerId!==event.pointerId)return;
        event.preventDefault();event.stopPropagation();
        const current=drag;drag=null;
        if(!current.moved){edit(activity);return;}
-       const rect=slot.getBoundingClientRect();
-       activity.x=Math.max(0,Math.min(100,(event.clientX-rect.left)/rect.width*100));
-       activity.y=Math.max(0,Math.min(100,(event.clientY-rect.top)/rect.height*100));
-       if(!save()){activity.x=current.original.x;activity.y=current.original.y;}
+       if(event.clientX<current.rect.left||event.clientX>current.rect.right||event.clientY<current.rect.top||event.clientY>current.rect.bottom){renderPins();status('أفلت زر السؤال داخل صفحة النشاط.');return;}
+       activity.x=current.current.x;activity.y=current.current.y;
+       if(!save()){activity.x=current.original.x;activity.y=current.original.y;status('تعذّر حفظ موضع زر السؤال.');}
        else status('تم حفظ موضع زر السؤال.');
        renderPins();
      });
@@ -772,23 +817,27 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
        button.addEventListener('pointerdown',event=>{
          if(!event.isPrimary||event.button!==0||choicePlacement?.activity.id===activity.id)return;
          event.preventDefault();event.stopPropagation();button.setPointerCapture(event.pointerId);
-         drag={pointerId:event.pointerId,startX:event.clientX,startY:event.clientY,moved:false,original:{...point}};
+         drag={pointerId:event.pointerId,startX:event.clientX,startY:event.clientY,moved:false,original:{...point},current:{...point},rect:slot.getBoundingClientRect()};
        });
        button.addEventListener('pointermove',event=>{
          if(!drag||drag.pointerId!==event.pointerId)return;
          event.preventDefault();event.stopPropagation();
          if(!drag.moved&&Math.hypot(event.clientX-drag.startX,event.clientY-drag.startY)<3)return;
-         drag.moved=true;button.style.position='fixed';button.style.left=event.clientX+'px';button.style.top=event.clientY+'px';button.style.zIndex='30';
+         drag.moved=true;
+         const dx=(event.clientX-drag.startX)/drag.rect.width;
+         const dy=(event.clientY-drag.startY)/drag.rect.height;
+         drag.current.x=Math.max(0,Math.min(1,drag.original.x+dx));
+         drag.current.y=Math.max(0,Math.min(1,drag.original.y+dy));
+         button.style.left=(drag.current.x*100)+'%';button.style.top=(drag.current.y*100)+'%';button.style.zIndex='30';
        });
        button.addEventListener('pointerup',event=>{
          if(!drag||drag.pointerId!==event.pointerId)return;
          event.preventDefault();event.stopPropagation();
          const current=drag;drag=null;
          if(!current.moved){edit(activity);return;}
-         const rect=slot.getBoundingClientRect();
-         if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom){renderPins();status('أفلت زر الإجابة داخل صفحة النشاط.');return;}
+         if(event.clientX<current.rect.left||event.clientX>current.rect.right||event.clientY<current.rect.top||event.clientY>current.rect.bottom){renderPins();status('أفلت زر الإجابة داخل صفحة النشاط.');return;}
          const next=(activity.choicePoints||[]).map(item=>item&&{...item});
-         next[index]={x:Math.max(0,Math.min(1,(event.clientX-rect.left)/rect.width)),y:Math.max(0,Math.min(1,(event.clientY-rect.top)/rect.height))};
+         next[index]={...current.current};
          const previous=activity.choicePoints;activity.choicePoints=next;
          if(!save()){activity.choicePoints=previous;status('تعذّر حفظ موضع زر الإجابة.');}
          else status('تم حفظ موضع زر الإجابة.');
@@ -996,14 +1045,127 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    }));
    slot.appendChild(overlay);
  }
+ function addYoutubeVideo(slot,activity){
+   const embed=youtubeEmbedUrl(activity.youtubeUrl);
+   const box=activity.videoBox?{...activity.videoBox}:initialVideoBox(activity);
+   if(hiddenVideoActivities.has(activity.id)){
+     const minimized=document.createElement('div');minimized.className='rf-video-minimized';minimized.dataset.activity=activity.id;
+     Object.assign(minimized.style,{left:box.x+'%',top:box.y+'%'});
+     const restore=document.createElement('button');restore.type='button';restore.className='rf-video-restore';restore.textContent='▶ '+(activity.label||'فيديو الدرس');restore.setAttribute('aria-label','إظهار فيديو الدرس');
+     restore.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();hiddenVideoActivities.delete(activity.id);renderPins();status('تم إظهار نافذة الفيديو.');});
+     minimized.appendChild(restore);
+     if(teacher){
+       const quickEdit=document.createElement('button');quickEdit.type='button';quickEdit.className='rf-video-quick-edit';quickEdit.textContent='تحرير';
+       quickEdit.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();edit(activity);});
+       minimized.appendChild(quickEdit);
+     }
+     slot.appendChild(minimized);return;
+   }
+   const windowBox=document.createElement('section');
+   windowBox.className='rf-video-window'+(teacher?' teacher':'');
+   windowBox.dataset.activity=activity.id;
+   Object.assign(windowBox.style,{left:box.x+'%',top:box.y+'%',width:box.width+'%',height:box.height+'%'});
+
+   const bar=document.createElement('div');bar.className='rf-video-bar';
+   const title=document.createElement('span');title.className='rf-video-title';title.textContent=activity.label||'فيديو الدرس';
+   bar.appendChild(title);
+   if(teacher){
+     const editButton=document.createElement('button');editButton.type='button';editButton.className='rf-video-edit';editButton.textContent='تحرير الرابط';
+     editButton.addEventListener('pointerdown',event=>event.stopPropagation());
+     editButton.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();edit(activity);});
+     bar.appendChild(editButton);
+   }
+   const hideButton=document.createElement('button');hideButton.type='button';hideButton.className='rf-video-hide';hideButton.textContent='×';hideButton.title='إخفاء الفيديو';hideButton.setAttribute('aria-label','إخفاء الفيديو');
+   hideButton.addEventListener('pointerdown',event=>event.stopPropagation());
+   hideButton.addEventListener('click',event=>{event.preventDefault();event.stopPropagation();hiddenVideoActivities.add(activity.id);renderPins();status('تم إخفاء الفيديو. اضغط زر الفيديو لإظهاره مرة أخرى.');});
+   bar.appendChild(hideButton);
+   const frame=document.createElement('div');frame.className='rf-video-frame';
+   if(embed){
+     const localFile=window.location.protocol==='file:'||window.location.origin==='null';
+     if(localFile){
+       const warning=document.createElement('div');warning.className='rf-video-missing';
+       warning.textContent='لتشغيل فيديو YouTube مباشرة، افتح كتاب الطالب من رابط موقع HTTPS أو عبر خادم ويب، وليس كملف HTML محلي من الجهاز.';
+       frame.appendChild(warning);
+     }else{
+       const iframe=document.createElement('iframe');
+       iframe.src=embed;iframe.title=activity.label||'YouTube video';
+       iframe.loading='eager';iframe.referrerPolicy='strict-origin-when-cross-origin';iframe.setAttribute('referrerpolicy','strict-origin-when-cross-origin');
+       iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+       iframe.allowFullscreen=true;
+       frame.appendChild(iframe);
+     }
+   }else{
+     const missing=document.createElement('div');missing.className='rf-video-missing';
+     missing.textContent='رابط YouTube غير صالح. افتح إعدادات النشاط وأضف رابطاً صحيحاً.';frame.appendChild(missing);
+   }
+   windowBox.append(bar,frame);
+
+   if(teacher){
+     let drag=null,resizeDrag=null;
+     const start=(event,resizing)=>{
+       if(!teacher||!event.isPrimary||event.button!==0)return;
+       if(!resizing&&event.target.closest('button'))return;
+       event.preventDefault();event.stopPropagation();
+       const handle=event.currentTarget;
+       try{handle.setPointerCapture(event.pointerId);}catch(_){ }
+       const original={...box};
+       const rect=slot.getBoundingClientRect();
+       const state={pointerId:event.pointerId,startX:event.clientX,startY:event.clientY,moved:false,original,current:{...original},rect};
+       if(resizing)resizeDrag=state;else drag=state;
+     };
+     const move=(event,resizing)=>{
+       const state=resizing?resizeDrag:drag;
+       if(!state||state.pointerId!==event.pointerId)return;
+       event.preventDefault();event.stopPropagation();
+       const dx=(event.clientX-state.startX)/state.rect.width*100;
+       const dy=(event.clientY-state.startY)/state.rect.height*100;
+       if(!state.moved&&Math.hypot(dx,dy)<0.25)return;
+       state.moved=true;
+       if(resizing){
+         state.current.width=clampPercent(state.original.width+dx,35,100-state.original.x);
+         state.current.height=clampPercent(state.original.height+dy,22,100-state.original.y);
+       }else{
+         state.current.x=clampPercent(state.original.x+dx,0,100-state.original.width);
+         state.current.y=clampPercent(state.original.y+dy,0,100-state.original.height);
+       }
+       Object.assign(windowBox.style,{left:state.current.x+'%',top:state.current.y+'%',width:state.current.width+'%',height:state.current.height+'%'});
+     };
+     const finish=(event,resizing,cancelled=false)=>{
+       const state=resizing?resizeDrag:drag;
+       if(!state||state.pointerId!==event.pointerId)return;
+       event.preventDefault();event.stopPropagation();
+       if(resizing)resizeDrag=null;else drag=null;
+       if(!state.moved)return;
+       if(cancelled){renderPins();return;}
+       const previous=activity.videoBox?{...activity.videoBox}:initialVideoBox(activity);
+       activity.videoBox={...state.current};
+       if(!save()){
+         activity.videoBox=previous;status('تعذّر حفظ موضع أو حجم نافذة الفيديو.');
+       }else status(resizing?'تم حفظ حجم نافذة الفيديو.':'تم حفظ موضع نافذة الفيديو.');
+       renderPins();
+     };
+     bar.addEventListener('pointerdown',event=>start(event,false));
+     bar.addEventListener('pointermove',event=>move(event,false));
+     bar.addEventListener('pointerup',event=>finish(event,false));
+     bar.addEventListener('pointercancel',event=>finish(event,false,true));
+     const handle=document.createElement('span');handle.className='rf-video-resize';handle.setAttribute('role','button');handle.setAttribute('aria-label','تغيير حجم نافذة الفيديو');
+     handle.addEventListener('pointerdown',event=>start(event,true));
+     handle.addEventListener('pointermove',event=>move(event,true));
+     handle.addEventListener('pointerup',event=>finish(event,true));
+     handle.addEventListener('pointercancel',event=>finish(event,true,true));
+     windowBox.appendChild(handle);
+   }
+   slot.appendChild(windowBox);
+ }
  function renderPins(){
   redrawers.length=0;
-   document.querySelectorAll('.rf-layer,.rf-draw-layer,.rf-match-overlay,.rf-match-prompt,.rf-write-area,.rf-choice-layer,.rf-ex-row,.rf-plain-prompt,.rf-blank-input,.rf-blank-placeholder,.rf-answer-input').forEach(x=>x.remove());
+   document.querySelectorAll('.rf-layer,.rf-draw-layer,.rf-match-overlay,.rf-match-prompt,.rf-write-area,.rf-choice-layer,.rf-ex-row,.rf-plain-prompt,.rf-blank-input,.rf-blank-placeholder,.rf-answer-input,.rf-video-window,.rf-video-minimized').forEach(x=>x.remove());
    visibleSlots().forEach(slot=>{
      let n=pageNum(slot.querySelector('img')); if(!n)return;
      addDrawingLayer(slot,n);
      let layer=document.createElement('div');layer.className='rf-layer';Object.assign(layer.style,{position:'absolute',inset:0,zIndex:11,pointerEvents:'none'});
      activities.filter(a=>a.page===n).forEach(a=>{
+       if(a.type==='video'){addYoutubeVideo(slot,a);return;}
        if(a.type==='write'){addWritingArea(slot,a);return;}
        if(!teacher){
          if(a.type==='choice')addChoiceOverlay(slot,a);
@@ -1165,7 +1327,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    }
    if(!placement)return;
    let slot=e.target.closest('.slot');if(!slot||!slot.querySelector('img'))return;
-   let r=slot.getBoundingClientRect();editing={id:'a'+Date.now(),page:pageNum(slot.querySelector('img')),x:Math.max(0,Math.min(100,(e.clientX-r.left)/r.width*100)),y:Math.max(0,Math.min(100,(e.clientY-r.top)/r.height*100)),type:'choice',lang:'en',label:'',prompt:'',text:'',options:[],correct:0,blanks:[],pairs:[],choicePoints:[],audio:null};
+   let r=slot.getBoundingClientRect();editing={id:'a'+Date.now(),page:pageNum(slot.querySelector('img')),x:Math.max(0,Math.min(100,(e.clientX-r.left)/r.width*100)),y:Math.max(0,Math.min(100,(e.clientY-r.top)/r.height*100)),type:'choice',lang:'en',label:'',prompt:'',text:'',options:[],correct:0,blanks:[],pairs:[],choicePoints:[],youtubeUrl:'',videoBox:null,audio:null};
    placement=false;document.getElementById('stage').classList.remove('placing');fillForm(editing);
  });
  function fillForm(a){
@@ -1174,8 +1336,12 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    refreshSpeechVoiceOptions();$('rf-voice').value=a.voiceURI||'';
    $('rf-options').value=(a.options||[]).join('\n');$('rf-correct').value=(a.correct||0)+1;$('rf-blanks').value=(a.blanks||[]).join('\n');
    $('rf-pairs').value=(a.pairs||[]).map(p=>p.join(' = ')).join('\n');$('rf-audio').value='';
-   ['read','choice','fill','match'].forEach(t=>$('rf-'+t+'-fields').style.display=a.type===t?'block':'none');
-   $('rf-speech-fields').style.display=a.type==='read'||a.type==='listen'?'block':'none';
+   $('rf-youtube-url').value=a.youtubeUrl||'';
+   const isVideo=a.type==='video';
+   $('rf-youtube-fields').style.display=isVideo?'block':'none';
+   ['rf-read-fields','rf-audio-fields'].forEach(id=>$(id).style.display=isVideo?'none':'');
+   ['choice','fill','match'].forEach(t=>$('rf-'+t+'-fields').style.display=!isVideo&&a.type===t?'block':'none');
+   $('rf-speech-fields').style.display=!isVideo&&(a.type==='read'||a.type==='listen')?'block':'none';
    const saved=activities.some(x=>x.id===a.id);
    $('rf-delete').style.display=saved?'inline-block':'none';
    $('rf-choice-points').style.display=saved&&a.type==='choice'?'inline-block':'none';
@@ -1218,6 +1384,8 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
  $('rf-save').onclick=async()=>{
    if(!editing)return;let a=editing;
    const type=$('rf-type').value,options=$('rf-options').value.split('\n').map(x=>x.trim()).filter(Boolean);
+   const youtubeUrl=$('rf-youtube-url').value.trim();
+   if(type==='video'&&!youtubeEmbedUrl(youtubeUrl)){status('أدخل رابط YouTube صحيحاً لفيديو عادي أو رابط youtu.be.');return;}
    if(type==='choice'&&(options.length<2||options.length>4)){status('أدخل من خيارين إلى أربعة خيارات للاختيار من متعدد.');return;}
    const correct=Math.max(0,(+$('rf-correct').value||1)-1);
    if(type==='choice'&&correct>=options.length){status('رقم الإجابة الصحيحة يجب أن يطابق أحد الخيارات.');return;}
@@ -1225,6 +1393,10 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
    if(JSON.stringify(a.pairs||[])!==JSON.stringify(pairs)){a.matchPoints=[];if(matchAnswers[a.id]){delete matchAnswers[a.id];saveMatchAnswers();}}
    const choicesChanged=JSON.stringify(a.options||[])!==JSON.stringify(options)||a.correct!==correct;
    Object.assign(a,{type,lang:$('rf-lang').value,label:$('rf-label').value,prompt:$('rf-prompt').value,text:$('rf-text').value,voiceURI:$('rf-voice').value||'',options,correct,blanks:$('rf-blanks').value.split('\n').map(x=>x.trim()).filter(Boolean),pairs});
+   if(type==='video'){
+     a.youtubeUrl=youtubeUrl;
+     if(!a.videoBox)a.videoBox=initialVideoBox(a);
+   }
    if(type==='choice'&&Array.isArray(a.choicePoints))a.choicePoints=a.choicePoints.slice(0,options.length);
    if(choicesChanged&&choiceAnswers[a.id]){delete choiceAnswers[a.id];saveChoiceAnswers();}
    let f=$('rf-audio').files[0];if(f)a.audio=await new Promise((res,rej)=>{let r=new FileReader();r.onload=()=>res(r.result);r.onerror=rej;r.readAsDataURL(f)});
@@ -1779,7 +1951,7 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
     if (stage.classList.contains("placing")) return;
     if (window.RF_VIEW && window.RF_VIEW.scale > 1.02) return;
     if (stage.classList.contains("drawing") || e.button !== 0 ||
-        e.target.closest("button, input, textarea, select, label, .rf-write-area, .rf-choice-layer, .rf-match-overlay, .rf-match-prompt, .rf-ex-row, .rf-blank-input, .rf-answer-input, .rf-blank-drag, .rf-pin, .rf-match-point, #rf-toolbar, .controls, #scrub")) return;
+        e.target.closest("button, input, textarea, select, label, .rf-write-area, .rf-choice-layer, .rf-match-overlay, .rf-match-prompt, .rf-ex-row, .rf-blank-input, .rf-answer-input, .rf-blank-drag, .rf-pin, .rf-match-point, .rf-video-window, #rf-toolbar, .controls, #scrub")) return;
     const rect = stage.getBoundingClientRect();
     const x = e.clientX - rect.left, y = e.clientY - rect.top;
     const cornerWidth = rect.width * 0.2;
@@ -1997,8 +2169,8 @@ const ERASER_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="curre
   if(window.visualViewport)window.visualViewport.addEventListener('resize',watchKeyboard);
 
   /* ---------- gestures ---------- */
-  const UI='#rf-dock,#rf-close,#rf-teacher-bar,#rf-scrubbar,#rf-closed';
-  const INTERACTIVE='button,input,textarea,select,label,a,.rf-write-area,.rf-choice-layer,.rf-match-overlay,.rf-match-prompt,.rf-ex-row,.rf-pin,.rf-blank-input,.rf-answer-input,.rf-blank-drag,.rf-match-point,.rf-retry';
+  const UI='#rf-dock,#rf-close,#rf-teacher-bar,#rf-scrubbar,#rf-closed,.rf-video-window';
+  const INTERACTIVE='button,input,textarea,select,label,a,.rf-write-area,.rf-choice-layer,.rf-match-overlay,.rf-match-prompt,.rf-ex-row,.rf-pin,.rf-blank-input,.rf-answer-input,.rf-blank-drag,.rf-match-point,.rf-video-window,.rf-retry';
   const ptrs=new Map(); let g=null, suppressClick=false;
   const touchCount=()=>[...ptrs.values()].filter(p=>p.type!=='mouse').length;
   const vrect=()=>viewer.getBoundingClientRect();
